@@ -1,0 +1,14 @@
+.env
+*.sqlite
+*.db
+*.mp4
+*.mov
+*.png
+*.jpg
+*.jpeg
+*.pdf
+service-account-credentials.json
+sheets_credentials*.json
+instagram_session.json
+instagram_cookies.pkl
+token.pickle

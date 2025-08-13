@@ -1,0 +1,41 @@
+services:
+  - name: shanbot-webhook
+    type: web
+    env: python
+    plan: free
+    autoDeploy: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn webhook_main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: MANYCHAT_API_KEY
+        sync: false
+      - key: INSTAGRAM_USERNAME
+        sync: false
+      - key: INSTAGRAM_PASSWORD
+        sync: false
+      - key: TRAINERIZE_USERNAME
+        sync: false
+      - key: TRAINERIZE_PASSWORD
+        sync: false
+      - key: INSTAGRAM_GRAPH_API_TOKEN
+        sync: false
+
+  - name: shanbot-dashboard
+    type: web
+    env: python
+    plan: free
+    autoDeploy: false
+    buildCommand: pip install -r requirements.txt && pip install -r app/dashboard_modules/requirements.txt
+    startCommand: streamlit run app/dashboard_modules/dashboard.py --server.address 0.0.0.0 --server.port $PORT --server.headless true
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: MANYCHAT_API_KEY
+        sync: false
+      - key: GOOGLE_APPLICATION_CREDENTIALS
+        sync: false
+
+
