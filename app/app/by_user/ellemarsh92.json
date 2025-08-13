@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T10:35:27.796499",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T10:35:09.559453",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a selfie taken by a woman, ellemarsh92, in what appears to be a hotel room. She is wearing a brown and white zebra-striped bikini and a white, see-through skirt tied at the side. Sunglasses are perched on top of her head. Behind her is a neatly made bed with white linens and rolled towels. The room is simple, with a light-colored bedside table and a TV mounted on the wall. A window with curtains is visible to the right.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, presumably ellemarsh92, on a boat in front of a lake and mountains. She is wearing a bikini and a hat.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A woman is posing outdoors, wearing a green dress and clear heels. The post caption is \"Throwback that weather plz\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows ellemarsh92 with a young boy who is wearing a medal. They are standing outside, likely at a sports field or school. The caption mentions \"B'ball mum season.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows ellemarsh92 with two other women, all dressed in pink outfits with what appears to be fairy wings. They are posing in front of a pink tinsel backdrop. The caption says \"Know y'all remember this song.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows ellemarsh92 with two other women, all dressed in pink. They are standing in front of a pink tinsel backdrop, possibly at a party or celebration.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Boating/Water Activities: \"Looks like you had a great day on the water! Do you go boating often?\"",
+          "2. Travel/Location: \"That scenery is beautiful! Where was this photo taken?\"",
+          "1. The weather: Given her caption, you could ask her about the current weather where she is and compare it to the weather in the picture.",
+          "2. Fashion: You could ask her about the dress, where she got it, or her general style preferences.",
+          "1. Basketball: Ask about the boy's basketball season, his favorite part, or any memorable games."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That bikini looks amazing on you! ☀️",
+        "profile_bio": {
+          "PERSON NAME": "Elle Marsh (Presumed)",
+          "INTERESTS": [
+            "Travel/Vacations",
+            "Fashion",
+            "Boating/Water Activities",
+            "Basketball (Supporting her son)",
+            "Socializing/Parties"
+          ],
+          "LIFESTYLE": "Appears to enjoy travel and outdoor activities, particularly boating. She is a mother, actively involved in her son's basketball activities. She also enjoys socializing with friends and dressing up for events.",
+          "CONVERSATION STARTERS": [
+            "What's the weather like where you are right now? I saw your throwback post about wanting better weather!",
+            "Your boating photo looked amazing! Where was that taken, and do you go boating often?",
+            "That green dress in your throwback post is gorgeous! Where did you get it?",
+            "How's B'ball mum season going? What's your son's favorite part about playing?",
+            "That pink party looked like so much fun! What was the occasion?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Social",
+            "Active",
+            "Stylish",
+            "Supportive (of her son)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Boating/Water Activities: \"Looks like you had a great day on the water! Do you go boating often?\"",
+        "2. Travel/Location: \"That scenery is beautiful! Where was this photo taken?\"",
+        "1. The weather: Given her caption, you could ask her about the current weather where she is and compare it to the weather in the picture.",
+        "2. Fashion: You could ask her about the dress, where she got it, or her general style preferences.",
+        "1. Basketball: Ask about the boy's basketball season, his favorite part, or any memorable games."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T16:09:50.119537",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T16:09:32.015884",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of fresh produce, likely from a street stall. We can see bunches of leafy greens, including bok choy tied with purple bands, and dark green kale. The produce is arranged in a black crate or container. There is text overlaid on the video promoting the organic street stall.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A man is holding a large watermelon in front of him, smiling at the camera. He is wearing a wide-brimmed hat and sunglasses. The caption mentions that the watermelon is fresh from the paddock, heirloom seed, and spray/chemical free.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A man is holding a large zucchini in his garden. He is wearing a t-shirt that says \"Aussie Veggie Garden.\" The garden appears to be thriving with various plants.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a hand holding a bouquet of colorful dahlias inside a car. The caption mentions sharing the flowers with neighbors.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A woman in a robe is holding a baby in a garden setting. A dog is standing on its hind legs next to her. There are several potted plants visible.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a vibrant purple dahlia flower in a garden setting.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Heirloom seeds and gardening practices: Ask about the specific heirloom watermelon variety he's growing and his preferred methods for pest control without sprays/chemicals.",
+          "2. Local market garden and shop: Inquire about the other items he sells at his Queen Street Lorn shop and how often he restocks.",
+          "1.  Zucchini Growing Tips: Ask about specific techniques he uses to grow such large zucchinis, like watering, fertilizing, or pest control.",
+          "2.  Seed Saving: The caption mentions saving seeds. Inquire about his preferred methods for saving seeds from his vegetables and if he has any tips for beginners.",
+          "1.  Dahlia varieties: Inquire about the specific types of dahlias grown in their garden and their experiences with them."
+        ],
+        "profile_bio": {
+          "PERSON_NAME": "Unknown",
+          "INTERESTS": [
+            "Organic Gardening",
+            "Heirloom Seeds",
+            "Sustainable Living",
+            "Dahlias and Flower Gardening",
+            "Sharing Produce and Flowers with the Community"
+          ],
+          "LIFESTYLE": "Likely a small-scale organic farmer or market gardener with a focus on heirloom varieties. They operate a street stall and possibly a shop in Queen Street Lorn. They value community engagement and sharing their garden's bounty. Family-oriented, as evidenced by the photo with the baby and dog.",
+          "CONVERSATION_STARTERS": [
+            "What heirloom watermelon variety are you growing, and what are your preferred methods for pest control without sprays/chemicals?",
+            "What other items do you sell at your Queen Street Lorn shop, and how often do you restock?",
+            "What specific techniques do you use to grow such large zucchinis, like watering, fertilizing, or pest control?",
+            "What are your preferred methods for saving seeds from your vegetables, and do you have any tips for beginners?",
+            "What specific types of dahlias do you grow in your garden, and what has been your experience with them?"
+          ],
+          "PERSONALITY_TRAITS": [
+            "Generous (sharing flowers with neighbors)",
+            "Passionate (about organic gardening and heirloom seeds)",
+            "Community-minded (selling at a street stall and shop, sharing produce)",
+            "Hardworking (maintaining a thriving garden and business)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Heirloom seeds and gardening practices: Ask about the specific heirloom watermelon variety he's growing and his preferred methods for pest control without sprays/chemicals.",
+        "2. Local market garden and shop: Inquire about the other items he sells at his Queen Street Lorn shop and how often he restocks.",
+        "1.  Zucchini Growing Tips: Ask about specific techniques he uses to grow such large zucchinis, like watering, fertilizing, or pest control.",
+        "2.  Seed Saving: The caption mentions saving seeds. Inquire about his preferred methods for saving seeds from his vegetables and if he has any tips for beginners.",
+        "1.  Dahlia varieties: Inquire about the specific types of dahlias grown in their garden and their experiences with them."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

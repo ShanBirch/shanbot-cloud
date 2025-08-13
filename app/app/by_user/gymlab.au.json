@@ -1,0 +1,85 @@
+{
+  "metrics": {
+    "total_messages": 4,
+    "user_messages": 2,
+    "ai_messages": 2,
+    "ai_questions": 2,
+    "ai_statements": 0,
+    "user_responses_to_ai_question": 1,
+    "ai_question_turns_without_user_response": 0,
+    "last_message_was_ai_question": true,
+    "question_response_rate": 0.0,
+    "conversation_start_time": "2025-04-11T18:55:22.248796",
+    "conversation_end_time": null,
+    "conversation_duration_seconds": 4058.084873,
+    "achieved_message_milestones": [],
+    "fitness_topic_initiator": "user",
+    "offer_mentioned_in_conv": false,
+    "link_sent_in_conv": false,
+    "coaching_inquiry_count": 0,
+    "signup_recorded": false,
+    "vegan_topic_mentioned": false,
+    "weight_loss_mentioned": false,
+    "muscle_gain_mentioned": false,
+    "responder_category": "Low Responder",
+    "conversation_history": [
+      {
+        "timestamp": "2025-04-11T08:55:22.248796+00:00",
+        "type": "user",
+        "text": "Yes because it\u2019s natural with no harsh chemicals plus it evaporates quickly so the contact time is minimal. It\u2019s especially popular for non washable gear like boxing gloves pads shoes and gym bags\nLeaving them sanitised and deodorised with a fresh eucalyptus scent. If you would like some samples shoot us your best postal address."
+      },
+      {
+        "timestamp": "2025-04-11T08:55:22.293195+00:00",
+        "type": "ai",
+        "text": "Ah right, natural eucalyptus sounds much better! Especially good for things like boxing gloves hey, they definitely need it sometimes haha. That's awesome you offer samples! Does it leave any residue on things like benches or mats?"
+      },
+      {
+        "timestamp": "2025-04-11T10:03:10.764904+00:00",
+        "type": "user",
+        "text": "Yes because it\u2019s natural with no harsh chemicals plus it evaporates quickly so the contact time is minimal. It\u2019s especially popular for non washable gear like boxing gloves pads shoes and gym bags\nLeaving them sanitised and deodorised with a fresh eucalyptus scent. If you would like some samples shoot us your best postal address. + Shannon: Ah right, natural eucalyptus sounds much better! Especially good for things like boxing gloves hey, they definitely need it sometimes haha.  That's awesome you offer samples! Does it leave any residue on things like benches or mats? Lead : No dries with no residue"
+      },
+      {
+        "timestamp": "2025-04-11T10:03:10.830977+00:00",
+        "type": "ai",
+        "text": "Okay cool, good to know! Must make cleaning between classes way quicker hey?"
+      }
+    ],
+    "post_analysis": null,
+    "meal_plan_offered": false,
+    "meal_plan_accepted": false,
+    "meal_plan_type": null,
+    "meal_plan_goal": null,
+    "meal_plan_customizations": [],
+    "meal_plan_feedback": null,
+    "ig_username": "gymlab.au",
+    "first_message_timestamp": "2025-04-11T08:55:22.248796+00:00",
+    "last_message_timestamp": "2025-04-11T10:03:10.830977+00:00",
+    "conversation_duration_str": "1h 7m",
+    "conversation_count": 1,
+    "last_seen_timestamp": "2025-04-11T10:03:10.830977+00:00"
+  },
+  "profile_bio": {},
+  "conversation_topics": [],
+  "conversation_history": [
+    {
+      "timestamp": "2025-04-11T08:55:22.248796+00:00",
+      "type": "user",
+      "text": "Yes because it\u2019s natural with no harsh chemicals plus it evaporates quickly so the contact time is minimal. It\u2019s especially popular for non washable gear like boxing gloves pads shoes and gym bags\nLeaving them sanitised and deodorised with a fresh eucalyptus scent. If you would like some samples shoot us your best postal address."
+    },
+    {
+      "timestamp": "2025-04-11T08:55:22.293195+00:00",
+      "type": "ai",
+      "text": "Ah right, natural eucalyptus sounds much better! Especially good for things like boxing gloves hey, they definitely need it sometimes haha. That's awesome you offer samples! Does it leave any residue on things like benches or mats?"
+    },
+    {
+      "timestamp": "2025-04-11T10:03:10.764904+00:00",
+      "type": "user",
+      "text": "Yes because it\u2019s natural with no harsh chemicals plus it evaporates quickly so the contact time is minimal. It\u2019s especially popular for non washable gear like boxing gloves pads shoes and gym bags\nLeaving them sanitised and deodorised with a fresh eucalyptus scent. If you would like some samples shoot us your best postal address. + Shannon: Ah right, natural eucalyptus sounds much better! Especially good for things like boxing gloves hey, they definitely need it sometimes haha.  That's awesome you offer samples! Does it leave any residue on things like benches or mats? Lead : No dries with no residue"
+    },
+    {
+      "timestamp": "2025-04-11T10:03:10.830977+00:00",
+      "type": "ai",
+      "text": "Okay cool, good to know! Must make cleaning between classes way quicker hey?"
+    }
+  ]
+}

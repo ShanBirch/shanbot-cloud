@@ -1,0 +1,107 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T22:09:57.392450",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 4,
+        "timestamp": "2025-04-23T22:09:43.939453",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a natural straw rabbit nest from rabbitsupplystore. The nest is made of woven straw and has a small entrance. To the left of the nest is a wooden ramp with dowel rungs, and below is a circular scratching pad. The entire setup is placed on artificial turf.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two rabbits on a straw mat inside a blue wire cage. There are also two additional straw mats shown below. The post is from rabbitsupplystore promoting the straw mat as a way to entertain rabbits.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an advertisement for rabbit harnesses from rabbitsupplystore. It features several rabbits, a hamster, and different styles of harnesses. The harnesses are designed to be used with a leash for walking rabbits.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a grey rabbit surrounded by four different types of woven balls, presumably toys for rabbits. The Instagram post promotes these \"boredom busters\" made from natural materials.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Rabbit care and enrichment: You could ask about other ways they keep their rabbits entertained or what challenges they face in providing enrichment.",
+          "2. Rabbit breeds: You could ask about the specific breed of rabbit they own, or their experiences with different breeds.",
+          "1.  Rabbit breeds and care: The image features several different breeds of rabbits. You could ask the person about their own rabbit's breed and discuss the specific care requirements for that breed.",
+          "2.  Outdoor activities with rabbits: The post mentions walking rabbits. You could ask the person if they take their rabbit outside and what their experiences have been. You could also discuss the benefits and challenges of walking rabbits.",
+          "1.  **Rabbit Breeds/Care:** Given the rabbit in the image, a conversation could start about different rabbit breeds, their specific needs, and general rabbit care tips."
+        ],
+        "generated_comment": "Hey! Just stalked your profile and saw your latest post. That straw rabbit nest looked so cozy! 🐇",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (rabbitsupplystore is a business name)",
+          "INTERESTS": [
+            "Rabbit care and enrichment",
+            "Rabbit breeds and their specific needs",
+            "Rabbit toys and boredom busters",
+            "Rabbit health and well-being",
+            "Outdoor activities with rabbits (e.g., walking with harnesses)"
+          ],
+          "LIFESTYLE": "Likely a business owner or employee involved in the sale and promotion of rabbit supplies. Their lifestyle likely involves interacting with rabbits regularly, creating content for social media, and staying up-to-date on rabbit care best practices.",
+          "CONVERSATION STARTERS": [
+            "What are some of the biggest challenges you face in providing enrichment for rabbits?",
+            "What are your favorite types of toys or activities to keep rabbits entertained?",
+            "Do you have any experience with different rabbit breeds? What are some of the unique care requirements you've encountered?",
+            "Have you had success walking rabbits with harnesses? What are some tips for safely introducing a rabbit to outdoor walks?",
+            "What are some common misconceptions about rabbit care that you often encounter?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate about rabbit welfare",
+            "Knowledgeable about rabbit care",
+            "Creative in finding solutions for rabbit enrichment",
+            "Dedicated to providing quality products for rabbits"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Rabbit care and enrichment: You could ask about other ways they keep their rabbits entertained or what challenges they face in providing enrichment.",
+        "2. Rabbit breeds: You could ask about the specific breed of rabbit they own, or their experiences with different breeds.",
+        "1.  Rabbit breeds and care: The image features several different breeds of rabbits. You could ask the person about their own rabbit's breed and discuss the specific care requirements for that breed.",
+        "2.  Outdoor activities with rabbits: The post mentions walking rabbits. You could ask the person if they take their rabbit outside and what their experiences have been. You could also discuss the benefits and challenges of walking rabbits.",
+        "1.  **Rabbit Breeds/Care:** Given the rabbit in the image, a conversation could start about different rabbit breeds, their specific needs, and general rabbit care tips."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

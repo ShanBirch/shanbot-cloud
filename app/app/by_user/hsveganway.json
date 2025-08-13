@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T13:28:15.634129",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T13:27:54.991299",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows two white bowls filled with Tangyuan, a Chinese dessert made of glutinous rice balls in a sweet soup. A white spoon is lifting one of the rice balls out of one of the bowls, showcasing its texture and color. The bowls are placed on a wooden surface, adding a natural and warm feel to the image.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two jars of homemade vegan Nutella surrounded by hazelnuts. A wooden spoon is shown with the Nutella dripping off of it into one of the jars. The post advertises a healthy, sugar-free version of Nutella made with hazelnuts, cocoa, agave, and olive oil.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a bowl of dairy-free chickpea and vegetable soup. The soup is garnished with parsley and served in a decorative bowl.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of several Asian Peanut Pumpkin Pies, a traditional dessert common in Asia. The pies are golden-yellow and topped with black sesame seeds. The post encourages viewers to check out the recipe on the creator's YouTube channel.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows three bowls of colorful hummus (green, yellow, and pink/beetroot) arranged on a wooden surface, garnished with chickpeas, herbs, and oil. The post is by hs.veganway and promotes a recipe for \"3 Magic Creamy Hummus.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of vegan cinnamon rolls (Kanelbullar) topped with what appears to be chopped nuts. The caption mentions the recipe is vegan, without butter and uses eggless dough, and directs viewers to a YouTube channel for the full recipe.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Vegan baking/cooking:** Given the focus on vegan Nutella, discussing other vegan recipes or baking tips could be a good conversation starter.",
+          "2.  **Sugar-free alternatives:** The post highlights a sugar-free version of a popular treat. Asking about other sugar-free alternatives they enjoy or their experiences with sugar substitutes could be a relevant and engaging topic.",
+          "1. Vegan cooking and recipe development: \"I noticed your recipe uses minimal oil and seasoning. What are some of your favorite ways to enhance flavor in vegan dishes without relying on those ingredients?\"",
+          "2. YouTube channel content: \"I saw you mentioned a YouTube channel with the full recipe. What other types of vegan recipes do you feature on your channel?\"",
+          "1. Vegan baking and recipe development: \"I'm curious about your process for developing vegan recipes. What are some of the biggest challenges you face, and how do you overcome them?\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown (hs.veganway)",
+          "INTERESTS": [
+            "Vegan Cooking & Baking",
+            "Asian-Inspired Vegan Cuisine",
+            "Healthy & Sugar-Free Alternatives",
+            "Recipe Development & Sharing",
+            "Creating Visually Appealing Food Content"
+          ],
+          "LIFESTYLE": "Likely a home cook or food blogger/vlogger focused on creating and sharing vegan recipes, particularly those with Asian influences. They seem to prioritize healthy alternatives and enjoy creating visually appealing food content for social media and YouTube.",
+          "CONVERSATION STARTERS": [
+            "I love the look of your vegan Nutella! What other sugar-free alternatives do you enjoy making?",
+            "Your Asian Peanut Pumpkin Pies look amazing! What inspired you to create that recipe?",
+            "I noticed you have a YouTube channel. What other types of vegan recipes do you feature there?",
+            "Your hummus looks so vibrant! What's your secret to getting such creamy textures?",
+            "I'm curious about your process for developing vegan recipes. What are some of the biggest challenges you face, and how do you overcome them?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative: Demonstrated through unique recipes and visually appealing food presentation.",
+            "Health-Conscious: Focus on vegan and sugar-free alternatives suggests a concern for healthy eating.",
+            "Passionate: Dedication to creating and sharing vegan recipes indicates a strong interest in the topic.",
+            "Detail-Oriented: The careful garnishing and presentation of the food suggest attention to detail."
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Vegan baking/cooking:** Given the focus on vegan Nutella, discussing other vegan recipes or baking tips could be a good conversation starter.",
+        "2.  **Sugar-free alternatives:** The post highlights a sugar-free version of a popular treat. Asking about other sugar-free alternatives they enjoy or their experiences with sugar substitutes could be a relevant and engaging topic.",
+        "1. Vegan cooking and recipe development: \"I noticed your recipe uses minimal oil and seasoning. What are some of your favorite ways to enhance flavor in vegan dishes without relying on those ingredients?\"",
+        "2. YouTube channel content: \"I saw you mentioned a YouTube channel with the full recipe. What other types of vegan recipes do you feature on your channel?\"",
+        "1. Vegan baking and recipe development: \"I'm curious about your process for developing vegan recipes. What are some of the biggest challenges you face, and how do you overcome them?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T08:09:48.547728",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T08:09:30.056195",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a professionally shot photo of a newlywed couple, sharnaalee and tomsimak, standing close together on what appears to be a bridge or walkway with a cityscape in the background. The sun is setting, casting a warm glow on the scene. Sharnaalee is wearing a white, strapless gown, and tomsimak is wearing a white suit with a black tie. He is holding a white bouquet. The caption says \"One month and still in the honeymoon phase\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of wedding details. There are white roses, pearl jewelry, a wedding ring, and white shoes with pearl embellishments.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, presumably sharnaalee, in a wedding dress holding a bouquet of white flowers. The caption says \"Happiness is being married to your best friend.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a couple, presumably tomsimak and sharnaalee, standing on a balcony with a view of Coolum Beach in Queensland. They are holding a fluffy cat. The caption mentions that they have moved into a new home in Queensland.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows sharnaalee and a man (presumably @mrshaunusmaximus) celebrating her 40th birthday. There are balloons and a \"40\" sign in the background. She is holding a glass of champagne.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman relaxing in a hammock over the ocean in the Maldives, holding a glass of champagne. The caption mentions \"Paradise with my forever travel partner\" and \"2024 will be a hard year to top.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Wedding Planning: \"I saw your post about your wedding details. Are you in the midst of planning your wedding? I'd love to hear about your vision for the big day!\"",
+          "2. Fashion/Shoes: \"Those shoes are gorgeous! Where did you find them? I'm always looking for unique footwear.\"",
+          "1. Wedding planning/experiences: You could ask about her wedding, such as her favorite part of the day, or if she has any advice for others planning a wedding.",
+          "2. Marriage/Relationships: You could comment on the sentiment of her caption and ask about her relationship with her husband.",
+          "1.  **The new home:** Ask about their new home in Coolum Beach. For example, \"What made you choose Coolum Beach?\" or \"How are you enjoying your new home so far?\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Sharnaalee (married to Tomsimak)",
+          "INTERESTS": [
+            "Travel (especially to tropical destinations like the Maldives)",
+            "Marriage and Relationships",
+            "Fashion (particularly wedding attire and shoes)",
+            "Home Decor/Lifestyle (related to their new home in Coolum Beach)",
+            "Celebrations and Special Occasions (e.g., birthdays, anniversaries)"
+          ],
+          "LIFESTYLE": "Recently married, enjoys traveling with her husband, and has recently moved to a new home in Coolum Beach, Queensland. Celebrated her 40th birthday. Appears to enjoy a comfortable and celebratory lifestyle, often including champagne and beautiful scenery.",
+          "CONVERSATION STARTERS": [
+            "Congratulations on your recent wedding! What was your favorite moment from the big day?",
+            "Your new home in Coolum Beach looks amazing! What made you choose that location?",
+            "I loved your wedding shoes! Where did you find them?",
+            "Your trip to the Maldives looked incredible! What was the highlight of your vacation?",
+            "Happy belated 40th birthday! Do you have any exciting plans for this next chapter?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Romantic",
+            "Adventurous",
+            "Celebratory",
+            "Appreciative (expresses gratitude for her husband and experiences)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Wedding Planning: \"I saw your post about your wedding details. Are you in the midst of planning your wedding? I'd love to hear about your vision for the big day!\"",
+        "2. Fashion/Shoes: \"Those shoes are gorgeous! Where did you find them? I'm always looking for unique footwear.\"",
+        "1. Wedding planning/experiences: You could ask about her wedding, such as her favorite part of the day, or if she has any advice for others planning a wedding.",
+        "2. Marriage/Relationships: You could comment on the sentiment of her caption and ask about her relationship with her husband.",
+        "1.  **The new home:** Ask about their new home in Coolum Beach. For example, \"What made you choose Coolum Beach?\" or \"How are you enjoying your new home so far?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

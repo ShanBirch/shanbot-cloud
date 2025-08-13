@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T08:02:50.039140",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T08:02:28.837389",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a selfie of two people, likely a couple, standing in front of a HOTWORX studio. The man is wearing a black tank top with a NASA logo and has a salt-and-pepper beard. The woman is wearing a black tank top and has short hair. Both are smiling broadly. The HOTWORX logo is visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of sausages on a wooden cutting board. The caption mentions it's the poster's first attempt at making gumbo for New Year's Eve, involving the kids.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of a woman wearing a hooded sweatshirt and a pink baseball cap, standing in front of a tree with red berries. The caption says \"Moving more is the goal! #loveonyourselftoday\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of a woman in a car, wearing sunglasses and a purple t-shirt. The caption says \"Weekend vibes & getting it in.\" The hashtags include #10000stepsaday, #movemore, #consistencyiskey, and #underconstruction.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of a woman wearing a pink hat, sunglasses, and athletic wear, taken outdoors near a park or walking trail with a pond and greenery in the background. The post mentions \"making me a priority is #goals!\" and includes hashtags #loveonyourselftoday, #10000stepsaday, and #movemore.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of a woman wearing a black hoodie with the words \"CUT DIFFERENT\" on it. She is outside on a sunny day, possibly walking on a path. The background shows grass, trees, and a blue sky. The post is captioned \"Make time! We only get one body to take care of! #loveonyourselftoday.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Gumbo recipes: Ask about the specific recipe used for the gumbo or share a favorite recipe.",
+          "2. Cooking with kids: Inquire about the experience of cooking with the kids, asking for tips or funny anecdotes.",
+          "1.  **Fitness/Exercise:** Since the caption mentions \"Moving more is the goal,\" you could ask about her fitness routine or what activities she enjoys to stay active.",
+          "2.  **Location/Nature:** She's in Beulah, Florida, and there's a tree with berries in the background. You could ask about the local parks or nature spots she likes to visit.",
+          "1.  Fitness/Wellness: Given the hashtags about steps and movement, you could ask about their fitness routine or goals. \"I saw your hashtag about 10,000 steps a day. What's your favorite way to stay active?\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Fitness and Wellness (especially walking/step goals)",
+            "Cooking (specifically gumbo and cooking with family)",
+            "Spending time outdoors/Nature",
+            "HOTWORX (likely a member)",
+            "Self-Care and Prioritization"
+          ],
+          "LIFESTYLE": "Appears to be a health-conscious individual focused on fitness and family. Enjoys outdoor activities and prioritizes self-care. Likely married or in a long-term relationship. Seems to live in or near Beulah, Florida.",
+          "CONVERSATION STARTERS": [
+            "I saw your gumbo post! What recipe did you use? I'm always looking for new ones.",
+            "Cooking with kids can be chaotic but fun! Any funny stories from your New Year's Eve gumbo adventure?",
+            "I noticed you're aiming for 10,000 steps a day. What's your favorite way to stay active and reach that goal?",
+            "That tree with the red berries in your photo is beautiful! Do you have a favorite park or nature spot in Beulah?",
+            "I see you're a HOTWORX member! What do you enjoy most about it?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Positive and Optimistic (smiling in photos, encouraging captions)",
+            "Motivated and Goal-Oriented (fitness goals, 'under construction' hashtag)",
+            "Family-Oriented (cooking with kids)",
+            "Self-Aware and Focused on Self-Improvement ('loveonyourselftoday' theme, making herself a priority)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Gumbo recipes: Ask about the specific recipe used for the gumbo or share a favorite recipe.",
+        "2. Cooking with kids: Inquire about the experience of cooking with the kids, asking for tips or funny anecdotes.",
+        "1.  **Fitness/Exercise:** Since the caption mentions \"Moving more is the goal,\" you could ask about her fitness routine or what activities she enjoys to stay active.",
+        "2.  **Location/Nature:** She's in Beulah, Florida, and there's a tree with berries in the background. You could ask about the local parks or nature spots she likes to visit.",
+        "1.  Fitness/Wellness: Given the hashtags about steps and movement, you could ask about their fitness routine or goals. \"I saw your hashtag about 10,000 steps a day. What's your favorite way to stay active?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

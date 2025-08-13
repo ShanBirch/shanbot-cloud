@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T22:12:07.230477",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T22:11:43.558034",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by @vegancooking2020 is a video showing the first step in making vegan linguine carbonara. The video focuses on a speckled green saucepan on a gas stovetop. Inside the pan are strips of plant-based bacon pieces. Text overlays the video, instructing viewers to cook the plant-based bacon pieces in a saucepan with some oil for 5 minutes until golden and crispy, then add some garlic. In the background, there's a glimpse of a kitchen counter with Dolce Gusto coffee pods.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows someone making a strawberry smoothie in a blender. The blender contains strawberries, bananas, and possibly other fruits. The caption mentions it's a vegan smoothie.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two mason jars filled with a bright yellow smoothie. The text overlay indicates the smoothie contains mango, pineapple, orange, and ice cubes. The caption confirms it's a vegan smoothie recipe.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a tropical smoothie in a mason jar with a bamboo straw. The smoothie appears to be made with pineapple, orange, passion fruit, and mango. The background includes a table with a leafy pattern.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of pasta shells with peas and plant-based bacon. The caption mentions it's a veganized version of a Jamie Oliver recipe.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by @vegancooking2020 featuring a close-up shot of a vegan Asian-style risotto. The dish appears to be made with rice and various green vegetables like pak choi, spring onions, and tenderstem broccoli.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan smoothie recipes: Ask about other favorite vegan smoothie recipes or ingredients they like to use.",
+          "2. Blender recommendations: Inquire about the type of blender they are using and if they would recommend it for making smoothies.",
+          "1.  **Vegan cooking/recipes:** Since the account name is \"vegancooking2020\" and the post features a vegan smoothie, a good conversation starter could be asking about other favorite vegan recipes or ingredients.",
+          "2.  **Smoothie variations/tropical fruits:** Inquire about other fruit combinations that work well in smoothies or ask about the best way to source fresh tropical fruits for the recipe.",
+          "2. Sustainable living: Comment on the use of the bamboo straw and inquire about other sustainable practices they incorporate into their cooking or lifestyle."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The vegan bacon looked like it crisped up really well! 🥓",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Cooking",
+            "Vegan Smoothies",
+            "Plant-Based Bacon Alternatives",
+            "Adapting Traditional Recipes to Vegan",
+            "Tropical Fruits"
+          ],
+          "LIFESTYLE": "Likely a home cook passionate about creating and sharing vegan recipes. They seem to enjoy experimenting with different flavors and ingredients, particularly in smoothies and pasta dishes. They may also be interested in sustainable living practices.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite vegan smoothie recipes or ingredients you like to use?",
+            "Do you have any blender recommendations for making smoothies?",
+            "What are some of your other favorite vegan recipes or ingredients?",
+            "What other fruit combinations work well in smoothies, and how do you source fresh tropical fruits?",
+            "I noticed the bamboo straw in your smoothie post. What other sustainable practices do you incorporate into your cooking or lifestyle?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Passionate",
+            "Health-Conscious",
+            "Environmentally Aware"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan smoothie recipes: Ask about other favorite vegan smoothie recipes or ingredients they like to use.",
+        "2. Blender recommendations: Inquire about the type of blender they are using and if they would recommend it for making smoothies.",
+        "1.  **Vegan cooking/recipes:** Since the account name is \"vegancooking2020\" and the post features a vegan smoothie, a good conversation starter could be asking about other favorite vegan recipes or ingredients.",
+        "2.  **Smoothie variations/tropical fruits:** Inquire about other fruit combinations that work well in smoothies or ask about the best way to source fresh tropical fruits for the recipe.",
+        "2. Sustainable living: Comment on the use of the bamboo straw and inquire about other sustainable practices they incorporate into their cooking or lifestyle."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

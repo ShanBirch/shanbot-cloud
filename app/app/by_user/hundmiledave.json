@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T17:05:43.348734",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T17:05:26.110220",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by hundmiledave. The post features a digital wallet interface displaying a cash balance of $54,678.56. Buttons for \"Add Cash\" and \"Cash Out\" are visible, along with blurred-out routing and account information. The caption expresses excitement about a bitcoin investment that yielded a $54k profit in 3 hours.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man in a gym setting, kneeling on a blue mat and holding a weight plate. He is wearing athletic clothing and appears to be performing an exercise. The hashtags include #runner, #fitness, #nrc, #nike, #workhard, and #roadtohalfmarathon.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man pulling a weighted sled in a gym. The post includes hashtags related to half marathon training, resistance training, and strength training.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (hundmiledave) posing with two women dressed in showgirl attire on the Las Vegas Strip.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A man is sitting on a couch in what appears to be a hotel room in Las Vegas, with a view of the Eiffel Tower replica. He is wearing athletic attire, including a hoodie, shorts, a red cap, and Nike Air Jordan sneakers.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows hundmiledave with two other people. They are standing outside what appears to be a Hilton Grand Vacations Club. The caption includes hashtags like #runner, #music, #network, #worldwide, #goodvibes, #talent, #skill, #coolshit, #roadtosuccess, and #nike.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Running/Half Marathon Training:** Given the hashtag #roadtohalfmarathon, you could ask about his training plan, goals for the half marathon, or any races he has participated in.",
+          "2.  **Fitness/Workout Routines:** You could inquire about his workout routine, the specific exercise he's performing in the image, or ask for fitness tips.",
+          "1. Half Marathon Training: \"I saw your post about half marathon training. Are you following a specific program, or do you create your own workouts?\"",
+          "2. Strength Training: \"That sled pull looks intense! What other strength training exercises do you incorporate into your running routine?\"",
+          "1.  **Las Vegas:** \"Looks like you had a fun night in Vegas! What are some of your favorite things to do there?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That's amazing you made that much profit in such a short amount of time! 🚀",
+        "profile_bio": {
+          "PERSON NAME": "Dave (hundmiledave)",
+          "INTERESTS": [
+            "Running/Half Marathon Training",
+            "Fitness/Strength Training",
+            "Bitcoin/Investing",
+            "Travel (Las Vegas)",
+            "Music/Networking"
+          ],
+          "LIFESTYLE": "Appears to be a fitness enthusiast actively training for a half marathon. He also seems to be involved in cryptocurrency investing, potentially successfully. He enjoys traveling, particularly to Las Vegas, and networking with people in the music industry or other creative fields. He seems to enjoy a lifestyle that balances fitness, financial pursuits, and social experiences.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about half marathon training. Are you following a specific program, or do you create your own workouts?",
+            "That sled pull looks intense! What other strength training exercises do you incorporate into your running routine?",
+            "Looks like you had a fun night in Vegas! What are some of your favorite things to do there?",
+            "That's an impressive return on your Bitcoin investment! What's your strategy for cryptocurrency trading?",
+            "I noticed you're into music and networking. What kind of music are you interested in, and what kind of networking events do you attend?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven (evident from his fitness goals and financial pursuits)",
+            "Social (enjoys networking and spending time with others)",
+            "Ambitious (pursuing both fitness and financial success)",
+            "Adventurous (willing to invest in cryptocurrency and travel to Las Vegas)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Running/Half Marathon Training:** Given the hashtag #roadtohalfmarathon, you could ask about his training plan, goals for the half marathon, or any races he has participated in.",
+        "2.  **Fitness/Workout Routines:** You could inquire about his workout routine, the specific exercise he's performing in the image, or ask for fitness tips.",
+        "1. Half Marathon Training: \"I saw your post about half marathon training. Are you following a specific program, or do you create your own workouts?\"",
+        "2. Strength Training: \"That sled pull looks intense! What other strength training exercises do you incorporate into your running routine?\"",
+        "1.  **Las Vegas:** \"Looks like you had a fun night in Vegas! What are some of your favorite things to do there?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

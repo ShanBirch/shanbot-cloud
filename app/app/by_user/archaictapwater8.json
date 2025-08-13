@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T20:38:39.229318",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T20:38:21.093825",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by archaictapwater8 is a video of him speaking directly to the camera. He is standing outdoors, with greenery visible in the background. Above his head, the words \"MY STORY\" are displayed in neon blue lettering. He is wearing a white short-sleeved shirt with black and white patterned straps, jeans, and glasses. He has long dark hair and a beard. The post includes a lengthy caption about his journey and purpose related to health.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a box of microgreens, including some that are vibrant pink. The post is an informational tidbit about the nutritional benefits of microgreens.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two men standing in front of an \"Anchor Jiu Jitsu Club\" sign. One man is holding a baby. The caption indicates that one of the men has opened his own Jiu Jitsu gym.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a video post about washing pesticides off food, specifically chickpeas, using 11.5 alkaline water. The poster emphasizes using \"ZERO CHEMICALS\" and encourages viewers to comment if they want to know more about the alkaline water.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (archaictapwater8) boxing a heavy bag in what appears to be a gym. There are stationary bikes in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by user \"archaictapwater8\". The post is a video where the user suggests replacing weekend drinking with water and meditation.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Gardening/Growing: Ask about their experience growing microgreens, what types they enjoy growing, or if they have any tips for beginners.",
+          "2.  Nutrition/Healthy Eating: Inquire about how they incorporate microgreens into their diet or if they have any favorite recipes using them.",
+          "1. Jiu Jitsu: Ask about their experience with Jiu Jitsu, the gym, or martial arts in general.",
+          "2. Family/Children: Comment on the baby and ask how fatherhood is going.",
+          "1.  Food safety and pesticide removal: Discussing different methods for washing produce, sharing recipes that use chickpeas, or asking about the specific brand or type of alkaline water they use."
+        ],
+        "generated_comment": "Hey! Just was having a little stalk of your profile and saw your latest post. It was really inspiring to hear your story and how you've found your purpose. 🌿",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Microgreens and Nutrition",
+            "Jiu Jitsu and Martial Arts",
+            "Health and Wellness (including meditation and hydration)",
+            "Food Safety and Natural Living",
+            "Fitness (Boxing)"
+          ],
+          "LIFESTYLE": "Appears to be a health-conscious individual involved in martial arts (Jiu Jitsu and Boxing), promoting natural living and healthy eating habits. He seems passionate about sharing his knowledge and experiences related to health and wellness with others. He is also likely a father.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about microgreens! What's your favorite type to grow, and do you have any tips for beginners?",
+            "That's awesome that your friend opened a Jiu Jitsu gym! How long have you been practicing Jiu Jitsu?",
+            "I'm really interested in your post about washing pesticides off chickpeas. What brand of alkaline water do you use, and have you noticed a difference?",
+            "I'm trying to incorporate more meditation into my routine. Do you have any advice for someone just starting out?",
+            "How is fatherhood going? The baby in the Jiu Jitsu picture is adorable!"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate",
+            "Health-conscious",
+            "Informative/Educational",
+            "Community-oriented (supporting friends' endeavors)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Gardening/Growing: Ask about their experience growing microgreens, what types they enjoy growing, or if they have any tips for beginners.",
+        "2.  Nutrition/Healthy Eating: Inquire about how they incorporate microgreens into their diet or if they have any favorite recipes using them.",
+        "1. Jiu Jitsu: Ask about their experience with Jiu Jitsu, the gym, or martial arts in general.",
+        "2. Family/Children: Comment on the baby and ask how fatherhood is going.",
+        "1.  Food safety and pesticide removal: Discussing different methods for washing produce, sharing recipes that use chickpeas, or asking about the specific brand or type of alkaline water they use."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

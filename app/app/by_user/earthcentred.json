@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T11:12:15.572801",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T11:11:53.019756",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post is a carousel ad by earthcentred, featuring Scott Wallace. The first slide has the text \"HOW TO WORK WITH ME\" in large white font over a blurred background of a forest. Below this, it states \"I'm Scott Wallace - a Transformational Coach, Breathwork Facilitator, Speaker, Artist, and Entrepreneur.\" Further down, there's a description of his work and a headshot of Scott Wallace with long blonde dreadlocks. Above the text is a logo featuring a snake coiled around a geometric design. The second slide is a close up of Scott Wallace. The post's caption includes a longer bio, mentioning his diverse background and current offerings like \"The Empower Hour\" zoom call.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post advertising a 2-day \"Aligned Leaders\" workshop in Sydney, Australia. The post features the workshop dates, a photo of the host, Scott Wallace (Breathwork Facilitator, Transformational Coach & Speaker), and keywords like \"breathwork,\" \"guided practices,\" \"networking,\" \"flow,\" \"fulfillment,\" \"energy,\" and \"impact.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman sitting in a meditative pose, likely practicing breathwork. Another person is standing behind her, possibly a breathwork coach. The post is about the power of breathwork and its benefits.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (presumably earthcentred) standing in front of a group of people, likely leading a workshop or presentation. There's a screen behind him displaying an image of nature, and prayer flags are visible in the background. The post is about a 3-day immersion event.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by earthcentred promoting an \"Ascension Breathwork Journey with Scott\" at the \"Rabbits Eat Lettuce\" festival. The post mentions the festival's culture, community, music, arts, workshops, and themes of expansion, growth, healing, and connection.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by \"earthcentred\". The post promotes a 3-day immersion event called \"ACTIVATE & AMPLIFY\" for coaches, facilitators, speakers, and visionary leaders. The image shows a man (presumably Scotty) in a casual setting, possibly outdoors, talking to the camera. The post emphasizes growth, influence, impact, self-exploration, and energetic alignment.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Breathwork:** Given the emphasis on breathwork in the workshop description and Scott Wallace's title, inquiring about their specific breathwork techniques or experiences could be a good conversation starter.",
+          "2.  **Sydney:** The workshop is located in Sydney. Asking about favorite spots in Sydney or their connection to the city could be a relevant and engaging topic.",
+          "1. Breathwork: Ask about their experience with breathwork, different techniques they use, or the benefits they've personally experienced.",
+          "2. Veganism: The post has a story highlight for vegan vibes, so you could ask about their vegan journey, favorite vegan recipes, or tips for transitioning to a plant-based diet.",
+          "1.  **The \"Activate & Amplify\" immersion event:** Inquire about the specific goals or themes of the event, or ask about past events they've held."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Scott Wallace",
+          "INTERESTS": [
+            "Breathwork and Transformational Coaching",
+            "Personal Growth and Self-Development",
+            "Leadership and Empowerment",
+            "Festivals and Community Building (e.g., Rabbits Eat Lettuce)",
+            "Energetic Alignment and Spirituality"
+          ],
+          "LIFESTYLE": "Scott Wallace is a Transformational Coach, Breathwork Facilitator, Speaker, Artist, and Entrepreneur. He leads workshops, immersion events, and online sessions focused on personal growth, leadership development, and breathwork techniques. He likely travels to different locations for workshops and festivals, and maintains an online presence through social media and virtual coaching sessions.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite breathwork techniques, and how do they differ in their effects?",
+            "I saw you're hosting the 'Aligned Leaders' workshop in Sydney. What are some of your favorite places to visit in Sydney?",
+            "Could you tell me more about the 'Activate & Amplify' immersion event? What are the key takeaways you hope participants will gain?",
+            "I'm curious about your experience at Rabbits Eat Lettuce. What aspects of the festival's culture resonate most with you?",
+            "What inspired you to combine your artistic talents with your coaching and breathwork practice?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Empowering",
+            "Passionate",
+            "Visionary",
+            "Community-oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Breathwork:** Given the emphasis on breathwork in the workshop description and Scott Wallace's title, inquiring about their specific breathwork techniques or experiences could be a good conversation starter.",
+        "2.  **Sydney:** The workshop is located in Sydney. Asking about favorite spots in Sydney or their connection to the city could be a relevant and engaging topic.",
+        "1. Breathwork: Ask about their experience with breathwork, different techniques they use, or the benefits they've personally experienced.",
+        "2. Veganism: The post has a story highlight for vegan vibes, so you could ask about their vegan journey, favorite vegan recipes, or tips for transitioning to a plant-based diet.",
+        "1.  **The \"Activate & Amplify\" immersion event:** Inquire about the specific goals or themes of the event, or ask about past events they've held."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

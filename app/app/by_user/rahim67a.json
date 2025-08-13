@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T22:37:07.798813",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T22:36:44.637155",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by rahim67a is a video showing a person walking along a beach. The water is clear and the sand is light-colored. The video is shot from an aerial perspective, possibly using a drone. The hashtags used include #sunset, #mothernature, #crystalclearwater, #creamysand, #sea, and #beach.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person snorkeling underwater in clear blue water. The caption includes hashtags related to travel, recreation, diving, and specific locations in Iran.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (presumably rahim67a) walking down a street lined with parked cars and buildings. He is wearing sunglasses, a white t-shirt, dark pants, and black shoes. The location appears to be a city street, possibly in Turkey based on the hashtags.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a beautiful sunset over the ocean with a boat in the distance. There are also silhouettes of people on the beach in the foreground. The hashtags are in Persian, but they translate to things like \"sunset,\" \"sea,\" \"photography,\" \"nature,\" \"travel,\" and \"feelings.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a jellyfish underwater. The hashtags used in the post suggest an interest in nature, travel, and wildlife.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a video still showing a large flock of seagulls in and around water. The hashtags suggest a focus on nature, wildlife, and photography.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Snorkeling/Diving: Ask about their favorite snorkeling or diving spots, or if they have any interesting underwater experiences to share.",
+          "2.  Travel in Iran: Inquire about their favorite places to travel in Iran, or ask for recommendations on places to visit.",
+          "1.  **Travel/Turkey:** \"I noticed you used the hashtag #turkey. Have you been there long? What are some of your favorite places to visit?\"",
+          "2.  **Style/Fashion:** \"I like your style in this photo. Where do you usually shop for clothes?\"",
+          "1. Photography: Comment on the composition of the photo, ask about the camera used, or discuss favorite photography techniques."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post, that beach looked so peaceful 🏖️",
+        "profile_bio": {
+          "PERSON NAME": "Rahim (Likely full name is Rahim, last name unknown)",
+          "INTERESTS": [
+            "Travel (especially in Iran and Turkey)",
+            "Nature (beaches, sunsets, wildlife)",
+            "Photography (especially landscapes and underwater)",
+            "Snorkeling/Diving",
+            "Fashion/Style"
+          ],
+          "LIFESTYLE": "Appears to be an avid traveler and nature enthusiast. Enjoys exploring different locations, capturing scenic views through photography, and engaging in outdoor activities like snorkeling/diving. Likely lives in or frequently visits urban environments as well, based on the city street photo.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite places to snorkel or dive, and do you have any interesting underwater experiences to share?",
+            "I see you've traveled in Iran. What are some must-see places you'd recommend?",
+            "I noticed you used the hashtag #turkey. Have you been there long? What are some of your favorite places to visit there?",
+            "I like your style in the photo of you on the city street. Where do you usually shop for clothes?",
+            "Your sunset photos are beautiful! What kind of camera do you use, and do you have any favorite photography techniques?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Appreciative of beauty (nature, sunsets, etc.)",
+            "Stylish/Fashion-conscious",
+            "Observant (pays attention to details in nature and urban environments)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Snorkeling/Diving: Ask about their favorite snorkeling or diving spots, or if they have any interesting underwater experiences to share.",
+        "2.  Travel in Iran: Inquire about their favorite places to travel in Iran, or ask for recommendations on places to visit.",
+        "1.  **Travel/Turkey:** \"I noticed you used the hashtag #turkey. Have you been there long? What are some of your favorite places to visit?\"",
+        "2.  **Style/Fashion:** \"I like your style in this photo. Where do you usually shop for clothes?\"",
+        "1. Photography: Comment on the composition of the photo, ask about the camera used, or discuss favorite photography techniques."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

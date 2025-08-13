@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T15:35:19.587974",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T15:35:03.369129",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a digital drawing featuring concentric shapes and lines in various colors. The outermost shape is a yellow star with eight points. Inside the star are curved lines in light green, followed by a blue circular shape with a smaller green and yellow shape in the center. The background is white.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a motivational graphic featuring a wolf howling at the sun. The text in the image, written in Portuguese, translates to \"The sun always rises to illuminate the path of those who persist.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a digital abstract drawing featuring various shapes, colors, and patterns. It includes circles, lines, and organic forms in a vibrant palette of blues, greens, reds, yellows, and purples. The style appears intuitive and expressive.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by raul.hadwig5940. The post features a blue digital art piece that looks like a geometric shield or emblem with repeating triangular shapes inside. The caption in Portuguese translates to \"Tonight I made this digital art and would like to share it.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by raul.hadwig5940 featuring a digital art piece. The artwork is a multi-layered star shape with vibrant colors like cyan, yellow, purple, and green. The caption in Portuguese translates to \"I wanted to share this digital art that I made a few days ago.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a digital art piece featuring concentric diamonds in shades of blue, green, orange, and yellow against a bright turquoise background. The post caption in Portuguese translates to \"I would like to share this digital art that I made a few days ago.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Motivational Quotes/Philosophy:** Discuss the meaning of the quote in the image and share other motivational quotes or philosophies that resonate with them.",
+          "2.  **Nature/Wildlife:** Talk about their appreciation for nature, wolves, or similar animals. You could ask if they've ever seen a wolf in the wild or if they have a favorite animal.",
+          "1. Digital Art: Discuss the techniques and tools used to create the digital drawing, or ask about their artistic process.",
+          "2. Mandalas/Abstract Art: Inquire about the inspiration behind the artwork, particularly the use of mandalas or abstract geometric forms, and their personal connection to these art forms.",
+          "1. Digital Art: \"I saw your digital art post! What software do you use to create your pieces?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The colors in your digital drawing were really cool 🤩",
+        "profile_bio": {
+          "PERSON NAME": "Raul Hadwig",
+          "INTERESTS": [
+            "Digital Art (Abstract, Geometric, Mandalas)",
+            "Motivational Philosophy",
+            "Nature (Wolves, Sun)",
+            "Artistic Expression",
+            "Portuguese Language/Culture"
+          ],
+          "LIFESTYLE": "Likely a digital artist who enjoys creating abstract and geometric art. They seem to be motivated and inspired by nature and philosophical concepts. Their use of Portuguese suggests they may be a native speaker or have a strong connection to Portuguese-speaking cultures. The frequency of art posts suggests it's a regular activity or hobby.",
+          "CONVERSATION STARTERS": [
+            "I love your digital art! What inspires your use of geometric shapes and vibrant colors?",
+            "The quote about the sun rising for those who persist really resonated with me. What does that quote mean to you?",
+            "Your wolf howling at the sun graphic is beautiful. Do you have a particular connection to wolves or nature in general?",
+            "I noticed you caption your posts in Portuguese. Are you from a Portuguese-speaking country, or are you learning the language?",
+            "What's your favorite part about creating digital art? Do you have any artists that you look up to?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Motivated",
+            "Expressive",
+            "Philosophical"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Motivational Quotes/Philosophy:** Discuss the meaning of the quote in the image and share other motivational quotes or philosophies that resonate with them.",
+        "2.  **Nature/Wildlife:** Talk about their appreciation for nature, wolves, or similar animals. You could ask if they've ever seen a wolf in the wild or if they have a favorite animal.",
+        "1. Digital Art: Discuss the techniques and tools used to create the digital drawing, or ask about their artistic process.",
+        "2. Mandalas/Abstract Art: Inquire about the inspiration behind the artwork, particularly the use of mandalas or abstract geometric forms, and their personal connection to these art forms.",
+        "1. Digital Art: \"I saw your digital art post! What software do you use to create your pieces?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

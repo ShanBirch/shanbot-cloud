@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T22:15:58.389622",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T22:15:37.043569",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by discovermorehealth features a quote attributed to Hippocrates: \"Let food be thy medicine, and let medicine be thy food.\" The quote is displayed in white text within a green square frame. Below the quote is the discovermorehealth logo. The caption discusses the fact that Hippocrates didn't actually say this but that it's still important. It goes on to discuss the posters own struggles with food and how they have cultivated a healthy relationship with it, they also mention their rule of thumb is eating 80% organic whole foods.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a graduation photo of the person behind the Instagram account \"discovermorehealth.\" He is wearing a graduation gown and cap in front of the Penn State stadium. The caption discusses his experience with his Master's degree in Accounting and Finance.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by discovermorehealth features a quote by James Clear about actions shaping identity, alongside a personal reflection from the account owner about their journey as a coach and their passion for helping others with health, habits, and life optimization.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from \"discovermorehealth\" featuring a quote by Dan Millman from \"Way of the Peaceful Warrior\" about the importance of feeling and action alongside knowledge. The caption discusses overcoming paralysis by analysis and the illusion of progress that acquiring knowledge can provide.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person taking a photo with a camera, reflected in a car's side mirror. The backdrop is a scenic landscape with mountains and a bright sun. The post itself discusses the experience of brain fog after recovering from COVID.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from \"discovermorehealth.\" The post welcomes people to Discover More Health, an initiative to help ambitious professionals reconnect with themselves and uncover new levels of well-being. The post discusses struggles with obesity and mental health, the all-encompassing nature of health (emotional, mental, relational, financial, and spiritual), and the author's experience working in public accounting, biotech, and the health insurance industry. It also mentions starting a podcast called @discovermorepodcast with @benoitkim.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Penn State:** Ask about his experience at Penn State, favorite memories, or if he still follows the sports teams.",
+          "2.  **Accounting/Finance:** Inquire about his current work in accounting/finance, or his thoughts on the industry. You could also ask about his opinion on the self-investment topic he mentioned in the caption.",
+          "1. **Coaching struggles/challenges:** The post mentions the account owner's difficulty in \"standing in the identity of a coach.\" You could ask about specific challenges they've faced or what they've learned about themselves through the coaching process.",
+          "2. **Health/Habit Optimization:** The post explicitly offers help with health, habits, and life optimization. You could ask a specific question related to one of these areas, showing interest in their expertise.",
+          "1.  **\"Way of the Peaceful Warrior\"**: Ask if they've read the book or seen the movie, and what their favorite takeaways were."
+        ],
+        "generated_comment": "Hey! I was just looking at your profile and saw your latest post. I really appreciated you sharing your personal journey with food and how you've cultivated a healthy relationship with it. 💚",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Health & Wellness",
+            "Habit Formation",
+            "Personal Development/Life Optimization",
+            "Organic Whole Foods (80% rule)",
+            "Coaching/Helping Others"
+          ],
+          "LIFESTYLE": "Ambitious professional with experience in public accounting, biotech, and the health insurance industry. Holds a Master's degree in Accounting and Finance from Penn State. Currently involved in health coaching and podcasting (@discovermorepodcast with @benoitkim). Prioritizes a healthy lifestyle, including organic whole foods.",
+          "CONVERSATION STARTERS": [
+            "What were some of your favorite memories from your time at Penn State?",
+            "What are some of the biggest challenges you've faced in transitioning into the role of a health coach, and what have you learned from them?",
+            "You mentioned eating 80% organic whole foods. What are some of your go-to meals or snacks that fit that criteria?",
+            "I saw you mentioned 'Way of the Peaceful Warrior'. What's one key takeaway from that book that resonates with you the most?",
+            "I'm curious about your experience with brain fog after COVID. What strategies did you find most helpful in overcoming it?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven/Ambitious",
+            "Reflective/Introspective",
+            "Passionate/Empathetic (towards helping others)",
+            "Knowledgeable/Educated"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Penn State:** Ask about his experience at Penn State, favorite memories, or if he still follows the sports teams.",
+        "2.  **Accounting/Finance:** Inquire about his current work in accounting/finance, or his thoughts on the industry. You could also ask about his opinion on the self-investment topic he mentioned in the caption.",
+        "1. **Coaching struggles/challenges:** The post mentions the account owner's difficulty in \"standing in the identity of a coach.\" You could ask about specific challenges they've faced or what they've learned about themselves through the coaching process.",
+        "2. **Health/Habit Optimization:** The post explicitly offers help with health, habits, and life optimization. You could ask a specific question related to one of these areas, showing interest in their expertise.",
+        "1.  **\"Way of the Peaceful Warrior\"**: Ask if they've read the book or seen the movie, and what their favorite takeaways were."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

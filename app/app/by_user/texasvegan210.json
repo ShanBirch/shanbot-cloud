@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T16:33:06.346196",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T16:32:48.054507",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by texasvegan210 is a video of someone opening a mailbox-like structure. The person's hand, adorned with a bracelet and a colorful tattoo, reaches inside. The caption mentions \"matchalicious\" and tags @matchaful, describing the texture as \"buttery.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person holding a matcha latte from \"Early Bird Coffee\" with lavender flowers in it. The hashtags indicate the drink is plant-based and the person is located in Texas (specifically San Antonio - satx).",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows an Instagram post by texasvegan210 featuring a morning ritual of making ginger, pineapple, and turmeric shots. There's a bottle of the shot, and ingredients/tools like ginger, pineapple, turmeric, and a whisk are visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a lush indoor plant, likely a Monstera or Elephant Ear plant, in a white pot. There's also a small sign in the pot that says \"Living my best life\". Other images in the post show a salad and a glass of juice. The hashtags include #veganbreakfast, #plants, #monstera, #elephantearplant, and #schnauzer.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows an Instagram post by texasvegan210 featuring an oat caramel latte from a coffee shop. The hashtags include #coffeeshop, #coffeelover, #satx, #chillvibes, #relax, #plantsofinstagram #coffeehouse, #selfcare, #oatlatte, and #localbusiness. There is also a glimpse of red shoes in the photo.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of homemade vegan chili topped with Forager Project sour cream, chives, Daiya cheese, and kale.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Matcha and Coffee:** \"I saw your post about the matcha latte from Early Bird. I've been wanting to try it. What do you think of their matcha compared to other places in San Antonio?\"",
+          "2.  **Vegan Options in San Antonio:** \"I noticed you use the hashtag #texasvegan210. Do you have any other recommendations for vegan-friendly places in San Antonio?\"",
+          "1. **Vegan Recipes/Healthy Eating:** Inquire about other favorite vegan recipes or healthy morning rituals.",
+          "2. **Ingredients/Tools:** Ask about the best type of ginger or turmeric to use for the shots, or about the whisk in the background.",
+          "1. Plant care tips: \"I noticed you have a beautiful Monstera/Elephant Ear! Do you have any tips for keeping them so healthy and vibrant?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That matcha looked so good! 🍵",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Food and Recipes",
+            "Matcha and Coffee (especially oat lattes)",
+            "Plant-Based Living",
+            "Indoor Plants (Monstera, Elephant Ear)",
+            "Supporting Local San Antonio Businesses"
+          ],
+          "LIFESTYLE": "Likely a health-conscious individual living in San Antonio, Texas, who enjoys exploring vegan options, making homemade healthy drinks, and creating a relaxing and aesthetically pleasing environment with plants. They seem to prioritize self-care and supporting local businesses.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about the matcha latte from Early Bird. I've been wanting to try it. What do you think of their matcha compared to other places in San Antonio?",
+            "I noticed you use the hashtag #texasvegan210. Do you have any other recommendations for vegan-friendly places in San Antonio?",
+            "Your ginger, pineapple, and turmeric shots look amazing! What's your favorite way to adjust the recipe for different tastes?",
+            "I noticed you have a beautiful Monstera/Elephant Ear! Do you have any tips for keeping them so healthy and vibrant?",
+            "I love your red shoes in the oat latte post! Where did you get them?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Aesthetic",
+            "Supportive (of local businesses)",
+            "Relaxed/Chill"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Matcha and Coffee:** \"I saw your post about the matcha latte from Early Bird. I've been wanting to try it. What do you think of their matcha compared to other places in San Antonio?\"",
+        "2.  **Vegan Options in San Antonio:** \"I noticed you use the hashtag #texasvegan210. Do you have any other recommendations for vegan-friendly places in San Antonio?\"",
+        "1. **Vegan Recipes/Healthy Eating:** Inquire about other favorite vegan recipes or healthy morning rituals.",
+        "2. **Ingredients/Tools:** Ask about the best type of ginger or turmeric to use for the shots, or about the whisk in the background.",
+        "1. Plant care tips: \"I noticed you have a beautiful Monstera/Elephant Ear! Do you have any tips for keeping them so healthy and vibrant?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

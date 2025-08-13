@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T19:57:16.070274",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T19:56:57.065819",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up, overhead shot of a colorful and healthy-looking nourish bowl. The bowl contains brown rice and quinoa, roasted sweet potato, Brussels sprouts, cauliflower, broccoli, super greens, baby butter lettuce, and pickled red onion. The caption mentions an oil-free dressing and provides the recipe.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a colorful stir-fry with various vegetables like broccoli, red cabbage, carrots, and red bell peppers. The post also includes a recipe for the stir-fry sauce.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a colorful vegan salad bowl with a variety of fresh vegetables and a curry dressing recipe listed in the caption.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a colorful vegan salad bowl with various ingredients like tomatoes, red cabbage, red bell pepper, spicy pickled carrots, pickled red onion, cucumber, a chickpea salad, and pumpkin seeds. The caption also mentions a dressing made from rose vinegar, Dijon mustard, and curry spice.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a colorful bowl of food with white rice, peas, kale, broccoli, and shredded red cabbage. The caption mentions a ginger teriyaki sauce and includes a recipe. The post is from an account called \"the_veg_collective\" and includes hashtags related to veganism, plant-based eating, and healthy eating.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a baked oat pancake topped with raspberries. The recipe is included in the post's caption.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan cooking and recipe sharing: \"I saw your stir-fry recipe and it looks delicious! Do you have any other favorite vegan recipes you'd be willing to share?\"",
+          "2. Healthy eating and plant-based diets: \"I noticed you use a lot of vegetables in your cooking. What are some of your favorite ways to incorporate more plants into your diet?\"",
+          "1.  **Vegan/Plant-Based Diet:** Discussing favorite vegan recipes, restaurants, or the benefits of a plant-based lifestyle.",
+          "2.  **Cooking/Recipes:** Asking about other favorite salad dressing recipes or sharing tips for preparing vegetables.",
+          "1. Vegan/Plant-Based Recipes: Discussing favorite vegan recipes, ingredients, or cooking tips."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That nourish bowl looked so vibrant and delicious! 🥗",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Cooking",
+            "Plant-Based Recipes",
+            "Healthy Eating",
+            "Colorful and Nutritious Food",
+            "Recipe Development and Sharing"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys cooking and experimenting with vegan recipes, focusing on whole, plant-based ingredients. They prioritize healthy eating and creating visually appealing meals. They are also likely interested in sharing their knowledge and recipes with others.",
+          "CONVERSATION STARTERS": [
+            "What inspired you to start creating vegan recipes?",
+            "Do you have any tips for making vegan cooking more accessible for beginners?",
+            "What are some of your favorite vegan restaurants or cookbooks?",
+            "I'm always looking for new salad dressing recipes! What's your go-to?",
+            "What are some of your favorite ways to incorporate more plant-based protein into your meals?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Health-conscious",
+            "Passionate",
+            "Generous (willing to share recipes)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan cooking and recipe sharing: \"I saw your stir-fry recipe and it looks delicious! Do you have any other favorite vegan recipes you'd be willing to share?\"",
+        "2. Healthy eating and plant-based diets: \"I noticed you use a lot of vegetables in your cooking. What are some of your favorite ways to incorporate more plants into your diet?\"",
+        "1.  **Vegan/Plant-Based Diet:** Discussing favorite vegan recipes, restaurants, or the benefits of a plant-based lifestyle.",
+        "2.  **Cooking/Recipes:** Asking about other favorite salad dressing recipes or sharing tips for preparing vegetables.",
+        "1. Vegan/Plant-Based Recipes: Discussing favorite vegan recipes, ingredients, or cooking tips."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

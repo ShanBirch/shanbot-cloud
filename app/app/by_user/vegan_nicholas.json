@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T19:39:43.534197",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T19:39:19.890747",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a top-down shot of a table laden with vegan food at The Farm House, West Malling. Dishes include a vegan lasagna in a cast iron pan, a pizza, a bowl of what appears to be fried potatoes, a salad, and garlic bread. There are also glasses of water and a bottle of white liquid, possibly a drink or sauce. The table is wooden.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate with a homemade vegan Wellington, served with edamame beans, and a sauce. The Wellington is cut in half, revealing a filling that appears to include spinach and other ingredients. The dish is garnished with herbs and spices.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan lasagna, topped with tomatoes, onions, and what appears to be vegan cheese or a similar substitute.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (vegan_nicholas) drinking from a large mug, presumably coffee or tea, in what appears to be a cafe. There is a plate with a spoon on the table in front of him. The background includes stairs with a \"Meet me upstairs\" sign, plants, and framed pictures on the wall.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a motivational quote that says \"EXECUTION - NOUN - STOP TALKING & PUT IN THE WORK!\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows an overhead shot of two plates of vegan breakfast, each containing vegan sausages, baked beans, mashed avocado, a grilled tomato, and toast. There is also a latte and an iced coffee on the table.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan cooking/recipes: Ask about the recipe for the vegan Wellington, or other vegan dishes they enjoy making.",
+          "2. Royal Tunbridge Wells: The location is listed as Royal Tunbridge Wells. Ask about vegan restaurants or food shops in the area.",
+          "1. Vegan cooking and recipes: Asking about their favorite vegan lasagna recipes or other vegan cooking tips.",
+          "2. Veganism and lifestyle: Inquiring about their journey into veganism, or discussing the benefits and challenges of a vegan lifestyle.",
+          "1. **Coffee/Tea Preferences:** Ask about his favorite type of coffee or tea, or if he has a go-to vegan cafe."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post looked like a delicious vegan feast! 🤤",
+        "profile_bio": {
+          "PERSON NAME": "Nicholas (based on username 'vegan_nicholas')",
+          "INTERESTS": [
+            "Vegan Cooking & Recipes",
+            "Vegan Food Photography",
+            "Vegan Lifestyle",
+            "Coffee/Tea",
+            "Motivational Content/Self-Improvement"
+          ],
+          "LIFESTYLE": "Likely a home cook who enjoys creating and sharing vegan meals. Enjoys dining out at vegan-friendly establishments, particularly in the Royal Tunbridge Wells area. Appears to be interested in self-improvement and motivation.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite vegan lasagna recipe?",
+            "I'd love to know more about your journey into veganism. What inspired you to make the switch?",
+            "That vegan Wellington looks amazing! Could you share the recipe or any tips for making it?",
+            "Do you have any recommendations for vegan restaurants or food shops in Royal Tunbridge Wells?",
+            "What's your go-to vegan cafe and your favorite coffee or tea order?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate (about veganism)",
+            "Creative (in the kitchen)",
+            "Motivated (shares motivational content)",
+            "Foodie (enjoys exploring and sharing food experiences)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan cooking/recipes: Ask about the recipe for the vegan Wellington, or other vegan dishes they enjoy making.",
+        "2. Royal Tunbridge Wells: The location is listed as Royal Tunbridge Wells. Ask about vegan restaurants or food shops in the area.",
+        "1. Vegan cooking and recipes: Asking about their favorite vegan lasagna recipes or other vegan cooking tips.",
+        "2. Veganism and lifestyle: Inquiring about their journey into veganism, or discussing the benefits and challenges of a vegan lifestyle.",
+        "1. **Coffee/Tea Preferences:** Ask about his favorite type of coffee or tea, or if he has a go-to vegan cafe."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T23:46:36.301445",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T23:46:14.540099",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a group of people participating in a Spartan Race. The main focus is on a woman crawling through mud under barbed wire. She is wearing a black top, shorts, a cap, and white sneakers. Other participants are visible in the background, also crawling through the muddy obstacle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, andi.roze, sitting in front of a microphone, likely recording a podcast or video. The background features a neon sign that says \"LEGACY.\" The post is about the quality of conversations people have with themselves.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, andi.roze, sitting cross-legged on a gray couch. She is wearing a black top and shorts. The post is about overcoming fears and making progress, including fear of the dark and talking to the camera. She also mentions ADHD and dyslexia.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by andi.roze. The post is a personal story about her fitness studio, LEGACY, which she created in honor of her father. She discusses her struggles with anorexia and how movement, specifically Reformer Pilates, helped her rebuild herself. She emphasizes that LEGACY is more than just a fitness studio; it's a space for empowerment, resilience, and connection between body, mind, and soul.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a concert, specifically a Billie Eilish concert, based on the caption \"@billieeilish\". The photo captures the stage and a large crowd of people.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, andi.roze, doing a pilates workout on a reformer machine in a studio. She is tagged @thepilates.diaries and @rubyameer, likely the studio and instructor respectively.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Podcast/Content Creation:** You could ask about her podcast/video series, the topics she enjoys discussing, or her experience in content creation.",
+          "2.  **Self-Talk/Mindfulness:** You could engage with the questions she poses in the post about self-talk and share your own experiences or strategies for practicing kindness and compassion towards oneself.",
+          "1.  **Overcoming Fears/Personal Growth:** The post is centered around this topic. You could ask her about specific strategies she found helpful in overcoming her fears or share your own experiences with personal growth.",
+          "2.  **ADHD/Dyslexia:** She mentions discovering a connection between ADHD and dyslexia. If you have personal experience or knowledge in this area, you could engage in a conversation about the challenges and strategies related to these conditions.",
+          "1.  **Reformer Pilates:** Given her emphasis on Reformer Pilates as a transformative practice, you could ask about her favorite Reformer Pilates exercises or any tips she has for beginners."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post looked intense! You looked like you were absolutely crushing it! 💪",
+        "profile_bio": {
+          "PERSON NAME": "Andi Roze",
+          "INTERESTS": [
+            "Fitness (Specifically Reformer Pilates and Spartan Races)",
+            "Mental Wellness & Self-Improvement",
+            "Content Creation (Podcast/Video)",
+            "Music (Billie Eilish)",
+            "Empowering Others"
+          ],
+          "LIFESTYLE": "Andi Roze is an entrepreneur and fitness enthusiast who owns a fitness studio called LEGACY. She is passionate about movement, particularly Reformer Pilates, and its impact on mental and physical well-being. She is also involved in content creation, likely through a podcast or video series, focusing on self-talk, overcoming fears, and personal growth. She enjoys attending concerts and challenging herself physically through events like Spartan Races.",
+          "CONVERSATION STARTERS": [
+            "I saw you completed a Spartan Race! What was the most challenging obstacle for you?",
+            "Your post about self-talk really resonated with me. What are some practical tips you use to practice self-compassion?",
+            "I'm curious about your fitness studio, LEGACY. What inspired you to create a space focused on empowerment and connection?",
+            "I've been thinking about trying Reformer Pilates. Do you have any advice for beginners?",
+            "I noticed you mentioned ADHD and dyslexia. I'm interested in learning more about your experience and perspective on that."
+          ],
+          "PERSONALITY TRAITS": [
+            "Resilient",
+            "Empathetic",
+            "Driven",
+            "Passionate"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Podcast/Content Creation:** You could ask about her podcast/video series, the topics she enjoys discussing, or her experience in content creation.",
+        "2.  **Self-Talk/Mindfulness:** You could engage with the questions she poses in the post about self-talk and share your own experiences or strategies for practicing kindness and compassion towards oneself.",
+        "1.  **Overcoming Fears/Personal Growth:** The post is centered around this topic. You could ask her about specific strategies she found helpful in overcoming her fears or share your own experiences with personal growth.",
+        "2.  **ADHD/Dyslexia:** She mentions discovering a connection between ADHD and dyslexia. If you have personal experience or knowledge in this area, you could engage in a conversation about the challenges and strategies related to these conditions.",
+        "1.  **Reformer Pilates:** Given her emphasis on Reformer Pilates as a transformative practice, you could ask about her favorite Reformer Pilates exercises or any tips she has for beginners."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

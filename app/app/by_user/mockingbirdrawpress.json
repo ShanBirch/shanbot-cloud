@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T07:53:08.633235",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T07:52:45.770208",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by mockingbirdrawpress is a collage of images related to their \"Raw Glow\" smoothie. The collage includes a bottle of the smoothie with its label clearly visible, a close-up of fresh lemons, a shot of pineapple chunks with yellow liquid being poured over them, and a sunset over the ocean. The post's caption states, \"How drinking Raw Glow makes us feel\" and includes hashtags like #RawSmoothie, #RawDiet, #VitaminPacked, and #HealthyFoodie.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person taking a picture of fresh ingredients (strawberries, beets, spinach, blueberries) arranged on a table, presumably for a smoothie. There is also a vase with decorative grasses in the background. The Instagram post promotes smoothies filled with fruits, veggies, and vitamins for a healthy lifestyle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a table setting with fresh ingredients like strawberries, cucumbers, grapes, and lemons, along with a glass of a purple drink. There's also a vase of flowers. The person is taking a photo of the setup with their phone. The hashtags include #RawJuice #RawDiet #HealthyDrinks #Mocktails.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a video of a street scene in what appears to be London, with a bus stop and an advertisement for \"RAW SMOOTHIES\". The caption mentions \"springing into warmer weather and longer days.\" The other images show smoothies, falafel, lemons and grapes.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person standing in a doorway, with the text \"Wellness podcasts for your walk to work\" overlaid. The post itself is about a wellness podcast and asking for recommendations. The other images show healthy food and drinks.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a promotional post for a giveaway featuring Gosh! falafel and Mockingbird Raw Press smoothies. It shows a refrigerator stocked with these products, along with other fresh produce like lemons, cauliflower, and bell peppers.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Healthy Eating/Smoothies:** \"I saw your post about raw smoothies! Do you have any favorite combinations or ingredients you like to use?\"",
+          "2.  **Photography/Food Styling:** \"Your smoothie ingredient setup looks great! What kind of camera or phone do you use for your food photography?\"",
+          "1.  **Healthy Recipes/Raw Diet:** Ask about their favorite raw juice recipes or other dishes they enjoy making as part of a raw diet.",
+          "2.  **Photography/Food Styling:** Comment on the composition of the photo and ask about their interest in food styling or photography.",
+          "1. **Travel/London:** \"Have you been to London before? I noticed the street scene in your post, and it reminded me of my trip there.\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Raw Smoothies & Juices",
+            "Healthy Eating & Raw Diet",
+            "Food Photography & Styling",
+            "Wellness & Healthy Lifestyle",
+            "Travel (potentially London)"
+          ],
+          "LIFESTYLE": "Likely someone who prioritizes a healthy lifestyle, enjoys creating and consuming raw smoothies and juices, and appreciates aesthetically pleasing food photography. They may be involved in the wellness community, possibly through podcast listening or content creation. They may travel, or at least have an interest in London.",
+          "CONVERSATION STARTERS": [
+            "I love your 'Raw Glow' smoothie post! What are some other raw smoothie recipes you'd recommend?",
+            "Your food photography is stunning! What kind of equipment or editing techniques do you use?",
+            "I saw your post about wellness podcasts. Do you have any favorites you'd recommend for someone just getting into them?",
+            "That London street scene looked amazing! Have you spent much time there, and what were your favorite things to do?",
+            "I'm curious about your experience with a raw diet. What are some of the biggest benefits you've noticed, and what are some challenges?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Creative (especially with food presentation)",
+            "Aesthetic-oriented",
+            "Engaged (with wellness and healthy living)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Healthy Eating/Smoothies:** \"I saw your post about raw smoothies! Do you have any favorite combinations or ingredients you like to use?\"",
+        "2.  **Photography/Food Styling:** \"Your smoothie ingredient setup looks great! What kind of camera or phone do you use for your food photography?\"",
+        "1.  **Healthy Recipes/Raw Diet:** Ask about their favorite raw juice recipes or other dishes they enjoy making as part of a raw diet.",
+        "2.  **Photography/Food Styling:** Comment on the composition of the photo and ask about their interest in food styling or photography.",
+        "1. **Travel/London:** \"Have you been to London before? I noticed the street scene in your post, and it reminded me of my trip there.\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T01:46:49.219283",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T01:46:27.107968",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by workoutwithroxanne features a woman in workout attire (light purple sports bra and leggings) standing with her arms crossed. She's smiling at the camera. The post promotes a \"Surge Series - The Ultimate Kettlebell Challenge\" starting January 6th, 2025. The post details what to expect, what you'll need, and key details about the challenge.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman holding a YouTube Silver Creator Award, celebrating reaching 100k subscribers. She is wearing workout attire from the brand LSXD.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, workoutwithroxanne, posing with her awards after winning the ICN Women's Overall Champion title at the Southern Cross Championships in Ballarat. She is holding a framed award and wearing medals and a sash.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by workoutwithroxanne promoting an AI-designed ab workout. The post includes a video of Roxanne demonstrating the workout, with text overlay asking \"Has A.I. created the best Abs Workout?\". The caption details the workout structure (6 moves, 40 sec on/20 sec off, 2 rounds) and uses relevant hashtags. Another image shows medals hanging.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by workoutwithroxanne, showcasing a Pilates-inspired dumbbell workout focusing on glute med and min. The video demonstrates \"Internal Rotation Leg Lifts\" with a dumbbell. There are also medals hanging on the wall in the background (visible in the second image).",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from workoutwithroxanne featuring a video of her performing a pistol squat. The post promotes a lower body dumbbell workout available on YouTube. The caption mentions strength, endurance, hip stability, and targets quads, hamstrings, glutes, and calves.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. YouTube Content Creation: Inquire about her content creation process, future video ideas, or the challenges and rewards of building a YouTube channel.",
+          "2. Fitness/Workout Routines: Ask about her favorite workout routines, fitness goals, or tips for staying motivated. You could also ask about the LSXD brand and her experience with their activewear.",
+          "1. **Her training regimen:** Given her success in bodybuilding, asking about her training routine, diet, or specific exercises she finds most effective could be a good conversation starter.",
+          "2. **Her experience at the Southern Cross Championships:** Inquiring about her experience at the competition, the challenges she faced, or her feelings about winning could lead to an engaging conversation.",
+          "1.  **AI in Fitness:** Ask about her experience using AI to design workouts. For example, \"How was it working with AI to create the workout? What was the most surprising thing you learned in the process?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post about the kettlebell challenge looked awesome, you looked so ready to take it on! 💪",
+        "profile_bio": {
+          "PERSON NAME": "Roxanne (Based on username 'workoutwithroxanne')",
+          "INTERESTS": [
+            "Fitness and Workout Routines (Kettlebells, Dumbbells, Pilates-inspired)",
+            "Bodybuilding and Competitive Fitness (ICN Southern Cross Championships)",
+            "YouTube Content Creation (Fitness Tutorials, Challenges)",
+            "AI in Fitness",
+            "Lower Body Strength and Conditioning"
+          ],
+          "LIFESTYLE": "Roxanne is a fitness enthusiast, content creator, and competitive bodybuilder. She creates workout content for YouTube and Instagram, focusing on various training styles like kettlebells, dumbbells, and Pilates. She also participates in bodybuilding competitions and has achieved significant success, including winning the ICN Women's Overall Champion title. She seems to be sponsored by or affiliated with the activewear brand LSXD.",
+          "CONVERSATION STARTERS": [
+            "Congratulations on winning the ICN Women's Overall Champion title! What was your training regimen like leading up to the Southern Cross Championships?",
+            "I saw your post about the 'Surge Series - The Ultimate Kettlebell Challenge'. What inspired you to create this challenge, and what are you hoping participants will gain from it?",
+            "Your YouTube channel is impressive! What's your content creation process like, and do you have any exciting video ideas in the works?",
+            "The AI-designed ab workout is fascinating! How was it working with AI to create the workout? What was the most surprising thing you learned in the process?",
+            "I noticed you often incorporate Pilates principles into your dumbbell workouts. What are some of the key benefits of combining these two training styles?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven (evident from her competitive bodybuilding and consistent content creation)",
+            "Knowledgeable (demonstrated by her detailed workout explanations and diverse training styles)",
+            "Enthusiastic (her posts convey a genuine passion for fitness)",
+            "Approachable (she smiles in her photos and seems open to engaging with her audience)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. YouTube Content Creation: Inquire about her content creation process, future video ideas, or the challenges and rewards of building a YouTube channel.",
+        "2. Fitness/Workout Routines: Ask about her favorite workout routines, fitness goals, or tips for staying motivated. You could also ask about the LSXD brand and her experience with their activewear.",
+        "1. **Her training regimen:** Given her success in bodybuilding, asking about her training routine, diet, or specific exercises she finds most effective could be a good conversation starter.",
+        "2. **Her experience at the Southern Cross Championships:** Inquiring about her experience at the competition, the challenges she faced, or her feelings about winning could lead to an engaging conversation.",
+        "1.  **AI in Fitness:** Ask about her experience using AI to design workouts. For example, \"How was it working with AI to create the workout? What was the most surprising thing you learned in the process?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

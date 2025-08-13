@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T20:41:03.620772",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T20:40:41.793862",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post by jesslyn_music. It shows Jesslyn on stage, singing into a microphone. She is wearing a sparkly silver and white outfit with sheer sleeves and a short skirt. The stage is lit with purple and blue lights. The post caption mentions reminiscing about a performance with @daftpunk_discovery and thanks @jeff_s_sheppard for capturing the moment.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a promotional post for Jesslyn's new single called \"Strawberries\". It features an orange background with the title of the song and the artist's name in yellow text, along with a shadow of a person's hands. The caption indicates the song is about to be released and encourages pre-saving.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows Jesslyn performing a song with another woman singing backup. There is a drummer visible and the post is tagged with #melbsinger, suggesting she is a singer from Melbourne. The post also mentions a launch party.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows Jesslyn_music in a sparkly, floor-length gown. The caption mentions \"Smart casual\" and tags @alamourthelabel, suggesting she's wearing a dress from that brand.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows Jesslyn in a black dress with a train, posing in what appears to be a luxurious hallway. The post is captioned \"Va Va Voom\" and credits @khirzadfemme.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person in a home studio setting, likely engaged in songwriting. There's a keyboard, microphone, headphones, and a notebook with lyrics visible. The caption also mentions \"songwriting sessions + soul food\".",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **The inspiration behind the song \"Strawberries\":** Asking about the meaning or story behind the song could lead to a deeper conversation.",
+          "2. **The creative process of the song:** Inquiring about the songwriting or production process could be engaging.",
+          "1.  **Her music:** You could ask about her music, perhaps asking about the song she is performing in the picture or her musical influences.",
+          "2.  **Melbourne:** Since she's tagged as #melbsinger, you could ask about her experiences performing in Melbourne or ask for recommendations for music venues in the city.",
+          "1. **Fashion/Style:** Comment on the dress itself or the brand @alamourthelabel. You could ask about her favorite designers or styles."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You looked amazing on stage ✨",
+        "profile_bio": {
+          "PERSON NAME": "Jesslyn (likely Jesslyn Music)",
+          "INTERESTS": [
+            "Singing/Performing",
+            "Songwriting",
+            "Fashion/Style",
+            "Music Production",
+            "Collaborating with other artists"
+          ],
+          "LIFESTYLE": "Professional singer-songwriter based in Melbourne, Australia. She performs live, releases original music, and enjoys fashion and expressing herself through style. She appears to be actively involved in the music scene and collaborates with other artists.",
+          "CONVERSATION STARTERS": [
+            "I saw you performed with @daftpunk_discovery! What was that experience like?",
+            "Your new single 'Strawberries' sounds intriguing! What's the story behind the song?",
+            "I noticed you're tagged as #melbsinger. What are some of your favorite music venues to perform at in Melbourne?",
+            "That sparkly gown you wore from @alamourthelabel is stunning! What are some of your other favorite designers or styles?",
+            "Your songwriting sessions look inspiring! What's your typical creative process when writing a song?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Passionate",
+            "Stylish",
+            "Professional"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **The inspiration behind the song \"Strawberries\":** Asking about the meaning or story behind the song could lead to a deeper conversation.",
+        "2. **The creative process of the song:** Inquiring about the songwriting or production process could be engaging.",
+        "1.  **Her music:** You could ask about her music, perhaps asking about the song she is performing in the picture or her musical influences.",
+        "2.  **Melbourne:** Since she's tagged as #melbsinger, you could ask about her experiences performing in Melbourne or ask for recommendations for music venues in the city.",
+        "1. **Fashion/Style:** Comment on the dress itself or the brand @alamourthelabel. You could ask about her favorite designers or styles."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

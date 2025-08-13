@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T15:59:34.354750",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T15:59:14.118323",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by negaocalisthenics is a video. In the visible frame, a muscular man is sitting on a couch, shirtless and wearing shorts and a baseball cap. He's holding a yellow and white mug. Behind him is a TV stand with a TV playing a video of a man. The text overlayed on the video is in Portuguese and seems motivational. The caption includes hashtags related to calisthenics, motivation, fitness, and virality.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man standing in front of a pull-up bar, likely in a gym. The text overlay is a motivational quote in Portuguese. The hashtags used are related to training, calisthenics, viral content, and fitness motivation.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a muscular man sitting on a couch, shirtless, drinking from a cup. A TV is in the background showing a movie or show. There's also a motivational quote overlaid on the image.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a person performing a handstand on a motorcycle. The text in the post is in Portuguese and talks about calisthenics, strength, beauty, and responsibility.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person doing calisthenics on a set of bars in a park. The hashtags include #calistenia, #treino, #viral, #barrafixa, and #motivaçãofitnes.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person (presumably negaocalisthenics) performing calisthenics exercises on a bar in an outdoor park setting. There is another person standing and watching.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Calisthenics: Ask about their favorite calisthenics exercises or routines.",
+          "2. Fitness Motivation: Discuss what motivates them to stay consistent with their training.",
+          "1. Calisthenics/Fitness: Given the username and hashtags used, asking about his training routine, favorite exercises, or goals would be relevant.",
+          "2. The movie/show playing on the TV: Asking about what he's watching on TV could be a casual conversation starter.",
+          "1. Calisthenics training: Ask about their calisthenics routine, favorite exercises, or goals."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: negaocalisthenics)",
+          "INTERESTS": [
+            "Calisthenics",
+            "Fitness Motivation",
+            "Strength Training",
+            "Viral Content Creation",
+            "Bodyweight Exercise"
+          ],
+          "LIFESTYLE": "Appears to be a dedicated calisthenics enthusiast and fitness advocate. Likely spends a significant amount of time training, both indoors (gym) and outdoors (parks). Seems to enjoy a relaxed lifestyle outside of training, possibly watching movies/shows. The motivational quotes and content suggest a desire to inspire others through fitness.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite calisthenics exercises or routines?",
+            "What motivates you to stay consistent with your training?",
+            "What are your current calisthenics training goals?",
+            "What are you watching on TV these days?",
+            "What do you find most rewarding about calisthenics?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Motivated",
+            "Disciplined",
+            "Inspirational",
+            "Dedicated"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Calisthenics: Ask about their favorite calisthenics exercises or routines.",
+        "2. Fitness Motivation: Discuss what motivates them to stay consistent with their training.",
+        "1. Calisthenics/Fitness: Given the username and hashtags used, asking about his training routine, favorite exercises, or goals would be relevant.",
+        "2. The movie/show playing on the TV: Asking about what he's watching on TV could be a casual conversation starter.",
+        "1. Calisthenics training: Ask about their calisthenics routine, favorite exercises, or goals."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

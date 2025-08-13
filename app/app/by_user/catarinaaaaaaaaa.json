@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T13:19:21.058249",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T13:18:58.646249",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by catarinaaaaaaaaa is a black and white image featuring a quote \"In honor of my nephew Rob, miss you everyday buddy! would leave - Jordan Peterson @SUCCESSGOAT\" with a picture of Jordan Peterson in the background. It appears to be a memorial post.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up shot of a beautiful pink and white Amaryllis flower. The caption mentions it's a \"Nymph Amaryllis\" intended to brighten a cold winter's day.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a photograph of a beautiful sunset with orange and gray clouds. There are silhouetted trees at the bottom of the frame.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a landscape photograph of a sunset over a lake or large body of water. There's a field in the foreground with a few people standing or walking on it. The sky is filled with vibrant orange and yellow hues.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a scenic shot of a sunset over a body of water, with silhouetted trees in the foreground. The sky is filled with orange and yellow hues.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a photograph of a vibrant orange and red sunset over a body of water, with trees silhouetted in the foreground.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Gardening/Flowers: \"I saw your post about the Amaryllis. It's beautiful! Do you have a garden, or do you mostly grow flowers indoors?\"",
+          "2. Winter/Seasonal Affect: \"That Amaryllis is such a cheerful sight! Do you find that having plants around helps with the winter blues?\"",
+          "1. Photography: You could ask about their interest in photography, what camera they use, or if they have any tips for capturing sunsets.",
+          "2. Nature/Sunsets: You could comment on the beauty of the sunset and ask if they enjoy watching sunsets in general or if they have a favorite spot to view them.",
+          "1. Photography: \"That's a beautiful sunset photo! What kind of camera/phone do you use?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! I saw your latest post, it was a really touching tribute to your nephew. ❤️",
+        "profile_bio": {
+          "PERSON NAME": "Catarina (Likely, based on username 'catarinaaaaaaaaa')",
+          "INTERESTS": [
+            "Gardening/Flowers (especially Amaryllis)",
+            "Nature Photography (specifically sunsets)",
+            "Memorializing Loved Ones",
+            "Philosophy/Inspirational Quotes (Jordan Peterson)",
+            "Finding beauty in everyday life"
+          ],
+          "LIFESTYLE": "Likely someone who appreciates beauty in nature and finds solace in gardening. They seem to value family and remember loved ones. They may be interested in philosophy or self-improvement.",
+          "CONVERSATION STARTERS": [
+            "Your Amaryllis is stunning! Do you have any other favorite flowers to grow?",
+            "Those sunset photos are incredible! What's your favorite spot to watch the sunset?",
+            "I noticed the Jordan Peterson quote in your post. What resonates with you about his work?",
+            "Do you have any tips for capturing such vibrant colors in sunset photography?",
+            "How long have you been interested in gardening?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Sentimental/Reminiscent",
+            "Appreciative of Beauty",
+            "Thoughtful/Reflective",
+            "Possibly Spiritual/Philosophical"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Gardening/Flowers: \"I saw your post about the Amaryllis. It's beautiful! Do you have a garden, or do you mostly grow flowers indoors?\"",
+        "2. Winter/Seasonal Affect: \"That Amaryllis is such a cheerful sight! Do you find that having plants around helps with the winter blues?\"",
+        "1. Photography: You could ask about their interest in photography, what camera they use, or if they have any tips for capturing sunsets.",
+        "2. Nature/Sunsets: You could comment on the beauty of the sunset and ask if they enjoy watching sunsets in general or if they have a favorite spot to view them.",
+        "1. Photography: \"That's a beautiful sunset photo! What kind of camera/phone do you use?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

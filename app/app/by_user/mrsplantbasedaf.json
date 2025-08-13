@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T11:04:20.819905",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T11:04:01.167035",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of a white bowl filled with creamy grits topped with what appears to be a vegan egg scramble mixed with sautéed mushrooms. The dish is sprinkled with everything bagel seasoning. The bowl sits on a dark surface.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a dish of stuffed pasta shells covered in tomato sauce. The user, mrsplantbasedaf, captions it as \"Italian night in our house tonight. About to get a carb overload!\" and includes hashtags related to vegan and vegetarian food.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of spaghetti squash topped with tomato sauce and roasted Brussels sprouts.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by mrsplantbasedaf. It's a meme asking \"On a scale of 1-10, how plant-based are you?\" and features a photo of a person pointing to the number 11. The post also includes hashtags related to plant-based eating.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a humorous meme celebrating Father's Day with a \"Plant-Based Dad.\" It features a man in a suit with his head replaced by various vegetables. The text reads \"PLANT-BASED DAD\" and \"YA KNOW, A DAD BUT WAY COOLER!\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman lying on a yoga mat in a grassy park, reading a book. Two dogs are nearby. The caption mentions \"fresh air,\" \"a good book,\" and \"pups,\" and includes hashtags related to plant-based living, nature, and peace of mind.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan/Vegetarian Italian Recipes: You could ask for the recipe or share your own favorite vegan/vegetarian Italian dishes.",
+          "2. Plant-Based Cooking: You could ask about other plant-based meals they enjoy or share tips for plant-based cooking.",
+          "1. Plant-based cooking and alternative pasta recipes.",
+          "2. Experimenting with different vegetables and flavors in meals.",
+          "1. Plant-based recipes: Given the hashtags and the overall theme of the account, asking about favorite plant-based recipes or sharing one of your own could be a good conversation starter."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The eggless eggs and mushrooms over grits looked really tasty! 🤤",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Plant-Based Cooking/Veganism",
+            "Italian Food (Vegan/Vegetarian)",
+            "Humor/Memes",
+            "Outdoor Activities (Reading, Yoga)",
+            "Dogs"
+          ],
+          "LIFESTYLE": "Likely follows a plant-based diet. Enjoys cooking and experimenting with vegan recipes, particularly Italian-inspired dishes. Values spending time outdoors with her dogs, reading, and practicing yoga. Appears to have a good sense of humor and enjoys sharing relatable memes about plant-based living.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite vegan Italian recipe?",
+            "Do you have any tips for making a great vegan egg scramble?",
+            "What are some of your go-to plant-based meals?",
+            "What's the funniest plant-based meme you've seen lately?",
+            "What's your favorite book to read outdoors?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Humorous",
+            "Passionate (about plant-based living)",
+            "Creative (in the kitchen)",
+            "Relaxed/Enjoys Simple Pleasures"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan/Vegetarian Italian Recipes: You could ask for the recipe or share your own favorite vegan/vegetarian Italian dishes.",
+        "2. Plant-Based Cooking: You could ask about other plant-based meals they enjoy or share tips for plant-based cooking.",
+        "1. Plant-based cooking and alternative pasta recipes.",
+        "2. Experimenting with different vegetables and flavors in meals.",
+        "1. Plant-based recipes: Given the hashtags and the overall theme of the account, asking about favorite plant-based recipes or sharing one of your own could be a good conversation starter."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

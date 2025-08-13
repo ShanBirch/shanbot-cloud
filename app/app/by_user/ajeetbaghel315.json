@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T13:02:32.481188",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T13:02:11.038813",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by ajeet.baghel.315 features a dark, moody video clip with the text \"Hath.hai\" and \"SEPTEMBER-05-11\" overlaid on it. The video is mostly black and white and features a person wearing a hoodie.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man standing next to a Royal Enfield Hunter 350 motorcycle. He is wearing a jacket and Adidas track pants. The background appears to be an outdoor setting, possibly a street or a rural area.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (presumably ajeet.baghel.315) standing in what appears to be a clothing store. He is wearing a red, black, and white Adidas jacket, jeans, and sunglasses.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (presumably ajeet.baghel.315) standing in front of a building with ornate yellow architecture. There are other people in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a young man, presumably ajeet.baghel.315, sitting on a chair in what appears to be a cafe or restaurant. He is wearing sunglasses, a checkered shirt, jeans, and sandals.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a young man standing next to a tractor in a field, likely at sunset. The background shows a rural landscape.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Motorcycles: \"That's a cool Hunter 350! Have you taken it on any long rides?\"",
+          "2. Travel/Location: \"I see you're in Iglas. What's it like living there?\"",
+          "1.  **Fashion/Clothing:** \"I noticed you're in a clothing store. Do you work there, or were you shopping? I'm always looking for new places to find good deals.\"",
+          "2.  **Adidas:** \"That's a cool Adidas jacket! Are you a fan of the brand? What are some of your favorite Adidas products?\"",
+          "*   Travel: \"That building looks amazing! Where was this photo taken?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The video had a cool vibe 😎",
+        "profile_bio": {
+          "PERSON NAME": "Ajeet Baghel (Likely)",
+          "INTERESTS": [
+            "Motorcycles (Royal Enfield Hunter 350)",
+            "Fashion (Especially Adidas)",
+            "Travel/Exploring New Places",
+            "Rural Life/Agriculture",
+            "Photography/Videography (Moody, Dark Aesthetics)"
+          ],
+          "LIFESTYLE": "Appears to enjoy exploring both urban and rural environments. Seems to have an interest in fashion and motorcycles. Likely lives in or near Iglas, and may have connections to agriculture. The 'SEPTEMBER-05-11' overlay on the video could indicate a significant date or memory.",
+          "CONVERSATION STARTERS": [
+            "What do you enjoy most about riding your Royal Enfield Hunter 350?",
+            "I saw you were in Iglas. What are some of your favorite things to do there?",
+            "You have a great sense of style! What are some of your favorite Adidas pieces?",
+            "Where was that photo taken with the ornate yellow building? It looks beautiful!",
+            "Tell me more about the video with the 'SEPTEMBER-05-11' date. What's the story behind it?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Stylish/Fashion-conscious",
+            "Adventurous/Exploratory",
+            "Contemplative/Introspective (Based on the moody video)",
+            "Connected to his roots (Rural/Agricultural imagery)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Motorcycles: \"That's a cool Hunter 350! Have you taken it on any long rides?\"",
+        "2. Travel/Location: \"I see you're in Iglas. What's it like living there?\"",
+        "1.  **Fashion/Clothing:** \"I noticed you're in a clothing store. Do you work there, or were you shopping? I'm always looking for new places to find good deals.\"",
+        "2.  **Adidas:** \"That's a cool Adidas jacket! Are you a fan of the brand? What are some of your favorite Adidas products?\"",
+        "*   Travel: \"That building looks amazing! Where was this photo taken?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

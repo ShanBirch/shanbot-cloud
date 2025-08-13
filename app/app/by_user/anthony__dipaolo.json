@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T20:51:29.938982",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T20:51:06.493346",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by anthony__dipaolo is a carousel post. The first image features Anthony in a gym setting, shirtless and wearing a red cap, with text overlay stating \"Hi, my name's Anthony. I like Hyrox, Vegetables, and talking shit. Here are some things you might not know about me...\" He is giving a thumbs up. The background shows gym equipment and another person. The post also includes a lengthy caption about mental health, Hyrox, content creation, skits, and gratitude.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by anthony__dipaolo. It's a video of him talking about starting a daily vlog. He mentions launching his online coaching business, meeting supportive people in the fitness community, and starting his YouTube journey.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows Anthony DiPaolo participating in a Hyrox Solo Pro event. He's on a ski machine, with the time of 3:45 for 1000m displayed. The caption mentions he shaved 2 minutes off his time at the Hyrox event in Brisbane.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by anthony__dipaolo. It shows him in a vlog, stating he's on day 13 of vlogging. He also mentions finishing \"White Lotus\" (presumably the TV show) and focusing on getting good sleep. The post also includes hashtags related to vlogging. The video also shows another person in the background flexing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a shirtless man (anthony__dipaolo) stirring a drink, likely an iced coffee or latte, with the caption \"I can't believe I hadn't heard of flavour drops before! Since when have these been a thing?\" He also tagged @myproteinau and used hashtags #flavourdrops #myprotein #food #icedcoffee #icedlate #buythis. Another image shows him at a HYROX event.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by anthony__dipaolo showing him training for the HYROX World Championships. He's doing a split, and the post mentions \"9 weeks out from World Champs.\" The caption also includes hashtags related to HYROX training, hybrid training, and training week.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vlogging/YouTube: \"I saw you started vlogging and your YouTube journey! What kind of content are you planning to create?\"",
+          "2. Online Coaching Business: \"Congrats on launching your online coaching business! What kind of coaching do you offer?\"",
+          "1. **Hyrox Training/Events:** Discussing the Hyrox event itself, training strategies for Hyrox, or asking about his experience at the Brisbane event.",
+          "2. **Ski Erg Technique/Times:** Asking about his ski erg technique or comparing times on the ski erg machine.",
+          "1. **Vlogging:** Ask about his vlogging process, what he enjoys most about it, or what challenges he faces."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The text overlay was really creative and engaging. 💪",
+        "profile_bio": {
+          "PERSON NAME": "Anthony DiPaolo",
+          "INTERESTS": [
+            "Hyrox (Training and Competition)",
+            "Fitness and Hybrid Training",
+            "Vlogging and Content Creation (YouTube)",
+            "Mental Health Awareness",
+            "Nutrition (Vegetables, Flavor Drops)"
+          ],
+          "LIFESTYLE": "Anthony is a fitness enthusiast and athlete actively involved in Hyrox competitions. He runs an online coaching business and documents his life and training through daily vlogs on YouTube. He appears to be health-conscious, focusing on both physical and mental well-being. He is also sponsored by Myprotein Australia.",
+          "CONVERSATION STARTERS": [
+            "I saw you shaved 2 minutes off your Hyrox time in Brisbane! What specific training adjustments did you make to achieve that?",
+            "Congratulations on launching your online coaching business! What kind of coaching do you offer and what's your approach?",
+            "I noticed you're 9 weeks out from the Hyrox World Championships. What's your training schedule looking like leading up to the event?",
+            "I saw you started vlogging and your YouTube journey! What kind of content are you planning to create, and what are you enjoying most about the process?",
+            "I'm curious about your experience with flavor drops. What are your favorite flavors and how do you incorporate them into your diet?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven (Dedicated to Hyrox training and competition)",
+            "Open/Vulnerable (Shares about mental health)",
+            "Enterprising (Runs an online coaching business and creates content)",
+            "Humorous (Mentions 'talking shit' and creates skits, based on post description)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vlogging/YouTube: \"I saw you started vlogging and your YouTube journey! What kind of content are you planning to create?\"",
+        "2. Online Coaching Business: \"Congrats on launching your online coaching business! What kind of coaching do you offer?\"",
+        "1. **Hyrox Training/Events:** Discussing the Hyrox event itself, training strategies for Hyrox, or asking about his experience at the Brisbane event.",
+        "2. **Ski Erg Technique/Times:** Asking about his ski erg technique or comparing times on the ski erg machine.",
+        "1. **Vlogging:** Ask about his vlogging process, what he enjoys most about it, or what challenges he faces."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

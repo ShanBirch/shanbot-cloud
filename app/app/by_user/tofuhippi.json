@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T01:49:57.889789",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T01:49:38.418658",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a variety of vegan food items arranged in white bowls on a wooden surface. The bowls contain ingredients such as quinoa, black beans, cherry tomatoes, olives, diced red peppers and cucumbers, white beans with cucumbers, leafy greens, and golden-brown tofu cubes. In the foreground, an air fryer basket is visible, containing what appears to be vegan meatballs. The overall impression is a colorful and healthy vegan meal preparation.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up shot of a homemade vegan pizza, featuring toppings like tofu, sweet pepper, olives, tomato, sundried tomato, red onion, garlic, vegan cheese, and vegan garlic mayonnaise.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of people doing a morning workout at Järvenpää beach park in Finland. The post mentions the trainer is Laura Majander, a 4-time world champion in weight lifting and a candidate for The Green party. The post also mentions the weather was zero Celsius, sunny, and windy, and then it started to snow. The poster is also vegan and is going to sauna after the workout.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up shot of a plate of food. It appears to be a veggie mash with turmeric rice, Beyond Meat mince, garlic potatoes, eggplant, zucchini and broccoli.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a scenic view of Lake Tuusula in Finland, taken from a cliff in Sarvikallio. The lake is partially frozen, and the post mentions the person was enjoying morning coffee there.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a video still from an Instagram post by tofuhippi. It shows a path through a forest, presumably the shortcut they take to work. The caption mentions walking to work, living close by, the ground being dry, and the ski lane still being strong, hinting at the changing seasons.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan cooking/recipes: \"That pizza looks amazing! I'm always looking for new vegan recipes. Do you have any other favorite vegan dishes you like to make?\"",
+          "2. Veganism/Lifestyle: \"I saw you posted a vegan pizza! I'm also vegan. What are some of your favorite things about living a vegan lifestyle?\"",
+          "1. Weightlifting/Fitness: \"I saw your post about the workout with Laura Majander. As a 4-time world champion, she must be an amazing trainer! Have you been weightlifting for long?\"",
+          "2. Veganism: \"I noticed you mentioned being vegan in your post. What are some of your favorite vegan meals or restaurants in the area?\"",
+          "1. Vegan/Vegetarian Cooking: \"I saw your veggie mash post - it looks delicious! I'm always looking for new vegan recipes. Do you have any other favorite dishes you like to make?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That tofu looked absolutely delicious! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism (cooking, lifestyle, and ethics)",
+            "Fitness (weightlifting, outdoor workouts)",
+            "Finnish Nature and Scenery (Lake Tuusula, Sarvikallio, forests)",
+            "Healthy Eating and Meal Preparation",
+            "Local Community (Järvenpää)"
+          ],
+          "LIFESTYLE": "Lives in or near Järvenpää, Finland. Appears to work close to home, possibly within walking distance. Actively involved in fitness, including weightlifting and outdoor workouts. Dedicated to a vegan lifestyle, including cooking and enjoying vegan food. Enjoys spending time in nature and appreciating the Finnish landscape.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite vegan restaurants or dishes in the Järvenpää area?",
+            "I saw you working out with Laura Majander! What's it like training with a world champion weightlifter?",
+            "That veggie mash looked amazing! Do you have any other go-to vegan recipes you'd be willing to share?",
+            "What are your favorite spots around Lake Tuusula for enjoying the scenery?",
+            "How long have you been vegan, and what inspired you to make the switch?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Nature-loving",
+            "Active",
+            "Community-oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan cooking/recipes: \"That pizza looks amazing! I'm always looking for new vegan recipes. Do you have any other favorite vegan dishes you like to make?\"",
+        "2. Veganism/Lifestyle: \"I saw you posted a vegan pizza! I'm also vegan. What are some of your favorite things about living a vegan lifestyle?\"",
+        "1. Weightlifting/Fitness: \"I saw your post about the workout with Laura Majander. As a 4-time world champion, she must be an amazing trainer! Have you been weightlifting for long?\"",
+        "2. Veganism: \"I noticed you mentioned being vegan in your post. What are some of your favorite vegan meals or restaurants in the area?\"",
+        "1. Vegan/Vegetarian Cooking: \"I saw your veggie mash post - it looks delicious! I'm always looking for new vegan recipes. Do you have any other favorite dishes you like to make?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

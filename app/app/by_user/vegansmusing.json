@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T21:10:08.765676",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T21:09:51.232014",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a text-based meme posted by vegansmusing on Instagram. The word \"Vegan\" is written in large, green cursive font at the top. Below, in smaller, black block letters, the text reads: \"A PERSON WHO HAS THE CRAZY IDEA THAT ANIMALS SHOULDN'T SUFFER.\" The post includes the hashtags #vegan #veganmeme #veganism #veganfollowback #veganforlife #veganaf.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up shot of a vegan Buffalo Ranch \"Chick'n\" sandwich made with oyster mushrooms. It looks delicious and is posted by the account @vegansmusing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a meme about vegan food. It shows a bowl of healthy vegan food (grains, vegetables) above the text \"Vegan Food: When it's good - it's really, really good.\" Below that is the text \"And when it's bad - well... it's still not a DEAD ANIMAL!\" with a cartoon image of french fries.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a colorful vegan sushi platter from a restaurant called \"Garden of Eden\" in Windsor. The platter includes various types of vegan sushi, fried items, and dipping sauces.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is of a box of M&S Bran Flakes cereal. The post is by an account called \"vegansmusing\" and the caption praises the cereal as a good vegan option. The caption also mentions eating the cereal in the sun to get vitamin D.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan sandwich made with tofu scramble, vegan mayo, and tortilla chips on a bun. It's placed on a green plate with some extra tortilla chips on the side.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan cooking and recipes: You could ask about their favorite vegan recipes or cooking tips, especially related to vegan comfort food or creative uses of mushrooms.",
+          "2. Restaurants and food bloggers: You could ask if they have tried other recipes from @thee_burger_dude or if they have any other vegan food bloggers or restaurants they would recommend.",
+          "1. Vegan recipes: You could ask for recommendations for their favorite vegan recipes, or share one of your own.",
+          "2. Vegan humor: The post uses humor to promote veganism. You could ask them about other vegan humor pages they follow or share a vegan joke.",
+          "1.  Vegan cuisine and favorite vegan restaurants."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post, that's a great way to put it! 💚",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism",
+            "Vegan cooking and recipes (especially comfort food)",
+            "Vegan restaurants and food blogging",
+            "Vegan humor",
+            "Healthy eating and nutrition (e.g., vitamin D)"
+          ],
+          "LIFESTYLE": "Likely follows a vegan lifestyle and enjoys cooking and eating vegan food, both at home and in restaurants. Appears to be health-conscious and enjoys sharing their vegan finds and creations with others online.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite vegan comfort food recipes?",
+            "Have you tried any other recipes from @thee_burger_dude, or do you have any other vegan food bloggers or restaurants you would recommend?",
+            "What are your go-to vegan breakfast options?",
+            "Do you know of any other good vegan humor pages online?",
+            "Have you ever been to Garden of Eden in Windsor, and what did you think?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate (about veganism)",
+            "Humorous",
+            "Creative (with food)",
+            "Sharing/Community-oriented (posting about vegan options and recipes)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan cooking and recipes: You could ask about their favorite vegan recipes or cooking tips, especially related to vegan comfort food or creative uses of mushrooms.",
+        "2. Restaurants and food bloggers: You could ask if they have tried other recipes from @thee_burger_dude or if they have any other vegan food bloggers or restaurants they would recommend.",
+        "1. Vegan recipes: You could ask for recommendations for their favorite vegan recipes, or share one of your own.",
+        "2. Vegan humor: The post uses humor to promote veganism. You could ask them about other vegan humor pages they follow or share a vegan joke.",
+        "1.  Vegan cuisine and favorite vegan restaurants."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

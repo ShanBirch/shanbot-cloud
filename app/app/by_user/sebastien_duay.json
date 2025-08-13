@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T21:18:22.667993",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T21:17:59.209961",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a side-by-side comparison of two photos of a man, presumably sebastien_duay, in a bathroom setting. He's taking a selfie in the mirror, showcasing his muscular physique. He's wearing a black tank top with a gold design, black shorts with yellow stripes, and a baseball cap. The bathroom has gray walls, a toilet, and a sink with a chrome faucet. The lighting is somewhat dim.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a muscular man on a beach, flexing his biceps. He's standing next to a shovel and a pile of sand, suggesting he's been building something, likely a sandcastle or beach pool, as his caption indicates.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man riding a bicycle on a paved road through a forested area. He is participating in the Kunanyi Challenge 2025, a 21.6km ride with a 1271m elevation gain. He mentions shaving 6 minutes off his previous best time.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man posing to display his physique. He is wearing briefs, socks, and sneakers. The background shows a house and some greenery.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person holding a newborn baby. The caption mentions the baby's name (Dion), birthdate, weight, and also mentions the baby meeting his older sisters.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man, sebastien_duay, posting a Mother's Day tribute to his wife, @chelseaduay. The photo features the wife with their two young daughters, one in a baby carrier and the other holding her hand.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Beach Activities/Sandcastle Building:** Ask about the types of sand structures he enjoys building or if he has any tips for building a good sandcastle.",
+          "2.  **BMX/Active Lifestyle:** He mentions BMX in his caption, so asking about his experience with the sport or other active hobbies could be a good conversation starter.",
+          "1.  **Cycling/Kunanyi Challenge:** Ask about his training regimen for the Kunanyi Challenge or other cycling events he participates in. You could also ask about the specific challenges of the Kunanyi Challenge, such as the elevation gain.",
+          "2.  **Parenthood/Work-Life Balance:** He mentions not riding much since Dion was born. You could ask about the challenges of balancing parenthood with his active lifestyle and how he manages to find time for cycling.",
+          "1.  Fitness and Training: He mentions being interested in how he trains and offering programs. Asking about his training philosophy, specific exercises he finds effective, or the types of programs he offers could be good starting points."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You looked like you were feeling good about your progress 💪",
+        "profile_bio": {
+          "PERSON NAME": "Sébastien Duay",
+          "INTERESTS": [
+            "Fitness & Bodybuilding",
+            "Cycling (especially Kunanyi Challenge)",
+            "Beach Activities (Sandcastle Building)",
+            "Family & Parenthood",
+            "BMX/Active Lifestyle"
+          ],
+          "LIFESTYLE": "Sébastien appears to lead an active and family-oriented lifestyle. He is dedicated to fitness, regularly showcasing his physique and participating in cycling events like the Kunanyi Challenge. He enjoys spending time outdoors, particularly at the beach. He is a devoted husband to Chelsea Duay (@chelseaduay) and a father of three daughters and a son (Dion). He seems to balance his fitness pursuits with his family responsibilities.",
+          "CONVERSATION STARTERS": [
+            "What types of sand structures do you enjoy building at the beach, and do you have any tips for building a good sandcastle?",
+            "You mentioned BMX in one of your captions. What's your experience with the sport, and what other active hobbies do you enjoy?",
+            "Can you tell me more about your training regimen for the Kunanyi Challenge? What are some of the specific challenges of the race, especially with the elevation gain?",
+            "Now that Dion is here, how are you balancing parenthood with your active lifestyle, and how do you find time for cycling?",
+            "I'm interested in learning more about your training philosophy and the types of fitness programs you offer. What exercises do you find most effective?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated (to fitness, family, and cycling)",
+            "Active (enjoys physical activities and outdoor pursuits)",
+            "Proud (of his physique, cycling achievements, and family)",
+            "Family-oriented (values his wife and children)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Beach Activities/Sandcastle Building:** Ask about the types of sand structures he enjoys building or if he has any tips for building a good sandcastle.",
+        "2.  **BMX/Active Lifestyle:** He mentions BMX in his caption, so asking about his experience with the sport or other active hobbies could be a good conversation starter.",
+        "1.  **Cycling/Kunanyi Challenge:** Ask about his training regimen for the Kunanyi Challenge or other cycling events he participates in. You could also ask about the specific challenges of the Kunanyi Challenge, such as the elevation gain.",
+        "2.  **Parenthood/Work-Life Balance:** He mentions not riding much since Dion was born. You could ask about the challenges of balancing parenthood with his active lifestyle and how he manages to find time for cycling.",
+        "1.  Fitness and Training: He mentions being interested in how he trains and offering programs. Asking about his training philosophy, specific exercises he finds effective, or the types of programs he offers could be good starting points."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

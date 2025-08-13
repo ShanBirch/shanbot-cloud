@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T12:59:52.124918",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T12:59:33.468555",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a person sitting on a rocky outcrop by the sea. The water is clear and blue, and the sky is bright. The rocks are large and jagged, and there is some greenery growing on them. The person is wearing a blue and white striped shirt.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a Junkers Ju 52 airplane at Bodensee-Airport Friedrichshafen. The hashtags used by the poster also confirm this.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a view of Lake Constance (Bodensee) from the shore. The foreground is filled with pebbles and a small patch of greenery, leading to the water and distant sailboats. The hashtags #langenargen and #bodensee are included in the post.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of rocks and driftwood on a lakeshore. The lake and some buildings are visible in the blurred background. The hashtags associated with the post are #unrat, #bodensee, #bored, #langenargen, and #walk.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a cluster of red and black insects (likely firebugs or similar) on a tree trunk covered in moss. The user captioned the post with \"Baumwanzen #nature #insects #disgusting\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a silhouette of a person standing by a lake, likely Lake Constance, based on the hashtag. The sky is cloudy and the water is calm.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Aviation History/Vintage Aircraft:** \"That's a great photo of the Ju 52! Are you a big fan of vintage aircraft?\"",
+          "2.  **Travel/Bodensee-Airport Friedrichshafen:** \"I saw you posted this from Bodensee-Airport Friedrichshafen. Have you flown on the Ju 52, or were you just visiting the airport?\"",
+          "1.  Travel/Local Area: \"I saw you posted a picture from Langenargen. Have you lived there long? What are some of your favorite spots in the area?\"",
+          "2.  Hobbies/Interests: \"The sailboats in the distance of your photo look great! Do you enjoy sailing on Lake Constance?\"",
+          "1.  **Bodensee/Lake Constance:** \"I saw your post from Bodensee. Have you been there long? It looks like a beautiful area.\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Johannes Fritsch (based on username johannesfritsch1337)",
+          "INTERESTS": [
+            "Lake Constance (Bodensee) and surrounding areas",
+            "Aviation History, particularly the Junkers Ju 52",
+            "Nature and Wildlife (especially insects, despite finding some 'disgusting')",
+            "Photography (documenting his surroundings)",
+            "Travel and exploration of local areas"
+          ],
+          "LIFESTYLE": "Likely a resident of or frequent visitor to the Lake Constance (Bodensee) area, particularly Langenargen. He enjoys exploring the natural beauty of the region, including the lake, shorelines, and surrounding landscapes. He seems to have an interest in aviation history and may visit local airports. He also enjoys taking walks and observing nature, even the less appealing aspects.",
+          "CONVERSATION STARTERS": [
+            "Have you ever flown on a Junkers Ju 52, or are you just interested in aviation history?",
+            "What are some of your favorite hidden gems around Langenargen and Lake Constance?",
+            "What's the most interesting insect you've encountered around Lake Constance?",
+            "Do you have any recommendations for scenic walking trails around Lake Constance?",
+            "What's your favorite time of year to visit Lake Constance, and why?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Observant: Pays attention to details in nature and his surroundings.",
+            "Curious: Shows interest in a variety of subjects, from aviation to insects.",
+            "Appreciative of Nature: Enjoys spending time outdoors and capturing the beauty of Lake Constance.",
+            "Slightly Humorous/Self-Aware: Uses the hashtag 'bored' and 'disgusting' which suggests a sense of humor and self-awareness."
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Aviation History/Vintage Aircraft:** \"That's a great photo of the Ju 52! Are you a big fan of vintage aircraft?\"",
+        "2.  **Travel/Bodensee-Airport Friedrichshafen:** \"I saw you posted this from Bodensee-Airport Friedrichshafen. Have you flown on the Ju 52, or were you just visiting the airport?\"",
+        "1.  Travel/Local Area: \"I saw you posted a picture from Langenargen. Have you lived there long? What are some of your favorite spots in the area?\"",
+        "2.  Hobbies/Interests: \"The sailboats in the distance of your photo look great! Do you enjoy sailing on Lake Constance?\"",
+        "1.  **Bodensee/Lake Constance:** \"I saw your post from Bodensee. Have you been there long? It looks like a beautiful area.\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

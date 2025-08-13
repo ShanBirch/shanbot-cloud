@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T19:51:05.567092",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T19:50:47.817919",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a vibrant and colorful display of fresh produce at a market in Chiang Mai, Thailand. There's a wide variety of vegetables, including carrots, cucumbers, leafy greens, and other local items, neatly arranged on a table. A vendor wearing a blue and white patterned shirt is partially visible behind the produce. In the background, other people are browsing the market stalls.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of Thai vegan food, specifically rice, tofu-stew, and stir-fried vegetables. The location is tagged as Chiang Mai, Thailand.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan sushi. The caption mentions hashtags like #vegan, #veganfood, #vegansushi, #healthyfood, #chiangmai, and #youtube.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan pizza topped with various vegetables like zucchini, bell peppers, and mushrooms. The post is tagged with hashtags related to vegan food, healthy eating, and Chiang Mai, Thailand.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan food, including vegan fish, sweet and sour tofu, stir-fried vegetables, and pickled peppers. The post is tagged with hashtags related to veganism, healthy food, and Chiang Mai, Thailand.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of kimchi being made, featuring napa cabbage and other ingredients. The caption indicates it's \"kimchi in process.\" The location is listed as Chiang Mai, Thailand.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Vegan Food/Recipes:** Given the focus on vegan food and the hashtags used, asking about their favorite vegan recipes or restaurants in Chiang Mai could be a good conversation starter.",
+          "2.  **Travel in Thailand:** Since the photo is taken in Chiang Mai, inquiring about their travel experiences in Thailand, favorite places to visit, or recommendations for things to do could spark a conversation.",
+          "1. Vegan Cuisine: Ask about their favorite vegan sushi recipes or other vegan dishes they enjoy making or eating.",
+          "2. Travel/Chiang Mai: Inquire about their experience in Chiang Mai, Thailand, and ask for recommendations on vegan restaurants or activities in the area.",
+          "1. Vegan food and recipes: Ask about their favorite vegan pizza toppings or other vegan dishes they enjoy."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post looked like such a cool market, all that fresh produce looked amazing! 🥬",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Food",
+            "Vegan Cooking/Recipes",
+            "Travel (Specifically Thailand/Chiang Mai)",
+            "Healthy Eating",
+            "Kimchi Making"
+          ],
+          "LIFESTYLE": "Likely a vegan traveler or expat living in or frequently visiting Chiang Mai, Thailand. Enjoys cooking and eating vegan food, exploring local markets, and potentially documenting their experiences (possibly on YouTube). Appears to prioritize healthy eating.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite vegan restaurants in Chiang Mai?",
+            "Do you have any must-try vegan recipes you'd recommend?",
+            "What are some of your favorite things to do in Chiang Mai besides eating?",
+            "I'm curious about your kimchi-making process! What's your favorite part?",
+            "What other parts of Thailand have you explored, and what did you enjoy about them?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous (willing to try new foods and travel)",
+            "Health-conscious",
+            "Creative (in the kitchen, experimenting with vegan recipes)",
+            "Engaged (with local culture, as evidenced by market visits and kimchi making)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Vegan Food/Recipes:** Given the focus on vegan food and the hashtags used, asking about their favorite vegan recipes or restaurants in Chiang Mai could be a good conversation starter.",
+        "2.  **Travel in Thailand:** Since the photo is taken in Chiang Mai, inquiring about their travel experiences in Thailand, favorite places to visit, or recommendations for things to do could spark a conversation.",
+        "1. Vegan Cuisine: Ask about their favorite vegan sushi recipes or other vegan dishes they enjoy making or eating.",
+        "2. Travel/Chiang Mai: Inquire about their experience in Chiang Mai, Thailand, and ask for recommendations on vegan restaurants or activities in the area.",
+        "1. Vegan food and recipes: Ask about their favorite vegan pizza toppings or other vegan dishes they enjoy."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

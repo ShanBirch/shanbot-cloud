@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T19:44:27.549069",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T19:44:05.062979",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up selfie of a person holding a tabby cat. The person is on the left side of the frame, and the cat is nestled against them, taking up the right side of the frame. The person has fair skin, light brown hair, and is wearing a dark blue sweater. The cat has green eyes and its tabby markings are clearly visible. The post is captioned \"HAPPY BIRTHDAY BABY\" and includes a heart and cat emoji.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black and white photo of a tabby cat lying on a carpet. There's a tripod in the background, suggesting the person might be into photography or videography.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two people standing on a viewing platform overlooking a mountainous, forested area. The woman is wearing a t-shirt that says \"Obstacle Shell.\" The hashtags include #vegan, #veganlifestyle, #biinkathleisure, #crowsnestfalls, #bushwalk, and #vivobarefoot.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man standing at a lookout point with a city skyline in the background. He is wearing a red t-shirt with the word \"BIINK\" on it. The hashtags associated with the post include #brisbane, #mtcootha, #vegan, #veganfitness, #veganlifestyle, #mensclothing, and #mensfashion.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man smiling at the camera while holding a can of ginger beer. In front of him is a plate of three vegan burgers. In the background, there are two bicycles. The post includes hashtags related to vegan food and fitness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A person is walking on a footpath lined with Jacaranda trees in full bloom. The hashtags indicate they are interested in walking, veganism, photography, and scenery.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Cats: Comment on the cat's breed, personality, or ask about their name and how they got the cat.",
+          "2. Photography/Videography: Ask about the tripod in the background, their experience with photography, or their favorite subjects to photograph.",
+          "1.  Obstacle course racing: You could ask about the Obstacle Shell shirt and if she participates in obstacle course races.",
+          "2.  Veganism: You could ask about their favorite vegan recipes or restaurants.",
+          "1. Veganism/Vegan Fitness: The hashtags suggest an interest in veganism and vegan fitness. A conversation could start by asking about their favorite vegan restaurants in Brisbane or their fitness routine."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! Your cat looked so cute and cozy.😻",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism/Vegan Lifestyle",
+            "Cats",
+            "Photography/Videography",
+            "Fitness (especially vegan fitness)",
+            "Outdoor Activities (hiking, bushwalking)"
+          ],
+          "LIFESTYLE": "Appears to live an active, vegan lifestyle, enjoying outdoor activities like hiking and bushwalking. They seem to be interested in photography and videography, possibly as a hobby. They are likely based in or near Brisbane, Australia, and have a strong connection to their pet cat.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite vegan restaurant in Brisbane?",
+            "Tell me about your cat! What's their name and how did they come into your life?",
+            "I noticed the tripod in one of your photos. Are you into photography or videography? What do you enjoy photographing the most?",
+            "I saw you wearing an 'Obstacle Shell' shirt. Do you participate in obstacle course races?",
+            "What's your favorite vegan recipe to make after a long hike?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Animal Lover",
+            "Active/Outdoorsy",
+            "Health-Conscious",
+            "Creative (due to photography interest)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Cats: Comment on the cat's breed, personality, or ask about their name and how they got the cat.",
+        "2. Photography/Videography: Ask about the tripod in the background, their experience with photography, or their favorite subjects to photograph.",
+        "1.  Obstacle course racing: You could ask about the Obstacle Shell shirt and if she participates in obstacle course races.",
+        "2.  Veganism: You could ask about their favorite vegan recipes or restaurants.",
+        "1. Veganism/Vegan Fitness: The hashtags suggest an interest in veganism and vegan fitness. A conversation could start by asking about their favorite vegan restaurants in Brisbane or their fitness routine."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

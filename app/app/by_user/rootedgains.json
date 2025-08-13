@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T23:33:10.643709",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T23:32:53.106150",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by rootedgains. The post features a video of the user practicing handstands outdoors. The user is wearing a blue shirt and a maroon backpack. The background shows trees and an overcast sky. The caption discusses the user's feelings about handstand practice and how it has helped them both physically and mentally.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person holding a mason jar filled with overnight oats. The caption includes the recipe for the oats. There's also a potted plant visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person doing a handstand in what appears to be their home gym. There's also an exercise bike in the background. The post caption mentions working on handstand progression and video editing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a salad with pumpkin seeds and vegan caesar dressing, along with a bag of roasted pumpkin seeds and a bottle of Trader Joe's Vegan Caesar Dressing in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a screenshot of an Instagram post by @rootedgains, displaying their daily nutrient intake (protein, carbohydrates, fiber, sugar, and fat) compared to their goals. They are tracking their macros and mention it's been a struggle to get back into the details of nutrition.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person doing a handstand in what appears to be a gym or fitness studio. The caption discusses their commitment to maintaining their fitness routine while traveling, including building on their handstand skills.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Healthy Eating/Recipes:** Discussing other healthy recipes they enjoy, asking for variations on the overnight oats recipe, or sharing experiences with similar breakfast options.",
+          "2.  **Gardening/Plants:** Commenting on the plant in the background and asking about what kind of plant it is, or sharing gardening tips.",
+          "1. Handstand training/gymnastics/bodyweight fitness: You could ask about their handstand training routine, tips for improving balance, or other bodyweight exercises they enjoy.",
+          "2. Video editing: They specifically asked for video editing tips, so you could offer advice or ask what software they're currently using.",
+          "1. **Trader Joe's:** Since the post mentions Trader Joe's products, you could ask about their favorite items from the store or ask for recommendations."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! It was cool to see the progress you made with your handstands over the past year 💪",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Handstands & Bodyweight Fitness",
+            "Healthy Eating & Vegan/Plant-Based Recipes",
+            "Macro Tracking & Nutrition",
+            "Gardening/Plants",
+            "Video Editing"
+          ],
+          "LIFESTYLE": "Appears to be a health-conscious individual who prioritizes fitness and nutrition. They enjoy handstand training and incorporate it into their routine, even while traveling. They are interested in plant-based eating and track their macros. They also seem to enjoy gardening or at least have an appreciation for plants. They are also learning video editing.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite variations on your overnight oats recipe?",
+            "That plant in the background looks great! What kind is it, and do you have any gardening tips?",
+            "What's your current handstand training routine like? Any tips for improving balance?",
+            "What video editing software are you currently using, and what are you finding challenging about it?",
+            "What are your other favorite vegan products from Trader Joe's?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Disciplined (consistent fitness routine, macro tracking)",
+            "Health-conscious (focus on nutrition and exercise)",
+            "Dedicated (committed to handstand training and skill development)",
+            "Open to learning (interested in video editing, shares recipes)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Healthy Eating/Recipes:** Discussing other healthy recipes they enjoy, asking for variations on the overnight oats recipe, or sharing experiences with similar breakfast options.",
+        "2.  **Gardening/Plants:** Commenting on the plant in the background and asking about what kind of plant it is, or sharing gardening tips.",
+        "1. Handstand training/gymnastics/bodyweight fitness: You could ask about their handstand training routine, tips for improving balance, or other bodyweight exercises they enjoy.",
+        "2. Video editing: They specifically asked for video editing tips, so you could offer advice or ask what software they're currently using.",
+        "1. **Trader Joe's:** Since the post mentions Trader Joe's products, you could ask about their favorite items from the store or ask for recommendations."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

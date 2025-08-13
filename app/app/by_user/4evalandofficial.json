@@ -1,0 +1,108 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T13:34:54.796330",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 4,
+        "timestamp": "2025-04-14T13:34:42.355783",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a promotional shot featuring a man with long hair and a beard sitting on a Harley Davidson motorcycle. He is wearing a black long-sleeved shirt with graphics and dark jeans. The background includes a brick building and a graffitied wall. The post promotes the \"WildChild\" jersey.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man wearing a grey sweatshirt with a unique design, a hat, sunglasses, and jewelry. He is standing outside in what appears to be an urban environment with buildings in the background. The post mentions a \"Fly Sweater Coming Soon\" and includes the hashtag #4evaland.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man standing next to a motorcycle with a pink surfboard attached to the side. He is wearing a t-shirt with the word \"4evaland\" on it and a cartoon mouse graphic.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man sitting on a beach with a surfboard. He is wearing a t-shirt that says \"4evaland\" and has tattoos on his arms and legs. The background includes vegetation and a building.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Fashion/Style:** Commenting on the \"Fly Sweater\" design or asking about his personal style and where he gets his inspiration.",
+          "2. **Location/Travel:** Inquiring about the location of the photo and if he enjoys exploring urban environments.",
+          "1.  Motorcycles: \"That's a cool bike! What kind is it and what do you like most about riding?\"",
+          "2.  Surfing: \"I noticed the surfboard on your bike. Do you surf often? Any favorite spots?\"",
+          "1. Surfing: Ask about his favorite surf spots or any recent surfing adventures."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Evaland (Likely a stage name or brand name, full name Unknown)",
+          "INTERESTS": [
+            "Motorcycles (Harley Davidson)",
+            "Surfing",
+            "Fashion/Streetwear (Specifically his own '4evaland' brand)",
+            "Urban Culture/Environment",
+            "Art/Graffiti (Implied by background in promotional shot)"
+          ],
+          "LIFESTYLE": "Entrepreneur/Designer promoting his '4evaland' brand. He appears to enjoy a lifestyle that blends urban and outdoor activities, including motorcycle riding and surfing. He likely travels to different locations for photo shoots and enjoys showcasing his unique style.",
+          "CONVERSATION STARTERS": [
+            "I love the 'WildChild' jersey! What was the inspiration behind the design?",
+            "That Harley Davidson looks amazing. What's your favorite thing about riding?",
+            "I saw the surfboard on your bike. Where's your go-to surf spot?",
+            "The 'Fly Sweater' looks really cool. When is it dropping and what other designs are you working on?",
+            "I noticed you're often in urban environments. What do you enjoy most about exploring cities?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative/Artistic",
+            "Adventurous",
+            "Stylish/Fashion-conscious",
+            "Independent/Individualistic"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Fashion/Style:** Commenting on the \"Fly Sweater\" design or asking about his personal style and where he gets his inspiration.",
+        "2. **Location/Travel:** Inquiring about the location of the photo and if he enjoys exploring urban environments.",
+        "1.  Motorcycles: \"That's a cool bike! What kind is it and what do you like most about riding?\"",
+        "2.  Surfing: \"I noticed the surfboard on your bike. Do you surf often? Any favorite spots?\"",
+        "1. Surfing: Ask about his favorite surf spots or any recent surfing adventures."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

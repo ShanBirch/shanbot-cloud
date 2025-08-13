@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T10:39:22.078727",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T10:39:01.350677",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a selfie taken by a man in a mirror. He is shirtless, showing off his physique. He is wearing dark pants. The background is a cluttered room with various items visible, including a laundry basket and other household objects. The lighting is somewhat dim.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man performing a bench press in a gym. The post is promoting a video about his \"push day\" workout.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man in a gym performing a weightlifting exercise, specifically a barbell row. The caption mentions \"pull day clips\" and includes hashtags related to fitness, bodybuilding, and motivation.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person doing a lat pulldown exercise in a gym. The caption mentions it's part of a push/pull/legs split routine. The hashtags include #pullday, #bodybuilding, #fitnessmotivation, and #workout.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person performing a bench press in a gym. The post caption mentions it's a \"push day\" and they are working on their chest and shoulders, while also incorporating cardio.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person in a gym environment, seemingly during a back day workout. The person mentions focusing on cardio and disliking it. The image also includes hashtags related to fitness, bodybuilding, and motivation.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Bench press technique: You could ask about his bench press technique, such as his grip width, arch, or leg drive.",
+          "2.  Push day routine: You could ask about the other exercises he includes in his push day routine besides bench press.",
+          "1.  **Workout routines/tips:** You could ask about his pull day routine, favorite pull exercises, or any tips he has for improving form or strength in pull exercises.",
+          "2.  **Music preference:** The caption includes \"Lil Wayne • Money On My Mind,\" so you could ask about his music preferences during workouts or if he has any specific songs that motivate him.",
+          "1.  **Workout Splits:** Ask about their experience with the push/pull/legs split, or share your own workout routine and ask for their opinion."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Weightlifting/Bodybuilding",
+            "Fitness & Exercise",
+            "Push/Pull/Legs Workout Splits",
+            "Music (Specifically Lil Wayne)",
+            "Self-Improvement (Motivation)"
+          ],
+          "LIFESTYLE": "Likely a fitness enthusiast who dedicates time to weightlifting and follows a structured workout routine (push/pull/legs). Appears to prioritize building muscle and strength. The cluttered room suggests a focus on fitness might take precedence over meticulous organization, or that the gym is a higher priority than home decor.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite exercise for targeting the back on pull day, and why?",
+            "I noticed you listen to Lil Wayne during your workouts. What other artists or genres do you find motivating in the gym?",
+            "I'm curious about your experience with the push/pull/legs split. What are some of the biggest benefits you've seen from it?",
+            "What's your take on incorporating cardio into a weightlifting routine? Do you have any tips for making it less of a chore?",
+            "I'm always looking to improve my bench press technique. What are some key things you focus on in terms of grip, arch, and leg drive?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated/Disciplined (Consistent workout routine)",
+            "Motivated (Posts about fitness motivation)",
+            "Focused (Prioritizes fitness goals)",
+            "Unpretentious (Shows a realistic, slightly cluttered home environment)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Bench press technique: You could ask about his bench press technique, such as his grip width, arch, or leg drive.",
+        "2.  Push day routine: You could ask about the other exercises he includes in his push day routine besides bench press.",
+        "1.  **Workout routines/tips:** You could ask about his pull day routine, favorite pull exercises, or any tips he has for improving form or strength in pull exercises.",
+        "2.  **Music preference:** The caption includes \"Lil Wayne • Money On My Mind,\" so you could ask about his music preferences during workouts or if he has any specific songs that motivate him.",
+        "1.  **Workout Splits:** Ask about their experience with the push/pull/legs split, or share your own workout routine and ask for their opinion."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

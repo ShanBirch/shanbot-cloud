@@ -1,0 +1,91 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 8,
+      "user_messages": 7,
+      "ai_messages": 1,
+      "ai_questions": 1,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": true,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-10T20:10:36.527996",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-09T02:28:21.957358+00:00",
+          "type": "user",
+          "text": "Oh yes he is such a gorgeous boy :) he is becoming very affectionate with more time you spend with him :) + https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=709976171358938&signature=AYcfn3W9_O3AhGODjfp1ae5dVP7QCGjR46gDbNai2i6EN6s5O6i6LUY003VKKyQn_WdqLne5lNt92WYg6yoFEikuM7kNR1vBXlkZZC-WPmYa24YlR-yuU9lpq0v3jtl-ks45bXmHcnVU6AWpJ1G7XyaQo_09NbwAUmL6J4NWqfc0k4uE5NwG-O3z65LCase91NP0lDkXjyK69-nJrLKoNLHNXNyl"
+        },
+        {
+          "timestamp": "2025-04-09T02:28:21.991649+00:00",
+          "type": "ai",
+          "text": "Haha yeah he's getting super cuddly now hey! What are you up to today Alana?"
+        },
+        {
+          "timestamp": "2025-04-09T05:07:40.500913+00:00",
+          "type": "user",
+          "text": "Oh yes he is such a gorgeous boy :) he is becoming very affectionate with more time you spend with him :) + https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=709976171358938&signature=AYcfn3W9_O3AhGODjfp1ae5dVP7QCGjR46gDbNai2i6EN6s5O6i6LUY003VKKyQn_WdqLne5lNt92WYg6yoFEikuM7kNR1vBXlkZZC-WPmYa24YlR-yuU9lpq0v3jtl-ks45bXmHcnVU6AWpJ1G7XyaQo_09NbwAUmL6J4NWqfc0k4uE5NwG-O3z65LCase91NP0lDkXjyK69-nJrLKoNLHNXNyl + Shannon: Haha yeah he's getting super cuddly now hey! What are you up to today Alana? {{cuf_11967919}}  {{cuf_11967920}} Lead : Dentist :( getting a bunny pen ready to look after during school holidays and then sleeping for night shift haha. + Shannon: Oh no dentist hey! Hope it's not too bad! Bunny pen sounds cute though :) Night shift too, busy day! What do you do for night shift? {{cuf_11967919}}  {{cuf_11967920}} Lead : I’m a nurse."
+        },
+        {
+          "timestamp": "2025-04-09T05:19:57.585682+00:00",
+          "type": "user",
+          "text": "Oh yes he is such a gorgeous boy :) he is becoming very affectionate with more time you spend with him :) + https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=709976171358938&signature=AYcfn3W9_O3AhGODjfp1ae5dVP7QCGjR46gDbNai2i6EN6s5O6i6LUY003VKKyQn_WdqLne5lNt92WYg6yoFEikuM7kNR1vBXlkZZC-WPmYa24YlR-yuU9lpq0v3jtl-ks45bXmHcnVU6AWpJ1G7XyaQo_09NbwAUmL6J4NWqfc0k4uE5NwG-O3z65LCase91NP0lDkXjyK69-nJrLKoNLHNXNyl + Shannon: Haha yeah he's getting super cuddly now hey! What are you up to today Alana? {{cuf_11967919}}  {{cuf_11967920}} Lead : Dentist :( getting a bunny pen ready to look after during school holidays and then sleeping for night shift haha. + Shannon: Oh no dentist hey! Hope it's not too bad! Bunny pen sounds cute though :) Night shift too, busy day! What do you do for night shift? {{cuf_11967919}}  {{cuf_11967920}} Lead : I’m a nurse. + Shannon: Nurse hey, fair play! What kind of nursing are you in to? {{cuf_11967919}}  {{cuf_11967920}} Lead : Mental health. \nI work in Emergancy mental health so can be hectic most of the time especially with all the drugs and alcohol coming in as we deal with them to"
+        },
+        {
+          "timestamp": "2025-04-09T05:32:29.810365+00:00",
+          "type": "user",
+          "text": "Oh yes he is such a gorgeous boy :) he is becoming very affectionate with more time you spend with him :) + https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=709976171358938&signature=AYcfn3W9_O3AhGODjfp1ae5dVP7QCGjR46gDbNai2i6EN6s5O6i6LUY003VKKyQn_WdqLne5lNt92WYg6yoFEikuM7kNR1vBXlkZZC-WPmYa24YlR-yuU9lpq0v3jtl-ks45bXmHcnVU6AWpJ1G7XyaQo_09NbwAUmL6J4NWqfc0k4uE5NwG-O3z65LCase91NP0lDkXjyK69-nJrLKoNLHNXNyl + Shannon: Haha yeah he's getting super cuddly now hey! What are you up to today Alana? {{cuf_11967919}}  {{cuf_11967920}} Lead : Dentist :( getting a bunny pen ready to look after during school holidays and then sleeping for night shift haha. + Shannon: Oh no dentist hey! Hope it's not too bad! Bunny pen sounds cute though :) Night shift too, busy day! What do you do for night shift? {{cuf_11967919}}  {{cuf_11967920}} Lead : I’m a nurse. + Shannon: Nurse hey, fair play! What kind of nursing are you in to? {{cuf_11967919}}  {{cuf_11967920}} Lead : Mental health. \nI work in Emergancy mental health so can be hectic most of the time especially with all the drugs and alcohol coming in as we deal with them to + Shannon: Mental health emergency, woah that's full on!  Must be pretty draining work hey? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes definitely can be and just hope this week is better than last 😛"
+        },
+        {
+          "timestamp": "2025-04-09T05:45:27.138527+00:00",
+          "type": "user",
+          "text": "Oh yes he is such a gorgeous boy :) he is becoming very affectionate with more time you spend with him :) + https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=709976171358938&signature=AYcfn3W9_O3AhGODjfp1ae5dVP7QCGjR46gDbNai2i6EN6s5O6i6LUY003VKKyQn_WdqLne5lNt92WYg6yoFEikuM7kNR1vBXlkZZC-WPmYa24YlR-yuU9lpq0v3jtl-ks45bXmHcnVU6AWpJ1G7XyaQo_09NbwAUmL6J4NWqfc0k4uE5NwG-O3z65LCase91NP0lDkXjyK69-nJrLKoNLHNXNyl + Shannon: Haha yeah he's getting super cuddly now hey! What are you up to today Alana? {{cuf_11967919}}  {{cuf_11967920}} Lead : Dentist :( getting a bunny pen ready to look after during school holidays and then sleeping for night shift haha. + Shannon: Oh no dentist hey! Hope it's not too bad! Bunny pen sounds cute though :) Night shift too, busy day! What do you do for night shift? {{cuf_11967919}}  {{cuf_11967920}} Lead : I’m a nurse. + Shannon: Nurse hey, fair play! What kind of nursing are you in to? {{cuf_11967919}}  {{cuf_11967920}} Lead : Mental health. \nI work in Emergancy mental health so can be hectic most of the time especially with all the drugs and alcohol coming in as we deal with them to + Shannon: Mental health emergency, woah that's full on!  Must be pretty draining work hey? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes definitely can be and just hope this week is better than last 😛 + Shannon: Yeah for sure, mental health emergency nurse is full on! Hope this week's a bit smoother for ya!  Do you get much time to chill out outside of work? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yeah not thag I have any energy to do anything. I seem to feel better doing night shifts than my days off lol. I’m off to sleep now to get some zzzs in before I get a bunny for the week. Hope you have a good day :)"
+        },
+        {
+          "timestamp": "2025-04-09T09:54:39.430151+00:00",
+          "type": "user",
+          "text": "Oh yes he is such a gorgeous boy :) he is becoming very affectionate with more time you spend with him :) + https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=709976171358938&signature=AYcfn3W9_O3AhGODjfp1ae5dVP7QCGjR46gDbNai2i6EN6s5O6i6LUY003VKKyQn_WdqLne5lNt92WYg6yoFEikuM7kNR1vBXlkZZC-WPmYa24YlR-yuU9lpq0v3jtl-ks45bXmHcnVU6AWpJ1G7XyaQo_09NbwAUmL6J4NWqfc0k4uE5NwG-O3z65LCase91NP0lDkXjyK69-nJrLKoNLHNXNyl + Shannon: Haha yeah he's getting super cuddly now hey! What are you up to today Alana? {{cuf_11967919}}  {{cuf_11967920}} Lead : Dentist :( getting a bunny pen ready to look after during school holidays and then sleeping for night shift haha. + Shannon: Oh no dentist hey! Hope it's not too bad! Bunny pen sounds cute though :) Night shift too, busy day! What do you do for night shift? {{cuf_11967919}}  {{cuf_11967920}} Lead : I’m a nurse. + Shannon: Nurse hey, fair play! What kind of nursing are you in to? {{cuf_11967919}}  {{cuf_11967920}} Lead : Mental health. \nI work in Emergancy mental health so can be hectic most of the time especially with all the drugs and alcohol coming in as we deal with them to + Shannon: Mental health emergency, woah that's full on!  Must be pretty draining work hey? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes definitely can be and just hope this week is better than last 😛 + Shannon: Yeah for sure, mental health emergency nurse is full on! Hope this week's a bit smoother for ya!  Do you get much time to chill out outside of work? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yeah not thag I have any energy to do anything. I seem to feel better doing night shifts than my days off lol. I’m off to sleep now to get some zzzs in before I get a bunny for the week. Hope you have a good day :) + Shannon: Yeah night shift is a different world hey! Makes sense you feel better on shift if days off are draining 😅 Hope you get a good sleep and enjoy bunny company!  Is it a friend's bunny or something?  Lead : Thank you :) I used to look after this bunny when I had the bunny boarding business and now I just keep the regulars if they still want to come here :)"
+        },
+        {
+          "timestamp": "2025-04-09T10:16:40.652313+00:00",
+          "type": "user",
+          "text": "Oh yes he is such a gorgeous boy :) he is becoming very affectionate with more time you spend with him :) + https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=709976171358938&signature=AYcfn3W9_O3AhGODjfp1ae5dVP7QCGjR46gDbNai2i6EN6s5O6i6LUY003VKKyQn_WdqLne5lNt92WYg6yoFEikuM7kNR1vBXlkZZC-WPmYa24YlR-yuU9lpq0v3jtl-ks45bXmHcnVU6AWpJ1G7XyaQo_09NbwAUmL6J4NWqfc0k4uE5NwG-O3z65LCase91NP0lDkXjyK69-nJrLKoNLHNXNyl + Shannon: Haha yeah he's getting super cuddly now hey! What are you up to today Alana? {{cuf_11967919}}  {{cuf_11967920}} Lead : Dentist :( getting a bunny pen ready to look after during school holidays and then sleeping for night shift haha. + Shannon: Oh no dentist hey! Hope it's not too bad! Bunny pen sounds cute though :) Night shift too, busy day! What do you do for night shift? {{cuf_11967919}}  {{cuf_11967920}} Lead : I’m a nurse. + Shannon: Nurse hey, fair play! What kind of nursing are you in to? {{cuf_11967919}}  {{cuf_11967920}} Lead : Mental health. \nI work in Emergancy mental health so can be hectic most of the time especially with all the drugs and alcohol coming in as we deal with them to + Shannon: Mental health emergency, woah that's full on!  Must be pretty draining work hey? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes definitely can be and just hope this week is better than last 😛 + Shannon: Yeah for sure, mental health emergency nurse is full on! Hope this week's a bit smoother for ya!  Do you get much time to chill out outside of work? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yeah not thag I have any energy to do anything. I seem to feel better doing night shifts than my days off lol. I’m off to sleep now to get some zzzs in before I get a bunny for the week. Hope you have a good day :) + Shannon: Yeah night shift is a different world hey! Makes sense you feel better on shift if days off are draining 😅 Hope you get a good sleep and enjoy bunny company!  Is it a friend's bunny or something?  Lead : Thank you :) I used to look after this bunny when I had the bunny boarding business and now I just keep the regulars if they still want to come here :) + Shannon: Oh cool, a bunny boarding business! That sounds like fun hey. {{cuf_11967919}}  {{cuf_11967920}} Lead : Yeah lots of cleaning but it was good :)"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "alana_wilkes12",
+      "user_responses_to_questions": 0,
+      "response_rate": 0.0,
+      "coaching_inquiries": 0,
+      "ai_detections": 0,
+      "first_message_timestamp": "2025-04-09T02:28:21.957358+00:00",
+      "last_message_timestamp": "2025-04-09T10:16:40.652313+00:00",
+      "last_seen_timestamp": "2025-04-09T10:16:40.652313+00:00",
+      "conversation_count": 1,
+      "conversation_duration_str": "7h 48m",
+      "fitness_topic_user_initiated": false,
+      "fitness_topic_ai_initiated": false
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

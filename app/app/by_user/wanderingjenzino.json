@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T01:13:34.594884",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T01:13:16.161558",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by wanderingjenzino is a video taken from inside a car driving on a long, straight highway. The landscape is mostly flat and desert-like with mountains in the distance. The sky is blue with some clouds. The video has a TikTok logo and username on it, and the text overlay says \"I dah hoe\" with a sunglasses emoji. The location is tagged as Idaho.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person standing inside a pavilion at the Queen's Hamlet, Palace of Versailles. The person is raising their arms in the air. The caption expresses a humorous addiction to visiting pavilions.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a video still from wanderingjenzino's Instagram post, showing the Hall of Mirrors at the Palace of Versailles. The caption mentions counting things, specifically relating to \"feminism\" and \"horses.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a compilation of Instagram posts by wanderingjenzino. One post is a TikTok video of her walking on a beach with text overlaying the video that says \"a teacher or a grocer or a judge or a soldier\". The caption of the post says, \"Life's too short to stick to just one thing! Embracing all my loves and living life to the fullest. #PassionPursuit #MultiPassionate #LifelsAnAdventure\". Other images show what appears to be travel photos.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person standing near a scenic view at sunset. The caption mentions \"views, crackers & cheese, and a full tank of gas,\" suggesting a road trip or van life experience. The hashtags #VanLife, #SimpleJoys, and #OnTheRoad further support this.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (wanderingjenzino) on a bicycle in Paris, with the Eiffel Tower in the background. The post caption mentions cycling through Paris and falling in love with the city from the seat of a bike.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Pavilion architecture and history: Ask about their favorite pavilion and why, or discuss interesting facts about the architecture of pavilions.",
+          "2.  Travel experiences: Ask about other places they've traveled to, especially if they involve historical sites or unique architecture.",
+          "1.  Their experience at Versailles: Ask about what specific aspects of the palace they enjoyed or found interesting, or if they have any other recommendations for things to see or do there.",
+          "2.  The \"counting\" activity: Inquire about what they were counting related to feminism and horses, and what insights they gained from that exercise.",
+          "1.  Her various interests and passions: The hashtags #PassionPursuit and #MultiPassionate suggest she has many interests. You could ask her about what other things she is passionate about."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post, the Idaho scenery looked so peaceful. ☀️",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: wanderingjenzino)",
+          "INTERESTS": [
+            "Travel (especially road trips and historical sites)",
+            "Architecture (particularly pavilions and historical buildings like Versailles)",
+            "Cycling",
+            "Feminism",
+            "Multi-passionate pursuits"
+          ],
+          "LIFESTYLE": "Appears to be a traveler, possibly engaging in van life or frequent road trips. Seems to embrace a multi-faceted life, pursuing various interests and passions. Potentially a teacher, grocer, judge, or soldier (or none of these, but open to different experiences).",
+          "CONVERSATION STARTERS": [
+            "What's your favorite pavilion and why? Are there any interesting architectural details that stand out to you?",
+            "You mentioned counting things related to feminism and horses at Versailles. Could you tell me more about that?",
+            "I saw you cycling in Paris! What was your favorite part of exploring the city on two wheels?",
+            "Your post mentioned 'views, crackers & cheese, and a full tank of gas.' What's been your favorite road trip destination so far?",
+            "You seem to have a lot of different passions! What are some of the other things you're currently exploring or working on?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Humorous",
+            "Passionate",
+            "Introspective"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Pavilion architecture and history: Ask about their favorite pavilion and why, or discuss interesting facts about the architecture of pavilions.",
+        "2.  Travel experiences: Ask about other places they've traveled to, especially if they involve historical sites or unique architecture.",
+        "1.  Their experience at Versailles: Ask about what specific aspects of the palace they enjoyed or found interesting, or if they have any other recommendations for things to see or do there.",
+        "2.  The \"counting\" activity: Inquire about what they were counting related to feminism and horses, and what insights they gained from that exercise.",
+        "1.  Her various interests and passions: The hashtags #PassionPursuit and #MultiPassionate suggest she has many interests. You could ask her about what other things she is passionate about."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

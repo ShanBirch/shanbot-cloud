@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T00:51:18.148627",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T00:50:57.023946",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows Ryanburris standing outdoors, likely at an event. He's wearing a white t-shirt and a \"Farr's Best\" baseball cap. He's holding a bottle of \"Seeded Watermelon\" juice from \"Supror\" and smiling at the camera. In the background, there's a tent, a street with a crosswalk, and some people. The overall vibe is positive and community-focused.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows ryanburris at the Picasso restaurant in the Bellagio, Las Vegas. He is attending the #MillionDollarDinner honoring Antonio Pierce and @vadamanager. The dinner was hosted by Andre Farr and Jay Farr and catered by Michelin Star Chef Julian Serrano.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (ryanburris) standing next to a luxury car with its doors open. He is wearing a suit and appears to be celebrating his birthday, as indicated by the caption. The caption also mentions the Grammys and hashtags related to business and entrepreneurship.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man doing a handstand in what appears to be a gym. He is wearing a \"Gold's Gym Social\" t-shirt and the caption mentions inversions, abs, and being vegan. He also uses hashtags such as #gayfitness, #veganbodybuilding, and #discipline.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (ryanburris) at a Planet Fitness gym, working out on a leg press machine. He looks tired but focused. The hashtags in the caption indicate he's into vegan bodybuilding, leg day workouts, and calisthenics.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by ryanburris thanking @mstinalawson, @mrrichardlawson, and @beyonce for inviting him to the Wearable Art Gala 2022. The hashtags include #wearableartgala2022, #beyonce, #harlemnights, #dapper, and #suitstyle.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Las Vegas Restaurants/Dining:** Given the location at the Picasso restaurant in the Bellagio and the mention of Michelin Star Chef Julian Serrano, a conversation could be started about dining experiences in Las Vegas, favorite restaurants, or opinions on Michelin-starred cuisine.",
+          "2.  **Executive Concierge/Business Events:** The post mentions Ryan being an Executive Concierge and attending a business event. A conversation could be started about the nature of his work, the challenges and rewards of being a concierge, or the importance of networking at business events.",
+          "1.  **Luxury Cars:** Comment on the car itself. \"That's a beautiful car! What do you enjoy most about driving it?\"",
+          "2.  **Grammys/Music:** Ask about his involvement with the Grammys or his favorite music from the event. \"Congrats on your involvement with the Grammys! What was your favorite performance this year?\"",
+          "1. **Vegan fitness/bodybuilding:** Since he uses hashtags related to veganism and bodybuilding, you could ask about his diet or training routine as a vegan athlete."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post, you looked like you were having a great time at the event, and that watermelon juice looked refreshing! 🍉",
+        "profile_bio": {
+          "PERSON NAME": "Ryan Burris",
+          "INTERESTS": [
+            "Vegan Fitness & Bodybuilding",
+            "Luxury Experiences (Dining, Cars, Events)",
+            "Business & Entrepreneurship",
+            "Community & Local Events",
+            "Fashion & Style (Suits, Dapper Style)"
+          ],
+          "LIFESTYLE": "Ryan Burris appears to lead an active and multifaceted lifestyle. He is involved in business, possibly as an Executive Concierge, and attends high-profile events like the Grammys and Wearable Art Gala. He is dedicated to vegan fitness, regularly working out and practicing calisthenics. He also enjoys luxury experiences, including fine dining and driving luxury cars. He seems to value community and local events, as seen in his post with the 'Farr's Best' cap and 'Seeded Watermelon' juice.",
+          "CONVERSATION STARTERS": [
+            "I saw you were at the Picasso restaurant in the Bellagio. What's your favorite dish there, or what other Las Vegas restaurants would you recommend?",
+            "Your post about the #MillionDollarDinner looked amazing! What's it like working as an Executive Concierge and attending events like that?",
+            "That's a beautiful car! What do you enjoy most about driving it?",
+            "I noticed you're into vegan bodybuilding. What's your typical training routine and diet like?",
+            "The Wearable Art Gala looked incredible! What was it like meeting @mstinalawson, @mrrichardlawson, and @beyonce?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven: Evidenced by his dedication to fitness and business.",
+            "Social: Attends numerous events and seems to enjoy networking.",
+            "Health-Conscious: Focus on veganism and fitness.",
+            "Stylish: Appears well-dressed and cares about his appearance."
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Las Vegas Restaurants/Dining:** Given the location at the Picasso restaurant in the Bellagio and the mention of Michelin Star Chef Julian Serrano, a conversation could be started about dining experiences in Las Vegas, favorite restaurants, or opinions on Michelin-starred cuisine.",
+        "2.  **Executive Concierge/Business Events:** The post mentions Ryan being an Executive Concierge and attending a business event. A conversation could be started about the nature of his work, the challenges and rewards of being a concierge, or the importance of networking at business events.",
+        "1.  **Luxury Cars:** Comment on the car itself. \"That's a beautiful car! What do you enjoy most about driving it?\"",
+        "2.  **Grammys/Music:** Ask about his involvement with the Grammys or his favorite music from the event. \"Congrats on your involvement with the Grammys! What was your favorite performance this year?\"",
+        "1. **Vegan fitness/bodybuilding:** Since he uses hashtags related to veganism and bodybuilding, you could ask about his diet or training routine as a vegan athlete."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

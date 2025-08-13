@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T22:07:01.402561",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T22:06:44.256278",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a selfie taken by a woman in what appears to be a gym locker room. She is holding her phone up to take the picture, and her face is visible. She's wearing a gray t-shirt and black leggings. Behind her are rows of dark red lockers and a pink gym bag is visible in the lower left corner. The floor is tiled in a black and white pattern.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman taking a mirror selfie. She is wearing headphones and flexing her back muscles. There is also a note taped to the door above the mirror.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (bliss.be.joy) taking a selfie in a bathroom mirror, flexing her back muscles. The caption says, \"I'm feeling strong and feeling so good! :)\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in workout attire, likely after a workout. The caption mentions \"a good workout, breakfast and snuggles.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A woman is taking a selfie in her kitchen while holding a grey cat. The post mentions weight training achievements.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screen capture of an Instagram post by bliss.be.joy. The post features a video of the person doing a conventional deadlift in a gym. The caption mentions it was their first time filming themselves at the gym, and they hit 235lbs. They also mention tearing a callus afterward.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "*   Fitness and workout routines: You could ask about her workout routine, favorite exercises for back muscles, or any fitness goals she's currently working towards.",
+          "*   Music and podcasts: You could ask what kind of music or podcasts she listens to while working out, or if she has any recommendations.",
+          "1.  Fitness/Workout Routine: You could ask her about her workout routine, what exercises she does to build back strength, or if she has any fitness goals she's currently working towards.",
+          "2.  Self-Care/Well-being: The caption mentions feeling good, so you could ask her about her self-care practices or what activities contribute to her overall well-being.",
+          "1. Workout routines: You could ask about her favorite types of workouts or exercises."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You looked great, and I agree that going to the gym can really make the day better! 💖",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Weightlifting/Strength Training",
+            "Fitness",
+            "Self-Care/Well-being",
+            "Music/Podcasts (implied through headphone use)",
+            "Cats"
+          ],
+          "LIFESTYLE": "Appears to be a fitness enthusiast who regularly works out, likely at a gym. She values feeling strong and healthy, and incorporates self-care into her routine. She also seems to enjoy spending time at home with her cat.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite exercises for building back strength?",
+            "What kind of music or podcasts do you listen to while working out?",
+            "What are some of your favorite self-care practices?",
+            "Congratulations on hitting 235lbs on your deadlift! What are your next weightlifting goals?",
+            "Tell me about your cat! What's their name and personality like?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Motivated",
+            "Positive",
+            "Dedicated",
+            "Proud of her accomplishments"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "*   Fitness and workout routines: You could ask about her workout routine, favorite exercises for back muscles, or any fitness goals she's currently working towards.",
+        "*   Music and podcasts: You could ask what kind of music or podcasts she listens to while working out, or if she has any recommendations.",
+        "1.  Fitness/Workout Routine: You could ask her about her workout routine, what exercises she does to build back strength, or if she has any fitness goals she's currently working towards.",
+        "2.  Self-Care/Well-being: The caption mentions feeling good, so you could ask her about her self-care practices or what activities contribute to her overall well-being.",
+        "1. Workout routines: You could ask about her favorite types of workouts or exercises."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

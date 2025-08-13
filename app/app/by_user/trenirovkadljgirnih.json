@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T00:48:46.167257",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T00:48:26.009801",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a path through a forest. The trees are mostly bare, suggesting it's early spring. There are logs piled up on the left side of the path. The path is covered with leaves and dirt, and sunlight is filtering through the trees. The photo appears to be taken on a sunny day.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows pussy willow branches in early spring, with bare trees in the background. The post also includes hashtags related to running, gymnastics, and kettlebell workouts.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of many unopened peony buds, mostly pink and green. The caption includes hashtags for \"flowers,\" \"peonies,\" \"alstroemeria,\" and \"lilac\" in Russian.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows snow-covered evergreen trees, likely fir or spruce, with a streetlight visible in the background. The location is tagged as Kosino-Ukhtomsky District. The caption includes hashtags related to winter, spring, red cat, cured pork, and \"the world should know what I eat\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a person wearing a hooded jacket and a face mask, likely outdoors. The background shows trees and a building. The hashtags in the post indicate activities like running, gymnastics, and kettlebell workouts.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a snowy street scene at night in what appears to be an urban area. There are trees, street lights, cars, and buildings in the background. The caption in Russian mentions snow, winter 2025, and Friday evening.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Ask about their training routine, specifically related to running, gymnastics, or kettlebell exercises, since these are mentioned in the hashtags.",
+          "2. Comment on the arrival of spring and ask if they enjoy spending time outdoors, perhaps mentioning the pussy willows.",
+          "1.  **Gardening/Flowers:** Asking about their favorite types of flowers or their experience with growing peonies.",
+          "2.  **Local area:** The post is tagged with Kosino-Ukhtomsky District. You could ask if they know of any good flower shops or gardens in the area.",
+          "1. **Winter/Spring Weather:** Commenting on the unusual weather combination of winter and spring, as indicated by the hashtags. \"It's interesting to see snow so late in the year! How's the weather been in Kosino-Ukhtomsky lately?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! The forest looked so peaceful in your latest post 🌳.",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Running",
+            "Gymnastics",
+            "Kettlebell Workouts",
+            "Nature (especially flowers and seasonal changes)",
+            "Local Area (Kosino-Ukhtomsky District)"
+          ],
+          "LIFESTYLE": "Likely an active individual who enjoys outdoor activities and fitness. They seem to appreciate nature and the changing seasons. They may live in or frequently visit the Kosino-Ukhtomsky District. They also seem to enjoy good food, as indicated by the 'the world should know what I eat' hashtag.",
+          "CONVERSATION STARTERS": [
+            "I noticed you're into running, gymnastics, and kettlebell workouts. What's your typical training routine like?",
+            "The pussy willows in your photo are beautiful! Do you enjoy spending time outdoors in the spring?",
+            "Those peony buds look amazing! Do you have a garden, or are you just a fan of flowers?",
+            "I saw you tagged Kosino-Ukhtomsky District in one of your posts. Do you know of any good flower shops or gardens in the area?",
+            "It's interesting to see snow so late in the year! How's the weather been in Kosino-Ukhtomsky lately?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Active",
+            "Appreciative of nature",
+            "Health-conscious",
+            "Local-focused"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Ask about their training routine, specifically related to running, gymnastics, or kettlebell exercises, since these are mentioned in the hashtags.",
+        "2. Comment on the arrival of spring and ask if they enjoy spending time outdoors, perhaps mentioning the pussy willows.",
+        "1.  **Gardening/Flowers:** Asking about their favorite types of flowers or their experience with growing peonies.",
+        "2.  **Local area:** The post is tagged with Kosino-Ukhtomsky District. You could ask if they know of any good flower shops or gardens in the area.",
+        "1. **Winter/Spring Weather:** Commenting on the unusual weather combination of winter and spring, as indicated by the hashtags. \"It's interesting to see snow so late in the year! How's the weather been in Kosino-Ukhtomsky lately?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

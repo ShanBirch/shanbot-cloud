@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T00:41:19.975483",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T00:40:56.080976",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by eat.food.raw is a video showing how to prepare garlic for roasting in an air fryer. The video shows a person's hands cutting a bulb of garlic in half on a dark wooden cutting board. There are two other garlic bulbs on the board as well. The text overlay reads, \"Required to roast garlic by half? first, we're.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by eat.food.raw featuring a video or photo of the person preparing quick pickled red onions. She is shown cutting and peeling red onions in a kitchen setting. The caption includes hashtags related to vegan recipes, healthy food, and food photography.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screen capture of an Instagram post by eat.food.raw featuring a video about roasted portobello tacos. The video shows a hand pressing the buttons on a Samsung oven. The post includes hashtags related to portobello mushrooms, tacos, vegan recipes, and vegan dinner ideas.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by eat.food.raw, featuring a woman preparing a rainbow kale salad. The post includes a recipe with ingredients and instructions, and the woman is shown chopping kale in a kitchen setting.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a pan of vegetarian stuffed red bell peppers filled with a taco-seasoned bean and rice mixture, topped with cheese and cilantro. The post includes the recipe ingredients.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from eat.food.raw showing a graphic about top vegetarian protein sources, including Greek yogurt, lentils, beans, cottage cheese, hemp seeds, chia seeds, edamame, green peas, quinoa, peanut butter, almonds, and eggs. The post also includes hashtags related to veganism and vegetarianism.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Vegan recipes/cooking:** Given the focus on vegan recipes and healthy food, a conversation could revolve around sharing favorite vegan recipes, discussing cooking techniques, or asking for recommendations for vegan meal prep.",
+          "2. **Food photography:** The hashtag #foodphotographer suggests an interest in capturing appealing food images. A conversation could be started by asking about their photography setup, favorite editing techniques, or tips for taking great food photos.",
+          "1.  Vegan Recipes: Given the focus on vegan recipes and dinner ideas, a conversation could revolve around sharing favorite vegan recipes or discussing challenges and successes in vegan cooking.",
+          "2.  Portobello Mushrooms: The post centers on portobello mushrooms. A conversation could be started about different ways to prepare portobello mushrooms or other types of mushrooms.",
+          "1.  **Kale Salad Recipes:** You could ask about other favorite kale salad recipes or variations on the rainbow kale salad."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The garlic looked so fresh and the cutting board is beautiful! 🧄",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan & Vegetarian Cooking",
+            "Healthy Eating",
+            "Food Photography",
+            "Air Fryer Recipes",
+            "Plant-Based Protein Sources"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys cooking healthy, plant-based meals at home. They are interested in sharing recipes and food photography with others. They may be a home cook, food blogger, or someone passionate about vegan/vegetarian cuisine.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite quick and easy vegan weeknight dinners?",
+            "I noticed you use an air fryer for roasting garlic. What other vegetables do you like to air fry?",
+            "Your food photography is beautiful! Do you have any tips for lighting and composition?",
+            "I'm always looking for new ways to incorporate plant-based protein into my diet. What are some of your go-to sources?",
+            "What inspired you to start cooking vegan/vegetarian food?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (with recipes and food presentation)",
+            "Health-conscious",
+            "Informative (shares recipes and nutritional information)",
+            "Passionate (about vegan/vegetarian cuisine)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Vegan recipes/cooking:** Given the focus on vegan recipes and healthy food, a conversation could revolve around sharing favorite vegan recipes, discussing cooking techniques, or asking for recommendations for vegan meal prep.",
+        "2. **Food photography:** The hashtag #foodphotographer suggests an interest in capturing appealing food images. A conversation could be started by asking about their photography setup, favorite editing techniques, or tips for taking great food photos.",
+        "1.  Vegan Recipes: Given the focus on vegan recipes and dinner ideas, a conversation could revolve around sharing favorite vegan recipes or discussing challenges and successes in vegan cooking.",
+        "2.  Portobello Mushrooms: The post centers on portobello mushrooms. A conversation could be started about different ways to prepare portobello mushrooms or other types of mushrooms.",
+        "1.  **Kale Salad Recipes:** You could ask about other favorite kale salad recipes or variations on the rainbow kale salad."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

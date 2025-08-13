@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T17:44:47.384946",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T17:44:28.104600",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up shot of a bowl of pasta with red sauce. A hand is sprinkling shredded cheese on top of the pasta. In the background, there are jars or containers with what appears to be herbs and other ingredients. The pasta is in a dark-colored bowl, which sits on a grey cloth.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows brown spiral pasta being cooked in a pot of water. The post promotes the pasta as a plant-based, high-protein, gluten-free, and low-carb alternative.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a plate of pasta with pesto sauce, red bell peppers, broccoli, and what appears to be parmesan cheese sprinkled on top. The caption mentions it's a cheesy pesto protein pasta and tags @vegandreas. The hashtags suggest it is vegan, organic, healthy, and fitness-focused.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a Happy Easter graphic with Easter eggs, bunny ears, and flowers. The user, pasta_plant, posted this image with hashtags related to pasta, vegan food, fitness, and healthy eating.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up of a box of \"Proactive\" high-protein, low-carb pasta from \"Pasta Plant.\" The box highlights that the pasta is made purely with legumes, roots, flowers, and seeds, is gluten-free, free from additives, and plant-based. The background is filled with the pasta itself.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by pasta_plant showing a box of \"PROSPER\" pasta, which is marketed as being high in minerals and omega-3s, gluten-free, organic, and plant-based. The ingredients listed include pea protein, hulled chicklings, millet, plant protein, teff, konjac, psyllium, and moringa leaves. The post also includes hashtags related to pasta, veganism, fitness, and healthy eating.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Plant-based protein sources:** Inquire about other plant-based protein sources they enjoy or recommend.",
+          "2.  **Low-carb pasta recipes:** Ask for their favorite low-carb pasta recipes or variations.",
+          "1.  **Vegan/Plant-Based Cooking:** Given the vegan and plant-based hashtags, discussing vegan cooking, favorite vegan recipes, or challenges/benefits of a plant-based diet could be a good conversation starter.",
+          "2.  **Fitness and Healthy Eating:** The hashtags related to fitness and healthy eating suggest an interest in these topics. You could ask about their fitness routine, favorite healthy recipes, or their approach to balancing fitness and diet.",
+          "1.  **Vegan Easter recipes:** Given the \"vegan\" and \"plantbased\" hashtags, you could ask about their favorite vegan Easter recipes or if they have any recommendations for plant-based Easter dishes."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The pasta looked so delicious, especially with the cheese being added! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: pasta_plant)",
+          "INTERESTS": [
+            "Plant-based eating/Veganism",
+            "Healthy eating",
+            "Fitness",
+            "Low-carb diets",
+            "Gluten-free food"
+          ],
+          "LIFESTYLE": "Likely someone who is health-conscious and follows a plant-based or vegan diet. They are interested in fitness and seek out nutritious, low-carb, and gluten-free alternatives to traditional pasta. They may be involved in the food industry or passionate about promoting healthy eating habits.",
+          "CONVERSATION STARTERS": [
+            "I see you use 'Proactive' and 'PROSPER' pasta. What are your favorite ways to prepare them?",
+            "What are some of your go-to plant-based protein sources besides pasta?",
+            "Do you have any favorite low-carb pasta recipes you'd be willing to share?",
+            "I'm curious about your fitness routine. How do you balance your diet and exercise?",
+            "What are some of your favorite vegan Easter recipes or plant-based dishes for the holiday?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Passionate about food and nutrition",
+            "Active/Fitness-oriented",
+            "Creative (likely enjoys cooking and experimenting with recipes)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Plant-based protein sources:** Inquire about other plant-based protein sources they enjoy or recommend.",
+        "2.  **Low-carb pasta recipes:** Ask for their favorite low-carb pasta recipes or variations.",
+        "1.  **Vegan/Plant-Based Cooking:** Given the vegan and plant-based hashtags, discussing vegan cooking, favorite vegan recipes, or challenges/benefits of a plant-based diet could be a good conversation starter.",
+        "2.  **Fitness and Healthy Eating:** The hashtags related to fitness and healthy eating suggest an interest in these topics. You could ask about their fitness routine, favorite healthy recipes, or their approach to balancing fitness and diet.",
+        "1.  **Vegan Easter recipes:** Given the \"vegan\" and \"plantbased\" hashtags, you could ask about their favorite vegan Easter recipes or if they have any recommendations for plant-based Easter dishes."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T15:50:33.699204",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T15:50:15.174702",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "A selfie featuring two people, presumably the owner of the account and another person. The person on the right is a man with a beard and a beanie, wearing a dark grey top. The person on the left is a woman wearing an orange hoodie and flexing her bicep. In the lower left corner is a logo for \"K-ORA Boxing\" with a cartoon image of a female boxer. The background appears to be a gym or fitness space.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (monkzfitness) wearing boxing gloves and a t-shirt with a picture on it, standing in what appears to be a boxing gym. He seems to be talking to a woman who is looking down. The post discusses a boxing match that was cut short due to a shoulder injury, and mentions that he fought in honor of his late sister.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows three people standing in what appears to be a boxing or martial arts gym. There are punching bags hanging in the background and flags on the wall. The caption mentions \"Brother Pat\" and refers to someone as \"Sensei,\" suggesting a martial arts context.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person, presumably monkzfitness, practicing boxing footwork and punches in what appears to be a home gym. There's a shipping container, weights, and other fitness equipment in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person running on a road with the word \"BRIDGE\" painted on it. The post discusses turning something you hate (running) into a positive source of energy. Another image shows a person standing in front of what appears to be a flag.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man in a gym setting, performing an exercise with a weighted bar. He appears to be in good shape and focused on his workout. The post caption discusses success in 2024 with clients and goals for 2025.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Boxing/Training:** \"I saw your post about your recent boxing match. How's your shoulder feeling now? Are you planning on a rematch anytime soon?\"",
+          "2.  **Tribute to his sister:** \"Your post about fighting in honor of your sister was really touching. What was she like?\"",
+          "1.  **Boxing/Martial Arts Training:** Ask about their training regimen, what they enjoy most about boxing/martial arts, or their goals in the sport.",
+          "2.  **Community Involvement:** The caption mentions being a \"Kaitiaki in our community.\" Inquire about their community involvement and the work they do.",
+          "1. Boxing training: You could ask about their training regimen, specific techniques they're working on, or if they have any upcoming fights."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! It looked like you had a great time with the team 💯",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: monkzfitness)",
+          "INTERESTS": [
+            "Boxing",
+            "Martial Arts",
+            "Fitness Training (Weightlifting, Running)",
+            "Community Involvement",
+            "Personal Growth/Overcoming Challenges"
+          ],
+          "LIFESTYLE": "Appears to be a dedicated fitness enthusiast involved in boxing and martial arts. He trains regularly, possibly coaches or trains others, and is actively involved in his community as a 'Kaitiaki'. He seems to prioritize physical and mental well-being, and is driven to achieve goals.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about your recent boxing match. How's your shoulder feeling now? Are you planning on a rematch anytime soon?",
+            "Your post about fighting in honor of your sister was really touching. What was she like?",
+            "I noticed you train at K-ORA Boxing. What do you enjoy most about training there?",
+            "I saw that you mentioned being a 'Kaitiaki' in our community. Could you tell me more about the work you do?",
+            "I saw you were running on the bridge. What are some of your favorite running routes?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated/Disciplined",
+            "Resilient/Determined",
+            "Community-Oriented",
+            "Motivated/Goal-Driven"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Boxing/Training:** \"I saw your post about your recent boxing match. How's your shoulder feeling now? Are you planning on a rematch anytime soon?\"",
+        "2.  **Tribute to his sister:** \"Your post about fighting in honor of your sister was really touching. What was she like?\"",
+        "1.  **Boxing/Martial Arts Training:** Ask about their training regimen, what they enjoy most about boxing/martial arts, or their goals in the sport.",
+        "2.  **Community Involvement:** The caption mentions being a \"Kaitiaki in our community.\" Inquire about their community involvement and the work they do.",
+        "1. Boxing training: You could ask about their training regimen, specific techniques they're working on, or if they have any upcoming fights."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

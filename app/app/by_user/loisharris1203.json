@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T16:20:03.586826",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T16:19:47.282844",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a text-based Instagram post. The text reads: \"DOING WHAT YOU LIKE IS FREEDOM. LIKING WHAT YOU DO IS HAPPINESS.\" The text is in bold, black font against a light background. The post includes hashtags like #motivation, #inspiration, #freedom, #happiness, #life, and #success.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by loisharris1203 featuring an inspirational quote that reads, \"Never give up because great things take time.\" The post includes hashtags like #motivation, #inspiration, #life, #success, #happiness, #goodthings, and #nevergiveup.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by loisharris1203. It features a quote that reads, \"Some people will never like you because your spirit irritates their demons.\" The hashtags used are #motivation, #inspiration, #positivethinking, #life, and #success.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a motivational quote from Robert Collier that says \"Success is the sum of small efforts, repeated day in and day out\". The quote is associated with \"Sales Hacker\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a motivational quote that reads, \"Forget your past, forgive yourself, and begin again right now.\" The background appears to be a forest or nature scene.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a motivational quote that says \"You are Stronger THAN You know\" against a blue, watery background. The hashtags used are #motivation, #inspiration, #success, #life, #positivethinking, #strong, #happiness, and #target.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Motivation/Inspiration:** Ask about what motivates them or what they find inspiring in their own life.",
+          "2.  **Personal Goals/Success:** Inquire about what \"great things\" they are currently working towards or what their definition of success is.",
+          "1. Motivation and Inspiration: Ask about what inspires her or what motivates her on a daily basis.",
+          "2. Positivity and Life: Engage in a conversation about maintaining a positive outlook on life, perhaps asking about her strategies for staying positive.",
+          "1.  **Sales/Business Strategies:** Since the image mentions \"Sales Hacker,\" you could ask about their experience with sales strategies or tools, or what they find most effective in their sales process."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Lois Harris (Likely, based on username loisharris1203)",
+          "INTERESTS": [
+            "Motivation and Inspiration",
+            "Personal Growth and Development",
+            "Success and Achievement",
+            "Positivity and Well-being",
+            "Sales/Business (Potentially)"
+          ],
+          "LIFESTYLE": "Likely someone who is focused on self-improvement and achieving their goals. Could be involved in sales or business, or simply interested in the principles of success. Appears to value freedom and happiness. The nature background suggests an appreciation for the outdoors.",
+          "CONVERSATION STARTERS": [
+            "What's a quote or saying that really resonates with you right now, and why?",
+            "What are some 'great things' you're currently working towards?",
+            "What does success mean to you personally?",
+            "What are some strategies you use to maintain a positive outlook, even when things get tough?",
+            "I noticed you shared a quote from Sales Hacker. Do you work in sales, and if so, what's one sales strategy you've found particularly effective?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Motivational",
+            "Optimistic",
+            "Resilient",
+            "Driven"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Motivation/Inspiration:** Ask about what motivates them or what they find inspiring in their own life.",
+        "2.  **Personal Goals/Success:** Inquire about what \"great things\" they are currently working towards or what their definition of success is.",
+        "1. Motivation and Inspiration: Ask about what inspires her or what motivates her on a daily basis.",
+        "2. Positivity and Life: Engage in a conversation about maintaining a positive outlook on life, perhaps asking about her strategies for staying positive.",
+        "1.  **Sales/Business Strategies:** Since the image mentions \"Sales Hacker,\" you could ask about their experience with sales strategies or tools, or what they find most effective in their sales process."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

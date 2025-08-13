@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T16:06:24.052565",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T16:06:06.685798",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a slightly blurry, wide shot of a body of water, possibly the ocean, with two figures standing in the water in the distance. The water is a light blue-grey color, and the sky is overcast. The post is promoting the movie \"Bad Boys: Ride or Die\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of people posing for a selfie. Some are wearing sunglasses and floral accessories.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by jstone_mahe. The post is a video showing a group of people gathered in a room, possibly watching something or hanging out. The caption is in French and translates to \"No matter where you sleep as long as you enjoy it with the right people.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of five people taking a selfie on a bridge in what appears to be a European town. The architecture is old and made of stone. The caption mentions \"French Polynesia\" and \"les coeurs\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by jstone_mahe. The post features a video of a woman speaking, with text overlayed on the video. The caption mentions going to France and tagging friends.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a selfie video with three people, possibly taken outdoors. There's a location tag \"@TAHIATINI\" visible in the video.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Travel: The picture looks like it was taken outdoors, possibly while traveling. You could ask about the location and if they were on vacation.",
+          "2. Fashion/Accessories: You could compliment the floral accessories or sunglasses and ask where they got them.",
+          "1.  **Travel/Friendship:** The caption focuses on enjoying time with good company, regardless of the location. You could ask about their favorite travel experiences with friends or what they value most in their friendships.",
+          "2.  **Language/Culture:** The caption is in French and the other text is in another language. You could ask about their connection to these languages or cultures.",
+          "1. Travel: \"I noticed you're in what looks like a beautiful European town. What's the best part of your trip so far?\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Jstone Mahe (likely a shortened version of their full name)",
+          "INTERESTS": [
+            "Travel (especially French Polynesia and Europe)",
+            "Friendship and Social Connections",
+            "Movies (specifically 'Bad Boys: Ride or Die')",
+            "Fashion/Accessories (sunglasses, floral accessories)",
+            "Language and Culture (French)"
+          ],
+          "LIFESTYLE": "Appears to enjoy traveling with friends, exploring new places (especially those with beautiful scenery and interesting architecture), and values strong social connections. Likely enjoys movies and spending time with loved ones. Their profession is unknown, but they have the means to travel internationally.",
+          "CONVERSATION STARTERS": [
+            "I saw you were in French Polynesia! What was your favorite part of the trip?",
+            "I loved those floral accessories in your selfie! Where did you get them?",
+            "That French caption was beautiful. Do you speak French fluently, or are you learning?",
+            "What are some of your favorite travel experiences with friends?",
+            "What did you think of the new 'Bad Boys' movie?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Social",
+            "Adventurous",
+            "Appreciative of beauty (scenery, fashion)",
+            "Values friendship"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Travel: The picture looks like it was taken outdoors, possibly while traveling. You could ask about the location and if they were on vacation.",
+        "2. Fashion/Accessories: You could compliment the floral accessories or sunglasses and ask where they got them.",
+        "1.  **Travel/Friendship:** The caption focuses on enjoying time with good company, regardless of the location. You could ask about their favorite travel experiences with friends or what they value most in their friendships.",
+        "2.  **Language/Culture:** The caption is in French and the other text is in another language. You could ask about their connection to these languages or cultures.",
+        "1. Travel: \"I noticed you're in what looks like a beautiful European town. What's the best part of your trip so far?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

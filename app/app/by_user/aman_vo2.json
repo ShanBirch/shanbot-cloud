@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T20:08:04.527160",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T20:07:46.628166",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a demonstration in Rome, Italy. In the background is a large building with a tall obelisk. In the foreground, people are holding flags and an umbrella with Arabic writing on it. The sky is blue and sunny.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two children sitting amidst rubble and debris, likely in Palestine. The post is a call for donations to help vulnerable children in the region.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a large crowd of people, many holding Palestinian flags, likely at a demonstration or rally. The post's caption discusses the challenges faced by the people of Palestine.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a child with an umbrella and another person in front of the Dome of the Rock in Jerusalem. There is also an image of a protest with a Palestinian flag.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows four young girls playing with dolls outside what appears to be a refugee camp, indicated by the tents and clotheslines in the background. The caption in Arabic translates to \"Support the children of Gaza from the air depression\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a rainy day at the Al-Aqsa Mosque in Jerusalem, Palestine. The post includes Arabic text and hashtags related to Palestine and Jerusalem. There is also a photo of a crowd of people holding Palestinian flags.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Inquire about the organizations or initiatives they support in Palestine and ask about the impact of the donations.",
+          "2.  Ask about their personal connection to the cause and what motivates them to raise awareness.",
+          "1.  **Activism/Social Justice:** Discussing their involvement in activism or social justice causes, particularly related to Palestine or similar issues.",
+          "2.  **Current Events/Politics:** Engaging in a conversation about the political situation in Palestine and related global events.",
+          "1. Travel/Visiting Jerusalem: \"Have you been to Jerusalem before? It looks like a beautiful place to visit.\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The umbrella looked really interesting 🇮🇹",
+        "profile_bio": {
+          "PERSON NAME": "Aman (Username: aman_vo2)",
+          "INTERESTS": [
+            "Palestine (Advocacy & Support)",
+            "Social Justice",
+            "Activism",
+            "Travel (Specifically Jerusalem/Palestine)",
+            "Humanitarian Aid"
+          ],
+          "LIFESTYLE": "Likely an activist or someone deeply involved in raising awareness and support for Palestine. May be involved in organizing or attending demonstrations. Potentially a traveler with a specific interest in visiting and documenting the region.",
+          "CONVERSATION STARTERS": [
+            "What organizations or initiatives do you support in Palestine, and what impact have you seen from donations?",
+            "What is your personal connection to the cause of Palestine, and what motivates you to raise awareness?",
+            "Have you been to Jerusalem or Palestine before? What was your experience like?",
+            "What are your thoughts on the current political situation in Palestine and how it impacts the lives of ordinary people?",
+            "What other social justice causes are you passionate about, and how do you get involved?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Compassionate",
+            "Activist",
+            "Advocate",
+            "Passionate"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Inquire about the organizations or initiatives they support in Palestine and ask about the impact of the donations.",
+        "2.  Ask about their personal connection to the cause and what motivates them to raise awareness.",
+        "1.  **Activism/Social Justice:** Discussing their involvement in activism or social justice causes, particularly related to Palestine or similar issues.",
+        "2.  **Current Events/Politics:** Engaging in a conversation about the political situation in Palestine and related global events.",
+        "1. Travel/Visiting Jerusalem: \"Have you been to Jerusalem before? It looks like a beautiful place to visit.\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

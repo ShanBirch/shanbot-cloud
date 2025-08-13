@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T10:31:49.224201",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T10:31:26.643556",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by @gaynorfitnessandtravel shows a video of clear turquoise water with a sandy beach and some boats in the background. The caption mentions a snorkeling trip to Catalina Island, a BBQ, swimming, and seeing the homes of famous people like Pitbull and Shakira, as well as the river where Jurassic Park and Wakanda were filmed.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a collection of buckets and containers filled with freshly caught fish in Santa Maria, Sal, Cape Verde.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, presumably Gaynor from gaynorfitnessandtravel, preparing to zipline in Cabo Verde. She's wearing a harness and standing on a platform overlooking the ocean.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A woman is walking on a sandy beach with turquoise water in Cape Verde. The caption says \"Life's a beach\" and includes hashtags related to travel and gratitude.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post shows a picture of a blizzard encountered during a snowmobile trip in Finnish Lapland, while searching for the Northern Lights. The post also mentions seeing the Aurora Borealis from the hotel and on the flight home.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person (presumably gaynorfitnessandtravel) feeding reindeer at a reindeer farm in Lapland. The person is wearing winter clothing and the scene is snowy.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Cape Verde Travel:** Ask about their experience in Cape Verde, specifically Santa Maria. \"I saw your post about Santa Maria, Sal. What was your favorite part of visiting?\"",
+          "2. **Local Cuisine:** Inquire about the local seafood. \"The fish in your photo looks amazing! Did you get a chance to try any local dishes made with it?\"",
+          "1.  **Ziplining Experiences:** \"I saw your post about ziplining in Cabo Verde! It looks amazing. You mentioned having ziplined in Mauritius and Oasis of the Seas too. Which location was your favorite and why?\"",
+          "2.  **Cabo Verde Travel:** \"Your post mentioned it was your third visit to Dal in Cabo Verde. What are some must-see or must-do activities you'd recommend for a first-time visitor to the island?\"",
+          "1. Cape Verde: Ask about her experience in Cape Verde, what she enjoyed most, or if she has any recommendations for someone planning a trip there."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! That water looked so inviting in your latest post! 🏝️",
+        "profile_bio": {
+          "PERSON NAME": "Gaynor (Based on username 'gaynorfitnessandtravel')",
+          "INTERESTS": [
+            "Travel (especially to unique destinations)",
+            "Fitness and Adventure Activities (ziplining, snorkeling, snowmobiling)",
+            "Wildlife Encounters (reindeer, marine life)",
+            "Culinary Experiences (local seafood)",
+            "Scenic Beauty (beaches, Northern Lights)"
+          ],
+          "LIFESTYLE": "Gaynor appears to be an adventurous traveler with a passion for fitness and exploring diverse cultures and landscapes. She enjoys both relaxing beach vacations and adrenaline-pumping activities. She seems to prioritize unique experiences and capturing them through photography and videography.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about Santa Maria, Sal. What was your favorite part of visiting?",
+            "The fish in your photo looks amazing! Did you get a chance to try any local dishes made with it?",
+            "I saw your post about ziplining in Cabo Verde! It looks amazing. You mentioned having ziplined in Mauritius and Oasis of the Seas too. Which location was your favorite and why?",
+            "Your post mentioned it was your third visit to Dal in Cabo Verde. What are some must-see or must-do activities you'd recommend for a first-time visitor to the island?",
+            "Your snowmobile trip in Finnish Lapland looked incredible! What was the most challenging part of searching for the Northern Lights?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Curious",
+            "Appreciative (expresses gratitude)",
+            "Active"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Cape Verde Travel:** Ask about their experience in Cape Verde, specifically Santa Maria. \"I saw your post about Santa Maria, Sal. What was your favorite part of visiting?\"",
+        "2. **Local Cuisine:** Inquire about the local seafood. \"The fish in your photo looks amazing! Did you get a chance to try any local dishes made with it?\"",
+        "1.  **Ziplining Experiences:** \"I saw your post about ziplining in Cabo Verde! It looks amazing. You mentioned having ziplined in Mauritius and Oasis of the Seas too. Which location was your favorite and why?\"",
+        "2.  **Cabo Verde Travel:** \"Your post mentioned it was your third visit to Dal in Cabo Verde. What are some must-see or must-do activities you'd recommend for a first-time visitor to the island?\"",
+        "1. Cape Verde: Ask about her experience in Cape Verde, what she enjoyed most, or if she has any recommendations for someone planning a trip there."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

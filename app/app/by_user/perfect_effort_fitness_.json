@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T02:02:34.709304",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T02:02:15.947198",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by perfect_effort_fitness_ is a video showing a man performing an overhead press with a barbell in a gym. He's wearing a pinkish-red shirt and dark shorts. Gym equipment is visible in the background. The caption mentions \"Shoulder Werk Unedited\" and includes hashtags related to shoulder workouts and fitness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person in a gym setting performing a dumbbell row exercise. The post is about back workouts and the importance of consistency.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man doing pull-ups in what appears to be a home or private gym. He is shirtless, wearing athletic pants and sneakers. The caption emphasizes consistency in fitness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person in a gym performing a barbell row. The post caption mentions \"trimming season,\" increasing reps and intensity, cardio, and back workouts. The hashtags include #blackfitness #texasfitness #plantbased.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person doing an ab workout with a large exercise ball. The caption mentions \"Tummy Tuesday\" and includes hashtags related to fitness, bodybuilding, plant-based diets, and equality.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man in a gym setting up for a leg workout with a barbell on his shoulders, ready to perform squats or lunges. The post includes a list of leg exercises.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Back workout routines: You could ask about their favorite back exercises or share your own.",
+          "2. Consistency in fitness: You could discuss the challenges of maintaining a consistent workout schedule and share tips for staying motivated.",
+          "1. Pull-up training tips: Given the comment from another user asking for pull-up pointers, and the fact that he is performing pull-ups, asking for specific advice or his training regimen for pull-ups could be a good conversation starter.",
+          "2. Plant-based diet: The caption includes the hashtag \"#plantbased\". Asking about his experience with a plant-based diet and its impact on his fitness could lead to an engaging conversation.",
+          "1.  **Back Workout Routines:** Ask about other back exercises they enjoy or find effective."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post looked like a tough shoulder workout 💪. Keep up the great work!",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Weightlifting/Strength Training",
+            "Back Workouts",
+            "Shoulder Workouts",
+            "Plant-Based Diet",
+            "Consistency in Fitness"
+          ],
+          "LIFESTYLE": "Likely a fitness enthusiast who dedicates time to regular gym workouts and possibly home workouts. Appears to be health-conscious, potentially following a plant-based diet. May be a fitness professional or someone deeply invested in their personal fitness journey.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite back exercises and why?",
+            "Maintaining consistency in fitness can be challenging. What are your best tips for staying motivated?",
+            "I noticed you do pull-ups. What's your pull-up training regimen like? Any tips for improving?",
+            "I see you're interested in a plant-based diet. How has it impacted your fitness journey and what are some of your favorite plant-based meals?",
+            "What are your thoughts on the importance of progressive overload in achieving fitness goals?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated",
+            "Disciplined",
+            "Health-conscious",
+            "Motivated"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Back workout routines: You could ask about their favorite back exercises or share your own.",
+        "2. Consistency in fitness: You could discuss the challenges of maintaining a consistent workout schedule and share tips for staying motivated.",
+        "1. Pull-up training tips: Given the comment from another user asking for pull-up pointers, and the fact that he is performing pull-ups, asking for specific advice or his training regimen for pull-ups could be a good conversation starter.",
+        "2. Plant-based diet: The caption includes the hashtag \"#plantbased\". Asking about his experience with a plant-based diet and its impact on his fitness could lead to an engaging conversation.",
+        "1.  **Back Workout Routines:** Ask about other back exercises they enjoy or find effective."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

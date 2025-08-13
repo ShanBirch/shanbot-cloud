@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T08:28:55.168616",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T08:28:34.873566",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a promotional flyer for a \"Galactic Campout\" event taking place in American Fork Canyon, Utah from April 24-25. The flyer features the event name in large, green, futuristic font against a backdrop of a starry sky and a mountain range silhouette. The flyer also lists activities such as \"Cosmic Soundbath,\" \"Fire Ceremony,\" and \"Nature Integration,\" along with the price of $44.44 and the website \"www.seraphicsounds.com\". The Instagram post also includes a caption describing the event as a \"Starseed Retreat\" with other activities like \"Healing at the Crystal Hot Springs\", \"Galactic Soundbath\", \"Dragon Gong Bath\" and \"Lightcode: Art Immersion Experience\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post advertising \"Seraphic Sounds Healing in Crystal Hot Springs\" in Honeyville, UT. It features photos of people in hot springs, sound healing instruments (bowls), and text describing the experience as enhanced with sound healing, drumming, and reiki. The post also mentions upcoming events in Salt Lake and Valley of Fire State Park.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a coconut with a straw and a cup of coffee with latte art on a table in a cafe setting. The caption includes hashtags related to coffee, self-love, and spirituality.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post advertising a \"Seraphic Sounds Starseed Gathering\" taking place in Valley of Fire State Park, NV, from April 28-30, 2025. The event seems to focus on multidimensionality, cosmic essence, and activating galactic gifts.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a hand holding half an avocado topped with a dark sauce, possibly balsamic glaze. In the background, there's a container of yellow cherry tomatoes.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of two people in a room with colorful lighting. The post mentions \"Seraphic Sounds events, galactic Soundbaths, dragon gong, and lightcode art immersion experience.\" The hashtags include #starseed, #lovefrequency, #lightlanguage, #soundhealing, and #expansion.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Hot Springs/Sound Healing Experiences:** \"Have you been to Crystal Hot Springs before? I'm curious about the sound healing aspect – what's that like?\"",
+          "2.  **Travel/Events:** \"I saw you're going to be in Salt Lake soon. What kind of events will you be doing there?\"",
+          "1. Coffee: \"I saw your post about coffee. Do you have a favorite local coffee shop or a specific type of coffee you enjoy?\"",
+          "2. Spirituality/Well-being: \"I noticed you use hashtags like #starseedwisdom and #lightlanguage. I'm curious, what does spirituality mean to you?\"",
+          "1. **Valley of Fire State Park:** \"I've always wanted to visit Valley of Fire State Park! Have you been before? What's your favorite part about it?\" (This is a good starting point to discuss the location and potential travel experiences.)"
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown (marsirian)",
+          "INTERESTS": [
+            "Sound Healing (Galactic Soundbaths, Dragon Gong)",
+            "Starseed Spirituality & Light Language",
+            "Nature & Travel (especially Utah and Nevada)",
+            "Hot Springs & Wellness Retreats",
+            "Coffee & Cafe Culture"
+          ],
+          "LIFESTYLE": "Likely a facilitator or participant in sound healing events and spiritual retreats. Enjoys travel, particularly to natural locations like American Fork Canyon and Valley of Fire State Park. Appears to value wellness and self-care, incorporating activities like hot springs visits and enjoying coffee in a cafe setting. Possibly an artist or creative individual, given the 'Lightcode: Art Immersion Experience'.",
+          "CONVERSATION STARTERS": [
+            "I'm fascinated by sound healing. Could you tell me more about what a Galactic Soundbath or Dragon Gong experience is like?",
+            "I saw you're hosting events in Valley of Fire State Park. What makes that location so special for these gatherings?",
+            "What does 'light language' mean to you, and how does it connect to your work with sound healing?",
+            "I noticed you enjoy coffee. Do you have a favorite local coffee shop or a specific type of coffee you enjoy?",
+            "I'm curious about the 'Nature Integration' aspect of your retreats. How do you help people connect with nature on a deeper level?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Spiritual",
+            "Creative",
+            "Adventurous",
+            "Wellness-oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Hot Springs/Sound Healing Experiences:** \"Have you been to Crystal Hot Springs before? I'm curious about the sound healing aspect – what's that like?\"",
+        "2.  **Travel/Events:** \"I saw you're going to be in Salt Lake soon. What kind of events will you be doing there?\"",
+        "1. Coffee: \"I saw your post about coffee. Do you have a favorite local coffee shop or a specific type of coffee you enjoy?\"",
+        "2. Spirituality/Well-being: \"I noticed you use hashtags like #starseedwisdom and #lightlanguage. I'm curious, what does spirituality mean to you?\"",
+        "1. **Valley of Fire State Park:** \"I've always wanted to visit Valley of Fire State Park! Have you been before? What's your favorite part about it?\" (This is a good starting point to discuss the location and potential travel experiences.)"
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

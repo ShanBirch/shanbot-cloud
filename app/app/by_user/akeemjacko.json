@@ -1,0 +1,179 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 25,
+      "user_messages": 13,
+      "ai_messages": 12,
+      "ai_questions": 4,
+      "ai_statements": 8,
+      "user_responses_to_ai_question": 4,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 1.0,
+      "conversation_start_time": "2025-04-14T15:50:32.468026",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 154071.363885,
+      "achieved_message_milestones": [
+        10,
+        20,
+        5
+      ],
+      "fitness_topic_initiator": "user",
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 4,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": true,
+      "responder_category": "Medium Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-14T05:50:32.465981+00:00",
+          "type": "user",
+          "text": "Hey mate +\n Thanks heaps, I appreciate that 🙏 + Shannon: No worries mate! What have you been up to today? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just working mate + Yourself? + Shannon: Yeah fair enough! Just finished up some client programming myself. How's the workday treating ya otherwise? {{cuf_11967919}}  {{cuf_11967920}} Lead : Awesome, seems like you guys have a great community + Good thank you, a few more classes and PT then I will wrap my day up + Shannon: Ah nice one! Sounds like you're in the fitness industry too then? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes mate I am 🙏"
+        },
+        {
+          "timestamp": "2025-04-14T05:50:32.899183+00:00",
+          "type": "ai",
+          "text": "Oh cool! What sort of work do you do in fitness?"
+        },
+        {
+          "timestamp": "2025-04-14T06:06:23.107182+00:00",
+          "type": "user",
+          "text": "Hey mate +\n Thanks heaps, I appreciate that 🙏 + Shannon: No worries mate! What have you been up to today? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just working mate + Yourself? + Shannon: Yeah fair enough! Just finished up some client programming myself. How's the workday treating ya otherwise? {{cuf_11967919}}  {{cuf_11967920}} Lead : Awesome, seems like you guys have a great community + Good thank you, a few more classes and PT then I will wrap my day up + Shannon: Ah nice one! Sounds like you're in the fitness industry too then? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes mate I am 🙏 + Shannon: Oh cool! What sort of work do you do in fitness? {{cuf_11967919}}  {{cuf_11967920}} Lead : I do Personal Training and group classes. A lot of my clients have additional needs, so the range of clients is cool"
+        },
+        {
+          "timestamp": "2025-04-14T06:06:23.212263+00:00",
+          "type": "ai",
+          "text": "Oh that's interesting! What kind of additional needs do your clients have?"
+        },
+        {
+          "timestamp": "2025-04-14T11:06:27.895475+00:00",
+          "type": "user",
+          "text": "Hey mate +\n Thanks heaps, I appreciate that 🙏 + Shannon: No worries mate! What have you been up to today? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just working mate + Yourself? + Shannon: Yeah fair enough! Just finished up some client programming myself. How's the workday treating ya otherwise? {{cuf_11967919}}  {{cuf_11967920}} Lead : Awesome, seems like you guys have a great community + Good thank you, a few more classes and PT then I will wrap my day up + Shannon: Ah nice one! Sounds like you're in the fitness industry too then? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes mate I am 🙏 + Shannon: Oh cool! What sort of work do you do in fitness? {{cuf_11967919}}  {{cuf_11967920}} Lead : I do Personal Training and group classes. A lot of my clients have additional needs, so the range of clients is cool + Shannon: Oh that's interesting! What kind of additional needs do your clients have? {{cuf_11967919}}  {{cuf_11967920}} Lead : Very interesting! It still keeps me interested after all these years + We have clients with a wide range of needs, from Autism to legally blind"
+        },
+        {
+          "timestamp": "2025-04-14T11:06:28.006886+00:00",
+          "type": "ai",
+          "text": "Yeah that sounds super rewarding mate, takes a special skill set to tailor training like that."
+        },
+        {
+          "timestamp": "2025-04-14T11:46:37.358032+00:00",
+          "type": "user",
+          "text": "Hey mate +\n Thanks heaps, I appreciate that 🙏 + Shannon: No worries mate! What have you been up to today? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just working mate + Yourself? + Shannon: Yeah fair enough! Just finished up some client programming myself. How's the workday treating ya otherwise? {{cuf_11967919}}  {{cuf_11967920}} Lead : Awesome, seems like you guys have a great community + Good thank you, a few more classes and PT then I will wrap my day up + Shannon: Ah nice one! Sounds like you're in the fitness industry too then? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes mate I am 🙏 + Shannon: Oh cool! What sort of work do you do in fitness? {{cuf_11967919}}  {{cuf_11967920}} Lead : I do Personal Training and group classes. A lot of my clients have additional needs, so the range of clients is cool + Shannon: Oh that's interesting! What kind of additional needs do your clients have? {{cuf_11967919}}  {{cuf_11967920}} Lead : Very interesting! It still keeps me interested after all these years + We have clients with a wide range of needs, from Autism to legally blind + Shannon: Yeah that sounds super rewarding mate, takes a special skill set to tailor training like that. {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks mate, it is super rewarding. You need so much patience, im also grateful I'm able to work with clients without additional needs also"
+        },
+        {
+          "timestamp": "2025-04-14T11:46:37.488610+00:00",
+          "type": "ai",
+          "text": "Yeah definitely rewarding work mate. Good to have that variety hey."
+        },
+        {
+          "timestamp": "2025-04-14T12:09:10.250828+00:00",
+          "type": "user",
+          "text": "Hey mate +\n Thanks heaps, I appreciate that 🙏 + Shannon: No worries mate! What have you been up to today? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just working mate + Yourself? + Shannon: Yeah fair enough! Just finished up some client programming myself. How's the workday treating ya otherwise? {{cuf_11967919}}  {{cuf_11967920}} Lead : Awesome, seems like you guys have a great community + Good thank you, a few more classes and PT then I will wrap my day up + Shannon: Ah nice one! Sounds like you're in the fitness industry too then? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes mate I am 🙏 + Shannon: Oh cool! What sort of work do you do in fitness? {{cuf_11967919}}  {{cuf_11967920}} Lead : I do Personal Training and group classes. A lot of my clients have additional needs, so the range of clients is cool + Shannon: Oh that's interesting! What kind of additional needs do your clients have? {{cuf_11967919}}  {{cuf_11967920}} Lead : Very interesting! It still keeps me interested after all these years + We have clients with a wide range of needs, from Autism to legally blind + Shannon: Yeah that sounds super rewarding mate, takes a special skill set to tailor training like that. {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks mate, it is super rewarding. You need so much patience, im also grateful I'm able to work with clients without additional needs also + Shannon: Yeah definitely rewarding work mate. Good to have that variety hey. {{cuf_11967919}}  {{cuf_11967920}} Lead : Definitely mate, the variety helps in so many ways + How's your business and coaching going?"
+        },
+        {
+          "timestamp": "2025-04-14T12:09:10.398464+00:00",
+          "type": "ai",
+          "text": "Yeah things are good mate, cheers for asking! Studio's humming along and the online coaching side is growing nicely too, really enjoying connecting with people that way."
+        },
+        {
+          "timestamp": "2025-04-14T18:54:08.016831+00:00",
+          "type": "user",
+          "text": "Hey mate +\n Thanks heaps, I appreciate that 🙏 + Shannon: No worries mate! What have you been up to today? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just working mate + Yourself? + Shannon: Yeah fair enough! Just finished up some client programming myself. How's the workday treating ya otherwise? {{cuf_11967919}}  {{cuf_11967920}} Lead : Awesome, seems like you guys have a great community + Good thank you, a few more classes and PT then I will wrap my day up + Shannon: Ah nice one! Sounds like you're in the fitness industry too then? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes mate I am 🙏 + Shannon: Oh cool! What sort of work do you do in fitness? {{cuf_11967919}}  {{cuf_11967920}} Lead : I do Personal Training and group classes. A lot of my clients have additional needs, so the range of clients is cool + Shannon: Oh that's interesting! What kind of additional needs do your clients have? {{cuf_11967919}}  {{cuf_11967920}} Lead : Very interesting! It still keeps me interested after all these years + We have clients with a wide range of needs, from Autism to legally blind + Shannon: Yeah that sounds super rewarding mate, takes a special skill set to tailor training like that. {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks mate, it is super rewarding. You need so much patience, im also grateful I'm able to work with clients without additional needs also + Shannon: Yeah definitely rewarding work mate. Good to have that variety hey. {{cuf_11967919}}  {{cuf_11967920}} Lead : Definitely mate, the variety helps in so many ways + How's your business and coaching going? + Shannon: Yeah things are good mate, cheers for asking! Studio's humming along and the online coaching side is growing nicely too, really enjoying connecting with people that way. {{cuf_11967919}}  {{cuf_11967920}} Lead : Amazing stuff mate, glad to hear. A lot of colleagues have transitioned online, seems like a great approach if you have your niche"
+        },
+        {
+          "timestamp": "2025-04-14T18:54:08.273402+00:00",
+          "type": "ai",
+          "text": "Yeah for sure is hey! What about you? You ever thought about doing online stuff yourself?"
+        },
+        {
+          "timestamp": "2025-04-15T01:56:22.144300+00:00",
+          "type": "user",
+          "text": "Hey mate +\n Thanks heaps, I appreciate that 🙏 + Shannon: No worries mate! What have you been up to today? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just working mate + Yourself? + Shannon: Yeah fair enough! Just finished up some client programming myself. How's the workday treating ya otherwise? {{cuf_11967919}}  {{cuf_11967920}} Lead : Awesome, seems like you guys have a great community + Good thank you, a few more classes and PT then I will wrap my day up + Shannon: Ah nice one! Sounds like you're in the fitness industry too then? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes mate I am 🙏 + Shannon: Oh cool! What sort of work do you do in fitness? {{cuf_11967919}}  {{cuf_11967920}} Lead : I do Personal Training and group classes. A lot of my clients have additional needs, so the range of clients is cool + Shannon: Oh that's interesting! What kind of additional needs do your clients have? {{cuf_11967919}}  {{cuf_11967920}} Lead : Very interesting! It still keeps me interested after all these years + We have clients with a wide range of needs, from Autism to legally blind + Shannon: Yeah that sounds super rewarding mate, takes a special skill set to tailor training like that. {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks mate, it is super rewarding. You need so much patience, im also grateful I'm able to work with clients without additional needs also + Shannon: Yeah definitely rewarding work mate. Good to have that variety hey. {{cuf_11967919}}  {{cuf_11967920}} Lead : Definitely mate, the variety helps in so many ways + How's your business and coaching going? + Shannon: Yeah things are good mate, cheers for asking! Studio's humming along and the online coaching side is growing nicely too, really enjoying connecting with people that way. {{cuf_11967919}}  {{cuf_11967920}} Lead : Amazing stuff mate, glad to hear. A lot of colleagues have transitioned online, seems like a great approach if you have your niche + Shannon: Yeah for sure is hey! What about you? You ever thought about doing online stuff yourself? {{cuf_11967919}}  {{cuf_11967920}} Lead : Definitely! I have thought about it and love the idea, it's something I will be looking into over the next few months"
+        },
+        {
+          "timestamp": "2025-04-15T01:56:22.541096+00:00",
+          "type": "ai",
+          "text": "Yeah righto! What makes you keen on online hey?"
+        },
+        {
+          "timestamp": "2025-04-15T04:26:02.143918+00:00",
+          "type": "user",
+          "text": "Hey mate +\n Thanks heaps, I appreciate that 🙏 + Shannon: No worries mate! What have you been up to today? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just working mate + Yourself? + Shannon: Yeah fair enough! Just finished up some client programming myself. How's the workday treating ya otherwise? {{cuf_11967919}}  {{cuf_11967920}} Lead : Awesome, seems like you guys have a great community + Good thank you, a few more classes and PT then I will wrap my day up + Shannon: Ah nice one! Sounds like you're in the fitness industry too then? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes mate I am 🙏 + Shannon: Oh cool! What sort of work do you do in fitness? {{cuf_11967919}}  {{cuf_11967920}} Lead : I do Personal Training and group classes. A lot of my clients have additional needs, so the range of clients is cool + Shannon: Oh that's interesting! What kind of additional needs do your clients have? {{cuf_11967919}}  {{cuf_11967920}} Lead : Very interesting! It still keeps me interested after all these years + We have clients with a wide range of needs, from Autism to legally blind + Shannon: Yeah that sounds super rewarding mate, takes a special skill set to tailor training like that. {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks mate, it is super rewarding. You need so much patience, im also grateful I'm able to work with clients without additional needs also + Shannon: Yeah definitely rewarding work mate. Good to have that variety hey. {{cuf_11967919}}  {{cuf_11967920}} Lead : Definitely mate, the variety helps in so many ways + How's your business and coaching going? + Shannon: Yeah things are good mate, cheers for asking! Studio's humming along and the online coaching side is growing nicely too, really enjoying connecting with people that way. {{cuf_11967919}}  {{cuf_11967920}} Lead : Amazing stuff mate, glad to hear. A lot of colleagues have transitioned online, seems like a great approach if you have your niche + Shannon: Yeah for sure is hey! What about you? You ever thought about doing online stuff yourself? {{cuf_11967919}}  {{cuf_11967920}} Lead : Definitely! I have thought about it and love the idea, it's something I will be looking into over the next few months + Shannon: Yeah righto! What makes you keen on online hey? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just the opportunity to help support more people and not trade so much time for income"
+        },
+        {
+          "timestamp": "2025-04-15T04:26:02.701206+00:00",
+          "type": "ai",
+          "text": "Yeah righto!  It's awesome being able to reach more people online for sure!  What kind of online coaching are you thinking of doing?"
+        },
+        {
+          "timestamp": "2025-04-15T11:18:55.720420+00:00",
+          "type": "user",
+          "text": "Hey mate +\n Thanks heaps, I appreciate that 🙏 + Shannon: No worries mate! What have you been up to today? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just working mate + Yourself? + Shannon: Yeah fair enough! Just finished up some client programming myself. How's the workday treating ya otherwise? {{cuf_11967919}}  {{cuf_11967920}} Lead : Awesome, seems like you guys have a great community + Good thank you, a few more classes and PT then I will wrap my day up + Shannon: Ah nice one! Sounds like you're in the fitness industry too then? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes mate I am 🙏 + Shannon: Oh cool! What sort of work do you do in fitness? {{cuf_11967919}}  {{cuf_11967920}} Lead : I do Personal Training and group classes. A lot of my clients have additional needs, so the range of clients is cool + Shannon: Oh that's interesting! What kind of additional needs do your clients have? {{cuf_11967919}}  {{cuf_11967920}} Lead : Very interesting! It still keeps me interested after all these years + We have clients with a wide range of needs, from Autism to legally blind + Shannon: Yeah that sounds super rewarding mate, takes a special skill set to tailor training like that. {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks mate, it is super rewarding. You need so much patience, im also grateful I'm able to work with clients without additional needs also + Shannon: Yeah definitely rewarding work mate. Good to have that variety hey. {{cuf_11967919}}  {{cuf_11967920}} Lead : Definitely mate, the variety helps in so many ways + How's your business and coaching going? + Shannon: Yeah things are good mate, cheers for asking! Studio's humming along and the online coaching side is growing nicely too, really enjoying connecting with people that way. {{cuf_11967919}}  {{cuf_11967920}} Lead : Amazing stuff mate, glad to hear. A lot of colleagues have transitioned online, seems like a great approach if you have your niche + Shannon: Yeah for sure is hey! What about you? You ever thought about doing online stuff yourself? {{cuf_11967919}}  {{cuf_11967920}} Lead : Definitely! I have thought about it and love the idea, it's something I will be looking into over the next few months + Shannon: Yeah righto! What makes you keen on online hey? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just the opportunity to help support more people and not trade so much time for income + Shannon: Yeah righto!  It's awesome being able to reach more people online for sure!  What kind of online coaching are you thinking of doing? {{cuf_11967919}}  {{cuf_11967920}} Lead : Absolutely, I know it requires a lot of work but I'm sure it's worth it.\n\nI'm not too sure mate, this is where my issue is. If I transitioned online I don't think I could help clients with additional needs as much as I do now"
+        },
+        {
+          "timestamp": "2025-04-15T11:18:55.938641+00:00",
+          "type": "ai",
+          "text": "Yeah, that's a really valid point mate. It would be tough to replicate that hands on support needed for some clients online."
+        },
+        {
+          "timestamp": "2025-04-15T11:42:41.026046+00:00",
+          "type": "user",
+          "text": "Hey mate +\n Thanks heaps, I appreciate that 🙏 + Shannon: No worries mate! What have you been up to today? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just working mate + Yourself? + Shannon: Yeah fair enough! Just finished up some client programming myself. How's the workday treating ya otherwise? {{cuf_11967919}}  {{cuf_11967920}} Lead : Awesome, seems like you guys have a great community + Good thank you, a few more classes and PT then I will wrap my day up + Shannon: Ah nice one! Sounds like you're in the fitness industry too then? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes mate I am 🙏 + Shannon: Oh cool! What sort of work do you do in fitness? {{cuf_11967919}}  {{cuf_11967920}} Lead : I do Personal Training and group classes. A lot of my clients have additional needs, so the range of clients is cool + Shannon: Oh that's interesting! What kind of additional needs do your clients have? {{cuf_11967919}}  {{cuf_11967920}} Lead : Very interesting! It still keeps me interested after all these years + We have clients with a wide range of needs, from Autism to legally blind + Shannon: Yeah that sounds super rewarding mate, takes a special skill set to tailor training like that. {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks mate, it is super rewarding. You need so much patience, im also grateful I'm able to work with clients without additional needs also + Shannon: Yeah definitely rewarding work mate. Good to have that variety hey. {{cuf_11967919}}  {{cuf_11967920}} Lead : Definitely mate, the variety helps in so many ways + How's your business and coaching going? + Shannon: Yeah things are good mate, cheers for asking! Studio's humming along and the online coaching side is growing nicely too, really enjoying connecting with people that way. {{cuf_11967919}}  {{cuf_11967920}} Lead : Amazing stuff mate, glad to hear. A lot of colleagues have transitioned online, seems like a great approach if you have your niche + Shannon: Yeah for sure is hey! What about you? You ever thought about doing online stuff yourself? {{cuf_11967919}}  {{cuf_11967920}} Lead : Definitely! I have thought about it and love the idea, it's something I will be looking into over the next few months + Shannon: Yeah righto! What makes you keen on online hey? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just the opportunity to help support more people and not trade so much time for income + Shannon: Yeah righto!  It's awesome being able to reach more people online for sure!  What kind of online coaching are you thinking of doing? {{cuf_11967919}}  {{cuf_11967920}} Lead : Absolutely, I know it requires a lot of work but I'm sure it's worth it.\n\nI'm not too sure mate, this is where my issue is. If I transitioned online I don't think I could help clients with additional needs as much as I do now + Shannon: Yeah, that's a really valid point mate. It would be tough to replicate that hands on support needed for some clients online. {{cuf_11967919}}  {{cuf_11967920}} Lead : Absolutely, the communication also will be a big issue. I do however love working with clients without additional needs in the strength realm, so there's scope to lean into that"
+        },
+        {
+          "timestamp": "2025-04-15T11:42:41.240397+00:00",
+          "type": "ai",
+          "text": "Yeah okay, leaning into the strength stuff online makes sense. A lot of people looking for that."
+        },
+        {
+          "timestamp": "2025-04-15T12:11:30.502618+00:00",
+          "type": "user",
+          "text": "Hey mate +\n Thanks heaps, I appreciate that 🙏 + Shannon: No worries mate! What have you been up to today? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just working mate + Yourself? + Shannon: Yeah fair enough! Just finished up some client programming myself. How's the workday treating ya otherwise? {{cuf_11967919}}  {{cuf_11967920}} Lead : Awesome, seems like you guys have a great community + Good thank you, a few more classes and PT then I will wrap my day up + Shannon: Ah nice one! Sounds like you're in the fitness industry too then? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes mate I am 🙏 + Shannon: Oh cool! What sort of work do you do in fitness? {{cuf_11967919}}  {{cuf_11967920}} Lead : I do Personal Training and group classes. A lot of my clients have additional needs, so the range of clients is cool + Shannon: Oh that's interesting! What kind of additional needs do your clients have? {{cuf_11967919}}  {{cuf_11967920}} Lead : Very interesting! It still keeps me interested after all these years + We have clients with a wide range of needs, from Autism to legally blind + Shannon: Yeah that sounds super rewarding mate, takes a special skill set to tailor training like that. {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks mate, it is super rewarding. You need so much patience, im also grateful I'm able to work with clients without additional needs also + Shannon: Yeah definitely rewarding work mate. Good to have that variety hey. {{cuf_11967919}}  {{cuf_11967920}} Lead : Definitely mate, the variety helps in so many ways + How's your business and coaching going? + Shannon: Yeah things are good mate, cheers for asking! Studio's humming along and the online coaching side is growing nicely too, really enjoying connecting with people that way. {{cuf_11967919}}  {{cuf_11967920}} Lead : Amazing stuff mate, glad to hear. A lot of colleagues have transitioned online, seems like a great approach if you have your niche + Shannon: Yeah for sure is hey! What about you? You ever thought about doing online stuff yourself? {{cuf_11967919}}  {{cuf_11967920}} Lead : Definitely! I have thought about it and love the idea, it's something I will be looking into over the next few months + Shannon: Yeah righto! What makes you keen on online hey? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just the opportunity to help support more people and not trade so much time for income + Shannon: Yeah righto!  It's awesome being able to reach more people online for sure!  What kind of online coaching are you thinking of doing? {{cuf_11967919}}  {{cuf_11967920}} Lead : Absolutely, I know it requires a lot of work but I'm sure it's worth it.\n\nI'm not too sure mate, this is where my issue is. If I transitioned online I don't think I could help clients with additional needs as much as I do now + Shannon: Yeah, that's a really valid point mate. It would be tough to replicate that hands on support needed for some clients online. {{cuf_11967919}}  {{cuf_11967920}} Lead : Absolutely, the communication also will be a big issue. I do however love working with clients without additional needs in the strength realm, so there's scope to lean into that + Shannon: Yeah okay, leaning into the strength stuff online makes sense. A lot of people looking for that. {{cuf_11967919}}  {{cuf_11967920}} Lead : Absolutely + But then there's so many coaches doing the same thing"
+        },
+        {
+          "timestamp": "2025-04-15T12:11:30.739961+00:00",
+          "type": "ai",
+          "text": "Yeah definitely a lot of noise in the online space hey. Everyone brings something different to the table though."
+        },
+        {
+          "timestamp": "2025-04-15T23:59:29.669379+00:00",
+          "type": "user",
+          "text": "Hey mate +\n Thanks heaps, I appreciate that 🙏 + Shannon: No worries mate! What have you been up to today? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just working mate + Yourself? + Shannon: Yeah fair enough! Just finished up some client programming myself. How's the workday treating ya otherwise? {{cuf_11967919}}  {{cuf_11967920}} Lead : Awesome, seems like you guys have a great community + Good thank you, a few more classes and PT then I will wrap my day up + Shannon: Ah nice one! Sounds like you're in the fitness industry too then? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes mate I am 🙏 + Shannon: Oh cool! What sort of work do you do in fitness? {{cuf_11967919}}  {{cuf_11967920}} Lead : I do Personal Training and group classes. A lot of my clients have additional needs, so the range of clients is cool + Shannon: Oh that's interesting! What kind of additional needs do your clients have? {{cuf_11967919}}  {{cuf_11967920}} Lead : Very interesting! It still keeps me interested after all these years + We have clients with a wide range of needs, from Autism to legally blind + Shannon: Yeah that sounds super rewarding mate, takes a special skill set to tailor training like that. {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks mate, it is super rewarding. You need so much patience, im also grateful I'm able to work with clients without additional needs also + Shannon: Yeah definitely rewarding work mate. Good to have that variety hey. {{cuf_11967919}}  {{cuf_11967920}} Lead : Definitely mate, the variety helps in so many ways + How's your business and coaching going? + Shannon: Yeah things are good mate, cheers for asking! Studio's humming along and the online coaching side is growing nicely too, really enjoying connecting with people that way. {{cuf_11967919}}  {{cuf_11967920}} Lead : Amazing stuff mate, glad to hear. A lot of colleagues have transitioned online, seems like a great approach if you have your niche + Shannon: Yeah for sure is hey! What about you? You ever thought about doing online stuff yourself? {{cuf_11967919}}  {{cuf_11967920}} Lead : Definitely! I have thought about it and love the idea, it's something I will be looking into over the next few months + Shannon: Yeah righto! What makes you keen on online hey? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just the opportunity to help support more people and not trade so much time for income + Shannon: Yeah righto!  It's awesome being able to reach more people online for sure!  What kind of online coaching are you thinking of doing? {{cuf_11967919}}  {{cuf_11967920}} Lead : Absolutely, I know it requires a lot of work but I'm sure it's worth it.\n\nI'm not too sure mate, this is where my issue is. If I transitioned online I don't think I could help clients with additional needs as much as I do now + Shannon: Yeah, that's a really valid point mate. It would be tough to replicate that hands on support needed for some clients online. {{cuf_11967919}}  {{cuf_11967920}} Lead : Absolutely, the communication also will be a big issue. I do however love working with clients without additional needs in the strength realm, so there's scope to lean into that + Shannon: Yeah okay, leaning into the strength stuff online makes sense. A lot of people looking for that. {{cuf_11967919}}  {{cuf_11967920}} Lead : Absolutely + But then there's so many coaches doing the same thing + Shannon: Yeah definitely a lot of noise in the online space hey. Everyone brings something different to the table though. {{cuf_11967919}}  {{cuf_11967920}} Lead : Thats true, there's enough people in the world that we can all have an impact on"
+        },
+        {
+          "timestamp": "2025-04-15T23:59:29.877488+00:00",
+          "type": "ai",
+          "text": "Yeah for sure mate! Everyone's got their own unique flavour to bring to the table."
+        },
+        {
+          "timestamp": "2025-04-16T00:38:35.140942+00:00",
+          "type": "user",
+          "text": "Hey mate +\n Thanks heaps, I appreciate that 🙏 + Shannon: No worries mate! What have you been up to today? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just working mate + Yourself? + Shannon: Yeah fair enough! Just finished up some client programming myself. How's the workday treating ya otherwise? {{cuf_11967919}}  {{cuf_11967920}} Lead : Awesome, seems like you guys have a great community + Good thank you, a few more classes and PT then I will wrap my day up + Shannon: Ah nice one! Sounds like you're in the fitness industry too then? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes mate I am 🙏 + Shannon: Oh cool! What sort of work do you do in fitness? {{cuf_11967919}}  {{cuf_11967920}} Lead : I do Personal Training and group classes. A lot of my clients have additional needs, so the range of clients is cool + Shannon: Oh that's interesting! What kind of additional needs do your clients have? {{cuf_11967919}}  {{cuf_11967920}} Lead : Very interesting! It still keeps me interested after all these years + We have clients with a wide range of needs, from Autism to legally blind + Shannon: Yeah that sounds super rewarding mate, takes a special skill set to tailor training like that. {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks mate, it is super rewarding. You need so much patience, im also grateful I'm able to work with clients without additional needs also + Shannon: Yeah definitely rewarding work mate. Good to have that variety hey. {{cuf_11967919}}  {{cuf_11967920}} Lead : Definitely mate, the variety helps in so many ways + How's your business and coaching going? + Shannon: Yeah things are good mate, cheers for asking! Studio's humming along and the online coaching side is growing nicely too, really enjoying connecting with people that way. {{cuf_11967919}}  {{cuf_11967920}} Lead : Amazing stuff mate, glad to hear. A lot of colleagues have transitioned online, seems like a great approach if you have your niche + Shannon: Yeah for sure is hey! What about you? You ever thought about doing online stuff yourself? {{cuf_11967919}}  {{cuf_11967920}} Lead : Definitely! I have thought about it and love the idea, it's something I will be looking into over the next few months + Shannon: Yeah righto! What makes you keen on online hey? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just the opportunity to help support more people and not trade so much time for income + Shannon: Yeah righto!  It's awesome being able to reach more people online for sure!  What kind of online coaching are you thinking of doing? {{cuf_11967919}}  {{cuf_11967920}} Lead : Absolutely, I know it requires a lot of work but I'm sure it's worth it.\n\nI'm not too sure mate, this is where my issue is. If I transitioned online I don't think I could help clients with additional needs as much as I do now + Shannon: Yeah, that's a really valid point mate. It would be tough to replicate that hands on support needed for some clients online. {{cuf_11967919}}  {{cuf_11967920}} Lead : Absolutely, the communication also will be a big issue. I do however love working with clients without additional needs in the strength realm, so there's scope to lean into that + Shannon: Yeah okay, leaning into the strength stuff online makes sense. A lot of people looking for that. {{cuf_11967919}}  {{cuf_11967920}} Lead : Absolutely + But then there's so many coaches doing the same thing + Shannon: Yeah definitely a lot of noise in the online space hey. Everyone brings something different to the table though. {{cuf_11967919}}  {{cuf_11967920}} Lead : Thats true, there's enough people in the world that we can all have an impact on + Shannon: Yeah for sure mate! Everyone's got their own unique flavour to bring to the table. {{cuf_11967919}}  {{cuf_11967920}} Lead : Absolutely, something I'm currently working on. Being more of a presence online and trying to post more frequently to add more value to people around the world 🙏"
+        },
+        {
+          "timestamp": "2025-04-16T00:38:35.337172+00:00",
+          "type": "ai",
+          "text": "Yeah for sure mate! Good on ya for putting yourself out there. It can be a grind but worth it."
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "akeemjacko",
+      "first_message_timestamp": "2025-04-14T05:50:32.465981+00:00",
+      "last_message_timestamp": "2025-04-16T00:38:35.337172+00:00",
+      "conversation_duration_str": "1d 18h 48m",
+      "conversation_count": 1,
+      "last_seen_timestamp": "2025-04-16T00:38:35.337172+00:00"
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

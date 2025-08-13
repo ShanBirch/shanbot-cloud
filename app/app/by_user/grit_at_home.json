@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T10:41:18.447581",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T10:40:59.078104",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by grit_at_home. The post is a video showing a person with short grey hair sitting on a weight machine and doing shoulder exercises with dumbbells. The person is wearing a white t-shirt and tan pants. An American flag is visible in the background. The post includes hashtags like #instafitness, #homegym, and #lgbtq.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person, presumably the account owner, working out at home. They are kneeling and appear to be setting up or adjusting kettlebells. There is also an American flag visible in the background. The post mentions \"pull day\" and includes hashtags related to fitness, LGBTQ+ pride, and gratitude.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram reel by grit_at_home. The reel appears to feature a man talking to the camera with a Canadian flag in the background, followed by a scene of someone working out with a piece of equipment (possibly a sandbag or similar) in what looks like a home gym setup.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person, presumably the account owner, \"grit_at_home,\" doing a lateral lunge with dumbbells in what appears to be a home gym. There are kettlebells on the floor, and a combined Canadian and American flag is hanging on the wall. The post mentions using 15lb dumbbells for a full body workout.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person working out at home with resistance bands. There's also a medicine ball, kettlebells, an American flag, and a motivational poster in the background. The person is kneeling on a bench and doing bicep curls with a resistance band.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman outdoors, holding a kettlebell overhead. She's wearing workout clothes and appears to be in the middle of a workout session. The background shows a house and some outdoor furniture.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Fitness Routine/Equipment:** \"I noticed you're using kettlebells. What are your favorite exercises to do with them?\" or \"I'm trying to get into a more consistent workout routine. Do you have any tips for staying motivated?\"",
+          "2.  **LGBTQ+ Pride:** \"I saw your post included LGBTQ+ pride hashtags. What does pride mean to you?\" or \"I appreciate your visibility and support for the LGBTQ+ community.\"",
+          "1. Workout routines and home gym setups: Ask about the specific workout equipment being used or inquire about other exercises they enjoy doing at home.",
+          "2. Canadian pride/travel: Comment on the Canadian flag and ask if they've traveled extensively within Canada or have any favorite places to visit.",
+          "*   **Home Gym Setup/Workout Routine:** \"I noticed you have a great home gym setup. How long have you been working out at home, and what are some of your favorite exercises?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post looked like a great workout. 💪",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Home Fitness/Home Gyms",
+            "Weight Training (Dumbbells, Kettlebells, Resistance Bands)",
+            "LGBTQ+ Pride and Visibility",
+            "Canadian and American Culture/Patriotism",
+            "Maintaining a Consistent Workout Routine"
+          ],
+          "LIFESTYLE": "Appears to be a fitness enthusiast who prioritizes working out at home. They are likely passionate about health and wellness, and possibly an advocate for LGBTQ+ rights. They may have ties to both Canada and the United States.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite kettlebell exercises and why?",
+            "I'm trying to build a home gym myself. What are the most essential pieces of equipment you recommend?",
+            "What does LGBTQ+ pride mean to you, and how do you express it?",
+            "I noticed the Canadian flag in some of your posts. Do you have any favorite places to visit in Canada?",
+            "What are your tips for staying motivated and consistent with your workout routine?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated/Disciplined (Consistent workout routine)",
+            "Patriotic (Display of American and Canadian flags)",
+            "Inclusive/Supportive (LGBTQ+ hashtags)",
+            "Motivated/Driven (Focus on fitness and self-improvement)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Fitness Routine/Equipment:** \"I noticed you're using kettlebells. What are your favorite exercises to do with them?\" or \"I'm trying to get into a more consistent workout routine. Do you have any tips for staying motivated?\"",
+        "2.  **LGBTQ+ Pride:** \"I saw your post included LGBTQ+ pride hashtags. What does pride mean to you?\" or \"I appreciate your visibility and support for the LGBTQ+ community.\"",
+        "1. Workout routines and home gym setups: Ask about the specific workout equipment being used or inquire about other exercises they enjoy doing at home.",
+        "2. Canadian pride/travel: Comment on the Canadian flag and ask if they've traveled extensively within Canada or have any favorite places to visit.",
+        "*   **Home Gym Setup/Workout Routine:** \"I noticed you have a great home gym setup. How long have you been working out at home, and what are some of your favorite exercises?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

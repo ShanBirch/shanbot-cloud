@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T09:52:30.067742",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T09:52:07.759226",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "A young woman with dark hair is posing for an Instagram post. She is wearing a black t-shirt with the words \"TOMA-TO!\" printed in white. She has a denim jacket casually draped over her shoulders. The background is slightly blurred, suggesting an outdoor setting.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A hand is holding a black mug with the word \"TOMATO!\" printed on it. The post is promoting the mug and the user's vegan lifestyle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is of a black t-shirt with the words \"POTA-TO!\" printed on it above two potatoes. The Instagram account name is veganlife711. The caption says \"Everyone loves potato!\" and includes a variety of vegan-related hashtags.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A man is smiling and wearing a \"POTATO!\" t-shirt while holding an American flag.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a smiling woman wearing a shirt that says \"I LOVE PEOPLE AND GREEN\". Another person is partially visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person with curly blonde hair wearing a black hoodie with the words \"I LOVE PEOPLE AND GREEN\" printed on it in red, yellow, and green letters. The person is looking directly at the camera with a serious expression. The background appears to be a beach or sandy area.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan recipes using tomatoes: Since the mug features \"TOMATO!\", you could ask about their favorite vegan recipes that prominently feature tomatoes.",
+          "2. Vegan breakfast: The hashtags include #veganbreakfast, so you could ask about their go-to vegan breakfast options or favorite vegan breakfast recipes.",
+          "1. Vegan potato recipes: Given the focus on potatoes and the vegan hashtags, asking about favorite vegan potato recipes could be a good conversation starter.",
+          "2. Vegan clothing brands: Inquiring about other vegan clothing brands or asking where they got the t-shirt could lead to a discussion about ethical and sustainable fashion.",
+          "1. Vegan potato recipes: Given the potato theme and the vegan hashtags, asking for their favorite vegan potato recipes could be a great conversation starter."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The tomato tee is so cute! 🍅",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism",
+            "Potatoes",
+            "Tomatoes",
+            "Ethical/Sustainable Fashion (Vegan Clothing)",
+            "Promoting Positivity (I LOVE PEOPLE AND GREEN)"
+          ],
+          "LIFESTYLE": "Likely a young adult or adult who is passionate about veganism and expresses their values through their clothing and online presence. They seem to enjoy outdoor settings and promoting positive messages.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite vegan recipes that prominently feature tomatoes?",
+            "What's your go-to vegan breakfast option or favorite vegan breakfast recipe?",
+            "Do you have any favorite vegan potato recipes you'd be willing to share?",
+            "Where did you get your 'TOMA-TO!' and 'POTA-TO!' t-shirts? Do you know of any other great vegan clothing brands?",
+            "What inspired you to create the 'I LOVE PEOPLE AND GREEN' design?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate",
+            "Positive",
+            "Expressive",
+            "Enthusiastic"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan recipes using tomatoes: Since the mug features \"TOMATO!\", you could ask about their favorite vegan recipes that prominently feature tomatoes.",
+        "2. Vegan breakfast: The hashtags include #veganbreakfast, so you could ask about their go-to vegan breakfast options or favorite vegan breakfast recipes.",
+        "1. Vegan potato recipes: Given the focus on potatoes and the vegan hashtags, asking about favorite vegan potato recipes could be a good conversation starter.",
+        "2. Vegan clothing brands: Inquiring about other vegan clothing brands or asking where they got the t-shirt could lead to a discussion about ethical and sustainable fashion.",
+        "1. Vegan potato recipes: Given the potato theme and the vegan hashtags, asking for their favorite vegan potato recipes could be a great conversation starter."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

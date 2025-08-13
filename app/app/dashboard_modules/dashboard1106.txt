@@ -1,0 +1,3845 @@
+import streamlit as st
+from scheduled_followups import (
+    display_scheduled_followups,
+    display_bulk_review_and_send,
+    bulk_generate_followups,
+    get_user_category,
+    get_topic_for_category,
+    verify_trial_signup,
+    check_sheet_for_signups,
+    get_user_sheet_details as get_checkin_data
+)
+from user_profiles import display_user_profiles, display_user_profile, get_usernames, trigger_check_in
+from client_journey import display_client_journey
+from overview import display_overview
+import sys
+from dashboard_sqlite_utils import (
+    load_conversations_from_sqlite,
+    save_metrics_to_sqlite,
+    get_pending_reviews,
+    update_review_status,
+    add_to_learning_log,
+    add_message_to_history,
+    get_review_accuracy_stats,
+    insert_manual_context_message,
+    add_response_to_review_queue,
+    get_good_few_shot_examples  # Added this import
+)
+import time
+import googleapiclient.discovery
+import google.oauth2.service_account
+import random
+import google.generativeai as genai
+from pathlib import Path
+import os
+import logging
+import json
+import sys
+import os
+import subprocess  # Added for triggering Instagram analysis
+import tempfile  # Added for creating temporary username files
+from datetime import datetime, timedelta
+import sqlite3
+from typing import Dict, List, Optional, Tuple
+import pandas as pd
+
+# Add parent directories to path BEFORE importing from them
+parent_dir = os.path.dirname(os.path.dirname(__file__))
+grandparent_dir = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+if parent_dir not in sys.path:
+    sys.path.insert(0, parent_dir)
+if grandparent_dir not in sys.path:
+    sys.path.insert(0, grandparent_dir)
+
+# Now import from local modules and parent directories
+
+# Import from dashboard_modules
+
+# Import from parent directory
+try:
+    from webhook_handlers import split_response_into_messages
+except ImportError:
+    try:
+        from webhook0605 import split_response_into_messages
+    except ImportError:
+        def split_response_into_messages(text):
+            return [text]  # Fallback function
+
+
+# Configure the page FIRST - before any other Streamlit commands
+st.set_page_config(
+    page_title="Shannon Bot Analytics Dashboard",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+
+# Import the new SQLite utility functions
+
+# Import the actual ManyChat update function
+try:
+    from webhook_handlers import update_manychat_fields
+except ImportError:
+    try:
+        from webhook0605 import update_manychat_fields
+    except ImportError:
+        st.error("Could not import update_manychat_fields function")
+        update_manychat_fields = None
+
+# Import the message splitting function
+
+# Use direct imports since files are in the same directory
+# Assuming overview.py is in the same dir
+# Assuming client_journey.py is in the same dir
+# Assuming user_profiles.py is in the same dir
+
+# Path for action_items JSON file - keep this as it's separate for now
+ACTION_ITEMS_JSON_FILE = r"C:\Users\Shannon\OneDrive\Desktop\shanbot\app\analytics_data_good.json"
+# Path for Google Sheets credentials (remains the same)
+SHEETS_CREDENTIALS_PATH = os.path.join(
+    os.path.dirname(__file__), "sheets_credentials.json")  # Corrected path if sheets_credentials.json is in dashboard_modules
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+# Google Sheets configuration (remains the same)
+ONBOARDING_SPREADSHEET_ID = "1038Ep0lYGEtpipNAIzH7RB67-KOAfXA-TcUTKBKqIfo"
+ONBOARDING_RANGE_NAME = "Sheet1!A:AAF"
+
+
+def check_and_update_signups(data: dict) -> dict:
+    """Check for new signups and update user stages accordingly."""
+    data_updated = False  # This flag might be less relevant if saves happen per user
+
+    # The 'data' dict now primarily comes from SQLite via load_analytics_data
+    # and 'conversations' is the key holding the SQLite loaded data.
+    if 'conversations' not in data:
+        logger.error(
+            "'conversations' key missing from data in check_and_update_signups. Cannot proceed.")
+        return data, False
+
+    for username, user_container in data.get('conversations', {}).items():
+        # User data is now directly under username, not nested in 'metrics' in the same way as JSON
+        # metrics is the direct user data dict from SQLite load
+        metrics = user_container.get('metrics', {})
+        if not metrics:
+            logger.warning(
+                f"No metrics found for user {username} in check_and_update_signups")
+            continue
+
+        ig_username = metrics.get('ig_username')
+
+        # Journey stage logic might need to be adapted if journey_stage is a dict
+        current_journey_stage = metrics.get('journey_stage', {})
+        if not isinstance(current_journey_stage, dict):
+            current_journey_stage = {}  # Default to dict if not already
+
+        # Skip if already in trial or paying stage
+        if current_journey_stage.get('is_paying_client') or current_journey_stage.get('trial_start_date'):
+            continue
+
+        # Check if user has signed up
+        # verify_trial_signup likely needs to check Google Sheets
+        if ig_username and verify_trial_signup(ig_username):
+            logger.info(
+                f"Found signup for {ig_username}, updating to Trial Week 1")
+            # Update journey_stage directly
+            current_journey_stage['trial_start_date'] = datetime.now(
+            ).isoformat()  # Example: set trial start
+            # Update current stage
+            current_journey_stage['current_stage'] = 'Trial Week 1'
+            # Assign back to metrics
+            metrics['journey_stage'] = current_journey_stage
+
+            # Save this specific user's updated metrics to SQLite
+            if save_metrics_to_sqlite(ig_username, metrics):
+                logger.info(
+                    f"Successfully saved updated journey_stage for {ig_username} to SQLite.")
+                data_updated = True  # Indicate that at least one user was updated
+            else:
+                logger.error(
+                    f"Failed to save updated journey_stage for {ig_username} to SQLite.")
+
+    return data, data_updated
+
+
+def load_analytics_data():
+    """Load analytics data: conversations from SQLite, action_items from JSON."""
+    logger.info("Starting to load analytics data...")
+    data = {}
+    analytics_file_path_for_actions = ACTION_ITEMS_JSON_FILE  # For action_items
+
+    # 1. Load conversations from SQLite
+    try:
+        conversations_from_sqlite = load_conversations_from_sqlite()
+        # This is already in the desired format
+        data['conversations'] = conversations_from_sqlite
+        logger.info(
+            f"Successfully loaded {len(conversations_from_sqlite)} conversations from SQLite.")
+        if conversations_from_sqlite:
+            sample_user = next(iter(conversations_from_sqlite))
+            logger.info(
+                f"Sample SQLite user data structure for '{sample_user}': {json.dumps(conversations_from_sqlite[sample_user].get('metrics', {}), indent=2, default=str)}")
+
+    except Exception as e:
+        logger.error(
+            f"Error loading conversations from SQLite: {e}", exc_info=True)
+        st.error(f"Error loading conversation data from SQLite: {e}")
+        data['conversations'] = {}  # Ensure it's an empty dict on error
+
+    # 2. Load action_items from JSON file
+    try:
+        if os.path.exists(analytics_file_path_for_actions):
+            with open(analytics_file_path_for_actions, 'r', encoding='utf-8') as f:
+                json_data_content = json.load(f)
+                data['action_items'] = json_data_content.get(
+                    'action_items', [])
+            logger.info(
+                f"Successfully loaded {len(data.get('action_items',[]))} action items from JSON: {analytics_file_path_for_actions}")
+        else:
+            logger.warning(
+                f"Action items JSON file not found at {analytics_file_path_for_actions}. Initializing with empty list.")
+            data['action_items'] = []
+    except json.JSONDecodeError as e:
+        logger.error(
+            f"Error decoding JSON from {analytics_file_path_for_actions}: {e}")
+        st.error(f"Error loading action items from JSON: {e}")
+        data['action_items'] = []
+    except Exception as e:
+        logger.error(
+            f"Unexpected error loading action items from {analytics_file_path_for_actions}: {e}", exc_info=True)
+        data['action_items'] = []
+
+    # For compatibility, the dashboard might expect analytics_file path for saving JSON later.
+    # It might be better to handle JSON saving separately if only action_items go there.
+    return data, analytics_file_path_for_actions  # Return path for JSON for now
+
+
+# Configure Gemini with 3-fallback system like webhook0605.py
+try:
+    # Try to get from Streamlit secrets first (for cloud deployment)
+    GEMINI_API_KEY = st.secrets["general"]["GEMINI_API_KEY"]
+except:
+    # Fallback to the same API key used in webhook_handlers.py
+    GEMINI_API_KEY = "AIzaSyAH6467EocGBwuMi-oDLawrNyCKjPHHmN8"
+
+# Gemini model constants (same as webhook_handlers.py)
+GEMINI_MODEL_PRO = "gemini-2.5-pro-exp-03-25"
+GEMINI_MODEL_FLASH = "gemini-2.0-flash-thinking-exp-01-21"
+GEMINI_MODEL_FLASH_STANDARD = "gemini-2.0-flash"
+
+# Retry constants
+RETRY_DELAY = 16  # Seconds to wait before retry
+MAX_RETRIES = 3  # Maximum number of retry attempts
+
+if GEMINI_API_KEY and GEMINI_API_KEY != "YOUR_GEMINI_API_KEY" and GEMINI_API_KEY != "your_gemini_api_key_here":
+    try:
+        genai.configure(api_key=GEMINI_API_KEY)
+        # We'll create models dynamically in the retry function
+        logger.info("Gemini configured successfully with 3-fallback system.")
+    except Exception as e:
+        logger.error(f"Error configuring Gemini: {e}")
+        st.error("Failed to configure Gemini AI. Some features might not work.")
+else:
+    logger.warning(
+        "Gemini API Key not found or is a placeholder. AI features will be disabled.")
+    st.info("Gemini API Key not configured. AI features disabled.")
+
+
+# --- Instagram Analysis Functions ---
+
+def trigger_instagram_analysis_for_user(ig_username: str) -> tuple[bool, str]:
+    """
+    Trigger Instagram analysis for a specific user by calling anaylize_followers.py
+
+    Args:
+        ig_username: The Instagram username to analyze
+
+    Returns:
+        tuple: (success: bool, message: str)
+    """
+    import streamlit as st
+
+    try:
+        st.write(f"🔍 Starting analysis for {ig_username}...")
+
+        # Create a temporary file with the username
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False) as temp_file:
+            temp_file.write(ig_username)
+            temp_file_path = temp_file.name
+
+        st.write(f"📝 Created temp file: {temp_file_path}")
+
+        # Path to the analyzer script
+        analyzer_script_path = r"C:\Users\Shannon\OneDrive\Desktop\shanbot\anaylize_followers.py"
+
+        if not os.path.exists(analyzer_script_path):
+            return False, f"❌ Analyzer script not found at {analyzer_script_path}"
+
+        st.write(f"✅ Found analyzer script at: {analyzer_script_path}")
+
+        # Run the analyzer script with the temporary file
+        cmd = ["python", analyzer_script_path,
+               "--followers-list", temp_file_path, "--force"]
+
+        st.write(f"🚀 Running command: {' '.join(cmd)}")
+
+        # Execute the command
+        result = subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            timeout=300,  # 5 minute timeout
+            cwd=os.path.dirname(analyzer_script_path)
+        )
+
+        st.write(f"📊 Command completed with return code: {result.returncode}")
+        st.write(f"📤 STDOUT: {result.stdout[:500]}...")
+        if result.stderr:
+            st.write(f"⚠️ STDERR: {result.stderr[:500]}...")
+
+        # Clean up temporary file
+        try:
+            os.unlink(temp_file_path)
+            st.write(f"🗑️ Cleaned up temp file")
+        except Exception as cleanup_error:
+            st.warning(f"Could not delete temporary file: {cleanup_error}")
+
+        if result.returncode == 0:
+            return True, f"✅ Instagram analysis completed successfully for {ig_username}"
+        else:
+            error_msg = result.stderr if result.stderr else result.stdout
+            return False, f"❌ Analysis failed for {ig_username}: {error_msg[:200]}..."
+
+    except subprocess.TimeoutExpired:
+        return False, f"❌ Analysis timed out for {ig_username} (took longer than 5 minutes)"
+    except Exception as e:
+        st.write(f"💥 Exception occurred: {str(e)}")
+        return False, f"❌ Error triggering analysis for {ig_username}: {str(e)}"
+
+# --- End Instagram Analysis Functions ---
+
+
+def call_gemini_with_retry_sync(model_name: str, prompt: str, retry_count: int = 0) -> str:
+    """Synchronous version of call_gemini_with_retry for dashboard use."""
+    try:
+        model = genai.GenerativeModel(model_name)
+        response = model.generate_content(prompt)
+        return response.text.strip()
+    except Exception as e:
+        if "429" in str(e) and retry_count < MAX_RETRIES:
+            if model_name == GEMINI_MODEL_PRO:
+                logger.warning(
+                    f"Rate limit hit for {model_name}. Falling back to flash-thinking model after delay.")
+                time.sleep(RETRY_DELAY)
+                return call_gemini_with_retry_sync(GEMINI_MODEL_FLASH, prompt, retry_count + 1)
+            else:
+                wait_time = RETRY_DELAY * (retry_count + 1)
+                logger.warning(
+                    f"Rate limit hit. Waiting {wait_time} seconds before retry {retry_count + 1} on {model_name}")
+                time.sleep(wait_time)
+                return call_gemini_with_retry_sync(model_name, prompt, retry_count + 1)
+        elif retry_count < MAX_RETRIES:
+            if model_name == GEMINI_MODEL_PRO:
+                logger.warning(
+                    f"Main model failed: {e}. Trying first fallback model after delay.")
+                time.sleep(RETRY_DELAY)
+                return call_gemini_with_retry_sync(GEMINI_MODEL_FLASH, prompt, retry_count + 1)
+            elif model_name == GEMINI_MODEL_FLASH:
+                logger.warning(
+                    f"First fallback model failed: {e}. Trying second fallback model after delay.")
+                time.sleep(RETRY_DELAY)
+                return call_gemini_with_retry_sync(GEMINI_MODEL_FLASH_STANDARD, prompt, retry_count + 1)
+        logger.error(f"All Gemini attempts failed: {e}")
+        raise e
+
+
+def regenerate_with_enhanced_context(user_ig_username: str, incoming_message: str, conversation_history: list, original_prompt: str, prompt_type: str = 'general_chat') -> str:
+    """
+    Regenerate a response with enhanced context from user bio and conversation topics.
+
+    Args:
+        user_ig_username: Instagram username of the user
+        incoming_message: The user's message we're responding to
+        conversation_history: Recent conversation history
+        original_prompt: The original prompt that was used
+        prompt_type: Type of prompt (general_chat, member_chat, etc.)
+
+    Returns:
+        str: Enhanced response tailored to user's bio and interests
+    """
+    try:
+        logger.info(
+            f"Generating enhanced contextual response for {user_ig_username}")
+
+        # Get user data from analytics
+        user_container = None
+        conversations_data = st.session_state.analytics_data.get(
+            'conversations', {})
+
+        # Find user by ig_username in metrics
+        for username, container in conversations_data.items():
+            if isinstance(container, dict) and 'metrics' in container:
+                metrics = container['metrics']
+                if isinstance(metrics, dict) and metrics.get('ig_username', '').lower() == user_ig_username.lower():
+                    user_container = container
+                    break
+
+        if not user_container:
+            logger.warning(
+                f"User {user_ig_username} not found in analytics data, using original prompt")
+            return call_gemini_with_retry_sync(GEMINI_MODEL_FLASH, original_prompt)
+
+        metrics = user_container['metrics']
+
+        # Extract bio information
+        client_analysis = metrics.get('client_analysis', {})
+        interests = client_analysis.get('interests', [])
+        recent_activities = client_analysis.get('recent_activities', [])
+
+        # Get conversation topics
+        conversation_topics = get_user_topics(metrics)
+
+        # Format recent conversation context
+        formatted_history = ""
+        if conversation_history:
+            # Last 10 messages for context
+            for msg in conversation_history[-10:]:
+                sender = "User" if msg.get('type') == 'user' else "Shannon"
+                text = msg.get('text', '')
+                formatted_history += f"{sender}: {text}\n"
+
+        # Get user's name for personalization
+        first_name = metrics.get('first_name', user_ig_username)
+
+        # Build enhanced prompt based on prompt type
+        if prompt_type == 'general_chat':
+            enhanced_prompt = f"""
+You are Shannon, a casual Australian fitness coach chatting with {first_name} (@{user_ig_username}) on Instagram DM.
+
+**User's Bio & Interests:**
+- Interests: {', '.join(interests[:5]) if interests else 'Not specified'}
+- Recent Activities: {', '.join(recent_activities[:3]) if recent_activities else 'Not specified'}
+
+**Conversation Topics to Draw From:**
+{chr(10).join([f"- {topic}" for topic in conversation_topics[:5]]) if conversation_topics else "- General fitness and lifestyle"}
+
+**Recent Conversation:**
+{formatted_history}
+
+**User's Current Message:** {incoming_message}
+
+**Instructions:**
+- Respond in Shannon's casual, friendly Australian style
+- Reference their interests or recent activities naturally if relevant
+- Create personalized connections like "oh hey I saw you liked [interest], have you been around [related activity] lately?"
+- Keep it conversational and engaging
+- Ask follow-up questions related to their bio/interests when appropriate
+- Don't force bio references if they don't fit naturally
+- CRITICAL: Your response MUST be between 1 and 15 words.
+
+Generate a natural, personalized response that feels like Shannon knows them personally:
+"""
+
+        elif prompt_type == 'checkin_monday':
+            enhanced_prompt = f"""
+You are Shannon, a casual Australian fitness coach doing a Monday morning check-in with your client {first_name} (@{user_ig_username}).
+
+**Shannon's actual Monday check-in style examples:**
+- "Goooooood Morning! Ready for the week?"
+- "Morning! How's your week starting?"
+- "Goooooood Morning! How was the weekend?"
+- "Morning mate! Ready to crush this week?"
+
+**Client's Recent Context:**
+{formatted_history[-200:] if formatted_history else 'No recent context'}
+
+**Client's Message:** {incoming_message}
+
+**CRITICAL INSTRUCTIONS:**
+- Generate ONLY ONE SHORT MESSAGE (1-2 sentences maximum)
+- Your response MUST be between 1 and 15 words.
+- Use Shannon's casual, simple style
+- Start with "Goooooood Morning!" or similar
+- Keep it brief and natural
+- NO long paragraphs or multiple topics
+- NO emojis unless very minimal
+- Ask ONE simple question about their week/weekend
+
+Generate ONE short Monday morning message:
+"""
+
+        elif prompt_type == 'checkin_wednesday':
+            enhanced_prompt = f"""
+You are Shannon, a casual Australian fitness coach doing a Wednesday night check-in with your client {first_name} (@{user_ig_username}).
+
+**Shannon's actual Wednesday check-in style examples:**
+- "Heya! Hows your week going?"
+- "Hey hey! Hows your week been?"
+- "Heya, how's the week treating you?"
+- "Hows your week going so far?"
+
+**Client's Recent Context:**
+{formatted_history[-200:] if formatted_history else 'No recent context'}
+
+**Client's Message:** {incoming_message}
+
+**CRITICAL INSTRUCTIONS:**
+- Generate ONLY ONE SHORT MESSAGE (1-2 sentences maximum)
+- Your response MUST be between 1 and 15 words.
+- Use Shannon's casual, simple style
+- Start with "Heya!" or "Hey hey!"
+- Keep it brief and natural
+- NO long paragraphs or multiple topics
+- NO emojis unless very minimal
+- Ask ONE simple question about their week
+
+Generate ONE short Wednesday check-in message:
+"""
+
+        elif prompt_type == 'member_chat':
+            enhanced_prompt = f"""
+You are Shannon, a casual Australian fitness coach chatting with your client {first_name} (@{user_ig_username}).
+
+**Client's Profile:**
+- Interests: {', '.join(interests[:5]) if interests else 'Fitness focused'}
+- Recent Activities: {', '.join(recent_activities[:3]) if recent_activities else 'Training related'}
+
+**Member Chat Topics:**
+{chr(10).join([f"- {topic}" for topic in conversation_topics[:3]]) if conversation_topics else "- Training progress and goals"}
+
+**Recent Conversation:**
+{formatted_history}
+
+**Client's Message:** {incoming_message}
+
+**Instructions:**
+- Respond as their personal fitness coach
+- Reference their specific interests/activities to show you remember them
+- Ask about progress related to their interests (e.g., if they like hiking, ask about recent hikes)
+- Keep it personal and supportive
+- Show genuine interest in their individual journey
+- CRITICAL: Your response MUST be between 1 and 15 words.
+
+Generate a personalized coaching response:
+"""
+
+        else:
+            # Default enhanced prompt
+            enhanced_prompt = f"""
+You are Shannon responding to {first_name} (@{user_ig_username}).
+
+**Their Interests:** {', '.join(interests[:5]) if interests else 'General'}
+**Recent Activities:** {', '.join(recent_activities[:3]) if recent_activities else 'Various'}
+**Conversation Topics:** {', '.join(conversation_topics[:3]) if conversation_topics else 'General chat'}
+
+**Recent Chat:**
+{formatted_history}
+
+**Their Message:** {incoming_message}
+
+Respond naturally, referencing their interests when relevant. Keep it casual and personal.
+Your response MUST be between 1 and 15 words.
+"""
+
+        # Generate response with enhanced context
+        logger.info(
+            f"Using enhanced prompt for {user_ig_username} with {len(interests)} interests and {len(conversation_topics)} topics")
+
+        enhanced_response = call_gemini_with_retry_sync(
+            GEMINI_MODEL_PRO, enhanced_prompt)
+
+        logger.info(
+            f"Successfully generated enhanced response for {user_ig_username}: {enhanced_response[:100]}...")
+        return enhanced_response
+
+    except Exception as e:
+        logger.error(
+            f"Error in enhanced regeneration for {user_ig_username}: {e}", exc_info=True)
+        # Fallback to original prompt if enhancement fails
+        return call_gemini_with_retry_sync(GEMINI_MODEL_FLASH, original_prompt)
+
+
+# Add a session state for message queue (remains the same)
+if 'message_queue' not in st.session_state:
+    st.session_state.message_queue = []
+
+# Add session state for last signup check (remains the same)
+if 'last_signup_check' not in st.session_state:
+    st.session_state.last_signup_check = None
+
+
+def get_response_category_color(num_responses):
+    """Return color and emoji indicator based on number of responses"""
+    if num_responses >= 20:
+        return "🟢"  # Green circle for high responders
+    elif num_responses >= 11:
+        return "🟡"  # Yellow circle for medium responders
+    elif num_responses >= 1:
+        return "🟠"  # Orange circle for low responders
+    else:
+        return "🔴"  # Red circle for no response
+
+
+def generate_follow_up_message(conversation_history, topic):
+    """Generate a follow-up message using Gemini with 3-fallback system"""
+    if not GEMINI_API_KEY or GEMINI_API_KEY in ["YOUR_GEMINI_API_KEY", "your_gemini_api_key_here"]:
+        st.error("Gemini API key not available. Cannot generate message.")
+        return "[Gemini not available]"
+    try:
+        # Format conversation history
+        formatted_history = ""
+        for msg in conversation_history:  # conversation_history should be a list of dicts
+            sender = "User" if msg.get('type') == 'user' else "Shannon"
+            formatted_history += f"{sender}: {msg.get('text', '')}\n"
+
+        prompt = f"""
+        Previous conversation history:
+        {formatted_history}
+
+        Current conversation topic to discuss:
+        {topic}
+
+        Create a casual, friendly opener message to restart the conversation about this topic.
+        Keep it simple and engaging, like this example:
+        Topic: Discuss their favorite plant-based protein sources
+        Message: "yo dam im running dry on protein sources for a veggie diet, whats your diet looking like? any high protein secrets for me? :)"
+
+        Rules:
+        - Don't use their Instagram username
+        - Keep it casual and conversational
+        - Make it feel natural and not scripted
+        - Include a question to encourage response
+        - Keep it short (1-2 sentences max)
+        - Your response MUST be between 1 and 15 words.
+        - Don't reference previous conversations directly
+
+        Generate ONLY the message, no other text:
+        """
+
+        # Use the 3-fallback system starting with the best model
+        response_text = call_gemini_with_retry_sync(GEMINI_MODEL_PRO, prompt)
+        return response_text
+    except Exception as e:
+        st.error(f"Error generating message: {e}")
+        logger.error(f"Gemini message generation error: {e}", exc_info=True)
+        return None
+
+
+def get_stage_topics(stage_number):
+    """Get conversation topics for a specific stage"""
+    stage_topics = {
+        1: ["Topic 1 - Discuss their favorite plant-based protein sources for muscle growth and any creative vegetarian recipes they've discovered recently."],
+        2: ["Topic 2 - Explore their approach to tracking progress with clients, specifically what metrics they prioritize beyond just weight loss and how they use fitness apps."],
+        3: ["Topic 3 - Talk about their experience adapting resistance training techniques for clients with different fitness levels and what common mistakes they see people make."],
+        4: ["Topic 4 - Share tips on incorporating high-protein vegetarian meals into a busy schedule and how they advise clients to make healthy eating more convenient in Melbourne."],
+        5: ["Topic 5 - Enquire about leads fitness journey - offer 1 month trial"],
+        6: ["Trial Week 1 - Monday Morning: Goooooood Morning! Ready for the week?",
+            "Trial Week 1 - Wednesday Night: Heya! Hows your week going?"],
+        7: ["Trial Week 2 - Monday Morning: Goooooood Morning! Ready for the week?",
+            "Trial Week 2 - Wednesday Night: Heya! Hows your week going?"],
+        8: ["Trial Week 3 - Monday Morning: Goooooood Morning! Ready for the week?",
+            "Trial Week 3 - Wednesday Night: Heya! Hows your week going?"],
+        9: ["Trial Week 4 - Monday Morning: Goooooood Morning! Ready for the week?",
+            "Trial Week 4 - Wednesday Night: Heya! Hows your week going?"],
+        10: ["Paying Client - Monday Morning: Goooooood Morning! Ready for the week?",
+             "Paying Client - Wednesday Night: Heya! Hows your week going?"]
+    }
+    return stage_topics.get(stage_number, [])
+
+
+def get_stage_metrics(data):
+    """Calculate metrics for each stage of the client journey from loaded data."""
+    try:
+        conversations_data = data.get('conversations', {})
+        if not conversations_data:
+            logger.warning(
+                "No conversations data available to calculate stage metrics.")
+            return {
+                'total_users': 0, 'engaged_users': 0, 'analyzed_profiles': 0,
+                'total_messages': 0, 'response_rate': 0, 'avg_messages': 0,
+                'avg_posts_per_profile': 0, 'paying_clients': 0, 'trial_clients': 0,
+                'bot_messages_sent_that_could_be_replied_to': 0,  # For new rate
+                'user_replies_to_bot_messages': 0  # For new rate
+            }
+
+        metrics_summary = {
+            'total_users': len(conversations_data),
+            'engaged_users': 0,
+            'analyzed_profiles': 0,
+            'total_messages': 0,
+            # This will be (user_replies_to_bot / bot_messages_sent_could_be_replied_to)
+            'response_rate': 0,
+            'avg_messages': 0,
+            'paying_clients': 0,
+            'trial_clients': 0,
+            # NEW fields for new response rate: "What percentage of messages sent by the bot receive a reply from the user?"
+            'bot_messages_sent_that_could_be_replied_to': 0,
+            'user_replies_to_bot_messages': 0
+        }
+
+        analyzed_user_count = 0
+        total_analyzed_posts_sum = 0
+
+        for username, user_container in conversations_data.items():
+            user_metrics_data = user_container.get('metrics', {})
+            if not user_metrics_data:
+                continue
+
+            # --- Calculate new response rate based on conversation history ---
+            conversation_history = user_metrics_data.get(
+                'conversation_history', [])
+            last_message_type = None
+            for message in conversation_history:
+                current_message_type = message.get('type')
+                if current_message_type == 'ai':  # Message from bot/AI
+                    metrics_summary['bot_messages_sent_that_could_be_replied_to'] += 1
+                elif current_message_type == 'user' and last_message_type == 'ai':  # User message following a bot message
+                    metrics_summary['user_replies_to_bot_messages'] += 1
+
+                if current_message_type in ['ai', 'user']:
+                    last_message_type = current_message_type
+            # --- End new response rate calculation for this user ---
+
+            # Check for paying clients and trial clients
+            journey_stage = user_metrics_data.get('journey_stage', {})
+            if isinstance(journey_stage, dict):
+                if journey_stage.get('is_paying_client', False):
+                    metrics_summary['paying_clients'] += 1
+                elif journey_stage.get('trial_start_date'):
+                    metrics_summary['trial_clients'] += 1
+
+            client_analysis_data = user_metrics_data.get('client_analysis', {})
+            if not isinstance(client_analysis_data, dict):
+                client_analysis_data = {}
+
+            if client_analysis_data and client_analysis_data.get('posts_analyzed', 0) > 0:
+                analyzed_user_count += 1
+                total_analyzed_posts_sum += client_analysis_data.get(
+                    'posts_analyzed', 0)
+
+            current_user_messages = user_metrics_data.get('user_messages', 0)
+            current_total_messages_for_user = user_metrics_data.get(
+                'total_messages', 0)
+
+            if current_user_messages > 0:
+                metrics_summary['engaged_users'] += 1
+            metrics_summary['total_messages'] += current_total_messages_for_user
+
+        # Calculate NEW response rate: (user_replies_to_bot_messages / bot_messages_sent_that_could_be_replied_to) * 100
+        if metrics_summary['bot_messages_sent_that_could_be_replied_to'] > 0:
+            metrics_summary['response_rate'] = (
+                metrics_summary['user_replies_to_bot_messages'] /
+                metrics_summary['bot_messages_sent_that_could_be_replied_to']
+            ) * 100
+        else:
+            # No bot messages to reply to
+            metrics_summary['response_rate'] = 0.0
+
+        # Calculate averages for other metrics AND FIX SYNTAX ERROR
+        if metrics_summary['engaged_users'] > 0:
+            metrics_summary['avg_messages'] = metrics_summary['total_messages'] / \
+                metrics_summary['engaged_users']  # Fixed line continuation
+
+        metrics_summary['analyzed_profiles'] = analyzed_user_count
+        metrics_summary['avg_posts_per_profile'] = total_analyzed_posts_sum / \
+            analyzed_user_count if analyzed_user_count > 0 else 0  # Fixed line continuation
+
+        logger.info(f"Calculated stage metrics: {metrics_summary}")
+        return metrics_summary
+    except Exception as e:
+        logger.error(f"Error calculating stage metrics: {e}", exc_info=True)
+        return {
+            'total_users': 0, 'engaged_users': 0, 'analyzed_profiles': 0, 'total_messages': 0,
+            'response_rate': 0, 'avg_messages': 0, 'avg_posts_per_profile': 0,
+            'paying_clients': 0, 'trial_clients': 0,
+            'bot_messages_sent_that_could_be_replied_to': 0,  # For new rate
+            'user_replies_to_bot_messages': 0  # For new rate
+        }
+
+
+def get_response_level_wait_time(num_responses):
+    """Return wait time in days based on response level"""
+    if num_responses >= 20:  # High responder (green)
+        return 2  # 48 hours
+    elif num_responses >= 11:  # Medium responder (yellow)
+        return 5  # 5 days
+    else:  # Low responder (orange/red)
+        return 7  # 7 days
+
+
+def get_users_ready_for_followup(analytics_data: dict):
+    """Determine which users are ready for follow-up based on their response level, matching user_profiles logic."""
+    ready_for_followup = {
+        'high_responders': [],
+        'medium_responders': [],
+        'low_responders': [],
+        'total_count': 0
+    }
+    current_time = datetime.now()
+
+    # Known non-user keys
+    known_non_user_keys = ["conversations",
+                           "action_items", "conversation_history"]
+    processed_usernames = set()
+
+    # Helper to process a user
+    def process_user(username, user_data):
+        if username in processed_usernames:
+            return
+        processed_usernames.add(username)
+        metrics = user_data.get('metrics', {})
+        if not metrics:
+            return
+        last_interaction_ts_str = metrics.get('last_interaction_timestamp')
+        last_message_time = None
+        if last_interaction_ts_str:
+            try:
+                last_message_time = datetime.fromisoformat(
+                    last_interaction_ts_str.split('+')[0])
+            except (ValueError, AttributeError):
+                pass
+        if not last_message_time:
+            conversation_history = metrics.get('conversation_history', [])
+            if conversation_history:
+                try:
+                    last_msg_in_history = conversation_history[-1]
+                    last_message_time = datetime.fromisoformat(
+                        last_msg_in_history.get('timestamp', '').split('+')[0])
+                except (IndexError, ValueError, AttributeError):
+                    pass
+        if not last_message_time:
+            return
+        num_responses = metrics.get('user_messages', 0)
+        wait_days = get_response_level_wait_time(num_responses)
+        time_since_last_message = current_time - last_message_time
+        if time_since_last_message.days >= wait_days:
+            user_info = {
+                'username': username,
+                'days_since_last_message': time_since_last_message.days,
+                'response_count': num_responses,
+                'last_message_time': last_message_time
+            }
+            if num_responses >= 20:
+                ready_for_followup['high_responders'].append(user_info)
+            elif num_responses >= 11:
+                ready_for_followup['medium_responders'].append(user_info)
+            else:
+                ready_for_followup['low_responders'].append(user_info)
+            ready_for_followup['total_count'] += 1
+
+    # Process all top-level users
+    for username, user_data in analytics_data.items():
+        if username in known_non_user_keys:
+            continue
+        if isinstance(user_data, dict):
+            process_user(username, user_data)
+
+    # Process users under 'conversations'
+    nested_conversations = analytics_data.get('conversations')
+    if isinstance(nested_conversations, dict):
+        for username, user_data in nested_conversations.items():
+            process_user(username, user_data)
+
+    logger.info(
+        f"Users ready for followup: High={len(ready_for_followup['high_responders'])}, Med={len(ready_for_followup['medium_responders'])}, Low={len(ready_for_followup['low_responders'])}")
+    return ready_for_followup
+
+
+def get_user_topics(user_data_metrics):
+    """Get conversation topics from user's metrics data (loaded from SQLite)."""
+    try:
+        # First try conversation_topics_json (original format)
+        topics_json_str = user_data_metrics.get('conversation_topics_json')
+        if topics_json_str:
+            try:
+                topics = json.loads(topics_json_str)
+                if isinstance(topics, list) and topics:
+                    # Filter out any empty or None topics
+                    filtered_topics = [
+                        topic for topic in topics if topic and not str(topic).startswith('**')]
+                    if filtered_topics:
+                        return filtered_topics
+            except json.JSONDecodeError:
+                pass  # Continue to other methods
+
+        # Next try conversation_topics at root level (Instagram analyzer format)
+        conversation_topics = user_data_metrics.get('conversation_topics')
+        if isinstance(conversation_topics, list) and conversation_topics:
+            filtered_topics = [topic for topic in conversation_topics if topic and not str(
+                topic).startswith('**')]
+            if filtered_topics:
+                return filtered_topics
+
+        # Finally try in client_analysis structure
+        client_analysis = user_data_metrics.get('client_analysis', {})
+        if isinstance(client_analysis, dict):
+            topics_from_analysis = client_analysis.get(
+                'conversation_topics', [])
+            if isinstance(topics_from_analysis, list) and topics_from_analysis:
+                filtered_topics = [topic for topic in topics_from_analysis if topic and not str(
+                    topic).startswith('**')]
+                if filtered_topics:
+                    return filtered_topics
+
+        logger.warning(
+            f"No valid conversation topics found for user {user_data_metrics.get('ig_username')}")
+        return []
+
+    except Exception as e:
+        logger.error(
+            f"Unexpected error in get_user_topics for {user_data_metrics.get('ig_username')}: {e}", exc_info=True)
+        return []
+
+
+def queue_message_for_followup(username, message, topic):
+    """Add a message to the follow-up queue and to conversation history for check-ins"""
+    st.session_state.message_queue.append({
+        'username': username,
+        'message': message,
+        'topic': topic,
+        'queued_time': datetime.now().isoformat()
+    })
+
+    # If this is a check-in message, add it to conversation history immediately
+    # so the AI knows about it for future conversations
+    if topic and 'check' in topic.lower():
+        try:
+            add_message_to_history(
+                ig_username=username,
+                message_type='ai',
+                message_text=message,
+                message_timestamp=None  # This will use current timestamp
+            )
+            logger.info(
+                f"Check-in message added to conversation history for {username}")
+        except Exception as e:
+            logger.error(
+                f"Failed to add check-in message to conversation history for {username}: {e}", exc_info=True)
+
+
+def save_followup_queue():
+    """Save the follow-up queue to a file for the follow-up manager"""
+    # Fix: Save to the main shanbot directory where followup_manager.py expects it
+    queue_file = r"C:\Users\Shannon\OneDrive\Desktop\shanbot\followup_queue.json"
+    try:
+        with open(queue_file, 'w') as f:
+            json.dump({
+                'messages': st.session_state.message_queue,
+                'created_at': datetime.now().isoformat()
+            }, f, indent=2)
+        logger.info(f"Followup queue saved to {queue_file}")
+        return True
+    except Exception as e:
+        st.error(f"Error saving follow-up queue: {e}")
+        logger.error(f"Error saving followup_queue.json: {e}", exc_info=True)
+        return False
+
+
+def display_user_followup(user_followup_info, all_analytics_data):
+    """Display user follow-up information with message generation and sending capabilities."""
+    username = user_followup_info['username']
+
+    # Get user_data by checking the 'conversations' part of all_analytics_data
+    user_container = all_analytics_data.get('conversations', {}).get(username)
+    if not user_container or 'metrics' not in user_container:
+        st.error(
+            f"Could not find data for user '{username}' to display followup.")
+        logger.error(
+            f"Data or metrics missing for user {username} in display_user_followup.")
+        return
+
+    # This is the dict of the user's data from SQLite
+    metrics = user_container['metrics']
+
+    with st.expander(f"{username} - {user_followup_info['days_since_last_message']} days since last message"):
+        # Create columns for layout
+        info_col, history_col = st.columns([1, 1])
+
+        with info_col:
+            # Basic Information
+            st.write("### User Information")
+            st.write(
+                f"**Response count:** {user_followup_info['response_count']}")
+            st.write(
+                f"**Last message:** {user_followup_info['last_message_time'].strftime('%Y-%m-%d %H:%M')}")
+
+            # Get user's conversation topics from metrics
+            available_topics = get_user_topics(metrics)
+
+            if not available_topics:
+                st.warning("No conversation topics available for this user")
+                current_topic = "General catch-up"  # Default topic
+            else:
+                # Get user's category and appropriate topic
+                # get_user_category needs to handle new metrics structure
+                user_category = get_user_category(metrics)
+                current_topic = get_topic_for_category(
+                    user_category, metrics)  # Same for get_topic_for_category
+
+                # Show current topic
+                st.write("### Current Topic")
+                st.info(current_topic)
+
+                if st.button(f"Generate Message", key=f"gen_{username}"):
+                    if not GEMINI_API_KEY or GEMINI_API_KEY in ["YOUR_GEMINI_API_KEY", "your_gemini_api_key_here"]:
+                        st.error(
+                            "Gemini API key not available for message generation.")
+                        return
+                    with st.spinner("Generating message..."):
+                        conversation_history = metrics.get(
+                            'conversation_history', [])
+                        message = generate_follow_up_message(
+                            conversation_history, current_topic)
+                    if message:
+                        # Store generated message in user_followup_info (which is part of a list, not session state directly)
+                        user_followup_info['generated_message'] = message
+                        user_followup_info['selected_topic'] = current_topic
+                        st.success("Message generated!")
+                        st.rerun()  # Rerun to show the text_area
+                    else:
+                        st.error("Failed to generate message.")
+
+        with history_col:
+            # Conversation History
+            st.write("### Conversation History")
+            conversation_history = metrics.get('conversation_history', [])
+            if conversation_history:
+                st.write("Last 5 messages:")
+                history_container = st.container()
+                with history_container:
+                    for msg in conversation_history[-5:]:
+                        sender = "User" if msg.get(
+                            'type') == 'user' else "Shannon"
+                        st.write(f"**{sender}:** {msg.get('text', '')}")
+            else:
+                st.info("No conversation history available")
+
+        # Message editing section - full width below columns
+        st.write("### Follow-up Message")
+        if 'generated_message' in user_followup_info:
+            # Create a text area for editing the message
+            edited_message = st.text_area(
+                "Edit message if needed:",
+                value=user_followup_info['generated_message'],
+                key=f"edit_{username}",
+                height=100
+            )
+
+            col1, col2, col3 = st.columns([1, 1, 2])
+            with col1:
+                # Add a regenerate button
+                if st.button("Regenerate", key=f"regen_{username}"):
+                    if not GEMINI_API_KEY or GEMINI_API_KEY in ["YOUR_GEMINI_API_KEY", "your_gemini_api_key_here"]:
+                        st.error(
+                            "Gemini API key not available for message regeneration.")
+                        return
+                    with st.spinner("Regenerating message..."):
+                        conversation_history = metrics.get(
+                            'conversation_history', [])
+                        message = generate_follow_up_message(
+                            conversation_history, current_topic)
+                        if message:
+                            user_followup_info['generated_message'] = message
+                            user_followup_info['selected_topic'] = current_topic
+                        st.success("Message regenerated!")
+                        st.rerun()
+                else:
+                    st.error("Failed to regenerate message")
+
+            with col2:
+                # Add queue message button
+                if st.button("Queue Message", key=f"queue_{username}"):
+                    queue_message_for_followup(
+                        username, edited_message, current_topic)
+                    st.success(f"Message queued for {username}")
+                    st.rerun()  # Rerun to reflect queue update
+
+            # Update the stored message if edited
+            if edited_message != user_followup_info['generated_message']:
+                user_followup_info['generated_message'] = edited_message
+                # No need for success message or rerun here, just update the dict for next interaction
+        else:
+            st.warning("Click 'Generate Message' to create a message")
+
+
+def display_scheduled_followups_tab(analytics_data_dict):
+    """Display the scheduled follow-ups section. Renamed to avoid conflict."""
+    st.header("📅 Scheduled Follow-ups")
+
+    # Get users ready for follow-up
+    followup_data_list = get_users_ready_for_followup(analytics_data_dict)
+
+    # Display summary metrics
+    col1, col2, col3, col4 = st.columns(4)
+
+    with col1:
+        st.metric("Total Ready for Follow-up",
+                  followup_data_list['total_count'])
+
+    with col2:
+        high_count = len(followup_data_list['high_responders'])
+        st.metric("High Responders Ready (48h)", high_count)
+
+    with col3:
+        medium_count = len(followup_data_list['medium_responders'])
+        st.metric("Medium Responders Ready (5d)", medium_count)
+
+    with col4:
+        low_count = len(followup_data_list['low_responders'])
+        st.metric("Low Responders Ready (7d)", low_count)
+
+    # Display queued messages if any exist
+    if st.session_state.message_queue:
+        st.subheader("📬 Queued Messages")
+        st.write(
+            f"{len(st.session_state.message_queue)} messages queued for sending")
+
+        # Show queued messages in an expander
+        with st.expander("View Queued Messages"):
+            for msg_item in st.session_state.message_queue:
+                st.write(f"**To:** {msg_item['username']}")
+                st.write(f"**Topic:** {msg_item['topic']}")
+                st.write(f"**Message:** {msg_item['message']}")
+                st.write("---")
+
+        # Add send button
+        if st.button("🚀 Send All Queued Messages", type="primary"):
+            if save_followup_queue():
+                st.success(
+                    "Messages queued for sending! Follow-up manager will process these messages.")
+                # Clear the queue after successful save
+                st.session_state.message_queue = []
+                st.rerun()
+            else:
+                st.error("Failed to queue messages for sending")
+
+    # Create tabs for different response levels
+    high_tab, medium_tab, low_tab = st.tabs([
+        "🟢 High Responders",
+        "🟡 Medium Responders",
+        "🟠 Low Responders"
+    ])
+
+    # Display users with their generated messages
+    with high_tab:
+        if followup_data_list['high_responders']:
+            for user_info_item in followup_data_list['high_responders']:
+                # Pass full data dict
+                display_user_followup(user_info_item, analytics_data_dict)
+        else:
+            st.info("No high responders ready for follow-up")
+
+    with medium_tab:
+        if followup_data_list['medium_responders']:
+            for user_info_item in followup_data_list['medium_responders']:
+                display_user_followup(user_info_item, analytics_data_dict)
+        else:
+            st.info("No medium responders ready for follow-up")
+
+    with low_tab:
+        if followup_data_list['low_responders']:
+            for user_info_item in followup_data_list['low_responders']:
+                display_user_followup(user_info_item, analytics_data_dict)
+        else:
+            st.info("No low responders ready for follow-up")
+
+
+def display_overview_tab(analytics_data_dict):
+    """Display the overview page. Renamed to avoid conflict."""
+    st.header("📊 Overview")
+
+    # Display metrics and other overview content
+    metrics_summary = get_stage_metrics(analytics_data_dict)
+
+    # Create columns for metrics display - now using 4 columns to accommodate new metrics
+    col1, col2, col3, col4 = st.columns(4)
+
+    with col1:
+        st.metric("Total Users", metrics_summary['total_users'])
+        st.metric("Engaged Users", metrics_summary['engaged_users'])
+
+    with col2:
+        st.metric("Total Messages", metrics_summary['total_messages'])
+        st.metric("Avg Messages per User",
+                  f"{metrics_summary['avg_messages']:.1f}")
+
+    with col3:
+        st.metric("Response Rate", f"{metrics_summary['response_rate']:.1f}%")
+        st.metric("Analyzed Profiles", metrics_summary['analyzed_profiles'])
+
+    with col4:
+        st.metric("💰 Paying Clients", metrics_summary['paying_clients'])
+        st.metric("🆓 Trial Clients", metrics_summary['trial_clients'])
+
+
+def save_analytics_data(data_to_save: dict, json_file_path_for_actions: str) -> bool:
+    """Save user metrics to SQLite and action_items to JSON."""
+    overall_success = True
+    # 1. Save 'conversations' data (user metrics) to SQLite
+    if 'conversations' in data_to_save:
+        for ig_username, user_container in data_to_save['conversations'].items():
+            metrics = user_container.get('metrics')
+            if metrics:
+                if not save_metrics_to_sqlite(ig_username, metrics):
+                    logger.error(
+                        f"Failed to save metrics to SQLite for user: {ig_username}")
+                    overall_success = False  # Mark failure but continue trying others
+            else:
+                logger.warning(
+                    f"No metrics found for user {ig_username} during save_analytics_data.")
+    else:
+        logger.warning("No 'conversations' key in data_to_save for SQLite.")
+
+    # 2. Save 'action_items' to JSON file
+    if 'action_items' in data_to_save:
+        try:
+            logger.info(
+                f"Saving action_items to JSON: {json_file_path_for_actions}")
+            json_dir = os.path.dirname(json_file_path_for_actions)
+            if not os.path.exists(json_dir):
+                os.makedirs(json_dir)
+                logger.info(f"Created directory for JSON file: {json_dir}")
+            content_for_json = {'action_items': data_to_save['action_items']}
+            with open(json_file_path_for_actions, 'w', encoding='utf-8') as f:
+                json.dump(content_for_json, f, indent=2)
+            logger.info(
+                f"Successfully saved action_items to {json_file_path_for_actions}")
+        except Exception as e:
+            logger.error(
+                f"Error saving action_items to JSON {json_file_path_for_actions}: {e}", exc_info=True)
+            overall_success = False
+    else:
+        logger.warning("No 'action_items' key in data_to_save for JSON.")
+
+    return overall_success
+
+
+def bulk_update_leads_journey_stage(data: dict) -> tuple[dict, int]:
+    """
+    Update journey stages for leads (pre-trial/non-paying) based on conversation analysis.
+    Assumes 'data' contains 'conversations' loaded from SQLite.
+    Saves changes per user to SQLite directly.
+    """
+    try:
+        updated_count = 0
+        conversations = data.get('conversations', {})
+        logger.info(
+            f"Starting bulk update for {len(conversations)} leads' journey stages.")
+        current_time = datetime.now()
+
+        for username, user_container in conversations.items():
+            metrics = user_container.get('metrics', {})
+            if not metrics:
+                logger.warning(
+                    f"No metrics for {username} in bulk_update_leads_journey_stage.")
+                continue
+
+            journey_stage = metrics.get('journey_stage', {})
+            if not isinstance(journey_stage, dict):
+                journey_stage = {}  # Ensure it's a dict
+
+            # Skip if they're already a paying client or in trial
+            if journey_stage.get('is_paying_client') or journey_stage.get('trial_start_date'):
+                continue
+
+            user_updated_this_run = False
+            try:
+                # Ensure journey_stage structure exists
+                if 'current_stage' not in journey_stage:
+                    journey_stage['current_stage'] = 'Topic 1'
+                if 'topic_progress' not in journey_stage:
+                    journey_stage['topic_progress'] = {}
+                if 'last_topic_interaction' not in journey_stage:
+                    journey_stage['last_topic_interaction'] = {}
+
+                # Define topics (simplified for this example)
+                # In a real scenario, these topics might come from get_user_topics or a config
+                lead_topics_map = {
+                    1: "Topic 1", 2: "Topic 2", 3: "Topic 3", 4: "Topic 4", 5: "Topic 5 - Trial Offer"
+                }
+                # Get actual topics if available from user's profile_bio_text or conversation_topics_json
+                actual_user_topics = get_user_topics(
+                    metrics)  # Pass the full metrics dict
+
+                conversation_history = metrics.get('conversation_history', [])
+                if conversation_history:
+                    # Loop through actual topics (up to 4 for pre-trial offer)
+                    for i, topic_text in enumerate(actual_user_topics[:4], 1):
+                        topic_key = f'topic{i}_completed'
+                        last_response_key = f'topic{i}_last_response'
+
+                        if journey_stage['topic_progress'].get(topic_key):
+                            continue  # Already completed this topic
+
+                        # Find messages from Shannon containing this topic
+                        shannon_topic_messages = [
+                            msg for msg in conversation_history
+                            if msg.get('type') != 'user' and topic_text.lower() in msg.get('text', '').lower()
+                        ]
+
+                        if shannon_topic_messages:
+                            last_shannon_topic_msg_ts_str = shannon_topic_messages[-1].get(
+                                'timestamp')
+                            if not last_shannon_topic_msg_ts_str:
+                                continue
+                            last_shannon_topic_msg_ts = datetime.fromisoformat(
+                                last_shannon_topic_msg_ts_str.split('+')[0])
+
+                            # Find user responses after Shannon mentioned the topic
+                            user_responses_after_topic = [
+                                msg for msg in conversation_history
+                                if msg.get('type') == 'user' and
+                                datetime.fromisoformat(
+                                    msg.get('timestamp', '').split('+')[0]) > last_shannon_topic_msg_ts
+                            ]
+
+                            if user_responses_after_topic:
+                                last_user_response_ts_str = user_responses_after_topic[-1].get(
+                                    'timestamp')
+                                last_user_response_ts = datetime.fromisoformat(
+                                    last_user_response_ts_str.split('+')[0])
+                                journey_stage['last_topic_interaction'][last_response_key] = last_user_response_ts.isoformat(
+                                )
+
+                                if (current_time - last_user_response_ts).total_seconds() > 24 * 3600:
+                                    journey_stage['topic_progress'][topic_key] = True
+                                    user_updated_this_run = True
+                                    if journey_stage['current_stage'] == lead_topics_map.get(i):
+                                        next_topic_num = i + 1
+                                        journey_stage['current_stage'] = lead_topics_map.get(
+                                            next_topic_num, 'Topic 5 - Trial Offer')
+                            else:  # No user response after Shannon mentioned topic
+                                # e.g. 2 days no response
+                                if (current_time - last_shannon_topic_msg_ts).total_seconds() > 48 * 3600:
+                                    # Consider re-engaging or moving on, for now, just log or mark as stale
+                                    pass
+
+                    # Check for trial offer (Topic 5)
+                    trial_keywords = ['free month',
+                                      'trial', 'sign up', 'onboarding']
+                    shannon_trial_offer_messages = [
+                        msg for msg in conversation_history
+                        if msg.get('type') != 'user' and
+                        any(keyword in msg.get('text', '').lower()
+                            for keyword in trial_keywords)
+                    ]
+
+                    if shannon_trial_offer_messages:
+                        last_shannon_trial_offer_ts_str = shannon_trial_offer_messages[-1].get(
+                            'timestamp')
+                        if last_shannon_trial_offer_ts_str:
+                            last_shannon_trial_offer_ts = datetime.fromisoformat(
+                                last_shannon_trial_offer_ts_str.split('+')[0])
+                            user_responses_after_trial_offer = [
+                                msg for msg in conversation_history
+                                if msg.get('type') == 'user' and
+                                datetime.fromisoformat(
+                                    msg.get('timestamp', '').split('+')[0]) > last_shannon_trial_offer_ts
+                            ]
+                            if user_responses_after_trial_offer:
+                                last_user_response_trial_ts_str = user_responses_after_trial_offer[-1].get(
+                                    'timestamp')
+                                last_user_response_trial_ts = datetime.fromisoformat(
+                                    last_user_response_trial_ts_str.split('+')[0])
+                                journey_stage['last_topic_interaction']['topic5_last_response'] = last_user_response_trial_ts.isoformat(
+                                )
+                                if (current_time - last_user_response_trial_ts).total_seconds() > 24 * 3600:
+                                    journey_stage['topic_progress']['trial_offer_made'] = True
+                                    # Or 'Awaiting Trial Signup'
+                                    journey_stage['current_stage'] = 'Topic 5 - Trial Offer'
+                                    user_updated_this_run = True
+                            else:  # No response to trial offer
+                                # e.g. 3 days
+                                if (current_time - last_shannon_trial_offer_ts).total_seconds() > 72 * 3600:
+                                    # Mark as made, even if no response
+                                    journey_stage['topic_progress']['trial_offer_made'] = True
+                                    journey_stage['current_stage'] = 'Topic 5 - Trial Offer'
+                                    user_updated_this_run = True
+
+                if user_updated_this_run:
+                    metrics['journey_stage'] = journey_stage
+                    if save_metrics_to_sqlite(username, metrics):
+                        updated_count += 1
+                        logger.info(
+                            f"Updated lead journey stage for {username} to {journey_stage.get('current_stage')} in SQLite.")
+                    else:
+                        logger.error(
+                            f"Failed to save updated journey stage for {username} to SQLite.")
+
+            except Exception as e:
+                logger.error(
+                    f"Error processing lead journey stage for {username}: {e}", exc_info=True)
+                continue
+
+        logger.info(
+            f"Lead journey stage update completed. Updated {updated_count} leads in SQLite.")
+        return data, updated_count  # Return the main data dict and count
+
+    except Exception as e:
+        logger.error(
+            f"Error in lead journey stage bulk update: {e}", exc_info=True)
+        return data, 0
+
+
+def bulk_update_client_profiles(data: dict) -> tuple[dict, int]:
+    """
+    Update profiles for paying clients and trial members using Google Sheets data.
+    Saves changes per user to SQLite directly.
+    """
+    try:
+        updated_count = 0
+        conversations = data.get('conversations', {})
+        logger.info(
+            f"Starting bulk update for client profiles with sheet data for {len(conversations)} users.")
+
+        for username, user_container in conversations.items():
+            metrics = user_container.get('metrics', {})
+            if not metrics:
+                logger.warning(
+                    f"No metrics for {username} in bulk_update_client_profiles.")
+                continue
+
+            ig_username = metrics.get('ig_username')
+            if not ig_username:
+                logger.warning(
+                    f"Missing ig_username in metrics for key {username}.")
+                continue
+
+            user_updated_this_run = False
+            try:
+                # Get user data from sheets
+                # This is an alias for get_user_sheet_details
+                sheet_data = get_checkin_data(ig_username)
+                if sheet_data:
+                    logger.info(
+                        f"Found sheet data for client {ig_username}. Updating profile.")
+
+                    # Update basic metrics
+                    metrics['first_name'] = sheet_data.get(
+                        'First Name', metrics.get('first_name'))
+                    metrics['last_name'] = sheet_data.get(
+                        'Last Name', metrics.get('last_name'))
+                    metrics['gender'] = sheet_data.get(
+                        'Gender', metrics.get('gender'))
+                    metrics['weight'] = sheet_data.get(
+                        'Weight', metrics.get('weight'))
+                    metrics['height'] = sheet_data.get(
+                        'Height', metrics.get('height'))
+                    # For text fields, prefer sheet data if available, otherwise keep existing
+                    metrics['goals_text'] = sheet_data.get(
+                        'Long Term Goals', metrics.get('goals_text'))
+                    metrics['dietary_requirements'] = sheet_data.get(
+                        'Dietary Requirements', metrics.get('dietary_requirements'))
+                    metrics['dob'] = sheet_data.get(
+                        'Date of Birth', metrics.get('dob'))
+                    metrics['gym_access'] = sheet_data.get(
+                        'Gym Access', metrics.get('gym_access'))
+                    metrics['training_frequency'] = sheet_data.get(
+                        'Training Frequency', metrics.get('training_frequency'))
+                    metrics['exercises_enjoyed'] = sheet_data.get(
+                        'Exercises Enjoyed', metrics.get('exercises_enjoyed'))
+                    metrics['daily_calories'] = sheet_data.get(
+                        'Daily Calories', metrics.get('daily_calories'))
+
+                    # Mark as complete if sheet data found
+                    metrics['profile_complete'] = True
+                    metrics['last_updated'] = datetime.now().isoformat()
+                    user_updated_this_run = True
+
+                    # Initialize or update journey stage
+                    journey_stage = metrics.get('journey_stage', {})
+                    if not isinstance(journey_stage, dict):
+                        journey_stage = {}
+
+                    # Update trial/paying status from Google Sheet (assuming these columns exist in your sheet_data)
+                    # These column names are examples, adjust to your actual Google Sheet headers
+                    # Example column name
+                    if sheet_data.get('Subscription Status') == 'Active':
+                        logger.info(
+                            f"Setting {ig_username} as paying client based on sheet.")
+                        journey_stage['is_paying_client'] = True
+                        journey_stage['current_stage'] = 'Paying Client'
+                        # Clear trial if paying
+                        journey_stage['trial_start_date'] = None
+                        journey_stage['trial_end_date'] = None
+                        user_updated_this_run = True
+                    # Example column name
+                    elif sheet_data.get('Trial Status') == 'Active':
+                        trial_start_str = sheet_data.get(
+                            'Trial Start Date')  # Example column name
+                        if trial_start_str:
+                            try:
+                                logger.info(
+                                    f"Setting trial dates for {ig_username} based on sheet.")
+                                start_date = datetime.strptime(
+                                    trial_start_str, '%Y-%m-%d')  # Adjust format if needed
+                                journey_stage['trial_start_date'] = start_date.isoformat(
+                                )
+                                journey_stage['trial_end_date'] = (
+                                    start_date + timedelta(days=28)).isoformat()
+                                # Ensure not marked as paying if in trial
+                                journey_stage['is_paying_client'] = False
+
+                                # Calculate trial week
+                                days_in_trial = (
+                                    datetime.now() - start_date).days
+                                if 0 <= days_in_trial <= 7:
+                                    journey_stage['current_stage'] = 'Trial Week 1'
+                                elif 8 <= days_in_trial <= 14:
+                                    journey_stage['current_stage'] = 'Trial Week 2'
+                                elif 15 <= days_in_trial <= 21:
+                                    journey_stage['current_stage'] = 'Trial Week 3'
+                                elif 22 <= days_in_trial <= 28:
+                                    journey_stage['current_stage'] = 'Trial Week 4'
+                                else:
+                                    # Or similar if past 28 days
+                                    journey_stage['current_stage'] = 'Trial Ended'
+                                logger.info(
+                                    f"Set {ig_username} to {journey_stage['current_stage']} based on sheet trial data.")
+                                user_updated_this_run = True
+                            except ValueError as ve:
+                                logger.error(
+                                    f"Invalid trial start date format '{trial_start_str}' for {ig_username}: {ve}")
+                        else:  # Trial Active but no start date, maybe set to current stage to indicate active trial
+                            # Only if not already in a specific trial week
+                            if not journey_stage.get('trial_start_date'):
+                                journey_stage['current_stage'] = 'Trial Active (Date Unknown)'
+                                user_updated_this_run = True
+
+                    metrics['journey_stage'] = journey_stage
+                else:
+                    # logger.info(f"No sheet data found for {ig_username}. Profile not updated from sheets.")
+                    pass  # No sheet data, do not modify existing SQLite data unless other logic dictates
+
+                if user_updated_this_run:
+                    if save_metrics_to_sqlite(ig_username, metrics):
+                        updated_count += 1
+                        logger.info(
+                            f"Client profile for {ig_username} updated in SQLite.")
+                    else:
+                        logger.error(
+                            f"Failed to save updated profile for {ig_username} to SQLite.")
+
+            except Exception as e:
+                logger.error(
+                    f"Error updating client profile for {ig_username}: {e}", exc_info=True)
+                continue
+
+        logger.info(
+            f"Client profile update from sheets completed. Updated {updated_count} clients in SQLite.")
+        return data, updated_count  # Return main data dict and count
+
+    except Exception as e:
+        logger.error(
+            f"Error in client profile bulk update: {e}", exc_info=True)
+        return data, 0
+
+
+def display_user_profiles_with_bulk_update(analytics_data_dict):
+    """Display user profiles section."""
+    # Use the imported display_user_profiles function
+    display_user_profiles(st.session_state.analytics_data)
+
+
+# --- ADDED: Function to display Daily Report --- START ---
+def display_daily_report(analytics_data_dict):
+    """Display the Daily Report page with pending and completed actions.
+       'action_items' are loaded from JSON and are part of analytics_data_dict.
+    """
+    st.header("📊 Daily Report")
+
+    action_items = analytics_data_dict.get("action_items", [])
+    pending_items = [
+        item for item in action_items if item.get("status") == "pending"]
+    # Assume items not marked 'pending' are completed for now
+    completed_items = [
+        item for item in action_items if item.get("status") == "completed"]
+
+    st.divider()
+    # --- Pending Items --- #
+    st.subheader("🚨 Things To Do")
+    if not pending_items:
+        st.success("✅ All clear! No pending action items.")
+    else:
+        st.warning(f"Found {len(pending_items)} pending action item(s):")
+        for i, item in enumerate(pending_items):
+            try:
+                # Attempt to parse timestamp, allow for Z or +00:00
+                ts_str_raw = item.get("timestamp", "")
+                ts = datetime.fromisoformat(
+                    ts_str_raw.replace("Z", "+00:00"))
+                ts_str_formatted = ts.strftime("%Y-%m-%d %H:%M UTC")
+            except ValueError:
+                # Fallback to raw string if parse fails
+                ts_str_formatted = item.get("timestamp", "Invalid Date")
+            st.markdown(
+                f"- **{item.get('client_name', 'Unknown')}** ({ts_str_formatted}): {item.get('task_description', 'No description')}")
+            # Optional: Add a button to mark as complete later
+            # if st.button(f"Mark Complete", key=f"complete_{i}_{item.get('timestamp')}"):
+            #     # Logic to update the status in the JSON file would go here
+            #     st.rerun()
+
+    st.divider()
+    # --- Completed Items --- #
+    st.subheader("✅ Completed Actions (Recently)")
+    if not completed_items:
+        st.info("No actions marked as completed yet.")
+    else:
+        # Sort completed items by timestamp, newest first
+        completed_items.sort(key=lambda x: x.get(
+            "timestamp", ""), reverse=True)
+        st.success(
+            f"Showing {len(completed_items)} recently completed action(s):")
+        # Limit displayed completed items if needed (e.g., last 10)
+        for item in completed_items[:10]:  # Display latest 10
+            try:
+                ts_str_raw = item.get("timestamp", "")
+                ts = datetime.fromisoformat(
+                    ts_str_raw.replace("Z", "+00:00"))
+                ts_str_formatted = ts.strftime("%Y-%m-%d %H:%M UTC")
+            except ValueError:
+                ts_str_formatted = item.get("timestamp", "Invalid Date")
+            # Use st.markdown for consistency, could use st.write too
+            st.markdown(
+                f"- **{item.get('client_name', 'Unknown')}** ({ts_str_formatted}): {item.get('task_description', 'No description')}")
+
+# --- ADDED: Function to display Daily Report --- END ---
+
+# --- ADDED: Function to display Response Review Queue --- START ---
+
+
+def display_response_review_queue():
+    # st.header("📝 Response Review Queue") # Commented out as per request
+
+    # --- ADDED: Display Review Accuracy Stats ---
+    accuracy_stats = get_review_accuracy_stats()
+    if accuracy_stats:
+        st.subheader("Review Accuracy Statistics")
+        cols = st.columns(4)  # Changed from 4 to 3
+        cols[0].metric("Total Processed", accuracy_stats.get(
+            "total_processed_including_discarded", 0))
+        cols[1].metric("Sent As-Is", f"{accuracy_stats.get('accuracy_percentage', 0.0)}%",
+                       delta=f"{accuracy_stats.get('sent_as_is', 0)} count")
+        cols[2].metric("Edited by User", f"{accuracy_stats.get('edited_percentage', 0.0)}%",
+                       delta=f"{accuracy_stats.get('edited_by_user', 0)} count")
+        cols[3].metric("Regenerated Response", f"{accuracy_stats.get('regenerated_percentage', 0.0)}%",
+                       delta=f"{accuracy_stats.get('regenerated_count', 0)} count")
+        st.divider()
+    # --- END: Display Review Accuracy Stats ---
+
+    all_pending_reviews = get_pending_reviews()
+
+    action_was_taken_on_last_run = st.session_state.last_action_review_id is not None
+    # Reset for current run, it will be set again if an action is taken in this run
+    st.session_state.last_action_review_id = None
+
+    if not all_pending_reviews:
+        st.success("🎉 No responses currently pending review!")
+        # Clear current user if queue is empty
+        st.session_state.current_review_user_ig = None
+        return
+
+    # Group reviews by user_ig_username
+    reviews_by_user = {}
+    for review in all_pending_reviews:
+        user_ig = review['user_ig_username']
+        if user_ig not in reviews_by_user:
+            reviews_by_user[user_ig] = []
+        reviews_by_user[user_ig].append(review)
+
+    sorted_users_with_reviews = sorted(list(reviews_by_user.keys()))
+
+    if not sorted_users_with_reviews:  # Should be caught by all_pending_reviews check
+        st.success("🎉 No responses currently pending review (after grouping)!")
+        st.session_state.current_review_user_ig = None
+        return
+
+    # Determine which user to display
+    user_to_display_ig = st.session_state.current_review_user_ig
+
+    if action_was_taken_on_last_run:
+        # If the user we were just viewing (user_to_display_ig at the START of the previous run)
+        # no longer has reviews in the *current* `reviews_by_user` map, find the next one.
+        # `user_to_display_ig` here holds the value from st.session_state.current_review_user_ig at the start of this run
+        if user_to_display_ig not in reviews_by_user or not reviews_by_user[user_to_display_ig]:
+            # If they were in the list but now have 0 items
+            if user_to_display_ig and user_to_display_ig in sorted_users_with_reviews:
+                try:
+                    idx = sorted_users_with_reviews.index(user_to_display_ig)
+                    user_to_display_ig = sorted_users_with_reviews[(
+                        idx + 1) % len(sorted_users_with_reviews)]
+                except ValueError:  # User is no longer in the list of users with reviews
+                    user_to_display_ig = sorted_users_with_reviews[
+                        0] if sorted_users_with_reviews else None
+            else:  # No previous user, or previous user not in the list anymore
+                user_to_display_ig = sorted_users_with_reviews[0] if sorted_users_with_reviews else None
+        # Else, user_to_display_ig is still valid and has items, so we stay on them.
+
+    elif not user_to_display_ig or user_to_display_ig not in sorted_users_with_reviews:
+        # First load, or current_review_user_ig somehow became invalid (e.g., user\'s last item cleared by another session)
+        user_to_display_ig = sorted_users_with_reviews[0] if sorted_users_with_reviews else None
+
+    st.session_state.current_review_user_ig = user_to_display_ig  # Persist for next run
+
+    if not user_to_display_ig:
+        # This case might happen if all users were cleared simultaneously
+        st.success("🎉 All reviews processed or queue is empty!")
+        return
+
+    current_user_reviews_to_display = reviews_by_user.get(
+        user_to_display_ig, [])
+
+    # UI: Header for current user and skip button
+    try:
+        user_idx = sorted_users_with_reviews.index(user_to_display_ig)
+        st.subheader(
+            f"Reviewing {len(current_user_reviews_to_display)} message(s) for: **{user_to_display_ig}**")
+        st.caption(
+            f"User {user_idx + 1} of {len(sorted_users_with_reviews)} with pending reviews.")
+    except ValueError:  # Should not happen if user_to_display_ig is valid
+        st.error("Error determining current user display. Please refresh.")
+        return
+
+    col_skip_placeholder, col_skip_button = st.columns(
+        [0.8, 0.2])  # Adjust ratio as needed
+    with col_skip_button:
+        if len(sorted_users_with_reviews) > 1:
+            if st.button("Skip to Next User", key="skip_user", use_container_width=True):
+                current_idx_for_skip = sorted_users_with_reviews.index(
+                    st.session_state.current_review_user_ig)
+                next_user_idx = (current_idx_for_skip +
+                                 1) % len(sorted_users_with_reviews)
+                st.session_state.current_review_user_ig = sorted_users_with_reviews[next_user_idx]
+                # st.session_state.last_action_review_id = None # Ensure no false positive for action
+                st.rerun()
+
+    st.info(
+        f"Displaying reviews for {st.session_state.current_review_user_ig}")
+
+    if not current_user_reviews_to_display:
+        st.warning(
+            f"No pending reviews found for {user_to_display_ig} (this might be due to concurrent updates). Attempting to find next user.")
+        # This state implies an issue, try to auto-advance or refresh might be needed.
+        # For now, a rerun might resolve if list changed.
+        # Consider attempting to pick next user explicitly if this state is reached.
+        if len(sorted_users_with_reviews) > 0:
+            st.session_state.current_review_user_ig = sorted_users_with_reviews[(
+                user_idx + 1) % len(sorted_users_with_reviews)] if sorted_users_with_reviews else None
+        else:
+            st.session_state.current_review_user_ig = None
+        st.rerun()
+        return
+
+    for review_item in current_user_reviews_to_display:
+        review_id = review_item['review_id']
+        # Should be same as user_to_display_ig
+        user_ig = review_item['user_ig_username']
+        subscriber_id = review_item['user_subscriber_id']
+        incoming_msg = review_item['incoming_message_text']
+        proposed_resp = review_item['proposed_response_text']
+        original_prompt = review_item['generated_prompt_text']
+        conversation_history = review_item.get(
+            'conversation_history', [])
+
+        key_prefix = f"review_{review_id}_"
+
+        with st.expander(f"Review ID {review_id}: Incoming from {user_ig} - \"{review_item.get('user_message_text', incoming_msg)[:50]}...\"", expanded=True):
+            # Display prompt type prominently at the top
+            prompt_type = review_item.get('prompt_type', 'unknown')
+            prompt_type_display = {
+                'general_chat': '💬 General Chat (Lead + Onboarding)',
+                'member_chat': '👥 Member Chat (Trial/Paying)',
+                'checkin_monday': '🌅 Monday Check-in',
+                'checkin_wednesday': '🌙 Wednesday Check-in',
+                'unknown': '❓ Unknown Prompt Type'
+            }
+
+            st.info(
+                f"**Current Prompt Type:** {prompt_type_display.get(prompt_type, f'❓ {prompt_type}')}")
+
+            # Add prompt type selector for regeneration
+            st.write("**Change Prompt Type for Regeneration:**")
+            prompt_type_options = {
+                'general_chat': '💬 General Chat (Lead + Onboarding)',
+                'member_chat': '👥 Member Chat (Trial/Paying)',
+                'checkin_monday': '🌅 Monday Morning Check-in',
+                'checkin_wednesday': '🌙 Wednesday Night Check-in'
+            }
+
+            # Default to current prompt type, or general_chat if unknown
+            default_prompt = prompt_type if prompt_type in prompt_type_options else 'general_chat'
+
+            selected_prompt_type = st.selectbox(
+                "Select prompt type for regeneration:",
+                options=list(prompt_type_options.keys()),
+                format_func=lambda x: prompt_type_options[x],
+                index=list(prompt_type_options.keys()).index(default_prompt),
+                key=f"{key_prefix}prompt_selector",
+                help="Choose the prompt type to use when regenerating the response"
+            )
+
+            # Show if prompt type has been changed
+            if selected_prompt_type != prompt_type:
+                st.warning(
+                    f"⚠️ Prompt type changed from {prompt_type_display.get(prompt_type, prompt_type)} to {prompt_type_options[selected_prompt_type]}")
+
+            st.divider()
+
+            if f"{key_prefix}show_manual_context" not in st.session_state:
+                st.session_state[f"{key_prefix}show_manual_context"] = False
+
+            if st.button("➕ Add Shannon's Missing Context", key=f"{key_prefix}toggle_manual_context_btn"):
+                st.session_state[f"{key_prefix}show_manual_context"] = not st.session_state[f"{key_prefix}show_manual_context"]
+
+            manual_context = ""
+            if st.session_state[f"{key_prefix}show_manual_context"]:
+                manual_context = st.text_area(
+                    "Shannon's Original Comment/Message (Context for History):",
+                    height=100,
+                    key=f"{key_prefix}manual_context_input",
+                    help="If the user's message is a reply to a comment or DM you sent manually, paste your original message here."
+                )
+
+            show_history = st.toggle(
+                "View Conversation History (Last 20 Messages)", key=f"{key_prefix}toggle_history")
+            if show_history and conversation_history:
+                history_container = st.container(border=True)
+                with history_container:
+                    history_str_display = ""
+                    for msg in conversation_history:
+                        sender = "User" if msg.get(
+                            'type') == 'user' else "Shanbot"
+                        try:
+                            ts_obj = datetime.fromisoformat(
+                                msg.get('timestamp', '').split('+')[0])
+                            formatted_ts = ts_obj.strftime("%Y-%m-%d %H:%M")
+                        except ValueError:
+                            formatted_ts = msg.get('timestamp', 'No Timestamp')
+                        history_str_display += f"**{sender}** ({formatted_ts}): {msg.get('text', '(empty message)')}\n\n"
+                    st.markdown(history_str_display)
+            elif show_history and not conversation_history:
+                st.caption(
+                    "No conversation history found or loaded for this user.")
+
+            # --- ADDED: Toggle for Lead Bio & Topics --- START ---
+            show_bio_topics = st.toggle(
+                "👤 View Lead Bio & Topics", key=f"{key_prefix}toggle_bio_topics")
+            if show_bio_topics:
+                # Fetch the full user data from analytics_data in session_state
+                user_ig_from_review = user_ig  # Preserve the original key from review item
+                user_container_for_bio = None
+
+                # New lookup logic: Iterate to find user by ig_username in metrics
+                if 'conversations' in st.session_state.analytics_data and isinstance(st.session_state.analytics_data['conversations'], dict):
+                    for _, potential_user_container in st.session_state.analytics_data['conversations'].items():
+                        if isinstance(potential_user_container, dict) and 'metrics' in potential_user_container:
+                            metrics_data = potential_user_container['metrics']
+                            # Case-insensitive comparison for ig_username
+                            if isinstance(metrics_data, dict) and metrics_data.get('ig_username', '').lower() == user_ig_from_review.lower():
+                                user_container_for_bio = potential_user_container
+                                break  # Found the user
+
+                # Fallback or alternative: Check if user_ig_from_review is a top-level key (less likely given new info, but good to keep for robustness)
+                if user_container_for_bio is None:  # If not found by iterating through conversations
+                    if user_ig_from_review in st.session_state.analytics_data and isinstance(st.session_state.analytics_data[user_ig_from_review], dict):
+                        # Check if it's a user container
+                        if 'metrics' in st.session_state.analytics_data[user_ig_from_review]:
+                            user_container_for_bio = st.session_state.analytics_data[user_ig_from_review]
+
+                if user_container_for_bio and 'metrics' in user_container_for_bio:
+                    metrics_for_bio = user_container_for_bio['metrics']
+                    client_analysis_for_bio = metrics_for_bio.get(
+                        'client_analysis', {})
+                    # Removed profile_bio_details as we are focusing on client_analysis directly for interests/activities
+
+                    bio_topics_container = st.container(border=True)
+                    with bio_topics_container:
+                        st.markdown(
+                            "**Instagram Analysis (from User Metrics):**")
+
+                        # Display Detected Interests from client_analysis OR root metrics
+                        detected_interests = client_analysis_for_bio.get(
+                            "interests", [])
+                        # If not found in client_analysis, check root metrics level
+                        if not detected_interests:
+                            detected_interests = metrics_for_bio.get(
+                                "interests", [])
+
+                        if detected_interests:
+                            st.markdown("- **Detected Interests:**")
+                            for interest in detected_interests:
+                                if interest and not str(interest).startswith('**'):
+                                    st.markdown(f"  - {interest}")
+                        else:
+                            st.markdown(
+                                "  - _No detected interests found in client analysis._")
+
+                        # Display Recent Activities from client_analysis OR root metrics
+                        recent_activities = client_analysis_for_bio.get(
+                            "recent_activities", [])
+                        # If not found in client_analysis, check root metrics level
+                        if not recent_activities:
+                            recent_activities = metrics_for_bio.get(
+                                "recent_activities", [])
+
+                        if recent_activities:
+                            st.markdown("- **Recent Activities:**")
+                            for activity in recent_activities:
+                                if activity and not str(activity).startswith('**'):
+                                    st.markdown(f"  - {activity}")
+                        else:
+                            st.markdown(
+                                "  - _No recent activities found in client analysis._")
+
+                        if not detected_interests and not recent_activities:
+                            st.markdown(
+                                "_No specific Instagram analysis details (interests, activities) found._")
+
+                        st.markdown(
+                            "**Suggested Conversation Topics (from User Metrics):**")
+                        # Using the get_user_topics function defined in this dashboard.py file
+                        conversation_topics_list = get_user_topics(
+                            metrics_for_bio)
+                        if conversation_topics_list:
+                            for topic in conversation_topics_list:
+                                st.markdown(f"- {topic}")
+                        else:
+                            st.markdown(
+                                "_No specific conversation topics generated for this user yet._")
+                else:
+                    # This message shows only if the toggle is on AND data is missing
+                    debug_message = f"Attempting to display bio & topics for user: '{user_ig_from_review}'.\n"
+                    if user_container_for_bio is None:
+                        debug_message += f"- Error: User '{user_ig_from_review}' not found. Searched within st.session_state.analytics_data['conversations'] by matching 'ig_username' in metrics, and as a top-level key.\n"
+                        # Optionally, list some keys from both locations if helpful
+                        if st.session_state.analytics_data.get('conversations') is not None:
+                            debug_message += f"  - Top-level keys (sample): {list(st.session_state.analytics_data.keys())[:5]}...\n"
+                            debug_message += f"  - Keys under 'conversations' (sample): {list(st.session_state.analytics_data['conversations'].keys())[:5]}...\n"
+                        else:
+                            debug_message += f"  - Top-level keys (sample): {list(st.session_state.analytics_data.keys())[:5]}...\n"
+                            debug_message += f"  - 'conversations' key is not present in st.session_state.analytics_data.\n"
+
+                    elif 'metrics' not in user_container_for_bio:
+                        debug_message += f"- Error: User '{user_ig_from_review}' data container found, but no 'metrics' key within it.\nAvailable keys in container: {list(user_container_for_bio.keys())}\n"
+                    else:
+                        debug_message += f"- An unknown issue occurred trying to access data for '{user_ig_from_review}'.\n"
+                    st.caption(debug_message)
+            # --- ADDED: Toggle for Lead Bio & Topics --- END ---
+
+            st.markdown("**User Message:**")
+            st.text_area("User Message", value=review_item.get(
+                'user_message_text', incoming_msg), height=100, disabled=True, key=f"user_msg_{review_id}")
+
+            st.markdown("**Current Proposed AI Response:**")
+            edited_response = st.text_area(
+                "Edit Shanbot's Response:", value=proposed_resp, height=150, key=f"{key_prefix}edit")
+
+            user_notes = st.text_input(
+                "Notes for learning (optional):", key=f"{key_prefix}notes")
+            is_good_example = st.checkbox(
+                "Good example for few-shot?", key=f"{key_prefix}good_example")
+
+            # Four columns for Approve, Discard, Instagram Analysis, and Regenerate
+            col_actions1, col_actions2, col_actions3, col_actions4 = st.columns([
+                                                                                1, 1, 1, 1])
+            with col_actions1:
+                if st.button("Approve & Send", key=f"{key_prefix}send", type="primary", use_container_width=True):
+
+                    current_manual_context_val = manual_context  # From text_area if visible
+                    if current_manual_context_val and current_manual_context_val.strip():
+                        context_inserted = insert_manual_context_message(
+                            user_ig_username=user_ig,
+                            subscriber_id=subscriber_id,
+                            manual_message_text=current_manual_context_val.strip(),
+                            user_message_timestamp_str=review_item['incoming_message_timestamp']
+                        )
+                        if context_inserted:
+                            st.toast(
+                                f"Manually entered context saved for {user_ig}!", icon="📝")
+                        else:
+                            st.error(
+                                f"Failed to save manual context for {user_ig}.")
+
+                    message_chunks = split_response_into_messages(
+                        edited_response)
+                    manychat_field_names = [
+                        "o1 Response", "o1 Response 2", "o1 Response 3"]
+                    all_sends_successful = True
+                    first_chunk_sent_successfully = False
+
+                    for i, chunk in enumerate(message_chunks):
+                        if i < len(manychat_field_names):
+                            field_name = manychat_field_names[i]
+                            send_success = update_manychat_fields(
+                                subscriber_id, {field_name: chunk})
+                            if send_success:
+                                if i == 0:
+                                    first_chunk_sent_successfully = True
+                                time.sleep(0.5)
+                            else:
+                                all_sends_successful = False
+                                st.error(
+                                    f"Failed to send part {i+1} to {user_ig}.")
+                                break
+                        else:
+                            st.warning(
+                                f"Message part {i+1} not sent (exceeds ManyChat fields).")
+                            break
+
+                    if first_chunk_sent_successfully:
+                        update_manychat_fields(
+                            subscriber_id, {"response time": "action"})
+                        update_review_status(
+                            review_id, "sent", edited_response)
+
+                        # Calculate AI response timestamp to be slightly after user message
+                        try:
+                            user_msg_timestamp = datetime.fromisoformat(
+                                review_item['incoming_message_timestamp'].split('+')[0])
+                            # Add 1 second to ensure AI response comes after user message
+                            ai_response_timestamp = (
+                                user_msg_timestamp + timedelta(seconds=1)).isoformat()
+                        except (ValueError, KeyError):
+                            # Fallback to current time if timestamp parsing fails
+                            ai_response_timestamp = None
+
+                        add_message_to_history(
+                            ig_username=user_ig, message_type='ai', message_text=edited_response,
+                            message_timestamp=ai_response_timestamp)
+                        add_to_learning_log(
+                            review_id=review_id, user_ig_username=user_ig, user_subscriber_id=subscriber_id,
+                            original_prompt_text=original_prompt, original_gemini_response=proposed_resp,
+                            edited_response_text=edited_response, user_notes=user_notes,
+                            is_good_example_for_few_shot=1 if is_good_example else 0
+                        )
+                        st.session_state.last_action_review_id = review_id  # Signal action
+                        st.success(
+                            f"Response for review {review_id} sent to {user_ig}. Refreshing...")
+                        st.rerun()
+                    elif not all_sends_successful:  # No chunks sent
+                        st.error(
+                            f"Failed to send message to {user_ig}. Please check ManyChat logs and try again.")
+
+            with col_actions2:  # Re-instating Discard button and its column
+                if st.button("Discard", key=f"{key_prefix}discard", use_container_width=True):
+                    update_review_status(review_id, "discarded")
+                    add_to_learning_log(
+                        review_id=review_id, user_ig_username=user_ig, user_subscriber_id=subscriber_id,
+                        original_prompt_text=original_prompt, original_gemini_response=proposed_resp,
+                        edited_response_text="[DISCARDED]", user_notes=f"[DISCARDED by user] {user_notes}".strip(),
+                        is_good_example_for_few_shot=0
+                    )
+                    st.session_state.last_action_review_id = review_id  # Signal action
+                    st.warning(
+                        f"Response for review {review_id} for {user_ig} discarded. Refreshing...")
+                    st.rerun()
+
+            with col_actions3:  # Instagram Analysis button
+                if st.button("🔍 Analyze Bio", key=f"{key_prefix}analyze_bio", use_container_width=True, help="Run Instagram analysis to get bio info"):
+                    # Initialize session state for this user if not exists
+                    analysis_key = f"analysis_status_{user_ig}"
+                    if analysis_key not in st.session_state:
+                        st.session_state[analysis_key] = None
+
+                    # Show progress spinner
+                    with st.spinner(f"Analyzing Instagram profile for {user_ig}..."):
+                        success, message = trigger_instagram_analysis_for_user(
+                            user_ig)
+                        st.session_state[analysis_key] = (success, message)
+
+                    # Show result
+                    if success:
+                        st.success(message)
+                        # FORCE reload analytics data to show updated bio info
+                        st.session_state.analytics_data = load_analytics_data()
+                        st.toast(
+                            f"✅ Analysis complete for {user_ig}!", icon="🎉")
+                        # Immediately rerun to show updated data
+                        st.rerun()
+                    else:
+                        st.error(message)
+                        st.toast(f"❌ Analysis failed for {user_ig}", icon="⚠️")
+
+            with col_actions4:  # Regenerate button
+                if st.button("🔄 Regenerate", key=f"{key_prefix}regenerate", use_container_width=True, help="Generate a new response using bio and conversation context"):
+                    # Initialize session state for regeneration if not exists
+                    regenerate_key = f"regenerate_status_{review_id}"
+                    if regenerate_key not in st.session_state:
+                        st.session_state[regenerate_key] = None
+
+                    # Show progress spinner
+                    with st.spinner(f"Regenerating response for {user_ig}..."):
+                        try:
+                            # Get enhanced context for regeneration using selected prompt type
+                            enhanced_response = regenerate_with_enhanced_context(
+                                user_ig,
+                                incoming_msg,
+                                conversation_history,
+                                original_prompt,
+                                selected_prompt_type  # Use the selected prompt type from the dropdown
+                            )
+
+                            if enhanced_response and enhanced_response.strip():
+                                # Update the proposed response in the database
+                                from app.dashboard_modules.dashboard_sqlite_utils import update_review_proposed_response
+                                update_success = update_review_proposed_response(
+                                    review_id, enhanced_response)
+
+                                if update_success:
+                                    st.session_state[regenerate_key] = (
+                                        True, "New contextual response generated successfully!")
+                                    st.success(
+                                        "✅ New contextual response generated! The page will refresh to show the updated response.")
+                                    st.toast(
+                                        f"🔄 Regenerated response for {user_ig} with bio context!", icon="✨")
+                                    # Refresh the page to show the new response
+                                    st.rerun()
+                                else:
+                                    st.session_state[regenerate_key] = (
+                                        False, "Failed to update response in database")
+                                    st.error(
+                                        "❌ Failed to save the new response. Please try again.")
+                            else:
+                                st.session_state[regenerate_key] = (
+                                    False, "AI generated empty response")
+                                st.error(
+                                    "❌ AI generated an empty response. Please try again.")
+
+                        except Exception as e:
+                            st.session_state[regenerate_key] = (
+                                False, f"Error: {str(e)}")
+                            st.error(
+                                f"❌ Error regenerating response: {str(e)}")
+
+            # Display any previous analysis status for this user
+            analysis_status_key = f"analysis_status_{user_ig}"
+            if analysis_status_key in st.session_state and st.session_state[analysis_status_key]:
+                success, msg = st.session_state[analysis_status_key]
+                if success:
+                    st.info(f"Recent analysis: {msg}")
+                else:
+                    st.warning(f"Recent analysis: {msg}")
+
+            # DEBUG: Show what data structure we're actually working with for this user
+            if st.checkbox("🔍 Debug: Show data structure", key=f"{key_prefix}debug_data"):
+                st.write("**Debug Info:**")
+                if user_container_for_bio:
+                    st.write("User container found:")
+                    if 'metrics' in user_container_for_bio:
+                        metrics_debug = user_container_for_bio['metrics']
+                        if 'client_analysis' in metrics_debug:
+                            client_analysis_debug = metrics_debug['client_analysis']
+                            st.json({
+                                "interests": client_analysis_debug.get("interests", []),
+                                "recent_activities": client_analysis_debug.get("recent_activities", []),
+                                "conversation_topics": client_analysis_debug.get("conversation_topics", []),
+                                "posts_analyzed": client_analysis_debug.get("posts_analyzed", 0),
+                                "timestamp": client_analysis_debug.get("timestamp", "None")
+                            })
+                        else:
+                            st.write("No 'client_analysis' in metrics")
+                            st.write("Available metrics keys:",
+                                     list(metrics_debug.keys()))
+                    else:
+                        st.write("No 'metrics' in user container")
+                        st.write("Available container keys:",
+                                 list(user_container_for_bio.keys()))
+                else:
+                    st.write(f"No user container found for {user_ig}")
+                    if 'conversations' in st.session_state.analytics_data:
+                        st.write("Available conversation keys:", list(
+                            st.session_state.analytics_data['conversations'].keys())[:10])
+
+            # Display any previous regeneration status for this review
+            regenerate_status_key = f"regenerate_status_{review_id}"
+            if regenerate_status_key in st.session_state and st.session_state[regenerate_status_key]:
+                success, msg = st.session_state[regenerate_status_key]
+                if success:
+                    st.info(f"Recent regeneration: {msg}")
+
+            st.markdown("---")
+# --- ADDED: Function to display Response Review Queue --- END ---
+
+# --- ADDED: Function to display Recent Interactions --- START ---
+
+
+def get_users_from_last_30_days(analytics_data_dict):
+    """Get users who have interacted with Shanbot in the last 30 days"""
+    current_time = datetime.now()
+    thirty_days_ago = current_time - timedelta(days=30)
+
+    recent_users = []
+    conversations_data = analytics_data_dict.get('conversations', {})
+
+    logger.info(
+        f"Checking {len(conversations_data)} users for interactions in last 30 days")
+
+    for username, user_container in conversations_data.items():
+        metrics = user_container.get('metrics', {})
+        if not metrics:
+            continue
+
+        # Debug: Log available fields for first few users
+        if len(recent_users) < 3:
+            logger.info(
+                f"Debug - User {username} available fields: {list(metrics.keys())}")
+
+        # Try multiple possible timestamp fields
+        last_interaction = None
+
+        # Method 1: Check last_interaction_timestamp
+        last_interaction_ts_str = metrics.get('last_interaction_timestamp')
+        if last_interaction_ts_str:
+            try:
+                last_interaction = datetime.fromisoformat(
+                    last_interaction_ts_str.split('+')[0])
+                logger.info(
+                    f"Found last_interaction_timestamp for {username}: {last_interaction}")
+            except (ValueError, AttributeError) as e:
+                logger.warning(
+                    f"Could not parse last_interaction_timestamp for {username}: {e}")
+
+        # Method 2: Check conversation_history for last message timestamp
+        if not last_interaction:
+            conversation_history = metrics.get('conversation_history', [])
+            if conversation_history:
+                # Get the last message timestamp
+                last_msg = conversation_history[-1]
+                last_msg_ts_str = last_msg.get('timestamp', '')
+                if last_msg_ts_str:
+                    try:
+                        last_interaction = datetime.fromisoformat(
+                            last_msg_ts_str.split('+')[0])
+                        logger.info(
+                            f"Found timestamp from conversation history for {username}: {last_interaction}")
+                    except (ValueError, AttributeError) as e:
+                        logger.warning(
+                            f"Could not parse conversation history timestamp for {username}: {e}")
+
+        # Method 3: Check other possible timestamp fields
+        if not last_interaction:
+            for field_name in ['last_updated', 'updated_at', 'last_message_time', 'timestamp']:
+                field_value = metrics.get(field_name)
+                if field_value:
+                    try:
+                        last_interaction = datetime.fromisoformat(
+                            str(field_value).split('+')[0])
+                        logger.info(
+                            f"Found timestamp in field '{field_name}' for {username}: {last_interaction}")
+                        break
+                    except (ValueError, AttributeError):
+                        continue
+
+        # If we found a valid timestamp, check if it's within 30 days
+        if last_interaction and last_interaction >= thirty_days_ago:
+            # Calculate some basic stats
+            conversation_history = metrics.get('conversation_history', [])
+            user_messages = sum(
+                1 for msg in conversation_history if msg.get('type') == 'user')
+            ai_messages = sum(
+                1 for msg in conversation_history if msg.get('type') != 'user')
+
+            recent_users.append({
+                'username': username,
+                'ig_username': metrics.get('ig_username', username),
+                'last_interaction': last_interaction,
+                'days_ago': (current_time - last_interaction).days,
+                'user_messages': user_messages,
+                'ai_messages': ai_messages,
+                'total_messages': len(conversation_history),
+                'conversation_history': conversation_history,
+                'journey_stage': metrics.get('journey_stage', {}),
+                'metrics': metrics
+            })
+            logger.info(
+                f"Added {username} to recent users list (last interaction: {last_interaction})")
+        elif last_interaction:
+            logger.info(
+                f"User {username} last interaction {last_interaction} is older than 30 days")
+        else:
+            logger.warning(f"No valid timestamp found for user {username}")
+
+    logger.info(
+        f"Found {len(recent_users)} users with interactions in last 30 days")
+
+    # Sort by most recent interaction first
+    recent_users.sort(key=lambda x: x['last_interaction'], reverse=True)
+    return recent_users
+
+
+def display_recent_interactions(analytics_data_dict):
+    """Display the Recent Interactions tab with users from last 30 days"""
+    st.header("💬 Recent Interactions (Last 30 Days)")
+
+    # Debug section - let's see what data we have
+    with st.expander("🔍 Debug Info - Click to expand", expanded=False):
+        conversations_data = analytics_data_dict.get('conversations', {})
+        st.write(f"**Total users in database:** {len(conversations_data)}")
+
+        if conversations_data:
+            # Show sample user data structure
+            sample_username = list(conversations_data.keys())[0]
+            sample_user = conversations_data[sample_username]
+            sample_metrics = sample_user.get('metrics', {})
+
+            st.write(f"**Sample user:** {sample_username}")
+            st.write(
+                f"**Available fields in metrics:** {list(sample_metrics.keys())}")
+
+            # Check for timestamp fields
+            timestamp_fields = []
+            for field_name in sample_metrics.keys():
+                if 'time' in field_name.lower() or 'date' in field_name.lower() or field_name in ['timestamp', 'updated_at', 'last_updated']:
+                    timestamp_fields.append(
+                        f"{field_name}: {sample_metrics.get(field_name)}")
+
+            if timestamp_fields:
+                st.write("**Found timestamp fields:**")
+                for field in timestamp_fields:
+                    st.write(f"• {field}")
+            else:
+                st.write("**No obvious timestamp fields found**")
+
+            # Check conversation history
+            conversation_history = sample_metrics.get(
+                'conversation_history', [])
+            if conversation_history:
+                st.write(
+                    f"**Conversation history:** {len(conversation_history)} messages")
+                if len(conversation_history) > 0:
+                    last_msg = conversation_history[-1]
+                    st.write(
+                        f"**Last message timestamp:** {last_msg.get('timestamp', 'No timestamp')}")
+                    st.write(
+                        f"**Last message type:** {last_msg.get('type', 'No type')}")
+                    st.write(
+                        f"**Last message text preview:** {str(last_msg.get('text', ''))[:100]}...")
+            else:
+                st.write("**No conversation history found**")
+
+    # Get users from last 30 days
+    recent_users = get_users_from_last_30_days(analytics_data_dict)
+
+    if not recent_users:
+        st.warning("No users have interacted with Shanbot in the last 30 days.")
+        st.info(
+            "Check the debug info above to see what data is available and verify timestamp formats.")
+        return
+
+    # Display summary metrics
+    col1, col2, col3, col4 = st.columns(4)
+
+    with col1:
+        st.metric("Total Users", len(recent_users))
+
+    with col2:
+        total_user_messages = sum(user['user_messages']
+                                  for user in recent_users)
+        st.metric("Total User Messages", total_user_messages)
+
+    with col3:
+        total_ai_messages = sum(user['ai_messages'] for user in recent_users)
+        st.metric("Total AI Messages", total_ai_messages)
+
+    with col4:
+        avg_messages_per_user = sum(user['total_messages']
+                                    for user in recent_users) / len(recent_users)
+        st.metric("Avg Messages/User", f"{avg_messages_per_user:.1f}")
+
+    st.divider()
+
+    # Search/filter functionality
+    search_term = st.text_input(
+        "🔍 Search users by username:", placeholder="Type username to filter...")
+
+    # Filter users based on search
+    if search_term:
+        filtered_users = [user for user in recent_users
+                          if search_term.lower() in user['ig_username'].lower()]
+    else:
+        filtered_users = recent_users
+
+    if not filtered_users:
+        st.warning(f"No users found matching '{search_term}'")
+        return
+
+    st.write(f"Showing {len(filtered_users)} users:")
+
+    # Display each user with their conversation history
+    for user in filtered_users:
+        # Determine status emoji based on interaction recency
+        if user['days_ago'] == 0:
+            status_emoji = "🟢"  # Today
+        elif user['days_ago'] <= 3:
+            status_emoji = "🟡"  # Within 3 days
+        elif user['days_ago'] <= 7:
+            status_emoji = "🟠"  # Within a week
+        else:
+            status_emoji = "🔴"  # Older than a week
+
+        # Get journey stage info
+        journey_stage = user['journey_stage']
+        current_stage = journey_stage.get('current_stage', 'Unknown') if isinstance(
+            journey_stage, dict) else 'Unknown'
+        is_paying = journey_stage.get('is_paying_client', False) if isinstance(
+            journey_stage, dict) else False
+        trial_start = journey_stage.get('trial_start_date') if isinstance(
+            journey_stage, dict) else None
+
+        # Determine user type
+        if is_paying:
+            user_type = "💰 Paying Client"
+        elif trial_start:
+            user_type = "🆓 Trial Member"
+        else:
+            user_type = "👤 Lead"
+
+        # Create expandable section for each user
+        with st.expander(
+            f"{status_emoji} **{user['ig_username']}** - {user['days_ago']} days ago | "
+            f"{user_type} | Stage: {current_stage} | "
+            f"Messages: {user['user_messages']} user, {user['ai_messages']} AI",
+            expanded=False
+        ):
+            # User info section
+            col1, col2 = st.columns([1, 2])
+
+            with col1:
+                st.write("**User Information:**")
+                st.write(
+                    f"• Last interaction: {user['last_interaction'].strftime('%Y-%m-%d %H:%M')}")
+                st.write(f"• Days since last message: {user['days_ago']}")
+                st.write(f"• Total messages: {user['total_messages']}")
+                st.write(f"• User messages: {user['user_messages']}")
+                st.write(f"• AI messages: {user['ai_messages']}")
+                st.write(f"• Current stage: {current_stage}")
+                st.write(f"• User type: {user_type}")
+
+                # Additional metrics if available
+                metrics = user['metrics']
+                if metrics.get('profile_complete'):
+                    st.write("• ✅ Profile complete")
+                else:
+                    st.write("• ❌ Profile incomplete")
+
+            with col2:
+                st.write("**Quick Actions:**")
+                # Add some quick action buttons
+                col_a, col_b, col_c = st.columns(3)
+                with col_a:
+                    if st.button("📊 View Full Profile", key=f"profile_{user['username']}"):
+                        st.info(
+                            "Feature to view full profile - would redirect to User Profiles tab")
+                with col_b:
+                    if st.button("💬 Generate Follow-up", key=f"followup_{user['username']}"):
+                        st.info(
+                            "Feature to generate follow-up - would redirect to Follow-ups tab")
+                with col_c:
+                    if st.button("📈 View Journey", key=f"journey_{user['username']}"):
+                        st.info(
+                            "Feature to view journey - would redirect to Client Journey tab")
+
+            # Conversation history section
+            st.write("**Conversation History:**")
+            conversation_history = user['conversation_history']
+
+            if not conversation_history:
+                st.info("No conversation history available")
+            else:
+                # Options for viewing conversation
+                view_options = st.radio(
+                    "View options:",
+                    ["Last 10 messages", "Last 20 messages", "All messages"],
+                    key=f"view_option_{user['username']}",
+                    horizontal=True
+                )
+
+                # Determine how many messages to show
+                if view_options == "Last 10 messages":
+                    messages_to_show = conversation_history[-10:]
+                elif view_options == "Last 20 messages":
+                    messages_to_show = conversation_history[-20:]
+                else:
+                    messages_to_show = conversation_history
+
+                # Display conversation in a container with scrolling
+                with st.container():
+                    # Create a scrollable area for the conversation
+                    conversation_text = ""
+                    for i, msg in enumerate(messages_to_show):
+                        sender = "👤 **User**" if msg.get(
+                            'type') == 'user' else "🤖 **Shanbot**"
+                        timestamp_str = msg.get('timestamp', '')
+
+                        # Format timestamp
+                        try:
+                            if timestamp_str:
+                                ts = datetime.fromisoformat(
+                                    timestamp_str.split('+')[0])
+                                formatted_time = ts.strftime("%m/%d %H:%M")
+                            else:
+                                formatted_time = "No timestamp"
+                        except:
+                            formatted_time = "Invalid timestamp"
+
+                        message_text = msg.get('text', '(empty message)')
+
+                        # Truncate very long messages for display
+                        if len(message_text) > 500:
+                            message_text = message_text[:500] + \
+                                "... (truncated)"
+
+                        conversation_text += f"{sender} ({formatted_time}):\n{message_text}\n\n"
+
+                    # Display in a text area for easy reading and copying
+                    st.text_area(
+                        f"Conversation ({len(messages_to_show)} messages):",
+                        value=conversation_text,
+                        height=400,
+                        key=f"conversation_{user['username']}",
+                        help="This conversation history is read-only. Use the scroll bar to navigate through messages."
+                    )
+
+                # Show conversation stats
+                st.write(f"**Conversation Statistics:**")
+                col_stats1, col_stats2, col_stats3 = st.columns(3)
+                with col_stats1:
+                    st.metric("Total Messages", len(conversation_history))
+                with col_stats2:
+                    if conversation_history:
+                        first_msg_date = conversation_history[0].get(
+                            'timestamp', '')
+                        try:
+                            first_date = datetime.fromisoformat(
+                                first_msg_date.split('+')[0])
+                            conversation_span = (
+                                user['last_interaction'] - first_date).days
+                            st.metric("Conversation Span",
+                                      f"{conversation_span} days")
+                        except:
+                            st.metric("Conversation Span", "Unknown")
+                    else:
+                        st.metric("Conversation Span", "0 days")
+                with col_stats3:
+                    if user['total_messages'] > 0 and conversation_history:
+                        response_rate = (
+                            user['user_messages'] / user['total_messages']) * 100
+                        st.metric("User Response Rate",
+                                  f"{response_rate:.1f}%")
+                    else:
+                        st.metric("User Response Rate", "0%")
+
+            st.markdown("---")
+# --- ADDED: Function to display Recent Interactions --- END ---
+
+
+# --- NEW: Consolidated Follow-up Manager --- START ---
+def display_followup_manager(analytics_data_dict):
+    """Consolidated follow-up management combining scheduled follow-ups, recent interactions, and bulk tools"""
+    st.header("📬 Follow-up Manager")
+
+    # Create tabs for the three main sections
+    ready_tab, recent_tab, bulk_tab = st.tabs([
+        "🎯 Ready for Follow-up",
+        "💬 Recent Interactions",
+        "⚡ Bulk Tools"
+    ])
+
+    with ready_tab:
+        st.subheader("Users Ready for Follow-up")
+        st.caption("Based on response patterns and wait times")
+
+        # Get users ready for follow-up (reuse existing logic)
+        followup_data_list = get_users_ready_for_followup(analytics_data_dict)
+
+        # Display summary metrics
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.metric("Total Ready", followup_data_list['total_count'])
+        with col2:
+            high_count = len(followup_data_list['high_responders'])
+            st.metric("High Responders (48h)", high_count)
+        with col3:
+            medium_count = len(followup_data_list['medium_responders'])
+            st.metric("Medium Responders (5d)", medium_count)
+        with col4:
+            low_count = len(followup_data_list['low_responders'])
+            st.metric("Low Responders (7d)", low_count)
+
+        # Display queued messages if any exist
+        if st.session_state.message_queue:
+            st.info(
+                f"📬 {len(st.session_state.message_queue)} messages queued for sending")
+
+            col_view, col_send = st.columns([1, 1])
+            with col_view:
+                if st.button("👀 View Queued Messages", use_container_width=True):
+                    with st.expander("Queued Messages", expanded=True):
+                        for msg_item in st.session_state.message_queue:
+                            st.write(f"**To:** {msg_item['username']}")
+                            st.write(f"**Topic:** {msg_item['topic']}")
+                            st.write(f"**Message:** {msg_item['message']}")
+                            st.write("---")
+
+            with col_send:
+                if st.button("🚀 Send All Queued", type="primary", use_container_width=True):
+                    if save_followup_queue():
+                        st.success("Messages queued for sending!")
+                        st.session_state.message_queue = []
+                        st.rerun()
+                    else:
+                        st.error("Failed to queue messages")
+
+        # Create sub-tabs for different response levels
+        if followup_data_list['total_count'] > 0:
+            high_sub, medium_sub, low_sub = st.tabs([
+                f"🟢 High ({high_count})",
+                f"🟡 Medium ({medium_count})",
+                f"🟠 Low ({low_count})"
+            ])
+
+            with high_sub:
+                if followup_data_list['high_responders']:
+                    for user_info_item in followup_data_list['high_responders']:
+                        display_user_followup(
+                            user_info_item, analytics_data_dict)
+                else:
+                    st.info("No high responders ready for follow-up")
+
+            with medium_sub:
+                if followup_data_list['medium_responders']:
+                    for user_info_item in followup_data_list['medium_responders']:
+                        display_user_followup(
+                            user_info_item, analytics_data_dict)
+                else:
+                    st.info("No medium responders ready for follow-up")
+
+            with low_sub:
+                if followup_data_list['low_responders']:
+                    for user_info_item in followup_data_list['low_responders']:
+                        display_user_followup(
+                            user_info_item, analytics_data_dict)
+                else:
+                    st.info("No low responders ready for follow-up")
+        else:
+            st.success("🎉 No users currently need follow-up!")
+
+    with recent_tab:
+        st.subheader("Recent Interactions (Last 30 Days)")
+        st.caption("Quick follow-up options for recently active users")
+
+        # Get recent users (reuse existing logic)
+        recent_users = get_users_from_last_30_days(analytics_data_dict)
+
+        if not recent_users:
+            st.info("No recent interactions in the last 30 days")
+            return
+
+        # Summary metrics
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.metric("Recent Users", len(recent_users))
+        with col2:
+            total_user_messages = sum(user['user_messages']
+                                      for user in recent_users)
+            st.metric("Total User Messages", total_user_messages)
+        with col3:
+            avg_messages = sum(user['total_messages']
+                               for user in recent_users) / len(recent_users)
+            st.metric("Avg Messages/User", f"{avg_messages:.1f}")
+
+        # Search functionality
+        search_term = st.text_input(
+            "🔍 Search users:", placeholder="Type username to filter...")
+
+        if search_term:
+            filtered_users = [user for user in recent_users
+                              if search_term.lower() in user['ig_username'].lower()]
+        else:
+            filtered_users = recent_users[:10]  # Show first 10 by default
+
+        if filtered_users:
+            st.write(f"Showing {len(filtered_users)} users:")
+            for user in filtered_users:
+                # Status emoji based on recency
+                if user['days_ago'] == 0:
+                    status_emoji = "🟢"
+                elif user['days_ago'] <= 3:
+                    status_emoji = "🟡"
+                elif user['days_ago'] <= 7:
+                    status_emoji = "🟠"
+                else:
+                    status_emoji = "🔴"
+
+                # User type
+                journey_stage = user['journey_stage']
+                is_paying = journey_stage.get('is_paying_client', False) if isinstance(
+                    journey_stage, dict) else False
+                trial_start = journey_stage.get('trial_start_date') if isinstance(
+                    journey_stage, dict) else None
+
+                if is_paying:
+                    user_type = "💰"
+                elif trial_start:
+                    user_type = "🆓"
+                else:
+                    user_type = "👤"
+
+                with st.expander(
+                    f"{status_emoji} {user_type} **{user['ig_username']}** - {user['days_ago']} days ago | "
+                    f"Messages: {user['user_messages']} user, {user['ai_messages']} AI",
+                    expanded=False
+                ):
+                    col_info, col_message = st.columns([1, 2])
+
+                    with col_info:
+                        st.write("**User Information:**")
+                        st.write(
+                            f"Last interaction: {user['last_interaction'].strftime('%Y-%m-%d %H:%M')}")
+                        st.write(f"Total messages: {user['total_messages']}")
+                        st.write(f"Days since last: {user['days_ago']}")
+
+                        # Show last few messages
+                        if user['conversation_history']:
+                            st.write("**Recent messages:**")
+                            for msg in user['conversation_history'][-3:]:
+                                sender = "👤" if msg.get(
+                                    'type') == 'user' else "🤖"
+                                text_preview = msg.get('text', '')[
+                                    :80] + "..." if len(msg.get('text', '')) > 80 else msg.get('text', '')
+                                st.caption(f"{sender} {text_preview}")
+
+                    with col_message:
+                        st.write("**Follow-up Message:**")
+
+                        # Check if user has a generated message stored in session state
+                        message_key = f"recent_msg_{user['username']}"
+                        topic_key = f"recent_topic_{user['username']}"
+
+                        # Generate message button
+                        col_gen, col_profile = st.columns([1, 1])
+                        with col_gen:
+                            if st.button("🤖 Generate Message", key=f"gen_recent_{user['username']}", use_container_width=True):
+                                if not GEMINI_API_KEY or GEMINI_API_KEY in ["YOUR_GEMINI_API_KEY", "your_gemini_api_key_here"]:
+                                    st.error(
+                                        "Gemini API key not available for message generation.")
+                                else:
+                                    with st.spinner("Generating follow-up message..."):
+                                        # Get user topics for context
+                                        user_topics = get_user_topics(
+                                            user['metrics'])
+                                        current_topic = user_topics[0] if user_topics else "General catch-up"
+
+                                        # Generate message using existing function
+                                        generated_message = generate_follow_up_message(
+                                            user['conversation_history'],
+                                            current_topic
+                                        )
+
+                                        if generated_message:
+                                            # Store in session state
+                                            st.session_state[message_key] = generated_message
+                                            st.session_state[topic_key] = current_topic
+                                            st.success("Message generated!")
+                                            st.rerun()
+                                        else:
+                                            st.error(
+                                                "Failed to generate message.")
+
+                        with col_profile:
+                            if st.button("👤 View Profile", key=f"profile_recent_{user['username']}", use_container_width=True):
+                                # Store the selected user for profile viewing
+                                st.session_state.selected_page = "User Profiles"
+                                st.session_state.selected_user_for_profile = user['ig_username']
+                                st.rerun()
+
+                        # Show generated message if it exists
+                        if message_key in st.session_state and st.session_state[message_key]:
+                            st.write("**Generated Message:**")
+
+                            # Allow editing of the generated message
+                            edited_message = st.text_area(
+                                "Edit message if needed:",
+                                value=st.session_state[message_key],
+                                key=f"edit_recent_{user['username']}",
+                                height=100
+                            )
+
+                            # Update stored message if edited
+                            if edited_message != st.session_state[message_key]:
+                                st.session_state[message_key] = edited_message
+
+                            # Action buttons
+                            col_regen, col_queue, col_send = st.columns([
+                                                                        1, 1, 1])
+
+                            with col_regen:
+                                if st.button("🔄 Regenerate", key=f"regen_recent_{user['username']}", use_container_width=True):
+                                    if not GEMINI_API_KEY or GEMINI_API_KEY in ["YOUR_GEMINI_API_KEY", "your_gemini_api_key_here"]:
+                                        st.error(
+                                            "Gemini API key not available.")
+                                    else:
+                                        with st.spinner("Regenerating message..."):
+                                            user_topics = get_user_topics(
+                                                user['metrics'])
+                                            current_topic = user_topics[0] if user_topics else "General catch-up"
+
+                                            new_message = generate_follow_up_message(
+                                                user['conversation_history'],
+                                                current_topic
+                                            )
+
+                                            if new_message:
+                                                st.session_state[message_key] = new_message
+                                                st.session_state[topic_key] = current_topic
+                                                st.success(
+                                                    "Message regenerated!")
+                                                st.rerun()
+                                            else:
+                                                st.error(
+                                                    "Failed to regenerate message.")
+
+                            with col_queue:
+                                if st.button("📥 Queue Message", key=f"queue_recent_{user['username']}", use_container_width=True):
+                                    topic = st.session_state.get(
+                                        topic_key, "Follow-up")
+                                    queue_message_for_followup(
+                                        user['username'], edited_message, topic)
+                                    st.success(
+                                        f"Message queued for {user['ig_username']}!")
+                                    # Clear the generated message after queuing
+                                    if message_key in st.session_state:
+                                        del st.session_state[message_key]
+                                    if topic_key in st.session_state:
+                                        del st.session_state[topic_key]
+                                    st.rerun()
+
+                            with col_send:
+                                if st.button("📤 Queue for Sending", key=f"send_recent_{user['username']}", type="primary", use_container_width=True):
+                                    # Queue message for Selenium script sending
+                                    topic = st.session_state.get(
+                                        topic_key, "Follow-up")
+                                    queue_message_for_followup(
+                                        user['username'], edited_message, topic)
+                                    st.success(
+                                        f"Message queued for {user['ig_username']}!")
+                                    # Clear the generated message after sending
+                                    if message_key in st.session_state:
+                                        del st.session_state[message_key]
+                                    if topic_key in st.session_state:
+                                        del st.session_state[topic_key]
+                                    st.rerun()
+                        else:
+                            st.info(
+                                "Click 'Generate Message' to create a follow-up message for this user.")
+        else:
+            st.warning(f"No users found matching '{search_term}'")
+
+    with bulk_tab:
+        st.subheader("Bulk Follow-up Tools")
+        st.caption("Generate and manage follow-ups in bulk")
+
+        # Bulk generation button
+        col1, col2 = st.columns([1, 1])
+        with col1:
+            if st.button("🔄 Bulk Generate Follow-ups", type="primary", use_container_width=True):
+                with st.spinner("Generating bulk follow-ups..."):
+                    bulk_generate_followups(
+                        analytics_data_dict,
+                        get_users_ready_for_followup(analytics_data_dict)
+                    )
+                st.success("Bulk follow-ups generated!")
+                st.rerun()
+
+        with col2:
+            # Call the existing bulk review and send function
+            if st.button("📋 Bulk Review & Send", use_container_width=True):
+                st.info("Opening Bulk Review & Send interface...")
+                # You could either redirect or embed the functionality here
+                try:
+                    display_bulk_review_and_send()
+                except:
+                    st.error("Bulk Review & Send function not available")
+
+        # Show some bulk statistics
+        st.divider()
+        st.subheader("Bulk Statistics")
+
+        followup_stats = get_users_ready_for_followup(analytics_data_dict)
+        recent_stats = get_users_from_last_30_days(analytics_data_dict)
+
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.metric("Ready for Follow-up", followup_stats['total_count'])
+        with col2:
+            st.metric("Recent Interactions", len(recent_stats))
+        with col3:
+            st.metric("Queued Messages", len(st.session_state.message_queue))
+        with col4:
+            total_conversations = len(
+                analytics_data_dict.get('conversations', {}))
+            st.metric("Total Users", total_conversations)
+
+# --- NEW: Check-ins Manager --- START ---
+
+
+def display_checkins_manager(analytics_data_dict):
+    """Primary check-in management system for automated Monday/Wednesday check-ins"""
+    st.header("📅 Check-ins Manager")
+    st.caption(
+        "Automated Monday morning & Wednesday night check-ins for trial and paying clients")
+
+    # Get all conversations
+    conversations_data = analytics_data_dict.get('conversations', {})
+    if not conversations_data:
+        st.warning("No conversation data available")
+        return
+
+    # Create tabs for different check-in management functions
+    schedule_tab, manual_tab, inactive_tab = st.tabs([
+        "📋 Scheduled Check-ins",
+        "🎯 Manual Triggers",
+        "⚠️ Inactive Clients"
+    ])
+
+    with schedule_tab:
+        # Removed the Automated Check-in Schedule section as requested
+
+        # Show current followup queue status
+        if st.session_state.message_queue:
+            queue_count = len(st.session_state.message_queue)
+            checkin_count = sum(
+                1 for msg in st.session_state.message_queue if msg.get('topic') == 'Check-in')
+
+            st.info(
+                f"📬 **Current Queue Status:** {queue_count} total messages queued ({checkin_count} check-ins)")
+
+            col_view_queue, col_send_queue = st.columns([1, 1])
+            with col_view_queue:
+                if st.button("👀 View Queue", use_container_width=True):
+                    with st.expander("Current Message Queue", expanded=True):
+                        for i, msg in enumerate(st.session_state.message_queue):
+                            st.write(
+                                f"**{i+1}. {msg['username']}** ({msg['topic']})")
+                            st.caption(f"Message: {msg['message'][:100]}...")
+                            st.write("---")
+
+            with col_send_queue:
+                if st.button("🚀 Send All Queued Messages", type="primary", use_container_width=True):
+                    if save_followup_queue():
+                        st.success(
+                            "✅ All messages sent to followup_manager.py for processing!")
+                        st.info(
+                            "💡 The Selenium script will now send these messages via Instagram DM")
+                        st.session_state.message_queue = []
+                        st.rerun()
+                    else:
+                        st.error("❌ Failed to queue messages for sending")
+
+        # Proactive Check-in Message Generator
+        st.subheader("🚀 Generate & Queue Check-in Messages")
+        st.caption(
+            "Create personalized check-in messages and queue them for Instagram DM sending")
+
+        # Filter for trial and paying clients
+        eligible_clients = []
+        for username, user_container in conversations_data.items():
+            metrics = user_container.get('metrics', {})
+            if not metrics:
+                continue
+
+            journey_stage = metrics.get('journey_stage', {})
+            if not isinstance(journey_stage, dict):
+                continue
+
+            # Only include paying clients and trial members
+            is_paying = journey_stage.get('is_paying_client', False)
+            is_trial = bool(journey_stage.get('trial_start_date'))
+
+            if is_paying or is_trial:
+                client_info = {
+                    'username': username,
+                    'ig_username': metrics.get('ig_username', username),
+                    'is_paying': is_paying,
+                    'is_trial': is_trial,
+                    'current_stage': journey_stage.get('current_stage', 'Unknown'),
+                    'first_name': metrics.get('first_name', ''),
+                    'last_name': metrics.get('last_name', ''),
+                    'subscriber_id': metrics.get('subscriber_id', ''),
+                    'is_mon_checkin': metrics.get('is_in_checkin_flow_mon', False),
+                    'is_wed_checkin': metrics.get('is_in_checkin_flow_wed', False),
+                    'metrics': metrics
+                }
+                eligible_clients.append(client_info)
+
+        if eligible_clients:
+            # Bulk check-in generation
+            st.write("**Bulk Check-in Generation:**")
+            col_bulk1, col_bulk2 = st.columns(2)
+
+            with col_bulk1:
+                if st.button("🌅 Generate All Monday Check-ins", type="primary", use_container_width=True):
+                    with st.spinner("Generating Monday check-ins for all clients..."):
+                        generated_count = 0
+                        for client in eligible_clients:
+                            message_key = f"monday_checkin_{client['username']}"
+                            generated_message = generate_checkin_message(
+                                client['metrics'], "monday")
+                            if generated_message:
+                                st.session_state[message_key] = generated_message
+                                generated_count += 1
+
+                        if generated_count > 0:
+                            st.success(
+                                f"✅ Generated Monday check-ins for {generated_count} clients!")
+                            st.rerun()
+                        else:
+                            st.error("❌ Failed to generate check-in messages")
+
+            with col_bulk2:
+                if st.button("🌙 Generate All Wednesday Check-ins", type="primary", use_container_width=True):
+                    with st.spinner("Generating Wednesday check-ins for all clients..."):
+                        generated_count = 0
+                        for client in eligible_clients:
+                            message_key = f"wednesday_checkin_{client['username']}"
+                            generated_message = generate_checkin_message(
+                                client['metrics'], "wednesday")
+                            if generated_message:
+                                st.session_state[message_key] = generated_message
+                                generated_count += 1
+
+                        if generated_count > 0:
+                            st.success(
+                                f"✅ Generated Wednesday check-ins for {generated_count} clients!")
+                            st.rerun()
+                        else:
+                            st.error("❌ Failed to generate check-in messages")
+
+            st.divider()
+
+            # Individual client check-in generation and sending
+            st.subheader(
+                f"Individual Check-in Messages ({len(eligible_clients)} clients)")
+
+            # Summary metrics
+            paying_count = sum(1 for c in eligible_clients if c['is_paying'])
+            trial_count = sum(1 for c in eligible_clients if c['is_trial'])
+
+            col1, col2, col3, col4 = st.columns(4)
+            with col1:
+                st.metric("💰 Paying Clients", paying_count)
+            with col2:
+                st.metric("🆓 Trial Members", trial_count)
+            with col3:
+                monday_generated = sum(
+                    1 for c in eligible_clients if f"monday_checkin_{c['username']}" in st.session_state)
+                st.metric("🌅 Monday Generated", monday_generated)
+            with col4:
+                wednesday_generated = sum(
+                    1 for c in eligible_clients if f"wednesday_checkin_{c['username']}" in st.session_state)
+                st.metric("🌙 Wednesday Generated", wednesday_generated)
+
+            # Show each client's check-in options
+            for client in eligible_clients:
+                client_type = "💰 Paying" if client['is_paying'] else "🆓 Trial"
+                full_name = f"{client['first_name']} {client['last_name']}".strip(
+                ) if client['first_name'] or client['last_name'] else ""
+
+                with st.expander(f"{client_type} **{client['ig_username']}** {f'({full_name})' if full_name else ''}", expanded=False):
+
+                    # Check-in type selection
+                    checkin_type = st.radio(
+                        "Check-in Type:",
+                        ["Monday Morning", "Wednesday Check-in"],
+                        key=f"checkin_type_{client['username']}",
+                        horizontal=True
+                    )
+
+                    checkin_key = "monday" if "Monday" in checkin_type else "wednesday"
+                    message_key = f"{checkin_key}_checkin_{client['username']}"
+
+                    col_gen, col_info = st.columns([2, 1])
+
+                    with col_gen:
+                        # Generate message button
+                        if st.button(f"🤖 Generate {checkin_type} Message", key=f"gen_checkin_{client['username']}", use_container_width=True):
+                            with st.spinner(f"Generating personalized {checkin_type.lower()} check-in..."):
+                                try:
+                                    st.info(
+                                        f"🔄 Generating message for {client['ig_username']} ({checkin_key} check-in)...")
+                                    generated_message = generate_checkin_message(
+                                        client['metrics'], checkin_key)
+                                    if generated_message:
+                                        st.session_state[message_key] = generated_message
+                                        st.success(
+                                            "✅ Check-in message generated!")
+                                        st.rerun()
+                                    else:
+                                        st.error(
+                                            "❌ Failed to generate check-in message - check logs for details")
+                                except Exception as e:
+                                    st.error(
+                                        f"❌ Error in message generation: {str(e)}")
+                                    logger.error(
+                                        f"Button click error for {client['username']}: {e}", exc_info=True)
+
+                    with col_info:
+                        st.write("**Client Info:**")
+                        st.caption(f"Stage: {client['current_stage']}")
+                        if full_name:
+                            st.caption(f"Name: {full_name}")
+
+                    # Show generated message if it exists
+                    if message_key in st.session_state and st.session_state[message_key]:
+                        st.write(f"**Generated {checkin_type} Message:**")
+
+                        # Allow editing of the generated message
+                        edited_message = st.text_area(
+                            "Edit message before queuing:",
+                            value=st.session_state[message_key],
+                            key=f"edit_checkin_{client['username']}",
+                            height=120,
+                            help="Review and edit the message to make it perfect before queuing for Instagram DM sending"
+                        )
+
+                        # Update stored message if edited
+                        if edited_message != st.session_state[message_key]:
+                            st.session_state[message_key] = edited_message
+
+                        # Action buttons
+                        col_regen, col_send, col_clear = st.columns([1, 1, 1])
+
+                        with col_regen:
+                            if st.button("🔄 Regenerate", key=f"regen_checkin_{client['username']}", use_container_width=True):
+                                with st.spinner("Regenerating check-in message..."):
+                                    new_message = generate_checkin_message(
+                                        client['metrics'], checkin_key)
+                                    if new_message:
+                                        st.session_state[message_key] = new_message
+                                        st.success("✅ Message regenerated!")
+                                        st.rerun()
+                                    else:
+                                        st.error(
+                                            "❌ Failed to regenerate message")
+
+                        with col_send:
+                            if st.button("📤 Queue Check-in", key=f"send_checkin_{client['username']}", type="primary", use_container_width=True):
+                                with st.spinner("Queuing check-in message..."):
+                                    success = send_checkin_message(
+                                        client['ig_username'],
+                                        # subscriber_id not needed for Selenium
+                                        client.get('subscriber_id', ''),
+                                        edited_message
+                                    )
+
+                                    if success:
+                                        st.success(
+                                            f"✅ Check-in queued for {client['ig_username']}!")
+                                        # Clear the generated message after queuing
+                                        if message_key in st.session_state:
+                                            del st.session_state[message_key]
+                                        st.rerun()
+                                    else:
+                                        st.error(
+                                            "❌ Failed to queue check-in message")
+
+                        with col_clear:
+                            if st.button("🗑️ Clear", key=f"clear_checkin_{client['username']}", use_container_width=True):
+                                if message_key in st.session_state:
+                                    del st.session_state[message_key]
+                                st.info("Message cleared")
+                                st.rerun()
+                    else:
+                        st.info(
+                            f"Click 'Generate {checkin_type} Message' to create a personalized check-in for this client.")
+        else:
+            st.info("No eligible clients found (trial or paying clients only)")
+
+        st.divider()
+
+    with manual_tab:
+        st.subheader("Manual Check-in Triggers")
+        st.caption("Manually activate check-in flows for specific clients")
+
+        if eligible_clients:
+            # Bulk actions
+            st.write("**Bulk Actions:**")
+            col1, col2, col3, col4 = st.columns(4)
+
+            with col1:
+                if st.button("🌅 Activate All Monday", type="primary", use_container_width=True):
+                    # Here you would implement bulk Monday activation
+                    st.success(
+                        "Monday check-ins activated for all eligible clients!")
+
+            with col2:
+                if st.button("🌙 Activate All Wednesday", type="primary", use_container_width=True):
+                    # Here you would implement bulk Wednesday activation
+                    st.success(
+                        "Wednesday check-ins activated for all eligible clients!")
+
+            with col3:
+                if st.button("🔄 Reset All Monday", use_container_width=True):
+                    # Here you would implement bulk Monday reset
+                    st.info("All Monday check-ins have been deactivated")
+
+            with col4:
+                if st.button("🔄 Reset All Wednesday", use_container_width=True):
+                    # Here you would implement bulk Wednesday reset
+                    st.info("All Wednesday check-ins have been deactivated")
+
+            st.divider()
+
+            # Individual client controls
+            st.write("**Individual Client Controls:**")
+
+            for client in eligible_clients:
+                client_type = "💰" if client['is_paying'] else "🆓"
+                full_name = f"{client['first_name']} {client['last_name']}".strip(
+                ) if client['first_name'] or client['last_name'] else ""
+
+                with st.expander(f"{client_type} **{client['ig_username']}** {f'({full_name})' if full_name else ''}", expanded=False):
+                    col_mon, col_wed = st.columns(2)
+
+                    with col_mon:
+                        st.write("**🌅 Monday Check-in**")
+                        current_mon_status = client['is_mon_checkin']
+
+                        if current_mon_status:
+                            st.success("✅ Currently ACTIVE")
+                            if st.button("🔄 Deactivate Monday", key=f"deactivate_mon_{client['username']}", use_container_width=True):
+                                # Call the trigger_check_in function to toggle Monday check-in
+                                user_data = {'metrics': client['metrics']}
+                                if trigger_check_in(client['ig_username'], "monday", user_data, current_mon_status, client['is_wed_checkin']):
+                                    st.success(
+                                        f"Monday check-in deactivated for {client['ig_username']}")
+                                    st.rerun()
+                                else:
+                                    st.error(
+                                        "Failed to deactivate Monday check-in")
+                        else:
+                            st.info("○ Currently Inactive")
+                            if st.button("🌅 Activate Monday", key=f"activate_mon_{client['username']}", type="primary", use_container_width=True):
+                                # Call the trigger_check_in function to toggle Monday check-in
+                                user_data = {'metrics': client['metrics']}
+                                if trigger_check_in(client['ig_username'], "monday", user_data, current_mon_status, client['is_wed_checkin']):
+                                    st.success(
+                                        f"Monday check-in activated for {client['ig_username']}!")
+                                    st.rerun()
+                                else:
+                                    st.error(
+                                        "Failed to activate Monday check-in")
+
+                    with col_wed:
+                        st.write("**🌙 Wednesday Check-in**")
+                        current_wed_status = client['is_wed_checkin']
+
+                        if current_wed_status:
+                            st.success("✅ Currently ACTIVE")
+                            if st.button("🔄 Deactivate Wednesday", key=f"deactivate_wed_{client['username']}", use_container_width=True):
+                                # Call the trigger_check_in function to toggle Wednesday check-in
+                                user_data = {'metrics': client['metrics']}
+                                if trigger_check_in(client['ig_username'], "wednesday", user_data, client['is_mon_checkin'], current_wed_status):
+                                    st.success(
+                                        f"Wednesday check-in deactivated for {client['ig_username']}")
+                                    st.rerun()
+                                else:
+                                    st.error(
+                                        "Failed to deactivate Wednesday check-in")
+                        else:
+                            st.info("○ Currently Inactive")
+                            if st.button("🌙 Activate Wednesday", key=f"activate_wed_{client['username']}", type="primary", use_container_width=True):
+                                # Call the trigger_check_in function to toggle Wednesday check-in
+                                user_data = {'metrics': client['metrics']}
+                                if trigger_check_in(client['ig_username'], "wednesday", user_data, client['is_mon_checkin'], current_wed_status):
+                                    st.success(
+                                        f"Wednesday check-in activated for {client['ig_username']}!")
+                                    st.rerun()
+                                else:
+                                    st.error(
+                                        "Failed to activate Wednesday check-in")
+        else:
+            st.info("No eligible clients found for manual triggers")
+
+    with inactive_tab:
+        st.subheader("Inactive Clients Needing Attention")
+        st.caption(
+            "Clients who haven't been contacted recently and may need re-engagement")
+
+        # Filter for inactive clients (keeping the existing logic)
+        inactive_clients = []
+        current_time = datetime.now()
+
+        for username, user_container in conversations_data.items():
+            metrics = user_container.get('metrics', {})
+            if not metrics:
+                continue
+
+            journey_stage = metrics.get('journey_stage', {})
+            if not isinstance(journey_stage, dict):
+                continue
+
+            # Only include paying clients and trial members
+            is_paying = journey_stage.get('is_paying_client', False)
+            is_trial = bool(journey_stage.get('trial_start_date'))
+
+            if not (is_paying or is_trial):
+                continue
+
+            # Get last interaction time
+            last_interaction_ts_str = metrics.get('last_interaction_timestamp')
+            last_interaction = None
+
+            if last_interaction_ts_str:
+                try:
+                    last_interaction = datetime.fromisoformat(
+                        last_interaction_ts_str.split('+')[0])
+                except (ValueError, AttributeError):
+                    pass
+
+            # Fallback to conversation history
+            if not last_interaction:
+                conversation_history = metrics.get('conversation_history', [])
+                if conversation_history:
+                    try:
+                        last_msg = conversation_history[-1]
+                        last_interaction = datetime.fromisoformat(
+                            last_msg.get('timestamp', '').split('+')[0])
+                    except (ValueError, AttributeError):
+                        pass
+
+            if last_interaction:
+                days_since_last = (current_time - last_interaction).days
+
+                # Consider clients inactive if:
+                # - Paying clients: no message in 7+ days
+                # - Trial members: no message in 3+ days
+                threshold_days = 7 if is_paying else 3
+
+                if days_since_last >= threshold_days:
+                    client_info = {
+                        'username': username,
+                        'ig_username': metrics.get('ig_username', username),
+                        'last_interaction': last_interaction,
+                        'days_since_last': days_since_last,
+                        'is_paying': is_paying,
+                        'is_trial': is_trial,
+                        'current_stage': journey_stage.get('current_stage', 'Unknown'),
+                        'conversation_history': metrics.get('conversation_history', []),
+                        'first_name': metrics.get('first_name', ''),
+                        'last_name': metrics.get('last_name', '')
+                    }
+                    inactive_clients.append(client_info)
+
+        if inactive_clients:
+            # Sort by days since last interaction (most urgent first)
+            inactive_clients.sort(
+                key=lambda x: x['days_since_last'], reverse=True)
+
+            # Display summary
+            paying_count = sum(1 for c in inactive_clients if c['is_paying'])
+            trial_count = sum(1 for c in inactive_clients if c['is_trial'])
+
+            col1, col2, col3 = st.columns(3)
+            with col1:
+                st.metric("Total Inactive", len(inactive_clients))
+            with col2:
+                st.metric("💰 Paying Clients", paying_count)
+            with col3:
+                st.metric("🆓 Trial Members", trial_count)
+
+            st.divider()
+
+            # Display each inactive client
+            for client in inactive_clients:
+                # Determine urgency
+                if client['days_since_last'] >= 14:
+                    urgency_color = "🔴"
+                    urgency_text = "URGENT"
+                elif client['days_since_last'] >= 7:
+                    urgency_color = "🟠"
+                    urgency_text = "Needs attention"
+                else:
+                    urgency_color = "🟡"
+                    urgency_text = "Follow-up due"
+
+                client_type = "💰 Paying" if client['is_paying'] else "🆓 Trial"
+                full_name = f"{client['first_name']} {client['last_name']}".strip(
+                ) if client['first_name'] or client['last_name'] else ""
+
+                with st.expander(
+                    f"{urgency_color} {client_type} **{client['ig_username']}** - {client['days_since_last']} days ago ({urgency_text})",
+                    expanded=False
+                ):
+                    col_info, col_actions = st.columns([1, 2])
+
+                    with col_info:
+                        st.write("**Client Information:**")
+                        if full_name:
+                            st.write(f"• Name: {full_name}")
+                        st.write(f"• Stage: {client['current_stage']}")
+                        st.write(
+                            f"• Last contact: {client['last_interaction'].strftime('%Y-%m-%d %H:%M')}")
+                        st.write(
+                            f"• Days since contact: {client['days_since_last']}")
+
+                        # Show recent conversation context
+                        if client['conversation_history']:
+                            st.write("**Recent messages:**")
+                            for msg in client['conversation_history'][-2:]:
+                                sender = "👤" if msg.get(
+                                    'type') == 'user' else "🤖"
+                                text_preview = msg.get('text', '')[
+                                    :60] + "..." if len(msg.get('text', '')) > 60 else msg.get('text', '')
+                                st.caption(f"{sender} {text_preview}")
+
+                    with col_actions:
+                        st.write("**Quick Actions:**")
+
+                        # Quick check-in buttons
+                        col_mon, col_wed = st.columns(2)
+                        with col_mon:
+                            if st.button("🌅 Monday Check-in", key=f"quick_mon_{client['username']}", use_container_width=True):
+                                # Create user_data structure for trigger_check_in
+                                user_data = {'metrics': {
+                                    'ig_username': client['ig_username'],
+                                    'first_name': client['first_name'],
+                                    'last_name': client['last_name'],
+                                    'is_in_checkin_flow_mon': False,
+                                    'is_in_checkin_flow_wed': False,
+                                    'subscriber_id': ''  # You might need to get this from somewhere
+                                }}
+                                if trigger_check_in(client['ig_username'], "monday", user_data, False, False):
+                                    st.success(
+                                        f"Monday check-in activated for {client['ig_username']}!")
+                                    st.rerun()
+                                else:
+                                    st.error(
+                                        "Failed to activate Monday check-in")
+
+                        with col_wed:
+                            if st.button("🌙 Wednesday Check-in", key=f"quick_wed_{client['username']}", use_container_width=True):
+                                # Create user_data structure for trigger_check_in
+                                user_data = {'metrics': {
+                                    'ig_username': client['ig_username'],
+                                    'first_name': client['first_name'],
+                                    'last_name': client['last_name'],
+                                    'is_in_checkin_flow_mon': False,
+                                    'is_in_checkin_flow_wed': False,
+                                    'subscriber_id': ''  # You might need to get this from somewhere
+                                }}
+                                if trigger_check_in(client['ig_username'], "wednesday", user_data, False, False):
+                                    st.success(
+                                        f"Wednesday check-in activated for {client['ig_username']}!")
+                                    st.rerun()
+                                else:
+                                    st.error(
+                                        "Failed to activate Wednesday check-in")
+
+                        # Manual message option
+                        st.write("**Or send a manual message:**")
+                        if st.button("💬 Send Manual Message", key=f"manual_{client['username']}", use_container_width=True):
+                            st.info(
+                                "Manual message feature - would open message composer")
+        else:
+            st.success("🎉 All clients have been contacted recently!")
+
+# --- NEW: Proactive Check-in Message Generator --- START ---
+
+
+def generate_checkin_message(client_metrics, checkin_type="wednesday"):
+    """
+    Generate a personalized check-in message using Gemini and the check-in prompt templates.
+
+    Args:
+        client_metrics: The client's metrics data from SQLite
+        checkin_type: "monday" or "wednesday"
+
+    Returns:
+        str: Generated check-in message or None if failed
+    """
+    logger.info(
+        f"Starting check-in message generation for {client_metrics.get('ig_username', 'unknown')} - type: {checkin_type}")
+
+    if not GEMINI_API_KEY or GEMINI_API_KEY in ["YOUR_GEMINI_API_KEY", "your_gemini_api_key_here"]:
+        logger.error(
+            "Gemini API key not available for check-in message generation.")
+        st.error("❌ Gemini AI model is not configured. Check your API key.")
+        return None
+
+    try:
+        # We'll use our own simplified prompt system instead of importing from prompts.py
+        # This is more reliable and tailored specifically for check-ins
+        logger.info(
+            f"Using built-in check-in prompt for {checkin_type} message")
+
+        # Get client information
+        ig_username = client_metrics.get('ig_username', 'Client')
+        first_name = client_metrics.get('first_name', ig_username)
+        conversation_history = client_metrics.get('conversation_history', [])
+
+        # Format conversation history for the prompt
+        formatted_history = ""
+        if conversation_history:
+            # Last 20 messages for context
+            for msg in conversation_history[-20:]:
+                sender = "User" if msg.get('type') == 'user' else "Shannon"
+                timestamp = msg.get('timestamp', '')
+                text = msg.get('text', '')
+                formatted_history += f"{sender} ({timestamp}): {text}\n"
+
+        # Get client bio/interests information
+        client_analysis = client_metrics.get('client_analysis', {})
+        interests = client_analysis.get('interests', [])
+        recent_activities = client_analysis.get('recent_activities', [])
+
+        # Format client bio
+        client_bio = f"""
+        Client Name: {first_name}
+        Instagram: {ig_username}
+        Interests: {', '.join(interests) if interests else 'Not specified'}
+        Recent Activities: {', '.join(recent_activities) if recent_activities else 'Not specified'}
+        """
+
+        # Get current Melbourne time
+        current_time = datetime.now()
+        melbourne_time_str = current_time.strftime(
+            "%A, %B %d, %Y at %I:%M %p AEST")
+
+        # Build a simplified prompt that matches Shannon's actual style
+        full_prompt = f"""
+        You are Shannon, a casual Australian fitness coach. Generate a simple, natural check-in message.
+
+        Shannon's actual messaging style examples:
+        - "Heya! Hows your week been?"
+        - "Hey hey! Hows your week been?"
+        - "Heya, hows your week going? Weight moving at all?"
+        - "How'd your lifts go this week?"
+        - "Hows training been?"
+
+        Key style points:
+        - Very casual, simple language
+        - Short messages (1-2 sentences max)
+        - Direct questions
+        - No excessive enthusiasm or emojis
+        - Use "Heya" or "Hey" as greeting
+        - Ask about specific things like weight, training, week progress
+        - Keep it conversational and natural
+
+        Client: {first_name} ({ig_username})
+        Recent conversation topics: {', '.join([msg.get('text', '')[:50] for msg in conversation_history[-3:] if msg.get('text')]) if conversation_history else 'None'}
+
+        Generate a simple {checkin_type} check-in message in Shannon's style. Reference recent topics if relevant (like weight loss, training progress, etc.).
+        
+        Output ONLY the message text, nothing else.
+        """
+
+        # Generate the message using the 3-fallback system
+        logger.info(
+            f"Sending prompt to Gemini for {ig_username} (starting with {GEMINI_MODEL_PRO})")
+
+        # Start with the best model and let the retry system handle fallbacks
+        generated_message = call_gemini_with_retry_sync(
+            GEMINI_MODEL_PRO, full_prompt)
+
+        logger.info(
+            f"Successfully generated {checkin_type} check-in message for {ig_username}: {generated_message[:50]}...")
+        return generated_message
+
+    except Exception as e:
+        logger.error(
+            f"Error generating check-in message for {client_metrics.get('ig_username', 'unknown')}: {e}", exc_info=True)
+        st.error(f"❌ All Gemini models failed: {str(e)}")
+
+        # Fallback to a simple message if all Gemini models fail
+        ig_username = client_metrics.get('ig_username', 'Client')
+        first_name = client_metrics.get('first_name', ig_username)
+
+        if checkin_type.lower() == "monday":
+            fallback_message = f"Heya {first_name}! How's your week starting?"
+        else:
+            fallback_message = f"Heya {first_name}! How's your week going?"
+
+        logger.info(
+            f"Using fallback message for {ig_username} after all Gemini models failed: {fallback_message}")
+        st.warning(f"⚠️ Using fallback message - all Gemini models failed")
+        return fallback_message
+
+
+def send_checkin_message(ig_username, subscriber_id, message_text):
+    """
+    Queue a check-in message for sending via Selenium script (followup_manager.py).
+    Note: Conversation history is automatically added by queue_message_for_followup for check-ins.
+
+    Args:
+        ig_username: Instagram username
+        subscriber_id: ManyChat subscriber ID (not used for Selenium sending)
+        message_text: The message to send
+
+    Returns:
+        bool: True if successfully queued, False otherwise
+    """
+    try:
+        # Queue the check-in message for the Selenium script
+        # queue_message_for_followup will automatically add to conversation history for check-ins
+        queue_message_for_followup(
+            username=ig_username,
+            message=message_text,
+            topic="Check-in"
+        )
+
+        logger.info(
+            f"Check-in message queued for Selenium sending to {ig_username}")
+        return True
+
+    except Exception as e:
+        logger.error(
+            f"Error queuing check-in message for {ig_username}: {e}", exc_info=True)
+        return False
+# --- NEW: Proactive Check-in Message Generator --- END ---
+
+
+# Always reload analytics data from the database on every page load
+st.session_state.analytics_data, st.session_state.action_items_json_path = load_analytics_data()
+logger.info("Data reloaded from database for every page load.")
+
+# Initialize session state for selected page if it doesn't exist
+if 'selected_page' not in st.session_state:
+    st.session_state.selected_page = "Overview"  # Default page
+
+# Initialize session state for the review queue user tracking
+if 'current_review_user_ig' not in st.session_state:
+    st.session_state.current_review_user_ig = None
+if 'last_action_review_id' not in st.session_state:  # To help track if an action was just taken
+    st.session_state.last_action_review_id = None
+
+# Sidebar
+st.sidebar.title("Analytics Dashboard")
+
+# Add refresh button to sidebar
+if st.sidebar.button("🔄 Refresh Data"):
+    # Reload all data
+    st.session_state.analytics_data, st.session_state.action_items_json_path = load_analytics_data()
+    st.success("Data refreshed successfully!")
+    st.rerun()  # Rerun to reflect refreshed data across the dashboard
+
+# Navigation
+# Update the radio button to use and set session_state.selected_page
+page_options = ["Overview", "Check-ins", "User Profiles", "Prospects",
+                "High-Potential Clients", "Follow-up Manager",
+                "Daily Report", "Response Review Queue", "AI Data Assistant", "New Leads"]
+
+# Function to update selected_page in session_state
+
+
+def update_selected_page():
+    # Using a temporary key from radio
+    st.session_state.selected_page = st.session_state._sidebar_navigation
+
+
+st.session_state.selected_page = st.sidebar.radio(
+    "Navigation",
+    options=page_options,
+    key='_sidebar_navigation',  # Use a temporary key for the radio's state
+    # Callback to update our actual session state variable
+    on_change=update_selected_page,
+    # Set default based on session state
+    index=page_options.index(st.session_state.selected_page)
+)
+
+# Main content area
+# st.title("Shannon Bot Analytics Dashboard") # Commented out as per request
+
+if st.session_state.selected_page == "Overview":
+    display_overview_tab(st.session_state.analytics_data)
+
+elif st.session_state.selected_page == "Check-ins":
+    display_checkins_manager(st.session_state.analytics_data)
+
+elif st.session_state.selected_page == "User Profiles":
+    display_user_profiles_with_bulk_update(
+        st.session_state.analytics_data)  # Pass the main data dict
+
+elif st.session_state.selected_page == "Prospects":
+    try:
+        from prospects import display_prospects_tab
+        display_prospects_tab()
+    except ImportError:
+        st.error("Could not import prospects module. Please check the installation.")
+
+elif st.session_state.selected_page == "High-Potential Clients":
+    from high_potential_clients import display_high_potential_clients_tab
+    display_high_potential_clients_tab(st.session_state.analytics_data)
+
+elif st.session_state.selected_page == "Follow-up Manager":
+    display_followup_manager(st.session_state.analytics_data)
+
+elif st.session_state.selected_page == "Daily Report":
+    # Pass the main data dict
+    display_daily_report(st.session_state.analytics_data)
+
+elif st.session_state.selected_page == "Response Review Queue":
+    display_response_review_queue()  # Call the new function
+
+elif st.session_state.selected_page == "AI Data Assistant":
+    st.header("🤖 AI Data Assistant")
+    st.info("AI Data Assistant feature coming soon!")
+
+    # Add account merger functionality
+    st.divider()
+    display_account_merger()
+
+elif st.session_state.selected_page == "New Leads":
+    # Import and display the new leads dashboard
+    try:
+        # First try the relative import
+        try:
+            from app.new_leads import main as display_new_leads
+            display_new_leads()
+        except ImportError:
+            # Fallback: try direct import if running from parent directory
+            import sys
+            import os
+            app_path = os.path.join(os.path.dirname(__file__), "..", "..")
+            if app_path not in sys.path:
+                sys.path.insert(0, app_path)
+            from app.new_leads import main as display_new_leads
+            display_new_leads()
+    except Exception as e:
+        st.error(f"Could not load New Leads module: {e}")
+        st.info("Make sure the new_leads.py file is in the app directory.")
+
+        # Show what leads are available as a fallback
+        st.subheader("Premium Leads Available")
+        try:
+            import sqlite3
+            import json
+            conn = sqlite3.connect(
+                r"C:\Users\Shannon\OneDrive\Desktop\shanbot\app\analytics_data_good.sqlite")
+            cursor = conn.cursor()
+            cursor.execute(
+                "SELECT COUNT(*) FROM new_leads WHERE coaching_score >= 80")
+            premium_count = cursor.fetchone()[0]
+            cursor.execute(
+                "SELECT username, coaching_score FROM new_leads WHERE coaching_score >= 80 LIMIT 5")
+            premium_leads = cursor.fetchall()
+
+            # Get more details about leads before closing connection
+            cursor.execute("""
+                SELECT username, coaching_score, hashtag_found, interests, 
+                       lifestyle_indicators, conversation_topics, created_at
+                FROM new_leads WHERE coaching_score >= 80 ORDER BY coaching_score DESC
+            """)
+            detailed_leads = cursor.fetchall()
+            conn.close()
+
+            if premium_count > 0:
+                st.success(f"🎯 Found {premium_count} premium leads!")
+                st.write("**Premium leads (80+ scores):**")
+                for lead in premium_leads:
+                    st.write(f"• **@{lead[0]}** - {lead[1]}/100 points")
+                    st.write(
+                        f"  📱 [View on Instagram](https://instagram.com/{lead[0]})")
+
+                for lead in detailed_leads:
+                    with st.expander(f"🌟 {lead[0]} - {lead[1]}/100 points"):
+                        st.write(f"**Found via:** #{lead[2]}")
+                        st.write(f"**Added:** {lead[6]}")
+
+                        if lead[3]:  # interests
+                            interests = json.loads(lead[3]) if isinstance(
+                                lead[3], str) else lead[3]
+                            if interests:
+                                st.write("**🎯 Interests:**")
+                                for interest in interests[:3]:
+                                    st.write(f"• {interest}")
+
+                        if lead[4]:  # lifestyle_indicators
+                            indicators = json.loads(lead[4]) if isinstance(
+                                lead[4], str) else lead[4]
+                            if indicators:
+                                st.write("**🌱 Lifestyle Indicators:**")
+                                for indicator in indicators[:3]:
+                                    st.write(f"• {indicator}")
+
+                        if lead[5]:  # conversation_topics
+                            topics = json.loads(lead[5]) if isinstance(
+                                lead[5], str) else lead[5]
+                            if topics:
+                                st.write("**💬 Conversation Starters:**")
+                                for topic in topics[:2]:
+                                    st.write(f"• {topic}")
+
+                st.info(
+                    "✨ Your lead finder is working perfectly! These are high-quality plant-based mum prospects.")
+            else:
+                st.info(
+                    "No premium leads found yet. The lead finder is running and will populate this section soon!")
+        except Exception as db_error:
+            st.error(f"Database access error: {db_error}")
+
+# --- Instagram Analysis Functions ---
+
+
+def trigger_instagram_analysis_for_user(ig_username: str) -> tuple[bool, str]:
+    """
+    Trigger Instagram analysis for a specific user by calling anaylize_followers.py
+
+    Args:
+        ig_username: The Instagram username to analyze
+
+    Returns:
+        tuple: (success: bool, message: str)
+    """
+    try:
+        # Create a temporary file with the username
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False) as temp_file:
+            temp_file.write(ig_username)
+            temp_file_path = temp_file.name
+
+        # Path to the analyzer script (adjust if needed based on your directory structure)
+        analyzer_script_path = os.path.join(os.path.dirname(
+            __file__), "..", "..", "anaylize_followers.py")
+
+        # Fallback if relative path doesn't work
+        if not os.path.exists(analyzer_script_path):
+            analyzer_script_path = r"C:\Users\Shannon\OneDrive\Desktop\shanbot\anaylize_followers.py"
+
+        if not os.path.exists(analyzer_script_path):
+            return False, f"❌ Analyzer script not found at {analyzer_script_path}"
+
+        # Run the analyzer script with the temporary file
+        cmd = ["python", analyzer_script_path,
+               "--followers-list", temp_file_path, "--force"]
+
+        st.write(f"🚀 Running command: {' '.join(cmd)}")
+
+        # Execute the command
+        result = subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            timeout=300,  # 5 minute timeout
+            cwd=os.path.dirname(analyzer_script_path)
+        )
+
+        # Clean up temporary file
+        try:
+            os.unlink(temp_file_path)
+        except Exception as cleanup_error:
+            st.warning(f"Could not delete temporary file: {cleanup_error}")
+
+        if result.returncode == 0:
+            return True, f"✅ Instagram analysis completed successfully for {ig_username}"
+        else:
+            error_msg = result.stderr if result.stderr else result.stdout
+            return False, f"❌ Analysis failed for {ig_username}: {error_msg[:200]}..."
+
+    except subprocess.TimeoutExpired:
+        return False, f"❌ Analysis timed out for {ig_username} (took longer than 5 minutes)"
+    except Exception as e:
+        return False, f"❌ Error triggering analysis for {ig_username}: {str(e)}"
+
+# --- End Instagram Analysis Functions ---

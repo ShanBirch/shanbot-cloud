@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T22:48:15.100703",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T22:47:56.725656",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by nelsongonzales_atleta is a video showing him doing a challenging exercise using suspension straps in a gym setting. He's holding onto the straps with one hand, his body is lowered in a squat position, and another person is standing nearby, presumably his coach. The gym has various workout equipment like pull-up bars and plyometric boxes.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a cyclist, presumably nelsongonzales_atleta, riding a high-end Factor bike on a paved road. He is wearing cycling gear and a helmet. The location is tagged as \"frandaperu.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person working on a Factor Slick bicycle, likely preparing it for a race. The caption mentions IRONMAN 70.3 Lima and emphasizes the importance of precision and aerodynamics. The background shows a well-equipped workshop.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of athletes, including nelsongonzales_atleta, who are likely participating in or preparing for a triathlon or aquathlon. They are wearing athletic gear and some have bicycles. The post is from fedetriatlonperu announcing registration closing for the national Acuatlon championship.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two men in triathlon suits, likely athletes, posing outdoors. The caption mentions \"campeonato nacional de acuatlón\" (national aquathlon championship) and tags @fedetriatlonperu, suggesting they are involved in aquathlon in Peru.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a cyclist riding a Cervelo bike at night. The post is captioned in Spanish, mentioning passion for cycling and teamwork. The caption also tags several accounts, including @finisher_cafe, @ngcsports, @bkfvarafa, @specialfit.peru, @al.sports.peru, and @bicicentrolamolina.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Cycling Gear/Bike:** \"That's a beautiful Factor bike! What do you like most about it?\" or \"I noticed you're using [specific brand of cycling gear]. How do you like it?\"",
+          "2.  **Location (Franda, Peru):** \"I saw you're in Franda, Peru. Are there any specific cycling routes you'd recommend in that area?\"",
+          "1.  **IRONMAN 70.3 Lima:** Inquire about their preparation for the IRONMAN 70.3 Lima race, asking about their training regimen or specific goals for the event.",
+          "2.  **Bike Maintenance/Factor Slick:** Ask about their experience with the Factor Slick bike, or inquire about their bike maintenance routine and any tips they might have.",
+          "1.  **Triathlon/Aquathlon Training:** Ask about their training regimen, specific challenges they face, or their favorite aspects of the sport."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk of your profile! That latest post looked like a really intense workout! 💪",
+        "profile_bio": {
+          "PERSON NAME": "Nelson Gonzales",
+          "INTERESTS": [
+            "Triathlon/Aquathlon",
+            "Cycling (especially road cycling)",
+            "Bike Maintenance and Aerodynamics",
+            "Fitness Training (Gym Workouts)",
+            "Competitive Sports"
+          ],
+          "LIFESTYLE": "Nelson Gonzales is a dedicated athlete based in Peru, actively involved in triathlon and aquathlon. He appears to be a competitive cyclist and triathlete, participating in events like IRONMAN 70.3 Lima and national aquathlon championships. He invests time in maintaining his high-end cycling equipment and trains regularly in a gym setting. He is likely part of a team or community of athletes, as evidenced by the tagged accounts and group photos.",
+          "CONVERSATION STARTERS": [
+            "I saw you riding a Factor bike in Franda, Peru. What are some of your favorite cycling routes in that area?",
+            "You're preparing for IRONMAN 70.3 Lima! What's your training regimen like leading up to the race?",
+            "I noticed you were working on a Factor Slick. What are some key considerations for optimizing aerodynamics on that bike?",
+            "What are some of the biggest challenges you face when training for both triathlon and aquathlon?",
+            "I see you're passionate about cycling. What do you enjoy most about being part of the cycling community in Peru?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated/Disciplined",
+            "Passionate",
+            "Team-oriented",
+            "Competitive"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Cycling Gear/Bike:** \"That's a beautiful Factor bike! What do you like most about it?\" or \"I noticed you're using [specific brand of cycling gear]. How do you like it?\"",
+        "2.  **Location (Franda, Peru):** \"I saw you're in Franda, Peru. Are there any specific cycling routes you'd recommend in that area?\"",
+        "1.  **IRONMAN 70.3 Lima:** Inquire about their preparation for the IRONMAN 70.3 Lima race, asking about their training regimen or specific goals for the event.",
+        "2.  **Bike Maintenance/Factor Slick:** Ask about their experience with the Factor Slick bike, or inquire about their bike maintenance routine and any tips they might have.",
+        "1.  **Triathlon/Aquathlon Training:** Ask about their training regimen, specific challenges they face, or their favorite aspects of the sport."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

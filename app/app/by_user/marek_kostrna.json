@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T11:30:20.343694",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T11:30:01.317559",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by marek_kostrna is a video focusing on the cost of a long ride. The video shows energy gels, a container of powder, and bananas. Text overlayed on the video spells out \"COST OF LONGRIDE.\" The caption discusses carbohydrate intake and the financial expense of fueling long rides.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of people, including marek_kostrna, after what appears to be a running event. They are wearing running gear, and some are holding drinks. The caption mentions brands like Adidas and Top4Running, and also Pilsner Urquell beer.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man running in Prague, Czech Republic. He is wearing running gear and is participating in a tempo training session for the Prague Half Marathon. The post mentions his coach and sponsors.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (presumably marek_kostrna) with a \"TOP4RUNNING\" bag, likely at a running event or training session. The caption mentions a half marathon in Prague and thanks @top4running and @adidasrunning.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (marek_kostrna) in a hotel room, holding up a pair of Adidas running shorts. There are several pairs of running shoes visible in the background, along with a suitcase. The caption mentions a half marathon in Prague with @top4running and @adidasrunning. The post also includes hashtags #top4running #adidasrunning #fastertogether #chasethefeeling.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person riding a Specialized S-Works triathlon bike on a road. The rider is wearing a helmet and cycling gear.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Running Events:** Ask about the specific running event, how it went, or if they have any upcoming races planned.",
+          "2.  **Pilsner Urquell:** Inquire about their enjoyment of Pilsner Urquell, or ask if they have any other favorite beers.",
+          "1.  Running/Marathon Training: Ask about his training regimen, goals for the Prague Half Marathon, or his experience with tempo training.",
+          "2.  Prague: Inquire about his favorite running routes in Prague or ask for recommendations for places to visit in the city.",
+          "1.  Running: Ask about his experience at the Prague half marathon or his training for the #IMHamburg."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The breakdown of costs for a long ride was really interesting. 🚴‍♂️",
+        "profile_bio": {
+          "PERSON NAME": "Marek Kostrna",
+          "INTERESTS": [
+            "Running (especially half marathons and marathons)",
+            "Endurance Sports (Triathlon)",
+            "Running Gear (Adidas, Top4Running)",
+            "Nutrition for Endurance Sports",
+            "Prague, Czech Republic"
+          ],
+          "LIFESTYLE": "Likely an amateur or semi-professional endurance athlete focused on running and triathlon. He trains regularly, participates in races (especially half marathons), and is sponsored by or affiliated with brands like Adidas and Top4Running. He travels for races and is conscious of the nutritional demands of endurance sports.",
+          "CONVERSATION STARTERS": [
+            "How did your Prague Half Marathon go?",
+            "What are your favorite running routes in Prague?",
+            "I saw you're training for #IMHamburg. How's that going?",
+            "What's your go-to strategy for fueling long rides/runs?",
+            "I noticed you enjoy Pilsner Urquell. What are some of your other favorite beers?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated/Disciplined (consistent training and racing)",
+            "Sponsored/Influential (collaborations with brands)",
+            "Passionate (about running and endurance sports)",
+            "Goal-Oriented (training for specific races)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Running Events:** Ask about the specific running event, how it went, or if they have any upcoming races planned.",
+        "2.  **Pilsner Urquell:** Inquire about their enjoyment of Pilsner Urquell, or ask if they have any other favorite beers.",
+        "1.  Running/Marathon Training: Ask about his training regimen, goals for the Prague Half Marathon, or his experience with tempo training.",
+        "2.  Prague: Inquire about his favorite running routes in Prague or ask for recommendations for places to visit in the city.",
+        "1.  Running: Ask about his experience at the Prague half marathon or his training for the #IMHamburg."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

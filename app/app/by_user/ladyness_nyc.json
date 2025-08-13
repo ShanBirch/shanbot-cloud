@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T12:28:56.707372",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T12:28:36.240726",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a person wearing a colorful outfit. The outfit appears to be a jacket or top with panels of teal, pink, and black. The panels are separated by gold rope-like trim. A necklace with a large pearl pendant is also visible. The background is blurred.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a large crowd of people at what appears to be an outdoor concert or festival in New York City, with skyscrapers in the background. The post caption discusses the importance of music and dance as a source of freedom and healing, particularly in the context of overcoming breast cancer.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a Valentine's Day post with two pairs of shoes standing on grass. One pair is bright red heels with large bows, and the other is black and white patterned dress shoes. The post is dedicated to \"the other half\" of the poster's heart.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by ladyness_nyc. The main focus is a photo of a waiting room or office space with a blue chair and pink chairs. The post discusses breast reconstruction surgery and expresses gratitude for the medical team.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a hand with brightly colored, tiger-striped nail art. The caption mentions a \"Friday night fit check\" and feeling cute in the outfit.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows ladyness_nyc standing in front of a display for the \"ICE COLD\" hip-hop jewelry exhibit at the American Museum of Natural History. She is wearing a yellow plaid jacket and a leopard print top. The post discusses her breast cancer journey and attending the exhibit with her husband.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Music and Dance:** Given her passion for music and dance as expressed in the caption, asking about her favorite artists or genres, or if she attends concerts/dance events regularly, would be a good conversation starter.",
+          "2. **Overcoming Adversity/Health & Wellness:** The post touches on her journey through breast cancer and finding strength through therapy and support. A thoughtful message acknowledging her resilience and perhaps asking about her experiences with therapy or self-care practices could be a meaningful way to connect. (However, be mindful and respectful when discussing sensitive topics.)",
+          "1. **Fashion/Shoes:** Commenting on the unique style of either pair of shoes, asking where they were purchased, or complimenting their overall fashion sense.",
+          "2. **Relationships/Valentine's Day:** Acknowledging the heartfelt message and asking about their relationship or Valentine's Day plans.",
+          "1. **The medical team:** The post expresses strong appreciation for the medical team, especially Dr. Tanna and @drneiltanna. A conversation could be started by asking about the experience with the team and what made them so supportive."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The colors in that outfit were amazing! 🤩",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Fashion (especially bold and colorful styles)",
+            "Music and Dance",
+            "Health and Wellness (specifically breast cancer awareness and recovery)",
+            "Art and Culture (museums, exhibits)",
+            "Relationships and Love"
+          ],
+          "LIFESTYLE": "Appears to live in or frequently visit New York City. Enjoys attending cultural events like concerts and museum exhibits. Values relationships and personal style. Actively engaged in her health and wellness journey, including breast cancer recovery and reconstruction.",
+          "CONVERSATION STARTERS": [
+            "I love your style! Where do you usually find such unique pieces?",
+            "I saw your post about the ICE COLD exhibit. What was your favorite piece?",
+            "Your post about music and dance really resonated with me. What kind of music do you enjoy most?",
+            "Thank you for sharing your journey with breast cancer. What resources or support systems have been most helpful to you?",
+            "Your Valentine's Day post was so sweet! What are some of your favorite ways to celebrate love?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Resilient",
+            "Stylish",
+            "Expressive",
+            "Grateful"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Music and Dance:** Given her passion for music and dance as expressed in the caption, asking about her favorite artists or genres, or if she attends concerts/dance events regularly, would be a good conversation starter.",
+        "2. **Overcoming Adversity/Health & Wellness:** The post touches on her journey through breast cancer and finding strength through therapy and support. A thoughtful message acknowledging her resilience and perhaps asking about her experiences with therapy or self-care practices could be a meaningful way to connect. (However, be mindful and respectful when discussing sensitive topics.)",
+        "1. **Fashion/Shoes:** Commenting on the unique style of either pair of shoes, asking where they were purchased, or complimenting their overall fashion sense.",
+        "2. **Relationships/Valentine's Day:** Acknowledging the heartfelt message and asking about their relationship or Valentine's Day plans.",
+        "1. **The medical team:** The post expresses strong appreciation for the medical team, especially Dr. Tanna and @drneiltanna. A conversation could be started by asking about the experience with the team and what made them so supportive."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T20:55:03.730040",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T20:54:42.498930",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of various ingredients for making oatmeal. Dominating the frame is a bag of \"Coach's Oats Porridge 2.0! Organic Oatmeal.\" Below it is a bag of \"Navitas Organics Hemp Seeds.\" A jar of organic ground ginger is also visible, along with other ingredients. The post includes a recipe for naturally sweet oatmeal with ingredients and topping suggestions.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by @vegansavagefitness about \"5 Ways To Instantly Boost Your Confidence.\" It features a cartoon image of a muscular person doing a high kick. The post includes a definition of confidence and asks followers to rate their confidence level. It also encourages followers to DM \"CONFIDENCE\" if they want to improve their confidence.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by @vegansavagefitness. The post asks followers what two free things they would choose for life from a list of six options: Personal Chef, Massages, Retreats to Anywhere, Gym Membership to Any Gym, Essential Oils, and Tacos. The user also mentions in the caption that they recently got their cat fixed and are looking for advice on how to help her relax.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by vegansavagefitness includes a repost of an image from \"Entrepreneur\" with a motivational message about crushing goals in March. The caption reflects on the challenges of 2020 and encourages a forward-thinking mentality.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by @vegansavagefitness featuring Sriracha Tofu Spring Rolls with Peanut Sauce. The post includes a picture of the spring rolls and peanut sauce, along with a caption discussing the difficulty of wrapping them and their versatility. The hashtags used include #vegan, #veganfitness, #plantbasednutrition, and #wellness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a quote overlayed on a background of a starry night sky with a red moon. The quote reads \"being kind is an attractive vibe - P.N\". The Instagram handle is vegansavagefitness.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Confidence Building:** Ask about the specific confidence-boosting tips mentioned in the post (which aren't visible in the image but implied), and share your own experiences with confidence-building strategies.",
+          "2.  **Vegan Fitness:** Inquire about their vegan fitness journey and any tips they have for maintaining a vegan lifestyle while staying active and fit.",
+          "1.  **Pet care/advice:** The user mentions getting their cat fixed and seeking advice on how to help her relax. This could be a good starting point for a conversation, especially if you have experience with cats or pet care.",
+          "2.  **Travel/Retreats:** The user mentions \"retreats in the tropics\" and the option of \"retreats to anywhere\" is on the list. This could be a good starting point for a conversation if you have experience with travel or retreats.",
+          "1.  **Goal Setting/Motivation:** Ask about their personal goals for the current month or year, and share some of your own."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The oatmeal recipe looked really interesting, especially the tip about not overdoing the ginger! 🌿",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism & Plant-Based Nutrition",
+            "Fitness & Wellness",
+            "Confidence Building & Personal Development",
+            "Goal Setting & Motivation",
+            "Pet Care (Cats)"
+          ],
+          "LIFESTYLE": "Likely a health-conscious individual focused on vegan fitness and personal growth. They seem to enjoy cooking healthy meals (oatmeal, spring rolls) and are interested in maintaining a positive mindset. They are also a pet owner.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about confidence boosting. What are some specific strategies you find most effective?",
+            "I'm curious about your vegan fitness journey. Do you have any tips for maintaining a vegan lifestyle while staying active?",
+            "I noticed you recently got your cat fixed. How's she doing? Any advice you've found helpful for her recovery?",
+            "What are some of your personal goals for this month/year, and what strategies are you using to achieve them?",
+            "That Sriracha Tofu Spring Roll recipe looked amazing! What are some other vegan dishes you enjoy making?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Motivated",
+            "Health-conscious",
+            "Kind/Compassionate (evident from the 'being kind' quote and pet ownership)",
+            "Goal-oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Confidence Building:** Ask about the specific confidence-boosting tips mentioned in the post (which aren't visible in the image but implied), and share your own experiences with confidence-building strategies.",
+        "2.  **Vegan Fitness:** Inquire about their vegan fitness journey and any tips they have for maintaining a vegan lifestyle while staying active and fit.",
+        "1.  **Pet care/advice:** The user mentions getting their cat fixed and seeking advice on how to help her relax. This could be a good starting point for a conversation, especially if you have experience with cats or pet care.",
+        "2.  **Travel/Retreats:** The user mentions \"retreats in the tropics\" and the option of \"retreats to anywhere\" is on the list. This could be a good starting point for a conversation if you have experience with travel or retreats.",
+        "1.  **Goal Setting/Motivation:** Ask about their personal goals for the current month or year, and share some of your own."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

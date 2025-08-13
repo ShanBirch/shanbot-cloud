@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T11:20:52.593951",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T11:20:32.193994",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a hand holding a brown paper package labeled \"Maple & Manchester Fauxmagerie Caramelized Onion Camembert.\" The package has a round sticker with the company logo on it. The background is a speckled countertop. The person holding the package has a brightly colored floral design on their fingernails.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two dogs looking at a green smoothie held by a person with brightly colored nails. The post mentions a vegan brunch at The Ditch Cafe in Oliver, BC.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a large collection of lip balms from Frosted Fox Bath Co. in various flavors and colors. The caption mentions that they are all-natural, vegan, and creamy. The user also mentions attending The Vegan Market.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan cake with white frosting and the words \"DITCH DAIRY!\" written on top with what appears to be cookie letters.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a display rack at a pop-up shop. The rack is filled with vegan food products like mac and cheese, snacks, and drinks. There are also \"NOOCH\" t-shirts hanging on the rack. The caption mentions a collaboration with @zimtchocolates, @theveganistbc, @talkvegantomeofficial, @gourmetgroceriesca, and @mindful_fud.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post features a review of a plant-based restaurant and bar called Nightshade and Lightshade in Vancouver, Canada. The user highlights the restaurant's innovative menu, including non-alcoholic beverages, and praises the overall dining experience. The post also includes a picture of what appears to be lip balms.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Vegan food and restaurants in the area:** Given that the post focuses on a vegan brunch spot, asking about other favorite vegan restaurants or dishes in the Oliver, BC area could be a good conversation starter.",
+          "2.  **Dogs and dog-friendly places:** The dogs are prominently featured in the image and the post uses the hashtag #dogfriendly. Asking about the dogs' names, breeds, or other dog-friendly spots in the area could be a good way to engage.",
+          "1. **Vegan beauty products:** Ask about other vegan beauty brands they recommend or their favorite ingredients to look for in vegan skincare.",
+          "2. **The Vegan Market:** Inquire about their experience at the market, what other vendors they enjoyed, or if they plan to attend future events.",
+          "1.  Vegan baking: Ask about their favorite vegan baking recipes or tips for making dairy-free frosting."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That vegan cheese looks incredible, and your nails are super cute! 💅",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan food and dining (especially in British Columbia, Canada)",
+            "Vegan baking and desserts",
+            "Vegan beauty and skincare products (specifically lip balms)",
+            "Supporting local vegan businesses and markets",
+            "Dog-friendly establishments and activities"
+          ],
+          "LIFESTYLE": "Likely a vegan lifestyle enthusiast who enjoys exploring vegan food options, supporting local businesses, attending vegan markets, and including their dogs in their activities. They seem to be based in or frequently travel to British Columbia, Canada, particularly the Oliver and Vancouver areas. They may be involved in promoting or collaborating with vegan businesses.",
+          "CONVERSATION STARTERS": [
+            "What are some of your other favorite vegan restaurants or dishes in the Oliver, BC area?",
+            "What are your dogs' names and breeds? Do you have any recommendations for other dog-friendly spots in the area?",
+            "Besides Frosted Fox Bath Co., what other vegan beauty brands do you recommend, or what are your favorite ingredients to look for in vegan skincare?",
+            "What was your experience like at The Vegan Market? Were there any other vendors you particularly enjoyed, or do you plan to attend future events?",
+            "Do you have any favorite vegan baking recipes or tips for making dairy-free frosting?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Enthusiastic: Demonstrates a clear passion for veganism and related products.",
+            "Supportive: Actively promotes and collaborates with local vegan businesses.",
+            "Conscious: Appears to be mindful of ingredients and ethical sourcing (e.g., all-natural, vegan products).",
+            "Engaging: Shares experiences and products with their followers, suggesting a desire to connect with others."
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Vegan food and restaurants in the area:** Given that the post focuses on a vegan brunch spot, asking about other favorite vegan restaurants or dishes in the Oliver, BC area could be a good conversation starter.",
+        "2.  **Dogs and dog-friendly places:** The dogs are prominently featured in the image and the post uses the hashtag #dogfriendly. Asking about the dogs' names, breeds, or other dog-friendly spots in the area could be a good way to engage.",
+        "1. **Vegan beauty products:** Ask about other vegan beauty brands they recommend or their favorite ingredients to look for in vegan skincare.",
+        "2. **The Vegan Market:** Inquire about their experience at the market, what other vendors they enjoyed, or if they plan to attend future events.",
+        "1.  Vegan baking: Ask about their favorite vegan baking recipes or tips for making dairy-free frosting."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

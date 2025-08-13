@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T21:36:25.596713",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T21:36:07.227356",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a woman from the back, doing pull-ups at a gym. She is wearing a white sports bra with a unique strap design and light grey leggings. The gym equipment is visible in the background, including pull-up bars and other weightlifting equipment. The lighting is bright, possibly from a window.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a gym or fitness-related event. There is a booth with the gym's logo (\"GM Fit\") and a person (Francesco Siega Vignut) giving a presentation or speech. The banner behind the booth mentions \"Dal 1994 Alleniamo La Tua Passione Per Lo Sport\" (Since 1994 We Train Your Passion For Sport).",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a seminar or training session taking place at a gym. A person is standing at a table with a \"GM Fit\" banner, addressing an audience.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a seminar or training event related to fitness and sports, organized by \"gymfit_ssd\". There's a presenter speaking, and banners with the gym's logo and the organization AICS are visible.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by gymfit_ssd is about joining a campaign to raise awareness about bullying and cyberbullying. The post features a black and white image of a woman speaking, likely in a video. The text is in Italian.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a promotional poster for a seminar focused on psychology, nutrition, and osteo-massophysiotherapy in sports. The seminar covers topics such as psychological disorders and dependencies in sports, overtraining and injuries in fitness, and nutrition and intestinal well-being.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Francesco Siega Vignut's Presentation:** \"I saw Francesco Siega Vignut was giving a presentation. What was the presentation about?\"",
+          "2.  **The Gym's History:** \"I noticed the banner mentions the gym has been around since 1994. What are some of the biggest changes you've seen in the fitness industry since then?\"",
+          "1.  The specific topic of the seminar: \"Seminario formativo\" is in the post title. Inquire about the focus of the seminar or any key takeaways.",
+          "2.  GM Fit: Ask about the gym, its programs, or its history (since the banner mentions \"Dal 1994\").",
+          "1.  The specific topics covered in the \"Seminario Formativo\" (Formative Seminar) mentioned in the post caption."
+        ],
+        "generated_comment": "Hey! Just was having a little stalk of your profile and saw your latest post! That pull-up looked tough! 💪",
+        "profile_bio": {
+          "PERSON NAME": "Potentially associated with Francesco Siega Vignut, but the primary user is 'gymfit_ssd' which is likely the gym itself.",
+          "INTERESTS": [
+            "Fitness and Strength Training (Pull-ups, Weightlifting)",
+            "Sports and Athletic Performance",
+            "Health and Wellness (Nutrition, Psychology, Osteo-massophysiotherapy)",
+            "Community Engagement (Anti-Bullying Campaigns)",
+            "Professional Development in Fitness and Sports"
+          ],
+          "LIFESTYLE": "Likely a gym or fitness center (GM Fit) that offers training sessions, seminars, and promotes overall well-being. They are involved in community initiatives and focus on a holistic approach to fitness, encompassing physical and mental health.",
+          "CONVERSATION STARTERS": [
+            "What are some of the most popular training programs currently offered at GM Fit?",
+            "I noticed the banner mentions GM Fit has been around since 1994. What are some of the biggest changes you've seen in the fitness industry since then?",
+            "Could you tell me more about the 'Seminario Formativo' and its key takeaways, particularly regarding the psychological aspects of sports?",
+            "What inspired GM Fit to participate in the anti-bullying and cyberbullying awareness campaign?",
+            "Francesco Siega Vignut gave a presentation at a recent event. What was the presentation about?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Community-Oriented: Actively involved in social causes like anti-bullying.",
+            "Educational: Focuses on providing informative seminars and training sessions.",
+            "Professional: Presents a polished and organized image through their posts.",
+            "Holistic: Emphasizes a well-rounded approach to fitness, including physical and mental well-being."
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Francesco Siega Vignut's Presentation:** \"I saw Francesco Siega Vignut was giving a presentation. What was the presentation about?\"",
+        "2.  **The Gym's History:** \"I noticed the banner mentions the gym has been around since 1994. What are some of the biggest changes you've seen in the fitness industry since then?\"",
+        "1.  The specific topic of the seminar: \"Seminario formativo\" is in the post title. Inquire about the focus of the seminar or any key takeaways.",
+        "2.  GM Fit: Ask about the gym, its programs, or its history (since the banner mentions \"Dal 1994\").",
+        "1.  The specific topics covered in the \"Seminario Formativo\" (Formative Seminar) mentioned in the post caption."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T10:15:49.911710",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T10:15:30.049466",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a tray with a square bowl of yellow queso, a round bowl of red salsa, and a square bowl filled with tortilla chips. The tray has a blue and white floral pattern. The photo is taken from a slightly overhead angle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by nacho_average_queso_ promoting their dairy-free, gluten-free, and guilt-free queso. The queso is being held in front of Farmers' Leaf market & café, where it is now available.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person holding a container of \"Plant Based Footprint Jalapeno Queso\" in front of Spring Creek Market by Rusticana. The post advertises the product as dairy, oil, soy, sugar, and gluten-free.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows nacho_average_queso_ at a VegFest event, selling plant-based queso and chips. The booth is decorated with colorful banners and a llama balloon. They mention using Mexican Coke and chips from other vendors.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two stacked containers of \"Nacho Average Queso\" in front of the Homestead Market building in Medicine Hat, Alberta. One container is \"Original\" flavor and the other is \"Jalapeno\" flavor. The post announces the availability of the queso at the market.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person (likely Paloma) pulling a red wagon, presumably for deliveries. The caption mentions that Paloma is learning the ropes of being an entrepreneur and that Nacho Average Queso is restocked at Saskatoon Farm.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Dairy-free/Gluten-free Diet:** Since the queso is advertised as dairy-free and gluten-free, you could ask about their experience with these diets and if they have any other recommendations for similar products or recipes.",
+          "2.  **Local Business/Cochrane:** The post uses the hashtag #cochrane and mentions Farmers' Leaf. You could ask about other local businesses they support in Cochrane or if they have any favorite spots in the area.",
+          "1. **Plant-based/Dairy-free Food:** Given the focus on the dairy-free queso, you could ask about their favorite plant-based alternatives or recipes.",
+          "2. **Local Shopping/Canmore:** The post uses hashtags related to shopping local and the Canmore area. You could ask about other local businesses they enjoy or recommendations for things to do in Canmore.",
+          "1. **VegFest and other similar events:** \"I saw you were at VegFest! Have you participated in other similar events? What are some of your favorite festivals to attend/vend at?\""
+        ],
+        "generated_comment": "Hey! Just had a look at your profile, that queso and chips setup in your latest post looked like the perfect movie night snack! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Paloma (likely involved, possibly daughter of the owner)",
+          "INTERESTS": [
+            "Plant-based/Dairy-free Food",
+            "Supporting Local Businesses (especially in Cochrane, Canmore, Medicine Hat, and Saskatoon)",
+            "Gluten-free Diet",
+            "Entrepreneurship",
+            "VegFest and similar events"
+          ],
+          "LIFESTYLE": "Small business owner/entrepreneur focused on producing and selling plant-based queso. Actively involved in local markets and events. Likely health-conscious and passionate about providing alternative food options. Possibly a family business, involving family members in the operations.",
+          "CONVERSATION STARTERS": [
+            "I noticed your queso is dairy-free and gluten-free. Do you have any other recommendations for similar products or recipes that you enjoy?",
+            "You're based in Cochrane, right? What are some of your other favorite local businesses in the area?",
+            "Your plant-based queso looks delicious! What are some of your favorite plant-based alternatives or recipes that you like to experiment with?",
+            "I saw you were at VegFest! Have you participated in other similar events? What are some of your favorite festivals to attend/vend at?",
+            "I see you're stocked at several markets across Alberta and Saskatchewan. What's your favorite part about working with local businesses?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Entrepreneurial",
+            "Passionate",
+            "Community-oriented",
+            "Health-conscious"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Dairy-free/Gluten-free Diet:** Since the queso is advertised as dairy-free and gluten-free, you could ask about their experience with these diets and if they have any other recommendations for similar products or recipes.",
+        "2.  **Local Business/Cochrane:** The post uses the hashtag #cochrane and mentions Farmers' Leaf. You could ask about other local businesses they support in Cochrane or if they have any favorite spots in the area.",
+        "1. **Plant-based/Dairy-free Food:** Given the focus on the dairy-free queso, you could ask about their favorite plant-based alternatives or recipes.",
+        "2. **Local Shopping/Canmore:** The post uses hashtags related to shopping local and the Canmore area. You could ask about other local businesses they enjoy or recommendations for things to do in Canmore.",
+        "1. **VegFest and other similar events:** \"I saw you were at VegFest! Have you participated in other similar events? What are some of your favorite festivals to attend/vend at?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

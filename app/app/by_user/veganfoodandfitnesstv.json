@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T20:11:11.490686",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T20:10:52.138863",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post advertising a vegan food and fitness e-book by Adam Warren. The post features a cover image with the title \"Vegan Food & Fitness\" and the subtitle \"Easy, Healthy & Delicious Plant-Based Recipes.\" Below the title, there are three bowls of vegan dishes. The first bowl contains a colorful mix of beans, peppers, and onions. The second bowl contains a red salsa with a cilantro garnish. The third bowl contains a beige-colored bean dip with a spoon. The post also includes a lengthy caption describing the e-book's content and the author's vegan journey.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man standing in front of a Burger King in Austria that is fully vegan. The post is promoting the vegan options at Burger King and using hashtags related to veganism and Veganuary.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screen capture of an Instagram post by veganfoodandfitnesstv. The post is a video showing a vegan grocery shopping haul at ASDA, likely for Veganuary. The person is pushing a shopping cart through the produce section.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by veganfoodandfitnesstv showing ingredients for vegan tartar sauce, including dill and capers. The post promotes vegan recipes and Veganuary.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by veganfoodandfitnesstv. The post features Aldi's Plant Menu vegan lemon and herb \"no fish\" burgers. It also shows a vegan tartar sauce recipe and other vegan products found in Aldi.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by veganfoodandfitnesstv, showcasing a vegan Galaxy chocolate drink found at Aldi as part of their \"Veganuary\" shopping haul. The post includes hashtags like #aldi, #veganuary, #veganshopping, and #newveganproducts2023.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Vegan travel:** Ask about other vegan-friendly travel destinations they've visited or plan to visit.",
+          "2.  **Vegan fast food:** Inquire about their favorite vegan fast food options or recommendations.",
+          "1. Veganuary: Ask about their favorite vegan recipes or new vegan products they've discovered during Veganuary.",
+          "2. ASDA: Inquire about other ASDA vegan finds or if they have any recommendations for vegan products available at that store.",
+          "1. Veganuary recipes and experiences: \"How is your Veganuary going? Have you tried any other vegan recipes lately?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The food on the cover looked so yummy! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Adam Warren (inferred from e-book promotion)",
+          "INTERESTS": [
+            "Vegan Food",
+            "Vegan Fitness",
+            "Plant-Based Recipes",
+            "Vegan Travel (especially to vegan-friendly locations)",
+            "Veganuary"
+          ],
+          "LIFESTYLE": "Likely a health-conscious individual who promotes and practices a vegan lifestyle. Possibly a content creator and author focused on vegan food and fitness. Actively seeks out and shares vegan options at grocery stores and fast-food chains.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about the vegan Burger King in Austria! What other vegan-friendly travel destinations have you enjoyed?",
+            "What are your go-to vegan fast food options when you're on the go?",
+            "How is your Veganuary going? Have you tried any other vegan recipes lately besides the tartar sauce?",
+            "I noticed you shop at ASDA. Do you have any other recommendations for vegan products available there?",
+            "I'm always looking for new vegan recipes. What's your favorite recipe from your 'Vegan Food & Fitness' e-book?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Enthusiastic (about veganism and sharing information)",
+            "Helpful (providing recipes and product recommendations)",
+            "Health-conscious (focus on food and fitness)",
+            "Adventurous (willing to try new vegan products and travel to vegan-friendly locations)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Vegan travel:** Ask about other vegan-friendly travel destinations they've visited or plan to visit.",
+        "2.  **Vegan fast food:** Inquire about their favorite vegan fast food options or recommendations.",
+        "1. Veganuary: Ask about their favorite vegan recipes or new vegan products they've discovered during Veganuary.",
+        "2. ASDA: Inquire about other ASDA vegan finds or if they have any recommendations for vegan products available at that store.",
+        "1. Veganuary recipes and experiences: \"How is your Veganuary going? Have you tried any other vegan recipes lately?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

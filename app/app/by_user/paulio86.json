@@ -1,0 +1,55 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 2,
+      "user_messages": 1,
+      "ai_messages": 1,
+      "ai_questions": 1,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": true,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-11T20:29:48.718010",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-11T10:29:48.718010+00:00",
+          "type": "user",
+          "text": "Ha we didn't get inside mate it was mental busy but the cafes around it were class!👍🏻 Hopes all been well mate and your keeping well!👌🏻"
+        },
+        {
+          "timestamp": "2025-04-11T10:29:48.764506+00:00",
+          "type": "ai",
+          "text": "Ah yeah mental busy sounds about right! Doing well thanks mate, just wrapping up the day here. Did you guys check out anywhere else cool?"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "paulio86",
+      "first_message_timestamp": "2025-04-11T10:29:48.718010+00:00",
+      "last_message_timestamp": "2025-04-11T10:29:48.764506+00:00",
+      "conversation_duration_str": "0m",
+      "conversation_count": 1,
+      "last_seen_timestamp": "2025-04-11T10:29:48.764506+00:00"
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

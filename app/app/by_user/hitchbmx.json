@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T16:43:49.615250",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T16:43:32.660256",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post from demolitionmedia.co featuring hitchbmx. The post is a video of a BMX trick performed at night. The rider is airborne, silhouetted against the dark sky. The caption includes hashtags like #bmx, #bikelife, #bike, #alldayeveryday, #brisbanebmx, and #goldcoastbmx. The post has received likes and comments.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person on a BMX bike at a skatepark, performing a trick on a ramp. The post is by hitchbmx and includes hashtags related to BMX, Brisbane, and various BMX brands. Channie365 liked the post.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A person is riding a BMX bike at a skatepark. The post caption mentions \"Beeno\" and a \"flip drop in.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person riding a BMX bike at an indoor skatepark. There are ramps and other riders in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person performing a BMX trick at an indoor skatepark.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person riding a BMX bike on a ramp inside an indoor skatepark. The post includes hashtags related to BMX, Brisbane, and specific BMX brands.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  BMX: Ask Channie365 if they also enjoy BMX, perhaps asking if they ride themselves or just appreciate the sport.",
+          "2.  Brisbane: Since the post mentions Brisbane BMX, you could ask if Channie365 lives in Brisbane or has visited the skatepark shown in the image.",
+          "1.  BMX tricks: Ask about the flip drop in or other tricks they're working on.",
+          "2.  Local skatepark: Ask about the Beeno skatepark, if they frequent it often, or other skateparks in the Brisbane area.",
+          "1. BMX riding: You could ask about their experience with BMX, favorite tricks, or the specific skatepark they're at."
+        ],
+        "generated_comment": "Heya! Just had a little stalk of your profile. That last post was insane! The lighting made the trick look even more epic 🤘",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "BMX",
+            "BMX Tricks (Flips, Drop-ins)",
+            "Skateparks (Indoor & Outdoor)",
+            "Brisbane BMX Scene",
+            "BMX Brands (Specific brands not identified, but implied interest)"
+          ],
+          "LIFESTYLE": "Likely a BMX rider who frequently visits skateparks, both indoor and outdoor, in and around Brisbane and the Gold Coast. Appears to be dedicated to the sport, practicing tricks and participating in the local BMX community. May be involved with or sponsored by BMX brands.",
+          "CONVERSATION STARTERS": [
+            "Do you ride BMX yourself, Channie365, or just appreciate the sport?",
+            "Have you ever been to Brisbane or ridden at the skatepark in this post?",
+            "That flip drop-in looks awesome! What other tricks are you working on right now?",
+            "Have you been to Beeno skatepark often? What are some of your other favorite skateparks in the Brisbane area?",
+            "What's your favorite thing about riding BMX and what got you into it?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated",
+            "Adventurous",
+            "Passionate",
+            "Community-oriented (Engaged in local BMX scene)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  BMX: Ask Channie365 if they also enjoy BMX, perhaps asking if they ride themselves or just appreciate the sport.",
+        "2.  Brisbane: Since the post mentions Brisbane BMX, you could ask if Channie365 lives in Brisbane or has visited the skatepark shown in the image.",
+        "1.  BMX tricks: Ask about the flip drop in or other tricks they're working on.",
+        "2.  Local skatepark: Ask about the Beeno skatepark, if they frequent it often, or other skateparks in the Brisbane area.",
+        "1. BMX riding: You could ask about their experience with BMX, favorite tricks, or the specific skatepark they're at."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

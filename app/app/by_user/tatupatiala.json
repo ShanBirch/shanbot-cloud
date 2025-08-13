@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T12:26:51.452512",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T12:26:33.479967",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by tatupatiala is a video. The visible frame shows a text overlay on a shimmering gold background that reads \"People with great passion can.\" The post has 99 likes and was posted on February 1, 2023.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post is an advertisement for the Wisdom app, inviting users to ask the poster questions and receive voice replies. The profile name is \"tatupatiala\" and the bio mentions \"PATCHA • Passion\". Another post in the feed has some text in a language other than English.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by tatupatiala. It features a political advertisement for Jarmo Limnéll, a candidate for Kansanedustaja (likely a member of parliament) from the KOKOOMUS party. The post includes text in Finnish praising Limnéll's qualities and encouraging people to vote for him. The caption thanks someone for the recommendation and includes the hashtag #kirkkonummenkokoomus.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring two men, presumably politicians, promoting a candidate for local elections. The post is in Finnish and includes the hashtag #kirkkonummenkokoomus, suggesting a connection to the National Coalition Party in Kirkkonummi, Finland. The number \"198\" is prominently displayed, likely representing the candidate's number on the ballot.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a motivational graphic with the text \"You are great,\" \"If you can't be a bridge... be a lighthouse,\" and \"You are amazing!\" It also shows a simple drawing of a bridge and a lighthouse. The post is captioned \"I am Youniverse\" with some emojis. The audio to the post is Coldplay's \"The Scientist\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screen capture of an Instagram post. The post is a short video clip with the text \"POV: He is the best professor ever.\" The clip appears to be from a classroom setting, featuring a professor and students. The caption of the post is \"How to understand others?\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Wisdom App:** Inquire about their experience using the Wisdom app, what they enjoy about it, or what kind of questions they typically answer.",
+          "2.  **PATCHA/Passion:** Ask about what PATCHA is and what they are passionate about.",
+          "1.  **Finnish Politics/KOKOOMUS Party:** Discussing the current political climate in Finland, particularly regarding the KOKOOMUS party and their policies.",
+          "2.  **Local Issues in Kirkkonummi:** Since the hashtag mentions \"kirkkonummenkokoomus\", inquire about local issues in Kirkkonummi that are important to the poster.",
+          "1.  **Finnish Politics/Local Elections:** Given the political nature of the post, a conversation could be started by asking about the local elections in Kirkkonummi or discussing the specific issues being addressed in the campaign."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Tatu Patiala (Likely)",
+          "INTERESTS": [
+            "Passion and Motivation",
+            "Finnish Politics (Specifically KOKOOMUS/National Coalition Party)",
+            "Education and Understanding Others",
+            "Local Issues in Kirkkonummi, Finland",
+            "Sharing Motivational Content"
+          ],
+          "LIFESTYLE": "Likely involved in Finnish politics, possibly as a supporter or volunteer for the KOKOOMUS party. Seems to have an interest in education and sharing motivational content. May be a student or professor based on the 'best professor ever' post. Actively uses social media, including the Wisdom app.",
+          "CONVERSATION STARTERS": [
+            "What do you enjoy most about using the Wisdom app?",
+            "Could you tell me more about PATCHA and what you're passionate about?",
+            "What are the most pressing issues facing Kirkkonummi right now?",
+            "What are your thoughts on the current political climate in Finland, particularly regarding the KOKOOMUS party?",
+            "I noticed you shared a post about understanding others. What are some key things you've learned about that?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate",
+            "Politically Engaged",
+            "Motivational",
+            "Community-Oriented (Based on local political involvement)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Wisdom App:** Inquire about their experience using the Wisdom app, what they enjoy about it, or what kind of questions they typically answer.",
+        "2.  **PATCHA/Passion:** Ask about what PATCHA is and what they are passionate about.",
+        "1.  **Finnish Politics/KOKOOMUS Party:** Discussing the current political climate in Finland, particularly regarding the KOKOOMUS party and their policies.",
+        "2.  **Local Issues in Kirkkonummi:** Since the hashtag mentions \"kirkkonummenkokoomus\", inquire about local issues in Kirkkonummi that are important to the poster.",
+        "1.  **Finnish Politics/Local Elections:** Given the political nature of the post, a conversation could be started by asking about the local elections in Kirkkonummi or discussing the specific issues being addressed in the campaign."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

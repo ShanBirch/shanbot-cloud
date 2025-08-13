@@ -1,0 +1,71 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 4,
+      "user_messages": 3,
+      "ai_messages": 1,
+      "ai_questions": 1,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": true,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-10T20:10:36.527996",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-09T08:55:05.638429+00:00",
+          "type": "user",
+          "text": "Hey Shannon! It gladly feels like a long time ago. Thanks for the message and I hope the business is going well for you mate"
+        },
+        {
+          "timestamp": "2025-04-09T08:55:05.680056+00:00",
+          "type": "ai",
+          "text": "Cheers mate! Yeah time does move fast hey. Things are good here, just wrapping up the evening class. What have you been up to today?"
+        },
+        {
+          "timestamp": "2025-04-09T09:48:54.735832+00:00",
+          "type": "user",
+          "text": "Hey Shannon! It gladly feels like a long time ago. Thanks for the message and I hope the business is going well for you mate + Shannon: Cheers mate! Yeah time does move fast hey. Things are good here, just wrapping up the evening class. What have you been up to today? {{cuf_11967919}}  {{cuf_11967920}} Lead : Today I had half a day of consulting and then gym and some r and r. Nice mate, Brent always spoke highly of your classes and training so I’m glad to hear things are good"
+        },
+        {
+          "timestamp": "2025-04-10T08:20:51.036211+00:00",
+          "type": "user",
+          "text": "Hey Shannon! It gladly feels like a long time ago. Thanks for the message and I hope the business is going well for you mate + Shannon: Cheers mate! Yeah time does move fast hey. Things are good here, just wrapping up the evening class. What have you been up to today? {{cuf_11967919}}  {{cuf_11967920}} Lead : Today I had half a day of consulting and then gym and some r and r. Nice mate, Brent always spoke highly of your classes and training so I’m glad to hear things are good + Shannon: Solid day! Good on ya for fitting in the gym and some downtime.  Ah Brent, yeah he's a top bloke, appreciate the kind words! What sort of consulting do you do? Lead : Always have time for a bit of gym 😏. Mate just consulting for foot and leg injuries as a sports podiatrist that day."
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "melbournesportspodiatry",
+      "user_responses_to_questions": 0,
+      "response_rate": 0.0,
+      "coaching_inquiries": 0,
+      "ai_detections": 0,
+      "first_message_timestamp": "2025-04-09T08:55:05.638429+00:00",
+      "last_message_timestamp": "2025-04-10T08:20:51.036211+00:00",
+      "last_seen_timestamp": "2025-04-10T08:20:51.036211+00:00",
+      "conversation_count": 1,
+      "conversation_duration_str": "23h 25m",
+      "fitness_topic_user_initiated": false,
+      "fitness_topic_ai_initiated": false
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

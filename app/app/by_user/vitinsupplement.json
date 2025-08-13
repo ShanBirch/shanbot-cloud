@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T22:26:09.663347",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T22:25:50.552465",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a vegan waffle topped with a dark berry compote, sitting on a white square plate. Beside the plate is a jar filled with a white liquid, likely a protein shake. The plate and jar are placed on a wooden cutting board with a geometric pattern.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows three glass jars labeled with different pre-workout flavors: \"Fruit Punch,\" \"Raspberry Preworkout,\" and \"Pina Colada.\" Each jar appears to contain a powdered supplement. The labels also indicate \"10 Servings\" and a date of \"21OCT2020.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image features a bar of soap with a marbled blue and green design, a purple bath bomb, a white mug with a yellow straw, and a small bottle (possibly essential oil). The post is from vitinsupplement and asks if people are interested in a stress-reducing supplement.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from vitinsupplement announcing their new logo. The logo features a green leaf design incorporated into the \"V\" of \"Vitin.\" The text \"The Vegan Titin\" is displayed below the logo. The post mentions vegan supplements with natural colors and flavors.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a scenic shot of a river or lake surrounded by trees, with mist rising from the water and the sun shining through the trees. The post promotes Vitin supplements and uses hashtags related to veganism, health, fitness, and natural ingredients.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows four jars with handwritten labels indicating different unflavored supplements: Electrolyte, Focus, Preworkout, and Protein. There is also a scoop.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Flavor preferences:** \"I see you've been experimenting with different pre-workout flavors. Which one is your favorite and why?\"",
+          "2. **Supplement formulation:** \"The caption mentions testing and reformulating. What are some of the challenges you face when creating vegan supplements?\"",
+          "1.  **Self-care routine:** The image includes items related to relaxation and self-care, such as a bath bomb and soap. You could ask about their favorite self-care practices or products.",
+          "2.  **Vegan products:** The post uses the hashtag #Vegan. You could ask about their experience with vegan products or their reasons for choosing vegan options.",
+          "1. Vegan Supplements: Inquire about their specific product line and what makes their vegan supplements unique or beneficial."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That waffle looked like the perfect post-workout treat! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: vitinsupplement)",
+          "INTERESTS": [
+            "Vegan Supplements",
+            "Health & Fitness",
+            "Natural Ingredients",
+            "Self-Care & Wellness",
+            "Flavor Experimentation (Supplements)"
+          ],
+          "LIFESTYLE": "Likely someone who prioritizes a healthy, vegan lifestyle and is involved in the creation and promotion of vegan supplements. Possibly an entrepreneur or small business owner in the health and wellness industry.",
+          "CONVERSATION STARTERS": [
+            "I noticed you offer unflavored supplements like Electrolyte and Focus. What are the benefits of choosing unflavored options, and how do you recommend incorporating them into a routine?",
+            "Your new logo is great! What was the inspiration behind the green leaf design and the name 'The Vegan Titin'?",
+            "You mentioned testing and reformulating your supplements. What are some of the challenges you face when creating vegan supplements that are both effective and delicious?",
+            "I see you've been experimenting with different pre-workout flavors like Fruit Punch and Pina Colada. Which one is your favorite and why?",
+            "The post with the bath bomb and soap was interesting. What are some of your favorite self-care practices or products that help you de-stress?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-Conscious",
+            "Creative (with flavors and branding)",
+            "Nature-Oriented",
+            "Entrepreneurial"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Flavor preferences:** \"I see you've been experimenting with different pre-workout flavors. Which one is your favorite and why?\"",
+        "2. **Supplement formulation:** \"The caption mentions testing and reformulating. What are some of the challenges you face when creating vegan supplements?\"",
+        "1.  **Self-care routine:** The image includes items related to relaxation and self-care, such as a bath bomb and soap. You could ask about their favorite self-care practices or products.",
+        "2.  **Vegan products:** The post uses the hashtag #Vegan. You could ask about their experience with vegan products or their reasons for choosing vegan options.",
+        "1. Vegan Supplements: Inquire about their specific product line and what makes their vegan supplements unique or beneficial."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T01:26:27.845659",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T01:26:10.876597",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of a bowl of air-fried tofu salad. The tofu is golden brown and drizzled with a creamy orange sauce. The salad also contains mixed greens. In the background, there is a blurred image of what appears to be more food on a tiered serving tray. The text \"Air Fried Tofu\" is superimposed on the image.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by kokobell_4.0 features a blurry video or image of a blood moon. The caption mentions braving the cold to capture the shot around 3:10 AM and includes hashtags related to blood moons, moon gazing, and moon love.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post celebrating kokobell_4.0's 60th birthday with a \"glamping\" trip to the Blue Ridge Mountains. The image shows a mountain view at sunset. The post mentions a \"horrifying\" drive up in a Jeep named Lunar.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a large red cup filled with liquid. The post includes text about feeling emotional entering the new year and looking forward to 2025, along with hashtags related to the new year, possibilities, and cancer awareness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a Christmas-themed display with small decorative trees, a reindeer figurine, and ornaments in a basket, with a \"snow\" filter added. The caption mentions North Carolina.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a video still showing a view from a car driving on a highway towards the skyline of Richmond, Virginia. The caption indicates a bittersweet feeling about going home.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Moon Gazing/Astronomy:** \"I saw your post about the blood moon! Do you often go out to observe celestial events? What's the most interesting thing you've ever seen in the night sky?\"",
+          "2.  **Photography/Videography:** \"Your dedication to capturing the blood moon at 3 AM is impressive! What kind of equipment do you use for night photography/videography?\"",
+          "1.  **Blue Ridge Mountains:** Ask about specific trails or viewpoints she enjoyed in the Blue Ridge Mountains.",
+          "2.  **Jeep/Lunar:** Inquire about her Jeep Lunar and her experience driving it on the challenging mountain roads.",
+          "1.  **New Year's Resolutions/Hopes for 2025:** Given the post's focus on the new year and looking forward to 2025, you could ask about their specific hopes or goals for the coming year."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! That air-fried tofu salad looked so delicious! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Cooking/Air Frying (especially tofu)",
+            "Astronomy/Moon Gazing",
+            "Travel (Blue Ridge Mountains, Richmond, VA, North Carolina)",
+            "Photography/Videography",
+            "Celebratory Events/Holidays"
+          ],
+          "LIFESTYLE": "Appears to enjoy travel and outdoor adventures, particularly in the Blue Ridge Mountains. Enjoys cooking and sharing food creations. Seems to have a reflective and sentimental side, especially around holidays and the new year. Celebrated a milestone birthday (60th) with a glamping trip. May live in or frequently visit North Carolina and Virginia.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about the blood moon! Do you often go out to observe celestial events? What's the most interesting thing you've ever seen in the night sky?",
+            "Your dedication to capturing the blood moon at 3 AM is impressive! What kind of equipment do you use for night photography/videography?",
+            "I loved your photos from the Blue Ridge Mountains! Do you have any favorite trails or viewpoints you'd recommend?",
+            "Your Jeep Lunar sounds like quite the adventure companion! What was it like driving it on those mountain roads?",
+            "I noticed your post about looking forward to 2025. Do you have any specific goals or hopes for the new year?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Creative (cooking, photography, decorating)",
+            "Reflective/Sentimental",
+            "Dedicated (willing to wake up early for photography)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Moon Gazing/Astronomy:** \"I saw your post about the blood moon! Do you often go out to observe celestial events? What's the most interesting thing you've ever seen in the night sky?\"",
+        "2.  **Photography/Videography:** \"Your dedication to capturing the blood moon at 3 AM is impressive! What kind of equipment do you use for night photography/videography?\"",
+        "1.  **Blue Ridge Mountains:** Ask about specific trails or viewpoints she enjoyed in the Blue Ridge Mountains.",
+        "2.  **Jeep/Lunar:** Inquire about her Jeep Lunar and her experience driving it on the challenging mountain roads.",
+        "1.  **New Year's Resolutions/Hopes for 2025:** Given the post's focus on the new year and looking forward to 2025, you could ask about their specific hopes or goals for the coming year."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

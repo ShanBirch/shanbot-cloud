@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T22:39:18.672226",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T22:38:57.909516",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screen capture of an Instagram post by han_b_43. The post shows a video of her at a gymnastics facility, seemingly practicing acrobatics with a partner. She's standing on a blue mat with her arms outstretched, holding onto the hands of another person who is out of frame. There are other gymnastic equipment and mats visible in the background. The post has several comments praising her strength and balance.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a beautiful, fluffy cat named Chinnie. The post celebrates Chinnie's 10th birthday. There is also a paper with words like \"Bronze, Gold, Roze, Silver, Titanium\" written on it.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a yoga mat in a room, presumably where han_b_43 teaches yoga. There's also a salt lamp and a chair visible.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a fluffy cat playing with a red laser pointer on a carpet. There are also cat toys in the background. The post is captioned \"The little hunter.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a concert with a large crowd and a spotlight on the stage.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows three people performing a partner acrobatic balance. One person is standing on the shoulders of another, who is kneeling on the ground. A third person stands nearby, possibly spotting. The setting appears to be a gym or training facility.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Cat breeds/care:** Comment on how beautiful Chinnie is and ask about the cat's breed or any tips on caring for long-haired cats.",
+          "2. **The list of metals:** Ask about the list of metals in the image, perhaps they are related to a hobby or interest.",
+          "1. Yoga: Ask about their experience teaching their first yoga class.",
+          "2. Salt Lamps: Inquire about the type of salt lamp they have and if they find it beneficial.",
+          "1. Cat breeds and characteristics: \"Your cat is so cute! What breed is it? I love how fluffy it is.\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You looked like you were having so much fun!🤸‍♀️",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Acrobatics/Gymnastics",
+            "Yoga (Teaching)",
+            "Cats (Especially Chinnie)",
+            "Music/Concerts",
+            "Metals (Bronze, Gold, etc.) - possibly related to a hobby or interest"
+          ],
+          "LIFESTYLE": "Appears to be an active individual involved in acrobatics and yoga. Likely teaches yoga. A devoted cat owner. Enjoys attending concerts. Potentially involved in a hobby related to metals.",
+          "CONVERSATION STARTERS": [
+            "Chinnie is absolutely gorgeous! What breed is Chinnie, and do you have any tips for caring for long-haired cats?",
+            "I noticed the list of metals (Bronze, Gold, etc.) in one of your posts. Is that related to a particular hobby or interest?",
+            "How did your first yoga class go? What do you enjoy most about teaching yoga?",
+            "I love your salt lamp! What kind is it, and have you found it beneficial?",
+            "What kind of music do you enjoy seeing live at concerts?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Active/Athletic",
+            "Caring/Compassionate (towards animals)",
+            "Dedicated/Disciplined (practicing acrobatics and teaching yoga)",
+            "Enthusiastic (about their interests)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Cat breeds/care:** Comment on how beautiful Chinnie is and ask about the cat's breed or any tips on caring for long-haired cats.",
+        "2. **The list of metals:** Ask about the list of metals in the image, perhaps they are related to a hobby or interest.",
+        "1. Yoga: Ask about their experience teaching their first yoga class.",
+        "2. Salt Lamps: Inquire about the type of salt lamp they have and if they find it beneficial.",
+        "1. Cat breeds and characteristics: \"Your cat is so cute! What breed is it? I love how fluffy it is.\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

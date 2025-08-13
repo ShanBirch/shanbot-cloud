@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T23:42:58.404357",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T23:42:19.537399",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of an Avenue Richmond \"daylight\" candle in a dark amber glass jar. The candle has a white label with black text and a minimalist design. The candle is lit, and the flame is visible. Behind the candle, there's a small glass bottle with a cork stopper and a black candle lid, all sitting on a white tray. A gold candle snuffer is also on the tray, adding a touch of elegance to the scene. The background is soft and blurred, creating a calming and luxurious atmosphere.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from avenuerichmond announcing they are open for Christmas. The post features a festive image with Christmas decorations and the text \"Open for Christmas\" and their website address. The post also mentions Christmas candles, stocking fillers, and Christmas gifts.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from @avenuerichmond featuring a bouquet of flowers for Valentine's/Galentine's Day. The post mentions supporting local businesses and includes hashtags related to candles and home fragrance.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a collage of various photos showcasing candles from Avenue Richmond. The candles are displayed in different settings, some with decorative elements like pine cones, plants, and elegant trays. The text \"SALE ENDS TONIGHT\" and \"LAST CHANCE\" are also prominently featured.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post advertising a Boxing Day sale from a company called Avenue Richmond. It features a candle, a small bottle of matches, and a book, all arranged on a wooden surface. The text overlay advertises up to 30% off.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A family photo of two adults and two young children, presumably taken outdoors. The post is a Christmas greeting from their business, Avenue Richmond, which sells home fragrance products.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Christmas shopping and gift ideas:** You could ask about their favorite types of Christmas gifts to give or receive, or inquire about specific product recommendations for stocking stuffers or gift sets.",
+          "2. **Candles and home scents:** You could ask about their favorite Christmas scents or candle brands, or inquire about the different scents they offer and which ones are most popular.",
+          "1. **Local Businesses:** \"I saw your shoutout to @brambleandmossflowers! Do you have any other favorite local businesses in Richmond you would recommend?\"",
+          "2. **Candles/Home Fragrance:** \"I noticed you use hashtags like #lovecandles and #homefragrance. What are some of your favorite scents or candle brands?\"",
+          "1. **Candle Scents/Home Fragrance:** Ask about their best-selling candle scents, or what the most popular fragrances are for the current season."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The candle looked so inviting and the branding is really beautiful! ✨",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Avenue Richmond is the business name, not a personal name)",
+          "INTERESTS": [
+            "Candles and Home Fragrance",
+            "Supporting Local Businesses",
+            "Christmas and Holiday Season",
+            "Home Decor and Interior Design",
+            "Family"
+          ],
+          "LIFESTYLE": "Likely a small business owner/operator in the home fragrance industry. Appears to be family-oriented, balancing business with family life. Active in promoting their business through social media and participating in seasonal sales and events.",
+          "CONVERSATION STARTERS": [
+            "What are your best-selling candle scents this season?",
+            "I saw your shoutout to @brambleandmossflowers! Do you have any other favorite local businesses in Richmond you would recommend?",
+            "What inspired you to start Avenue Richmond and focus on home fragrance?",
+            "What are some of your favorite Christmas traditions?",
+            "I love the minimalist design of your candle labels. What inspires your aesthetic?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Entrepreneurial",
+            "Family-oriented",
+            "Creative/Aesthetic",
+            "Supportive (of local businesses)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Christmas shopping and gift ideas:** You could ask about their favorite types of Christmas gifts to give or receive, or inquire about specific product recommendations for stocking stuffers or gift sets.",
+        "2. **Candles and home scents:** You could ask about their favorite Christmas scents or candle brands, or inquire about the different scents they offer and which ones are most popular.",
+        "1. **Local Businesses:** \"I saw your shoutout to @brambleandmossflowers! Do you have any other favorite local businesses in Richmond you would recommend?\"",
+        "2. **Candles/Home Fragrance:** \"I noticed you use hashtags like #lovecandles and #homefragrance. What are some of your favorite scents or candle brands?\"",
+        "1. **Candle Scents/Home Fragrance:** Ask about their best-selling candle scents, or what the most popular fragrances are for the current season."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

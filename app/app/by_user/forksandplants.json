@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T22:58:30.218517",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T22:58:11.109690",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of a newborn baby, Liam, sleeping peacefully. His face is soft and slightly wrinkled, and his tiny fingers are curled up. The baby is lying on someone's chest. A medical wire is visible at the bottom of the picture.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a post on Instagram by forksandplants about the passing of their dog, Misha. The picture is of Misha with angel wings and a halo. The post is a heartfelt tribute to Misha, mentioning her illness, the decision to euthanize her, and the love and joy she brought to the owner's life.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman holding a baby on a beach at sunset. The location is tagged as Orange County, California.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a beautifully decorated table set for Nowruz (Persian New Year). There are various symbolic items displayed, including apples, sprouted wheatgrass (sabzeh), painted eggs, candles, a mirror, and a book (likely the Quran or a book of poetry).",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of a couple, likely at an event or celebration, given the backdrop. The post is tagged as a \"#photodump\" from January-February 2025.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a baby wearing a red Santa hat and a red and black plaid outfit, reaching towards a small toy train set near a Christmas tree. The caption mentions \"Merry Christmas from my little Santa\" and that the baby is \"almost 8 months.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Pet Loss and Grief:** Expressing condolences for the loss of Misha and offering support. Sharing personal experiences with pet loss (if applicable) and discussing coping mechanisms.",
+          "2.  **Pet Ownership and Love:** Discussing the joys and responsibilities of pet ownership, sharing stories about beloved pets, and exploring the unique bond between humans and animals. The post mentions Misha's life was filled with \"adventure, travel, good food, and love,\" so you could ask about the adventures they had together.",
+          "1.  **Travel/Local Area:** \"I saw you're in Orange County. Do you have any favorite spots or recommendations for places to visit with a little one?\"",
+          "2.  **Parenting:** \"Your little one is adorable! How old are they? I'm always looking for tips on [mention something relevant to parenting, e.g., keeping kids entertained on outings].\"",
+          "1. **Nowruz Traditions:** Inquire about the specific meaning or significance of one of the items on the table, such as the apples or the sprouted wheatgrass. This shows interest in their culture and the traditions they observe."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! Liam looked so peaceful and sweet. 😇",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Parenting/Family Life",
+            "Persian Culture and Traditions (Nowruz)",
+            "Pet Ownership/Animal Lover",
+            "Travel (specifically Orange County, CA)",
+            "Celebrations and Holidays"
+          ],
+          "LIFESTYLE": "Likely a parent living in or frequently visiting Orange County, California. They appear to enjoy celebrating holidays and cultural traditions. They have experienced the loss of a pet and value their family and traditions.",
+          "CONVERSATION STARTERS": [
+            "I'm so sorry for your loss of Misha. She looked like a wonderful companion. Do you have any favorite memories of your adventures together?",
+            "Your Nowruz table setting was beautiful! Could you tell me more about the significance of the sabzeh (sprouted wheatgrass)?",
+            "Your little one is adorable! What are some of your favorite kid-friendly spots in Orange County?",
+            "I saw your Christmas post. How did you celebrate the holidays with your baby?",
+            "What are some of your favorite things to do in Orange County?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Family-oriented",
+            "Cultural",
+            "Compassionate/Empathetic",
+            "Celebratory"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Pet Loss and Grief:** Expressing condolences for the loss of Misha and offering support. Sharing personal experiences with pet loss (if applicable) and discussing coping mechanisms.",
+        "2.  **Pet Ownership and Love:** Discussing the joys and responsibilities of pet ownership, sharing stories about beloved pets, and exploring the unique bond between humans and animals. The post mentions Misha's life was filled with \"adventure, travel, good food, and love,\" so you could ask about the adventures they had together.",
+        "1.  **Travel/Local Area:** \"I saw you're in Orange County. Do you have any favorite spots or recommendations for places to visit with a little one?\"",
+        "2.  **Parenting:** \"Your little one is adorable! How old are they? I'm always looking for tips on [mention something relevant to parenting, e.g., keeping kids entertained on outings].\"",
+        "1. **Nowruz Traditions:** Inquire about the specific meaning or significance of one of the items on the table, such as the apples or the sprouted wheatgrass. This shows interest in their culture and the traditions they observe."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T12:56:45.052193",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T12:56:27.007405",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a light brown puppy lying on its back in the dirt under some leafy green plants. The puppy is looking up at the camera with its mouth slightly open, and there are some small pieces of grass in its mouth. The ground is covered in dry leaves and twigs. There is a white object in the background, possibly another dog. The post is about puppies looking for adoption.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows three people standing in front of a van with the words \"Battito Animale\" on it. Two of the people are holding pet carriers. The post's caption mentions Enzo and Rosie being adopted.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a video still of two kittens, one orange and one black and white, interacting playfully. The post describes how they were rescued and are looking for a home, ideally together.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a black and white kitten sitting in a wicker basket, surrounded by artificial sunflowers. The post is written in Italian and describes how the kitten (named Enzo) was found abandoned. The post is seeking an adopter for Enzo.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The post features a close-up photo of a 3-month-old mixed-breed puppy named Pippo. The post details Pippo's unfortunate past, including contracting parvovirus and failed adoptions. The post is an appeal to find Pippo a home to avoid him being sent to a kennel.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a collage of nine puppies being held. The post is about finding homes for these puppies who are in a Sicilian animal shelter. The text says they are 2.5 months old and will be medium sized.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Animal Adoption/Rescue:** Inquire about their involvement with \"Battito Animale\" or their general passion for animal rescue and adoption.",
+          "2.  **Travel/The Van:** Ask about the purpose of the van and if it's used for transporting animals or other activities related to \"Battito Animale.\"",
+          "1.  **Animal Rescue/Adoption:** Ask about their experience with animal rescue. \"I saw your post about Enzo and Rosie. What's it like working with rescue animals in Castellammare del Golfo?\"",
+          "2.  **Kitten Care:** Inquire about specific needs of the kittens. \"They are so cute! I was wondering, what's the best way to socialize kittens that have been through a rough start?\"",
+          "1.  **Animal Rescue/Adoption:** Discussing the challenges and rewards of animal rescue, or sharing personal experiences with adopting pets."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Animal Rescue",
+            "Animal Adoption",
+            "Kitten/Puppy Care",
+            "Animal Welfare",
+            "Italian Animal Shelters (specifically Sicilian)"
+          ],
+          "LIFESTYLE": "Likely involved in animal rescue and adoption, possibly volunteering or working with an organization like 'Battito Animale'. Appears to be active in finding homes for abandoned or rescued animals, particularly puppies and kittens. May travel for animal rescue purposes.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about Enzo and Rosie being adopted. What's it like working with rescue animals in Castellammare del Golfo?",
+            "What's the story behind 'Battito Animale'? What kind of work do they do?",
+            "Those kittens are adorable! What's the best way to socialize kittens that have been through a rough start?",
+            "You seem very passionate about finding homes for these animals. What are some of the biggest challenges you face in animal rescue?",
+            "I noticed the van in one of your posts. Is that used for transporting animals, or for other activities related to 'Battito Animale'?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Compassionate",
+            "Dedicated",
+            "Empathetic",
+            "Proactive"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Animal Adoption/Rescue:** Inquire about their involvement with \"Battito Animale\" or their general passion for animal rescue and adoption.",
+        "2.  **Travel/The Van:** Ask about the purpose of the van and if it's used for transporting animals or other activities related to \"Battito Animale.\"",
+        "1.  **Animal Rescue/Adoption:** Ask about their experience with animal rescue. \"I saw your post about Enzo and Rosie. What's it like working with rescue animals in Castellammare del Golfo?\"",
+        "2.  **Kitten Care:** Inquire about specific needs of the kittens. \"They are so cute! I was wondering, what's the best way to socialize kittens that have been through a rough start?\"",
+        "1.  **Animal Rescue/Adoption:** Discussing the challenges and rewards of animal rescue, or sharing personal experiences with adopting pets."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

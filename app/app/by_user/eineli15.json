@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T16:22:49.488133",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T16:22:30.115057",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by eineli15 is a collage of four images. The first image shows a woman in a white coat and a man in traditional red and gold attire standing in front of a stone wall. The second image features a picturesque view of Tallinn's Old Town gate with its iconic red-roofed towers against a bright blue sky. The third image shows a young person in a winter coat and hat with a seagull perched on a wall, with the Tallinn skyline in the background. The fourth image displays a person in a red hat standing in front of a building with the text \"EESTI MUUSIKA- JA TEATRIAKADEEMIA\" (Estonian Academy of Music and Theatre) on it. The caption mentions being in Tallinn and being proud of her granddaughter who is attending a piano competition.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a recipe for chickpea vegan mayonnaise. It includes a photo of the finished product in a jar, the recipe ingredients, and instructions. The post also includes relevant hashtags like #veganfood, #veganrecipes, and #plantbasedmayonnaise.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of food, specifically a vegan meal consisting of buckwheat with beans, sliced red bell peppers, cucumbers, and a shredded cabbage and carrot salad. The post includes hashtags related to veganism and plant-based eating.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by eineli15 features a carousel of images. The first image is an advertisement for Tropic Lip Silk Plumping Ceramide Serum. Other images include a dish with what appears to be beans and cucumbers, and a drawing or painting of a cat.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a green smoothie being poured into a mason jar. The ingredients listed include almond milk, frozen spinach, banana, mango, and pineapple. The post is tagged with #veganfood, #plantbasedfood, #instavegans, #healthy, #health, and #healthylifestyle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a painting of two smiling cats with mugs labeled \"tisane\" (herbal tea). The caption says \"Good morning Happy laugh day.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Vegan cooking and recipes: Discussing other vegan recipes they enjoy, asking for tips on vegan cooking, or sharing experiences with plant-based diets.",
+          "2.  Homemade condiments: Asking about other homemade condiments they make, sharing favorite ways to use mayonnaise, or discussing the benefits of making condiments from scratch.",
+          "1. **Vegan/Plant-Based Recipes:** Given the hashtags and the nature of the meal, you could ask about their favorite vegan recipes or plant-based cooking tips.",
+          "2. **Buckwheat with Beans:** You could ask about their experience with buckwheat and beans, or if they have other favorite ways to prepare it.",
+          "1. **Cosmetics/Skincare:** \"I saw you posted about the Tropic Lip Silk serum. Have you tried other products from that brand? I'm always looking for recommendations for natural skincare.\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! Tallinn looked beautiful, and what a cool photo of the Estonian Academy of Music and Theatre! 🏛️",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan/Plant-Based Cooking and Recipes",
+            "Tallinn, Estonia (Travel and Culture)",
+            "Family (Grandchildren)",
+            "Art (Painting, Drawing)",
+            "Healthy Lifestyle"
+          ],
+          "LIFESTYLE": "Likely retired or semi-retired, enjoys cooking vegan meals, values family, appreciates art and culture, and maintains a healthy lifestyle. Seems to travel to Tallinn, possibly to visit family.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about the chickpea vegan mayonnaise. Do you have any other favorite homemade condiment recipes?",
+            "Your photos of Tallinn are beautiful! Have you lived there, or were you visiting?",
+            "I noticed you posted about the Tropic Lip Silk serum. Have you tried other products from that brand? I'm always looking for recommendations for natural skincare.",
+            "That buckwheat and beans dish looked delicious! Do you have any other favorite ways to prepare buckwheat?",
+            "Your painting of the cats drinking tisane is lovely! Do you paint often?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Family-oriented",
+            "Creative",
+            "Health-conscious",
+            "Appreciative of beauty (art, travel, food)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Vegan cooking and recipes: Discussing other vegan recipes they enjoy, asking for tips on vegan cooking, or sharing experiences with plant-based diets.",
+        "2.  Homemade condiments: Asking about other homemade condiments they make, sharing favorite ways to use mayonnaise, or discussing the benefits of making condiments from scratch.",
+        "1. **Vegan/Plant-Based Recipes:** Given the hashtags and the nature of the meal, you could ask about their favorite vegan recipes or plant-based cooking tips.",
+        "2. **Buckwheat with Beans:** You could ask about their experience with buckwheat and beans, or if they have other favorite ways to prepare it.",
+        "1. **Cosmetics/Skincare:** \"I saw you posted about the Tropic Lip Silk serum. Have you tried other products from that brand? I'm always looking for recommendations for natural skincare.\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T22:23:20.746249",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T22:23:00.797517",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a digital illustration with a Ghibli-esque style, depicting a bleak future scenario. In the background, there are men cutting down trees, hunting with guns, and eating meat. In the foreground, there are animals like bears, pigs, cows, and rabbits. A large man in a suit is biting into the Earth, while two children below him are eating meat. A white dove flies above. The overall tone is cautionary and critical of environmental destruction and animal exploitation.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man squatting down and feeding a black dog. The hashtags in the post are #animal and #animalcare.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a donkey carrying heavy loads in baskets. The post is advocating for animal rights and veganism, highlighting the burden placed on animals used for labor.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by manjeet_sehrawat_vegan features a video of a man speaking about Holi and veganism. The post also includes hashtags related to veganism, animal rights, compassion, and specific spiritual figures like Acharya Prashant, Osho, and Krishnamurti.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man in a push-up position, presumably about to perform a set of push-ups. The text overlay indicates he aims to do 1010 pushups without stopping, and the hashtag #plantpowered suggests he's vegan. The caption is in Hindi and promotes veganism for health and ethical reasons.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by @manjeet_sehrawat_vegan. The post features a video of cows in what appears to be a slaughterhouse (\"Kasai Mandi\" is written on the video). The text in the video asks if seeing this will make people stop drinking milk. The caption expresses strong opinions against the dairy industry, using terms like \"cruel\" and \"milkismurder,\" and promotes veganism.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Animal welfare and care: You could ask about the dog's story, the man's involvement in animal care, or his thoughts on veganism and animal rights.",
+          "2. Bahadurgarh City: The post is tagged with \"Bahadurgarh City - The Royal Land\". You could ask about his favorite places in the city or what it's like living there.",
+          "1.  Animal Welfare: Discussing the ethics of using animals for labor and alternative solutions.",
+          "2.  Veganism: Sharing vegan recipes or discussing the impact of veganism on animal welfare and the environment.",
+          "1. **Veganism and Animal Rights:** The post's strong focus on veganism and animal rights provides an opportunity to discuss related topics, such as favorite vegan recipes, ethical concerns about animal agriculture, or current animal welfare initiatives."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! It was a really powerful image and message. 🕊️",
+        "profile_bio": {
+          "PERSON NAME": "Manjeet Sehrawat",
+          "INTERESTS": [
+            "Veganism",
+            "Animal Rights/Welfare",
+            "Environmentalism",
+            "Physical Fitness (Plant-Powered)",
+            "Spirituality (Acharya Prashant, Osho, Krishnamurti)"
+          ],
+          "LIFESTYLE": "Likely an advocate for veganism and animal rights, actively promoting these values through social media. Appears to be physically active and health-conscious, possibly residing in or near Bahadurgarh City. Seems to have a spiritual inclination.",
+          "CONVERSATION STARTERS": [
+            "What inspired you to become vegan and advocate for animal rights?",
+            "What are some of your favorite vegan recipes or resources you'd recommend?",
+            "I noticed you're interested in the teachings of Acharya Prashant, Osho, and Krishnamurti. How do these philosophies influence your vegan lifestyle?",
+            "What are some of the biggest challenges you face when advocating for veganism in your community?",
+            "I saw you're from Bahadurgarh City. What are some of your favorite places there, and how do you think the city could become more animal-friendly?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate",
+            "Advocacy-driven",
+            "Compassionate",
+            "Determined"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Animal welfare and care: You could ask about the dog's story, the man's involvement in animal care, or his thoughts on veganism and animal rights.",
+        "2. Bahadurgarh City: The post is tagged with \"Bahadurgarh City - The Royal Land\". You could ask about his favorite places in the city or what it's like living there.",
+        "1.  Animal Welfare: Discussing the ethics of using animals for labor and alternative solutions.",
+        "2.  Veganism: Sharing vegan recipes or discussing the impact of veganism on animal welfare and the environment.",
+        "1. **Veganism and Animal Rights:** The post's strong focus on veganism and animal rights provides an opportunity to discuss related topics, such as favorite vegan recipes, ethical concerns about animal agriculture, or current animal welfare initiatives."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

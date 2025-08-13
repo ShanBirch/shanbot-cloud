@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T22:44:01.175851",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T22:43:41.384044",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by @gethealthywithkelse is an infographic about \"Energy Debt\" and how it affects those with chronic illness/injury. The graphic shows a cloud shape with percentages (100%, 80%, 60%, 0%) represented by colored dots (green, teal, tan, yellow, and red) along a line, illustrating daily energy allocation. The post's caption emphasizes the impact of chronic illness on energy levels and encourages kindness and patience towards those affected. The hashtags include #longcovid, #longcovidawareness, #chronicill, #injured, #bekind, #bepatient, and #newyearnewme.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by \"gethealthywithkelse.\" The post features a woman talking about her journey to return to her previous fitness level after experiencing long COVID. She uses hashtags like #runner, #fitnessness, #chronicillness, #longcovidawareness, and #longcovidrecovery.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post is about 3 tips for meal prepping while dealing with chronic illness. The image shows pre-packaged meals in containers.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from @gethealthywithkelse. The main focus is a \"Daily Affirmation\" graphic that reads \"MY MIND IS CLEAR, CALM, AND FOCUSED.\" There are also glimpses of other posts related to meal prep and wellness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a split comparison of the Instagram user \"gethealthywithkelse\" before and after contracting COVID-19. The \"Then\" side shows her as a marathon runner, high energy, and physically active. The \"Now\" side shows her with a list of health issues including nerve pain, muscle wasting, headaches, low energy, stomach problems, frequent infections, surgeries, and poor sleep. The post discusses the health complications she's experiencing after contracting COVID-19.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person with a red cast on their arm. They are wearing glasses and a tie-dye shirt. The post describes their experience with long COVID, including exercise intolerance and nerve pain, and mentions having had surgery.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Long COVID recovery: Ask about her specific challenges and strategies for recovery from long COVID.",
+          "2.  Running/Fitness: Inquire about her running goals or fitness routine, and what she's doing to get back to her previous level.",
+          "1. Meal prepping tips and favorite recipes for easy and healthy meals.",
+          "2. Experiences with managing chronic illness and how meal prepping helps.",
+          "1.  **Affirmations/Mindfulness:** You could ask about their experience with using affirmations, what other affirmations they find helpful, or how they incorporate mindfulness into their daily routine."
+        ],
+        "generated_comment": "Hey! Just was having a little stalk of your profile. I thought your most recent post was really informative and presented in a super easy-to-understand way. 💡",
+        "profile_bio": {
+          "PERSON NAME": "Kelse (Based on username 'gethealthywithkelse')",
+          "INTERESTS": [
+            "Long COVID Recovery",
+            "Running/Fitness (especially returning to previous fitness levels)",
+            "Meal Prepping for Chronic Illness",
+            "Mindfulness and Affirmations",
+            "Chronic Illness Management"
+          ],
+          "LIFESTYLE": "Likely a health and fitness enthusiast who was previously very active (marathon runner) and is now navigating life with chronic illness (Long COVID). She is focused on recovery, healthy eating, and mental well-being while managing her health challenges. Possibly works in a field related to health and wellness, or is documenting her journey as a form of advocacy and support for others.",
+          "CONVERSATION STARTERS": [
+            "What are some of the biggest challenges you've faced during your Long COVID recovery, and what strategies have been most helpful?",
+            "What are your current running goals, and how are you adapting your training to accommodate your health challenges?",
+            "Do you have any go-to meal prepping tips or favorite recipes that make healthy eating easier while managing chronic illness?",
+            "What are some of your favorite affirmations, and how do you incorporate mindfulness into your daily routine?",
+            "Can you share more about your experience with exercise intolerance and nerve pain, and what you've found helpful in managing those symptoms?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Resilient: Demonstrates strength and determination in the face of health challenges.",
+            "Positive: Actively uses affirmations and focuses on mental well-being.",
+            "Empathetic: Shares her experiences to raise awareness and support others with chronic illness.",
+            "Proactive: Actively engaged in recovery, meal prepping, and finding solutions to manage her health."
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Long COVID recovery: Ask about her specific challenges and strategies for recovery from long COVID.",
+        "2.  Running/Fitness: Inquire about her running goals or fitness routine, and what she's doing to get back to her previous level.",
+        "1. Meal prepping tips and favorite recipes for easy and healthy meals.",
+        "2. Experiences with managing chronic illness and how meal prepping helps.",
+        "1.  **Affirmations/Mindfulness:** You could ask about their experience with using affirmations, what other affirmations they find helpful, or how they incorporate mindfulness into their daily routine."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

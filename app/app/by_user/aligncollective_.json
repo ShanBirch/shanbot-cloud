@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T20:27:31.982194",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T20:27:08.845820",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by aligncollective_ is a promotional image showcasing their app. The image features three phone screens displaying different aspects of the app's interface. The overall color scheme is pink and black. One screen shows a woman waving, while others display workout routines and tasks. The text \"Start YOUR JOURNEY WITH\" is prominently displayed.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by aligncollective_. The post introduces \"Align Collective\" and states its mission is \"Building Empowered, Confident & Connected Women.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post introducing Align Collective. The post features two women, and a graphic with icons representing training, nutrition, and strength.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows someone making pancakes in a kitchen. The caption states \"Shred season for me has begun.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of women posing for a photo in what appears to be a fitness studio or gym. The post is from aligncollective_, and the caption mentions a workshop focused on connecting to one's \"why\" for fitness, emphasizing reasons beyond just the number on the scale. There is a large group photo hanging on the wall in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by aligncollective_. The post is a video of a woman explaining a concept related to diet and weight loss, using a whiteboard with a drawing of circles to illustrate her point. The text of the post discusses the frustration of following a diet perfectly for two weeks and not seeing results on the scale.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Empowerment/Confidence:** You could ask them what aspects of the collective they find most empowering or what confidence-building activities they enjoy.",
+          "2.  **Community/Connection:** You could ask them about the importance of community or what they look for in a connected group of people.",
+          "1.  **Training/Fitness:** Given the emphasis on training and strength, you could ask about their specific training philosophies or what types of workouts they specialize in.",
+          "2.  **Nutrition:** The post highlights nutrition, so you could inquire about their approach to healthy eating and if they have any favorite recipes or nutritional tips.",
+          "1.  Pancakes: Ask about their favorite pancake recipe or toppings."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The app interface looked really clean and user-friendly. ✨",
+        "profile_bio": {
+          "PERSON NAME": "Align Collective (Individual names not provided in data)",
+          "INTERESTS": [
+            "Fitness & Strength Training",
+            "Nutrition & Healthy Eating",
+            "Women's Empowerment",
+            "Community Building",
+            "Mindful Fitness (Connecting to 'Why')"
+          ],
+          "LIFESTYLE": "Focuses on building a supportive community for women through fitness, nutrition, and empowerment. Likely involved in organizing workshops, creating workout programs, and providing nutritional guidance. Appears to be involved in coaching or leading fitness activities.",
+          "CONVERSATION STARTERS": [
+            "What aspects of Align Collective do you find most empowering for the women involved?",
+            "Community seems to be a core value. What qualities do you look for in a strong, connected group of people?",
+            "Your training philosophy seems to go beyond just physical results. Can you tell me more about connecting to one's 'why' in fitness?",
+            "I saw the pancake post! What's your go-to healthy pancake recipe or favorite toppings?",
+            "The app looks interesting. What are some of the key features designed to help women achieve their fitness goals?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Empowering",
+            "Community-focused",
+            "Motivational",
+            "Knowledgeable (in fitness and nutrition)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Empowerment/Confidence:** You could ask them what aspects of the collective they find most empowering or what confidence-building activities they enjoy.",
+        "2.  **Community/Connection:** You could ask them about the importance of community or what they look for in a connected group of people.",
+        "1.  **Training/Fitness:** Given the emphasis on training and strength, you could ask about their specific training philosophies or what types of workouts they specialize in.",
+        "2.  **Nutrition:** The post highlights nutrition, so you could inquire about their approach to healthy eating and if they have any favorite recipes or nutritional tips.",
+        "1.  Pancakes: Ask about their favorite pancake recipe or toppings."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

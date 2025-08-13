@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T08:06:18.626003",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T08:05:58.443804",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by sweetcha65 shows a video still of a large pot on an open fire. The pot appears to be filled with food, possibly meat, cooking for animals. The text overlay reads \"Busog na Naman mga alaga,\" which translates to \"The pets are full again.\" The hashtags include #dogfood, #fbreelsfyp, #viralpost2025, and #reelstrending.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person kneeling next to several watermelons on a gravel surface. A bucket is also visible. The text overlay on the image is in Tagalog. The hashtags in the post include #watermelon, #melon, #reelsviral, #fbreelsfyp, and #highlightseveryonefollowers.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person sweeping outdoors with a broom. The text overlayed on the image in Filipino says \"I feel sorry for my mother, but I feel even more sorry for the broom.\" The hashtags include #WalisTambo (a type of broom), #mahal (expensive), #expensive, #broom, #viralfyp, #fbpost2025, and #reelstrending.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows several bowls of cooked meat, possibly chicken, being prepared outdoors. There is also a cat in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows an elderly woman (likely the poster's grandmother, referred to as \"nanay\" in the caption) holding a bowl of lugaw (rice porridge) with money in it. The caption mentions that despite the hot weather, she still craves lugaw. The hashtags include #lugawislife and #lugawoverload.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of children playing \"luksong lubid\" (a Filipino jumping rope game) outdoors. The background includes a field and mountains.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Watermelons: \"Those watermelons look great! Do you have a favorite way to eat them?\"",
+          "2. Tagalog language/culture: \"I noticed the text on your post is in Tagalog. Is that your first language? I'm always interested in learning about different cultures.\"",
+          "1.  The type of broom (Walis Tambo) and its cost/availability in the area.",
+          "2.  The humor/sentimentality of the post and the user's relationship with their mother.",
+          "1. Cooking/Food Preparation: \"That looks like a lot of work! What are you making with all that chicken?\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Filipino Culture and Traditions (especially food and games)",
+            "Cooking for Animals (likely pets or livestock)",
+            "Gardening/Farming (specifically watermelons)",
+            "Family (especially their mother and grandmother)",
+            "Filipino Cuisine (Lugaw)"
+          ],
+          "LIFESTYLE": "Likely lives in a rural area in the Philippines, possibly involved in farming or animal care. Seems to have strong family ties and values traditional Filipino culture. Active on social media, particularly Facebook Reels.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite way to prepare lugaw? I've never tried it before!",
+            "I saw you were cooking for your animals. What kind of animals do you have?",
+            "Luksong Lubid looks like so much fun! Did you play it a lot when you were younger?",
+            "I'm curious about the Walis Tambo. Is it commonly used in your area, and where can you buy one?",
+            "Your watermelons look delicious! Do you grow them yourself, and what's your secret to a good watermelon?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Caring/Nurturing (towards animals and family)",
+            "Humorous (as evidenced by the broom post)",
+            "Family-oriented",
+            "Proud of their Filipino heritage"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Watermelons: \"Those watermelons look great! Do you have a favorite way to eat them?\"",
+        "2. Tagalog language/culture: \"I noticed the text on your post is in Tagalog. Is that your first language? I'm always interested in learning about different cultures.\"",
+        "1.  The type of broom (Walis Tambo) and its cost/availability in the area.",
+        "2.  The humor/sentimentality of the post and the user's relationship with their mother.",
+        "1. Cooking/Food Preparation: \"That looks like a lot of work! What are you making with all that chicken?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T15:05:00.208833",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T15:04:38.326507",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a post on Instagram by terencetbooker. It features a picture of the cover of a book titled \"The Book of North American Tribes, Chiefs, Warriors & Their Stories.\" The cover has a collage of portraits of Native American people. The post's caption discusses the historical context of how some Native American groups were classified.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post shows a family tree exploration, specifically focusing on Marie Catherine Wiame, the wife of the poster's 8th great-grandfather. The post also includes a caption encouraging others to explore their ancestry and know their roots, along with relevant hashtags.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by terencetbooker. The post shows a family tree/genealogy chart of William E. White, his 4th great-grandfather. The post also includes a lengthy caption discussing the historical shift in racial classifications, specifically from \"mulatto\" to \"black,\" and the impact of laws like the Racial Integrity Act.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows terencetbooker posing with another man. The caption includes \"#throwbackthursday #bobmarley\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by terencetbooker about \"Ethnic Relations and Migration in the Ancient World,\" specifically focusing on Herodotus's writings on Ethiopians. The post includes hashtags related to Black history, knowledge, excellence, and ancient civilizations.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by terencetbooker. The post features a block of text discussing the history of Cape Verde and its connection to Portuguese colonial expansion and the slave trade. The post also includes hashtags related to Black history, Moors, African diaspora, and self-knowledge.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Genealogy/Ancestry Research:** You could ask about their experience using Ancestry.com or other genealogy resources, or share your own experiences with family history research.",
+          "2.  **Louisiana Creole Heritage:** Given the mention of \"Louisiana Creole,\" you could ask about their connection to that culture and history, or share any knowledge you have about Creole heritage.",
+          "1. Genealogy: You could ask about their experience with genealogy research, what resources they find most helpful, or if they've uncovered any other interesting historical facts about their family.",
+          "2. History/Racial Identity: You could engage in a conversation about the historical context of racial classifications in the US, the impact of these classifications on individuals and communities, or their personal reflections on the complexities of racial identity.",
+          "1. Bob Marley: Given the hashtag, asking about his favorite Bob Marley song or album could be a good conversation starter."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Terence Booker",
+          "INTERESTS": [
+            "Genealogy and Ancestry Research",
+            "Black History and Culture",
+            "Ancient Civilizations and Ethnic Relations",
+            "Louisiana Creole Heritage",
+            "Bob Marley and Reggae Music"
+          ],
+          "LIFESTYLE": "Likely an individual engaged in historical research and genealogical exploration. Appears to be passionate about understanding his roots and sharing his findings with others. May be an educator or someone with a strong interest in history and cultural identity. Enjoys music, specifically Bob Marley.",
+          "CONVERSATION STARTERS": [
+            "What resources have you found most helpful in your genealogy research?",
+            "What are your thoughts on the historical impact of racial classifications in the US?",
+            "What is your connection to Louisiana Creole culture and history?",
+            "What's your favorite Bob Marley song or album and why?",
+            "Have you uncovered any surprising or particularly interesting historical facts about your family through your research?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Inquisitive",
+            "Passionate",
+            "Historically-minded",
+            "Culturally Aware"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Genealogy/Ancestry Research:** You could ask about their experience using Ancestry.com or other genealogy resources, or share your own experiences with family history research.",
+        "2.  **Louisiana Creole Heritage:** Given the mention of \"Louisiana Creole,\" you could ask about their connection to that culture and history, or share any knowledge you have about Creole heritage.",
+        "1. Genealogy: You could ask about their experience with genealogy research, what resources they find most helpful, or if they've uncovered any other interesting historical facts about their family.",
+        "2. History/Racial Identity: You could engage in a conversation about the historical context of racial classifications in the US, the impact of these classifications on individuals and communities, or their personal reflections on the complexities of racial identity.",
+        "1. Bob Marley: Given the hashtag, asking about his favorite Bob Marley song or album could be a good conversation starter."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T22:52:36.046980",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T22:52:17.447964",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a woman smiling at the camera. She's holding a large cone filled with french fries covered in ketchup. She is wearing a black hoodie with the words \"LORD OF THE FRIES\" printed in white and red. The background is blurred, suggesting an outdoor setting.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post is from \"chief_meta_chicks\" featuring Amanda Leigh Walker, an entrepreneur, business coach, and founder of \"Lord of the Fries\". The post includes a quote emphasizing building a sustainable and supportive business. It also promotes upcoming events and holistic approaches to business.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by amanda.leigh.walker promoting her workshop submission to SXSW Sydney 2025. The workshop is titled \"Human Design for Visionary Leaders: The Energetic Edge of the Future\" and focuses on using Human Design as a tool for leadership.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by amanda.leigh.walker promoting her pitch for a SXSW Sydney talk on sustainability as the key to business success. She emphasizes a holistic approach to sustainability beyond just eco-friendly products, focusing on internal alignment and personal wellbeing. She is the founder of Lord of the Fries and a life coach and business mentor.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a video still of a field with sheep in Lily Dale, New York. The post describes a spiritual experience the poster had in Lily Dale, involving mediums and spirit connections.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by amanda.leigh.walker. The post is a video where she recommends taking yourself out on a date. The video shows Amanda smiling and talking about taking herself to the country to a lotus farm. The caption includes hashtags like #dateyourself, #forestbathing, #selfcaretips, and #vegan.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Lord of the Fries:** Inquire about her experience founding and running \"Lord of the Fries\". This shows genuine interest in her entrepreneurial journey and provides a specific point of reference.",
+          "2. **Sustainable Business:** Ask for her insights on what she considers the most crucial elements of building a sustainable business, based on her experience as a business coach. This connects to the core message of the post and positions you as someone interested in her expertise.",
+          "1.  SXSW Sydney: Asking about her experience with SXSW, the submission process, or her excitement about the event.",
+          "2.  Human Design: Inquiring about Human Design, its principles, or how it can be applied to leadership and business.",
+          "1.  **SXSW Sydney:** Asking about her experience with SXSW, the voting process, or her excitement about the potential talk."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! Those fries looked amazing! 🍟",
+        "profile_bio": {
+          "PERSON NAME": "Amanda Leigh Walker",
+          "INTERESTS": [
+            "Entrepreneurship & Business Coaching",
+            "Sustainable Business Practices",
+            "Human Design",
+            "Self-Care & Wellbeing (including veganism and forest bathing)",
+            "Spirituality & Connection (Lily Dale)"
+          ],
+          "LIFESTYLE": "Amanda is an entrepreneur, business coach, and the founder of 'Lord of the Fries'. She appears to lead a holistic lifestyle that balances business with personal wellbeing, spiritual exploration, and self-care practices. She is actively involved in the business and leadership community, seeking opportunities to share her knowledge and insights at events like SXSW Sydney.",
+          "CONVERSATION STARTERS": [
+            "I saw you founded 'Lord of the Fries'! What was the most challenging/rewarding aspect of starting that business?",
+            "Your post about sustainable business really resonated with me. What do you think are the most crucial elements for building a truly sustainable business model?",
+            "I'm curious about your SXSW Sydney workshop submission on Human Design. How can Human Design be practically applied to leadership and business strategy?",
+            "I noticed you visited Lily Dale. What was that experience like for you, and how has it influenced your perspective?",
+            "Your 'date yourself' video was inspiring! What are some other self-care practices you find particularly beneficial?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Entrepreneurial & Driven",
+            "Holistic & Mindful",
+            "Passionate & Engaging",
+            "Visionary & Spiritual"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Lord of the Fries:** Inquire about her experience founding and running \"Lord of the Fries\". This shows genuine interest in her entrepreneurial journey and provides a specific point of reference.",
+        "2. **Sustainable Business:** Ask for her insights on what she considers the most crucial elements of building a sustainable business, based on her experience as a business coach. This connects to the core message of the post and positions you as someone interested in her expertise.",
+        "1.  SXSW Sydney: Asking about her experience with SXSW, the submission process, or her excitement about the event.",
+        "2.  Human Design: Inquiring about Human Design, its principles, or how it can be applied to leadership and business.",
+        "1.  **SXSW Sydney:** Asking about her experience with SXSW, the voting process, or her excitement about the potential talk."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,114 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T12:50:20.213130",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 5,
+        "timestamp": "2025-04-15T12:50:01.589487",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of a person, presumably _minnutti_, resting their head on their arm. The lighting is soft and warm, casting shadows across their face and creating a peaceful, serene atmosphere. They appear to be relaxed or asleep.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of a woman with a fluffy white and orange dog.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a profile portrait of a person with light hair. The lighting is dramatic, and they are wearing what appears to be a dark jacket with gold detailing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A woman with curly hair is kneeling and holding a soccer ball. There is also a cartoon picture in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A close-up portrait of a young woman with striking blue eyes, wearing a blue head covering, surrounded by greenery and red flowers. The photo is credited to \"Ansal Azad Photography.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  The dog: \"Your dog is adorable! What breed is it?\" or \"What's your dog's name? They look like a real character.\"",
+          "2.  Dog ownership: \"Do you have any tips for keeping a dog so well-groomed?\" or \"What are some of your favorite activities to do with your dog?\"",
+          "1. **Photography/Lighting:** Comment on the artistic quality of the photo, specifically the lighting and composition. \"This photo has such a cool vibe! The lighting is really striking. Did you take it yourself or work with a photographer?\"",
+          "2. **Bollywood/Telugu Cinema:** The hashtags include references to Bollywood, Telugu, Kollywood, and actresses like Rashmika Mandanna and Kajal Agarwal. \"I noticed you used hashtags related to Bollywood and Telugu cinema. Are you a fan of those industries? Do you have any favorite actors or movies?\"",
+          "1. Soccer: Ask about her interest in soccer, whether she plays, or if she follows any particular teams."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post, it looked like you were having a really peaceful moment 😴",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Dogs (especially fluffy white and orange breeds)",
+            "Photography (both as a subject and potentially as a creator)",
+            "Bollywood/Telugu Cinema",
+            "Soccer",
+            "Fashion/Style (inferred from the portrait with gold detailing)"
+          ],
+          "LIFESTYLE": "Likely an active individual with diverse interests. Appears to enjoy spending time outdoors (greenery in photo). May be involved in sports (soccer). Shows an appreciation for artistic expression (photography, cinema). Possibly a dog owner.",
+          "CONVERSATION STARTERS": [
+            "What's your dog's name and what's their personality like?",
+            "That portrait with the gold detailing is stunning! What was the occasion?",
+            "Do you play soccer, or are you just a fan? What's your favorite team?",
+            "I noticed you're interested in Bollywood and Telugu cinema. Any recommendations for someone just getting into those industries?",
+            "The lighting in your photos is always so beautiful. Do you have any tips for taking good photos?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Artistic/Creative (appreciation for photography and cinema)",
+            "Active/Energetic (interest in soccer and dog ownership)",
+            "Caring/Nurturing (evident in the relationship with their dog)",
+            "Stylish/Fashion-conscious (inferred from the portrait with gold detailing and overall aesthetic of the photos)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  The dog: \"Your dog is adorable! What breed is it?\" or \"What's your dog's name? They look like a real character.\"",
+        "2.  Dog ownership: \"Do you have any tips for keeping a dog so well-groomed?\" or \"What are some of your favorite activities to do with your dog?\"",
+        "1. **Photography/Lighting:** Comment on the artistic quality of the photo, specifically the lighting and composition. \"This photo has such a cool vibe! The lighting is really striking. Did you take it yourself or work with a photographer?\"",
+        "2. **Bollywood/Telugu Cinema:** The hashtags include references to Bollywood, Telugu, Kollywood, and actresses like Rashmika Mandanna and Kajal Agarwal. \"I noticed you used hashtags related to Bollywood and Telugu cinema. Are you a fan of those industries? Do you have any favorite actors or movies?\"",
+        "1. Soccer: Ask about her interest in soccer, whether she plays, or if she follows any particular teams."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

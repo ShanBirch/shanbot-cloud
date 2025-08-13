@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T17:54:38.174881",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T17:54:20.620241",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post from \"yourdailymotivation.2020\". It features a shirtless man with numerous tattoos standing outdoors with his head tilted back and eyes closed, seemingly enjoying the sunlight. The text \"The game of life...\" is superimposed on the image in a stylized font. The background appears to be an urban setting with buildings.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image features a man in a suit, looking off into the distance. The text overlay reads \"Building an empire...\" The post's caption mentions \"mindfulness\" and \"pursuit of goals.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a young man holding a skateboard over his shoulder. The text \"Dare to fly higher\" is superimposed on the image. The caption includes a motivational message about pursuing dreams.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image features a woman in athletic attire striking a pose in an urban setting. The text overlay reads \"Aspiration to be better...\" The background shows a city street with buildings and overhead wires.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman sitting on a swing in front of a waterfall. The text \"Feel free...\" is superimposed on the image. The caption encourages viewers to be themselves and live by their own rules.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post with a woman in a white dress looking out a window. The text overlay reads \"Forget the prohibition...\" The caption encourages viewers to \"Live without prohibitions, awake your inner rebel!! Make your own law and be happy!!\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Entrepreneurship/Career Goals:** Discussing their own career aspirations or asking about the specific goals the person is pursuing.",
+          "2.  **Mindfulness/Personal Development:** Inquiring about their mindfulness practices or favorite personal development resources.",
+          "1. Skateboarding: Ask about their favorite skate spots, tricks, or skateboarding brands.",
+          "2. Motivation/Inspiration: Ask about what motivates them to pursue their goals or what they find inspiring.",
+          "1. **Fitness/Dance:** Given the woman's pose and attire, asking about her fitness routine or dance background could be a good conversation starter. \"I noticed your pose in the picture, do you do any specific type of dance or fitness training?\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Entrepreneurship/Business",
+            "Mindfulness & Personal Development",
+            "Skateboarding/Extreme Sports",
+            "Fitness/Active Lifestyle",
+            "Freedom & Self-Expression"
+          ],
+          "LIFESTYLE": "Likely an individual pursuing personal and professional growth, balancing ambition with mindfulness and a desire for freedom. They seem to appreciate urban environments and outdoor activities. Potentially an entrepreneur or someone with strong career aspirations. They also seem to value self-expression and breaking free from societal norms.",
+          "CONVERSATION STARTERS": [
+            "What are some of your current career goals or entrepreneurial pursuits?",
+            "Do you have any favorite mindfulness practices or personal development resources you'd recommend?",
+            "What are some of your favorite skate spots or skateboarding brands?",
+            "What motivates you to pursue your goals and dreams?",
+            "I noticed your pose in the picture, do you do any specific type of dance or fitness training?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Ambitious",
+            "Mindful",
+            "Independent",
+            "Motivated"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Entrepreneurship/Career Goals:** Discussing their own career aspirations or asking about the specific goals the person is pursuing.",
+        "2.  **Mindfulness/Personal Development:** Inquiring about their mindfulness practices or favorite personal development resources.",
+        "1. Skateboarding: Ask about their favorite skate spots, tricks, or skateboarding brands.",
+        "2. Motivation/Inspiration: Ask about what motivates them to pursue their goals or what they find inspiring.",
+        "1. **Fitness/Dance:** Given the woman's pose and attire, asking about her fitness routine or dance background could be a good conversation starter. \"I noticed your pose in the picture, do you do any specific type of dance or fitness training?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

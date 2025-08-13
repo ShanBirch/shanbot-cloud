@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T16:26:44.259587",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T16:26:27.569236",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post by silviafitness906. It features a tube of sunscreen on the left side of the frame. Behind it is a large, vibrant purple pansy flower with a yellow center. The words \"Welcome FEBRUARY\" are superimposed on the image in a decorative font. The post is dated February 1, 2023.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows Sonya brand skincare products: refreshing gel cleanser and refining gel mask. There's also a Sonya branded green cosmetic bag.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a collection of Sonya skincare products, including a gel cleanser, illuminating gel, moisturizer, and gel mask, along with a Sonya daily skincare box and a green cosmetic bag.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an advertisement for Sonya Daily Skincare, a gel-based skincare system with aloe. The products include a gel mask, gel cleanser, and moisturizer.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an advertisement for Forever Aloe Vera Gel. It features screenshots of positive WhatsApp testimonials in Swahili and images of the product itself. The post also includes contact information and location details for purchasing the product.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a before-and-after comparison of the user's skin, presumably showcasing the effectiveness of the skincare products they are promoting. The post also includes hashtags related to skincare, beauty, motherhood, and Forever Living products.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Skincare: Ask about their experience with Sonya products or their general skincare routine.",
+          "2. Beauty/Cosmetics: Inquire about other beauty products they use or their favorite brands.",
+          "1. Skincare: \"I noticed you use Sonya skincare. Have you tried other products from them, and what's your favorite?\"",
+          "2. Fitness and Beauty: Given the username \"silviafitness906,\" one could assume an interest in both fitness and beauty. \"I see you're into fitness! Do you find that a consistent skincare routine helps with post-workout skin issues?\"",
+          "1. Skincare routines and favorite products for combination skin."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The purple flower was such a nice touch 💜",
+        "profile_bio": {
+          "PERSON NAME": "Silvia (Likely)",
+          "INTERESTS": [
+            "Skincare (Specifically Sonya and Forever Living products)",
+            "Beauty/Cosmetics",
+            "Fitness (Implied by username)",
+            "Motherhood (Based on hashtags)",
+            "Aloe Vera Products"
+          ],
+          "LIFESTYLE": "Likely a mother and entrepreneur involved in promoting and selling Sonya and Forever Living skincare products. She seems to be focused on health, beauty, and potentially fitness.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite product from the Sonya skincare line and why?",
+            "I'm curious about your fitness routine. How do you balance it with your skincare?",
+            "I saw you use Forever Aloe Vera Gel. What benefits have you noticed from using it?",
+            "What's your go-to skincare routine for maintaining healthy skin as a busy mom?",
+            "Have you tried other aloe-based skincare products besides Forever Living, and how do they compare?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Promotional/Business-minded",
+            "Health-conscious",
+            "Family-oriented (Implied by motherhood)",
+            "Positive/Encouraging (Implied by before-and-after photos and testimonials)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Skincare: Ask about their experience with Sonya products or their general skincare routine.",
+        "2. Beauty/Cosmetics: Inquire about other beauty products they use or their favorite brands.",
+        "1. Skincare: \"I noticed you use Sonya skincare. Have you tried other products from them, and what's your favorite?\"",
+        "2. Fitness and Beauty: Given the username \"silviafitness906,\" one could assume an interest in both fitness and beauty. \"I see you're into fitness! Do you find that a consistent skincare routine helps with post-workout skin issues?\"",
+        "1. Skincare routines and favorite products for combination skin."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

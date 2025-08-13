@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T21:43:10.087609",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T21:42:46.973825",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by master.matcha is a graphic with the text \"FUN FACTS ABOUT MATCHA\" in bold black letters against a light green, swirly background. There is a white arrow pointing to the right. The lower left corner features the \"MUSCLE MATCHA\" logo. The post encourages viewers to comment and share which facts they already know.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an advertisement for Master Matcha, highlighting its benefits for athletes and active individuals. It features matcha powder, a prepared matcha drink, and matcha cake, emphasizing its natural and energizing qualities.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a promotional post for Master Matcha, showcasing their product with matcha powder, a matcha latte, a matcha drink with a straw, and a slice of matcha cake. The post highlights the natural, vegan, gluten-free, and dairy-free aspects of the matcha.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a bowl of matcha tea, with matcha powder sprinkled around it. The post emphasizes the health benefits of matcha, such as its high antioxidant content and its ability to provide calm focus and smooth energy.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by master.matcha featuring two packages of their matcha product surrounded by a heart shape made of matcha powder. The post highlights the clean energy and antioxidant benefits of their premium Japanese matcha.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by master.matcha advertising their matcha powder. The post features a product shot of two packages of matcha powder with loose matcha powder scattered in front. The text on the post emphasizes the natural energy boost and the fact that it's 100% stone-ground Japanese matcha.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Endurance Activities:** The post directly asks about favorite endurance activities. This is a great starting point to share your own activities or ask about theirs.",
+          "2.  **Matcha Recipes/Uses:** The image includes matcha cake, indicating that matcha can be used in various recipes. You could ask for recipe recommendations or share your own favorite ways to incorporate matcha into your diet.",
+          "1.  **Matcha Recipes/Uses:** Given the variety of matcha-related items (latte, cake, drink), asking about favourite matcha recipes or ways to incorporate matcha into daily life could be a good conversation starter.",
+          "2.  **Wellness and Health:** The post mentions \"mind-body wellness\" and uses hashtags like #WellnessJourney and #SuperfoodLiving. Inquiring about their approach to wellness or the health benefits they associate with matcha could be a relevant topic.",
+          "1.  **Favorite ways to enjoy matcha:** The post directly asks \"What's your favorite way to enjoy matcha?\" This is a great conversation starter, allowing you to share your own preferences (e.g., lattes, smoothies, baking) and learn about theirs."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The \"Fun Facts About Matcha\" graphic was really eye-catching! 🍵",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: master.matcha)",
+          "INTERESTS": [
+            "Matcha (preparation, recipes, benefits)",
+            "Health and Wellness",
+            "Fitness and Endurance Activities",
+            "Vegan/Gluten-Free/Dairy-Free Lifestyle",
+            "Japanese Culture (specifically related to matcha)"
+          ],
+          "LIFESTYLE": "Likely an active individual interested in health and wellness, possibly an athlete or someone who enjoys endurance activities. They promote a natural, vegan, gluten-free, and dairy-free lifestyle through their matcha products. They are likely an entrepreneur or business owner focused on selling and promoting their matcha brand.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite endurance activity and how does matcha help you fuel it?",
+            "Do you have any favorite matcha recipes you'd be willing to share? I'm always looking for new ways to incorporate it into my diet.",
+            "I'm curious about your approach to wellness. What other superfoods do you incorporate into your daily routine besides matcha?",
+            "What's your favorite way to enjoy matcha? I'm a big fan of matcha lattes, but I'm open to trying new things.",
+            "Can you tell me more about the stone-ground process for your matcha? What makes it superior to other methods?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Enthusiastic (about matcha and its benefits)",
+            "Promotional (focused on marketing their product)",
+            "Knowledgeable (about matcha and its origins)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Endurance Activities:** The post directly asks about favorite endurance activities. This is a great starting point to share your own activities or ask about theirs.",
+        "2.  **Matcha Recipes/Uses:** The image includes matcha cake, indicating that matcha can be used in various recipes. You could ask for recipe recommendations or share your own favorite ways to incorporate matcha into your diet.",
+        "1.  **Matcha Recipes/Uses:** Given the variety of matcha-related items (latte, cake, drink), asking about favourite matcha recipes or ways to incorporate matcha into daily life could be a good conversation starter.",
+        "2.  **Wellness and Health:** The post mentions \"mind-body wellness\" and uses hashtags like #WellnessJourney and #SuperfoodLiving. Inquiring about their approach to wellness or the health benefits they associate with matcha could be a relevant topic.",
+        "1.  **Favorite ways to enjoy matcha:** The post directly asks \"What's your favorite way to enjoy matcha?\" This is a great conversation starter, allowing you to share your own preferences (e.g., lattes, smoothies, baking) and learn about theirs."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

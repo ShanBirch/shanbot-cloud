@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T09:45:48.516871",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T09:45:32.459931",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a scenic landscape photograph taken from a rocky, elevated point of view. In the foreground, there are rocks and low-lying green vegetation. The middle ground features a valley with more dense green vegetation, leading to a range of mountainous peaks in the background. The sky is blue with scattered white clouds.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a scenic view of a mountainous landscape with a lake or reservoir. The foreground features lush green trees, and the background reveals snow-capped mountains under a cloudy sky.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a snowy mountain landscape, likely a ski resort, with pine trees in the foreground and ski slopes visible in the background. There are buildings nestled in the mountains.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a serene landscape with a calm body of water, a bridge in the distance, and snow-capped mountains. A tree branch frames the scene in the foreground.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a scenic shot of a snow-covered landscape with pine trees and mountains in the background, under a clear blue sky.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a scenic view of a body of water (likely a lake or sea) with mountains in the background. There's a marina with several sailboats docked. The sky is clear and blue.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Hiking/Outdoors: \"That view is incredible! Do you hike often? Any favorite trails in that area?\"",
+          "2. Photography: \"Beautiful shot! What kind of camera/phone do you use for your photos?\"",
+          "1. Skiing/Snowboarding: \"Have you been skiing/snowboarding much this season? That mountain looks amazing!\"",
+          "2. Travel/Mountain Scenery: \"That view is incredible! Where was this photo taken?\"",
+          "1.  **Travel/Location:** \"That's a beautiful view! Do you live near there, or were you visiting? It looks like a really peaceful place.\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post was beautiful, the view looked incredible! ⛰️",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Landscape Photography",
+            "Hiking/Outdoor Activities",
+            "Mountain Scenery",
+            "Travel",
+            "Skiing/Snowboarding"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys spending time outdoors, particularly in mountainous regions. They seem to travel to scenic locations and engage in activities like hiking and skiing/snowboarding. Their profession is unknown, but they likely have the means and time to travel and pursue these hobbies.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite hiking trail you've ever been on?",
+            "What kind of camera do you use for your landscape photography?",
+            "Have you found any great ski resorts this season?",
+            "What's the most breathtaking view you've ever seen?",
+            "Do you have any upcoming travel plans to mountainous regions?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Appreciative of Beauty",
+            "Active",
+            "Observant"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Hiking/Outdoors: \"That view is incredible! Do you hike often? Any favorite trails in that area?\"",
+        "2. Photography: \"Beautiful shot! What kind of camera/phone do you use for your photos?\"",
+        "1. Skiing/Snowboarding: \"Have you been skiing/snowboarding much this season? That mountain looks amazing!\"",
+        "2. Travel/Mountain Scenery: \"That view is incredible! Where was this photo taken?\"",
+        "1.  **Travel/Location:** \"That's a beautiful view! Do you live near there, or were you visiting? It looks like a really peaceful place.\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

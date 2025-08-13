@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T17:23:20.301767",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T17:23:02.611314",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by the_fitduck, in collaboration with capital_strength_ts. The post is a video reel showing a man in a home gym setting, performing a barbell exercise. Text overlay on the video reads \"Here are three ways you can\". The post's caption provides three tips on how to increase protein intake, including starting the day with protein, increasing meal frequency, and meal prepping. The post also includes relevant hashtags like #ProteinGoals, #HealthyEating, and #FitnessTips.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a wooden sauna interior with a Harvia sauna heater. The post emphasizes the benefits of sauna use, such as stress reduction, detoxification, and improved blood flow. The caption mentions prioritizing sauna sessions in 2025 at Fika Peak.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by the_fitduck, promoting a \"Glute Camp on Team Buildr.\" The post features a woman in workout attire performing a dumbbell lunge in a gym setting. The caption highlights the program's flexibility and potential gains for 2025, using the hashtag #YearOfThePeach.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person in a gym performing a half-kneeling banded face pull exercise. The post describes it as one of four movements to warm up the overhead position, specifically for exercises like the snatch and clean and jerk. Other gym equipment like kettlebells, barbells, and exercise bikes are visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person, likely the Instagram user \"the_fitduck,\" performing a deadlift with a barbell loaded with weights in what appears to be a competition or training environment. There is a screen in the background displaying data, possibly related to the lift.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in a gym, lifting a barbell. The post is promoting a \"Glute Camp\" at Capital Strength.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Sauna Benefits/Experiences:** Ask about their personal experiences with saunas and what benefits they've noticed. You could share your own experiences or ask for tips on getting the most out of sauna sessions.",
+          "2.  **Fika Peak:** Inquire about Fika Peak, showing interest in the location and what makes it a special place for sauna experiences. This could lead to a conversation about travel and wellness retreats.",
+          "1.  **Glute-focused workouts:** Inquire about the specific exercises included in the Glute Camp program or ask for tips on improving glute strength and development.",
+          "2.  **Team Buildr:** Ask about the Team Buildr platform and how it helps track progress and personalize workouts.",
+          "1. Overhead mobility exercises: You could ask about their experience with the other three exercises listed in the post, or share your own favorite overhead mobility drills."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Strength Training (especially barbell exercises and deadlifts)",
+            "Glute Development",
+            "Sauna and Wellness",
+            "Healthy Eating and Protein Intake",
+            "Overhead Mobility"
+          ],
+          "LIFESTYLE": "Likely a fitness enthusiast and/or coach involved in strength training, possibly competing or training others. Prioritizes wellness activities like sauna sessions. Potentially affiliated with Capital Strength and uses Team Buildr for programming.",
+          "CONVERSATION STARTERS": [
+            "What are your personal experiences with saunas and what benefits have you noticed?",
+            "What makes Fika Peak a special place for sauna experiences?",
+            "Can you tell me more about the specific exercises included in the Glute Camp program?",
+            "How does Team Buildr help track progress and personalize workouts?",
+            "What are the other three exercises you recommend for warming up the overhead position, besides the half-kneeling banded face pull?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Knowledgeable (shares fitness tips and exercise recommendations)",
+            "Driven (focused on strength goals and training)",
+            "Wellness-oriented (prioritizes sauna and healthy eating)",
+            "Community-focused (collaborates with Capital Strength and promotes Glute Camps)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Sauna Benefits/Experiences:** Ask about their personal experiences with saunas and what benefits they've noticed. You could share your own experiences or ask for tips on getting the most out of sauna sessions.",
+        "2.  **Fika Peak:** Inquire about Fika Peak, showing interest in the location and what makes it a special place for sauna experiences. This could lead to a conversation about travel and wellness retreats.",
+        "1.  **Glute-focused workouts:** Inquire about the specific exercises included in the Glute Camp program or ask for tips on improving glute strength and development.",
+        "2.  **Team Buildr:** Ask about the Team Buildr platform and how it helps track progress and personalize workouts.",
+        "1. Overhead mobility exercises: You could ask about their experience with the other three exercises listed in the post, or share your own favorite overhead mobility drills."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

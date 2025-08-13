@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T23:59:33.415555",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T23:59:13.943973",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of a \"Raw Vegan Irish Moss Corn Dawg\" on a brown decorative plate. The corn dog is topped with zig-zagged lines of yellow mustard and red ketchup. The plate sits on a wooden surface, likely outdoors, with blurred bottles of sauce in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a raw vegan taco, featuring a colorful array of toppings like tomatoes, red onions, avocado, and a white sauce. The user, enzyme.333, captioned the post \"Love these raw vegan tacos.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of what appears to be a raw vegan sandwich. The plate has writing in what appears to be Amharic. The caption mentions it's a raw vegan white bread recipe that can be made quickly, and promotes ebooks.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a multi-tiered \"cake\" made entirely of fresh fruit, including watermelon, strawberries, grapes, blueberries, and dragon fruit. The post caption says it was a fun cake to make and that they highly recommend it.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows enzyme.333 standing next to a woman (presumably @ying.yyz) on a balcony with a city skyline in the background. Enzyme.333 is holding a watermelon cake decorated with fruit. The caption mentions it was @ying.yyz's birthday and that enzyme.333 usually makes sprouted almond cake.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person, presumably enzyme.333, launching a kickflip on a snowboard at Strawberry Park. There are skis visible in the background, suggesting a ski resort environment.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan Cuisine: Ask about their favorite vegan recipes or restaurants.",
+          "2. Raw Food Diet: Inquire about their experience with the raw food diet and its benefits.",
+          "1.  **Vegan/Raw Food:** Inquire about their favorite vegan recipes or ingredients, or ask for tips on making raw vegan food.",
+          "2.  **Amharic Language/Ethiopian Culture:** Ask about the meaning of the writing on the plate or express interest in learning more about Ethiopian culture.",
+          "1.  **Baking/Cooking:** Ask about other fun or unique recipes they enjoy making. You could also ask for tips on making the fruit cake or about their general cooking/baking experience."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! That raw vegan corn dog in your latest post looked surprisingly delicious! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Raw Vegan Cuisine",
+            "Snowboarding",
+            "Creative Cooking/Baking (especially fruit-based)",
+            "Ebooks (presumably related to raw vegan recipes)",
+            "Ethiopian Culture (potentially, based on Amharic writing)"
+          ],
+          "LIFESTYLE": "Likely a health-conscious individual who enjoys creating and sharing raw vegan recipes. They are active, as evidenced by the snowboarding photo, and seem to enjoy celebrating special occasions with homemade, healthy desserts. They may be an author or seller of raw vegan recipe ebooks.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite ingredients to use in raw vegan cooking?",
+            "I noticed the Amharic writing on one of your plates. Can you tell me more about that?",
+            "Your fruit cake looks amazing! What's the most challenging part of making it?",
+            "I'm interested in trying a raw vegan diet. Do you have any tips for beginners?",
+            "Where is Strawberry Park? It looks like a great place to snowboard."
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Health-conscious",
+            "Active",
+            "Generous (making cakes for others)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan Cuisine: Ask about their favorite vegan recipes or restaurants.",
+        "2. Raw Food Diet: Inquire about their experience with the raw food diet and its benefits.",
+        "1.  **Vegan/Raw Food:** Inquire about their favorite vegan recipes or ingredients, or ask for tips on making raw vegan food.",
+        "2.  **Amharic Language/Ethiopian Culture:** Ask about the meaning of the writing on the plate or express interest in learning more about Ethiopian culture.",
+        "1.  **Baking/Cooking:** Ask about other fun or unique recipes they enjoy making. You could also ask for tips on making the fruit cake or about their general cooking/baking experience."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

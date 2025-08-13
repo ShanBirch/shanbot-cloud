@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T01:36:05.664337",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T01:35:48.221924",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a side profile shot of a man with dark hair and a black beanie, wearing a black bomber jacket. He is smiling slightly. The background shows a landscape with trees, some fog or low clouds, and what appears to be a light dusting of snow. A car is partially visible in the foreground.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person standing in a field with a tree in the background. The sky is a mix of blue and sunset colors. The person is wearing jeans, sneakers, and a jacket.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a young man, presumably barcochavy, standing outdoors next to a large bush or tree. He's wearing a white shirt, jeans, and white sneakers. The location appears to be in Rehovot, Israel, based on the location tag.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a man with dark curly hair and a mustache. The location is tagged as Florentin, Tel Aviv.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A man is holding a dog in front of a scenic view of a waterfall and mountains.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person, likely the account owner, standing in front of a beach scene with a clear sky and some clouds. There are people swimming and relaxing on the beach.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Travel/Location:** \"That looks like a really peaceful spot. Where was this photo taken?\"",
+          "2.  **Photography:** \"The lighting in this photo is great! Did you take it yourself, or did someone else?\"",
+          "1.  **Travel/Location:** \"I saw you're in Rehovot. Have you always lived there, or are you visiting? Any recommendations for things to see/do?\"",
+          "2.  **Fashion/Style:** \"I like your style! Where do you usually shop for clothes?\"",
+          "1.  **Travel/Living in Tel Aviv:** \"I noticed you're in Florentin, Tel Aviv. Have you lived there long? What are your favorite things about the neighborhood?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post looked like a lovely day out in nature. 🌲",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: barcochavy)",
+          "INTERESTS": [
+            "Travel (especially nature and scenic locations)",
+            "Photography (or appreciation of good photography)",
+            "Fashion/Style",
+            "Dogs/Animals",
+            "Exploring different cities and neighborhoods (Tel Aviv, Rehovot)"
+          ],
+          "LIFESTYLE": "Appears to enjoy outdoor activities and travel. Likely lives in or frequently visits Tel Aviv and Rehovot, Israel. Seems to appreciate nature and urban environments. Possibly a student or young professional based on the locations and style.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite hidden gems in Tel Aviv or Rehovot?",
+            "Do you have any photography tips for capturing landscapes?",
+            "Where is the most beautiful place you've ever traveled to?",
+            "Tell me about your dog! What's their name and personality?",
+            "I love your style! Where do you usually find your clothes?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous (willing to explore new places)",
+            "Stylish (conscious of fashion and appearance)",
+            "Appreciative of beauty (in nature and urban environments)",
+            "Sociable (engages with followers and shares personal experiences)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Travel/Location:** \"That looks like a really peaceful spot. Where was this photo taken?\"",
+        "2.  **Photography:** \"The lighting in this photo is great! Did you take it yourself, or did someone else?\"",
+        "1.  **Travel/Location:** \"I saw you're in Rehovot. Have you always lived there, or are you visiting? Any recommendations for things to see/do?\"",
+        "2.  **Fashion/Style:** \"I like your style! Where do you usually shop for clothes?\"",
+        "1.  **Travel/Living in Tel Aviv:** \"I noticed you're in Florentin, Tel Aviv. Have you lived there long? What are your favorite things about the neighborhood?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

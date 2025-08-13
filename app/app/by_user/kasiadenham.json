@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T15:34:57.550378",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T15:34:39.566831",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a bowl of what appears to be a creamy, white soup or porridge. Chunks of fruit, possibly apples or pears, are scattered throughout the bowl. The bowl has a rustic, earthy look with a brown and blue rim. The overall impression is of a healthy, plant-based dish.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a dog wearing a red and black plaid coat, resting on a soft, furry bed. The caption expresses gratitude for friends, family, and connections made during a challenging year.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a dog lying in a dog bed. There's also a decorative tree with ornaments and a frosted glass door or window. The post itself is a reflective message about loss and hope for the future.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by kasiadenham features a text overlay on an image that reads \"find a new life simply by changing.\" The caption states \"daily desire: be a better person than the day before. it's that simple. #mantra\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a Chihuahua-Terrier dog sleeping on what appears to be a person's lap, covered with a floral patterned blanket.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of pasta salad with shell pasta, pesto, and roasted tomatoes. The caption indicates it's a vegan Christmas pasta salad.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Dog breeds and pet ownership: Comment on the dog's breed or ask about their pet's personality and quirks.",
+          "2. Gratitude and positivity: Acknowledge their expression of gratitude and share something you are grateful for.",
+          "1.  **The Dog:** \"Your dog is adorable! What breed is it?\" or \"What's your dog's name? They look so comfy.\"",
+          "2.  **The Decorative Tree:** \"I love your decorative tree! Where did you get it?\" or \"Your tree is so cute! What's your favorite ornament?\"",
+          "1.  **Personal Growth/Mantras:** Discussing the concept of personal growth, sharing personal mantras, or asking about the specific changes they are working on."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Kasia Denham (based on username)",
+          "INTERESTS": [
+            "Dogs (especially Chihuahuas/Terriers)",
+            "Vegan/Plant-Based Food",
+            "Personal Growth and Self-Improvement",
+            "Gratitude and Positivity",
+            "Home Decor (rustic/cozy aesthetic)"
+          ],
+          "LIFESTYLE": "Likely lives a mindful and compassionate lifestyle focused on personal well-being, animal companionship, and plant-based eating. Appears to value home and creating a cozy, comforting environment. Possibly works from home or has a flexible schedule that allows for spending time with her dog.",
+          "CONVERSATION STARTERS": [
+            "What's your dog's name and what's their personality like?",
+            "That pasta salad looks delicious! Do you have any other favorite vegan recipes?",
+            "I really admire your focus on personal growth. What's one small change you've made recently that's had a positive impact?",
+            "Your home decor is so cozy! Where do you find inspiration for your style?",
+            "What are you grateful for today?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Compassionate",
+            "Reflective",
+            "Positive",
+            "Mindful"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Dog breeds and pet ownership: Comment on the dog's breed or ask about their pet's personality and quirks.",
+        "2. Gratitude and positivity: Acknowledge their expression of gratitude and share something you are grateful for.",
+        "1.  **The Dog:** \"Your dog is adorable! What breed is it?\" or \"What's your dog's name? They look so comfy.\"",
+        "2.  **The Decorative Tree:** \"I love your decorative tree! Where did you get it?\" or \"Your tree is so cute! What's your favorite ornament?\"",
+        "1.  **Personal Growth/Mantras:** Discussing the concept of personal growth, sharing personal mantras, or asking about the specific changes they are working on."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

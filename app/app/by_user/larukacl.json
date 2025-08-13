@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T21:47:18.608475",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T21:46:54.851938",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image showcases a wooden box filled with a variety of food items, including a bottle of Sibaris Cabernet Sauvignon wine, various cheeses, crackers, meats, olives, celery sticks, cherry tomatoes, pickles, and dips in clear plastic containers. The arrangement looks appetizing and well-organized.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an advertisement for \"Nueces\" (nuts) at $8,500 per kilo. It features almonds, pumpkin seeds, chia seeds, and wheat stalks arranged on a wooden surface. The post also includes hashtags related to veganism, healthy eating, and staying at home.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up shot of dried mango pieces mixed with coconut flakes and other dried fruits. The caption asks \"Quien mas es fanático o fanática del mango?\" which translates to \"Who else is a mango fanatic?\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person holding a bag of mixed nuts and seeds from the brand \"Ruka\" (@laruka.cl). The bag has a black ribbon and a sticker that says \"Mercadito consciente\" (conscious market). The person has brightly colored nails.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows several clear bags filled with various mixes of nuts, seeds, dried fruit, and candies. They are tied with ribbons and appear to be for sale. The text says \"Las mezclas más ricas y saludables!\" which translates to \"The richest and healthiest mixes!\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by laruka.cl advertising that they are now offering wholesale prices. The image features bowls of almonds, chia seeds, and pumpkin seeds on a wooden surface, along with some wheat. The text overlay reads \"Ahora también somos mayoristas!\" (Now we are also wholesalers!).",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Healthy eating/Veganism:** Given the hashtags and the focus on nuts and seeds, discussing healthy recipes, vegan alternatives, or the benefits of including nuts and seeds in one's diet could be engaging.",
+          "2.  **Chilean culture/language:** The post is in Spanish and references a Chilean currency. Asking about local Chilean cuisine, customs, or language learning could be a good conversation starter.",
+          "1.  **Mango Preferences:** Ask about their favorite way to eat mango (fresh, dried, in smoothies, etc.) or their favorite variety of mango.",
+          "2.  **Dried Fruit Combinations:** Ask if they have other favorite combinations of dried fruit and nuts, or what they think would pair well with mango.",
+          "1.  **Healthy eating/Veganism:** The post uses hashtags like #frutossecos, #vegan, #semillas, and #saludable, indicating an interest in healthy and plant-based foods. You could ask about their favorite ways to incorporate these ingredients into their diet or share a recipe."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The assortment of snacks looked so delicious! 🤤",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: laruka.cl)",
+          "INTERESTS": [
+            "Healthy Eating",
+            "Nuts, Seeds, and Dried Fruits",
+            "Vegan/Plant-Based Lifestyle",
+            "Gourmet Food and Wine (potentially)",
+            "Conscious Consumption/Sustainable Products"
+          ],
+          "LIFESTYLE": "Likely a small business owner or entrepreneur in the food industry, possibly focused on healthy and natural products. They may also cater to events or offer curated gift boxes. They are likely based in Chile, given the currency and language used.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite ways to incorporate nuts and seeds into your daily diet?",
+            "I noticed you offer a variety of nut and seed mixes. What's your personal favorite combination, and why?",
+            "What are some traditional Chilean snacks or dishes that feature nuts or dried fruits?",
+            "I'm a big fan of dried mango too! What's your favorite way to enjoy it?",
+            "I see you're now offering wholesale prices. What kind of businesses are you hoping to partner with?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-Conscious",
+            "Entrepreneurial",
+            "Creative (in food presentation and product development)",
+            "Detail-Oriented (evident in the careful arrangement of products)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Healthy eating/Veganism:** Given the hashtags and the focus on nuts and seeds, discussing healthy recipes, vegan alternatives, or the benefits of including nuts and seeds in one's diet could be engaging.",
+        "2.  **Chilean culture/language:** The post is in Spanish and references a Chilean currency. Asking about local Chilean cuisine, customs, or language learning could be a good conversation starter.",
+        "1.  **Mango Preferences:** Ask about their favorite way to eat mango (fresh, dried, in smoothies, etc.) or their favorite variety of mango.",
+        "2.  **Dried Fruit Combinations:** Ask if they have other favorite combinations of dried fruit and nuts, or what they think would pair well with mango.",
+        "1.  **Healthy eating/Veganism:** The post uses hashtags like #frutossecos, #vegan, #semillas, and #saludable, indicating an interest in healthy and plant-based foods. You could ask about their favorite ways to incorporate these ingredients into their diet or share a recipe."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

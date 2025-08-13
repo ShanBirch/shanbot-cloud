@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T22:30:40.492268",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T22:30:23.319184",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a large group of children, seemingly in India, all smiling and looking at the camera. They are huddled together, creating a sense of unity and joy. The lighting is warm, suggesting it was taken outdoors in natural light. The children are wearing a variety of colorful clothing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from pennyformany1 promoting a fundraiser to end hunger. It features a black and white photo of children, with a red banner stating \"END HUNGER\" and the message \"No one should sleep hungry.\" The post includes a link to donate via PayPal and hashtags like #endhunger, #charity, and #fundraiser.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by pennyformany1, featuring a black and white photo of a child with the text \"IT BEGINS WITH ONE GOOD DEED. Thousands of people die from hunger everyday.\" The post is a call to action to donate and help fight hunger in India.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from pennyformany1 featuring a photo of a child in what appears to be a developing country, with the text \"How many stomachs are you feeding today?\" The post encourages donations to penny-for-many.org and includes a quote by Mother Teresa about feeding at least one person.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post advertising a virtual cocktail contest. It features a visually appealing cocktail with mint and ice.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by pennyformany1 announcing a partnership with Glowtide, an organization focused on society development and countering hunger.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Charity and Fundraising: Discuss their involvement in the charity, the specific goals of the fundraiser, or other charitable causes they support.",
+          "2.  Global Issues: Talk about the issue of world hunger and potential solutions, or other global issues they are passionate about.",
+          "1.  Charity and Philanthropy: Discussing their motivations for supporting this particular cause, or other charitable efforts they are involved in.",
+          "2.  Global Issues: Engaging in a conversation about the issue of hunger in India or globally, and potential solutions.",
+          "1. Philanthropy/Charity: Discussing the importance of charitable giving and asking about the specific causes they are passionate about supporting."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post, the kids looked so happy and full of life! 😊",
+        "profile_bio": {
+          "PERSON NAME": "Pennyformany1 (Likely a username, full name Unknown)",
+          "INTERESTS": [
+            "Charity and Philanthropy (Specifically ending hunger)",
+            "Global Issues (Focus on hunger in India and developing countries)",
+            "Fundraising",
+            "Society Development",
+            "Cocktail Making/Enjoying (Potentially a hobby or side interest)"
+          ],
+          "LIFESTYLE": "Likely an individual deeply involved in charitable work, particularly focused on alleviating hunger. They actively use social media to raise awareness and funds for their cause. They may also have an interest in mixology or enjoy making cocktails as a hobby, or perhaps it is used as a fundraising tool.",
+          "CONVERSATION STARTERS": [
+            "What inspired you to focus on ending hunger in India?",
+            "Can you tell me more about your partnership with Glowtide and how it's helping to combat hunger?",
+            "What are some of the biggest challenges you face in your fundraising efforts, and how do you overcome them?",
+            "What are some effective ways individuals can contribute to solving the global hunger crisis, even with limited resources?",
+            "That cocktail you posted looked amazing! What's your favorite cocktail to make or drink?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Compassionate",
+            "Driven/Dedicated",
+            "Empathetic",
+            "Proactive"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Charity and Fundraising: Discuss their involvement in the charity, the specific goals of the fundraiser, or other charitable causes they support.",
+        "2.  Global Issues: Talk about the issue of world hunger and potential solutions, or other global issues they are passionate about.",
+        "1.  Charity and Philanthropy: Discussing their motivations for supporting this particular cause, or other charitable efforts they are involved in.",
+        "2.  Global Issues: Engaging in a conversation about the issue of hunger in India or globally, and potential solutions.",
+        "1. Philanthropy/Charity: Discussing the importance of charitable giving and asking about the specific causes they are passionate about supporting."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

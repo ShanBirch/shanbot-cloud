@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T11:15:27.566975",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T11:15:08.722594",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a flat lay on a wooden surface featuring a variety of vegan food products. Brands like Magnum Vegan ice cream, Clive's pies, Plant Kitchen meals, Allplants bowls, and White Rabbit focaccia are visible. The products are arranged in a visually appealing manner, showcasing different types of vegan convenience foods.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a three-tiered tray of vegan afternoon tea treats at Wentworth Woodhouse. There are sandwiches, scones, cakes, and other delicacies, along with tea cups and a pink drink. There are bookshelves and a window in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by \"counselling_for_vegans\" advertising bookmarks with affirmations like \"Permission to be me,\" \"Permission to belong,\" \"Permission to be free,\" and \"Permission to feel my emotions.\" The post is targeted towards vegans who love to read.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a colorful and healthy-looking vegan meal in a bowl. It appears to be a salad or stir-fry with various vegetables like broccoli, carrots, cabbage, and edamame, along with quinoa or a similar grain. The post mentions it's from @planthooduk.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is of a colorful vegan Buddha bowl, featuring tofu, rice, radishes, avocado, and a peanut dressing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two slices of avocado toast topped with diced tomatoes and what appears to be red pepper flakes. A cup of coffee is also visible in the background. The post is by an account called \"counselling_for_vegans\" and includes hashtags related to veganism, vegan therapists, and vegan business owners.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Wentworth Woodhouse: \"Have you been to Wentworth Woodhouse before? I've heard it's beautiful. What was your favorite part of the visit?\"",
+          "2. Vegan Baking/Afternoon Tea: \"That vegan afternoon tea looks amazing! Do you have any favorite vegan baking recipes you'd be willing to share?\"",
+          "1.  **Veganism and Reading:** Ask about their favorite vegan-related books or authors.",
+          "2.  **Affirmations and Self-Care:** Inquire about their personal experience with affirmations or self-care practices, and how they relate to their vegan lifestyle.",
+          "1. **Vegan Food & Recipes:** \"That dish looks amazing! Have you tried any other recipes from Planthooduk? I'm always looking for new vegan meal ideas.\""
+        ],
+        "profile_bio": {
+          "PERSON_NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism",
+            "Mental Wellbeing & Self-Care (especially for vegans)",
+            "Reading & Affirmations",
+            "Vegan Food (especially convenience foods, afternoon tea, and healthy bowls)",
+            "Travel & Historical Sites (e.g., Wentworth Woodhouse)"
+          ],
+          "LIFESTYLE": "Likely a vegan therapist or counsellor who enjoys exploring vegan food options, promoting self-care through affirmations and reading, and occasionally visiting historical sites. They seem to be a vegan business owner.",
+          "CONVERSATION_STARTERS": [
+            "What are some of your favorite vegan-related books or authors?",
+            "Have you found affirmations helpful in navigating the challenges of a vegan lifestyle? If so, which ones resonate most with you?",
+            "That vegan afternoon tea looked incredible! Do you have any go-to vegan baking recipes you'd be willing to share?",
+            "I noticed you featured a meal from Planthooduk. Have you tried any other recipes from them, or do you have any other favorite vegan meal delivery services?",
+            "Have you been to Wentworth Woodhouse before? What was your favorite part of the visit?"
+          ],
+          "PERSONALITY_TRAITS": [
+            "Compassionate",
+            "Mindful",
+            "Appreciative of beauty (food presentation, historical sites)",
+            "Supportive (promoting self-care and mental wellbeing)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Wentworth Woodhouse: \"Have you been to Wentworth Woodhouse before? I've heard it's beautiful. What was your favorite part of the visit?\"",
+        "2. Vegan Baking/Afternoon Tea: \"That vegan afternoon tea looks amazing! Do you have any favorite vegan baking recipes you'd be willing to share?\"",
+        "1.  **Veganism and Reading:** Ask about their favorite vegan-related books or authors.",
+        "2.  **Affirmations and Self-Care:** Inquire about their personal experience with affirmations or self-care practices, and how they relate to their vegan lifestyle.",
+        "1. **Vegan Food & Recipes:** \"That dish looks amazing! Have you tried any other recipes from Planthooduk? I'm always looking for new vegan meal ideas.\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

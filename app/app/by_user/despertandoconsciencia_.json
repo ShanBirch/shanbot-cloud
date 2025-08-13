@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T16:16:13.637082",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T16:15:56.282098",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post is a carousel with text overlay on a blurred background. The first slide of the carousel features text that reads: \"You eat clean. You move your body. You take your supplements. You do your best. But... you still feel tired. Your skin doesn't glow like it used to. Your focus is foggy. Your energy crashes. What if the issue isn't what you're doing... but what you're overlooking?\" The slide also has a \"SWIPE\" button. The post is by hindafife and is captioned \"Is there a missing link in your wellness journey?\" The caption goes on to list topics related to wellness, such as inflammation, dehydration, and the impact of toxins.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two women. The woman in the foreground is wearing a zebra-striped top and a large necklace. The woman in the background is standing behind her, smiling. The post is from a makeup artist who enjoys seeing her clients' reactions to their transformations.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by \"despertando.consciencia_\". The post describes a live video session she did with a friend named Yurimar from @vivalaterapia. She mentions it was her first live video and encourages viewers to visit Yurimar's account to watch it.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a young woman in a graduation gown and cap, holding a diploma. She is standing in front of a building with a unique arched doorway.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a family of three posing in front of a Christmas tree. They are all wearing matching Christmas pajamas. The caption mentions that December is their favorite month and that they traditionally gather with family and friends to celebrate Christmas.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows several jars and bottles filled with green juice, along with a pineapple and a plant. The caption mentions drinking green juices for 6 days, practicing yoga, and feeling energetic.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Makeup techniques/tips: Ask about specific makeup techniques used in the transformation or general makeup tips.",
+          "2.  Client transformations: Inquire about other memorable or favorite client transformations the makeup artist has done.",
+          "*   **Live video experiences:** Ask about her experience doing her first live video, what she learned, and if she plans to do more in the future.",
+          "*   **Collaboration with @vivalaterapia:** Inquire about her friendship and working relationship with Yurimar from @vivalaterapia, and what topics they usually discuss together.",
+          "1.  Congratulations on graduating! What are your plans now that you've finished your studies?"
+        ],
+        "generated_comment": "Hey! I was just having a little stalk of your profile. Your latest post was really thought-provoking! 🤔",
+        "profile_bio": {
+          "PERSON NAME": "Hinda Fife (Based on the wellness post caption)",
+          "INTERESTS": [
+            "Wellness and Holistic Health (Focus on underlying causes of fatigue and skin issues)",
+            "Makeup and Beauty Transformations",
+            "Family and Holiday Traditions (Christmas)",
+            "Green Juices and Healthy Eating",
+            "Yoga and Physical Activity"
+          ],
+          "LIFESTYLE": "Likely a wellness enthusiast and makeup artist. Seems to prioritize family, healthy living, and personal growth. Possibly recently graduated or has a connection to someone who did. Active on social media, engaging in collaborations and live videos.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about the missing link in wellness. What are some of the most common overlooked factors you've found?",
+            "Your client transformations are amazing! What's been one of your most memorable or rewarding transformations?",
+            "I noticed you did a live video with Yurimar from @vivalaterapia. How did you find the experience, and what did you learn from it?",
+            "What are some of your favorite green juice recipes? I'm trying to incorporate more into my diet.",
+            "What are some of your favorite yoga poses or routines for boosting energy?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Family-oriented",
+            "Collaborative",
+            "Enthusiastic and Positive"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Makeup techniques/tips: Ask about specific makeup techniques used in the transformation or general makeup tips.",
+        "2.  Client transformations: Inquire about other memorable or favorite client transformations the makeup artist has done.",
+        "*   **Live video experiences:** Ask about her experience doing her first live video, what she learned, and if she plans to do more in the future.",
+        "*   **Collaboration with @vivalaterapia:** Inquire about her friendship and working relationship with Yurimar from @vivalaterapia, and what topics they usually discuss together.",
+        "1.  Congratulations on graduating! What are your plans now that you've finished your studies?"
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

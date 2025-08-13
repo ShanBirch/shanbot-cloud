@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T22:20:14.464038",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T22:19:56.737825",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by larkbykotch and myrtawk features a video of a person doing a pilates exercise on a reformer machine. The person is upside down, with their legs in the air. Text overlay reads \"If you like it then you should put a RING on it - Happy Valentine's Day\". The post is promoting gift cards for the Lark experience.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by myrtawk features a video showcasing the interior of a studio called \"Lark,\" likely located in Brummana. The video focuses on a green door, and the hashtags suggest the studio offers reformer Pilates, yoga, massage, mindful movement for kids, core, and sculpt classes.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of people in a fitness studio, likely participating in a core workout class. The studio has a bright, airy feel with hardwood floors and large windows. The post promotes the class, mentioning \"Sculpt 'n tone\" and \"Core 'n more\" sessions.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman and a child doing yoga in a bright, well-lit room. They are both on yoga mats, performing a balancing pose. The post is from larkbykotch, and myrtawk commented on it.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person skiing down a snowy slope on a sunny day.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a child's birthday celebration. The main subject is a young boy, presumably the birthday boy, making a playful face. There are other children in the background, suggesting a party setting. The caption mentions \"Celebrating YOU my son!\" and includes the hashtag #happybirthday.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **The Studio's Aesthetic:** Mentioning the green door and asking about the design choices or overall vibe of the studio could be a good conversation starter. \"I love the green door! It's such a unique touch. What was the inspiration behind the studio's design?\"",
+          "2.  **Specific Classes:** Asking about the classes offered, especially the mindful movement for kids, could be a good way to engage. \"The mindful movement for kids class sounds really interesting! What age group is it geared towards?\"",
+          "1.  **Fitness Classes/Core Workouts:** Ask about their experience with the \"Sculpt 'n tone\" or \"Core 'n more\" classes, or core workouts in general. You could ask what they enjoy most about these types of workouts or if they have any favorite exercises.",
+          "2.  **Pilates/Yoga/Reformer:** The hashtags mention Pilates, Yoga, and Reformer. You could ask if they prefer one over the others, or if they have any specific goals they're working towards with these practices.",
+          "1. Yoga: Ask about their experience with Hatha yoga or other types of yoga."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That reformer exercise looked intense! 💪",
+        "profile_bio": {
+          "PERSON NAME": "Myrtawk (Likely Myrta)",
+          "INTERESTS": [
+            "Pilates (especially Reformer Pilates)",
+            "Yoga (including mindful movement for kids)",
+            "Fitness and Core Workouts (Sculpt 'n Tone, Core 'n More)",
+            "Family (especially her son)",
+            "Outdoor Activities (Skiing)"
+          ],
+          "LIFESTYLE": "Likely a fitness enthusiast and mother. She seems to be involved with the Lark studio in Brummana, possibly as an instructor or owner. She enjoys an active lifestyle, balancing fitness with family life.",
+          "CONVERSATION STARTERS": [
+            "I noticed the green door at Lark in your video. It's such a unique touch! What was the inspiration behind the studio's design?",
+            "The mindful movement for kids class sounds really interesting! What age group is it geared towards?",
+            "I'm curious about the 'Sculpt 'n tone' and 'Core 'n more' classes. What do you enjoy most about those types of workouts?",
+            "Do you have a preference between Pilates, Yoga, or Reformer, or do you find they complement each other well?",
+            "What's your favorite ski destination?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Active",
+            "Family-oriented",
+            "Health-conscious",
+            "Creative (involved in the design or promotion of the studio)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **The Studio's Aesthetic:** Mentioning the green door and asking about the design choices or overall vibe of the studio could be a good conversation starter. \"I love the green door! It's such a unique touch. What was the inspiration behind the studio's design?\"",
+        "2.  **Specific Classes:** Asking about the classes offered, especially the mindful movement for kids, could be a good way to engage. \"The mindful movement for kids class sounds really interesting! What age group is it geared towards?\"",
+        "1.  **Fitness Classes/Core Workouts:** Ask about their experience with the \"Sculpt 'n tone\" or \"Core 'n more\" classes, or core workouts in general. You could ask what they enjoy most about these types of workouts or if they have any favorite exercises.",
+        "2.  **Pilates/Yoga/Reformer:** The hashtags mention Pilates, Yoga, and Reformer. You could ask if they prefer one over the others, or if they have any specific goals they're working towards with these practices.",
+        "1. Yoga: Ask about their experience with Hatha yoga or other types of yoga."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

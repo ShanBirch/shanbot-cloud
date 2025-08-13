@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T11:13:55.326865",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T11:13:33.859625",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by thecookscollectiveorg is an advertisement for a live discussion called \"Hospo Highlights\" focusing on mental health in the hospitality industry. The post features a black and white design with the title prominently displayed. Below the title is a description inviting viewers to join the live discussion on Friday, May 24th at 12pm BST. To the right are images of two guest speakers, Laurie Watkins of The Cook's Collective and Pawel Kukulka of People Person Recruitment, each with their name and affiliation listed below their photo. The post also includes hashtags such as #mentalhealthatwork, #mentalhealthstigma, and #wellbeing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by @thecookscollectiveorg features a news segment from 11Alive about the organization's work in promoting mental and emotional health in Atlanta restaurants. The post also promotes a fundraising dinner event.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows three women standing together. They appear to be at Capitol Hill advocating for USAID funding. The woman on the left has a lanyard with \"CARE\" on it, indicating her affiliation with the CARE organization. The post discusses advocating against USAID funding cuts and their impact on global poverty and food security.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by thecookscollectiveorg promoting World Mental Health Day. It features a green silhouette of a head filled with colorful flowers, symbolizing mental well-being and growth. The text \"World Mental Health Day\" and \"Oct 10\" are also prominently displayed.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a chef, presumably Nicholas Elmi, preparing food in a kitchen. He is wearing black gloves and appears to be working with green leafy ingredients. The post is a recap from @thecookscollectiveorg and mentions supporting their mission to empower workers in the food and beverage industry.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of chefs, including Matthew Cooper, preparing plates of food in a restaurant kitchen. They are part of The Cook's Collective, an organization that empowers workers in the food and beverage industry. The post thanks Conifer Restaurant in NW Arkansas for hosting the team.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. The importance of mental health and emotional wellness in the food service industry.",
+          "2. Upcoming fundraising dinner event and the work of @the_cooks_collective_org.",
+          "1.  **Food Security/Global Poverty:** Given the post's focus on advocating against USAID funding cuts and its impact on food security and global poverty, a relevant conversation could be about the importance of these programs and ways to support them.",
+          "2.  **Advocacy/Political Engagement:** The image shows the women at Capitol Hill, suggesting an interest in advocacy and political engagement. A conversation could explore their experiences advocating for specific causes or their views on the current political climate.",
+          "1.  **Mental Health Awareness:** Discussing the importance of mental health, sharing personal experiences (if appropriate), or asking about their thoughts on the post's message."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The discussion on mental health in the hospitality industry sounds really important. 🧠",
+        "profile_bio": {
+          "PERSON NAME": "Laurie Watkins (likely founder/leader of The Cook's Collective)",
+          "INTERESTS": [
+            "Mental Health & Wellbeing in the Hospitality Industry",
+            "Empowering Food & Beverage Workers",
+            "Food Security & Global Poverty Reduction",
+            "Advocacy & Political Engagement",
+            "Culinary Arts & the Restaurant Industry"
+          ],
+          "LIFESTYLE": "Likely a leader or founder of a non-profit organization (The Cook's Collective) focused on supporting food and beverage workers. Actively involved in advocacy, fundraising, and promoting mental health awareness within the culinary community. Travels to different restaurants and events to support the organization's mission.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about the 'Hospo Highlights' discussion on mental health. What are some of the biggest challenges you see facing hospitality workers in that area?",
+            "Your organization's work in Atlanta restaurants is inspiring. Can you tell me more about the upcoming fundraising dinner and how people can get involved?",
+            "I noticed your post about advocating against USAID funding cuts. What are some of the most effective ways individuals can support global food security initiatives?",
+            "What inspired you to start The Cook's Collective, and what are your long-term goals for the organization?",
+            "I saw the post thanking Conifer Restaurant in NW Arkansas. What are some of the ways you collaborate with restaurants to empower their workers?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate",
+            "Advocacy-driven",
+            "Empathetic",
+            "Community-focused"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. The importance of mental health and emotional wellness in the food service industry.",
+        "2. Upcoming fundraising dinner event and the work of @the_cooks_collective_org.",
+        "1.  **Food Security/Global Poverty:** Given the post's focus on advocating against USAID funding cuts and its impact on food security and global poverty, a relevant conversation could be about the importance of these programs and ways to support them.",
+        "2.  **Advocacy/Political Engagement:** The image shows the women at Capitol Hill, suggesting an interest in advocacy and political engagement. A conversation could explore their experiences advocating for specific causes or their views on the current political climate.",
+        "1.  **Mental Health Awareness:** Discussing the importance of mental health, sharing personal experiences (if appropriate), or asking about their thoughts on the post's message."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T01:09:20.069629",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T01:09:02.561063",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a group photo of four people standing on a gravel path lined with trees. Alexhastings_ is in the photo, along with his mother, father, and another man. The caption indicates it's his mother's birthday and they are in South Africa.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person sitting on a rocky outcrop at the top of Lion's Head in Cape Town, South Africa. The backdrop is a stunning view of Table Mountain, the city, and the ocean.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two young men posing with an elderly woman, presumably their grandmother (\"Gogo\" in the caption), indoors. The location is Durban, KwaZulu-Natal, according to the post's location tag.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of Alex Hastings and a friend on a golf course. Alex is wearing a Titleist hat and an Under Armour polo shirt. The friend is wearing a Nike hat and a yellow t-shirt. The caption suggests a playful rivalry about golfing skills.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person (presumably alexhastings__) standing at Boulders Beach Penguin Colony, looking at the penguins on the beach.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person walking down a street lined with brightly colored buildings in Bo-Kaap, Cape Town. The caption mentions it was a rainy day.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Hiking/Travel: \"That view from Lion's Head looks incredible! Have you done many other hikes in Cape Town, or was this your first time there?\"",
+          "2. Photography: \"Awesome photo! Did you take it yourself? The composition is great with Table Mountain in the background.\"",
+          "1.  **Family:** Comment on the importance of family or share a story about your own grandparents.",
+          "2.  **Travel/Durban:** Ask about Durban, KwaZulu-Natal, and what it's like to live there or if they have any recommendations for visiting.",
+          "1. Golf: Discussing the golf course, their favorite clubs, or recent games."
+        ],
+        "generated_comment": "Hey! Just had a look at your profile and saw your latest post. It looked like a great family day out! 🌳",
+        "profile_bio": {
+          "PERSON NAME": "Alex Hastings",
+          "INTERESTS": [
+            "Travel (especially South Africa)",
+            "Hiking",
+            "Golf",
+            "Photography",
+            "Family"
+          ],
+          "LIFESTYLE": "Appears to be an active individual who enjoys traveling, spending time with family, and playing golf. Likely lives in or frequently visits South Africa, particularly the Cape Town and Durban areas. Enjoys outdoor activities and capturing moments through photography.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite hiking trails in Cape Town besides Lion's Head?",
+            "I saw you were in Durban with your Gogo. What are some must-see places in KwaZulu-Natal?",
+            "That golf course looked amazing! What's your handicap, and what's your go-to club?",
+            "Your photos of South Africa are beautiful! What's your favorite thing about living there or visiting?",
+            "Family seems very important to you. What are some of your favorite family traditions?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Family-oriented",
+            "Active",
+            "Appreciative of beauty (nature, architecture)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Hiking/Travel: \"That view from Lion's Head looks incredible! Have you done many other hikes in Cape Town, or was this your first time there?\"",
+        "2. Photography: \"Awesome photo! Did you take it yourself? The composition is great with Table Mountain in the background.\"",
+        "1.  **Family:** Comment on the importance of family or share a story about your own grandparents.",
+        "2.  **Travel/Durban:** Ask about Durban, KwaZulu-Natal, and what it's like to live there or if they have any recommendations for visiting.",
+        "1. Golf: Discussing the golf course, their favorite clubs, or recent games."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

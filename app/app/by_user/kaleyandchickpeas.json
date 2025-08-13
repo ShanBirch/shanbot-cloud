@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T00:09:22.590999",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T00:09:00.896661",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a box of vegan carrot cupcakes. The cupcakes have white frosting, some decorated with orange frosting, star anise, or small pink flowers. A hand-drawn sign that says \"CARROT CAKE VEGAN\" is propped up next to the box.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a hand holding a plate of Vietnamese spring rolls with a peanut dipping sauce. The spring rolls are decorated with flowers and herbs. The caption mentions a picnic on Mt. Cootha and a goal of opening a cafe.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a collection of butterfly cupcakes, an African violet plant in a decorative elephant pot, and a whimsical flower pot person in the background. The post is dedicated to the poster's grandmother, who loved butterflies and African violets.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of vegetable biryani, garnished with a green sauce, a dollop of what appears to be yogurt, and cilantro. The post includes a recipe for vegetable biryani, mentioning ingredients like basmati rice, chickpeas, and various vegetables. The user also tagged @feastingathome, indicating they used their recipe.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of linguine pasta with kale, mushrooms, and sun-dried tomatoes. The post includes a detailed recipe.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a spread of vegan dips and chips, including nacho dipping cheese, black bean, jalapeño and coriander dip, garlic & paprika hummus, and vegan macadamia and almond fetta.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Cooking/Recipes:** Ask about other recipes they've tried from Minimalist Baker or other favorite sources for vegan/vegetarian recipes.",
+          "2. **Cafe Dreams:** Inquire about their cafe vision - what kind of food would they serve, what's the atmosphere they're aiming for, etc.",
+          "*   **Baking/Vegan Baking:** The post mentions a vegan butterfly cupcake recipe. You could ask about their experience with vegan baking or their favorite vegan recipes.",
+          "*   **Gardening/African Violets:** The African violet plant is prominently featured. You could ask about their gardening experience, their tips for growing African violets, or their favorite types of plants.",
+          "*   **Crafting/DIY:** The flower pot person in the background suggests an interest in crafting. You could ask about their crafting projects or DIY interests."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! Those carrot cupcakes looked so beautifully decorated 🥕",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Cooking & Baking",
+            "Gardening (especially African Violets)",
+            "Recipe Development & Sharing",
+            "Cafe Ownership Dreams",
+            "Crafting/DIY"
+          ],
+          "LIFESTYLE": "Likely enjoys cooking and baking at home, experimenting with vegan recipes. Appears to be passionate about food and sharing their creations. Enjoys outdoor activities like picnics. Aspires to open a cafe, suggesting an entrepreneurial spirit.",
+          "CONVERSATION STARTERS": [
+            "I saw your vegetable biryani post! Have you tried any other recipes from @feastingathome? I'm always looking for new vegan inspiration.",
+            "Your dream of opening a cafe sounds amazing! What kind of atmosphere are you envisioning for it?",
+            "Those butterfly cupcakes are so beautiful! What are some of your favorite vegan baking tips or recipes?",
+            "I love your African violet! Do you have any advice for keeping them happy and healthy?",
+            "That flower pot person in the background is so creative! What other crafting projects are you working on?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Passionate",
+            "Nurturing (evident in the dedication to their grandmother and care for plants)",
+            "Ambitious (due to the cafe aspirations)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Cooking/Recipes:** Ask about other recipes they've tried from Minimalist Baker or other favorite sources for vegan/vegetarian recipes.",
+        "2. **Cafe Dreams:** Inquire about their cafe vision - what kind of food would they serve, what's the atmosphere they're aiming for, etc.",
+        "*   **Baking/Vegan Baking:** The post mentions a vegan butterfly cupcake recipe. You could ask about their experience with vegan baking or their favorite vegan recipes.",
+        "*   **Gardening/African Violets:** The African violet plant is prominently featured. You could ask about their gardening experience, their tips for growing African violets, or their favorite types of plants.",
+        "*   **Crafting/DIY:** The flower pot person in the background suggests an interest in crafting. You could ask about their crafting projects or DIY interests."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

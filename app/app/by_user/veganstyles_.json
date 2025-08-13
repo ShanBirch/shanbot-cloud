@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T22:42:53.064288",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T22:42:32.801573",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post from veganstyles_. It features a woman in a yoga pose, sitting cross-legged with her hands in prayer position. She is wearing a matching avocado print sports bra and capri leggings. A white flower is tucked behind her ear. The background shows a lake with lily pads and trees, with a blue sky and clouds. A bright green square frames the woman. The website \"www.veganstyles.store\" is written across the bottom of the image.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a cartoon featuring a man training two dogs. The larger dog is advising the smaller dog to \"play dumb\" during training to get more treats. The post is from an Instagram account called \"veganstyles_\" and includes hashtags related to veganism and animal rights.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by veganstyles_ features a picture of a sleeping piglet with the text \"It's hard to believe that vegans have to explain why hurting animals is wrong...\" The post also includes hashtags related to veganism, animal rights, and vegan humor.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by veganstyles_. It features a woman wearing a green tank top with the words \"OPEN YOUR EYES GO VEGAN\" and an eye graphic on it. She is standing near a tree. The post promotes vegan apparel and sustainable cotton.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by veganstyles_. It features a meme-like image with the text \"WHEN YOU DRINK ONE GREEN SMOOTHIE AFTER A WEEKEND OF VEGAN PIZZA AND ICE CREAM\". The image shows Jay Leno in a meditative pose. The post also includes a variety of vegan-related hashtags.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from veganstyles_ with a quote \"Happiness is finding out there is a vegan option.\" It promotes veganism and links to their online store. The post also includes hashtags related to veganism, ethical fashion, and sustainability.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Vegan dog treats:** Given the focus on treats and the vegan theme of the account, asking about recommendations for vegan dog treats could be a good conversation starter.",
+          "2. **Dog training experiences:** Sharing personal experiences with dog training, especially funny or challenging moments, could be relatable and engaging.",
+          "1. Animal welfare and ethical treatment of animals: You could ask about their personal journey into veganism or their views on specific animal welfare issues.",
+          "2. Vegan humor and memes: You could comment on their use of humor to promote veganism and ask about other vegan meme accounts they enjoy.",
+          "1. Veganism: Discussing the benefits of a vegan lifestyle, favorite vegan recipes, or challenges and successes in maintaining a vegan diet."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The avocado print activewear looked so cute 💚",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism",
+            "Animal Rights/Welfare",
+            "Ethical and Sustainable Fashion",
+            "Yoga/Wellness",
+            "Humor/Memes (related to veganism)"
+          ],
+          "LIFESTYLE": "Likely a vegan lifestyle advocate who promotes veganism through apparel, humor, and lifestyle content. They seem to be interested in fitness and wellness, possibly practicing yoga. They may be involved in animal rights advocacy.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite brands for vegan dog treats?",
+            "Have you had any funny or challenging experiences while training your dogs?",
+            "What inspired you to adopt a vegan lifestyle?",
+            "Do you have any other favorite vegan meme accounts you follow?",
+            "What's your go-to vegan recipe when you're short on time?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate",
+            "Humorous",
+            "Advocacy-driven",
+            "Health-conscious"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Vegan dog treats:** Given the focus on treats and the vegan theme of the account, asking about recommendations for vegan dog treats could be a good conversation starter.",
+        "2. **Dog training experiences:** Sharing personal experiences with dog training, especially funny or challenging moments, could be relatable and engaging.",
+        "1. Animal welfare and ethical treatment of animals: You could ask about their personal journey into veganism or their views on specific animal welfare issues.",
+        "2. Vegan humor and memes: You could comment on their use of humor to promote veganism and ask about other vegan meme accounts they enjoy.",
+        "1. Veganism: Discussing the benefits of a vegan lifestyle, favorite vegan recipes, or challenges and successes in maintaining a vegan diet."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

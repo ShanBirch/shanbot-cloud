@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T08:12:35.965723",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T08:12:15.621590",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by thedallesartcenter shows a carousel of images depicting the \"inspo\" vision board for the redecoration of TDAC's \"Alternative Space.\" The images include a cozy seating area with a record player and red floral pillows, a dark, vintage-style bar with liquor bottles and bar stools, and a lounge area with a large sectional sofa, patterned pillows, a patterned rug, and framed artwork on the wall.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post introduces Dawn Marie, the Board Secretary at The Dalles Art Center. It highlights that she coached the first youth team from The Dalles to compete in a World Series. The post also asks for shout-outs for anyone who was part of The Dalles Girls Softball-Babe Ruth 14u Allstar team.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by thedallesartcenter promotes a Masterclass on storytelling with Michael Lewis and announces a 3-part class by Nancy Turner on telling your story in a captivating way through art.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from thedallesartcenter featuring a framed watercolor painting of a building, likely a church or community building, with a tree in the foreground. The post asks followers to guess the local home depicted in the painting and mentions the price of $50.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post is a call for bilingual community volunteers for The Dalles Art Center (TDAC). The image features the words \"CALL FOR BILINGUAL COMMUNITY VOLUNTEERS\" prominently, along with the phrases \"Hola/Hello\" and \"Art is for everyone.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post is an introduction to \"Meet Ed,\" the Treasurer of The Dalles Art Center. It mentions a surprising fact: Ed once had breakfast with an orangutan as a child.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Youth Sports/Coaching:** Ask about her experience coaching the youth team, the challenges she faced, or any memorable moments from the World Series competition.",
+          "2.  **The Dalles Art Center:** Inquire about her role as Board Secretary, her favorite aspects of working at the art center, or upcoming events/programs.",
+          "1.  Storytelling: Discuss favorite storytelling techniques or examples of captivating stories.",
+          "2.  Art Classes: Inquire about the specific art forms that will be explored in Nancy Turner's class or share personal experiences with art classes.",
+          "1. **Local Landmarks/History:** Discuss the history of the building depicted in the painting and other local landmarks in The Dalles area."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Dawn Marie & Ed (Board Members)",
+          "INTERESTS": [
+            "Art and Art Education",
+            "Community Engagement and Volunteering",
+            "Storytelling (Visual and Narrative)",
+            "Local History and Landmarks (The Dalles)",
+            "Youth Sports/Coaching"
+          ],
+          "LIFESTYLE": "Likely involved in the local arts community of The Dalles, Oregon. Dawn Marie is a former youth sports coach and currently serves as Board Secretary at The Dalles Art Center. Ed is the Treasurer of the Art Center. They are both active in promoting art and community involvement.",
+          "CONVERSATION STARTERS": [
+            "Dawn Marie, I saw you coached the first youth team from The Dalles to compete in a World Series! What was that experience like?",
+            "I'm curious about the redecoration of the Alternative Space at TDAC. What's the vision behind the cozy, vintage-inspired design?",
+            "The storytelling masterclass with Michael Lewis sounds fascinating. What are some of your favorite storytelling techniques or examples of captivating stories?",
+            "That watercolor painting of the local building is beautiful! Do you know the history of that building, and what are some other local landmarks you appreciate in The Dalles?",
+            "Ed, I heard you had breakfast with an orangutan as a child! That's an amazing story, how did that happen?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Community-oriented",
+            "Creative",
+            "Engaging",
+            "Supportive"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Youth Sports/Coaching:** Ask about her experience coaching the youth team, the challenges she faced, or any memorable moments from the World Series competition.",
+        "2.  **The Dalles Art Center:** Inquire about her role as Board Secretary, her favorite aspects of working at the art center, or upcoming events/programs.",
+        "1.  Storytelling: Discuss favorite storytelling techniques or examples of captivating stories.",
+        "2.  Art Classes: Inquire about the specific art forms that will be explored in Nancy Turner's class or share personal experiences with art classes.",
+        "1. **Local Landmarks/History:** Discuss the history of the building depicted in the painting and other local landmarks in The Dalles area."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

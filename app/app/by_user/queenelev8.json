@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T16:40:26.833069",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T16:40:09.140395",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by queenelev888 featuring a video. In the video, two women are standing outside. One woman is wearing a denim dress and the other is wearing a white dress with a slit. A caption above the woman in the white dress says, \"This is mine.\" The post is captioned \"Coffee Outfit\" and has received 134 likes.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person holding a CBD balm called \"Magick Balm\" in front of a background that looks like a stadium or sporting event. The caption mentions it's a \"life saver\" after a long day of playing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two people lying on a rug. One person is smoking a joint, and the other is laughing. There are also playing cards, a small potted plant, and what appear to be containers of cannabis products surrounding them.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (queenelev8) posing outdoors on what appears to be a coastal walkway or pier. There's a clear blue sky and ocean in the background. She is wearing a pink top, jeans, and a hat.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman with red hair and glasses sitting at a desk, presumably working on a laptop. The text overlay says \"When you're an accountant but need 🌿 to focus.\" The hashtags include #accountingjokes, #accountantlife, #corporatejokes, and #jokes.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by queenelev8. The post is a video where she asks \"Do you smkë everyday?\" (with a cannabis emoji). The comments on the post suggest that it is about cannabis use.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Sports/Activities:** Inquiring about what sport or activity they were participating in that day, since the image is taken at a stadium.",
+          "2.  **CBD/Wellness:** Asking about their experience with the CBD balm and its benefits for muscle and joint pain relief.",
+          "1.  **Chicago:** The post is tagged with \"Chicago, Illinois,\" so you could ask about their favorite spots in the city or if they have any recommendations for places to visit.",
+          "2.  **The Plant:** There is a small potted plant in the image, so you could ask about their interest in plants or gardening.",
+          "1. Travel/Location: \"That looks like a beautiful spot! Where was this photo taken?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You and your friend looked great in your outfits! ✨",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Cannabis/CBD & Wellness",
+            "Fashion (specifically casual/street style)",
+            "Accounting/Finance (potentially)",
+            "Outdoor Activities/Travel",
+            "Plants/Gardening (potentially)"
+          ],
+          "LIFESTYLE": "Appears to be a working professional (possibly an accountant) who enjoys cannabis/CBD for relaxation and focus. Enjoys spending time outdoors, potentially engaging in sports or other physical activities. Has a casual and stylish fashion sense. Likely lives in or near Chicago.",
+          "CONVERSATION STARTERS": [
+            "I saw you posted about Magick Balm. How has it helped you with muscle or joint pain relief?",
+            "That photo on the coastal walkway is stunning! Where was it taken?",
+            "I noticed you're tagged in Chicago. Do you have any favorite spots or recommendations for visitors?",
+            "I saw you had a small potted plant in one of your posts. Are you into gardening?",
+            "What sport or activity were you participating in that day that you needed the Magick Balm?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Humorous (evident from the accounting jokes)",
+            "Relaxed/Laid-back (cannabis use suggests a relaxed attitude)",
+            "Stylish (demonstrated by the 'Coffee Outfit' post)",
+            "Open/Expressive (willing to share personal interests and experiences)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Sports/Activities:** Inquiring about what sport or activity they were participating in that day, since the image is taken at a stadium.",
+        "2.  **CBD/Wellness:** Asking about their experience with the CBD balm and its benefits for muscle and joint pain relief.",
+        "1.  **Chicago:** The post is tagged with \"Chicago, Illinois,\" so you could ask about their favorite spots in the city or if they have any recommendations for places to visit.",
+        "2.  **The Plant:** There is a small potted plant in the image, so you could ask about their interest in plants or gardening.",
+        "1. Travel/Location: \"That looks like a beautiful spot! Where was this photo taken?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

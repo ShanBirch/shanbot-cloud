@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T11:17:51.396459",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T11:17:30.362818",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by plantbasedrich features a video of a man speaking directly to the camera. He's standing outside in front of a house, wearing a grey t-shirt. Text overlayed on the video says \"Let me take you to place I know you wanna go...\" The post's caption discusses transforming your lifestyle through nutrition and offers a 30-day program. It lists the benefits of the program and encourages viewers to drop a thumbs-up emoji in the comments for a discount.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man holding a large bowl of cubed watermelon. He is smiling and wearing an Adidas hat. The post discusses a raw food cleanse, focusing on fruits, vegetables, and superfoods.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of grapefruit, oranges, and strawberries on a floral background. The caption discusses the poster's love for grapefruit and their commitment to eating more raw foods.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vintage RV that the poster is excited to call home. The caption details their journey to acquiring the RV, including selling belongings and their car. They mention moving to California to help regenerate land on a friend's property.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a box filled with shiitake mushrooms. The post describes how the user received them as a gift and is experimenting with different ways to cook them, including making shiitake \"bacon\" and adding them to tofu scrambles and Buddha bowls.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two homemade quinoa and chia tortillas filled with thinly sliced vegetables (radishes, cabbage, spinach, carrots, yellow pepper) and homemade seitan. The post mentions using a peeler to thinly slice the peppers and carrots, and adding buffalo sauce and aquafaba mayo to the vegetables.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Raw Food Diet/Cleanse:** Ask about his experience with the raw food cleanse, specific recipes he enjoys, or challenges he faces.",
+          "2.  **Van Life/RV Life:** The hashtags #vanlife and #rvlife suggest he lives or travels in a van or RV. Inquire about his travels, favorite locations, or tips for living on the road.",
+          "1.  **30-day reset:** Ask about the details of the 30-day reset they are starting. What are the main goals and what does the plan involve?",
+          "2.  **Raw food:** Inquire about favorite raw food recipes or tips for incorporating more raw foods into a diet.",
+          "1. RV life/renovation: Ask about their plans for the RV, any renovations they're considering, or tips they have for living in an RV."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You looked really enthusiastic in the video, I hope you had a great day! 👍",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Plant-Based Nutrition",
+            "Raw Food Diet",
+            "RV/Van Life",
+            "Sustainable Living/Land Regeneration",
+            "Creative Cooking (especially with mushrooms and plant-based ingredients)"
+          ],
+          "LIFESTYLE": "Promotes a plant-based lifestyle through a 30-day reset program. Currently living or transitioning to living in a vintage RV, with plans to move to California to help regenerate land. Enjoys experimenting with raw food recipes and creating innovative plant-based meals.",
+          "CONVERSATION STARTERS": [
+            "I saw you're doing a 30-day reset. What are the main goals of the program and what does it involve?",
+            "Your RV looks amazing! What are your plans for it, and do you have any tips for someone considering RV life?",
+            "I'm curious about your raw food cleanse. What are some of your favorite raw food recipes, and what challenges have you faced?",
+            "The shiitake 'bacon' sounds delicious! What other creative ways have you found to cook with mushrooms?",
+            "I'm interested in land regeneration. What kind of work will you be doing in California?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Enthusiastic/Passionate (about plant-based living and RV life)",
+            "Creative/Experimental (in the kitchen and with lifestyle choices)",
+            "Health-Conscious (focused on nutrition and raw foods)",
+            "Environmentally Aware (interested in sustainable living and land regeneration)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Raw Food Diet/Cleanse:** Ask about his experience with the raw food cleanse, specific recipes he enjoys, or challenges he faces.",
+        "2.  **Van Life/RV Life:** The hashtags #vanlife and #rvlife suggest he lives or travels in a van or RV. Inquire about his travels, favorite locations, or tips for living on the road.",
+        "1.  **30-day reset:** Ask about the details of the 30-day reset they are starting. What are the main goals and what does the plan involve?",
+        "2.  **Raw food:** Inquire about favorite raw food recipes or tips for incorporating more raw foods into a diet.",
+        "1. RV life/renovation: Ask about their plans for the RV, any renovations they're considering, or tips they have for living in an RV."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

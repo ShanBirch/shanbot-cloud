@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T20:10:52.833332",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T20:10:34.837536",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a plant-based gyro and a side salad on a white plate. The gyro is filled with what appears to be chickpeas, a creamy sauce, cucumber, and dill. The salad contains mixed greens, carrots, red onion, and other vegetables. A hand is holding the plate.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of rice topped with spicy sambal broccoli, garnished with sesame seeds, and served with chopsticks. The post includes a recipe for the dish.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a vegan burger, specifically a \"blazin buffalo\" burger, from a food truck called Vegout in Vancouver. The burger has a bun, lettuce, and what appears to be breaded and sauced vegan chicken.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of vegan mushroom stroganoff with spaghetti, mushrooms, and a creamy sauce. The post includes a recipe.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a stuffed butternut squash dish, garnished with holiday greenery and ornaments. The post includes the recipe for the dish.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan Wellington dish on a plate, garnished with rosemary sprigs. The post includes the recipe for the Wellington.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Cooking and Recipes:** Discussing the recipe itself, asking for variations, or sharing other favorite broccoli recipes.",
+          "2. **Spicy Food:** Asking about their favorite spicy dishes or ingredients, or sharing recommendations for other sambal oelek recipes.",
+          "1. Vegan food in Vancouver: Ask about other vegan restaurants or food trucks they recommend in the Vancouver area.",
+          "2. Vegout: Ask if they've tried other items on the Vegout menu or if they have any other favorites from that particular food truck.",
+          "1.  Vegan cooking and recipe variations: Ask about other vegan recipes they enjoy or if they have any tips for adapting non-vegan recipes."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That gyro looked so delicious 🤤",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Cooking",
+            "Plant-Based Recipes",
+            "Vancouver Vegan Food Scene",
+            "Spicy Food",
+            "Home Cooking & Recipe Development"
+          ],
+          "LIFESTYLE": "Likely a home cook and food enthusiast who enjoys creating and sharing vegan recipes. They seem to enjoy exploring vegan food options in Vancouver and are interested in both everyday meals and more elaborate dishes.",
+          "CONVERSATION STARTERS": [
+            "Have you tried any other dishes at Vegout besides the Blazin Buffalo burger? What would you recommend?",
+            "I love sambal oelek! Do you have any other favorite recipes that use it?",
+            "Your vegan Wellington looks amazing! What's your favorite vegan holiday dish to make?",
+            "I'm always looking for new vegan recipes. Do you have any tips for adapting non-vegan recipes to be plant-based?",
+            "What are some other vegan restaurants or food trucks in Vancouver that you would recommend?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (with recipes and presentation)",
+            "Enthusiastic (about vegan food)",
+            "Sharing (recipes and recommendations)",
+            "Adventurous (willing to try new vegan options)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Cooking and Recipes:** Discussing the recipe itself, asking for variations, or sharing other favorite broccoli recipes.",
+        "2. **Spicy Food:** Asking about their favorite spicy dishes or ingredients, or sharing recommendations for other sambal oelek recipes.",
+        "1. Vegan food in Vancouver: Ask about other vegan restaurants or food trucks they recommend in the Vancouver area.",
+        "2. Vegout: Ask if they've tried other items on the Vegout menu or if they have any other favorites from that particular food truck.",
+        "1.  Vegan cooking and recipe variations: Ask about other vegan recipes they enjoy or if they have any tips for adapting non-vegan recipes."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

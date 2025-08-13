@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T12:33:34.127312",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T12:33:15.170741",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post is a promotional image for \"The Plant Paradigm\" podcast featuring SGT Vegan. The image shows a split screen with the podcast logo and title (\"It's Not About Making You Feel Bad\") on the top left. Below that are the podcast icons of Spotify, Apple, Stitcher, etc. On the right is a video still of SGT Vegan speaking, with an American flag and a \"Vegan Strong\" sign visible behind him. He is wearing a blue shirt with a logo.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by \"plant.paradigm\" featuring Damien Mander. The post promotes a podcast excerpt and includes hashtags related to veganism, wildlife conservation, and climate change.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by plant.paradigm. The post features a video of a person speaking about sustainability and counterculture. They are wearing headphones and speaking into a microphone, suggesting they create audio or video content. The post includes hashtags related to sustainability, ecofriendliness, culture, and counterculture.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from plant.paradigm featuring a restaurant called \"Rau Oi\" in Ho Chi Minh City, Vietnam. The post mentions that they are on Day 65 of their \"Travelling Asia\" journey and highlights the vegan food options, specifically tofu bao buns.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by plant.paradigm. The post features a video of a man talking about ethical and sustainable business models, veganism, and counterculture. The post also includes relevant hashtags.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from plant.paradigm featuring their travels in Asia, specifically Ho Chi Minh, Vietnam. The post highlights their experience finding vegan food options while traveling and mentions a \"nice but pricey juice spot.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **The Damien Mander podcast:** Ask about a specific point or topic discussed in the podcast.",
+          "2.  **Veganism/Animal Liberation:** Ask about their motivations for being vegan or their thoughts on a particular animal liberation issue.",
+          "1.  **Sustainability/Eco-friendliness:** Given the focus of the post and the use of relevant hashtags, discussing specific sustainability practices, challenges, or recent news in the eco-friendly space could be a good conversation starter.",
+          "2.  **Content Creation/Podcasting:** The presence of the microphone and headphones suggests an interest in creating audio or video content. Asking about their content creation process, the equipment they use, or their favorite podcasts could be engaging.",
+          "1.  **Vegan Food in Vietnam:** Discussing other vegan restaurants or dishes they've tried or plan to try in Vietnam, or asking for recommendations."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism and Animal Liberation",
+            "Sustainability and Eco-friendliness",
+            "Travel (especially in Asia)",
+            "Counterculture",
+            "Content Creation/Podcasting"
+          ],
+          "LIFESTYLE": "Likely a traveler, possibly a digital nomad, with a strong commitment to veganism and sustainability. They are involved in content creation, potentially podcasting, and actively seek out vegan options while traveling. They are interested in ethical and sustainable business models.",
+          "CONVERSATION STARTERS": [
+            "What was the most impactful takeaway you had from your conversation with Damien Mander on the podcast?",
+            "What are some of the biggest challenges you've faced while maintaining a vegan lifestyle while traveling?",
+            "What are your thoughts on the role of counterculture in promoting sustainability and ethical consumption?",
+            "Can you recommend any resources for someone looking to start their own sustainable business?",
+            "What are some of your favorite vegan dishes you've discovered during your travels in Vietnam?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate: Deeply committed to veganism, sustainability, and animal liberation.",
+            "Adventurous: Enjoys traveling and exploring new cultures, particularly in Asia.",
+            "Inquisitive: Interested in ethical business models and counterculture movements.",
+            "Communicative: Actively creates content and engages in conversations about their interests."
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **The Damien Mander podcast:** Ask about a specific point or topic discussed in the podcast.",
+        "2.  **Veganism/Animal Liberation:** Ask about their motivations for being vegan or their thoughts on a particular animal liberation issue.",
+        "1.  **Sustainability/Eco-friendliness:** Given the focus of the post and the use of relevant hashtags, discussing specific sustainability practices, challenges, or recent news in the eco-friendly space could be a good conversation starter.",
+        "2.  **Content Creation/Podcasting:** The presence of the microphone and headphones suggests an interest in creating audio or video content. Asking about their content creation process, the equipment they use, or their favorite podcasts could be engaging.",
+        "1.  **Vegan Food in Vietnam:** Discussing other vegan restaurants or dishes they've tried or plan to try in Vietnam, or asking for recommendations."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T11:46:59.423620",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T11:46:40.749589",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a photograph of an oil painting. The painting depicts an old, abandoned schoolhouse in a field of tall, dry grass. The sky above is dramatic, with swirling clouds in shades of blue, grey, and white. The schoolhouse is weathered and appears to be in disrepair, with broken windows and peeling paint. The overall tone of the painting is melancholic and evocative.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a collage of four photos featuring three different cats (Ou Lily, Nuwe Lily, and Isis) posing on ornate chairs and cushions.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a large, white flower blooming on a cactus. There are several bees on the flower. The caption says \"Loving my new garden\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image features a large, white cactus flower in full bloom. The flower has many petals and a prominent green center. The caption mentions rainfall and gardening.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a yellow bird perched on a branch near a large, intricately woven bird's nest. The caption says \"Outside my kitchen window\" and includes a window and bird emoji.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows Jenny Cummins standing in front of a decorative backdrop with a neon light design, flowers, and greenery. The post caption mentions celebrating two years of pampering at #Cinnedenestudios.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Cat breeds/personalities: Commenting on the unique personalities or breeds of the cats featured in the photos. For example, \"Ou Lily looks like quite the character!\" or \"Isis's coloring is so striking, is she a calico?\"",
+          "2. Interior design/furniture: Commenting on the ornate chairs and cushions. For example, \"Those chairs are beautiful! Do you collect antique furniture?\" or \"I love the floral cushions, where did you find them?\"",
+          "1. Gardening: You could ask about other plants in her garden or her favorite gardening tips.",
+          "2. Bees/Pollinators: You could ask if she keeps bees, or if she has noticed an increase in bee activity since planting the flower.",
+          "1. Gardening: Ask about their garden, what other plants they grow, and if they have any gardening tips to share."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Jenny Cummins",
+          "INTERESTS": [
+            "Oil Painting (especially landscapes with a melancholic tone)",
+            "Cats (Ou Lily, Nuwe Lily, Isis)",
+            "Gardening (especially cacti and attracting pollinators)",
+            "Interior Design (specifically ornate furniture and floral cushions)",
+            "Birdwatching"
+          ],
+          "LIFESTYLE": "Likely an artist who enjoys spending time in nature, gardening, and caring for her cats. She also appreciates pampering and decorative aesthetics, possibly visiting salons or studios for self-care.",
+          "CONVERSATION STARTERS": [
+            "I love the dramatic atmosphere in your painting of the old schoolhouse. What inspires you to paint such evocative scenes?",
+            "Your cats are adorable! What are their personalities like?",
+            "That cactus flower is stunning! What other plants do you have in your garden?",
+            "Those ornate chairs are beautiful! Do you collect antique furniture?",
+            "That bird's nest outside your kitchen window is amazing! What kind of bird built it?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Artistic",
+            "Nature-loving",
+            "Animal-loving",
+            "Appreciative of beauty and aesthetics"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Cat breeds/personalities: Commenting on the unique personalities or breeds of the cats featured in the photos. For example, \"Ou Lily looks like quite the character!\" or \"Isis's coloring is so striking, is she a calico?\"",
+        "2. Interior design/furniture: Commenting on the ornate chairs and cushions. For example, \"Those chairs are beautiful! Do you collect antique furniture?\" or \"I love the floral cushions, where did you find them?\"",
+        "1. Gardening: You could ask about other plants in her garden or her favorite gardening tips.",
+        "2. Bees/Pollinators: You could ask if she keeps bees, or if she has noticed an increase in bee activity since planting the flower.",
+        "1. Gardening: Ask about their garden, what other plants they grow, and if they have any gardening tips to share."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

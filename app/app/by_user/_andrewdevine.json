@@ -1,0 +1,116 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T22:13:02.192776",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T22:12:43.981842",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows three men standing on a winner's podium after a race. The man in the first place is wearing a green and orange sash, the man in second place is wearing a red and white sash, and the man in third place is wearing a white shirt and black shorts. An older man in a hat stands to the side of the podium. A sign in the background says \"70 Mts Restricted.\" A car with \"KIA\" on the side is also visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A man, presumably Andrew Devine, is standing on a baseball field. He's wearing a hoodie, cargo pants, and sneakers. There's a building in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person, presumably Andrew Devine, standing in what appears to be a greenhouse or nursery filled with bonsai trees.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of soccer players in red uniforms celebrating a goal or a win. The caption says \"Something not Europe\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a scenic view in Split, Croatia. It features a garden with rows of plants, a dog resting in the garden, a wooden structure, and a beautiful sunset sky. The caption mentions \"Episode 5. One last sail.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person, presumably Andrew Devine, standing on a rocky shore in Hvar Island, Croatia. There's a body of water and a boat in the background, with a sunset or sunrise creating a warm lighting. The caption is \"Episode 4. I am ropeman\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Baseball: Ask if he plays baseball or if he was just visiting the field.",
+          "2. Fashion/Style: Comment on his outfit or ask about his favorite brands.",
+          "1. Bonsai trees: You could ask about his interest in bonsai trees, if he cultivates them himself, or if he has any favorite types.",
+          "2. Greenhouses/Nurseries: You could ask if he frequents this greenhouse/nursery often, or if he has any other recommendations for similar places.",
+          "1. Soccer: Ask about the team, the league they play in, or a specific game."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! Congrats to the winners! 🏆",
+        "profile_bio": {
+          "PERSON NAME": "Andrew Devine",
+          "INTERESTS": [
+            "Sports (specifically racing and soccer)",
+            "Travel (especially Croatia)",
+            "Bonsai trees/Gardening",
+            "Fashion/Style (implied by outfit in baseball field photo)"
+          ],
+          "LIFESTYLE": "Appears to be an active individual who enjoys travel, sports, and hobbies like bonsai cultivation. The racing photo suggests possible participation in competitive events. The Croatia photos indicate a recent trip or a fondness for the region. The baseball field photo suggests a casual, relaxed lifestyle.",
+          "CONVERSATION STARTERS": [
+            "Do you play baseball, or were you just visiting the field?",
+            "I noticed you were in Split and Hvar. What was your favorite part of your trip to Croatia?",
+            "That greenhouse with the bonsai trees looks amazing! Do you cultivate bonsai yourself, or just enjoy visiting?",
+            "That soccer photo is interesting. What team is that, and what league do they play in?",
+            "I like your style in the baseball field photo. What are some of your favorite brands?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous (travel to Croatia, participation in racing)",
+            "Enthusiastic (celebrating soccer, interest in hobbies)",
+            "Relaxed/Casual (baseball field photo, dog in garden photo)",
+            "Possibly Competitive (racing photo)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Baseball: Ask if he plays baseball or if he was just visiting the field.",
+        "2. Fashion/Style: Comment on his outfit or ask about his favorite brands.",
+        "1. Bonsai trees: You could ask about his interest in bonsai trees, if he cultivates them himself, or if he has any favorite types.",
+        "2. Greenhouses/Nurseries: You could ask if he frequents this greenhouse/nursery often, or if he has any other recommendations for similar places.",
+        "1. Soccer: Ask about the team, the league they play in, or a specific game."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

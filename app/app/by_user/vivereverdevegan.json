@@ -1,0 +1,104 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 10,
+      "user_messages": 5,
+      "ai_messages": 5,
+      "ai_questions": 2,
+      "ai_statements": 3,
+      "user_responses_to_ai_question": 2,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 1.0,
+      "conversation_start_time": "2025-04-10T20:10:36.529050",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 86375.888735,
+      "achieved_message_milestones": [
+        10,
+        5
+      ],
+      "fitness_topic_initiator": "user",
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-10T09:37:43.775106+00:00",
+          "type": "user",
+          "text": "E si, si affaccia spesso.😁"
+        },
+        {
+          "timestamp": "2025-04-10T09:37:43.794999+00:00",
+          "type": "ai",
+          "text": "Haha yeah dogs love a good view hey! What's his name?"
+        },
+        {
+          "timestamp": "2025-04-10T10:21:58.917702+00:00",
+          "type": "user",
+          "text": "E si, si affaccia spesso.😁 + Shannon: Haha yeah dogs love a good view hey! What's his name? {{cuf_11967919}}  {{cuf_11967920}} Lead : Il suo nome è ERIK + Shannon: Erik! Nice name. How old is he? {{cuf_11967919}}  {{cuf_11967920}} Lead : 1, è un cucciolo."
+        },
+        {
+          "timestamp": "2025-04-10T10:21:58.942120+00:00",
+          "type": "ai",
+          "text": "Only 1! Still got that puppy energy hey? What breed is he?"
+        },
+        {
+          "timestamp": "2025-04-11T07:30:20.555570+00:00",
+          "type": "user",
+          "text": "E si, si affaccia spesso.😁 + Shannon: Haha yeah dogs love a good view hey! What's his name? {{cuf_11967919}}  {{cuf_11967920}} Lead : Il suo nome è ERIK + Shannon: Erik! Nice name. How old is he? {{cuf_11967919}}  {{cuf_11967920}} Lead : 1, è un cucciolo. + Shannon: Only 1! Still got that puppy energy hey? What breed is he? {{cuf_11967919}}  {{cuf_11967920}} Lead : È un meticcio ma con richiami di pastore Abruzzese/Maremmano + Shannon: Ah cool, shepherd mixes are lovely dogs! Does he get to explore those hills much? {{cuf_11967919}}  {{cuf_11967920}} Lead : Io abito in collina + Shannon: Yeah okay, so Erik gets to enjoy that view every day then! Lucky dog hey. Do you go for walks in the hills with him often? {{cuf_11967919}}  {{cuf_11967920}} Lead : Certo, quando posso + Shannon: Yeah it can be tricky finding the time hey! {{cuf_11967919}}  {{cuf_11967920}} Lead : Infatti, il lavoro, la famiglia e tanto altro...diventa tutto più impegnativo. + Shannon: Yeah it's a juggling act hey! Life gets pretty full on. {{cuf_11967919}}  {{cuf_11967920}} Lead : Ho altri 2 cani più piccoli ed una gatto...😵‍💫 Una vita molto piena... + Shannon: Yeah tell me about it hey! 3 dogs and a cat sounds like a full house haha! What breeds are the other dogs? {{cuf_11967919}}  {{cuf_11967920}} Lead : Sono tutti meticci, presi al canile e trovati per strada. Anche il gatto è stato salvato dalla strada."
+        },
+        {
+          "timestamp": "2025-04-11T07:30:20.617093+00:00",
+          "type": "ai",
+          "text": "Good on ya for rescuing them all! Sounds like a house full of love."
+        },
+        {
+          "timestamp": "2025-04-11T08:19:39.370995+00:00",
+          "type": "user",
+          "text": "E si, si affaccia spesso.😁 + Shannon: Haha yeah dogs love a good view hey! What's his name? {{cuf_11967919}}  {{cuf_11967920}} Lead : Il suo nome è ERIK + Shannon: Erik! Nice name. How old is he? {{cuf_11967919}}  {{cuf_11967920}} Lead : 1, è un cucciolo. + Shannon: Only 1! Still got that puppy energy hey? What breed is he? {{cuf_11967919}}  {{cuf_11967920}} Lead : È un meticcio ma con richiami di pastore Abruzzese/Maremmano + Shannon: Ah cool, shepherd mixes are lovely dogs! Does he get to explore those hills much? {{cuf_11967919}}  {{cuf_11967920}} Lead : Io abito in collina + Shannon: Yeah okay, so Erik gets to enjoy that view every day then! Lucky dog hey. Do you go for walks in the hills with him often? {{cuf_11967919}}  {{cuf_11967920}} Lead : Certo, quando posso + Shannon: Yeah it can be tricky finding the time hey! {{cuf_11967919}}  {{cuf_11967920}} Lead : Infatti, il lavoro, la famiglia e tanto altro...diventa tutto più impegnativo. + Shannon: Yeah it's a juggling act hey! Life gets pretty full on. {{cuf_11967919}}  {{cuf_11967920}} Lead : Ho altri 2 cani più piccoli ed una gatto...😵‍💫 Una vita molto piena... + Shannon: Yeah tell me about it hey! 3 dogs and a cat sounds like a full house haha! What breeds are the other dogs? {{cuf_11967919}}  {{cuf_11967920}} Lead : Sono tutti meticci, presi al canile e trovati per strada. Anche il gatto è stato salvato dalla strada. + Shannon: Good on ya for rescuing them all! Sounds like a house full of love. {{cuf_11967919}}  {{cuf_11967920}} Lead : Piena d'amore e di confusione 🤣🤣🤣"
+        },
+        {
+          "timestamp": "2025-04-11T08:19:39.401284+00:00",
+          "type": "ai",
+          "text": "Haha I bet! Worth the confusion for the love though hey."
+        },
+        {
+          "timestamp": "2025-04-11T10:10:27.952603+00:00",
+          "type": "user",
+          "text": "E si, si affaccia spesso.😁 + Shannon: Haha yeah dogs love a good view hey! What's his name? {{cuf_11967919}}  {{cuf_11967920}} Lead : Il suo nome è ERIK + Shannon: Erik! Nice name. How old is he? {{cuf_11967919}}  {{cuf_11967920}} Lead : 1, è un cucciolo. + Shannon: Only 1! Still got that puppy energy hey? What breed is he? {{cuf_11967919}}  {{cuf_11967920}} Lead : È un meticcio ma con richiami di pastore Abruzzese/Maremmano + Shannon: Ah cool, shepherd mixes are lovely dogs! Does he get to explore those hills much? {{cuf_11967919}}  {{cuf_11967920}} Lead : Io abito in collina + Shannon: Yeah okay, so Erik gets to enjoy that view every day then! Lucky dog hey. Do you go for walks in the hills with him often? {{cuf_11967919}}  {{cuf_11967920}} Lead : Certo, quando posso + Shannon: Yeah it can be tricky finding the time hey! {{cuf_11967919}}  {{cuf_11967920}} Lead : Infatti, il lavoro, la famiglia e tanto altro...diventa tutto più impegnativo. + Shannon: Yeah it's a juggling act hey! Life gets pretty full on. {{cuf_11967919}}  {{cuf_11967920}} Lead : Ho altri 2 cani più piccoli ed una gatto...😵‍💫 Una vita molto piena... + Shannon: Yeah tell me about it hey! 3 dogs and a cat sounds like a full house haha! What breeds are the other dogs? {{cuf_11967919}}  {{cuf_11967920}} Lead : Sono tutti meticci, presi al canile e trovati per strada. Anche il gatto è stato salvato dalla strada. + Shannon: Good on ya for rescuing them all! Sounds like a house full of love. {{cuf_11967919}}  {{cuf_11967920}} Lead : Piena d'amore e di confusione 🤣🤣🤣 + Shannon: Haha I bet! Worth the confusion for the love though hey. {{cuf_11967919}}  {{cuf_11967920}} Lead : Certo"
+        },
+        {
+          "timestamp": "2025-04-11T10:10:28.020767+00:00",
+          "type": "ai",
+          "text": "Yeah definitely, always something happening with rescue pets but so worth it hey!"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "vivereverdevegan",
+      "user_responses_to_questions": 0,
+      "response_rate": 0.0,
+      "coaching_inquiries": 0,
+      "ai_detections": 0,
+      "first_message_timestamp": "2025-04-10T09:37:43.775106+00:00",
+      "last_message_timestamp": "2025-04-11T10:10:28.020767+00:00",
+      "last_seen_timestamp": "2025-04-11T10:10:28.020767+00:00",
+      "conversation_count": 1,
+      "conversation_duration_str": "1d 0h 32m",
+      "fitness_topic_user_initiated": false,
+      "fitness_topic_ai_initiated": false
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

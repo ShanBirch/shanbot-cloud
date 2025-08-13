@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T16:25:43.556970",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T16:25:26.092954",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a person in a wheelchair on a wooden platform in a forest setting. They are wearing a red helmet and laughing, with another person in a blue shirt and a third person helping to guide the wheelchair. The post includes the hashtags #supportworker and #accessibilityforall.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a digital drawing of Gisele Pelicot, with a speech bubble containing the Spanish phrase \"Que la vergüenza cambie de lado\" (May shame change sides). The drawing is signed \"Sofia Weidner\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person sitting in a car, presumably as a passenger, with their feet up on the dashboard. The background shows a clear blue sky and trees, suggesting they are on a road trip. The location tag indicates they are on the Hume Highway in New South Wales, Australia.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a spread of snacks and drinks, including chips, dips, ginger beer, and what appears to be pickled items. A TV is on in the background, displaying an animated show. The hashtags in the caption indicate the show is by zerocalcare.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a variety of spices and seasonings, including truffle salt, garlic salt, smoked paprika, Mexican seasoning, chili flakes, \"Vacon\" (likely vegan bacon seasoning), and Bull's-Eye BBQ sauce. The post is tagged with #vegan, #inspiration, #sazon, #dinnerideas, and #seasonings.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by _organic_cookie features a video of an Iranian rock climbing athlete who competed in South Korea. The video also references the protests against the Iranian regime and the #MahsaAmini movement.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Gisele Pelicot:** Inquire about the user's interest in Gisele Pelicot and what they admire about her.",
+          "2. **Spanish Language/Quotes:** Ask about the meaning of the Spanish quote and why they chose to share it.",
+          "1.  **Travel/Road Trips:** \"Looks like you're on a road trip! Have you been on the Hume Highway before? Any favorite stops along the way?\"",
+          "2.  **New South Wales:** \"I see you're in New South Wales. Have you been there long? What are some of your favorite places to visit in the area?\"",
+          "1.  **zerocalcare's animated shows:** Comment on zerocalcare's work, asking about their favorite episodes or themes."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Accessibility and Disability Advocacy (wheelchair use, support workers)",
+            "Social Justice and Human Rights (Mahsa Amini movement, Iranian protests)",
+            "Veganism and Cooking (vegan seasonings, dinner ideas)",
+            "Travel and Road Trips (Hume Highway, New South Wales)",
+            "Art and Culture (zerocalcare, Sofia Weidner's art, Gisele Pelicot)"
+          ],
+          "LIFESTYLE": "Likely an individual with a disability who enjoys travel, cooking vegan food, and engaging with art and social justice issues. They appear to be based in or frequently travel to New South Wales, Australia. They also seem to have a support network.",
+          "CONVERSATION STARTERS": [
+            "I noticed your post about the Iranian rock climber and the Mahsa Amini movement. What inspired you to share that?",
+            "That drawing of Gisele Pelicot is beautiful! What do you admire most about her?",
+            "I'm curious about the Spanish quote you shared. Could you tell me a bit about its meaning and why it resonated with you?",
+            "Your vegan seasoning collection looks amazing! Do you have any favorite recipes you like to use them in?",
+            "I love zerocalcare's work too! What are some of your favorite episodes or themes?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate (about social justice and human rights)",
+            "Creative (appreciation for art and cooking)",
+            "Adventurous (travel and road trips)",
+            "Empathetic (support for accessibility and disability rights)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Gisele Pelicot:** Inquire about the user's interest in Gisele Pelicot and what they admire about her.",
+        "2. **Spanish Language/Quotes:** Ask about the meaning of the Spanish quote and why they chose to share it.",
+        "1.  **Travel/Road Trips:** \"Looks like you're on a road trip! Have you been on the Hume Highway before? Any favorite stops along the way?\"",
+        "2.  **New South Wales:** \"I see you're in New South Wales. Have you been there long? What are some of your favorite places to visit in the area?\"",
+        "1.  **zerocalcare's animated shows:** Comment on zerocalcare's work, asking about their favorite episodes or themes."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

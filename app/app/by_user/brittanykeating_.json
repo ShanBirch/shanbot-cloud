@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T09:24:42.313544",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T09:24:22.909799",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by brittanykeating_. It's a video of her singing with a man playing an acoustic guitar. They appear to be performing in a casual setting, possibly a living room, with a couch and artwork visible in the background. The post caption mentions Collective Soul and feeling nostalgic about family holidays.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person, presumably brittanykeating_, at a concert or performance, holding a microphone and singing. The caption mentions \"@beckyhill\" and a comment praises Becky Hill's performance.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows brittanykeating_ and a man, presumably at a restaurant or bar, posing for a photo. There are many bottles of wine on shelves in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows Brittany Keating sitting at a table outside a restaurant or cafe. There are several plates of food in front of her, including what appears to be Asian-inspired dishes and french fries. The background includes a sign that says \"& Shopping.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a collection of Polaroid photos laid out on a wooden surface. The photos depict a couple kissing, a beach scene, and a camping setup with a tent and car.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows Brittany Keating posing with an older man, likely her father or another close family member. They are both smiling and appear to be celebrating Christmas Eve. The caption mentions \"#christmaseve #2024\" and reflects on the past year.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Becky Hill: Ask about what she likes about Becky Hill's music or if she's seen her perform live before.",
+          "2. Concerts/Live Music: Inquire about other artists she enjoys seeing live or if she has any upcoming concerts planned.",
+          "1. Wine: Given the wine bottles in the background and the caption \"Aging like a fine wine,\" you could ask about their favorite type of wine or a memorable wine tasting experience.",
+          "2. Restaurants/Dining: You could ask about the restaurant they were at, if they would recommend it, or what their favorite restaurants are.",
+          "1.  **Food/Restaurants:** \"That food looks amazing! What kind of cuisine is it, and would you recommend that restaurant?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! Your voice sounded amazing! 🎶",
+        "profile_bio": {
+          "PERSON NAME": "Brittany Keating (likely)",
+          "INTERESTS": [
+            "Music (singing, live performances, especially Becky Hill and Collective Soul)",
+            "Food and Dining (exploring different cuisines and restaurants)",
+            "Travel and Experiences (beach trips, camping)",
+            "Family (spending time with family, especially during holidays)",
+            "Wine"
+          ],
+          "LIFESTYLE": "Appears to enjoy a social lifestyle, including attending concerts, dining out, and spending time with family and friends. She seems to have a passion for music, both performing and attending live shows. The Polaroid photos suggest a fondness for capturing memories and experiences. The presence of wine suggests an appreciation for finer things. Likely works a job that allows her to enjoy these activities.",
+          "CONVERSATION STARTERS": [
+            "I saw you're a fan of Becky Hill! What do you like most about her music, and have you seen her perform live?",
+            "That restaurant you were at looked amazing! What kind of cuisine is it, and would you recommend it?",
+            "I noticed you enjoy singing. Do you perform often, and what kind of music do you usually sing?",
+            "Your Polaroid photos look like you've been on some great adventures! Where was your favorite place to travel to?",
+            "I saw you mentioned Collective Soul. What are some of your other favorite bands or artists from that era?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Nostalgic (references to family holidays and Collective Soul)",
+            "Social (enjoys spending time with friends and family, attending events)",
+            "Passionate (about music and experiences)",
+            "Appreciative (of good food, wine, and company)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Becky Hill: Ask about what she likes about Becky Hill's music or if she's seen her perform live before.",
+        "2. Concerts/Live Music: Inquire about other artists she enjoys seeing live or if she has any upcoming concerts planned.",
+        "1. Wine: Given the wine bottles in the background and the caption \"Aging like a fine wine,\" you could ask about their favorite type of wine or a memorable wine tasting experience.",
+        "2. Restaurants/Dining: You could ask about the restaurant they were at, if they would recommend it, or what their favorite restaurants are.",
+        "1.  **Food/Restaurants:** \"That food looks amazing! What kind of cuisine is it, and would you recommend that restaurant?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

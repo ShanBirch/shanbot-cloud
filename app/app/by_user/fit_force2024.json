@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T15:22:27.898520",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T15:22:10.065490",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post from fit_force2024. The post shows a woman standing on a platform overlooking a body of water where a black swan is swimming. The woman is wearing a purple outfit with a pink shawl. There is modern architecture in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up selfie of a woman with a nose ring, wearing a colorful patterned top. There are green leaves visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in a yellow dress standing next to a classic white convertible car with a red interior. The background appears to be a wooded area.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in a full-length black outfit with a headscarf, standing outside near some tall, thin trees. The location is likely residential. The caption mentions \"good sleep, healthy eats, long walks, and moments with loved ones.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of a woman with a plant in the background. The caption mentions \"cutting off the chaos\" and \"canceling subscriptions to the drama.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by fit_force2024 shows a video of someone preparing food, possibly a plant-based meal, as indicated by the hashtag #plantpowerglam and the TikTok handle @plantpowerglam. There is also an image of a classic car, potentially a Mustang.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Makeup/Beauty:** Comment on her eyeliner or nose ring, asking where she got it or what brand it is.",
+          "2. **Melbourne:** Since her location is listed as Melbourne, VIC, Australia, you could ask about her favorite places to work out or eat healthy in the city.",
+          "1.  Classic cars: Comment on the car, asking about its model, year, or if she enjoys driving it.",
+          "2.  Fashion/Style: Compliment the dress and ask about her style inspiration or favorite designers.",
+          "1. **Healthy Lifestyle:** The caption mentions \"healthy eats\" and \"long walks.\" You could ask about her favorite healthy recipes or her preferred walking routes in her area (since her location is listed as Australia)."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Fashion (especially dresses and unique outfits)",
+            "Classic Cars (potentially Mustangs)",
+            "Healthy Lifestyle (plant-based eating, walking, sleep)",
+            "Travel/Local Exploration (Melbourne, Australia)",
+            "Plant-Based Cuisine"
+          ],
+          "LIFESTYLE": "Appears to lead a balanced lifestyle focused on health, well-being, and enjoying life's simple pleasures. Enjoys exploring her surroundings, dressing stylishly, and prioritizing mental and physical health. Possibly involved in or interested in plant-based cooking and sharing that passion.",
+          "CONVERSATION STARTERS": [
+            "I love your style! Where do you find inspiration for your outfits, especially that yellow dress?",
+            "That classic car is stunning! What model is it, and do you enjoy driving it around Melbourne?",
+            "I'm also trying to incorporate more plant-based meals into my diet. Do you have any favorite recipes you'd be willing to share?",
+            "I noticed you're in Melbourne. Do you have any recommendations for scenic walking routes in the area?",
+            "Your eyeliner is amazing! What brand do you use?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Stylish",
+            "Health-conscious",
+            "Appreciative of beauty (nature, architecture, cars)",
+            "Mindful/Focused on well-being"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Makeup/Beauty:** Comment on her eyeliner or nose ring, asking where she got it or what brand it is.",
+        "2. **Melbourne:** Since her location is listed as Melbourne, VIC, Australia, you could ask about her favorite places to work out or eat healthy in the city.",
+        "1.  Classic cars: Comment on the car, asking about its model, year, or if she enjoys driving it.",
+        "2.  Fashion/Style: Compliment the dress and ask about her style inspiration or favorite designers.",
+        "1. **Healthy Lifestyle:** The caption mentions \"healthy eats\" and \"long walks.\" You could ask about her favorite healthy recipes or her preferred walking routes in her area (since her location is listed as Australia)."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

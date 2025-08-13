@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T11:36:15.454042",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T11:35:55.962680",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up, overhead shot of a bowl of oatmeal. The oatmeal is topped with sliced bananas, blueberries, and shredded coconut. A silver spoon rests in the bowl. The bowl is yellow and sits on a light brown wooden surface.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a pink and white vegan and gluten-free birthday cake decorated with a \"2\" candle, Minnie Mouse, and the name \"Iga.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of Thai red curry tofu with rice and broccoli. The caption provides the full recipe for the dish.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of homemade vegan and gluten-free chocolate chip cookies, topped with peanuts and raisins. The post includes the recipe.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of vegan soup with rice noodles, smoked tofu, chives, and other ingredients in a dark broth. The post mentions it's an Asian-style soup.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan burrito with pineapple salsa on a black plate. The burrito is cut in half, revealing the filling. The salsa is in a small white bowl and garnished with parsley.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan baking and gluten-free alternatives: Ask about their favorite vegan and gluten-free baking tips or recipes.",
+          "2. Cake decorating: Inquire about their cake decorating process, techniques, or inspiration for the Minnie Mouse theme.",
+          "1. Vegan cooking and recipes: You could ask about other vegan recipes they enjoy or share your own favorite vegan dishes.",
+          "2. Thai cuisine: You could ask about their favorite Thai restaurants or dishes, or discuss the ingredients used in Thai cooking.",
+          "1. Vegan/Gluten-Free Baking: Ask about their favorite vegan/gluten-free baking tips or recipes."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Iga (likely one of the sisters, based on the birthday cake post)",
+          "INTERESTS": [
+            "Vegan Baking (especially gluten-free)",
+            "Vegan Cooking (diverse cuisines)",
+            "Gluten-Free Alternatives",
+            "Cake Decorating",
+            "Healthy Eating"
+          ],
+          "LIFESTYLE": "Likely follows a vegan and gluten-free lifestyle. Enjoys cooking and baking at home, experimenting with different cuisines and sharing recipes. Possibly health-conscious and enjoys creating visually appealing food.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite vegan and gluten-free baking tips for beginners?",
+            "Can you share more about your cake decorating process, especially for themed cakes like the Minnie Mouse one?",
+            "Besides Thai red curry, what other vegan Thai dishes do you enjoy making or eating?",
+            "What are some of your go-to ingredients for creating flavorful vegan soups?",
+            "Do you have any recommendations for adapting traditional recipes to be both vegan and gluten-free?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (with cooking and baking)",
+            "Passionate (about veganism and gluten-free living)",
+            "Generous (sharing recipes)",
+            "Detail-oriented (presentation of food)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan baking and gluten-free alternatives: Ask about their favorite vegan and gluten-free baking tips or recipes.",
+        "2. Cake decorating: Inquire about their cake decorating process, techniques, or inspiration for the Minnie Mouse theme.",
+        "1. Vegan cooking and recipes: You could ask about other vegan recipes they enjoy or share your own favorite vegan dishes.",
+        "2. Thai cuisine: You could ask about their favorite Thai restaurants or dishes, or discuss the ingredients used in Thai cooking.",
+        "1. Vegan/Gluten-Free Baking: Ask about their favorite vegan/gluten-free baking tips or recipes."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

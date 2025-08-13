@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T21:54:01.341146",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T21:53:43.084508",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a plate of french toast sticks topped with fresh strawberries and blueberries. The french toast sticks are arranged neatly on a bright yellow plate. The plate sits on a table with a decorative tablecloth.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up shot of a bowl of Tofu & veggie Thai green curry with jasmine rice. The bowl has a black and white patterned design. The curry contains tofu, broccoli, cauliflower, carrots and other vegetables.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a zucchini, thyme, and sun-dried tomato pastry pizza, as described in the post's caption.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of food. The dish consists of a creamy basil and parmesan \"chicken\" fillet served with spicy basil baked potatoes.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a glass dish filled with what appears to be meatball lasagna roll-ups, topped with sauce, cheese, and herbs. The caption mentions \"Swipe for recipe\", indicating a recipe is shared in the post.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of food featuring a Quorn fillet (vegetarian chicken substitute) served on a bed of sweet and spicy brown rice noodles with corn and snow peas.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Thai Cuisine: Ask about their favorite Thai dishes or restaurants.",
+          "2.  Vegetarian/Vegan Cooking: Inquire about other vegetarian/vegan recipes they enjoy or if they have any tips for cooking with tofu.",
+          "1.  **Cooking/Baking:** You could ask about the recipe, specific techniques used, or other similar vegetarian/vegan recipes they enjoy.",
+          "2.  **Gardening/Ingredients:** You could ask if they grow their own zucchini or thyme, or where they source high-quality sun-dried tomatoes.",
+          "1. Cooking/Recipes: Ask about the recipe for the spicy basil baked potatoes or the creamy basil and parmesan sauce."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! Those french toast sticks looked so delicious! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Sherry (Based on username 'veggiewithsherry')",
+          "INTERESTS": [
+            "Vegetarian/Vegan Cooking",
+            "Thai Cuisine",
+            "Home Cooking & Baking",
+            "Recipe Development & Sharing",
+            "Creative Food Presentation"
+          ],
+          "LIFESTYLE": "Likely a home cook who enjoys experimenting with vegetarian and vegan recipes, focusing on fresh ingredients and visually appealing dishes. They seem to enjoy sharing their creations and recipes with others.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite Thai dishes to make at home, and do you have any restaurant recommendations?",
+            "Do you have any tips for cooking with tofu to get the perfect texture and flavor?",
+            "I'd love to hear more about the inspiration behind your zucchini, thyme, and sun-dried tomato pastry pizza!",
+            "Where do you source your ingredients, especially the sun-dried tomatoes and fresh herbs?",
+            "Could you share any tips for making the spicy basil baked potatoes? They look amazing!"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Passionate about food",
+            "Generous (sharing recipes)",
+            "Detail-oriented (presentation)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Thai Cuisine: Ask about their favorite Thai dishes or restaurants.",
+        "2.  Vegetarian/Vegan Cooking: Inquire about other vegetarian/vegan recipes they enjoy or if they have any tips for cooking with tofu.",
+        "1.  **Cooking/Baking:** You could ask about the recipe, specific techniques used, or other similar vegetarian/vegan recipes they enjoy.",
+        "2.  **Gardening/Ingredients:** You could ask if they grow their own zucchini or thyme, or where they source high-quality sun-dried tomatoes.",
+        "1. Cooking/Recipes: Ask about the recipe for the spicy basil baked potatoes or the creamy basil and parmesan sauce."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

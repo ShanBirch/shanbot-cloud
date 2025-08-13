@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T01:39:32.350561",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T01:39:13.208860",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a large pile of tofu buffalo wings, likely in a metal baking pan. The wings are coated in a bright orange sauce and appear to be freshly made. The lighting is bright, highlighting the texture of the sauce and tofu.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a vegan brownie, specifically a \"slutty brownie\" which appears to have multiple layers. There are other brownies in the background, along with a notebook.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan \"Boursin\" cheese log wrapped in pistachios, cranberries, and herbs, served on a decorative platter with a holly and ivy design.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a freshly baked loaf, likely a blueberry crumble loaf, in a baking pan. The post caption mentions it's a birthday weekend bake, with plans for lemon and red velvet loaves to follow, and possibly a Bakewell tart. The hashtags indicate a vegan lifestyle and locations like Birmingham, London, Manchester, Germany, Amsterdam, and the USA.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan chocolate orange cheesecake in a baking pan. It is decorated with chocolate orange segments. A package of \"Buttermilk\" vegan chocolate orange segments is visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of what appears to be homemade lemon and herb tofu, inspired by Nando's, likely prepared for a wrap.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan baking: Ask about their favorite vegan baking recipes or tips.",
+          "2. Travel: Based on the hashtags, they seem to have an interest in various locations (Germany, Amsterdam, USA, UK). Inquire about their favorite vegan-friendly travel destinations.",
+          "1.  **Vegan Cooking/Recipes:** Ask about other vegan cheese recipes they enjoy or if they have any tips for making vegan cheese at home.",
+          "2.  **Travel:** The hashtags include several cities and countries (London, Manchester, Germany, Amsterdam, USA). You could ask about their favorite vegan restaurants in any of those places.",
+          "*   **Vegan Baking:** Ask about their favorite vegan baking tips or recipes. Inquire about their experience with vegan baking substitutions."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Those tofu buffalo wings in your latest post looked absolutely delicious! 🤤",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Baking (especially cakes, loaves, and brownies)",
+            "Vegan Cooking (savory dishes like tofu buffalo wings and Nando's-inspired tofu)",
+            "Vegan Cheese Making",
+            "Travel (UK, Germany, Amsterdam, USA)",
+            "Creating visually appealing and delicious vegan food"
+          ],
+          "LIFESTYLE": "Likely a home baker and cook who enjoys experimenting with vegan recipes and sharing their creations online. They seem to travel internationally and are passionate about the vegan lifestyle.",
+          "CONVERSATION STARTERS": [
+            "What are your top 3 vegan baking tips for beginners?",
+            "I saw you've been to Amsterdam! What were your favorite vegan restaurants there?",
+            "That vegan 'Boursin' looks incredible! Do you have any other vegan cheese recipes you'd recommend?",
+            "Your tofu buffalo wings look amazing! What's your secret to getting the sauce to stick so well?",
+            "What's your favorite vegan baking substitution that consistently delivers great results?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Passionate",
+            "Adventurous (in both cooking and travel)",
+            "Detail-oriented (evident in the presentation of their food)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan baking: Ask about their favorite vegan baking recipes or tips.",
+        "2. Travel: Based on the hashtags, they seem to have an interest in various locations (Germany, Amsterdam, USA, UK). Inquire about their favorite vegan-friendly travel destinations.",
+        "1.  **Vegan Cooking/Recipes:** Ask about other vegan cheese recipes they enjoy or if they have any tips for making vegan cheese at home.",
+        "2.  **Travel:** The hashtags include several cities and countries (London, Manchester, Germany, Amsterdam, USA). You could ask about their favorite vegan restaurants in any of those places.",
+        "*   **Vegan Baking:** Ask about their favorite vegan baking tips or recipes. Inquire about their experience with vegan baking substitutions."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

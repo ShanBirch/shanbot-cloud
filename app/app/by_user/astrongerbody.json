@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T21:49:46.555383",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T21:49:28.559195",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a scenic shot of a beach at sunset or sunrise. The sand is a reddish-brown color, and the waves are gently lapping at the shore. The water is a mix of blues and greens, reflecting the sky. The sky itself has soft hues of pink, orange, and yellow. The image is taken from a slightly elevated perspective, giving a wide view of the beach and ocean.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by astrongerbody featuring a woman demonstrating a triplanar toe tap exercise. The post details a 10-minute stability workout consisting of five exercises.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by astrongerbody featuring a colorful graphic with the text \"MAKE SURE TO INCLUDE YOURSELF IN THE LIST OF THINGS YOU NEED TO TAKE CARE OF THIS WEEK.\" The caption emphasizes prioritizing oneself and includes hashtags related to self-care, health, fitness, exercise, goals, workouts, at-home workouts, and personal training.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post shows a before-and-after transformation. The first image is a photo of the user in the past, and the second image is a video of the user working out. The user's caption discusses their journey, struggles, and the importance of hard work and self-comparison.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman demonstrating a dynamic stretching exercise in what appears to be a home gym setting. There's a punching bag and workout equipment visible in the background. The post itself discusses the differences between static and dynamic stretching.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by astrongerbody featuring a back and biceps dumbbell workout. It shows a hand holding dumbbells and lists the workout routine: single set, supersets, and a Tabata set. The caption includes the workout details, hashtags related to fitness, and an email address for customized programs.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Specific Exercises:** Inquire about the modifications listed for each exercise, such as the \"Bird dog crunch\" or \"forearm/knee side plank,\" to understand how they change the difficulty or target different muscle groups.",
+          "2.  **Workout Programming:** Ask about how this 10-minute circuit fits into a larger workout routine or what other exercises might complement it for overall fitness.",
+          "1. Self-care routines: You could ask about their favorite self-care activities or share your own.",
+          "2. Fitness goals: You could inquire about their current fitness goals or offer encouragement for their workout journey.",
+          "1.  **Transformation Journey:** Ask about specific challenges or milestones in their transformation journey, showing genuine interest in their experience."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That beach looks so peaceful 🏖️.",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Fitness",
+            "Strength Training",
+            "Self-Care",
+            "Healthy Lifestyle",
+            "Transformation Journeys"
+          ],
+          "LIFESTYLE": "Likely a fitness enthusiast or personal trainer who prioritizes health, wellness, and self-improvement. They seem to work out from home and are dedicated to sharing their knowledge and journey with others.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite self-care activities?",
+            "What are your current fitness goals?",
+            "Could you tell me more about the challenges you faced during your transformation journey?",
+            "How does this 10-minute stability circuit fit into a larger workout routine?",
+            "What are the key differences between static and dynamic stretching, and when do you recommend using each?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Motivating",
+            "Dedicated",
+            "Empathetic",
+            "Knowledgeable"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Specific Exercises:** Inquire about the modifications listed for each exercise, such as the \"Bird dog crunch\" or \"forearm/knee side plank,\" to understand how they change the difficulty or target different muscle groups.",
+        "2.  **Workout Programming:** Ask about how this 10-minute circuit fits into a larger workout routine or what other exercises might complement it for overall fitness.",
+        "1. Self-care routines: You could ask about their favorite self-care activities or share your own.",
+        "2. Fitness goals: You could inquire about their current fitness goals or offer encouragement for their workout journey.",
+        "1.  **Transformation Journey:** Ask about specific challenges or milestones in their transformation journey, showing genuine interest in their experience."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

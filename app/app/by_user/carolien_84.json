@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T22:03:17.415439",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T22:03:00.692465",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by carolien_84 is a reel. The video shows her in a gym setting, dressed in black workout clothes with white socks and sneakers. She is holding her phone up, presumably filming herself in a mirror. In the background, there is gym equipment and a motivational sign on the wall. The text \"My Turn\" is overlaid on the video.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by carolien_84 featuring a video of her using a ClimbMill exercise machine. The caption includes hashtags related to self-love, motivation, mental health, vegan fitness, and a strong women.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows carolien_84 using a leg press machine at a gym. The post includes hashtags related to fitness, self-love, and veganism.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in workout clothes holding dumbbells. She appears to be in a gym or workout space. The hashtags in the post indicate she is interested in fitness, veganism, and mental health/self-improvement.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (presumably carolien_84) at the gym, using a lat pulldown machine. The caption includes hashtags related to fitness, self-growth, and mental health.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person, presumably carolien_84, working out at a gym. They are using a weight machine and appear to be focused on their fitness routine. The caption includes hashtags related to self-improvement, mental health, and vegan fitness.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Fitness routine: Ask about her experience with the ClimbMill and other fitness activities she enjoys.",
+          "2. Vegan lifestyle: Inquire about her favorite vegan recipes or tips for maintaining a vegan fitness lifestyle.",
+          "1.  **Fitness Routines/Leg Day:** \"I noticed you were doing leg presses. What's your favorite leg day exercise?\"",
+          "2.  **Vegan Fitness:** \"I saw you use the #veganfitness hashtag. What are your go-to vegan protein sources for workouts?\"",
+          "1. Fitness: \"I saw your post about your workout. What's your favorite exercise to do with dumbbells?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You looked great at the gym 💪",
+        "profile_bio": {
+          "PERSON NAME": "Carolien (Based on username carolien_84)",
+          "INTERESTS": [
+            "Fitness",
+            "Veganism",
+            "Mental Health & Self-Improvement",
+            "Strength Training",
+            "Self-Love"
+          ],
+          "LIFESTYLE": "Carolien appears to lead an active and health-conscious lifestyle. She regularly works out at the gym, focusing on strength training and overall fitness. She is also a vegan and integrates this lifestyle into her fitness routine. She seems to prioritize mental health and self-improvement.",
+          "CONVERSATION STARTERS": [
+            "What's your experience been like using the ClimbMill?",
+            "What are your go-to vegan protein sources for workouts?",
+            "What's your favorite leg day exercise?",
+            "What's your favorite exercise to do with dumbbells?",
+            "What are some of your favorite vegan recipes?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Motivated",
+            "Dedicated",
+            "Health-conscious",
+            "Positive"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Fitness routine: Ask about her experience with the ClimbMill and other fitness activities she enjoys.",
+        "2. Vegan lifestyle: Inquire about her favorite vegan recipes or tips for maintaining a vegan fitness lifestyle.",
+        "1.  **Fitness Routines/Leg Day:** \"I noticed you were doing leg presses. What's your favorite leg day exercise?\"",
+        "2.  **Vegan Fitness:** \"I saw you use the #veganfitness hashtag. What are your go-to vegan protein sources for workouts?\"",
+        "1. Fitness: \"I saw your post about your workout. What's your favorite exercise to do with dumbbells?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

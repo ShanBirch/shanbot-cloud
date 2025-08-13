@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T15:44:08.747291",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T15:43:46.634037",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by _veganbeing_ features a graphic with the text \"Five minute Fit Friday\" in a pink cursive font against a light beige background. The post's caption lists a sequence of exercises: squat jacks, high knees, walkouts to plank, pushups, burpees, lunges, russian twist, bridge, hi/lo plank, and plank with leg lifts.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person, presumably the Instagram user \"_veganbeing_\", performing a yoga pose indoors. The pose looks like a variation of a backbend or wheel pose. There's a yoga mat, a bolster, and a sliding glass door in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person in a yoga pose (child's pose) on a mat in a room with large windows overlooking trees. The caption mentions \"Processing and spending time listening to my body.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by _veganbeing_ shows a \"Workout Wednesday\" routine consisting of various exercises like squat jacks, cross jabs, lunges, pushups, and more. The hashtags indicate a focus on veganism, wellness, running, yoga, and overall fitness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a selfie of a person after a workout, likely spin class, as suggested by the caption. They are sweaty and smiling. Yoga blocks and a water bottle are visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person in a yoga pose (triangle pose) on a yoga mat inside a room with a sliding glass door leading to a balcony. The hashtags indicate a focus on veganism, yoga, running, and overall wellness.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Yoga: You could ask about their favorite yoga poses, their yoga journey, or if they have any tips for beginners.",
+          "2. Veganism: Given the username, you could ask about their favorite vegan recipes, restaurants, or the reasons behind their vegan lifestyle.",
+          "1. Yoga/Mindfulness: Ask about their yoga practice, favorite poses, or how they incorporate mindfulness into their daily routine.",
+          "2. Veganism: Since their username is \"_veganbeing_\", you could ask about their favorite vegan recipes or restaurants.",
+          "1. **Workout routine:** Ask about their favorite exercise from the routine or if they have any tips for completing the workout."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The \"Five minute Fit Friday\" graphic was so cute! 💖",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism",
+            "Yoga",
+            "Fitness (HIIT, Running, Spin)",
+            "Wellness",
+            "Mindfulness"
+          ],
+          "LIFESTYLE": "Likely a health-conscious individual who incorporates veganism, regular workouts (including yoga, HIIT, running, and spin), and mindfulness practices into their daily routine. They seem to prioritize physical and mental well-being.",
+          "CONVERSATION STARTERS": [
+            "What are some of your go-to vegan recipes or restaurants?",
+            "What's your favorite yoga pose and why?",
+            "I saw your 'Five Minute Fit Friday' post - what's your favorite exercise from that routine, and do you have any tips for beginners?",
+            "How do you incorporate mindfulness into your daily routine, especially during or after workouts?",
+            "I noticed you enjoy running. What are some of your favorite running routes or training tips?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Motivated",
+            "Dedicated",
+            "Health-conscious",
+            "Positive (smiling selfie after spin class)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Yoga: You could ask about their favorite yoga poses, their yoga journey, or if they have any tips for beginners.",
+        "2. Veganism: Given the username, you could ask about their favorite vegan recipes, restaurants, or the reasons behind their vegan lifestyle.",
+        "1. Yoga/Mindfulness: Ask about their yoga practice, favorite poses, or how they incorporate mindfulness into their daily routine.",
+        "2. Veganism: Since their username is \"_veganbeing_\", you could ask about their favorite vegan recipes or restaurants.",
+        "1. **Workout routine:** Ask about their favorite exercise from the routine or if they have any tips for completing the workout."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

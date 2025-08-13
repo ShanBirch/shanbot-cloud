@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T09:59:20.507396",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T09:59:02.844305",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by truth_telling_dave is a video, likely a reel, where he is talking to the camera. He is indoors, wearing a white t-shirt. Behind him on the wall is a square clock. The post caption reads \"Happy daylight saving time!\" with a smiling face emoji.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a meme featuring a man with a digitally added wolf head superimposed over a background of Earth from space. The text on the image reads, \"Me choosing to reincarnate on Earth and then realizing I should have checked the reviews for this shitshow first.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by truth_telling_dave shows a video or image of a beach with small waves. The text overlay says \"Love these little guys.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screen capture of an Instagram post by \"truth_telling_dave.\" The post features a video of a beach scene with waves and ducks swimming. The caption says, \"It's the little things like this that I'm most appreciative for.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by truth_telling_dave featuring a vibrant sunset over a body of water with a rocky breakwater in the foreground. The caption reads \"Crazy sunset today 2 of 2.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a photo of a beach at sunset. There are buildings in the background and a fence separating the walkway from the sand. The caption says \"Beautiful sunset today, part 1 of 2.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Reincarnation and existential humor: You could ask about their thoughts on reincarnation or share a similar humorous take on life's challenges.",
+          "2. Meme creation/editing: You could ask about the software they used to create the meme or share your own experiences with meme creation.",
+          "1.  **The location of the beach:** Asking about the specific beach or location where the video/image was taken.",
+          "2.  **What \"little guys\" the post is referring to:** Inquire about what the user meant by \"little guys.\" Are they referring to the waves, crabs, or something else?",
+          "1.  **Nature/Wildlife:** You could ask about the specific location of the beach or inquire about the type of ducks in the video."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post, I liked the clock in the background! 🕰️",
+        "profile_bio": {
+          "PERSON NAME": "Dave (Likely)",
+          "INTERESTS": [
+            "Nature (especially beaches and sunsets)",
+            "Humor (especially existential and self-deprecating)",
+            "Wildlife (ducks, possibly other coastal creatures)",
+            "Photography/Videography (capturing scenic moments)",
+            "Meme Creation/Sharing"
+          ],
+          "LIFESTYLE": "Likely someone who appreciates the simple things in life, enjoys spending time outdoors (especially at the beach), and has a good sense of humor. May live near the coast. Profession is Unknown, but likely has time to observe and appreciate sunsets and wildlife.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite beach to visit and why?",
+            "What inspired you to create that reincarnation meme?",
+            "What kind of ducks were those in your beach video?",
+            "What do you find most calming about watching the waves?",
+            "What's your favorite thing about living near the coast?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Appreciative",
+            "Humorous",
+            "Observant",
+            "Contemplative"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Reincarnation and existential humor: You could ask about their thoughts on reincarnation or share a similar humorous take on life's challenges.",
+        "2. Meme creation/editing: You could ask about the software they used to create the meme or share your own experiences with meme creation.",
+        "1.  **The location of the beach:** Asking about the specific beach or location where the video/image was taken.",
+        "2.  **What \"little guys\" the post is referring to:** Inquire about what the user meant by \"little guys.\" Are they referring to the waves, crabs, or something else?",
+        "1.  **Nature/Wildlife:** You could ask about the specific location of the beach or inquire about the type of ducks in the video."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

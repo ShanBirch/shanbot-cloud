@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T09:41:43.994294",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T09:41:26.847530",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by luizpaulolimaoficial showcasing hair extensions. The post shows the back of a person's head with hair extensions being installed. The hair is brown, and the extensions are attached close to the scalp. There are clips holding sections of the hair in place. Vegjanna has commented on the post twice, complimenting the work.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a woman with short brown hair and bangs. She is wearing a black top and gold jewelry. There is a tattoo visible on her chest.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of someone getting their hair done, likely receiving extensions. The post is by a hairstylist, Luizpaulolimaoficial, and vegjanna is tagged as doing the makeup.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a woman and a child, presumably her son, smiling at the camera. The woman appears to be physically fit, possibly indicating an interest in fitness. The caption \"Meu Bibi amado!\" translates to \"My beloved Bibi!\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman with long blonde hair, presumably after a hair treatment. She is holding up papers with the brand name \"L'ARRËE\" on them, suggesting she is at a salon or has just had her hair done. The hashtags in the post include \"#hair #loiroblumenau #salaoblumenau #blumenau #cabelosblumenau #blond #loiro #cabelos #cabeleireiroblumenau\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman with a stylish purple-toned ponytail. The post is by luizpaulolimaoficial, a hair designer, and vegjanna is tagged as doing the makeup. Vegjanna also commented on the post with positive feedback.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Hair/Beauty: Compliment her hairstyle or ask about her beauty routine.",
+          "2.  Tattoos: Inquire about the meaning or story behind her tattoo.",
+          "1. Makeup: Since vegjanna is tagged for doing the makeup, you could ask about her favorite makeup products or techniques.",
+          "2. Hair Extensions: You could ask about her experience with hair extensions, if she has them herself, or what she thinks of the overall look.",
+          "1.  Family: Commenting on the child and the bond between them. \"He's adorable! How old is he?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! I saw your latest post where you complimented luizpaulolimaoficial's hair extensions. You are always so supportive of other artists! ✨",
+        "profile_bio": {
+          "PERSON NAME": "Vegjanna (Full name Unknown)",
+          "INTERESTS": [
+            "Hair and Beauty (especially hair extensions and blonde hair)",
+            "Makeup artistry",
+            "Family (especially her son)",
+            "Fitness (implied by physical appearance)",
+            "Fashion and Style"
+          ],
+          "LIFESTYLE": "Likely a makeup artist, possibly working in collaboration with hairstylists. She appears to live in or near Blumenau, Brazil, and is a mother. She seems to prioritize her appearance and enjoys beauty treatments.",
+          "CONVERSATION STARTERS": [
+            "I love your hair! What products do you use to keep it looking so healthy?",
+            "That purple ponytail you did makeup for was stunning! What kind of look were you going for?",
+            "Your son is adorable! How old is he?",
+            "I noticed you've worked with Luizpaulolimaoficial on several projects. What's it like collaborating with him?",
+            "I saw you have a tattoo. Is there a story behind it?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Positive (leaves complimentary comments)",
+            "Stylish (cares about her appearance and fashion)",
+            "Family-oriented (shows affection for her son)",
+            "Professional (works as a makeup artist)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Hair/Beauty: Compliment her hairstyle or ask about her beauty routine.",
+        "2.  Tattoos: Inquire about the meaning or story behind her tattoo.",
+        "1. Makeup: Since vegjanna is tagged for doing the makeup, you could ask about her favorite makeup products or techniques.",
+        "2. Hair Extensions: You could ask about her experience with hair extensions, if she has them herself, or what she thinks of the overall look.",
+        "1.  Family: Commenting on the child and the bond between them. \"He's adorable! How old is he?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

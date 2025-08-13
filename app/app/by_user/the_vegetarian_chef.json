@@ -1,0 +1,65 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 4,
+      "user_messages": 2,
+      "ai_messages": 2,
+      "ai_questions": 1,
+      "ai_statements": 1,
+      "user_responses_to_ai_question": 1,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T16:49:13.355865",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 3996.140269,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-14T06:49:13.354558+00:00",
+          "type": "user",
+          "text": "Thanks 🙏 got another one coming upHappy to share when I get the flyer together, do you live in London"
+        },
+        {
+          "timestamp": "2025-04-14T06:49:13.498969+00:00",
+          "type": "ai",
+          "text": "nah im in Melbourne aus! You doing an event in London?"
+        },
+        {
+          "timestamp": "2025-04-14T07:56:03.662304+00:00",
+          "type": "user",
+          "text": "Thanks 🙏 got another one coming upHappy to share when I get the flyer together, do you live in London + Shannon: nah im in Melbourne aus! You doing an event in London? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes 🙌 wow love that you saw my post in Melbourne, absolutely ❤️ it"
+        },
+        {
+          "timestamp": "2025-04-14T07:56:03.863479+00:00",
+          "type": "ai",
+          "text": "Haha yeah wild how far posts can reach! Good on ya for the London event."
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "the_vegetarian_chef",
+      "first_message_timestamp": "2025-04-14T06:49:13.354558+00:00",
+      "last_message_timestamp": "2025-04-14T07:56:03.863479+00:00",
+      "conversation_duration_str": "1h 6m",
+      "conversation_count": 1,
+      "last_seen_timestamp": "2025-04-14T07:56:03.863479+00:00"
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

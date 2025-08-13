@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T11:07:09.132040",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T11:06:51.316226",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a black and white portrait of a woman, carmen071619, smiling broadly at the camera. She is resting her chin on her hand. She is wearing a necklace with a cross pendant. Her hair is styled, and she has a white bracelet on her wrist.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of a woman in a car. She is wearing a necklace with a tree pendant. The location is tagged as Siegen, Germany.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (presumably carmen071619) taking a mirror selfie. She's wearing athletic wear (a white tank top and gray leggings with the Gymshark logo).",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a woman with glasses, a necklace, and long hair. The caption on the image says \"Ooh, ooh, love hurts, I'm you\". The location tag indicates she is in Siegen, Germany.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of a woman wearing sunglasses, a necklace, and a white top. She is standing outside with greenery in the background. The post is tagged with her location as Siegen, Germany.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a woman in a car. She's smiling and appears to be enjoying the weather, as indicated by the caption \"Endlich richtig schönes Wetter\" which translates to \"Finally really nice weather.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Travel/Road Trips:** Since she's in a car, you could ask if she's going on a trip or if she enjoys road trips in general.",
+          "2.  **Siegen, Germany:** You could ask her about Siegen, Germany, and what it's like to live there or if she has any recommendations for things to do in the area.",
+          "1.  **Fitness:** Comment on her Gymshark leggings or ask about her workout routine.",
+          "2.  **Location:** The post is tagged with \"Siegen, Germany\". You could ask if she enjoys living there or if she has any recommendations for places to visit in the area.",
+          "1.  **Music/Lyrics:** The caption is a lyric. You could ask about her favorite music or artists, or if she wrote the lyric herself."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post was lovely, you have such a radiant smile! 😊",
+        "profile_bio": {
+          "PERSON NAME": "Carmen (Likely, based on username carmen071619)",
+          "INTERESTS": [
+            "Fitness (Gymshark apparel)",
+            "Fashion/Style (Jewelry, sunglasses, styled hair)",
+            "Music (Lyric caption)",
+            "Travel/Local Exploration (Siegen, Germany)",
+            "Photography (Selfies, portrait)"
+          ],
+          "LIFESTYLE": "Appears to live in or near Siegen, Germany. Seems to be active and enjoys fitness. Enjoys taking selfies and documenting her life. Possibly religious (cross pendant).",
+          "CONVERSATION STARTERS": [
+            "What are your favorite things to do in Siegen?",
+            "I noticed you're wearing Gymshark leggings. What's your favorite type of workout?",
+            "I love the necklace you're wearing! Where did you get it?",
+            "What kind of music do you enjoy? I saw you used a lyric in one of your captions.",
+            "Do you enjoy road trips? Any favorite destinations?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Positive (Smiling in most photos)",
+            "Stylish (Attention to fashion and appearance)",
+            "Active (Fitness-related content)",
+            "Expressive (Uses captions and location tags)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Travel/Road Trips:** Since she's in a car, you could ask if she's going on a trip or if she enjoys road trips in general.",
+        "2.  **Siegen, Germany:** You could ask her about Siegen, Germany, and what it's like to live there or if she has any recommendations for things to do in the area.",
+        "1.  **Fitness:** Comment on her Gymshark leggings or ask about her workout routine.",
+        "2.  **Location:** The post is tagged with \"Siegen, Germany\". You could ask if she enjoys living there or if she has any recommendations for places to visit in the area.",
+        "1.  **Music/Lyrics:** The caption is a lyric. You could ask about her favorite music or artists, or if she wrote the lyric herself."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T11:40:20.343947",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T11:40:01.479643",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post by 7healthydays, commemorating \"World No Tobacco Day.\" The post features a graphic with a yellow background. A stylized cigarette is depicted with a red circle and diagonal line through it, symbolizing \"no tobacco.\" The cigarette has a white body and a dark gray, jagged end representing the burning tobacco. Below the graphic, the text \"MONDAY MAY 31, 2021 Memorial Day\" is displayed on a green, textured banner. The post's caption includes a reflection on the history of tobacco awareness and poses two questions related to quitting smoking and parallels with other modern addictions like sugar and fast food.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman smelling a pink rose in her garden. The post mentions gardening, roses, tulips, vegetable gardens, and attracting bees for pollination.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vibrant garden with California poppies in full bloom, set in a residential neighborhood. The post is captioned \"Happier Easter & Happy Spring!!\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of a Zoom meeting for a fitness class. Participants are shown in individual video feeds, lifting weights. The post describes the anniversary of the online classes and mentions a \"Low Impact Cardio and Strength\" class.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a table laden with various plant-based dishes, likely at a potluck event. There are salads, waffles, wraps, and other healthy-looking food items.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman sitting outside, holding a cup (likely coffee or tea), with a scenic view of mountains and water in the background. The post is about health and wellness.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Gardening tips: Ask about her experience with growing roses or vegetable gardens, or share your own gardening experiences.",
+          "2. Favorite flowers: Ask her more about why she likes tulips, or share your own favorite flowers and why you like them.",
+          "1. **Gardening/Flowers:** Commenting on the specific type of flowers (California poppies), asking about gardening tips, or sharing personal experiences with gardening.",
+          "2. **Spring/Easter:** Continuing the theme of the post by discussing favorite spring activities or Easter traditions.",
+          "1.  **Online Fitness/Zoom Classes:** You could ask about their experience with online fitness classes, what they like about them, or if they have tried other types of online workouts."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Gardening (especially roses, tulips, and vegetable gardens)",
+            "Health and Wellness",
+            "Plant-Based Food and Healthy Eating",
+            "Fitness (especially low-impact cardio and strength training)",
+            "Spring and Seasonal Celebrations"
+          ],
+          "LIFESTYLE": "Likely leads a healthy and active lifestyle, incorporating gardening, plant-based eating, and online fitness classes into their routine. Appears to value wellness and enjoys spending time outdoors. Possibly involved in community events like potlucks.",
+          "CONVERSATION STARTERS": [
+            "What are your best tips for growing roses?",
+            "I'm trying to incorporate more plant-based meals into my diet. Do you have any favorite recipes?",
+            "Have you always enjoyed online fitness classes, or did you start during the pandemic?",
+            "What are your favorite things about spring?",
+            "I noticed you mentioned attracting bees for pollination. What are some of the best plants to attract them?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Nature-loving",
+            "Community-oriented",
+            "Positive and celebratory"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Gardening tips: Ask about her experience with growing roses or vegetable gardens, or share your own gardening experiences.",
+        "2. Favorite flowers: Ask her more about why she likes tulips, or share your own favorite flowers and why you like them.",
+        "1. **Gardening/Flowers:** Commenting on the specific type of flowers (California poppies), asking about gardening tips, or sharing personal experiences with gardening.",
+        "2. **Spring/Easter:** Continuing the theme of the post by discussing favorite spring activities or Easter traditions.",
+        "1.  **Online Fitness/Zoom Classes:** You could ask about their experience with online fitness classes, what they like about them, or if they have tried other types of online workouts."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

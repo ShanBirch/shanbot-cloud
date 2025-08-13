@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T12:57:30.878161",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T12:57:09.849641",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a young man, presumably pawan_jha_66, standing outdoors in a grassy area. He is wearing a dark plaid shirt, dark jeans, and light-colored sneakers. He has his hand in his pocket and is looking directly at the camera. There is a red marking on his forehead. The background features trees and a building in the distance.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a young man with a tilak on his forehead and a wireless earbud in his ear. He is wearing a yellow shirt. The caption includes \"#jaishreeram\" and several religious emojis. His location is listed as Faridabad Smart City.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a young man, presumably Pawan Jha, posing outdoors in front of a building. He's wearing a red and blue checkered shirt and jeans.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a young man with a tilak on his forehead. He's wearing a maroon shirt and a Rakhi bracelet on his wrist. The photo was taken with a Vivo Y15 phone.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a young man wearing a blue and white plaid shirt. He has a red mark on his forehead. The background appears to be outdoors, possibly a balcony or veranda.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A close-up selfie of a young man with a blurred green background.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Religion/Spirituality: Given the \"#jaishreeram\" hashtag and religious emojis, a conversation could be started about his faith or beliefs.",
+          "2. Faridabad: He lists his location as Faridabad Smart City, so asking about his experience living there could be a good conversation starter.",
+          "1. Fashion/Style: Comment on his shirt or overall style. \"That's a cool shirt! Where did you get it?\"",
+          "2. Location: Ask about the location of the photo. \"Is that NIT 3? What's it like there?\"",
+          "1. Rakhi: Comment on the Rakhi bracelet and ask if he celebrated Raksha Bandhan recently."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You looked really confident in that shot. 👍",
+        "profile_bio": {
+          "PERSON NAME": "Pawan Jha",
+          "INTERESTS": [
+            "Religion/Spirituality (Hinduism)",
+            "Fashion/Style (Casual)",
+            "Photography (Selfies)",
+            "Local Area (Faridabad)",
+            "Technology (Vivo Y15, Wireless Earbuds)"
+          ],
+          "LIFESTYLE": "Appears to be a young man living in or around Faridabad, India. He seems to be religious and enjoys taking selfies in various outdoor locations. He likely uses his phone and wireless earbuds regularly.",
+          "CONVERSATION STARTERS": [
+            "I noticed you're in Faridabad Smart City. What's it like living there?",
+            "That's a cool shirt! Where did you get it?",
+            "I saw your post with #jaishreeram. Do you celebrate many Hindu festivals?",
+            "Is that NIT 3 in one of your photos? What's it like there?",
+            "I saw you were wearing a Rakhi bracelet. Did you celebrate Raksha Bandhan recently?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Religious/Spiritual",
+            "Self-Confident (Takes many selfies)",
+            "Social (Active on Instagram)",
+            "Fashion-conscious (Pays attention to his appearance)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Religion/Spirituality: Given the \"#jaishreeram\" hashtag and religious emojis, a conversation could be started about his faith or beliefs.",
+        "2. Faridabad: He lists his location as Faridabad Smart City, so asking about his experience living there could be a good conversation starter.",
+        "1. Fashion/Style: Comment on his shirt or overall style. \"That's a cool shirt! Where did you get it?\"",
+        "2. Location: Ask about the location of the photo. \"Is that NIT 3? What's it like there?\"",
+        "1. Rakhi: Comment on the Rakhi bracelet and ask if he celebrated Raksha Bandhan recently."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

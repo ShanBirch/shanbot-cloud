@@ -1,0 +1,127 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 1,
+      "user_messages": 0,
+      "ai_messages": 1,
+      "ai_questions": 1,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": true,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-13T19:48:41.458601",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-14T07:10:08.268510+00:00",
+          "type": "ai",
+          "text": "Hey! Just came across your profile. What's been keeping you busy lately? 😊"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "aligned_rebel720",
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T06:46:34.430273",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post by aligned_rebel720. The post shows a young boy, presumably one of the twins mentioned in the caption, standing indoors. He is wearing a red polo shirt, distressed jeans with patches, and black shoes. He is making a peace sign with both hands. Behind him are a white door, a staircase with white risers and wooden treads, and light gray wood-look flooring. The caption mentions the twins' 11th birthday and the hashtag #RobersonTribe.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The post is a tribute to aligned_rebel720's aunt on her birthday, expressing love and appreciation. The image is a close-up photo of the aunt.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a throwback photo of the Instagram user, aligned_rebel720, as a young child being held by their mother. The post is a birthday tribute to their mother who has passed away. The caption reflects on the impact their mother had on their life, including providing life skills, inspiration, and guiding them on a holistic journey of self-knowledge.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a throwback photo of a young child, presumably the person's daughter Eryn, celebrating her 12th birthday. The caption expresses love and admiration for her.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black and white photograph of Noble Drew Ali. The post is celebrating his birthday and a \"Moorish Christmas.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man wearing a hard hat and safety vest, suggesting he works in construction or a similar field. He is also wearing a necklace with an Ankh pendant.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Family/Relationships:** Ask about other influential family members or the importance of family in their life.",
+          "2.  **Memories of Aunt Bobbie:** Inquire about a specific fond memory they have of their aunt or a lesson she taught them. (Proceed with sensitivity and respect.)",
+          "1.  **The importance of family and legacy:** The post highlights the user's deep connection with their mother and the impact she had on their life. A conversation could start by acknowledging the beautiful tribute and then asking about specific lessons or values their mother instilled in them that they still carry with them today.",
+          "2.  **The \"holistic journey\" of self-knowledge:** The user mentions being on a path of self-discovery and breaking generational curses. This could be a starting point to discuss their interests in holistic practices, self-improvement, or overcoming challenges. You could ask about what sparked this journey and what they've learned along the way.",
+          "1.  **Parenting/Children:** Ask about Eryn's interests or hobbies now that she's 12."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: aligned_rebel720)",
+          "INTERESTS": [
+            "Family (especially children and honoring ancestors)",
+            "Moorish Science/Noble Drew Ali",
+            "Holistic Wellness/Self-Knowledge",
+            "Construction/Trades (potentially)",
+            "Fashion (evident in the children's clothing)"
+          ],
+          "LIFESTYLE": "Likely a parent of twins and a daughter named Eryn. Appears to be involved in construction or a related trade. Values family, heritage, and personal growth. Actively remembers and honors deceased family members.",
+          "CONVERSATION STARTERS": [
+            "I noticed your post about Noble Drew Ali. What aspects of Moorish Science resonate with you the most?",
+            "Your tribute to your mother was very touching. What's one of the most important lessons she taught you?",
+            "Your twins are getting so big! What are they into these days?",
+            "I saw the photo of you in the hard hat. What kind of work do you do?",
+            "You mentioned a holistic journey of self-knowledge. What practices or philosophies have been most helpful to you on that path?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Family-oriented",
+            "Reflective/Introspective",
+            "Proud of their heritage",
+            "Hardworking"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Family and Relationships:** \"I saw your post about your aunt. It sounds like she was a very special person. What's your favorite memory of her?\" (This is a sensitive topic, so approach with empathy.)",
+        "2.  **Lessons Learned:** \"You mentioned the lessons your aunt taught you. What's one lesson that has stuck with you the most?\"",
+        "1.  **Family and Memories:** \"Your post about your mom was so touching. What's one of your favorite memories of her?\"",
+        "2.  **Personal Growth/Holistic Journey:** \"I noticed you mentioned a 'Holistic Journey' in your post. Could you tell me more about what that means to you and how it's impacted your life?\"",
+        "1.  Parenting/Childhood: Asking about the challenges and joys of raising a child, especially as they grow into their teenage years."
+      ],
+      "conversation_count": 1,
+      "last_seen_timestamp": "2025-04-14T07:10:08.268510+00:00",
+      "first_message_timestamp": "2025-04-14T07:10:08.268510+00:00",
+      "last_message_timestamp": "2025-04-14T07:10:08.268510+00:00",
+      "conversation_duration_str": "0m"
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

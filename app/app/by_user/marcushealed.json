@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T18:07:22.688285",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T18:07:04.476131",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of Marcus Healed. He is looking at the camera with a slight smile. The word \"SMILE\" is superimposed in large letters on the bottom left corner of the image. He has dreadlocks and is wearing a black t-shirt with a yellow design. The background is slightly blurred and includes a sign with \"& Vegan\" visible. The post's caption encourages smiling as a way to attract friends.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by marcus.healed promoting \"Healthy=Wholeness LLC.\" It features a QR code with a small dinosaur graphic embedded in it, along with the word \"Support\" and related hashtags like #prayer, #hope, #faith, #wholeness, #health, #healthylifestyle, #teaching, #coach, #healthcoach, #wholenesscoach, #support, #qrcode, #qrcodes, #healed, and #journey.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of a man with dreadlocks wearing a colorful patterned shirt and beaded jewelry. He's smiling and wearing a mask around his chin. The caption talks about the story behind smiles and frowns and mentions fashion from @galleryafrica.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a box of RYZE superfoods coffee next to a Vitamix blender. The caption mentions enjoying the coffee and includes hashtags related to coffee, energy, gut health, and mushrooms.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by marcus.healed. It features a meme of a man with a serious expression, captioned \"Why are people looking at me. I am smiling.\" The post also includes the caption \"Pray for me. My face.\" and the hashtags #fixitjesus #inmymind #myface #donttakeitpersonal.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan bagel sandwich with \"No Steak, Eggs & Cheese Bagel\" and \"Jerk Mushroom Wrap\" written on it. The user tagged @huecafeandapothecary in the caption, praising the food and atmosphere.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **The QR Code/Website:** \"I noticed you're using a QR code to direct people to your website. What kind of resources or information can people find there?\"",
+          "2.  **The Dinosaur Graphic:** \"I thought the little dinosaur in the QR code was a fun touch! Is there a particular reason you chose that graphic?\"",
+          "1.  **Fashion/Style:** Comment on his shirt or jewelry, asking where he got them or complimenting his style. Since he mentioned @galleryafrica, you could ask if he shops there often or what he likes about their fashion.",
+          "2.  **Dreadlocks:** His hashtag #menwithlocs suggests he's proud of his hairstyle. You could compliment his dreadlocks or ask about his hair care routine.",
+          "1.  RYZE Coffee: Ask about their experience with RYZE coffee, such as the taste, benefits they've noticed, or if they have any favorite recipes using it."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Marcus Healed",
+          "INTERESTS": [
+            "Health & Wellness (especially holistic approaches)",
+            "Veganism/Plant-Based Lifestyle",
+            "Spirituality/Faith (prayer, hope)",
+            "Coaching/Teaching (health & wholeness)",
+            "Fashion/Style (African-inspired)"
+          ],
+          "LIFESTYLE": "Marcus appears to be a health and wholeness coach, possibly running his own business (Healthy=Wholeness LLC). He promotes a healthy lifestyle through veganism, superfoods like RYZE coffee, and spiritual practices. He also expresses an interest in fashion and self-expression through his clothing and hairstyle.",
+          "CONVERSATION STARTERS": [
+            "I noticed you're using a QR code to direct people to your website. What kind of resources or information can people find there?",
+            "I thought the little dinosaur in the QR code was a fun touch! Is there a particular reason you chose that graphic?",
+            "I love your shirt! Is that from @galleryafrica? What do you like about their fashion?",
+            "Your dreadlocks look great! Do you have a specific hair care routine you follow?",
+            "I'm curious about RYZE coffee. What benefits have you noticed since you started drinking it, and do you have any favorite recipes?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Positive/Optimistic (promotes smiling)",
+            "Spiritual/Faith-Based (mentions prayer, faith, Jesus)",
+            "Entrepreneurial/Driven (runs Healthy=Wholeness LLC)",
+            "Self-Aware/Humorous (posts about his facial expressions)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **The QR Code/Website:** \"I noticed you're using a QR code to direct people to your website. What kind of resources or information can people find there?\"",
+        "2.  **The Dinosaur Graphic:** \"I thought the little dinosaur in the QR code was a fun touch! Is there a particular reason you chose that graphic?\"",
+        "1.  **Fashion/Style:** Comment on his shirt or jewelry, asking where he got them or complimenting his style. Since he mentioned @galleryafrica, you could ask if he shops there often or what he likes about their fashion.",
+        "2.  **Dreadlocks:** His hashtag #menwithlocs suggests he's proud of his hairstyle. You could compliment his dreadlocks or ask about his hair care routine.",
+        "1.  RYZE Coffee: Ask about their experience with RYZE coffee, such as the taste, benefits they've noticed, or if they have any favorite recipes using it."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

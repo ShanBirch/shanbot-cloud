@@ -1,0 +1,55 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 2,
+      "user_messages": 1,
+      "ai_messages": 1,
+      "ai_questions": 1,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": true,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T06:12:06.168863",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-13T20:12:06.166880+00:00",
+          "type": "user",
+          "text": "Hiii! Honestly I don’t think they made a huge difference haha they do serve a little purpose but not that much, tho maybe I’m just not giving them that much use"
+        },
+        {
+          "timestamp": "2025-04-13T20:12:06.235602+00:00",
+          "type": "ai",
+          "text": "Haha fair enough! Some props are like that hey. What else you been up to today?"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "activebywhit",
+      "first_message_timestamp": "2025-04-13T20:12:06.166880+00:00",
+      "last_message_timestamp": "2025-04-13T20:12:06.235602+00:00",
+      "conversation_duration_str": "0m",
+      "conversation_count": 1,
+      "last_seen_timestamp": "2025-04-13T20:12:06.235602+00:00"
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

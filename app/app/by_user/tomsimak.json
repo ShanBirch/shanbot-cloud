@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T11:43:12.042384",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T11:42:50.157773",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a man, presumably tomsimak, running in a cross-country race through a wooded area. He is wearing a black t-shirt, grey shorts, a hydration pack, and a race bib with the number 4495. The background features trees and foliage, indicating a trail running environment.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by tomsimak is a carousel of images. The images include a woman in a pool, a woman at a restaurant with a cocktail, a can of OK sparkling water with a croissant and coffee, and a sign for the Noosa Trail. The caption says \"Pretty sweet start to the year\" and includes the hashtag #CoolumBeach.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (tomsimak) standing at the finish line of the Noosa Ultra-Trail race. He is wearing a race bib and a medal, and the background shows the race banner and some spectators. He mentions in the caption that the race was muddy and wet.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person (likely tomsimak) sitting on a wooden railing overlooking a beach at sunrise or sunset. They are wearing a \"Wild Blue\" shirt and appear to be drinking from a container. The post mentions running the Noosa Ultra Trail and Yandina Five O races, and using minimalist footwear.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person walking on a wooden pier towards a beach with turquoise water and palm trees in the Maldives. The caption mentions \"that blue water\" and includes hashtags #Maldives, #MaldivesIslands, and #Travel.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by @tomsimak features a collage of images, including a view of Singapore's skyline with the Marina Bay Sands, a video of the poster walking on a rainy day, an image of the Gardens by the Bay Supertrees, and other miscellaneous images. The caption indicates the images are from past travels in Singapore.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Travel/Coolum Beach: \"I saw you were in Coolum Beach! I've always wanted to go. What was your favorite part?\"",
+          "2. Food/Drink: \"That cocktail looked delicious! What kind was it?\" or \"I noticed the OK sparkling water in one of your photos. Have you tried other flavors?\"",
+          "1.  **The Noosa Ultra-Trail race:** You could ask about his experience in the race, the challenges he faced, or his training regimen.",
+          "2.  **Running/Trail Running:** You could ask about his favorite running trails, his experience with other races, or general tips for trail running.",
+          "1.  **Running/Trail Running:** Ask about their experience with the Noosa Ultra Trail or Yandina Five O races, or about their training regimen."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! Looked like a great run! 🏃",
+        "profile_bio": {
+          "PERSON NAME": "Tom Simak (likely)",
+          "INTERESTS": [
+            "Trail Running/Ultra Running (especially Noosa Ultra-Trail)",
+            "Travel (Coolum Beach, Maldives, Singapore)",
+            "Minimalist Footwear",
+            "Food & Drink (cocktails, coffee, sparkling water)",
+            "Outdoor Activities"
+          ],
+          "LIFESTYLE": "Appears to be an active individual who enjoys trail running, traveling, and exploring new places. Likely prioritizes health and wellness, as evidenced by the running and hydration pack. Seems to enjoy a balance of physical activity and relaxation, as shown by the beach and cocktail photos.",
+          "CONVERSATION STARTERS": [
+            "What was your experience like running the Noosa Ultra-Trail? What were the biggest challenges?",
+            "I saw you were in Coolum Beach! I've always wanted to go. What was your favorite part?",
+            "I noticed the OK sparkling water in one of your photos. Have you tried other flavors?",
+            "What are some of your favorite running trails, and do you have any tips for someone just getting into trail running?",
+            "I'm curious about your experience with minimalist footwear. What are the pros and cons you've found?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Active/Fit",
+            "Enjoys the Outdoors",
+            "Balanced (active and relaxed)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Travel/Coolum Beach: \"I saw you were in Coolum Beach! I've always wanted to go. What was your favorite part?\"",
+        "2. Food/Drink: \"That cocktail looked delicious! What kind was it?\" or \"I noticed the OK sparkling water in one of your photos. Have you tried other flavors?\"",
+        "1.  **The Noosa Ultra-Trail race:** You could ask about his experience in the race, the challenges he faced, or his training regimen.",
+        "2.  **Running/Trail Running:** You could ask about his favorite running trails, his experience with other races, or general tips for trail running.",
+        "1.  **Running/Trail Running:** Ask about their experience with the Noosa Ultra Trail or Yandina Five O races, or about their training regimen."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

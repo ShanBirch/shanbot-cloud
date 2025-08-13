@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T11:57:16.119297",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T11:56:53.280899",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a selfie of two people, presumably a couple, standing outdoors. The person on the left has blonde hair pulled back, is wearing a light-colored t-shirt and a delicate necklace. The person on the right has short brown hair, is wearing a grey polo shirt and a baseball cap. Lush greenery is visible in the background, suggesting they are in a natural setting.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two people, likely celebrating a birthday. There's a birthday cake with candles that appear to say \"24\" and a large illuminated letter \"E\". The location seems to be a restaurant in Melbourne, Victoria, Australia.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two women taking a mirror selfie. The caption mentions a \"birthday getaway.\" The location is tagged as Mitchelton Wines.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person hugging a horse in a field. The person is wearing a black hoodie with \"ELITE ELEVEN\" written on it. The horse is brown and has a blanket on. The background shows a green field with trees and a cloudy sky.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a blonde woman with long hair, wearing a black top and a necklace with a letter \"E\" pendant. She is sticking her tongue out and smiling.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a young woman with blonde hair wearing a white hoodie, sitting in what appears to be a car. She is sticking her tongue out playfully. The caption says \"Life's most recent ✨\".",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Birthday Celebrations:** \"That birthday cake looks delicious! What's your favorite kind of cake?\"",
+          "2. **Melbourne:** \"I saw you're in Melbourne. Have you been to [popular Melbourne attraction]? I've always wanted to go.\"",
+          "1. Mitchelton Wines: You could ask about their experience at Mitchelton Wines, what they enjoyed, or if they'd recommend it.",
+          "2. Birthday Getaway: You could ask about the getaway in general, where they went, or what they did for the birthday celebration.",
+          "1.  Horses: \"Your horse is beautiful! What's their name and what kind of riding do you enjoy doing with them?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post looked like an amazing adventure! 🤩",
+        "profile_bio": {
+          "PERSON NAME": "Elly Martinek (likely)",
+          "INTERESTS": [
+            "Travel (especially getaways)",
+            "Wine (Mitchelton Wines)",
+            "Horses/Equestrian Activities",
+            "Celebrating Birthdays",
+            "Melbourne, Australia"
+          ],
+          "LIFESTYLE": "Appears to enjoy travel and leisure activities, particularly related to wine and horses. Likely lives in or frequently visits Melbourne, Australia. Seems to value relationships and celebrating special occasions with loved ones. The 'Elite Eleven' hoodie suggests possible involvement in sports or a team.",
+          "CONVERSATION STARTERS": [
+            "I saw you celebrated your birthday in Melbourne! What's your favorite thing to do there?",
+            "Your trip to Mitchelton Wines looked amazing! What was your favorite wine you tasted?",
+            "Your horse is beautiful! What's their name and what kind of riding do you enjoy doing with them?",
+            "I noticed you were wearing an 'Elite Eleven' hoodie. Are you involved in any sports or teams?",
+            "What was the highlight of your birthday getaway?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Fun-loving (sticking tongue out in selfies)",
+            "Social (celebrating with others, posting couple photos)",
+            "Adventurous (traveling, trying new things)",
+            "Animal Lover (especially horses)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Birthday Celebrations:** \"That birthday cake looks delicious! What's your favorite kind of cake?\"",
+        "2. **Melbourne:** \"I saw you're in Melbourne. Have you been to [popular Melbourne attraction]? I've always wanted to go.\"",
+        "1. Mitchelton Wines: You could ask about their experience at Mitchelton Wines, what they enjoyed, or if they'd recommend it.",
+        "2. Birthday Getaway: You could ask about the getaway in general, where they went, or what they did for the birthday celebration.",
+        "1.  Horses: \"Your horse is beautiful! What's their name and what kind of riding do you enjoy doing with them?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

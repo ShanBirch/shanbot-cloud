@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T17:02:03.258520",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T17:01:45.348590",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a black and white selfie of a woman with long eyelashes and a pearl earring. She has her hand gently touching her face, and a tattoo is visible on her wrist.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by veganism_is_magic_. It features a hand holding a small black sign with the quote \"It is the soul that is hungry, not the body.\" The caption includes hashtags related to veganism, soul healing, and conscious living.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black and white photo of a person standing in the ocean. In the background are islands and the sky is filled with clouds. The post is tagged with #worldoceansday, #australianbeach, and other related hashtags.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a hand holding a black sign with the quote \"2020 is the most important year of them all.\" The background is blurred greenery. The post includes hashtags related to growth, spiritual awakening, change, veganism, equality, and social justice.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black square with a white heart drawn on it. The post includes the hashtag #blackouttuesday and several hashtags related to justice for George Floyd and the Black Lives Matter movement, as well as hashtags related to veganism and personal growth.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a hand holding a sign with the quote \"Don't just raise your kids to survive in this world, raise them to change it.\" The post is by an Instagram user named \"veganism_is_magic_\" and includes hashtags related to parenting, social justice, veganism, and being the change.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Veganism and its connection to soul/spiritual well-being:** The post emphasizes the soul's hunger rather than the body's. You could ask them how they connect veganism to their spiritual or emotional well-being.",
+          "2.  **Soul healing practices:** The hashtags include #soulhealing and #soulgrowth. You could ask them about their favorite soul healing practices or resources.",
+          "1.  **Ocean Conservation:** The post is tagged with several conservation-related hashtags. You could ask about their involvement in ocean conservation efforts or their thoughts on specific environmental issues affecting oceans.",
+          "2.  **Travel/Australia:** The photo appears to be taken in Australia. You could ask about their favorite travel destinations in Australia or their experiences with vegan food options while traveling.",
+          "1. **Veganism:** The username and hashtags (#vegan, #vegangirl, #veganblogger, #vegansworldwide) clearly indicate an interest in veganism. You could ask about their favorite vegan recipes, restaurants, or resources."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism (food, ethics, lifestyle)",
+            "Soul Healing & Spiritual Growth",
+            "Social Justice & Equality",
+            "Ocean Conservation",
+            "Conscious Parenting"
+          ],
+          "LIFESTYLE": "Likely a vegan advocate and blogger/influencer focused on conscious living and social justice. Appears to be interested in travel, particularly to coastal areas like Australia. Possibly a parent.",
+          "CONVERSATION STARTERS": [
+            "I noticed your post about the soul's hunger. How do you personally connect veganism to your spiritual well-being?",
+            "What are some of your favorite soul healing practices or resources that you find helpful?",
+            "Your ocean photo is beautiful! What are your thoughts on the most pressing environmental issues affecting our oceans today?",
+            "I saw you've posted about raising children to change the world. What are some practical ways you try to instill those values in your own life/children?",
+            "What are some of your go-to vegan recipes or restaurants that you would recommend?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Compassionate",
+            "Spiritual",
+            "Activist/Advocate",
+            "Introspective"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Veganism and its connection to soul/spiritual well-being:** The post emphasizes the soul's hunger rather than the body's. You could ask them how they connect veganism to their spiritual or emotional well-being.",
+        "2.  **Soul healing practices:** The hashtags include #soulhealing and #soulgrowth. You could ask them about their favorite soul healing practices or resources.",
+        "1.  **Ocean Conservation:** The post is tagged with several conservation-related hashtags. You could ask about their involvement in ocean conservation efforts or their thoughts on specific environmental issues affecting oceans.",
+        "2.  **Travel/Australia:** The photo appears to be taken in Australia. You could ask about their favorite travel destinations in Australia or their experiences with vegan food options while traveling.",
+        "1. **Veganism:** The username and hashtags (#vegan, #vegangirl, #veganblogger, #vegansworldwide) clearly indicate an interest in veganism. You could ask about their favorite vegan recipes, restaurants, or resources."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,22 @@
+{
+  "metrics": {
+    "ig_username": "mayouvegan",
+    "conversation_history": [
+      {
+        "timestamp": "2025-07-02T07:55:10.059414+00:00",
+        "type": "user",
+        "text": "Hey hey !😊 I'm good thanks, and you ? Love yours too !!! I have been on the vegetarism/vegetalism path for 11 years and vegan for 6 years ! What about you ?"
+      },
+      {
+        "timestamp": "2025-07-02T07:55:10.059414+00:00",
+        "type": "ai",
+        "text": "Yeah good thanks! Veggie since birth. 6 years vegan is solid! How's it going?"
+      }
+    ],
+    "first_message_timestamp": "2025-07-02T07:55:10.059414+00:00",
+    "total_messages": 2,
+    "ai_messages": 1,
+    "user_messages": 1,
+    "last_message_timestamp": "2025-07-02T07:55:10.059414+00:00"
+  }
+}

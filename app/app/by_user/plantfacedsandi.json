@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T20:37:21.628822",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T20:37:02.174352",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows three people standing in front of a black van in what appears to be a parking lot. The person on the left is wearing a white t-shirt with \"NY 89\" printed on it, white sweatpants with \"Billie\" airbrushed in pink on the leg, and white sneakers. The person in the middle is wearing a black zip-up jacket, black sweatpants with \"Billie\" airbrushed in pink on the leg, and white sneakers. The person on the right is wearing a black long-sleeved shirt, black sweatpants with a red and white design, and white sneakers. All three are wearing face masks. A building with lit windows is visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a jar of Podravka plum butter and a paczki (Polish donut) filled with the plum butter. The post mentions that it's the \"best plum butter ever\" and that it was bought specifically for the paczki. The user also uses a variety of vegan-related hashtags.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a package of tortillas with a ruler printed on the packaging. The text on the package reads \"Food Service Product Only Not for Retail Sale.\" The caption says \"Don't talk to me unless your tortillas come in this package.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of homemade vegan ravioli with almond ricotta, sautéed mushrooms, and pomodoro sauce, topped with what appears to be vegan parmesan cheese.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a batch of freshly baked croissants on a wire rack. The croissants are golden brown and appear to be flaky. The caption mentions they are vegan and made with Miyoko's Creamery butter, and some have almond paste filling.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of homemade vegan noodle soup. The soup contains thick noodles, carrots, celery, and tofu. The caption mentions it's a recipe from @dannielle._.marie from 15 years ago and that it was perfect for a snowy night.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Vegan baking/cooking:** Given the vegan hashtags and the focus on a vegan-friendly treat, you could ask about other vegan recipes they enjoy or if they have any tips for vegan baking.",
+          "2. **Paczki and plum butter:** You could ask if they have tried other brands of plum butter or if they have any other favorite fillings for paczki. You could also ask about their connection to Polish culture, if any.",
+          "1. Tortilla preferences: Ask about their favorite type of tortilla or how they like to use them in meals.",
+          "2. Food packaging design: Comment on the unique packaging design and ask if they've seen any other interesting or unusual food packaging.",
+          "1. Vegan cooking and recipes: Given the homemade aspect of the dish and the use of vegan ingredients, you could ask about their favorite vegan recipes, tips for making vegan cheese, or their experience with almond ricotta."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! Those custom pants looked amazing! ✨",
+        "profile_bio": {
+          "PERSON NAME": "Sandi (Based on username 'plantfacedsandi')",
+          "INTERESTS": [
+            "Vegan Baking and Cooking",
+            "Polish Cuisine (specifically Paczki)",
+            "Unique Food Packaging",
+            "Homemade Vegan Meals",
+            "Vegan Alternatives to Traditional Foods"
+          ],
+          "LIFESTYLE": "Likely a vegan home cook and baker who enjoys creating and sharing their culinary creations. They seem to appreciate quality ingredients and unique food experiences. The photo with the van suggests possible travel or event involvement with friends, but this is speculative.",
+          "CONVERSATION STARTERS": [
+            "What are some of your go-to vegan baking tips, especially for achieving flaky textures like in your croissants?",
+            "Have you tried other brands of plum butter besides Podravka? What makes it your favorite?",
+            "That tortilla packaging is so unique! Have you come across any other interesting or unusual food packaging designs lately?",
+            "Your homemade vegan ravioli looks amazing! What's your secret to making a delicious vegan parmesan?",
+            "I saw you made a noodle soup recipe from @dannielle._.marie. Do you have any other favorite vegan recipes from online creators or cookbooks?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (evident in their cooking and baking)",
+            "Passionate (about veganism and food)",
+            "Discerning (appreciates quality ingredients and unique food experiences)",
+            "Nostalgic (referencing a 15-year-old recipe)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Vegan baking/cooking:** Given the vegan hashtags and the focus on a vegan-friendly treat, you could ask about other vegan recipes they enjoy or if they have any tips for vegan baking.",
+        "2. **Paczki and plum butter:** You could ask if they have tried other brands of plum butter or if they have any other favorite fillings for paczki. You could also ask about their connection to Polish culture, if any.",
+        "1. Tortilla preferences: Ask about their favorite type of tortilla or how they like to use them in meals.",
+        "2. Food packaging design: Comment on the unique packaging design and ask if they've seen any other interesting or unusual food packaging.",
+        "1. Vegan cooking and recipes: Given the homemade aspect of the dish and the use of vegan ingredients, you could ask about their favorite vegan recipes, tips for making vegan cheese, or their experience with almond ricotta."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

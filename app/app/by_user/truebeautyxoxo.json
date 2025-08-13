@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T13:31:40.257459",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T13:31:23.478466",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by truebeauty.xoxo contains a text overlay on an unseen image that reads \"At peace and on fire.\" The post has 16 likes and was posted on June 17, 2021. There are no comments yet.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a meme featuring Beyonce with text overlayed. The text reads, \"So you can match your shoes with your shirt but not your words with your actions? Got it.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black and white portrait of a woman with blonde hair. The caption on the image says \"I will marry the guy that emails me when I block him.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by @truebeauty.xoxo featuring a list titled \"Red Flags You Missed Explained,\" which details various warning signs in relationships, such as overlapping relationships, maintaining contact with exes, and controlling behavior.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by user \"truebeauty.xoxo\" featuring a quote about repeating patterns in relationships: \"You'll keep meeting the same person in different bodies until you learn the lesson.\" The post has no comments yet.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by @truebeauty.xoxo. The post contains text about emotionally abusive partners being attracted to a lack of boundaries and self-love, rather than an empath's \"light.\" It also mentions @lovingmeafterwe.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "*   **Beyonce:** Asking about their favorite Beyonce songs or albums.",
+          "*   **Relatability of the Meme:** Asking if they've ever experienced a situation similar to the one depicted in the meme.",
+          "1.  Humor/Dating: You could start a conversation about the humor in the post, asking if she's had any particularly persistent emailers.",
+          "2.  Relationships/Dating: You could ask her about her dating preferences or experiences.",
+          "1.  **Relationship advice/experiences:** You could ask if they've personally encountered any of the red flags listed and what their experience was like."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Relationships/Dating (especially red flags and healthy boundaries)",
+            "Self-Love and Emotional Well-being",
+            "Pop Culture (Beyonce)",
+            "Humor/Memes",
+            "Personal Growth/Learning from Past Relationships"
+          ],
+          "LIFESTYLE": "Likely someone who is interested in self-improvement and navigating relationships. They are active on social media and share content related to dating, emotional well-being, and personal growth. Their profession is unknown, but they are likely interested in helping others learn from their mistakes in relationships.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite Beyonce songs or albums?",
+            "Have you ever experienced a situation similar to the 'matching shoes with shirt' meme?",
+            "What's the most persistent (and humorous) attempt someone has made to contact you after being blocked?",
+            "What are some of the most important qualities you look for in a partner?",
+            "Have you personally encountered any of the red flags you've posted about, and what was that experience like?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Reflective/Introspective",
+            "Humorous/Witty",
+            "Empathetic/Supportive",
+            "Assertive (especially regarding boundaries)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "*   **Beyonce:** Asking about their favorite Beyonce songs or albums.",
+        "*   **Relatability of the Meme:** Asking if they've ever experienced a situation similar to the one depicted in the meme.",
+        "1.  Humor/Dating: You could start a conversation about the humor in the post, asking if she's had any particularly persistent emailers.",
+        "2.  Relationships/Dating: You could ask her about her dating preferences or experiences.",
+        "1.  **Relationship advice/experiences:** You could ask if they've personally encountered any of the red flags listed and what their experience was like."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

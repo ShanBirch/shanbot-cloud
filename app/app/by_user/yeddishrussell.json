@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T10:38:34.275093",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T10:38:13.689627",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a woman, yeddishrussell, in a gym taking a selfie. She's wearing a white t-shirt, light blue shorts, white socks, and white sneakers. She's standing with one leg slightly raised, posing in front of gym equipment.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (yeddishrussell) in a gym, performing a deadlift. The caption mentions a specific workout routine involving deadlifts, burpees, push press, power cleans, and front squats.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (yeddishrussell) taking a selfie in a gym. She is wearing workout clothes and is surrounded by gym equipment. The hashtags in the post include #legday, #bootybuilding, and #gymgirl.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (yeddishrussell) in a gym, preparing to lift a barbell with weights. The hashtags in the caption include #gymgirl, #fitnessaddict, #hustle, #lats, #keepgoing, and @peachbum.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie taken in front of a mirror. The person, yeddishrussell, is wearing a white long-sleeved shirt, brown leggings, and a brown fuzzy vest. The caption mentions #fashionstyle and #winterfashion.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (yeddishrussell) in a cowboy hat, brown shirt, and jeans, posing in a field. The caption mentions \"#country #modelshoot #naturephotography\".",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Workout routines:** You could ask about her workout routine, specifically the one mentioned in the post. For example, \"That workout looks intense! How often do you incorporate that circuit into your training?\"",
+          "2. **Strength and conditioning:** Given the hashtag #strengthandconditioning, you could ask about her goals in that area. For example, \"What are your current strength and conditioning goals? Anything you're working towards?\"",
+          "1.  **Workout routines:** Given the hashtags and the gym setting, a conversation could be started about workout routines, specifically leg day or booty building exercises. You could ask about her favorite exercises or tips for achieving similar results.",
+          "2.  **Gym recommendations/experiences:** You could ask about the gym she goes to, or ask her about her experiences with different gyms.",
+          "1. Fitness routines and goals: You could ask about her current fitness goals, her favorite exercises, or her routine for building strength."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You looked great at the gym 💪",
+        "profile_bio": {
+          "PERSON NAME": "Yeddish Russell (Likely First and Last Name from Username)",
+          "INTERESTS": [
+            "Fitness and Strength Training (Weightlifting, Deadlifts, etc.)",
+            "Gym Culture",
+            "Fashion (Winter and General Style)",
+            "Country Lifestyle/Photography",
+            "Booty Building"
+          ],
+          "LIFESTYLE": "Appears to be a fitness enthusiast who regularly works out at the gym. Also interested in fashion and enjoys spending time in nature, possibly with a connection to a country lifestyle. May be involved in modeling or photography as a hobby.",
+          "CONVERSATION STARTERS": [
+            "That deadlift workout looked intense! How often do you incorporate that circuit into your training?",
+            "What are your current strength and conditioning goals? Anything you're working towards?",
+            "I'm always looking for new leg day exercises. What are some of your favorites and any tips for seeing results?",
+            "I love your style! Where do you usually find inspiration for your outfits?",
+            "That country photoshoot looked amazing! What do you enjoy most about being in nature?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven/Motivated (Evidenced by consistent gym activity and 'hustle' hashtag)",
+            "Confident (Selfies and posing in various settings)",
+            "Stylish (Interest in fashion and curated outfits)",
+            "Active (Engaged in fitness and outdoor activities)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Workout routines:** You could ask about her workout routine, specifically the one mentioned in the post. For example, \"That workout looks intense! How often do you incorporate that circuit into your training?\"",
+        "2. **Strength and conditioning:** Given the hashtag #strengthandconditioning, you could ask about her goals in that area. For example, \"What are your current strength and conditioning goals? Anything you're working towards?\"",
+        "1.  **Workout routines:** Given the hashtags and the gym setting, a conversation could be started about workout routines, specifically leg day or booty building exercises. You could ask about her favorite exercises or tips for achieving similar results.",
+        "2.  **Gym recommendations/experiences:** You could ask about the gym she goes to, or ask her about her experiences with different gyms.",
+        "1. Fitness routines and goals: You could ask about her current fitness goals, her favorite exercises, or her routine for building strength."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

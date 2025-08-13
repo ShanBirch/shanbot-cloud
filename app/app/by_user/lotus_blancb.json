@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T12:36:23.607935",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T12:36:06.108277",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a woman standing in front of a pool. She is wearing a traditional Indian saree in shades of blue and gold, with her hands in a prayer position. The background shows a modern building with palm trees.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman standing on a beautiful white sand beach with palm trees and clear blue water. The post is tagged with hashtags related to tropical vibes, the beach, and Mauritius.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman standing on rocks near a river in a lush, green environment. She has her arms raised and appears to be enjoying the scenery. The caption includes hashtags related to rivers, paradise, and peacefulness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman standing on a balcony overlooking a tropical resort with palm trees and a beautiful sunset. Other images in the carousel show her hiking and on a boat.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a healthy-looking open-faced sandwich or toast topped with avocado, salmon, greens, and possibly an egg. The caption in French discusses adopting a colorful and balanced diet as a challenge for the year, and how it has improved their well-being.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman standing on a boat in a tropical location with turquoise water and mountainous islands in the background.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Travel: \"That beach looks incredible! Have you been to Mauritius before, or is this a new destination for you?\"",
+          "2.  Beach activities: \"Looks like the perfect day for swimming or relaxing on the beach. Do you have a favorite beach activity?\"",
+          "1. Travel/Nature: Ask about the specific location of the river and if she has any other favorite spots in the area.",
+          "2. Photography: Comment on the beauty of the photo and ask if she enjoys photography as a hobby.",
+          "1. Travel: \"That resort looks amazing! Where was this photo taken?\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Travel (especially tropical destinations and nature)",
+            "Healthy Eating and Wellness",
+            "Photography (or appreciation of beautiful scenery)",
+            "Cultural Experiences (indicated by the saree)"
+          ],
+          "LIFESTYLE": "Appears to enjoy a life that balances travel, healthy living, and appreciation for nature. Likely has the means to travel to exotic locations. May be focused on personal well-being and cultural experiences.",
+          "CONVERSATION STARTERS": [
+            "I noticed you've been to Mauritius! What was your favorite part about it?",
+            "That avocado toast looks delicious! What are some of your other favorite healthy meals?",
+            "Your photos are stunning! Do you have any tips for capturing such beautiful scenery?",
+            "I love the saree you were wearing in that photo. What is the significance of the design?",
+            "What are some of your favorite ways to find peace and tranquility in nature?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Peaceful/Serene",
+            "Health-conscious",
+            "Appreciative of beauty"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Travel: \"That beach looks incredible! Have you been to Mauritius before, or is this a new destination for you?\"",
+        "2.  Beach activities: \"Looks like the perfect day for swimming or relaxing on the beach. Do you have a favorite beach activity?\"",
+        "1. Travel/Nature: Ask about the specific location of the river and if she has any other favorite spots in the area.",
+        "2. Photography: Comment on the beauty of the photo and ask if she enjoys photography as a hobby.",
+        "1. Travel: \"That resort looks amazing! Where was this photo taken?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 14,
+      "user_messages": 7,
+      "ai_messages": 7,
+      "ai_questions": 7,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 6,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": true,
+      "question_response_rate": 0.8333333333333334,
+      "conversation_start_time": "2025-04-15T23:17:24.457059",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 37526.96155,
+      "achieved_message_milestones": [
+        10,
+        5
+      ],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": true,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-15T13:17:24.452975+00:00",
+          "type": "user",
+          "text": "Thank you very much! I just checked out your page as well. Plant based for life! 🌱💚"
+        },
+        {
+          "timestamp": "2025-04-15T13:17:24.742094+00:00",
+          "type": "ai",
+          "text": "Plant based for life! Haha yeah me too! Been veggie since birth here. How long have you been plant based for?"
+        },
+        {
+          "timestamp": "2025-04-15T13:32:25.468970+00:00",
+          "type": "user",
+          "text": "Thank you very much! I just checked out your page as well. Plant based for life! 🌱💚 + Shannon: Plant based for life! Haha yeah me too! Been veggie since birth here. How long have you been plant based for? {{cuf_11967919}}  {{cuf_11967920}} Lead : Exactly one decade fully vegan, although I was pretty much raised vegetarian since I was 4 years old. Wow, that’s so cool you’ve been plant fueled forever!"
+        },
+        {
+          "timestamp": "2025-04-15T13:32:25.716546+00:00",
+          "type": "ai",
+          "text": "That's awesome, a whole decade vegan! Good on ya. So how did those April gigs go in the end?"
+        },
+        {
+          "timestamp": "2025-04-15T13:53:45.277442+00:00",
+          "type": "user",
+          "text": "Thank you very much! I just checked out your page as well. Plant based for life! 🌱💚 + Shannon: Plant based for life! Haha yeah me too! Been veggie since birth here. How long have you been plant based for? {{cuf_11967919}}  {{cuf_11967920}} Lead : Exactly one decade fully vegan, although I was pretty much raised vegetarian since I was 4 years old. Wow, that’s so cool you’ve been plant fueled forever! + Shannon: That's awesome, a whole decade vegan! Good on ya. So how did those April gigs go in the end? {{cuf_11967919}}  {{cuf_11967920}} Lead : April gigs have been awesome, especially the outdoor ones. I’m so thankful the weather has been gorgeous over here in Florida! 🌞 April is the perfect month for outdoor live music, not to hot not too cold."
+        },
+        {
+          "timestamp": "2025-04-15T13:53:45.500798+00:00",
+          "type": "ai",
+          "text": "Yeah awesome! Playing outdoors in Florida sounds pretty sweet hey! What's the music scene like over there?"
+        },
+        {
+          "timestamp": "2025-04-15T19:23:02.520060+00:00",
+          "type": "user",
+          "text": "Thank you very much! I just checked out your page as well. Plant based for life! 🌱💚 + Shannon: Plant based for life! Haha yeah me too! Been veggie since birth here. How long have you been plant based for? {{cuf_11967919}}  {{cuf_11967920}} Lead : Exactly one decade fully vegan, although I was pretty much raised vegetarian since I was 4 years old. Wow, that’s so cool you’ve been plant fueled forever! + Shannon: That's awesome, a whole decade vegan! Good on ya. So how did those April gigs go in the end? {{cuf_11967919}}  {{cuf_11967920}} Lead : April gigs have been awesome, especially the outdoor ones. I’m so thankful the weather has been gorgeous over here in Florida! 🌞 April is the perfect month for outdoor live music, not to hot not too cold. + Shannon: Yeah awesome! Playing outdoors in Florida sounds pretty sweet hey! What's the music scene like over there? {{cuf_11967919}}  {{cuf_11967920}} Lead : It’s decent, mostly playing cover songs for tourists at the beach bars haha 🏖️"
+        },
+        {
+          "timestamp": "2025-04-15T19:23:02.819832+00:00",
+          "type": "ai",
+          "text": "Beach bars hey, sounds like a good vibe haha! Do you play many other types of gigs too?"
+        },
+        {
+          "timestamp": "2025-04-15T22:14:44.449376+00:00",
+          "type": "user",
+          "text": "Thank you very much! I just checked out your page as well. Plant based for life! 🌱💚 + Shannon: Plant based for life! Haha yeah me too! Been veggie since birth here. How long have you been plant based for? {{cuf_11967919}}  {{cuf_11967920}} Lead : Exactly one decade fully vegan, although I was pretty much raised vegetarian since I was 4 years old. Wow, that’s so cool you’ve been plant fueled forever! + Shannon: That's awesome, a whole decade vegan! Good on ya. So how did those April gigs go in the end? {{cuf_11967919}}  {{cuf_11967920}} Lead : April gigs have been awesome, especially the outdoor ones. I’m so thankful the weather has been gorgeous over here in Florida! 🌞 April is the perfect month for outdoor live music, not to hot not too cold. + Shannon: Yeah awesome! Playing outdoors in Florida sounds pretty sweet hey! What's the music scene like over there? {{cuf_11967919}}  {{cuf_11967920}} Lead : It’s decent, mostly playing cover songs for tourists at the beach bars haha 🏖️ + Shannon: Beach bars hey, sounds like a good vibe haha! Do you play many other types of gigs too? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes, smoke shops, distilleries, wine bars & the occasional private event. How’s the live music scene where you’re from?"
+        },
+        {
+          "timestamp": "2025-04-15T22:14:44.718032+00:00",
+          "type": "ai",
+          "text": "Yeah okay, it's not bad here in Melbourne! Heaps of pubs and band rooms always got live music on. All types of stuff too. What about back home? Is there much live music outside of the beach bars?"
+        },
+        {
+          "timestamp": "2025-04-15T23:12:26.464529+00:00",
+          "type": "user",
+          "text": "Thank you very much! I just checked out your page as well. Plant based for life! 🌱💚 + Shannon: Plant based for life! Haha yeah me too! Been veggie since birth here. How long have you been plant based for? {{cuf_11967919}}  {{cuf_11967920}} Lead : Exactly one decade fully vegan, although I was pretty much raised vegetarian since I was 4 years old. Wow, that’s so cool you’ve been plant fueled forever! + Shannon: That's awesome, a whole decade vegan! Good on ya. So how did those April gigs go in the end? {{cuf_11967919}}  {{cuf_11967920}} Lead : April gigs have been awesome, especially the outdoor ones. I’m so thankful the weather has been gorgeous over here in Florida! 🌞 April is the perfect month for outdoor live music, not to hot not too cold. + Shannon: Yeah awesome! Playing outdoors in Florida sounds pretty sweet hey! What's the music scene like over there? {{cuf_11967919}}  {{cuf_11967920}} Lead : It’s decent, mostly playing cover songs for tourists at the beach bars haha 🏖️ + Shannon: Beach bars hey, sounds like a good vibe haha! Do you play many other types of gigs too? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes, smoke shops, distilleries, wine bars & the occasional private event. How’s the live music scene where you’re from? + Shannon: Yeah okay, it's not bad here in Melbourne! Heaps of pubs and band rooms always got live music on.  All types of stuff too. What about back home? Is there much live music outside of the beach bars? Lead : Awesome! Yes, theres a nice little historic district in the Deland area just 30 minutes or so from me"
+        },
+        {
+          "timestamp": "2025-04-15T23:12:26.861221+00:00",
+          "type": "ai",
+          "text": "Yeah okay nice one!  Just Deland hey? Is that where you grew up?"
+        },
+        {
+          "timestamp": "2025-04-15T23:42:55.189013+00:00",
+          "type": "user",
+          "text": "Thank you very much! I just checked out your page as well. Plant based for life! 🌱💚 + Shannon: Plant based for life! Haha yeah me too! Been veggie since birth here. How long have you been plant based for? {{cuf_11967919}}  {{cuf_11967920}} Lead : Exactly one decade fully vegan, although I was pretty much raised vegetarian since I was 4 years old. Wow, that’s so cool you’ve been plant fueled forever! + Shannon: That's awesome, a whole decade vegan! Good on ya. So how did those April gigs go in the end? {{cuf_11967919}}  {{cuf_11967920}} Lead : April gigs have been awesome, especially the outdoor ones. I’m so thankful the weather has been gorgeous over here in Florida! 🌞 April is the perfect month for outdoor live music, not to hot not too cold. + Shannon: Yeah awesome! Playing outdoors in Florida sounds pretty sweet hey! What's the music scene like over there? {{cuf_11967919}}  {{cuf_11967920}} Lead : It’s decent, mostly playing cover songs for tourists at the beach bars haha 🏖️ + Shannon: Beach bars hey, sounds like a good vibe haha! Do you play many other types of gigs too? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes, smoke shops, distilleries, wine bars & the occasional private event. How’s the live music scene where you’re from? + Shannon: Yeah okay, it's not bad here in Melbourne! Heaps of pubs and band rooms always got live music on.  All types of stuff too. What about back home? Is there much live music outside of the beach bars? Lead : Awesome! Yes, theres a nice little historic district in the Deland area just 30 minutes or so from me + Shannon: Yeah okay nice one!  Just Deland hey? Is that where you grew up? {{cuf_11967919}}  {{cuf_11967920}} Lead : I grew up on the west coast of Florida, but now living on the east coast in Daytona Beach. There’s also some nice little venues in Ormond beach"
+        },
+        {
+          "timestamp": "2025-04-15T23:42:55.454442+00:00",
+          "type": "ai",
+          "text": "Yeah okay Ormond Beach!  Is that closer to you now in Daytona?"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "luckymusicianofficial",
+      "first_message_timestamp": "2025-04-15T13:17:24.452975+00:00",
+      "last_message_timestamp": "2025-04-15T23:42:55.454442+00:00",
+      "conversation_duration_str": "10h 25m",
+      "conversation_count": 1,
+      "last_seen_timestamp": "2025-04-15T23:42:55.454442+00:00"
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

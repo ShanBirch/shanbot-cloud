@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T18:04:25.933889",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T18:04:08.354683",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post is a video of a woman speaking at a podium in front of a church congregation. The church logo \"Friendship Church\" is visible behind her. Text overlayed on the video reads \"Psalm 23 The Lord Is!\". The woman is wearing a black t-shirt with white writing. A chandelier hangs from the ceiling.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of Whitteneylynn. She is wearing a black hoodie and a black baseball cap. The post is tagged with hashtags related to weight loss, health, and fitness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a red Tommy Hilfiger hoodie with what appears to be a Louis Vuitton patch on it. The caption mentions making hoodies all summer in preparation for the fall.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a black puppy (identified as a \"corkie\" or corkie puppy in the hashtags) lying on a small patch of artificial grass, presumably for potty training.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a video post on Instagram showing a group of people, likely members of a fraternity or sorority, performing a synchronized dance routine. The caption and hashtags indicate involvement with Kappa Alpha Psi Fraternity, Inc. (Nupe), Norfolk State University (#NSU), and Historically Black Colleges and Universities (#HBCU).",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of whitteneylynn holding a black puppy named Jukebox Jazz. The puppy has a blue dog tag with a phone number on it.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Weight loss/fitness journey:** Since she uses hashtags related to weight loss and fitness, asking about her journey, her goals, or her favorite workout routines could be a good starting point.",
+          "2.  **Healthy lifestyle:** She also uses the hashtag #healthylifestyle. Asking about her favorite healthy recipes or tips for maintaining a healthy lifestyle could be another way to engage.",
+          "1. **Hoodie Design/Fashion:** Asking about the inspiration behind her hoodie designs, the materials she uses, or her favorite trends in hoodie fashion.",
+          "2. **Fall Fashion:** Inquiring about her favorite fall fashion trends or what she's most excited to wear in the upcoming season.",
+          "1. Puppy potty training - Given the artificial grass setup, you could ask about their experience with potty training, tips they have, or challenges they're facing."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Whitteney Lynn (Based on username 'whitteneylynn')",
+          "INTERESTS": [
+            "Faith/Religion (Psalm 23, Church involvement)",
+            "Health & Fitness/Weight Loss",
+            "Fashion/Hoodie Design",
+            "Dogs/Puppies (especially Corkies)",
+            "Greek Life/Kappa Alpha Psi Fraternity, Inc. (Nupe)/HBCU Culture"
+          ],
+          "LIFESTYLE": "Appears to be a person of faith actively involved in their church community. They are also focused on health and fitness, possibly on a weight loss journey. They have a creative side, designing and making hoodies. They are a dog owner and have ties to Greek life and the HBCU community, specifically Norfolk State University.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about Psalm 23 at Friendship Church. What does that passage mean to you?",
+            "I'm also trying to live a healthier lifestyle. Do you have any favorite healthy recipes you'd be willing to share?",
+            "Your hoodie designs look amazing! What inspires your creativity when you're designing them?",
+            "Potty training a puppy can be tough! Do you have any tips for someone just starting out?",
+            "I noticed your involvement with Kappa Alpha Psi at NSU. What was your favorite part about being involved in Greek life?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Faithful/Spiritual",
+            "Creative",
+            "Health-conscious",
+            "Community-oriented (Church, Greek Life)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Weight loss/fitness journey:** Since she uses hashtags related to weight loss and fitness, asking about her journey, her goals, or her favorite workout routines could be a good starting point.",
+        "2.  **Healthy lifestyle:** She also uses the hashtag #healthylifestyle. Asking about her favorite healthy recipes or tips for maintaining a healthy lifestyle could be another way to engage.",
+        "1. **Hoodie Design/Fashion:** Asking about the inspiration behind her hoodie designs, the materials she uses, or her favorite trends in hoodie fashion.",
+        "2. **Fall Fashion:** Inquiring about her favorite fall fashion trends or what she's most excited to wear in the upcoming season.",
+        "1. Puppy potty training - Given the artificial grass setup, you could ask about their experience with potty training, tips they have, or challenges they're facing."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

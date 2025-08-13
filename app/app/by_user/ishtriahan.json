@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T19:51:24.325623",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T19:51:05.228160",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a dark, vertical shot of the night sky filled with many stars. The caption is a poem in Spanish by Gonzalo Rojas.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a night sky with stars and a mountain range silhouetted against the horizon. The post's caption is in Spanish and speaks about the universe, mountains, and finding inner peace.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post shows a man, presumably ishtriahan, in a video. The caption mentions a \"9-day fast\" and thanks someone named Arnau for accompanying him on this \"adventure.\" The hashtags include #createyourself and #horusalquimia.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by \"ishtriahan.\" The post is a video testimonial in English about completing a challenge. The hashtags #createyourself and #horusalchemy are included.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of ishtriahan, likely a screenshot from a video. The caption indicates he's on the 8th day of a fast and preparing for the last day. He seems happy with what he's accomplished during this cycle. The hashtags include #createyourself and #horusalquimia.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man, presumably ishtriahan, in a video call or recording. He is wearing a zip-up jacket and appears to be indoors. The post caption mentions starting day 8 of a fast (ayuno).",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Hiking/Mountains:** The caption mentions walking in the mountains. You could ask about their favorite hiking spots or if they have any upcoming hikes planned.",
+          "2.  **Astrophotography/Stargazing:** The image focuses on the night sky. You could ask about their interest in astronomy, if they took the photo themselves, or what equipment they use.",
+          "1.  The 9-day fast: You could ask about the experience of the fast, what motivated him to do it, or what he learned from it.",
+          "2.  #horusalquimia: You could ask about what this hashtag means to him and what type of content he associates with it.",
+          "1.  The challenge mentioned in the post: \"What was the challenge you were completing?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post with the poem and the starry sky was really beautiful ✨.",
+        "profile_bio": {
+          "PERSON NAME": "Ishtriahan (Full name likely unknown)",
+          "INTERESTS": [
+            "Spirituality/Personal Transformation",
+            "Fasting/Wellness",
+            "Astrophotography/Stargazing",
+            "Hiking/Mountains",
+            "Spanish Literature/Poetry"
+          ],
+          "LIFESTYLE": "Appears to be focused on self-improvement and personal growth through practices like fasting and challenges. Likely enjoys spending time in nature, particularly in mountainous regions. Potentially involved in a community or practice related to 'Horusalquimia'.",
+          "CONVERSATION STARTERS": [
+            "I noticed you've been doing a 9-day fast. What was that experience like for you?",
+            "Your astrophotography is beautiful! Do you have a favorite constellation to photograph?",
+            "I'm curious about the hashtag #horusalquimia. Could you tell me more about what it represents?",
+            "I saw you mentioned a challenge you completed. What was the challenge and what did you learn from it?",
+            "I love the poem by Gonzalo Rojas you shared. What draws you to his work?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Introspective",
+            "Disciplined",
+            "Appreciative of beauty (nature, art)",
+            "Dedicated to self-improvement"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Hiking/Mountains:** The caption mentions walking in the mountains. You could ask about their favorite hiking spots or if they have any upcoming hikes planned.",
+        "2.  **Astrophotography/Stargazing:** The image focuses on the night sky. You could ask about their interest in astronomy, if they took the photo themselves, or what equipment they use.",
+        "1.  The 9-day fast: You could ask about the experience of the fast, what motivated him to do it, or what he learned from it.",
+        "2.  #horusalquimia: You could ask about what this hashtag means to him and what type of content he associates with it.",
+        "1.  The challenge mentioned in the post: \"What was the challenge you were completing?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

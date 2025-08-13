@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T09:02:11.359733",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T09:01:50.724562",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by dilislom_otabekov. It features a video still from what appears to be a television show. Three women are seated on a couch. In front of them are smaller screens displaying images of other people. The text overlay on the video reads \"To'liq variant 22-mart 7.10 da Milliy telekanalning Shirchoy dasturida\". The caption reads \"Omaaaad!\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up selfie of a man (dilislom_otabekov) wearing yellow-tinted glasses and a patterned blazer. The background appears to be a building with glass windows or a skylight.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a man wearing a light blue button-down shirt. He appears to be indoors, possibly in an office setting. The caption in Uzbek translates to something about success being related to mood or atmosphere.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by dilislom_otabekov is titled \"Philosophy\" and edited by Mahliyo Askaralieva. The post received 124 views and was posted on March 18, 2021.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of a man wearing yellow-tinted glasses on a sunny day. The background appears to be an urban environment with buildings and streetlights.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a man, likely outdoors, with a tree and a car visible in the background. The post includes a caption in another language, possibly poetry or reflective thoughts.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Fashion/Style:** Comment on his unique glasses or blazer, asking where he got them or what inspires his style.",
+          "2. **Location:** Inquire about the building in the background, asking if it's a place he frequents or if he enjoys the architecture.",
+          "1. Language/Translation: Since the caption is in Uzbek, asking about the meaning of the caption or his thoughts on the importance of language in communication could be a good starting point.",
+          "2. Success/Motivation: The caption mentions success. Asking about his definition of success or what motivates him could lead to a meaningful conversation.",
+          "1. Philosophy: Since the post is titled \"Philosophy,\" you could ask about the specific philosophical topic being discussed in the post or their general interest in philosophy."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! It looked like a fun TV segment! 🤩",
+        "profile_bio": {
+          "PERSON NAME": "Dilislom Otabekov",
+          "INTERESTS": [
+            "Television/Media (potentially involved in the 'Shirchoy' program)",
+            "Fashion/Style (unique glasses, patterned blazer)",
+            "Philosophy",
+            "Success/Motivation",
+            "Uzbek Language and Culture"
+          ],
+          "LIFESTYLE": "Likely involved in media production or television, possibly in Uzbekistan. Appears to be someone who values personal style and reflects on philosophical concepts and success. Seems to enjoy urban environments and outdoor settings.",
+          "CONVERSATION STARTERS": [
+            "I love your yellow-tinted glasses! Where did you get them, or what inspires your style?",
+            "The building in the background of your blazer selfie looks amazing. Do you frequent that place, or do you just appreciate the architecture?",
+            "I noticed one of your captions is in Uzbek. Could you tell me a bit about what it means? I'm interested in the importance of language in communication.",
+            "You mentioned success in one of your captions. What does success mean to you personally?",
+            "Your post titled 'Philosophy' caught my eye. What specific philosophical topic were you discussing in that post, or what are your general interests in philosophy?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Stylish/Fashion-conscious",
+            "Reflective/Philosophical",
+            "Driven/Motivated (based on the success caption)",
+            "Public-facing/Media-oriented (due to TV show appearance)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Fashion/Style:** Comment on his unique glasses or blazer, asking where he got them or what inspires his style.",
+        "2. **Location:** Inquire about the building in the background, asking if it's a place he frequents or if he enjoys the architecture.",
+        "1. Language/Translation: Since the caption is in Uzbek, asking about the meaning of the caption or his thoughts on the importance of language in communication could be a good starting point.",
+        "2. Success/Motivation: The caption mentions success. Asking about his definition of success or what motivates him could lead to a meaningful conversation.",
+        "1. Philosophy: Since the post is titled \"Philosophy,\" you could ask about the specific philosophical topic being discussed in the post or their general interest in philosophy."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

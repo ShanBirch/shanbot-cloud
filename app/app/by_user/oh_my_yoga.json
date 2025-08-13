@@ -1,0 +1,66 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 3,
+      "user_messages": 2,
+      "ai_messages": 1,
+      "ai_questions": 1,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": true,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-10T20:10:36.529050",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-09T21:57:33.317277+00:00",
+          "type": "user",
+          "text": "Thanks for the message - headstand can be challenging and scary in the beginning, it does gets easier with daily practice…. Yet some days it can still be hard, like when I’m tired or my mind is elsewhere… it’s the mind and body working together that makes it easier! Hope you have a great day 😊 + Shannon: Yeah for sure! So true about the mind and body connection hey! How's your day been going so far? :) {{cuf_11967919}}  {{cuf_11967920}} Lead : Busy day - I hope yours was a good one!"
+        },
+        {
+          "timestamp": "2025-04-09T21:57:33.333314+00:00",
+          "type": "ai",
+          "text": "Yeah good thanks! Just getting the morning classes done here! What keeps you busy? :)"
+        },
+        {
+          "timestamp": "2025-04-09T22:12:13.637362+00:00",
+          "type": "user",
+          "text": "Thanks for the message - headstand can be challenging and scary in the beginning, it does gets easier with daily practice…. Yet some days it can still be hard, like when I’m tired or my mind is elsewhere… it’s the mind and body working together that makes it easier! Hope you have a great day 😊 + Shannon: Yeah for sure! So true about the mind and body connection hey! How's your day been going so far? :) {{cuf_11967919}}  {{cuf_11967920}} Lead : Busy day - I hope yours was a good one! + Shannon: Yeah good thanks! Just getting the morning classes done here! What keeps you busy? :) {{cuf_11967919}}  {{cuf_11967920}} Lead : It’s all about meditation/ yoga in the mornings & I work as a copywriter/ in marketing the rest of the day… + #balance"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "oh_my_yoga",
+      "user_responses_to_questions": 0,
+      "response_rate": 0.0,
+      "coaching_inquiries": 0,
+      "ai_detections": 0,
+      "first_message_timestamp": "2025-04-09T21:57:33.317277+00:00",
+      "last_message_timestamp": "2025-04-09T22:12:13.637362+00:00",
+      "last_seen_timestamp": "2025-04-09T22:12:13.637362+00:00",
+      "conversation_count": 1,
+      "conversation_duration_str": "14m",
+      "fitness_topic_user_initiated": false,
+      "fitness_topic_ai_initiated": false
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

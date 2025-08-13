@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T20:13:44.166139",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T20:13:25.798181",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of a vegan meal in a black container. The meal consists of homemade garlic hummus, broccoli, green beans, kale, carrots, and Okinawan sweet potatoes on a bed of quinoa. The colors are vibrant, with bright orange carrots, purple sweet potatoes, and green vegetables. The hummus is a creamy, light color.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a scenic view of Waikiki, Diamond Head, Kaimuki, Kahala, and Maunalani Heights in Hawaii.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a vegan pizza with various toppings like peppers, olives, mushrooms, and vegan sausage. There's another pizza visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan meal consisting of a large salad with various vegetables, curried potatoes, and lentil soup.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a late lunch consisting of several small dishes with vegan food. The dishes include red bean rice, sauteed broccoli with cabbage and garlic, wakame seaweed with carrots and daikon namasu, and daikon kimchi.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of grilled vegan food, including corn on the cob, broccoli, carrots, mushrooms, onions, and a grilled lemon half. The caption mentions \"veganlife\" and \"hungry.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Hawaii travel: Ask about their favorite things to do in Hawaii, or if they have any recommendations for vegan restaurants in the area.",
+          "2. Photography: Compliment the photo and ask what kind of camera or phone they used to take it.",
+          "1. Vegan pizza recipes and favorite toppings.",
+          "2. Local vegan-friendly restaurants (since the pizza is from \"Magoo's\").",
+          "1. Vegan cooking/recipes: Ask about their favorite vegan recipes or ingredients."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That meal looked so colorful and healthy! 🥕",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism",
+            "Vegan Cooking & Recipes",
+            "Hawaii Travel (especially Waikiki)",
+            "Photography",
+            "Exploring Vegan Restaurants"
+          ],
+          "LIFESTYLE": "Likely a vegan individual who enjoys cooking and eating plant-based meals. They appear to live in or frequently visit Hawaii, and appreciate sharing their food and travel experiences through photography.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite vegan restaurants in Waikiki?",
+            "That vegan pizza looks amazing! What are your go-to toppings?",
+            "Your food photography is beautiful! What kind of camera do you use?",
+            "Do you have any favorite vegan recipes you'd be willing to share?",
+            "I'm planning a trip to Hawaii. What are some must-see spots beyond Waikiki?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Creative (in cooking and photography)",
+            "Adventurous (in trying new vegan foods and exploring Hawaii)",
+            "Appreciative of beauty (in food and scenery)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Hawaii travel: Ask about their favorite things to do in Hawaii, or if they have any recommendations for vegan restaurants in the area.",
+        "2. Photography: Compliment the photo and ask what kind of camera or phone they used to take it.",
+        "1. Vegan pizza recipes and favorite toppings.",
+        "2. Local vegan-friendly restaurants (since the pizza is from \"Magoo's\").",
+        "1. Vegan cooking/recipes: Ask about their favorite vegan recipes or ingredients."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

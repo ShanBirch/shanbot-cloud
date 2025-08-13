@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T21:13:18.348180",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T21:12:58.037994",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a landscape shot of a mountain trail. The trail is made of gravel and winds its way up a hillside covered in brown vegetation. In the distance, there are more mountains partially obscured by clouds. Two small figures can be seen walking along the trail further up the hill. The sky is overcast with patches of blue.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a scenic view of Llan Trawsfynydd, Wales, featuring a body of water, a rocky shoreline, and a long bridge-like structure in the distance. The post includes hashtags related to hiking and the location.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a scenic view of a hiking trail in a mountainous region, with a stream running through it. The caption mentions \"Yoke, Ill Bell, Froswick and Troutbeck Tongue\" and \"#wainwrights #hikingadventures\", indicating the location and the activity.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a scenic view of Lud's Church, a deep chasm or gorge with moss-covered rocks and lush vegetation.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a landscape with a stream flowing through a wooded area. The trees are bare, suggesting it's either late autumn or winter. The caption mentions \"Sour Howes\" and \"sallows circular,\" and the hashtag \"#wainwrights.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a landscape view of Moel Famau in Wales. It's a somewhat misty day, and the photo captures a hiking trail winding through the hills. The caption includes the hashtags #hikingadventures and #wales.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Hiking in Wales: Ask about other favorite hiking spots in Wales or if they have any recommendations for trails with similar views.",
+          "2. Llan Trawsfynydd: Inquire about the history or significance of the bridge-like structure in the background.",
+          "1. Hiking in the Wainwrights: \"I saw you hiked Yoke, Ill Bell, Froswick and Troutbeck Tongue! How was it? I've been wanting to explore that area for a while, any recommendations for a good route?\"",
+          "2. Hiking Adventures: \"I noticed you use the hashtag #hikingadventures. Do you have any other favorite hiking spots or upcoming hikes planned?\"",
+          "1. Hiking/Outdoor Activities: \"I saw your post from Lud's Church! Have you been hiking there before? It looks like a beautiful place to explore.\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! Looked like a great hike, despite the wind! ⛰️",
+        "profile_bio": {
+          "PERSON NAME": "Bec Bex (based on username 'bec_bex_')",
+          "INTERESTS": [
+            "Hiking",
+            "Exploring the Wainwrights",
+            "Hiking in Wales",
+            "Landscape Photography",
+            "Outdoor Adventures"
+          ],
+          "LIFESTYLE": "Appears to be an active individual who enjoys hiking and exploring scenic landscapes, particularly in Wales and the Lake District (Wainwrights). They likely enjoy spending time outdoors and capturing the beauty of nature through photography.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite hiking spots in Wales, and do you have any recommendations for trails with similar views to Moel Famau?",
+            "Do you know anything about the history or significance of the bridge-like structure in Llan Trawsfynydd?",
+            "I saw you hiked Yoke, Ill Bell, Froswick and Troutbeck Tongue! How was it? I've been wanting to explore that area for a while, any recommendations for a good route?",
+            "Do you have any other favorite hiking spots or upcoming hikes planned that you're excited about?",
+            "Have you been hiking at Lud's Church before? It looks like a beautiful place to explore. What was your experience like?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Appreciative of nature",
+            "Enthusiastic",
+            "Visually oriented (likely enjoys photography)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Hiking in Wales: Ask about other favorite hiking spots in Wales or if they have any recommendations for trails with similar views.",
+        "2. Llan Trawsfynydd: Inquire about the history or significance of the bridge-like structure in the background.",
+        "1. Hiking in the Wainwrights: \"I saw you hiked Yoke, Ill Bell, Froswick and Troutbeck Tongue! How was it? I've been wanting to explore that area for a while, any recommendations for a good route?\"",
+        "2. Hiking Adventures: \"I noticed you use the hashtag #hikingadventures. Do you have any other favorite hiking spots or upcoming hikes planned?\"",
+        "1. Hiking/Outdoor Activities: \"I saw your post from Lud's Church! Have you been hiking there before? It looks like a beautiful place to explore.\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

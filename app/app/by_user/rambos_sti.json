@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T15:25:42.206297",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T15:25:24.769501",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a selfie of a man and a woman, presumably a couple, posing outdoors. The man is wearing a red \"LA\" baseball cap, a white t-shirt, and a red and blue plaid flannel shirt. He has a mustache and a goatee. The woman is wearing a dark jacket and a light-colored scarf. The background appears to be a landscape with hills and a cloudy sky. The post is captioned \"Monterey bay getaway with my Gorgeous Queen\" along with several hashtags including #montereybay, #weekendgetaways, and #iloveyou.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a collage of photos featuring rambos_sti with his partner. The photos appear to be from various occasions, including possibly New Year's.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman holding a large bouquet of yellow and orange roses with white baby's breath. A blue car is visible in the background. The post celebrates Valentine's Day and expresses love for his wife.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a sign that says \"Welcome to Dodgerfest\" with the Los Angeles Dodgers logo and a Budweiser logo. The user's caption indicates they are a Dodgers fan.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a blue Subaru STI decorated with Christmas lights. It also has gold rims and underglow lighting.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two Subaru STIs at a gas station. One is red and the other is blue with Christmas lights and a tree on top. The post is captioned \"12 days until Christmas\" and includes hashtags like #christmas, #christmaslightsoncar, #subiexplug, #jdmfv, and #subieflow.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Travel/Memories:** The post is tagged with #newmemories and #2024. You could ask about their favorite memory from the past year or what they are most looking forward to in the new year.",
+          "2.  **Relationship:** The post mentions \"MY QUEEN\" and #love. You could compliment their relationship and ask how they met or what they enjoy doing together.",
+          "1. Flowers: Comment on the beautiful bouquet and ask about her favorite type of flower.",
+          "2. Cars: Inquire about the blue car in the background and express interest in cars.",
+          "1.  Ask about their favorite part of Dodgerfest or a memorable experience they've had at a Dodgers game."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Subaru STIs (especially modified ones)",
+            "Los Angeles Dodgers Baseball",
+            "Travel and Getaways (Monterey Bay)",
+            "His Partner/Wife",
+            "Christmas (especially decorating cars)"
+          ],
+          "LIFESTYLE": "Appears to enjoy weekend getaways and spending time with his partner. He is a car enthusiast, specifically for Subaru STIs, and enjoys modifying them. He is also a fan of the Los Angeles Dodgers and enjoys attending events like Dodgerfest. He seems to value holidays and traditions, especially Christmas.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite memory from your Monterey Bay getaway?",
+            "I noticed your awesome STI! What modifications have you done to it?",
+            "What's your favorite part about going to Dodgerfest?",
+            "Those Christmas lights on your car are amazing! How long does it take to put them up?",
+            "Your wife's bouquet is beautiful! What's her favorite type of flower?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Affectionate (expresses love for his partner)",
+            "Enthusiastic (passionate about cars and the Dodgers)",
+            "Festive (enjoys holidays and decorating)",
+            "Adventurous (enjoys travel and getaways)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Travel/Memories:** The post is tagged with #newmemories and #2024. You could ask about their favorite memory from the past year or what they are most looking forward to in the new year.",
+        "2.  **Relationship:** The post mentions \"MY QUEEN\" and #love. You could compliment their relationship and ask how they met or what they enjoy doing together.",
+        "1. Flowers: Comment on the beautiful bouquet and ask about her favorite type of flower.",
+        "2. Cars: Inquire about the blue car in the background and express interest in cars.",
+        "1.  Ask about their favorite part of Dodgerfest or a memorable experience they've had at a Dodgers game."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

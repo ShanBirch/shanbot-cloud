@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T17:21:09.255282",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T17:20:52.207983",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a still from a video. It shows a woman in workout clothes (lavender tank top and black shorts) bending over to lift a barbell. She is in a home gym setting with weights and other equipment visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a beautiful beach with clear turquoise water and white sand. There are trees along the shoreline.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, shelleyhall83, sitting at a table with a plate, a glass of white wine, and her phone. She is smiling and looking at her phone. The post is about earning money from your phone and living a healthy lifestyle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows an Instagram post by shelleyhall83 about her experience with ice baths and Finnish saunas at Clearmindstudio in Inglewood. She describes the process, her feelings about it, and recommends it to others.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows shelleyhall83 at an immersive yoga class in a warehouse. She's wearing headphones and a tank top that says \"Yoga is the new black\". The lighting is dark with blue and purple hues.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows shelleyhall83 in her car, presumably after attending a beach rave at 4:30 am. The caption mentions a silent disco rave, sunrise, and ocean dip.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Travel: Ask about the location of the beach and if she travels often.",
+          "2. Nature/Outdoors: Comment on the beauty of the beach and ask if she enjoys spending time in nature.",
+          "1.  **Work-from-home lifestyle:** The post promotes a work-from-home lifestyle. You could ask her about her experiences with working from home, the challenges and benefits, or her favorite aspects of it.",
+          "2.  **Healthy lifestyle:** The post mentions a \"healthy lifestyle.\" You could ask her about her tips for maintaining a healthy lifestyle while working from home, her favorite healthy recipes, or her fitness routine.",
+          "1.  **Ice Baths/Saunas:** \"I saw your post about the ice bath and sauna experience! I've always been curious about trying it. What did you find most challenging/rewarding about the experience?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post was really inspiring, you looked so strong lifting that weight 💪",
+        "profile_bio": {
+          "PERSON NAME": "Shelley Hall (inferred from username shelleyhall83)",
+          "INTERESTS": [
+            "Fitness (Weightlifting, Yoga)",
+            "Travel (especially beaches)",
+            "Wellness (Ice Baths, Saunas)",
+            "Healthy Lifestyle",
+            "Work-from-home/Remote Work"
+          ],
+          "LIFESTYLE": "Shelley appears to lead an active and health-conscious lifestyle. She enjoys fitness activities like weightlifting and yoga, prioritizes wellness practices like ice baths and saunas, and seems to embrace a work-from-home or location-independent lifestyle. She also enjoys outdoor activities like beach trips and sunrise raves.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about Clearmindstudio! What was the most surprising thing you learned from the ice bath/sauna experience?",
+            "That beach photo is stunning! Where was it taken and do you travel often?",
+            "Your post about working from your phone is interesting. What are some of the biggest challenges and rewards you've found with that lifestyle?",
+            "I noticed you're into yoga. What kind of yoga do you enjoy most and what benefits do you get from it?",
+            "That silent disco rave sounds amazing! What was it like watching the sunrise after the rave?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous (willing to try new experiences like ice baths and beach raves)",
+            "Health-conscious (prioritizes fitness and wellness)",
+            "Positive (smiling in photos, promoting a healthy lifestyle)",
+            "Independent (likely self-motivated due to work-from-home lifestyle)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Travel: Ask about the location of the beach and if she travels often.",
+        "2. Nature/Outdoors: Comment on the beauty of the beach and ask if she enjoys spending time in nature.",
+        "1.  **Work-from-home lifestyle:** The post promotes a work-from-home lifestyle. You could ask her about her experiences with working from home, the challenges and benefits, or her favorite aspects of it.",
+        "2.  **Healthy lifestyle:** The post mentions a \"healthy lifestyle.\" You could ask her about her tips for maintaining a healthy lifestyle while working from home, her favorite healthy recipes, or her fitness routine.",
+        "1.  **Ice Baths/Saunas:** \"I saw your post about the ice bath and sauna experience! I've always been curious about trying it. What did you find most challenging/rewarding about the experience?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

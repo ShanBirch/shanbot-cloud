@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T07:49:50.760948",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T07:49:28.111523",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a selfie taken in a gym bathroom. The woman is facing a mirror, holding her phone up to capture the photo. She's wearing a blue sports bra and black-to-purple ombre shorts. The bathroom has a modern design with bright lighting and multiple mirrors creating an infinity effect.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by camid_fit. It shows a woman in workout clothes in a gym setting, presumably demonstrating a lower body workout. Text overlay on the video suggests starting with stretching. The post includes hashtags related to lower body workouts, gym workouts, and women's fitness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a woman (camid_fit) doing a wall sit while performing dumbbell curls. The post includes a full body workout routine with various exercises.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (camid_fit) taking a selfie in what appears to be a gym. She is wearing workout clothes (sports bra and shorts) and looks fit. There are gym equipment and mirrors visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a motivational quote by Jim Rohn: \"Big achievements come one small advantage at a time, one step at a time, one day at a time.\" The post also includes a caption emphasizing consistency and not letting failures define you.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (camid_fit) performing squats with a barbell in a gym setting. The post details her lower body workout routine.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Workout routines:** Given the focus on lower body workouts and the hashtags used, you could ask about her favorite exercises for specific muscle groups (e.g., glutes, quads).",
+          "2.  **Gym environment/lighting:** The video mentions the lighting in the gym. You could ask about her favorite gym to workout in, or about the importance of a good gym environment for motivation.",
+          "1.  **Workout Routine:** You could ask about her workout routine, specifically asking about the effectiveness of combining a wall sit with dumbbell curls or if she has any other unique exercise combinations she enjoys.",
+          "2.  **Fitness Goals:** You could ask about her fitness goals and what she's working towards achieving with her workouts.",
+          "1.  Workout routines: Given the gym setting and the hashtags used, asking about her favorite workout routines or exercises could be a good conversation starter."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Camid (Based on username 'camid_fit')",
+          "INTERESTS": [
+            "Fitness",
+            "Lower Body Workouts",
+            "Gym Workouts",
+            "Women's Fitness",
+            "Motivational Content"
+          ],
+          "LIFESTYLE": "Likely a fitness enthusiast who regularly works out at the gym. She shares her workout routines and motivational content online, suggesting she's passionate about fitness and potentially helping others achieve their fitness goals.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite exercises for glutes and quads?",
+            "What do you look for in a gym environment to stay motivated?",
+            "How effective do you find combining a wall sit with dumbbell curls? Do you have any other unique exercise combinations you enjoy?",
+            "What are your current fitness goals and what are you working towards?",
+            "What's your favorite workout routine and why?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Motivated",
+            "Dedicated",
+            "Inspirational",
+            "Consistent"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Workout routines:** Given the focus on lower body workouts and the hashtags used, you could ask about her favorite exercises for specific muscle groups (e.g., glutes, quads).",
+        "2.  **Gym environment/lighting:** The video mentions the lighting in the gym. You could ask about her favorite gym to workout in, or about the importance of a good gym environment for motivation.",
+        "1.  **Workout Routine:** You could ask about her workout routine, specifically asking about the effectiveness of combining a wall sit with dumbbell curls or if she has any other unique exercise combinations she enjoys.",
+        "2.  **Fitness Goals:** You could ask about her fitness goals and what she's working towards achieving with her workouts.",
+        "1.  Workout routines: Given the gym setting and the hashtags used, asking about her favorite workout routines or exercises could be a good conversation starter."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

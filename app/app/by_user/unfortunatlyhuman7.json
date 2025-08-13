@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T09:12:07.577583",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T09:11:47.117853",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by unfortunatlyhuman7 is a video still showing a person petting a black and white cat. The cat is wearing little blue paw covers. The person is wearing a t-shirt and light-colored pants. The background shows a glimpse of the outdoors with greenery and a blue sky. The post includes hashtags like #funnycatsvideo, #deafcatsofinstagram, #rescuecat, and #adoptdontshop.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a cat's paw resting on a cardboard box with a recycling symbol. The caption mentions \"two adorable rescue\" and that it's part 1, implying the cat is a rescue animal. The profile picture also has a vegan symbol.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up shot of plants and ground covered in water droplets, likely after a rain. The text overlay indicates that it's related to \"rainy day ASMR\" and \"satisfying water sounds.\" The post itself promotes a new video with water and nature ASMR sounds.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by \"unfortunatlyhuman7\" featuring two adorable rescue kittens playing. The post promotes a new video of the kittens and uses hashtags like #rescuekittens, #cutekittenvideo, #funnykitten, #kittensplaying, and #orphanedkittens.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by unfortunatlyhuman7. It shows a cat lying on a colorful blanket with text overlayed that says \"new video link in bio the ugly truth\". The post caption mentions a new video about speaking up for non-human animals and includes hashtags related to veganism.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a photo of an adorable kitten. The post promotes a new video on the user's YouTube channel.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Rescue animals:** Ask about the story of rescuing the cats, their personalities, or any challenges faced while caring for them.",
+          "2.  **Veganism:** Inquire about their vegan lifestyle, favorite vegan recipes, or their motivations for choosing a vegan diet.",
+          "1. ASMR preferences: Ask them about their favorite types of ASMR sounds or triggers, or what other nature sounds they find particularly relaxing.",
+          "2. Self-care routines: Inquire about their self-care routines and how they incorporate ASMR or nature sounds into them.",
+          "1.  **Rescue Animals/Animal Welfare:** Since the kittens are rescues, you could ask about their experience with rescuing animals, what inspired them to rescue, or if they have any advice for people considering rescuing a pet."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The cat looked so cute in its little paw covers! 😻",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Animal Rescue (especially cats and kittens)",
+            "Veganism/Animal Welfare",
+            "ASMR (specifically nature sounds and water)",
+            "Creating video content (YouTube & Instagram)"
+          ],
+          "LIFESTYLE": "Likely a content creator focused on animal rescue, veganism, and ASMR. They appear to be an animal lover, particularly dedicated to rescuing and caring for cats and kittens. They are also committed to a vegan lifestyle and enjoy creating relaxing ASMR content featuring nature sounds.",
+          "CONVERSATION STARTERS": [
+            "What's the story behind rescuing your cats/kittens? What are their personalities like?",
+            "What inspired you to adopt a vegan lifestyle, and do you have any favorite vegan recipes you'd recommend?",
+            "What are some of your favorite ASMR sounds or triggers, and what other nature sounds do you find particularly relaxing?",
+            "I saw you use paw covers on your cat. Is there a reason for that?",
+            "I noticed you advocate for animal welfare. What are some of the biggest challenges you see facing animals today, and what can people do to help?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Compassionate (towards animals)",
+            "Creative (content creation)",
+            "Caring (dedication to rescue animals)",
+            "Relaxed/Mindful (interest in ASMR)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Rescue animals:** Ask about the story of rescuing the cats, their personalities, or any challenges faced while caring for them.",
+        "2.  **Veganism:** Inquire about their vegan lifestyle, favorite vegan recipes, or their motivations for choosing a vegan diet.",
+        "1. ASMR preferences: Ask them about their favorite types of ASMR sounds or triggers, or what other nature sounds they find particularly relaxing.",
+        "2. Self-care routines: Inquire about their self-care routines and how they incorporate ASMR or nature sounds into them.",
+        "1.  **Rescue Animals/Animal Welfare:** Since the kittens are rescues, you could ask about their experience with rescuing animals, what inspired them to rescue, or if they have any advice for people considering rescuing a pet."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

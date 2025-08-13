@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T16:16:59.299003",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T16:16:41.576314",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a man's right bicep, showcasing his muscle definition. He's wearing a dark grey t-shirt, and the background is a plain, light-colored wall. The lighting highlights the contours of his arm. The post is captioned \"Biceps progress\" and includes a workout routine and hashtags related to fitness, veganism, and bodybuilding.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (gsfit_ness) in a home gym setting, performing a shoulder exercise with dumbbells. He is wearing workout clothes and appears to be in good physical condition.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (gsfit_ness) performing a bench press exercise. He is lying on a bench with a barbell loaded with weights above him. He is wearing wrist wraps. The post also includes a workout routine of bench press variations.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man in a gym, wearing a beanie, and using a preacher curl bench. The post details his back and biceps workout, including exercises like Preacher Curls, Overhand Row, and Hammer Curls. The hashtags include #veganmuscle and #veganfitness, indicating a vegan lifestyle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a screenshot of an Instagram post by gsfit_ness. The post features a map tracking an 8.27km run with a pace of 5:39/km and 61m elevation gain. The caption mentions it was a cold run and the user is trying to get back into running more. The hashtags include fitness, gym, workout, veganprotein, and veganfitness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (gsfit_ness) in a gym setting, performing a bicep curl with a barbell. He is wearing wrist straps and appears to be focused on the exercise. The caption discusses the benefits of \"21's\" as a bicep finisher.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Home Workout Routines:** The caption mentions \"ideal for a home workout.\" You could ask about his favorite home workout routines or tips for effective workouts with limited equipment.",
+          "2. **Vegan Fitness:** The hashtags include #veganprotein, #veganmuscle, and #veganfitness. You could inquire about his experience with vegan fitness, his favorite vegan protein sources, or any challenges he faces as a vegan athlete.",
+          "1.  **Bench press variations:** Ask about his experience with the different bench press variations he listed (incline, decline, flat, close grip, plate incline). You could ask which one he finds most effective or challenging.",
+          "2.  **Vegan fitness/protein:** The hashtags include #veganprotein and #veganfitness. Asking about his vegan diet and how he fuels his workouts could be a good conversation starter.",
+          "1.  **Vegan Fitness:** Given the hashtags #veganmuscle and #veganfitness, asking about his experience with vegan bodybuilding, favorite vegan protein sources, or vegan meal prep tips could be a good conversation starter."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: gsfit_ness)",
+          "INTERESTS": [
+            "Weightlifting/Bodybuilding",
+            "Vegan Fitness",
+            "Home Workouts",
+            "Running",
+            "Muscle Building"
+          ],
+          "LIFESTYLE": "Appears to be a fitness enthusiast who follows a vegan lifestyle and incorporates both gym workouts and running into their routine. Likely prioritizes health and physical fitness.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite vegan protein sources for muscle building?",
+            "What are your go-to home workout routines when you can't make it to the gym?",
+            "What are your thoughts on the effectiveness of '21s' as a bicep finisher?",
+            "What are some challenges you've faced as a vegan athlete, and how have you overcome them?",
+            "Which bench press variation do you find most effective for building chest strength and why?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated (consistent posting about workouts)",
+            "Disciplined (follows a vegan diet and rigorous training schedule)",
+            "Motivated (actively tracking progress and pushing personal limits)",
+            "Knowledgeable (shares workout tips and techniques)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Home Workout Routines:** The caption mentions \"ideal for a home workout.\" You could ask about his favorite home workout routines or tips for effective workouts with limited equipment.",
+        "2. **Vegan Fitness:** The hashtags include #veganprotein, #veganmuscle, and #veganfitness. You could inquire about his experience with vegan fitness, his favorite vegan protein sources, or any challenges he faces as a vegan athlete.",
+        "1.  **Bench press variations:** Ask about his experience with the different bench press variations he listed (incline, decline, flat, close grip, plate incline). You could ask which one he finds most effective or challenging.",
+        "2.  **Vegan fitness/protein:** The hashtags include #veganprotein and #veganfitness. Asking about his vegan diet and how he fuels his workouts could be a good conversation starter.",
+        "1.  **Vegan Fitness:** Given the hashtags #veganmuscle and #veganfitness, asking about his experience with vegan bodybuilding, favorite vegan protein sources, or vegan meal prep tips could be a good conversation starter."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

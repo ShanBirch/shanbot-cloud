@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T09:28:14.219631",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T09:27:55.632694",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a promotional post for \"Healthy Food,\" featuring a box of \"Delicious Nuggets\" (likely a snack of some kind). The background is a light green and white striped pattern with three yellow and white plates arranged in a triangle. Text overlays include \"Healthy Food\" in a green banner, \"Helathy Food la forma divertida de comer granos\" (Healthy Food, the fun way to eat grains), and social media contact information. The image is slightly blurry and appears to be a digitally created graphic.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an advertisement for \"Healthy Food\" and features a product called \"Deliciosos Nuggets.\" The text is in Spanish, stating \"Healthy Food, the fun way to eat grains.\" The post also includes social media links.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a promotional post for \"Healthy Food,\" featuring wooden spoons filled with various types of beans and grains (yellow lentils, kidney beans, mung beans, black beans, and soybeans). There's also a box of \"Deliciosos Nuggaba\" (delicious nuggets) visible. The text on the image includes \"Helathy Food La forma divertida de comer granos\" (Healthy Food, the fun way to eat grains) and social media contact information.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a digitally altered photo of a package of nuggets, labeled as \"healthy food\" and \"saludable.\" The image also includes cartoonish eyes and text like \"Gente full\" and \"Nuggets\" written multiple times.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a product called \"Delicious Nuggets\" from \"Healthy Food\" in green packaging. The product is presented outdoors on a brick surface, with greenery in the background. The post is in Spanish and promotes the product as convenient to carry and easy to eat.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a graphic promoting \"healthy food\" and features baskets filled with various types of beans and lentils.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Healthy Food/Snacks:** You could ask about their favorite healthy snack recipes or other healthy food products they recommend.",
+          "2.  **Spanish Language/Culture:** You could compliment the use of Spanish in their branding and ask if they primarily target a Spanish-speaking audience.",
+          "1. **Recipes using beans/grains:** You could ask about their favorite recipes using any of the featured beans or grains, or ask if they have any recipes they'd recommend.",
+          "2. **\"Deliciosos Nuggaba\":** You could ask about what the \"Deliciosos Nuggaba\" are made of, or what makes them \"deliciosos\".",
+          "1.  **Healthy Eating/Food Trends:** Discuss the concept of \"healthy\" nuggets and what makes food healthy in their opinion."
+        ],
+        "generated_comment": "Hey! Just was having a little stalk, your latest post looked really creative with the plate arrangement! 🍽️",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: healthyfood1732)",
+          "INTERESTS": [
+            "Healthy Eating",
+            "Snacks (Specifically 'Delicious Nuggets' and similar products)",
+            "Beans and Grains",
+            "Spanish Language/Culture (Targeting Spanish-speaking audience)",
+            "Convenient and Portable Food Options"
+          ],
+          "LIFESTYLE": "Likely focused on promoting and selling healthy food products, potentially targeting busy individuals or those seeking convenient and nutritious snacks. The emphasis on Spanish suggests a focus on the Hispanic community. May be involved in food production, marketing, or distribution.",
+          "CONVERSATION STARTERS": [
+            "What are the 'Deliciosos Nuggaba' made of, and what makes them so delicious?",
+            "Do you primarily target a Spanish-speaking audience with your 'Healthy Food' products?",
+            "What are some of your favorite recipes using the beans and grains you feature in your posts?",
+            "What makes your 'Healthy Food' nuggets a healthy snack option in your opinion?",
+            "Can you share any new and exciting healthy food trends you're currently following?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Promotional/Marketing-oriented",
+            "Health-conscious",
+            "Creative (Uses digital graphics and playful imagery)",
+            "Community-focused (Targets a specific cultural group)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Healthy Food/Snacks:** You could ask about their favorite healthy snack recipes or other healthy food products they recommend.",
+        "2.  **Spanish Language/Culture:** You could compliment the use of Spanish in their branding and ask if they primarily target a Spanish-speaking audience.",
+        "1. **Recipes using beans/grains:** You could ask about their favorite recipes using any of the featured beans or grains, or ask if they have any recipes they'd recommend.",
+        "2. **\"Deliciosos Nuggaba\":** You could ask about what the \"Deliciosos Nuggaba\" are made of, or what makes them \"deliciosos\".",
+        "1.  **Healthy Eating/Food Trends:** Discuss the concept of \"healthy\" nuggets and what makes food healthy in their opinion."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

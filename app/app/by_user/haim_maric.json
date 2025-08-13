@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T14:26:32.645185",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T14:26:13.953949",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a selfie taken by a muscular man, haim_maric, in what appears to be a public restroom. He is wearing a sleeveless hoodie and blue shorts with orange trim. His long hair is pulled back in a bun, and he has a full beard. He is holding his phone in his right hand, taking the picture in front of a mirror. The background shows tiled walls, a sink, and other bathroom fixtures.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (presumably haim_maric) with a muscular physique posing next to a woman taking a selfie in a bathroom.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man and a girl lying on the grass surrounded by kangaroos. The man is muscular and wearing a tank top. The girl is sitting up and appears to be interacting with one of the kangaroos.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a muscular man flexing his arm. The caption mentions an \"arm pump\" and a \"pupper\" (puppy), suggesting he's been working out and has a dog. The hashtags include #gains, #shredded, #aesthetic, and #movember.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (haim_maric) crouching down and playing with a German Shepherd dog in a grassy outdoor area. He's wearing a pink beanie and a tank top, suggesting a casual or athletic lifestyle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black and white photo of a man in a suit and tie. The post is a Father's Day tribute.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Fitness/Workout routines: Given his physique, asking about his workout routine, favorite exercises, or diet could be a good conversation starter.",
+          "2. Humor/Self-deprecation: The caption \"Nothin' like a good pair of genes\" suggests a sense of humor. One could playfully comment on the caption or the comments referencing Arnold Schwarzenegger.",
+          "1.  Kangaroos: \"Have you always been interested in kangaroos? They seem pretty comfortable around you!\"",
+          "2.  Fitness/Training: \"I noticed you're looking pretty fit. What kind of training do you do?\"",
+          "1.  **Fitness/Workout Routines:** Ask about his workout routine or specific exercises he does for arm development."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Haim Maric (likely full name based on username)",
+          "INTERESTS": [
+            "Fitness/Bodybuilding",
+            "Animals (Kangaroos, Dogs - especially German Shepherds)",
+            "Health and Wellness",
+            "Aesthetics/Self-Improvement",
+            "Family (Father's Day tribute)"
+          ],
+          "LIFESTYLE": "Active and health-conscious lifestyle. Likely spends time working out, enjoying the outdoors, and caring for his dog. Appears to have a good social life and values family. Potentially involved in fitness professionally or as a serious hobby.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite exercise for building arm strength?",
+            "How did you get so comfortable around kangaroos? That's amazing!",
+            "I saw you have a German Shepherd. What's their name and what's it like owning one?",
+            "What does your typical workout routine look like?",
+            "I noticed you mentioned 'genes' in one of your captions. What's your approach to balancing genetics and hard work in fitness?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated (to fitness)",
+            "Humorous/Self-aware",
+            "Animal-loving",
+            "Family-oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Fitness/Workout routines: Given his physique, asking about his workout routine, favorite exercises, or diet could be a good conversation starter.",
+        "2. Humor/Self-deprecation: The caption \"Nothin' like a good pair of genes\" suggests a sense of humor. One could playfully comment on the caption or the comments referencing Arnold Schwarzenegger.",
+        "1.  Kangaroos: \"Have you always been interested in kangaroos? They seem pretty comfortable around you!\"",
+        "2.  Fitness/Training: \"I noticed you're looking pretty fit. What kind of training do you do?\"",
+        "1.  **Fitness/Workout Routines:** Ask about his workout routine or specific exercises he does for arm development."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

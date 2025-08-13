@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T21:06:58.404241",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T21:06:41.145086",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by vegastronomist is a story post featuring a quinoa croquette. The croquette is being held up in front of a person wearing a tiger-striped shirt and a white patterned shirt. A plate with some food on it is visible on the table below. The story has the text \"Quinoa croquette!\" written on it.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate with a slice of cake topped with a dark berry compote and two slices of what appears to be plant-based cheddar cheese. There is a fork on the plate, and flowers are visible in the background. The post caption mentions \"Cake and cheese, the best duo in town!\" and \"extra mature plant-based cheddar.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan food, including what appears to be a plant-based steak from @juicymarbles, potato salad, air-fried kalette, peas, and tomatoes.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan food, specifically cauliflower steak and stir-fried tofu with bamboo shoots.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a golden-brown, flaky vegan pastry dish, likely a pie or tart, filled with a red filling (possibly beetroot, as mentioned in the caption). The post is by \"vegastronomist\" and includes a recipe suggestion using leftover vegan sausage, beetroot, and sweet potato.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a colorful vegan bowl with lentils, brown basmati rice, air-fried plantains, avocado, tomatoes, lettuce, and red cabbage.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Plant-based cheese: Ask about other plant-based cheese recommendations, especially if they have tried other \"extra mature\" varieties.",
+          "2. Food pairings: Ask about other unusual but delicious food pairings they enjoy.",
+          "1. **Plant-based meats:** Inquire about their experience with other plant-based meat alternatives and which brands they prefer.",
+          "2. **Air frying:** Ask for tips on air frying vegetables, specifically kalette, or share your own experiences with air frying.",
+          "1. Vegan cooking and recipes: \"I'm always looking for new vegan recipes. Do you have any tips for getting a good sear on cauliflower steak?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The quinoa croquette looked delicious! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Cuisine",
+            "Plant-Based Cheese",
+            "Plant-Based Meats",
+            "Vegan Recipes & Cooking Techniques",
+            "Air Frying"
+          ],
+          "LIFESTYLE": "Likely a food enthusiast and home cook focused on vegan cuisine. They appear to experiment with different ingredients and recipes, and are interested in sharing their culinary experiences on Instagram.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite brands of plant-based cheese, especially any extra mature varieties you'd recommend?",
+            "I'm curious about your experience with plant-based meats. Have you tried any other brands besides Juicy Marbles, and which do you prefer?",
+            "Do you have any tips for air frying vegetables? I'm particularly interested in learning more about air frying kalette.",
+            "That cauliflower steak looks amazing! Do you have any advice for getting a good sear on it?",
+            "What are some other unusual but delicious food pairings you enjoy, similar to cake and plant-based cheese?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous (willing to try new vegan dishes and ingredients)",
+            "Creative (experiments with recipes and food pairings)",
+            "Passionate (enthusiastic about vegan cuisine)",
+            "Sharing (posts content to inspire and engage with others)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Plant-based cheese: Ask about other plant-based cheese recommendations, especially if they have tried other \"extra mature\" varieties.",
+        "2. Food pairings: Ask about other unusual but delicious food pairings they enjoy.",
+        "1. **Plant-based meats:** Inquire about their experience with other plant-based meat alternatives and which brands they prefer.",
+        "2. **Air frying:** Ask for tips on air frying vegetables, specifically kalette, or share your own experiences with air frying.",
+        "1. Vegan cooking and recipes: \"I'm always looking for new vegan recipes. Do you have any tips for getting a good sear on cauliflower steak?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

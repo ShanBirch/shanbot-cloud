@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T17:08:26.498792",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T17:08:07.329831",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by coachaarongreschler. He is standing on a stage in a suit, leaning over a table with Herbalife products on it, and signing autographs for people in the audience. The stage has green and blue lighting. A screen in the background shows an image related to Herbalife. The caption expresses his gratitude for being chosen by Herbalife Australia and mentions that it was a bucket list item.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a before-and-after transformation photo. The left side shows a less muscular version of the person, while the right side shows a very fit and muscular version of the same person. The caption emphasizes hard work and consistency.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows coachaarongreschler and a woman (presumably @havahklajn) posing for a photo after completing a 14km run for the \"Run for the Kids\" charity event. They are both wearing running attire and race bibs.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The post contains multiple images. The first image shows a cityscape on a gloomy, overcast day. The text overlay reads, \"It looks gloomy and sad but you got the beautiful city.\" The second image shows the poster in running gear with a race bib. The post's caption includes a motivational quote about the power of thoughts and actions, mentions a 10km run, and uses hashtags like #changeyourmindset, #changeyourlife, and #livingmybestlife.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of people, including coachaarongreschler, celebrating a birthday with karaoke.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows coachaarongreschler with his younger sister (Romy), his brother-in-law (Jonesy), and another woman at an engagement party.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Transformation Journey:** Ask about specific challenges or strategies used during the transformation. \"Your transformation is inspiring! What was the most challenging aspect of your journey, and what strategies did you find most effective?\"",
+          "2.  **Coaching Philosophy:** Inquire about his coaching methods, particularly regarding consistency and motivation. \"I noticed you emphasize consistency in your caption. How do you help your clients stay motivated and consistent with their fitness goals?\"",
+          "1.  **Running/Training:** Ask about their training regimen for the 14km run, or if they are planning on participating in any other runs/races in the future.",
+          "2.  **Charity/Run for the Kids:** Inquire about their involvement with the \"Run for the Kids\" charity and what motivates them to participate.",
+          "*   Running/Fitness: Ask about their running routine, recent races, or training tips."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You looked like you were having a blast up on that stage! 🎉",
+        "profile_bio": {
+          "PERSON NAME": "Aaron Greschler",
+          "INTERESTS": [
+            "Fitness & Transformation",
+            "Herbalife",
+            "Running & Endurance Events",
+            "Personal Development & Mindset",
+            "Charity & Community Involvement"
+          ],
+          "LIFESTYLE": "Aaron Greschler is a fitness coach and Herbalife distributor. He appears to be passionate about personal transformation, both his own and his clients'. He actively participates in running events, including charity runs, and emphasizes the importance of mindset and consistency in achieving goals. He also values family and social connections.",
+          "CONVERSATION STARTERS": [
+            "I saw your transformation post - it's incredibly inspiring! What was the biggest hurdle you had to overcome during that process?",
+            "Congratulations on being chosen by Herbalife Australia! What are you most excited about in this new role?",
+            "I noticed you ran the 'Run for the Kids' event. What inspired you to participate in that particular charity run?",
+            "Your posts often mention the power of mindset. Can you share some practical tips on how to cultivate a more positive and empowering mindset?",
+            "I'm also into running! What's your favorite distance to run, and do you have any upcoming races planned?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Motivated",
+            "Driven",
+            "Positive",
+            "Community-oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Transformation Journey:** Ask about specific challenges or strategies used during the transformation. \"Your transformation is inspiring! What was the most challenging aspect of your journey, and what strategies did you find most effective?\"",
+        "2.  **Coaching Philosophy:** Inquire about his coaching methods, particularly regarding consistency and motivation. \"I noticed you emphasize consistency in your caption. How do you help your clients stay motivated and consistent with their fitness goals?\"",
+        "1.  **Running/Training:** Ask about their training regimen for the 14km run, or if they are planning on participating in any other runs/races in the future.",
+        "2.  **Charity/Run for the Kids:** Inquire about their involvement with the \"Run for the Kids\" charity and what motivates them to participate.",
+        "*   Running/Fitness: Ask about their running routine, recent races, or training tips."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

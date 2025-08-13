@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T12:30:49.271964",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T12:30:30.814238",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a portrait of themrgordo, taken by @michaelmannioncomedian at the @altogetherotherwise zineswap party. He is wearing a faded black cap, round glasses, a purple t-shirt with a design, and a pink corduroy jacket. He has long brown hair and a mustache. A silver camera hangs around his neck. He is standing in front of a shelf with orange storage bins and books.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A person with long hair, a mustache, and tattoos is standing in front of a dark, ornate door. They are wearing a black t-shirt with the words \"Heavy Nettle\" printed on it. The post is advertising \"Heavy Nettle\" t-shirts made with organic cotton and GOTS-certified inks.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person standing on a beach, holding a large stick. The background includes dunes and tall grass. The person is wearing casual clothing and a hat. The caption mentions finding the stick and wanting to bring it home on the train, along with hashtags related to stick reviews, Northumberland, and wizard world.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black and white 35mm photograph of themrgordo standing in front of a large rock (possibly a stone circle or monument). He's wearing a t-shirt with \"EARTH\" printed on it, a jacket, and a hat. The caption mentions the Pennie Way, Kinder Scout, and drawing stones.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a stage setup with various guitar amplifiers (Hiwatt, Trace Elliot, Peavey) and a guitar. A neon sign that says \"Dirty Otter\" is prominently displayed. The post caption mentions the person designed the logo for \"Dirty Otter Leeds\" gig and party promoters.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up of a zine cover titled \"Scrap Book: Martin Phillipps Notes From The Archive (volume 1).\" It features handwritten notes, drawings, and a sticker of \"The Chills,\" a band. The post mentions that the zine is a collection of drawings, notes, and bits from the late Martin Phillips of The Chills.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Heavy Metal Music:** The t-shirt says \"Heavy Nettle,\" but the font and style are reminiscent of heavy metal band logos. You could ask them about their favorite heavy metal bands or if they listen to the genre.",
+          "2. **Sustainable Fashion/Organic Materials:** The post mentions organic cotton and GOTS-certified inks. You could ask them about their interest in sustainable fashion or their thoughts on the importance of using eco-friendly materials.",
+          "1. **Stick Collecting/Reviewing:** Ask about their stick collection or their stick reviewing process. \"I saw your post about the stick you found. What makes a stick worthy of review?\"",
+          "2. **Northumberland:** Ask about their experiences in Northumberland. \"I noticed you were in Northumberland. Have you been there before? What are some of your favorite places to visit there?\"",
+          "1. Photography: Ask about his experience shooting with 35mm film, his favorite film stocks, or his thoughts on the @takeiteasylab development lab."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Martin (Based on the zine title 'Scrap Book: Martin Phillipps Notes From The Archive')",
+          "INTERESTS": [
+            "Music (especially Indie/Alternative and potentially Heavy Metal)",
+            "Photography (especially 35mm film photography)",
+            "Zines and DIY Culture",
+            "Nature and Hiking (especially in Northumberland and the Pennines)",
+            "Sustainable Fashion"
+          ],
+          "LIFESTYLE": "Likely involved in creative pursuits, possibly as a designer, artist, or musician. Enjoys outdoor activities like hiking and exploring nature. Seems to have an appreciation for independent and DIY culture, as well as sustainable practices.",
+          "CONVERSATION STARTERS": [
+            "I saw your 'Heavy Nettle' shirt. Are you into heavy metal music? What are some of your favorite bands?",
+            "Your zine about Martin Phillipps is really interesting. What inspired you to create it, and what's your connection to The Chills?",
+            "That stick you found in Northumberland looked amazing! What qualities do you look for when reviewing a stick?",
+            "I noticed you designed the logo for Dirty Otter Leeds. How did you get involved with them, and what's the music scene like there?",
+            "Your 35mm photography is beautiful. What's your favorite film stock to use, and what do you like about shooting film?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Environmentally Conscious",
+            "Appreciative of Art and Music",
+            "Adventurous/Outdoorsy"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Heavy Metal Music:** The t-shirt says \"Heavy Nettle,\" but the font and style are reminiscent of heavy metal band logos. You could ask them about their favorite heavy metal bands or if they listen to the genre.",
+        "2. **Sustainable Fashion/Organic Materials:** The post mentions organic cotton and GOTS-certified inks. You could ask them about their interest in sustainable fashion or their thoughts on the importance of using eco-friendly materials.",
+        "1. **Stick Collecting/Reviewing:** Ask about their stick collection or their stick reviewing process. \"I saw your post about the stick you found. What makes a stick worthy of review?\"",
+        "2. **Northumberland:** Ask about their experiences in Northumberland. \"I noticed you were in Northumberland. Have you been there before? What are some of your favorite places to visit there?\"",
+        "1. Photography: Ask about his experience shooting with 35mm film, his favorite film stocks, or his thoughts on the @takeiteasylab development lab."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

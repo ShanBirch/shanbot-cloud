@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T12:25:23.140487",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T12:25:05.187357",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows two people, presumably Carrie Shogan and another individual, seated in plush red chairs at what appears to be a wine event. Behind them is a wall decoration resembling an exploding champagne bottle, made of balloons in white, gold, and red. Carrie is on the left, holding a glass, and the other person is on the right, also holding a glass and a cane is resting on the chair. A small round table sits between them.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two men posing indoors. The caption mentions \"Superb Owl with the famjam,\" suggesting it was taken during a Super Bowl gathering. One man is holding a glass of red wine.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a snowy landscape with a group of black pigs and one white pig in a fenced area. The caption mentions \"Bunsen always stands out in the crowd,\" implying the white pig is named Bunsen.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of carrie_shogan with her cat. The cat is a light-colored tabby with blue eyes and appears to be meowing. The caption indicates the cat's name is Cleopatra Frankenstein.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a list of names and ages, likely commemorating the victims of the École Polytechnique massacre. The hashtags #saytheirnames and #ecolepolytechnique confirm this.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of a woman with red hair wearing a pirate hat and a black t-shirt with a white cat design. She appears to be in a store, possibly a thrift store, with racks of clothing visible in the background.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Super Bowl: Ask about their favorite part of the Super Bowl or their favorite commercial.",
+          "2.  Wine: Ask about the type of wine he was drinking and if he has any recommendations.",
+          "1.  Pig farming/animal care: You could ask about the breed of pigs, the challenges of raising them in a snowy climate, or general questions about animal husbandry.",
+          "2.  The pig named Bunsen: You could ask about the story behind the name Bunsen, or ask for more pictures of Bunsen.",
+          "1.  Cat breeds/care: \"Cleopatra Frankenstein is adorable! What breed is she? Do you have any tips for keeping her fur so soft?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That balloon champagne bottle is so creative! 🍾",
+        "profile_bio": {
+          "PERSON NAME": "Carrie Shogan",
+          "INTERESTS": [
+            "Wine and wine events",
+            "Animals (Pigs and Cats)",
+            "Social Justice/Remembrance (École Polytechnique)",
+            "Super Bowl/Sports",
+            "Thrifting/Unique Fashion"
+          ],
+          "LIFESTYLE": "Appears to enjoy social events like wine tastings and Super Bowl gatherings. Seems to have a connection to animals, possibly raising pigs and owning a cat. Also demonstrates an awareness of social issues and a possible interest in thrifting or unique fashion.",
+          "CONVERSATION STARTERS": [
+            "What was your favorite part of the Super Bowl this year?",
+            "Do you have any wine recommendations based on what you were drinking at the wine event?",
+            "What's the story behind naming your white pig Bunsen?",
+            "Cleopatra Frankenstein is adorable! What breed is she?",
+            "I noticed you were wearing a pirate hat in your selfie. Do you enjoy thrifting or finding unique clothing items?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Social",
+            "Compassionate",
+            "Animal-loving",
+            "Unique/Expressive"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Super Bowl: Ask about their favorite part of the Super Bowl or their favorite commercial.",
+        "2.  Wine: Ask about the type of wine he was drinking and if he has any recommendations.",
+        "1.  Pig farming/animal care: You could ask about the breed of pigs, the challenges of raising them in a snowy climate, or general questions about animal husbandry.",
+        "2.  The pig named Bunsen: You could ask about the story behind the name Bunsen, or ask for more pictures of Bunsen.",
+        "1.  Cat breeds/care: \"Cleopatra Frankenstein is adorable! What breed is she? Do you have any tips for keeping her fur so soft?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T19:43:29.208966",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T19:43:07.641578",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a male model wearing a dark green hooded parka. He is looking slightly off to the side, and his hand is adjusting the hood. The lighting is soft and highlights the texture of the jacket. The background is a light gray.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A close-up shot of a waterproof fabric with water droplets on it. The post is advertising a softshell jacket made from a NeoDry membrane.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by spunwolf features a woman modeling a light grey synthetic down jacket. The post promotes the jacket as warm and highlights the benefits of synthetic down, such as its lightweight nature, quick-drying properties, and resistance to mold. The hashtags suggest a focus on activewear, training, and fitness in Melbourne, Sydney, and Brisbane.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of red activewear with the words \"AF TRAINING\" printed on it. The post is from spunwolf, an activewear brand based in Sydney, Australia. The caption asks \"Are you ready for training?\" and includes hashtags related to fitness, training, and outdoor activities.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by spunwolf advertising a waterproof, hooded men's parka. The model is wearing the jacket, which is red and black. The post includes hashtags related to activewear, sports, fitness, and outdoor activities like hiking and camping.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person wearing a yellow softshell jacket with the hood up in what appears to be rainy conditions. The post describes the features of the softshell jacket and its suitability for outdoor activities.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Outdoor Activities:** Given the focus on waterproof jackets and the hashtags like #ilovesport, asking about their favorite outdoor activities or sports that require waterproof gear could be a good conversation starter.",
+          "2. **Melbourne/Sydney Training:** The hashtags #melbournegym, #sydneygym, #melbournerunners, #melbournetraining, and #sydneytraining suggest an interest in fitness and training in these cities. Asking about their favorite gyms or training spots in Melbourne or Sydney could be a relevant topic.",
+          "1.  **Fitness and Training:** Given the hashtags related to gyms, training, and fitness in multiple cities, a conversation could be started about their favorite workout routines, fitness goals, or experiences at gyms in Melbourne, Sydney, or Brisbane.",
+          "2.  **Activewear and Outdoor Activities:** The post promotes activewear suitable for colder weather. A conversation could be started about their favorite outdoor activities during winter, or their preferred brands and features in activewear.",
+          "1. **Training routines:** Inquire about their preferred training methods or ask for tips on staying motivated."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The jacket looked really practical and stylish. 🧥",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: spunwolf)",
+          "INTERESTS": [
+            "Activewear",
+            "Fitness and Training",
+            "Outdoor Activities (Hiking, Camping, Sports)",
+            "Waterproof and Weather-Resistant Gear",
+            "Training in Melbourne, Sydney, and Brisbane"
+          ],
+          "LIFESTYLE": "Likely an active individual involved in fitness and outdoor activities. Potentially a brand or retailer of activewear based in Sydney, Australia, catering to individuals who train and participate in outdoor sports, particularly in Melbourne, Sydney, and Brisbane. They seem to focus on providing gear suitable for various weather conditions.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite outdoor activities or sports that require waterproof gear?",
+            "Do you have any favorite gyms or training spots in Melbourne or Sydney you'd recommend?",
+            "What are your go-to workout routines, and what are your current fitness goals?",
+            "What are your favorite outdoor activities during winter, and what features do you look for in activewear for colder weather?",
+            "What are your preferred training methods, and do you have any tips for staying motivated?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Practical (Focus on functional clothing)",
+            "Active (Promotes fitness and outdoor activities)",
+            "Quality-Oriented (Highlights features like waterproofness and synthetic down)",
+            "Location-Focused (Targets specific cities in Australia)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Outdoor Activities:** Given the focus on waterproof jackets and the hashtags like #ilovesport, asking about their favorite outdoor activities or sports that require waterproof gear could be a good conversation starter.",
+        "2. **Melbourne/Sydney Training:** The hashtags #melbournegym, #sydneygym, #melbournerunners, #melbournetraining, and #sydneytraining suggest an interest in fitness and training in these cities. Asking about their favorite gyms or training spots in Melbourne or Sydney could be a relevant topic.",
+        "1.  **Fitness and Training:** Given the hashtags related to gyms, training, and fitness in multiple cities, a conversation could be started about their favorite workout routines, fitness goals, or experiences at gyms in Melbourne, Sydney, or Brisbane.",
+        "2.  **Activewear and Outdoor Activities:** The post promotes activewear suitable for colder weather. A conversation could be started about their favorite outdoor activities during winter, or their preferred brands and features in activewear.",
+        "1. **Training routines:** Inquire about their preferred training methods or ask for tips on staying motivated."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

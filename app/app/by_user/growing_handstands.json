@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T19:41:09.829593",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T19:40:46.783577",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a selfie of a man and a young boy in what appears to be a fabric or home goods store. They are both wearing matching tan cowboy hats. The boy is sitting in a blue shopping cart, wearing a green Christmas-themed pajama top. The man is wearing a light-colored shirt and has visible tattoos on his arm. The background is filled with shelves of fabric and other merchandise.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person in a gym setting, preparing to do a handstand or some kind of floor exercise. The caption mentions \"non-handstand days\" and includes hashtags related to fitness, handstands, calisthenics, and gymnastics.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A young child is sitting on a white cushion chair, holding and looking at a book.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post contains a video about the Kansas City Chiefs going back to the Super Bowl. The video seems to be a meme or humorous take on Chiefs fans. The profile name is \"growing_handstands\" and the profile picture shows a person doing a handstand.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a family (mother, father, and their son) celebrating the son's 3rd birthday. The background includes birthday decorations. The Instagram handle is \"growing_handstands\". A video is shown in the bottom right of the image of someone doing handstands.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man doing a handstand in a gym. He's wearing athletic clothing and is on a green turf surface. The background includes gym equipment like treadmills and other people working out.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Handstand Progress/Training:** Ask about their handstand journey, training routine, or any tips they have for improving balance and strength.",
+          "2.  **Gym/Fitness:** Inquire about their favorite exercises, the gym they frequent, or their overall fitness goals.",
+          "1.  Children's books: \"That looks like a great book! Do you have any other recommendations for children's books?\"",
+          "2.  Parenting/child development: \"He seems very engaged with the book. Do you have any tips for encouraging early literacy?\"",
+          "1.  **Football/Sports:** You could ask about their thoughts on the Chiefs' chances in the Super Bowl or their general interest in football."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You and your son looked like you had a fun day out! 🤠",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Handstands/Calisthenics/Gymnastics",
+            "Fitness and Exercise",
+            "Parenting/Family Life",
+            "Children's Books/Early Literacy",
+            "Kansas City Chiefs/Football"
+          ],
+          "LIFESTYLE": "Appears to be a family-oriented individual with a strong interest in fitness, particularly handstands and calisthenics. Likely spends time at the gym and enjoys engaging in activities with his son. Seems to be a fan of the Kansas City Chiefs.",
+          "CONVERSATION STARTERS": [
+            "I noticed you're working on handstands! What's your training routine like?",
+            "Your son looks like he enjoys reading. Do you have any favorite children's book recommendations?",
+            "What are your thoughts on the Chiefs' chances in the Super Bowl this year?",
+            "What's your favorite exercise to do at the gym?",
+            "Do you have any tips for encouraging early literacy in young children?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated (to fitness and handstand training)",
+            "Family-oriented",
+            "Enthusiastic (about the Chiefs and possibly other interests)",
+            "Playful/Humorous (evident in the Chiefs meme video and cowboy hat photo)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Handstand Progress/Training:** Ask about their handstand journey, training routine, or any tips they have for improving balance and strength.",
+        "2.  **Gym/Fitness:** Inquire about their favorite exercises, the gym they frequent, or their overall fitness goals.",
+        "1.  Children's books: \"That looks like a great book! Do you have any other recommendations for children's books?\"",
+        "2.  Parenting/child development: \"He seems very engaged with the book. Do you have any tips for encouraging early literacy?\"",
+        "1.  **Football/Sports:** You could ask about their thoughts on the Chiefs' chances in the Super Bowl or their general interest in football."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

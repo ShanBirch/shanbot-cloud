@@ -1,0 +1,61 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 2,
+      "user_messages": 1,
+      "ai_messages": 1,
+      "ai_questions": 0,
+      "ai_statements": 1,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-10T20:10:36.527996",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": true,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-09T07:49:06.930286+00:00",
+          "type": "user",
+          "text": "Dear Valued Customers,\n\nOnly Vegan Food Cebu closed in December 2023. We're grateful for your support on our 3-year journey! Though this chapter ends, the spirit of conscious living continues. Thank you for embracing plant-based goodness with us.  \n\n- Cathy Chiong, Founder"
+        },
+        {
+          "timestamp": "2025-04-09T07:49:06.945827+00:00",
+          "type": "ai",
+          "text": "Ah gutted to hear about the closure Cathy! Running a business is tough hey. Cheers for providing plant based options for 3 years! Hope the next chapter is great."
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "onlyveganfoodcebu",
+      "user_responses_to_questions": 0,
+      "response_rate": 0.0,
+      "coaching_inquiries": 0,
+      "ai_detections": 0,
+      "first_message_timestamp": "2025-04-09T07:49:06.930286+00:00",
+      "last_message_timestamp": "2025-04-09T07:49:06.945827+00:00",
+      "last_seen_timestamp": "2025-04-09T07:49:06.945827+00:00",
+      "conversation_count": 1,
+      "conversation_duration_str": "0m",
+      "fitness_topic_user_initiated": false,
+      "fitness_topic_ai_initiated": false
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

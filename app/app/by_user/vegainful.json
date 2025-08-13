@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T02:05:53.732009",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T02:05:30.940339",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a portrait of a woman, likely the owner of the vegainful account, standing outside. She is wearing a rust-colored off-the-shoulder top and black jeans. She is looking towards the camera with a slight smile. There is a tattoo visible on her shoulder. The background includes trees and grass, suggesting a park or outdoor setting.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A woman is posing outside. The post describes her experience completing the #75Hard challenge, reading books, and starting a business.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A woman in athletic wear (sports bra and leggings) poses outdoors against a textured wall. Her clothing has a camouflage pattern with \"Victoria Sport\" printed on the waistband. The caption reveals she's participating in the #75Hard challenge and is affiliated with #1stphorm.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a before-and-after comparison of a woman's fitness journey. The left side shows her before starting the #75Hard challenge, and the right side shows her progress after 61 days. She is wearing workout clothes in both photos and flexing in the \"after\" photo. The caption discusses mindset and overcoming fears.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A woman in a polka dot bikini standing in the ocean. The post describes her past experiences with swimming, water polo, working at Baskin Robbins, and struggling with weight loss.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person taking a selfie in a public restroom. The post describes their experiences during 2020, including drinking micheladas, dealing with workplace issues, participating in a 100-mile challenge, and joining a fitness challenge.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **#75Hard Challenge:** Ask about her experience with the #75Hard challenge, what she found most difficult, and what she learned from it.",
+          "2.  **Entrepreneurship:** Inquire about the type of business she is starting and what inspired her to take the leap into entrepreneurship.",
+          "1.  **The #75Hard Challenge:** Ask about her experience with the challenge, what she finds most difficult, or what she's learned.",
+          "2.  **Fitness/Workout Routine:** Inquire about her workout routine, favorite exercises, or her goals related to fitness.",
+          "1. **The #75Hard Challenge:** Ask about her experience with the challenge, what she found most difficult, and what she learned."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The color of your top really suits you! 🍂",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "#75Hard Challenge",
+            "Fitness & Wellness",
+            "Entrepreneurship",
+            "Personal Development (Mindset)",
+            "Outdoor Activities (Swimming, etc.)"
+          ],
+          "LIFESTYLE": "This individual appears to be a fitness enthusiast and entrepreneur. She is actively involved in personal development challenges like #75Hard and is building a business. She enjoys outdoor activities and prioritizes her physical and mental well-being.",
+          "CONVERSATION STARTERS": [
+            "What was the most challenging aspect of the #75Hard challenge for you, and what did you learn from it?",
+            "Can you tell me more about the business you're starting? What inspired you to become an entrepreneur?",
+            "What does your typical workout routine look like, and what are your current fitness goals?",
+            "You mentioned overcoming fears in your #75Hard post. Can you share a bit about that experience?",
+            "I saw you enjoy swimming. What are some of your favorite water activities?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven/Motivated",
+            "Resilient",
+            "Goal-Oriented",
+            "Self-Improving"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **#75Hard Challenge:** Ask about her experience with the #75Hard challenge, what she found most difficult, and what she learned from it.",
+        "2.  **Entrepreneurship:** Inquire about the type of business she is starting and what inspired her to take the leap into entrepreneurship.",
+        "1.  **The #75Hard Challenge:** Ask about her experience with the challenge, what she finds most difficult, or what she's learned.",
+        "2.  **Fitness/Workout Routine:** Inquire about her workout routine, favorite exercises, or her goals related to fitness.",
+        "1. **The #75Hard Challenge:** Ask about her experience with the challenge, what she found most difficult, and what she learned."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

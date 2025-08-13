@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T21:25:27.931901",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T21:25:03.983194",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by yuka_honey_yutas features an image of the YUTAS Co., Ltd. logo. The logo is a stylized black and white image of a sheep's head wearing a crown of flowers, with a honeycomb pattern on its body. Below the image is the company name \"YUTAS Co., Ltd.\" and the tagline \"Being Happiness and Joy to Everyday Life\" in English and Japanese. The post's caption is a formal announcement in Japanese about the establishment of YUTAS Co., Ltd. by Yuka Yurako Iwama, expressing her commitment to developing and selling organic products. The background of the post on the Instagram feed shows a floral arrangement.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of vegan green bean creamy soup surrounded by colorful flowers. The post includes the recipe in Japanese.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan soy milk scone on a white plate, surrounded by various colorful flowers and greenery. The post also includes the recipe for the scone in Japanese and English.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a slice of vegan chocolate cake (Gâteau au chocolat) presented on a decorative plate surrounded by flowers and berries. The post includes the recipe in both English and Japanese.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up shot of a bowl of vibrant yellow vegan pumpkin soy milk soup, garnished with herbs and pumpkin seeds. The post includes both English and Japanese instructions for making the soup.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up shot of a bowl of vegan tomato miso soup, surrounded by fresh ingredients like tomatoes, Japanese radish, and greens. The post includes a recipe in both English and Japanese.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan cooking and recipes: Ask about other favorite vegan recipes or cooking tips.",
+          "2. Seasonal ingredients: Inquire about other dishes that can be made with seasonal spring ingredients.",
+          "1. Baking: \"I saw your recipe for the vegan soy milk scones! Do you have any other vegan baking recipes you enjoy?\"",
+          "2. Veganism/Vegetarianism: \"I noticed you mentioned the goodness of vegetarian food in your post. What are some of your favorite vegan/vegetarian meals to cook?\"",
+          "1. Vegan baking: \"I noticed you shared a vegan chocolate cake recipe! I'm always looking for new vegan baking ideas. Do you have any other favorite vegan desserts you like to make?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The logo is so cute, especially the little flowers on the sheep! 🌸",
+        "profile_bio": {
+          "PERSON NAME": "Yuka Yurako Iwama",
+          "INTERESTS": [
+            "Vegan cooking",
+            "Vegan baking",
+            "Organic products",
+            "Seasonal ingredients",
+            "Japanese and English recipes"
+          ],
+          "LIFESTYLE": "Entrepreneur and vegan food enthusiast. Founder of YUTAS Co., Ltd., focused on developing and selling organic products. Enjoys creating and sharing vegan recipes, particularly baked goods and soups, using seasonal ingredients. Likely has a strong interest in health and wellness.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite seasonal ingredients to cook with this spring?",
+            "I loved your vegan chocolate cake recipe! Do you have any other vegan dessert recipes you'd recommend?",
+            "What inspired you to start YUTAS Co., Ltd. and focus on organic products?",
+            "I'm curious about your favorite vegan/vegetarian meals to cook. Any recommendations?",
+            "What are some of your go-to vegan cooking tips for beginners?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Passionate",
+            "Health-conscious",
+            "Generous (sharing recipes)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan cooking and recipes: Ask about other favorite vegan recipes or cooking tips.",
+        "2. Seasonal ingredients: Inquire about other dishes that can be made with seasonal spring ingredients.",
+        "1. Baking: \"I saw your recipe for the vegan soy milk scones! Do you have any other vegan baking recipes you enjoy?\"",
+        "2. Veganism/Vegetarianism: \"I noticed you mentioned the goodness of vegetarian food in your post. What are some of your favorite vegan/vegetarian meals to cook?\"",
+        "1. Vegan baking: \"I noticed you shared a vegan chocolate cake recipe! I'm always looking for new vegan baking ideas. Do you have any other favorite vegan desserts you like to make?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

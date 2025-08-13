@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T00:16:15.933412",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T00:15:56.747074",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a selfie of garrettkeelermarkle. He is smiling slightly and looking directly at the camera. He is wearing a jacket with a blue collar. The background is dark, suggesting it is nighttime. The post is captioned \"Conspiracies and the political divide 6am Wake and Jam #22\" with hashtags related to debate, health, politics, conspiracy, and history.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up shot of a man, presumably Garrett Keeler Markle, talking in a video. The post caption mentions \"Broken Circuits and a lack of faith - 6am Rise and Grind #21\" and includes hashtags related to routine, habit, injury, energy, fitness, faith, and potentially a brand name.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by garrettkeelermarkle. He is wearing a red shirt and is likely filming a video. The background appears to be a garage or workshop. The hashtags used are #breath, #breathwork, #form, and #fitness. The title of the video is \"Anti-Fragile Hygiene Core - Rise and Grind #16\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by garrettkeelermarkle. The post is a video with the caption \"Perspective on cardio, Tucker Means interview - Narrow Rising #13\". The image shows a man in a red shirt, likely the content creator, and the background appears to be a porch or outdoor area with pillars.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a man (garrettkeelermarkle) wearing a purple shirt. The post is tagged with #selfdoubt #warofart #antifragilehygiene #morningroutine. The caption mentions \"Narrow Rise #12 - Self doubt, The War of Art, and Anti-Fragile Hygiene A¥>£\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by garrettkeelermarkle. The post is a video titled \"Narrow Rising #10 - Resets and Mistakes\" and the caption discusses consistency and balancing out mistakes. The hashtags include #morningroutine, #badmoves, #reset, #consistency, #showingup, and #mentorship.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Fitness/Injury:** Given the hashtags \"#fitness\" and \"#injury,\" you could ask about his fitness routine or inquire about the nature of his injury and how he's managing it.",
+          "2. **Routine/Habit:** The hashtags \"#routine\" and \"#habit\" suggest he's focused on building positive habits. You could ask about his morning routine or what habits he's currently trying to develop.",
+          "1. Breathwork/Fitness: \"I saw your post about Anti-Fragile Hygiene Core. I've been trying to incorporate more breathwork into my fitness routine. Do you have any tips for beginners?\"",
+          "2. Workshop/Garage: \"I noticed your workshop in the background. Are you working on any interesting projects lately?\"",
+          "1. **\"Narrow Rising\" podcast/interview series:** You could ask about the \"Narrow Rising\" series, what it's about, and what other topics are covered."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post, you looked like you were enjoying the evening! 😃",
+        "profile_bio": {
+          "PERSON NAME": "Garrett Keeler Markle",
+          "INTERESTS": [
+            "Fitness and Breathwork",
+            "Morning Routines and Habit Formation",
+            "Politics and Conspiracy Theories",
+            "History",
+            "Personal Development (Self-Doubt, Consistency, Anti-Fragility)"
+          ],
+          "LIFESTYLE": "Appears to be a content creator focused on self-improvement, fitness, and exploring complex topics like politics and conspiracy theories. He seems to prioritize a structured morning routine and is possibly involved in some kind of workshop or garage-based projects. He also seems to be involved in podcasting or interview series.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about Anti-Fragile Hygiene Core. I've been trying to incorporate more breathwork into my fitness routine. Do you have any tips for beginners?",
+            "I noticed your workshop in the background. Are you working on any interesting projects lately?",
+            "I'm curious about your 'Narrow Rising' series. What's the main focus of the series, and what kind of guests do you typically have?",
+            "Your posts often mention morning routines. What's one habit you've found particularly impactful in your own life?",
+            "I'm interested in your perspective on the political divide. What are some of the key issues you think are contributing to the current climate?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Disciplined (evident from the consistent morning routine and 'Rise and Grind' posts)",
+            "Inquisitive (exploring topics like conspiracies and politics)",
+            "Self-Aware (addressing self-doubt and focusing on personal development)",
+            "Driven (pursuing fitness, content creation, and personal growth)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Fitness/Injury:** Given the hashtags \"#fitness\" and \"#injury,\" you could ask about his fitness routine or inquire about the nature of his injury and how he's managing it.",
+        "2. **Routine/Habit:** The hashtags \"#routine\" and \"#habit\" suggest he's focused on building positive habits. You could ask about his morning routine or what habits he's currently trying to develop.",
+        "1. Breathwork/Fitness: \"I saw your post about Anti-Fragile Hygiene Core. I've been trying to incorporate more breathwork into my fitness routine. Do you have any tips for beginners?\"",
+        "2. Workshop/Garage: \"I noticed your workshop in the background. Are you working on any interesting projects lately?\"",
+        "1. **\"Narrow Rising\" podcast/interview series:** You could ask about the \"Narrow Rising\" series, what it's about, and what other topics are covered."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

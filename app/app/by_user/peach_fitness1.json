@@ -1,0 +1,127 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 1,
+      "user_messages": 0,
+      "ai_messages": 1,
+      "ai_questions": 1,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": true,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-13T19:40:44.543783",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-14T05:31:33.844134+00:00",
+          "type": "ai",
+          "text": "Hey! Just came across your profile. What's been keeping you busy lately? 😊"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "peach_fitness1",
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-13T21:09:28.362836",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by peach_fitness1 is a video showing her demonstrating a mobility exercise in a gym. She's squatting while holding onto a vertical bar. The video has text overlaying it that says \"Don't neglect mobility! Mobility helps improve range of movement and helps decrease the risk of injury!\". The post's caption lists things she wishes she knew before training, including the importance of mobility, balance, rest days, and enjoying workouts.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a photo taken from what appears to be an airplane window, showing a vast expanse of fluffy white clouds against a blue sky. The caption expresses appreciation for the beauty of nature and encourages mindfulness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a before-and-after transformation of a woman, presumably the poster, peach_fitness1. The caption mentions weight loss (9cm and 2kg), feeling great, and enjoying a spoonful of Nutella.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A woman in workout clothes is standing outside near a body of water. The location is tagged as Gold Coast, Queensland. The hashtags include fitness-related terms like #gym, #workout, #personaltrainer, and #crossfit.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows three people in athletic wear posing in front of a wall with the words \"DREAM BIG, WORK HARD (AND ALWAYS BE KIND)\" written on it.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in workout clothes sitting on a mat in a gym, holding a medicine ball. The caption encourages stepping outside one's comfort zone.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Travel: Ask about where the photo was taken or if they enjoy traveling and seeing different landscapes.",
+          "2. Photography/Nature: Discuss their interest in photography or nature and ask about their favorite places to capture beautiful scenery.",
+          "1.  **Nutella/Guilty Pleasures:** The post directly asks \"What's your guilty pleasure?!?\" This is an easy opening to share your own and ask more about hers.",
+          "2.  **Fitness Journey/Motivation:** Given the transformation and hashtags related to fitness, asking about her specific workout routine, diet, or what motivated her during the 90-day period could spark a conversation.",
+          "1.  **Fitness/Training:** Inquire about her training routine, favorite type of workout, or her experience as a personal trainer."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Fitness & Mobility (especially injury prevention)",
+            "Personal Training",
+            "Travel & Nature Photography",
+            "Mindfulness & Positivity",
+            "Healthy Lifestyle (with room for treats!)"
+          ],
+          "LIFESTYLE": "A fitness enthusiast and personal trainer based in Gold Coast, Queensland. She promotes a balanced lifestyle that includes regular exercise, mobility work, mindfulness, and enjoying life's simple pleasures. She seems to enjoy traveling and exploring nature.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about mobility exercises. What's your favorite mobility drill for improving squat depth?",
+            "That photo of the clouds is stunning! Where was that taken, and do you have any other favorite places to photograph?",
+            "You mentioned enjoying a spoonful of Nutella. What's your go-to guilty pleasure?",
+            "Congratulations on your transformation! What was the biggest challenge you faced during your fitness journey, and how did you overcome it?",
+            "I noticed you're a personal trainer. What's the most rewarding part of your job?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Motivating",
+            "Positive & Encouraging",
+            "Balanced (emphasizing both fitness and enjoyment)",
+            "Mindful & Appreciative"
+          ]
+        }
+      },
+      "conversation_count": 1,
+      "last_seen_timestamp": "2025-04-14T05:31:33.844134+00:00",
+      "profile_conversation_topics": [
+        "1. Travel: Ask about where the photo was taken or if they enjoy traveling and seeing different landscapes.",
+        "2. Photography/Nature: Discuss their interest in photography or nature and ask about their favorite places to capture beautiful scenery.",
+        "1.  **Nutella/Guilty Pleasures:** The post directly asks \"What's your guilty pleasure?!?\" This is an easy opening to share your own and ask more about hers.",
+        "2.  **Fitness Journey/Motivation:** Given the transformation and hashtags related to fitness, asking about her specific workout routine, diet, or what motivated her during the 90-day period could spark a conversation.",
+        "1.  **Fitness/Training:** Inquire about her training routine, favorite type of workout, or her experience as a personal trainer."
+      ],
+      "first_message_timestamp": "2025-04-14T05:31:33.844134+00:00",
+      "last_message_timestamp": "2025-04-14T05:31:33.844134+00:00",
+      "conversation_duration_str": "0m"
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

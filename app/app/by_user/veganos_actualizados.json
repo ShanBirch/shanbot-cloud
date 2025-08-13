@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T12:09:19.691039",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T12:08:53.870942",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by veganos_actualizados features a man, presumably the account owner, standing in front of a boxing-related backdrop. The backdrop has the words \"CONSEJO DE BOXEO\" prominently displayed. The man is wearing a black t-shirt with \"V.F.S\" on it and grey pants. He is gesturing towards his head with his finger, as if giving a tip or advice.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from the account \"veganos_actualizados\" featuring the logo for \"Supreme Master TV.com,\" which is described as the \"first VEGAN television in the world, broadcasting on all continents.\" The post also includes a link to their website and YouTube channel.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post promoting a daily hour of prayer for a vegan world, starting at 9 PM Hong Kong time. It features the text \"Pray for World Vegan\" prominently displayed over an image of the Earth. The post also includes a quote from Supreme Master Ching Hai.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows someone watering a garden with leafy green plants. The caption in Spanish talks about preparing the soil for a productive summer garden by fertilizing and cleaning it. The hashtags used are #cultivar, #huerto, #plantar, and #sembrar, all related to gardening and cultivation.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of people with their hands on a tree trunk. The post is about \"plogging,\" which is a combination of jogging and picking up litter. The hashtags are #ecodeporte, #medioambiente, and #plogging, indicating a focus on environmentalism and outdoor activity.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person silhouetted against a sunset, standing on a rock with arms outstretched. The post is by \"veganos_actualizados\" and the caption discusses chronobiology, the study of how our bodies respond to cycles of the sun, moon, and seasons.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan television: Ask about the specific types of vegan-related content featured on Supreme Master TV.",
+          "2. Global reach: Inquire about the challenges and successes of broadcasting vegan content to a global audience.",
+          "1. Veganism: Discussing the benefits, challenges, or favorite vegan recipes.",
+          "2. Spirituality/Meditation: Asking about their experiences with the daily prayer/meditation and how it impacts their life.",
+          "1. Gardening tips and techniques (e.g., \"What are your favorite methods for improving soil fertility?\")"
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The boxing advice looked really helpful! 🥊",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism",
+            "Environmentalism (Plogging, Gardening)",
+            "Spirituality/Meditation (Vegan World Prayer)",
+            "Chronobiology/Nature Connection",
+            "Boxing (Implied from backdrop)"
+          ],
+          "LIFESTYLE": "Likely an active individual who incorporates veganism into various aspects of their life, including diet, environmental consciousness, and spiritual practices. They seem to enjoy outdoor activities like gardening and plogging. The boxing backdrop suggests a possible interest in fitness or even boxing itself.",
+          "CONVERSATION STARTERS": [
+            "I noticed you promote Supreme Master TV. What specific types of vegan-related content do they feature?",
+            "Your gardening posts are inspiring! What are your favorite methods for improving soil fertility?",
+            "I'm curious about your experience with the daily prayer for a vegan world. How has it impacted your life?",
+            "The plogging posts are great! What's the most interesting thing you've found while plogging?",
+            "I saw the 'CONSEJO DE BOXEO' backdrop in one of your posts. Do you practice boxing, and if so, how does veganism impact your training?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate (About veganism and related causes)",
+            "Environmentally Conscious",
+            "Spiritual/Mindful",
+            "Active/Health-Oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan television: Ask about the specific types of vegan-related content featured on Supreme Master TV.",
+        "2. Global reach: Inquire about the challenges and successes of broadcasting vegan content to a global audience.",
+        "1. Veganism: Discussing the benefits, challenges, or favorite vegan recipes.",
+        "2. Spirituality/Meditation: Asking about their experiences with the daily prayer/meditation and how it impacts their life.",
+        "1. Gardening tips and techniques (e.g., \"What are your favorite methods for improving soil fertility?\")"
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

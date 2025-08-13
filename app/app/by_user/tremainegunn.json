@@ -1,0 +1,77 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 5,
+      "user_messages": 3,
+      "ai_messages": 2,
+      "ai_questions": 2,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 2,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.5,
+      "conversation_start_time": "2025-04-14T16:08:38.159370",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 1424.194894,
+      "achieved_message_milestones": [
+        5
+      ],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-14T06:08:38.158372+00:00",
+          "type": "user",
+          "text": "Lol thank u"
+        },
+        {
+          "timestamp": "2025-04-14T06:08:38.293576+00:00",
+          "type": "ai",
+          "text": "Haha no worries bro! How's your Monday going?"
+        },
+        {
+          "timestamp": "2025-04-14T06:20:29.543038+00:00",
+          "type": "user",
+          "text": "Lol thank u + Shannon: Haha no worries bro! How's your Monday going? {{cuf_11967919}}  {{cuf_11967920}} Lead : U mean Sunday + It's going well I just got off work"
+        },
+        {
+          "timestamp": "2025-04-14T06:20:29.710327+00:00",
+          "type": "ai",
+          "text": "haha yeah okay my bad!  What do you do for work?"
+        },
+        {
+          "timestamp": "2025-04-14T06:32:28.365582+00:00",
+          "type": "user",
+          "text": "Lol thank u + Shannon: Haha no worries bro! How's your Monday going? {{cuf_11967919}}  {{cuf_11967920}} Lead : U mean Sunday + It's going well I just got off work + Shannon: haha yeah okay my bad!  What do you do for work? {{cuf_11967919}}  {{cuf_11967920}} Lead : Customer service + Where do i know you from"
+        },
+        {
+          "timestamp": "2025-04-14T06:32:28.522124+00:00",
+          "type": "ai",
+          "text": "Haha good question! Maybe just through Insta? How was the rest of your Sunday after work?"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "tremainegunn",
+      "first_message_timestamp": "2025-04-14T06:08:38.158372+00:00",
+      "last_message_timestamp": "2025-04-14T06:32:28.365582+00:00",
+      "conversation_duration_str": "23m",
+      "conversation_count": 1,
+      "last_seen_timestamp": "2025-04-14T06:32:28.365582+00:00"
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

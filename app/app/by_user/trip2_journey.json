@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T08:19:21.388770",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T08:18:58.999321",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a family winter camping scene. A large gray tent with a blue tarp extending from it is pitched in the snow. A blue Jeep is parked nearby. A woman in a yellow shirt and black vest stands to the left, while a child sits in a camping chair inside the tent entrance. A man in a blue jacket is kneeling near the tent. A small table with camping gear is set up outside. The background features snow-covered ground and trees.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a camping setup with a person preparing a meal. Visible items include a bag of Bob's Red Mill TVP (Textured Vegetable Protein), a collapsible wash basin with a faucet, and other camping gear. The caption mentions \"oat noodles with soy chunks\" and hashtags related to camping, family, and travel.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a wide, aerial view of a snow-covered lake surrounded by dense evergreen forests in Canada. There is a small cabin or camping area visible among the trees.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a family standing in a snowy landscape. They have written \"TRIP2 JOURNEY\" in the snow, suggesting they are on a trip and documenting it. The caption mentions winter camping in Canada.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman standing next to a blue Jeep Rubicon in a snowy, mountainous landscape. The post mentions \"tuning for more difficult trips to the countryside.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman standing in the snow next to a blue Jeep Rubicon and a large tent with a wood stove. The setting appears to be a snowy, wooded area, likely in Canada based on the hashtags.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Camping Gear/Tips:** Given the focus on camping and the presence of specific gear (like the inflatable air tent mentioned in the hashtags), a conversation could be started by asking about their favorite camping gear or asking for tips on camping in snowy conditions.",
+          "2. **Outdoor Cooking/Recipes:** Since the post is about a meal they prepared while camping, asking about their favorite camping recipes or sharing your own could be a good way to engage. You could specifically ask about the oat noodles and soy chunks dish.",
+          "1.  **Canada Travel:** Since the post includes hashtags like #canadalife and #canadalakes, you could ask about their favorite regions or specific lakes to visit in Canada.",
+          "2.  **Camping/Outdoor Photography:** Given the hashtags #campinglife and #djimini4pro, you could inquire about their camping experiences or their use of the DJI Mini 4 Pro drone for photography and videography.",
+          "1. Winter camping gear: \"I noticed you tagged #campinggears in your post. What are some essential pieces of gear you recommend for winter camping in Canada?\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Winter Camping",
+            "Overlanding/Off-Roading (Jeep Rubicon)",
+            "Outdoor Cooking",
+            "Canada Travel/Exploration",
+            "Outdoor Photography/Videography (Drone)"
+          ],
+          "LIFESTYLE": "This family enjoys adventurous outdoor activities, particularly camping in Canada, even in winter conditions. They appear to be self-sufficient and prepared, utilizing specialized gear and cooking their own meals. They document their travels and experiences, likely sharing them with others online.",
+          "CONVERSATION STARTERS": [
+            "What are some essential pieces of gear you recommend for winter camping in Canada? I noticed you tagged #campinggears in your post.",
+            "That oat noodles with soy chunks dish looks interesting! Do you have a recipe you'd be willing to share, or any other favorite camping recipes?",
+            "I'm planning a trip to Canada. What are some of your favorite regions or specific lakes to visit, especially for winter scenery?",
+            "I see you use a DJI Mini 4 Pro. How do you find it for capturing your camping experiences? Any tips for getting good shots in snowy conditions?",
+            "Your Jeep Rubicon looks well-equipped. What kind of tuning have you done to it for more difficult trips into the countryside?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Prepared/Resourceful",
+            "Family-oriented",
+            "Appreciative of nature"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Camping Gear/Tips:** Given the focus on camping and the presence of specific gear (like the inflatable air tent mentioned in the hashtags), a conversation could be started by asking about their favorite camping gear or asking for tips on camping in snowy conditions.",
+        "2. **Outdoor Cooking/Recipes:** Since the post is about a meal they prepared while camping, asking about their favorite camping recipes or sharing your own could be a good way to engage. You could specifically ask about the oat noodles and soy chunks dish.",
+        "1.  **Canada Travel:** Since the post includes hashtags like #canadalife and #canadalakes, you could ask about their favorite regions or specific lakes to visit in Canada.",
+        "2.  **Camping/Outdoor Photography:** Given the hashtags #campinglife and #djimini4pro, you could inquire about their camping experiences or their use of the DJI Mini 4 Pro drone for photography and videography.",
+        "1. Winter camping gear: \"I noticed you tagged #campinggears in your post. What are some essential pieces of gear you recommend for winter camping in Canada?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

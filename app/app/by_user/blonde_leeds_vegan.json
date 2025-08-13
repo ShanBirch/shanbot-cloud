@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T10:25:53.616496",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T10:25:35.816342",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a vegan \"toad in the hole\" dish. The dish features a large, golden-brown Yorkshire pudding-like structure, with what appears to be vegan sausages or similar substitutes nestled within. On the side, there are steamed broccoli florets and what looks like shredded carrots or another orange vegetable. The overall presentation is rustic and homemade.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a plate of tofu and spinach cannelloni, topped with tomato sauce and what appears to be a crumbly topping. There are also some sliced cucumbers and red onions in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan tofu katsu curry with rice. The tofu is breaded and covered in a curry sauce.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan kebabs with rice and salad. The kebabs appear to be made with vegetables and a vegan meat substitute, cooked in a rotisserie air fryer.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan food, specifically plum \"chicken\" on rice with carrots and courgette.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan version of shredded \"duck\" pancakes. There's a bowl of shredded vegan duck substitute, a stack of pancakes, sliced cucumbers and spring onions, and a container of hoisin sauce.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan cooking/recipes: Ask about the recipe for the cannelloni, or share a favorite vegan recipe.",
+          "2. Veganism in Leeds/Yorkshire: Inquire about vegan-friendly restaurants or shops in the Leeds/Yorkshire area.",
+          "1. Vegan cooking and recipes: Ask about their favorite vegan recipes or if they have any tips for making tofu katsu.",
+          "2. Leeds vegan scene: Since their username includes \"Leeds vegan,\" ask about their favorite vegan restaurants or events in Leeds.",
+          "1. Vegan cooking and recipes: Ask about their favorite vegan recipes, or share a recipe of your own."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! That toad in the hole looked super comforting and delicious! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan cooking",
+            "Vegan recipes",
+            "Vegan food photography",
+            "Veganism in Leeds/Yorkshire",
+            "Homemade meals"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys cooking vegan meals at home and exploring the vegan scene in Leeds/Yorkshire. They may be passionate about sharing their culinary creations and promoting veganism.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite vegan restaurant in Leeds?",
+            "Do you have a go-to vegan recipe you'd be willing to share?",
+            "I'm trying to perfect my tofu katsu. Any tips?",
+            "That vegan toad in the hole looks amazing! Do you have a recipe?",
+            "What are some of your favorite vegan-friendly shops in Yorkshire?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (in the kitchen)",
+            "Passionate (about veganism)",
+            "Foodie",
+            "Community-oriented (sharing local vegan information)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan cooking/recipes: Ask about the recipe for the cannelloni, or share a favorite vegan recipe.",
+        "2. Veganism in Leeds/Yorkshire: Inquire about vegan-friendly restaurants or shops in the Leeds/Yorkshire area.",
+        "1. Vegan cooking and recipes: Ask about their favorite vegan recipes or if they have any tips for making tofu katsu.",
+        "2. Leeds vegan scene: Since their username includes \"Leeds vegan,\" ask about their favorite vegan restaurants or events in Leeds.",
+        "1. Vegan cooking and recipes: Ask about their favorite vegan recipes, or share a recipe of your own."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T16:07:42.849529",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T16:07:24.724298",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by lisa.smith.okanagan features a before-and-after style image. On the left, labeled \"BEGINNING,\" is a photo of Lisa from the back, wearing a bikini top and bottoms. On the right, labeled \"NOW,\" is a selfie of Lisa flexing her bicep, wearing a blue tank top and smiling. The text overlay reads \"LISA PROVES IT - QUICK FIXES ARE A LIE!\". The post is from gymphocoachingandnutrition and lisa.smith.okanagan.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man signing a certificate of recognition. He is sitting at a table in what appears to be a restaurant or bar. He has tattoos on his hands and arms.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of Lisa Smith from Okanagan. She's making a kissy face and has blonde hair. The post's caption talks about starting a new chapter and documenting her growth. The hashtags include #hardwork, #momlife, and #womenover40.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image features a product display of \"Prismatica\" tanning lotion by \"Devoted Creations.\" There are several small sample cups filled with a light-colored lotion, arranged in a pyramid shape, with the full-size product bottle on top.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (lisa.smith.okanagan) wearing a mask and holding lash extension tools, presumably applying lash extensions to a client. The post mentions that she loves lashing and finds it fulfilling.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two women in a selfie. The woman in the foreground is smiling widely and wearing a vest. The woman behind her is sticking her tongue out and giving the middle finger. The image has a filter applied, and there's text overlayed that says \"Never regret anything that made you smile.\" The caption celebrates the birthday of the woman in the background, referring to her as a trainer and best friend.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **The certificate of recognition:** You could ask about the certificate, what it was for, and what the man does.",
+          "2.  **The location:** You could ask about the restaurant/bar, if they frequent it often, and what they like about it.",
+          "1.  Her \"new chapter\": Ask her more about what this new chapter entails and what she's excited about.",
+          "2.  Her hashtags: Ask about her experience as a mom or being a woman over 40.",
+          "1.  **Tanning/Skincare:** Ask about the benefits of the Prismatica lotion or other products from Devoted Creations."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You looked so happy and strong in the \"now\" photo 💪.",
+        "profile_bio": {
+          "PERSON NAME": "Lisa Smith",
+          "INTERESTS": [
+            "Fitness & Nutrition (especially long-term results)",
+            "Beauty (lash extensions, tanning)",
+            "Family (Mom Life)",
+            "Personal Growth & Self-Improvement",
+            "Friendship"
+          ],
+          "LIFESTYLE": "Lisa is a woman over 40 living in Okanagan. She's a mom, focused on fitness and nutrition, and works as a lash technician. She values hard work and personal growth, and seems to have a close relationship with her trainer and best friend.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about 'quick fixes' being a lie. What's been the most rewarding part of your fitness journey?",
+            "You mentioned starting a new chapter. What are you most excited about in this new phase of your life?",
+            "I noticed you do lash extensions. What do you enjoy most about that?",
+            "I saw you celebrating your friend's birthday. It seems like you have a great support system. How important is that to you?",
+            "I'm curious about the Prismatica tanning lotion you featured. What are some of the benefits you've experienced with it?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven/Motivated (focused on fitness and long-term results)",
+            "Positive/Optimistic (celebrates growth and smiles)",
+            "Hardworking (emphasizes hard work in her posts)",
+            "Supportive/Friendly (celebrates her friend and trainer)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **The certificate of recognition:** You could ask about the certificate, what it was for, and what the man does.",
+        "2.  **The location:** You could ask about the restaurant/bar, if they frequent it often, and what they like about it.",
+        "1.  Her \"new chapter\": Ask her more about what this new chapter entails and what she's excited about.",
+        "2.  Her hashtags: Ask about her experience as a mom or being a woman over 40.",
+        "1.  **Tanning/Skincare:** Ask about the benefits of the Prismatica lotion or other products from Devoted Creations."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

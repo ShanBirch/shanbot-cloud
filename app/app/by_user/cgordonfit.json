@@ -1,0 +1,108 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T13:50:12.056190",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 4,
+        "timestamp": "2025-04-14T13:49:58.769407",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of a charcuterie board. Prominently featured is a large, cylindrical \"soft cheese\" with a sprig of rosemary on top. Surrounding the cheese are various fruits like red grapes and strawberries, vegetables like orange and red bell pepper slices, and dried apricots. There's also a dark, seedy cracker-like item. In the background, there are other food items in bowls, slightly out of focus.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman smiling in front of a brick wall. The post mentions she is pursuing a certification in Plant-Based Nutrition through Cornell University online. She expresses a desire to share her knowledge and create a community for plant-eaters.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person (presumably cgordonfit) relaxing on a lounge chair by a pool in Abu Dhabi/UAE. Palm trees and a building are visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black and white selfie of a woman in workout attire. The caption introduces herself as a dancer/singer/choreographer with a passion for working out and overall health, including mental and physical wellness.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Her experience with the Cornell University Plant-Based Nutrition certification program.",
+          "2.  Her interest in plant-based eating and its impact on health, the environment, and food policies.",
+          "1.  **Travel/Living in Abu Dhabi:** Since the post mentions moving to Abu Dhabi, you could ask about their experience living there, what they enjoy about it, or any recommendations for things to do in the area.",
+          "2.  **Fitness/Staying Active in a Hot Climate:** Given the username \"cgordonfit\", you could ask about how they adjust their fitness routine to the hot weather in Abu Dhabi or any tips for staying active in a similar climate.",
+          "1.  **Workout routines/preferences:** The caption mentions discussing workout ideas, exercises, and training styles. You could ask about her favorite type of workout or what she finds most effective."
+        ],
+        "profile_bio": {
+          "PERSON_NAME": "Unknown",
+          "INTERESTS": [
+            "Plant-Based Nutrition",
+            "Fitness & Wellness (Physical & Mental)",
+            "Dance/Singing/Choreography",
+            "Travel (Especially Abu Dhabi/UAE)",
+            "Healthy Eating & Charcuterie Boards"
+          ],
+          "LIFESTYLE": "A dancer/singer/choreographer pursuing a Plant-Based Nutrition certification from Cornell University. She is passionate about health and wellness and currently lives in Abu Dhabi. She enjoys sharing her knowledge and building a community around plant-based eating.",
+          "CONVERSATION_STARTERS": [
+            "What are you enjoying most about the Plant-Based Nutrition certification program at Cornell?",
+            "What are your favorite plant-based recipes or resources you'd recommend?",
+            "What's it like living in Abu Dhabi? Any recommendations for things to do or see?",
+            "How do you adjust your workout routine to the hot climate in Abu Dhabi?",
+            "What's your favorite type of workout, and what do you find most effective for staying fit?"
+          ],
+          "PERSONALITY_TRAITS": [
+            "Passionate",
+            "Health-Conscious",
+            "Adventurous (due to travel/living abroad)",
+            "Community-Oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Her experience with the Cornell University Plant-Based Nutrition certification program.",
+        "2.  Her interest in plant-based eating and its impact on health, the environment, and food policies.",
+        "1.  **Travel/Living in Abu Dhabi:** Since the post mentions moving to Abu Dhabi, you could ask about their experience living there, what they enjoy about it, or any recommendations for things to do in the area.",
+        "2.  **Fitness/Staying Active in a Hot Climate:** Given the username \"cgordonfit\", you could ask about how they adjust their fitness routine to the hot weather in Abu Dhabi or any tips for staying active in a similar climate.",
+        "1.  **Workout routines/preferences:** The caption mentions discussing workout ideas, exercises, and training styles. You could ask about her favorite type of workout or what she finds most effective."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

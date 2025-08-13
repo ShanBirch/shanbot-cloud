@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T14:02:34.360531",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T14:02:13.429184",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a model lying on a white surface, looking directly at the camera. She is wearing a black dress with sheer black sleeves and a plunging neckline secured by a silver pin. Her hands are raised above her head. The lighting is bright and the background is plain.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by pala.pala.pala features a carousel of images from Australian Fashion Week, showcasing the poster in various runway looks. The caption expresses gratitude for being cast in 8 shows and highlights the importance of diversity and inclusion in the industry.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A professional photo of a model, pala.pala.pala, wearing a black bodysuit and a white blazer. The post credits the creative team involved in the photoshoot, including the photographer, producer, stylist, and hair and makeup artist.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two women posing in front of a building in Bali, Indonesia. One woman is wearing a brown dress and carrying a \"ROBEY\" tote bag. The other woman is wearing a white tank top and a patterned sarong. They are both wearing hats and sunglasses. The caption mentions a trip to Bali with the poster's girlfriend.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in a stylish dress sitting in a plush, reddish-toned room. The caption mentions an event celebrating Bois Talisman, a Dior fragrance, hosted at The Apartment @ellisonstudios. The hashtags #DiorBeauty #DiorParfums #DiorLaCollectionPrivee are also present.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black and white photo of two women posing together. The post mentions @saskiawotton, @muma.world, @desordreboutique, and @themanesocietyaus, suggesting collaborations or features.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Fashion Week Experience:** Ask about their favorite show or designer they worked with during Australian Fashion Week.",
+          "2.  **Diversity and Inclusion:** Discuss the importance of diversity and inclusion in the fashion industry, referencing their mention in Vogue Runway.",
+          "1.  **Fashion/Styling:** Comment on the outfit, asking about the designer of the blazer or bodysuit, or complimenting the styling.",
+          "2.  **Photography/Creative Process:** Inquire about the experience of working with the creative team mentioned in the caption, or ask about the inspiration behind the shoot.",
+          "1. Bali travel tips: Since they just booked a trip to Bali, asking for recommendations on places to visit, restaurants, or activities could be a good conversation starter."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Fashion (Runway, Styling, High-End Brands)",
+            "Modeling",
+            "Travel (Bali)",
+            "Photography/Creative Arts",
+            "Diversity and Inclusion in Fashion"
+          ],
+          "LIFESTYLE": "Professional model who has worked in Australian Fashion Week and collaborates with various brands and creative teams. Enjoys travel and attending fashion events. Likely active in the fashion industry and passionate about diversity and inclusion.",
+          "CONVERSATION STARTERS": [
+            "What was your favorite show or designer you worked with during Australian Fashion Week?",
+            "You mentioned the importance of diversity and inclusion in the fashion industry. What are some specific changes you'd like to see?",
+            "That white blazer and bodysuit combo is stunning! Who is the designer?",
+            "The photoshoot with [Photographer's Name] looked amazing. What was the inspiration behind the shoot?",
+            "You recently went to Bali! Do you have any recommendations for must-see places or hidden gems?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Professional",
+            "Stylish",
+            "Passionate (about fashion and diversity)",
+            "Collaborative"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Fashion Week Experience:** Ask about their favorite show or designer they worked with during Australian Fashion Week.",
+        "2.  **Diversity and Inclusion:** Discuss the importance of diversity and inclusion in the fashion industry, referencing their mention in Vogue Runway.",
+        "1.  **Fashion/Styling:** Comment on the outfit, asking about the designer of the blazer or bodysuit, or complimenting the styling.",
+        "2.  **Photography/Creative Process:** Inquire about the experience of working with the creative team mentioned in the caption, or ask about the inspiration behind the shoot.",
+        "1. Bali travel tips: Since they just booked a trip to Bali, asking for recommendations on places to visit, restaurants, or activities could be a good conversation starter."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T08:55:16.850194",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T08:54:52.049453",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a vegan smörgåstårta (sandwich cake). The cake is layered with various ingredients including lettuce, tomatoes, pickles, vegan feta, and what appears to be vegan caviar. The text overlay on the image says \"VEGANSK SMÖRGÅSTÅRTA\" which translates to \"VEGAN SANDWICH CAKE\". In the background, there are bottles, a cocktail shaker, and pink flowers. The Instagram post includes a caption in Swedish listing the fillings and relevant hashtags.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a variety of vegan Mexican dishes, including guacamole, salsa, tacos, and other plant-based options. The post is by \"veganizeyourself\" and mentions \"Mexican food.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a beautifully decorated, pink vegan birthday cake with the name \"Katya\" on it. There are other cakes in the background. The caption mentions it's the best vegan cake the poster has ever had and thanks @sarra_ba_sassi for the artwork. The hashtags include #vegancake, #veganbirthdaycake, #plantbasedcake, #veganstockholm.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a stack of what appears to be vegan lahmacun (Turkish pizza) topped with fresh cilantro and lemon wedges.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of vegan tacos and a blue cocktail, presumably part of a \"Mexican night Vegan style\" meal. The tacos appear to be filled with a meat substitute (likely @eat_oumph), guacamole, and other toppings.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan French toast (described as \"Veganska fattiga riddare\" in the caption) with a glass of orange juice. The caption mentions the ingredients used: \"haremjölk, silkestofu, orgrans no egg\" (plant-based milk, silken tofu, orange, no egg).",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Vegan Mexican Recipes:** Asking about favorite vegan Mexican recipes or ingredients. \"I saw your post about vegan Mexican food. Do you have any go-to recipes you'd be willing to share?\"",
+          "2.  **Oatly and Vegan Alternatives:** The post mentions Oatly. Asking about other vegan alternatives or preferred brands. \"I noticed you tagged Oatly. Are there any other vegan brands you're a fan of?\"",
+          "1.  **Vegan Baking/Recipes:** \"That cake looks amazing! I'm always looking for good vegan baking recipes. Do you have any favorites you'd recommend?\"",
+          "2.  **Stockholm Vegan Scene:** \"I see you're in Stockholm! I've heard the vegan scene there is great. Any restaurant recommendations for someone visiting?\"",
+          "1.  Vegan cooking/recipes: Ask about the specific recipe used for the lahmacun, or inquire about other favorite vegan dishes."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That smörgåstårta looked so delicious and colorful! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: veganizeyourself)",
+          "INTERESTS": [
+            "Vegan Cooking and Baking",
+            "Vegan Mexican Cuisine",
+            "Vegan Swedish Cuisine (especially Smörgåstårta)",
+            "Exploring Vegan Options in Stockholm",
+            "Creating visually appealing vegan food"
+          ],
+          "LIFESTYLE": "Likely a home cook or food enthusiast living in or near Stockholm, Sweden, who enjoys experimenting with vegan recipes from various cuisines and creating visually appealing dishes. They seem to enjoy celebrating special occasions with vegan cakes and exploring the local vegan food scene.",
+          "CONVERSATION STARTERS": [
+            "I'm so impressed by your vegan smörgåstårta! What are some of your favorite fillings to use?",
+            "Your vegan Mexican dishes look delicious! Do you have a go-to recipe for vegan tacos or guacamole?",
+            "That vegan birthday cake for Katya was stunning! Do you have any tips for baking a perfect vegan cake?",
+            "I see you're based in Stockholm. What are some of your favorite vegan restaurants or cafes in the city?",
+            "I'm curious about your vegan lahmacun. What did you use as a substitute for the meat?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Enthusiastic about veganism",
+            "Skilled in the kitchen",
+            "Appreciative of aesthetically pleasing food"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Vegan Mexican Recipes:** Asking about favorite vegan Mexican recipes or ingredients. \"I saw your post about vegan Mexican food. Do you have any go-to recipes you'd be willing to share?\"",
+        "2.  **Oatly and Vegan Alternatives:** The post mentions Oatly. Asking about other vegan alternatives or preferred brands. \"I noticed you tagged Oatly. Are there any other vegan brands you're a fan of?\"",
+        "1.  **Vegan Baking/Recipes:** \"That cake looks amazing! I'm always looking for good vegan baking recipes. Do you have any favorites you'd recommend?\"",
+        "2.  **Stockholm Vegan Scene:** \"I see you're in Stockholm! I've heard the vegan scene there is great. Any restaurant recommendations for someone visiting?\"",
+        "1.  Vegan cooking/recipes: Ask about the specific recipe used for the lahmacun, or inquire about other favorite vegan dishes."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T21:14:44.899330",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T21:14:25.502134",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a man and a woman sitting outside in what appears to be a park. The man is bald and wearing sunglasses, a white t-shirt, and khaki pants. He has his arms around the woman. The woman is wearing a white dress with black polka dots. She is smiling and holding the man's hand. The background is blurred, showing trees and a park bench.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a video of a train moving along tracks in a snowy environment at night.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a video of a powerful waterfall cascading over rocks and through a forest.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person holding a shawarma (or similar wrap) in front of a scenic view of a river and trees. The location is tagged as \"Pavlovsk.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (s_a_s_h_a_b_o_r_i_s_o_v) standing in front of a large fountain and a grand building. The location is identified as Peterhof (Петергоф) in Russia.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a carousel of Instagram posts. One post shows a person in a yellow jacket walking at night, with the time stamp 02:29. The caption is in Russian and translates to \"Night walk.\" The carousel also shows a video of a waterfall and a person ice skating.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Train travel/railway photography: \"That's a cool video of the train! Are you interested in trains or railway photography?\"",
+          "2. Winter/snowy landscapes: \"That snowy landscape looks beautiful. Do you enjoy winter scenery?\"",
+          "1.  Travel/Nature: \"That waterfall looks amazing! Have you been to many other scenic places like that?\"",
+          "2.  Photography/Videography: \"The video of the waterfall is really well done. Do you enjoy taking videos of nature often?\"",
+          "1.  **Food and Travel:** \"That shawarma looks delicious! Have you tried many different places to get them in Pavlovsk?\" (Combines interest in food with the location tag)"
+        ],
+        "generated_comment": "Hey! Just was having a little stalk! You both looked so happy in your latest post 😊",
+        "profile_bio": {
+          "PERSON NAME": "Sasha Borisov (likely, based on username 's_a_s_h_a_b_o_r_i_s_o_v')",
+          "INTERESTS": [
+            "Travel (especially in Russia)",
+            "Nature (waterfalls, snowy landscapes)",
+            "Photography/Videography (especially of nature and trains)",
+            "Food (shawarma/wraps)",
+            "Spending time with loved ones"
+          ],
+          "LIFESTYLE": "Appears to enjoy traveling and exploring scenic locations, particularly in Russia. He seems to appreciate nature and capturing it through photography and videography. He also enjoys spending time with his partner and indulging in local cuisine. He also seems to enjoy night walks.",
+          "CONVERSATION STARTERS": [
+            "I saw your video of the train! Are you interested in trains or railway photography?",
+            "That snowy landscape looked beautiful. Do you enjoy winter scenery?",
+            "That waterfall looked amazing! Have you been to many other scenic places like that?",
+            "That shawarma looked delicious! Have you tried many different places to get them in Pavlovsk?",
+            "I noticed you've been to Peterhof. What other places in Russia would you recommend visiting?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Appreciative (of beauty in nature and architecture)",
+            "Adventurous (willing to explore new places and experiences)",
+            "Romantic (evident from the photo with his partner)",
+            "Creative (demonstrated through photography and videography)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Train travel/railway photography: \"That's a cool video of the train! Are you interested in trains or railway photography?\"",
+        "2. Winter/snowy landscapes: \"That snowy landscape looks beautiful. Do you enjoy winter scenery?\"",
+        "1.  Travel/Nature: \"That waterfall looks amazing! Have you been to many other scenic places like that?\"",
+        "2.  Photography/Videography: \"The video of the waterfall is really well done. Do you enjoy taking videos of nature often?\"",
+        "1.  **Food and Travel:** \"That shawarma looks delicious! Have you tried many different places to get them in Pavlovsk?\" (Combines interest in food with the location tag)"
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

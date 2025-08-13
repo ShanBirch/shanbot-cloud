@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T00:34:12.742340",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T00:33:47.562068",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a selfie of a woman with long brown hair and glasses. She is wearing a black t-shirt with the word \"KINDNESS\" printed on it in colorful letters. She is smiling at the camera.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by vegan.allergic.sue. The post consists of a text-based image that says \"MAKE INSTAGRAM INSTAGRAM AGAIN. (stop trying to be tiktok i just want to see cute photos of my friends.) SINCERELY, EVERYONE.\" The caption expresses frustration with the changes on Instagram, particularly the focus on Reels and the shift away from community-driven content and photography. The user mentions their initial intention to showcase vegan and allergy-friendly food options on the platform.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two homemade vegan and gluten-free sandwiches filled with potato quinoa bits, caramelized and fried onion rings, and vegan aioli. The post also mentions ingredients and that the poster will be watching \"The Boys\" while drinking cranberry tea to help with a sleep issue.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a baking sheet filled with crispy, golden-brown diced potatoes. The post caption mentions they are seasoned with chili powder.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of crispy diced potatoes, likely baked, on a baking sheet. The post mentions a craving for them with chili powder. The user also uses many vegan-related hashtags, indicating a vegan lifestyle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two halves of a prickly pear fruit on a white plate. The fruit has a bright red color and is filled with small seeds. The post caption indicates the user is \"obsessed\" with prickly pears and eats at least three a day.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Their experience with food allergies and veganism:** They mention wanting to share vegan and allergy-friendly food options. You could ask about their favorite recipes, challenges they face, or resources they recommend.",
+          "2.  **Their opinion on the current state of Instagram:** They clearly have strong feelings about the platform's changes. You could engage in a discussion about the pros and cons of Reels, the impact on community, or alternative platforms for sharing content.",
+          "1. Vegan/Gluten-Free Cooking: Ask about the potato quinoa bits recipe or other vegan/gluten-free recipes they enjoy making.",
+          "2. \"The Boys\" TV Show: Inquire about their favorite characters or moments in \"The Boys.\"",
+          "1. **Vegan cooking and recipes:** Ask about her favorite vegan recipes or chili powder brands."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post, the \"Kindness\" t-shirt is so cute! 😊",
+        "profile_bio": {
+          "PERSON NAME": "Sue (Based on username 'vegan.allergic.sue')",
+          "INTERESTS": [
+            "Veganism",
+            "Allergy-friendly cooking/baking (specifically gluten-free)",
+            "Photography (implied by desire for Instagram to focus on photos)",
+            "Healthy eating",
+            "Television (specifically 'The Boys')"
+          ],
+          "LIFESTYLE": "Likely a home cook and advocate for vegan and allergy-friendly living. Appears to prioritize healthy eating and enjoys sharing her culinary creations. Values community and authentic content on social media. Enjoys relaxing at home with TV and tea.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite vegan and gluten-free recipes that you've perfected?",
+            "What are the biggest challenges you face when cooking with food allergies, and what resources have you found helpful?",
+            "What are your thoughts on the current state of Instagram and how it's changed over the years?",
+            "What are your favorite characters or moments in 'The Boys'?",
+            "I saw your post about prickly pears! What's your favorite way to enjoy them?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate (about veganism, food allergies, and Instagram's direction)",
+            "Creative (in the kitchen, developing vegan and allergy-friendly recipes)",
+            "Community-oriented (values connection and authentic content)",
+            "Opinionated (has strong views on Instagram and its changes)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Their experience with food allergies and veganism:** They mention wanting to share vegan and allergy-friendly food options. You could ask about their favorite recipes, challenges they face, or resources they recommend.",
+        "2.  **Their opinion on the current state of Instagram:** They clearly have strong feelings about the platform's changes. You could engage in a discussion about the pros and cons of Reels, the impact on community, or alternative platforms for sharing content.",
+        "1. Vegan/Gluten-Free Cooking: Ask about the potato quinoa bits recipe or other vegan/gluten-free recipes they enjoy making.",
+        "2. \"The Boys\" TV Show: Inquire about their favorite characters or moments in \"The Boys.\"",
+        "1. **Vegan cooking and recipes:** Ask about her favorite vegan recipes or chili powder brands."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

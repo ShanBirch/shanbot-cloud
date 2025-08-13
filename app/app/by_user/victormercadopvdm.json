@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T17:44:55.018891",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T17:44:36.950156",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a festive New Year's greeting in Spanish, \"Feliz Año,\" set against a black background adorned with golden decorations. The lettering is stylized with flourishes and highlights, giving it a three-dimensional effect. Golden ornaments hang from the top, and there are also golden floral designs and firework-like bursts scattered around the text. The overall aesthetic is elegant and celebratory.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a \"Feliz Navidad\" (Merry Christmas) greeting card with Christmas ornaments, pine branches, and confetti.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a post celebrating International LGBT Pride Day. The text in the image includes words like \"Amor\" (Love), \"Respeto\" (Respect), \"Igualdad\" (Equality), \"Orgullo\" (Pride), \"Lucha\" (Fight), and \"Derechos\" (Rights) in the colors of the rainbow flag.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a light box that reads \"HAPPY PRIDE MONTH\" in front of a rainbow flag.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a New Year's greeting card with \"2024\" displayed prominently in gold, along with fireworks and a city skyline silhouette. The caption wishes a happy 2024 to family, friends, and acquaintances, with wishes for health, love, and prosperity.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by victormercadopvdm wishing \"Felices Fiestas\" (Happy Holidays) to his family, friends, contacts, and acquaintances. It features the text \"¡Felices Fiestas!\" inside a stylized Christmas ornament.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Christmas traditions: Ask about their favorite Christmas traditions or memories.",
+          "2. Holiday plans: Inquire about their plans for the Christmas/New Year holiday season.",
+          "1.  LGBTQ+ Rights and Activism: \"I noticed your post about International LGBT Pride Day. What are some issues you're passionate about advocating for within the LGBTQ+ community?\"",
+          "2.  Language and Culture: \"I saw your post with the Spanish words for love, respect, equality, etc. Are you a native Spanish speaker? I'm interested in learning more about the language and culture.\"",
+          "1. Pride events: Ask about any local Pride events they plan on attending or are excited about."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Victor Mercado (Likely, based on username victormercadopvdm)",
+          "INTERESTS": [
+            "Celebrating Holidays (Christmas, New Year's)",
+            "LGBTQ+ Rights and Advocacy",
+            "Spanish Language and Culture",
+            "Festive Design and Decoration",
+            "Community and Connection (Family, Friends, Acquaintances)"
+          ],
+          "LIFESTYLE": "Likely someone who values family, friends, and community, and enjoys celebrating holidays and expressing their support for LGBTQ+ rights. Profession is unknown, but they are active on social media and likely have a creative or expressive side, given the design elements in their posts.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite Christmas traditions or memories?",
+            "Do you have any exciting plans for the upcoming holiday season?",
+            "I noticed your post about International LGBT Pride Day. What are some issues you're passionate about advocating for within the LGBTQ+ community?",
+            "I saw your post with the Spanish words for love, respect, equality, etc. Are you a native Spanish speaker? I'm interested in learning more about the language and culture.",
+            "Are there any local Pride events you plan on attending or are excited about?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Celebratory",
+            "Supportive",
+            "Festive",
+            "Community-Oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Christmas traditions: Ask about their favorite Christmas traditions or memories.",
+        "2. Holiday plans: Inquire about their plans for the Christmas/New Year holiday season.",
+        "1.  LGBTQ+ Rights and Activism: \"I noticed your post about International LGBT Pride Day. What are some issues you're passionate about advocating for within the LGBTQ+ community?\"",
+        "2.  Language and Culture: \"I saw your post with the Spanish words for love, respect, equality, etc. Are you a native Spanish speaker? I'm interested in learning more about the language and culture.\"",
+        "1. Pride events: Ask about any local Pride events they plan on attending or are excited about."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

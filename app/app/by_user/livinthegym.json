@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T17:15:36.836751",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T17:15:16.947253",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by liv.inthegym shows her performing a barbell squat in a gym. She's wearing a light-colored top, dark leggings, and black high-top sneakers with white stripes. The barbell is loaded with weight plates. The background includes other gym equipment and a person using a treadmill. The post's caption discusses her journey to achieving proper squat depth and offers tips.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in a gym, posing in front of a squat rack. She's wearing gym clothes and holding a water bottle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A woman is taking a selfie in what appears to be a gym or dance studio. She is wearing workout clothes and headphones. The post mentions taking a break from social media to focus on herself.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in workout clothes (sports bra and leggings) preparing to lift weights on a squat rack in what appears to be a home gym. The caption mentions her boyfriend buying the rack and plates.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in gym attire (leggings, crop top, beanie, and glasses) taking a selfie in front of a mirror. The post mentions Gymshark and a pledge to buy plastic-free or recyclable packaging.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, liv.inthegym, in a gym, standing in front of a squat rack with weights. She is wearing gym clothes and taking a selfie. The post caption mentions CrossFit style workouts.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Gym reopening/returning to fitness after a break: Her caption mentions returning to the gym after 96 days. You could ask her what her favorite exercise is to get back into the swing of things, or what she's most looking forward to working on.",
+          "2. Workout playlists: She mentions packing a bag and nailing a playlist. You could ask her what kind of music she listens to when she works out, or if she has any recommendations for good workout songs.",
+          "1.  **Fitness/Workout routines:** Given that the image is taken in a gym and the username is \"liv.inthegym,\" asking about her workout routine, favorite exercises, or fitness goals could be a good conversation starter.",
+          "2.  **Social Media Break:** Her post mentions taking a break from social media. Asking about her experience with the break, what she learned, or if she has any tips for others considering a similar break could be an engaging topic.",
+          "1. Gymshark clothing: The post is tagged with Gymshark, Gymshark Women, and Gymshark Train. You could ask about her favorite Gymshark pieces or if she has any recommendations."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Olivia (Likely)",
+          "INTERESTS": [
+            "Weightlifting (especially squats)",
+            "Fitness and Gym Workouts",
+            "Gymshark Apparel",
+            "CrossFit Style Workouts",
+            "Sustainable Practices (Plastic-Free/Recyclable Packaging)"
+          ],
+          "LIFESTYLE": "Likely a fitness enthusiast who regularly works out at a gym and potentially at home. She values her physical health and well-being, and is also mindful of environmental issues. She is active on social media but also prioritizes taking breaks for self-care.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite Gymshark pieces and why?",
+            "I saw you're back in the gym after a break. What's your go-to exercise to get back into the swing of things?",
+            "You mentioned nailing a playlist for your workouts. What kind of music gets you motivated in the gym?",
+            "I noticed you've been doing CrossFit style workouts. What do you enjoy most about that type of training?",
+            "What was your experience like taking a break from social media, and do you have any tips for others considering doing the same?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated (to fitness)",
+            "Self-Aware (takes social media breaks)",
+            "Environmentally Conscious",
+            "Motivated"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Gym reopening/returning to fitness after a break: Her caption mentions returning to the gym after 96 days. You could ask her what her favorite exercise is to get back into the swing of things, or what she's most looking forward to working on.",
+        "2. Workout playlists: She mentions packing a bag and nailing a playlist. You could ask her what kind of music she listens to when she works out, or if she has any recommendations for good workout songs.",
+        "1.  **Fitness/Workout routines:** Given that the image is taken in a gym and the username is \"liv.inthegym,\" asking about her workout routine, favorite exercises, or fitness goals could be a good conversation starter.",
+        "2.  **Social Media Break:** Her post mentions taking a break from social media. Asking about her experience with the break, what she learned, or if she has any tips for others considering a similar break could be an engaging topic.",
+        "1. Gymshark clothing: The post is tagged with Gymshark, Gymshark Women, and Gymshark Train. You could ask about her favorite Gymshark pieces or if she has any recommendations."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

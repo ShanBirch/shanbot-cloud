@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T13:12:38.213464",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T13:12:18.330101",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a video still from Instagram, featuring a man, presumably cyborg152, doing lunges with dumbbells in what appears to be a home gym. The gym has black walls, a weight bench, and various exercise equipment. The man is wearing shorts, a long-sleeved shirt with orange and blue accents, and sneakers. The lighting is cool, with a blue hue. The hashtags on the post are #puttinginwork, #everyday, and #keepmoving.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man, cyborg152, in a home gym performing a single-leg Romanian deadlift with dumbbells. He's wearing headphones and appears to be focused on his workout. The post is tagged #legday and #letsgo.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (cyborg152) running on a treadmill. He is wearing a red tank top and black shorts. The caption emphasizes commitment and consistency.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (cyborg152) sitting on a bench and lifting dumbbells. He's wearing workout clothes and appears to be in a gym or garage gym setting.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (cyborg152) performing a barbell curl in a gym. The post is tagged with #biceps and specifies the set and rep scheme (3x15).",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man, cyborg152, doing lunges with dumbbells in what appears to be a gym setting. He is wearing workout clothes and a cap. The post includes a motivational caption about the challenges of starting new things and the importance of patience.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Fitness/Workout Routines:** You could ask about his leg day routine, what other exercises he incorporates, or if he has any tips for improving form on single-leg deadlifts.",
+          "2.  **Music/Headphones:** You could ask what kind of music he listens to while working out, or about the headphones he's wearing.",
+          "1. Fitness routines and workout motivation: You could ask about his training schedule, favorite exercises, or tips for staying motivated.",
+          "2. The location \"ashtonhall\" tagged in the post: You could ask if he lives there or if it is a gym he frequents.",
+          "1.  **Fitness/Workout Routines:** You could ask about his workout routine or specific exercises he does for shoulder strength, as he's doing an overhead press."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Fitness",
+            "Weightlifting",
+            "Home Gym Workouts",
+            "Motivation and Consistency",
+            "Music (during workouts)"
+          ],
+          "LIFESTYLE": "Appears to be dedicated to fitness and maintaining a consistent workout routine. Likely works out regularly in a home gym or local gym. Values commitment and patience in achieving fitness goals.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite leg day exercise and why?",
+            "What kind of music do you listen to while working out?",
+            "Do you have any tips for staying motivated when starting a new workout routine?",
+            "What's your current training schedule like?",
+            "I noticed you tagged 'ashtonhall' in one of your posts. Is that where you live or a gym you frequent?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated",
+            "Motivated",
+            "Disciplined",
+            "Patient"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Fitness/Workout Routines:** You could ask about his leg day routine, what other exercises he incorporates, or if he has any tips for improving form on single-leg deadlifts.",
+        "2.  **Music/Headphones:** You could ask what kind of music he listens to while working out, or about the headphones he's wearing.",
+        "1. Fitness routines and workout motivation: You could ask about his training schedule, favorite exercises, or tips for staying motivated.",
+        "2. The location \"ashtonhall\" tagged in the post: You could ask if he lives there or if it is a gym he frequents.",
+        "1.  **Fitness/Workout Routines:** You could ask about his workout routine or specific exercises he does for shoulder strength, as he's doing an overhead press."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

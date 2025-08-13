@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T17:24:30.646086",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T17:24:13.921140",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of three packages of \"Twisted Hemp\" designer hemp wraps. Each package is green and silver, featuring the brand name and product details. The packages are neatly arranged side-by-side.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a collection of craft beer cans and bottles. The cans are labeled \"Liquid Karma\" from Southern Grist Brewing Co. There is also a bottle with a pink label that says \"We've Been There In 023\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up video of what appears to be \"Icecapz,\" based on the caption. It looks like a type of candy or sweet, possibly covered in powdered sugar.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of what appears to be cannabis buds.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows three Stiizy vape cartridges in their packaging, labeled Skywalker OG, Blue Dream, and Gelato.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows several boxes of what appear to be vape cartridges. One box has the \"Liquid Gold\" logo with a cannabis leaf. Other boxes have various strain names like \"Wedding Cake\" and \"Purple Urkle\".",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Craft Beer: Ask about their favorite types of craft beer or if they have any other recommendations from Southern Grist Brewing Co.",
+          "2.  Southern Grist Brewing Co.: Ask if they have visited the brewery or if they know anything about the brewery.",
+          "1.  **Icecapz/Candy:** \"Hey, I saw your post about Icecapz. I've never tried them before! What do they taste like?\"",
+          "2.  **Local Sweets/Treats:** \"I noticed you posted about Icecapz. Do you have any other recommendations for local sweets/treats in your area?\"",
+          "1. Inquiring about the specific strain of cannabis shown in the image."
+        ],
+        "generated_comment": "Hey! Just was having a little stalk! The packaging on your latest post looks really cool 😎",
+        "profile_bio": {
+          "PERSON NAME": "Donald Green (Based on username)",
+          "INTERESTS": [
+            "Craft Beer (especially Southern Grist Brewing Co.)",
+            "Cannabis (various strains, vape cartridges, and flower)",
+            "Hemp Wraps (Twisted Hemp)",
+            "Sweets/Candy (Icecapz)",
+            "Vaping"
+          ],
+          "LIFESTYLE": "Likely enjoys recreational cannabis use and exploring different strains and consumption methods (vaping, wraps). Appears to appreciate craft beer and local treats. May be interested in the cannabis industry or culture. The lifestyle appears to be relaxed and focused on personal enjoyment.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite craft beers from Southern Grist Brewing Co.?",
+            "Have you ever visited Southern Grist Brewing Co. in person?",
+            "What does Icecapz taste like? Any other local sweets you'd recommend?",
+            "What strain of cannabis is featured in your recent post?",
+            "What are your favorite Twisted Hemp flavors?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Enthusiastic (about their interests)",
+            "Relaxed/Laid-back",
+            "Appreciative of quality (craft beer, specific cannabis strains)",
+            "Open to trying new things (different strains, Icecapz)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Craft Beer: Ask about their favorite types of craft beer or if they have any other recommendations from Southern Grist Brewing Co.",
+        "2.  Southern Grist Brewing Co.: Ask if they have visited the brewery or if they know anything about the brewery.",
+        "1.  **Icecapz/Candy:** \"Hey, I saw your post about Icecapz. I've never tried them before! What do they taste like?\"",
+        "2.  **Local Sweets/Treats:** \"I noticed you posted about Icecapz. Do you have any other recommendations for local sweets/treats in your area?\"",
+        "1. Inquiring about the specific strain of cannabis shown in the image."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

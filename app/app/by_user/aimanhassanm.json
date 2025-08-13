@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T20:41:42.694090",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T20:41:24.443872",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a man, presumably aimanhassanm, participating in a triathlon. He is running towards the finish line with his arms raised in a celebratory gesture. He is wearing a black wetsuit, a red bandana, and running shoes. In the background, there are other participants, spectators, and flags of different countries. The event appears to be taking place at Yas Marina Circuit in Abu Dhabi.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (presumably aimanhassanm) crossing the finish line of a triathlon. He is wearing a triathlon suit and has his arms outstretched in celebration.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (aimanhassanm) standing at the edge of a swimming pool, wearing a swim cap and goggles. He is making a funny face with his hands around his eyes. The hashtags suggest he is involved in triathlons and Ironman competitions.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man on a racing bicycle during a triathlon or cycling event in Dubai, with the Burj Al Arab in the background. He is wearing a triathlon suit and helmet, and the photo is tagged with various triathlon-related hashtags.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man and a woman posing for a selfie at what appears to be an Ironman 70.3 triathlon event. There are many bikes in the background, and the man is wearing an Ironman 70.3 shirt and hat. The Burj Al Arab is visible in the distance.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person swimming in open water, likely training for a triathlon or open water swimming event. The person is wearing a swim cap and has a buoy nearby. The location is Sahl Hasheesh-Hurghada, Egypt.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Triathlon training: Ask about his training regimen for triathlons, how he balances the swimming, biking, and running, or if he has any tips for someone interested in getting started.",
+          "2. Specific triathlon events: Inquire about his experience at the WTS Abu Dhabi or Ironman 70.3, or ask if he plans to participate in any upcoming events.",
+          "1.  Triathlon training: Ask about his training schedule, favorite part of the triathlon, or any upcoming races he's preparing for.",
+          "2.  Ironman competitions: Ask about his experience in Ironman competitions, any tips for beginners, or his personal goals in the sport.",
+          "1.  Triathlon training and racing: \"I noticed you're into triathlons. What's your favorite part of the race, and what are you training for next?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You looked like you were absolutely crushing it! 💪",
+        "profile_bio": {
+          "PERSON NAME": "Aiman Hassan",
+          "INTERESTS": [
+            "Triathlons",
+            "Ironman Competitions",
+            "Swimming",
+            "Cycling",
+            "Running"
+          ],
+          "LIFESTYLE": "Aiman Hassan is an active individual deeply involved in the world of triathlons and Ironman competitions. He dedicates significant time to training in swimming, cycling, and running, participating in events both locally (Abu Dhabi, Dubai) and internationally (Egypt). He appears to enjoy the challenge and celebratory aspects of these events.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite part of a triathlon and why?",
+            "What are you currently training for?",
+            "What advice would you give to someone just starting out in triathlons?",
+            "What was your experience like at the WTS Abu Dhabi or Ironman 70.3?",
+            "How do you balance the swimming, biking, and running in your training regimen?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven",
+            "Dedicated",
+            "Enthusiastic",
+            "Humorous (based on the funny face picture)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Triathlon training: Ask about his training regimen for triathlons, how he balances the swimming, biking, and running, or if he has any tips for someone interested in getting started.",
+        "2. Specific triathlon events: Inquire about his experience at the WTS Abu Dhabi or Ironman 70.3, or ask if he plans to participate in any upcoming events.",
+        "1.  Triathlon training: Ask about his training schedule, favorite part of the triathlon, or any upcoming races he's preparing for.",
+        "2.  Ironman competitions: Ask about his experience in Ironman competitions, any tips for beginners, or his personal goals in the sport.",
+        "1.  Triathlon training and racing: \"I noticed you're into triathlons. What's your favorite part of the race, and what are you training for next?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

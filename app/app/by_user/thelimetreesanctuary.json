@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T01:06:03.258071",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T01:05:41.752443",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up shot of soil, with a discarded plastic lid partially buried within it. The soil is a mix of dark and light brown, with small stones and clumps visible. The plastic lid is white with a red and orange design. The overall tone is one of environmental concern.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows someone digging a hole in a backyard. There's a shovel in the hole, and a red bucket nearby. The ground is a mix of dirt and small rocks. The caption mentions \"#doitfortheducks #thelimetree #animalsarefriends\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two ducks in a grassy area. The text \"The Lime Tree\" is superimposed on the image. The hashtags in the post suggest interests in regenerative agriculture, sanctuary, zero waste, simple life, and veganism.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a child looking into a large container filled with compost. The post describes it as their first batch of backyard compost, emphasizing its earthy smell and benefits for soil regeneration.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows green onion scraps being replanted in soil, with the text \"Save Your Food Scraps\" overlaid. The post describes how to regrow green onions from the leftover white ends.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A young child is helping to harvest romaine lettuce from a raised garden bed. The caption mentions \"hands-on learning\" and the names Coco and CeleMelon.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Ducks: Since the hashtag is #doitfortheducks, you could ask about the ducks and why they are digging a hole for them.",
+          "2. Gardening/Landscaping: You could ask about their gardening or landscaping projects, as digging a hole suggests they're working on something in their yard.",
+          "1. Ducks/Animal Sanctuary: \"Those ducks are adorable! Are they part of the sanctuary?\"",
+          "2. Regenerative Agriculture/Veganism: \"I noticed the regenerative agriculture and vegan hashtags. What kind of projects are you working on at The Lime Tree?\"",
+          "1. Composting methods: The post mentions different composting methods like tumblers, worm compost stacks, and open piles. You could ask about their experience with these different methods or share your own composting experiences."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! It was a stark reminder of how much plastic is still around. 😔",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Coco and CeleMelon are mentioned, likely children's names, not the user's)",
+          "INTERESTS": [
+            "Animal Sanctuary (specifically ducks)",
+            "Regenerative Agriculture",
+            "Zero Waste Living",
+            "Veganism",
+            "Gardening/Composting"
+          ],
+          "LIFESTYLE": "Likely living a simple, sustainable lifestyle focused on environmentalism and animal welfare. They are actively involved in gardening, composting, and reducing waste. They are also likely teaching their children about these values through hands-on experiences.",
+          "CONVERSATION STARTERS": [
+            "I saw you're doing it for the ducks! Can you tell me more about the ducks at The Lime Tree Sanctuary?",
+            "Your compost looks amazing! What composting method do you find works best for you?",
+            "I'm interested in regenerative agriculture. What are some of the projects you're working on at The Lime Tree to promote soil health?",
+            "I love the idea of saving food scraps. Do you have any other tips for reducing food waste?",
+            "It's wonderful to see Coco and CeleMelon involved in gardening. What are some of your favorite ways to teach children about sustainability?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Environmentally Conscious",
+            "Compassionate (towards animals)",
+            "Educational/Nurturing (teaching children)",
+            "Practical/Hands-on"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Ducks: Since the hashtag is #doitfortheducks, you could ask about the ducks and why they are digging a hole for them.",
+        "2. Gardening/Landscaping: You could ask about their gardening or landscaping projects, as digging a hole suggests they're working on something in their yard.",
+        "1. Ducks/Animal Sanctuary: \"Those ducks are adorable! Are they part of the sanctuary?\"",
+        "2. Regenerative Agriculture/Veganism: \"I noticed the regenerative agriculture and vegan hashtags. What kind of projects are you working on at The Lime Tree?\"",
+        "1. Composting methods: The post mentions different composting methods like tumblers, worm compost stacks, and open piles. You could ask about their experience with these different methods or share your own composting experiences."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

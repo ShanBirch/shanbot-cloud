@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T12:23:16.912564",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T12:22:59.008838",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post by dale.nugent.mg featuring a digitally created image of a very muscular Spider-Man with the text \"DON'T TRAIN TO BE SKINNY, TRAIN TO BE BADASS.\" The background appears to be a city street. The Spider-Man character is drawn in a stylized, almost ripped, fashion, emphasizing his large muscles.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a before-and-after weight loss transformation post on Instagram. It shows three pictures of the same man, Dale Nugent, at different stages of his fitness journey. The first picture shows him heavier, while the second and third show him progressively leaner and more muscular. The caption details his weight loss of over 70 kilograms.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a home gym setup with various weight training equipment. There's a bench press with a \"100% Beast\" Hulk graphic, a multi-gym machine, dumbbells, and other fitness accessories.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a series of black and white progress photos of a man's weight loss journey, from April 2018 to May 2020. He is shirtless in each photo, showcasing his physical transformation. The post is tagged with various fitness-related hashtags.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a before-and-after comparison photo showing a man's weight loss transformation. The left side shows him with a heavier build, and the right side shows a leaner, more muscular physique. He has tattoos on his chest and arms that are visible in both photos. The caption discusses his success and goals.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a cartoon of a muscular unicorn lifting a barbell. The text above the unicorn reads, \"Twinkle, Twinkle Little Star. Hit The Gym And Lift The Bar.\" The caption includes hashtags related to fitness, such as #fitnessforlife, #fitaddict, #fitnessguru, and #fitover40.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Fitness Journey:** Ask about specific challenges he faced during his weight loss journey or what motivated him to keep going.",
+          "2.  **Training/Diet:** Inquire about his current training regimen or dietary habits that helped him achieve his results.",
+          "1. **Home Gym Setup:** You could ask about their experience setting up a home gym, what equipment they find most useful, or any tips they have for maximizing space.",
+          "2. **Fitness Goals/Training:** You could ask about their current fitness goals, what kind of training they enjoy, or if they have any favorite exercises. The hashtags also suggest they are a fitness instructor, so you could ask about their training philosophy.",
+          "1. **Fitness Journey/Weight Loss:** Ask about specific challenges he faced during his weight loss journey or what motivated him to keep going."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Dale Nugent",
+          "INTERESTS": [
+            "Weight Training",
+            "Fitness Transformation",
+            "Home Gyms",
+            "Motivation & Inspiration",
+            "Bodybuilding/Muscle Building"
+          ],
+          "LIFESTYLE": "Likely a fitness enthusiast and possibly a fitness instructor or coach, dedicated to weight training and personal fitness transformation. He seems to prioritize building muscle and strength. He may be over 40, based on the #fitover40 hashtag.",
+          "CONVERSATION STARTERS": [
+            "What were some of the biggest challenges you faced during your 70+ kg weight loss journey, and how did you overcome them?",
+            "Can you describe your current training regimen and dietary habits that have helped you maintain your results?",
+            "What equipment do you find most useful in your home gym, and do you have any tips for maximizing space?",
+            "What are your current fitness goals, and what kind of training do you enjoy most?",
+            "I noticed the 'DON'T TRAIN TO BE SKINNY, TRAIN TO BE BADASS' post. What does that philosophy mean to you, and how does it influence your training?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Motivated",
+            "Disciplined",
+            "Inspirational",
+            "Dedicated"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Fitness Journey:** Ask about specific challenges he faced during his weight loss journey or what motivated him to keep going.",
+        "2.  **Training/Diet:** Inquire about his current training regimen or dietary habits that helped him achieve his results.",
+        "1. **Home Gym Setup:** You could ask about their experience setting up a home gym, what equipment they find most useful, or any tips they have for maximizing space.",
+        "2. **Fitness Goals/Training:** You could ask about their current fitness goals, what kind of training they enjoy, or if they have any favorite exercises. The hashtags also suggest they are a fitness instructor, so you could ask about their training philosophy.",
+        "1. **Fitness Journey/Weight Loss:** Ask about specific challenges he faced during his weight loss journey or what motivated him to keep going."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

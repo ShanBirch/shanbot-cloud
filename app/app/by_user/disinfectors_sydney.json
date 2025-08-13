@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T22:29:35.755762",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T22:29:18.214650",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by disinfectors_sydney features a bright green background with gold-colored \"Happy New Year\" text and firework graphics. The text of the post itself wishes customers a Merry Christmas and Happy New Year, thanking them for their support and expressing excitement for 2024.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person wearing gloves and cleaning gym equipment (likely a kettlebell) with a green cloth. The post is from an account called \"disinfectors_sydney\" that specializes in cleaning gyms and studios.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from disinfectors_sydney, wishing their customers a happy new year (2022) and thanking them for their support. The post also highlights their affordable disinfection services for small businesses and individuals in Sydney.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an advertisement for a disinfection company called \"Disinfectors Sydney.\" It features a person in a full protective suit and mask, holding a disinfection sprayer. The company is promoting its services for homes and businesses.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an advertisement for a disinfection company called \"Disinfectors\" based in Sydney, Australia. It features two people in full protective gear (hazmat suits, masks, gloves) holding disinfection equipment. The ad also includes the company's website and phone number.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows the Instagram profile of \"metaliastudios,\" a piercing studio in Paddington, Sydney. The profile highlights services such as appointments, fine jewelry, and piercing parties. The disinfectors_sydney account has tagged metaliastudios in their post.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Gym/Fitness:** Discussing the importance of gym hygiene, favorite workout routines, or the challenges of maintaining a clean fitness environment.",
+          "2.  **Cleaning Practices:** Asking about specific cleaning products or techniques used for different types of gym equipment, or discussing the impact of cleaning on the spread of germs.",
+          "1.  **Sydney Small Business Scene:** Since they cater to small businesses in Sydney, discussing the local business environment, challenges, or successes could be a relevant conversation starter.",
+          "2.  **Disinfection Services and Community Support:** The post emphasizes community support and affordable services. Inquiring about their community initiatives or the specific challenges they address with their disinfection services could be a way to engage further.",
+          "1.  **The disinfection process:** You could ask about the specific type of disinfectant they use, the safety measures they take, or the areas they typically focus on during a disinfection service."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post, the Happy New Year graphic was really eye-catching! ✨",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (likely a business account representing a team)",
+          "INTERESTS": [
+            "Disinfection and hygiene",
+            "Gyms and fitness studios",
+            "Small business support in Sydney",
+            "Public health and safety",
+            "Community well-being"
+          ],
+          "LIFESTYLE": "Professional service provider specializing in disinfection, primarily targeting gyms, studios, and other small businesses in Sydney. Likely involved in regular travel within Sydney for on-site disinfection services. Appears to value community support and affordable services.",
+          "CONVERSATION STARTERS": [
+            "What are some of the biggest challenges you face when disinfecting gyms and fitness studios?",
+            "Could you tell me more about the specific disinfection products and techniques you use to ensure a safe environment?",
+            "How do you see your services contributing to the overall health and well-being of the Sydney community?",
+            "What are some of the unique needs of small businesses in Sydney when it comes to disinfection?",
+            "I noticed you tagged metaliastudios. How do you tailor your disinfection services to different types of businesses?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Professional",
+            "Community-focused",
+            "Detail-oriented (due to the nature of their work)",
+            "Reliable"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Gym/Fitness:** Discussing the importance of gym hygiene, favorite workout routines, or the challenges of maintaining a clean fitness environment.",
+        "2.  **Cleaning Practices:** Asking about specific cleaning products or techniques used for different types of gym equipment, or discussing the impact of cleaning on the spread of germs.",
+        "1.  **Sydney Small Business Scene:** Since they cater to small businesses in Sydney, discussing the local business environment, challenges, or successes could be a relevant conversation starter.",
+        "2.  **Disinfection Services and Community Support:** The post emphasizes community support and affordable services. Inquiring about their community initiatives or the specific challenges they address with their disinfection services could be a way to engage further.",
+        "1.  **The disinfection process:** You could ask about the specific type of disinfectant they use, the safety measures they take, or the areas they typically focus on during a disinfection service."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,23 @@
+{
+  "subscriber_id": "unknown_user_1",
+  "conversations": [
+    {
+      "timestamp": "2025-04-25T12:06:33.035686",
+      "message": "NO_MESSAGE",
+      "is_ai": "UNKNOWN",
+      "sentiment": "UNKNOWN"
+    }
+  ],
+  "metrics": {
+    "total_messages": 1,
+    "ai_questions": 0,
+    "user_responses": 0,
+    "coaching_inquiries": 0,
+    "ai_detections": 0,
+    "missing_fields": [
+      "message",
+      "is_ai",
+      "sentiment"
+    ]
+  }
+}

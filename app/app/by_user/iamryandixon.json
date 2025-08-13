@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T16:59:05.392195",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T16:58:41.839130",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a black and white collage-style artwork. On the right side, a hand is prominently displayed, reaching out with its fingers spread. The left side features a textured, almost chaotic arrangement of what appears to be crumpled or layered materials, creating a stark contrast with the smooth lines of the hand. The overall effect is abstract and somewhat unsettling.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black and white collage art piece featuring fragmented images of a face. The background appears to be textured, possibly charcoal or pencil. The overall aesthetic is dark and somewhat unsettling.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black and white collage or mixed media artwork with a pair of bright red lips as a focal point. The style appears to be dark art or expressionistic.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a handmade mask that appears to be inspired by a clown or Joker-like character. The mask has a distressed, unsettling aesthetic with visible textures and dark, exaggerated features.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a creepy, handmade mask on a mannequin head. The mask appears to be made of fabric or paper and has a distressed, almost mummy-like appearance. There's also an airbrush and other art supplies in the background, suggesting the person is the artist who created the mask.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two baseball caps stacked on top of each other on a patterned rug. The top cap is black with a patch, and the bottom cap is pink. The post's hashtags include #upcycle, #clothing, #art, #patches, #fashion, and #sewing.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Collage Art/Art Brut:** Given the hashtags used, discussing their interest in collage art, art brut, or similar artistic styles could be a good starting point. You could ask about their influences or favorite artists in the genre.",
+          "2.  **Dark Art/Expressionism:** The post uses hashtags related to dark art, dark expressionism, and anxiety art. Inquiring about what draws them to these themes in art, or asking about other artists they admire in this vein, could lead to an engaging conversation.",
+          "1.  **Art Style/Inspiration:** \"I noticed you tagged this as #darkart and #darkexpressionism. Are there any particular artists or movements that inspire your work in this style?\"",
+          "2.  **Music:** The user tagged #slipknot, #harshnoise, #noisewall, and #noisemusic. \"I saw you tagged some interesting music genres! Are you a fan of harsh noise or noise music in general?\"",
+          "1.  **Mask-making/Artistic Process:** Inquire about the materials and techniques used to create the mask, and what inspires the artist's style."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Ryan Dixon",
+          "INTERESTS": [
+            "Collage Art/Mixed Media",
+            "Dark Art/Expressionism",
+            "Mask-making",
+            "Upcycled Fashion/Clothing Design",
+            "Harsh Noise/Noise Music"
+          ],
+          "LIFESTYLE": "Likely an artist and designer who creates unsettling and thought-provoking artwork using collage, mixed media, and mask-making techniques. They also seem to be involved in upcycling and creating unique clothing items, possibly with a focus on patches and sewing. They are likely a fan of dark and experimental art and music.",
+          "CONVERSATION STARTERS": [
+            "I'm really drawn to the unsettling aesthetic of your collage work. What inspires you to explore those themes?",
+            "Your masks are incredibly striking. Can you tell me a bit about the materials and techniques you use to create them?",
+            "I noticed you tagged some interesting music genres like harsh noise and noise music. Are you a fan of the genre in general, and what artists do you enjoy?",
+            "Your upcycled clothing looks really cool! What's your process for finding materials and creating new designs?",
+            "I'm curious about your artistic influences. Are there any particular artists or movements that inspire your work, especially in the realm of dark art and expressionism?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Introspective/Thoughtful",
+            "Experimental",
+            "Edgy/Unconventional"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Collage Art/Art Brut:** Given the hashtags used, discussing their interest in collage art, art brut, or similar artistic styles could be a good starting point. You could ask about their influences or favorite artists in the genre.",
+        "2.  **Dark Art/Expressionism:** The post uses hashtags related to dark art, dark expressionism, and anxiety art. Inquiring about what draws them to these themes in art, or asking about other artists they admire in this vein, could lead to an engaging conversation.",
+        "1.  **Art Style/Inspiration:** \"I noticed you tagged this as #darkart and #darkexpressionism. Are there any particular artists or movements that inspire your work in this style?\"",
+        "2.  **Music:** The user tagged #slipknot, #harshnoise, #noisewall, and #noisemusic. \"I saw you tagged some interesting music genres! Are you a fan of harsh noise or noise music in general?\"",
+        "1.  **Mask-making/Artistic Process:** Inquire about the materials and techniques used to create the mask, and what inspires the artist's style."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

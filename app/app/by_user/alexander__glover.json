@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T23:15:31.293883",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T23:15:11.990207",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by alexander_glover. The post features a video of Alexander standing outdoors, likely on his walk across Australia to raise awareness for men's mental health and suicide prevention. He is wearing a grey tank top, black shorts, a headband, and a backpack. The background shows lush greenery and a building. The post includes a caption explaining his mission and comments from other users expressing support and admiration.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of people standing outside a building in Charters Towers. The caption mentions \"Day 94: Charters Towers\" and expresses gratitude for support, emphasizing the message \"You are never alone and it's not weak to speak.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person, presumably alexander_glover, walking on a beach with a large backpack. The text overlay indicates it's day 400 of a Tasmanian leg of a journey. The caption mentions starting in Hobart and walking anticlockwise, currently in Devonport.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person, Alexander Glover, standing under a \"Welcome to Victoria\" sign. He is on day 370 of a long walk, having covered 15,000km. The post mentions visiting Port Fairy and heading towards Geelong and Melbourne. The post also discusses mental health and the mantra \"WAIT ONE MORE MINUTE AND TAKE ONE MORE STEP.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man standing next to a \"Welcome to South Australia\" sign. He is wearing a high-visibility jacket and appears to be on a long walk, as he has a cart with gear. The post mentions he is walking around Australia for men's mental health and suicide awareness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man walking with a cart in a desert-like landscape. The post describes his journey walking the perimeter of Western Australia. It also mentions the photographers who captured some of the images.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Charters Towers: \"I saw your post about Charters Towers. Have you been there before? What do you like about the town?\"",
+          "2.  Support and Mental Health: \"Your post about support and not being afraid to speak resonated with me. What kind of work do you do to promote that message?\"",
+          "1.  **Tasmania/Hiking:** \"I saw your post about your Tasmanian walk! It looks incredible. What's been the most challenging part of the journey so far?\"",
+          "2.  **Mindfulness/Philosophy:** \"I was struck by your message about 'one more minute, one more step.' What inspired you to focus on that particular mantra during your journey?\"",
+          "1.  **His walking journey**: Ask about his favorite part of the walk so far, or what he's looking forward to seeing in Geelong or Melbourne."
+        ],
+        "generated_comment": "Hey! Just was having a little stalk! Your latest post about your walk looked amazing, what an incredible undertaking! 👏",
+        "profile_bio": {
+          "PERSON NAME": "Alexander Glover",
+          "INTERESTS": [
+            "Men's Mental Health Awareness",
+            "Suicide Prevention",
+            "Long-Distance Walking/Hiking",
+            "Australian Landscapes",
+            "Mindfulness and Mental Wellbeing"
+          ],
+          "LIFESTYLE": "Alexander is currently engaged in a multi-year, long-distance walking journey around Australia (and previously Tasmania) to raise awareness for men's mental health and suicide prevention. He appears to be living a minimalist lifestyle, carrying his belongings in a backpack and/or cart, and documenting his journey through photos and videos on Instagram.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about Charters Towers. Have you been there before? What do you like about the town?",
+            "Your post about support and not being afraid to speak resonated with me. What kind of work do you do to promote that message?",
+            "I saw your post about your Tasmanian walk! It looks incredible. What's been the most challenging part of the journey so far?",
+            "I was struck by your message about 'one more minute, one more step.' What inspired you to focus on that particular mantra during your journey?",
+            "What has been your favorite part of the walk so far, or what are you looking forward to seeing in Geelong or Melbourne?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated",
+            "Resilient",
+            "Compassionate",
+            "Inspirational"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Charters Towers: \"I saw your post about Charters Towers. Have you been there before? What do you like about the town?\"",
+        "2.  Support and Mental Health: \"Your post about support and not being afraid to speak resonated with me. What kind of work do you do to promote that message?\"",
+        "1.  **Tasmania/Hiking:** \"I saw your post about your Tasmanian walk! It looks incredible. What's been the most challenging part of the journey so far?\"",
+        "2.  **Mindfulness/Philosophy:** \"I was struck by your message about 'one more minute, one more step.' What inspired you to focus on that particular mantra during your journey?\"",
+        "1.  **His walking journey**: Ask about his favorite part of the walk so far, or what he's looking forward to seeing in Geelong or Melbourne."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

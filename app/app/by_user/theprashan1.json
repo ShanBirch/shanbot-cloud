@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T20:01:31.081948",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T20:01:10.197262",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a split-screen comparison of theprashan1 in September 2019 (\"Cutting\") and December 2020 (\"Bulking\"). On the left, he's wearing an orange tank top with a symbol on it and a weightlifting belt, appearing leaner. On the right, he's in a light blue tank top, looking more muscular. The post is captioned \"CUTTING VS BULKING\" with tips and challenges related to each phase.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a before-and-after transformation of a man's physique. The left side shows him at age 25, weighing 100kg with a 38\" waist. The right side shows him at age 29, weighing 64kg with a 26\" waist. The post celebrates one year since the photoshoot and marks 5 years of his weight loss journey. The caption includes learnings about time, basics, falling off the wagon, and the importance of good coaches.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a muscular man in a gym setting, holding weight plates. He is in a lunge position. The post discusses his fitness journey, early morning workouts, meal prepping, and the importance of hard work and personal growth.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (theprashan1) lifting a dumbbell. He is muscular and appears to be in a gym setting. The post text discusses the journey of getting fit, losing weight, and sculpting one's physique.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a muscular man, presumably the poster, in a gym setting. He is posing shirtless, highlighting his physique. The post's caption discusses happiness and fitness goals.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a before-and-after transformation photo. On the left, the person is in less muscular shape (May 2019), and on the right, they are significantly more muscular (November 2019). The post includes stats (waist and weight) and a daily schedule outlining their workout routine.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Weight Loss Journey/Fitness Tips:** Given the dramatic transformation, asking about specific strategies, challenges, or tips from his weight loss journey could be a good conversation starter. You could ask about his diet, exercise routine, or how he stayed motivated.",
+          "2.  **Coaching/Mentorship:** The post mentions the importance of good coaches and avoiding cheap online programs. Asking about his experience with coaches, what he looks for in a good coach, or his thoughts on the coaching industry could lead to an interesting conversation.",
+          "1.  Fitness/Workout Routines: Given the focus on workouts and \"shredding down,\" you could ask about his current workout routine, his favorite exercises, or his experience with specific training methods.",
+          "2.  Meal Prepping/Nutrition: The post mentions preparing over 35 meals a week. You could ask about his approach to meal prepping, his favorite healthy recipes, or his thoughts on the importance of nutrition for fitness.",
+          "1.  **Fitness Journey/Tips:** Given the post's focus on fitness, asking about his personal fitness journey, tips for beginners, or specific workout routines could be a good conversation starter."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! It was cool to see the difference between your cutting and bulking phases 💪",
+        "profile_bio": {
+          "PERSON NAME": "Prashan (Based on username 'theprashan1')",
+          "INTERESTS": [
+            "Weightlifting/Bodybuilding",
+            "Fitness Transformations",
+            "Nutrition and Meal Prepping",
+            "Personal Growth through Fitness",
+            "Coaching/Mentorship in Fitness"
+          ],
+          "LIFESTYLE": "Likely a fitness enthusiast who dedicates significant time to working out, meal prepping, and tracking progress. Potentially involved in coaching or mentoring others in their fitness journeys. Appears disciplined and goal-oriented.",
+          "CONVERSATION STARTERS": [
+            "What are some of the biggest challenges you faced during your weight loss journey, and how did you overcome them?",
+            "You mentioned the importance of good coaches. What qualities do you look for in a fitness coach?",
+            "Can you describe your current workout routine and any specific training methods you're currently using?",
+            "You prepare over 35 meals a week! What's your approach to meal prepping, and do you have any favorite healthy recipes to share?",
+            "What advice would you give to someone just starting their fitness journey?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Disciplined",
+            "Goal-oriented",
+            "Motivated",
+            "Passionate (about fitness)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Weight Loss Journey/Fitness Tips:** Given the dramatic transformation, asking about specific strategies, challenges, or tips from his weight loss journey could be a good conversation starter. You could ask about his diet, exercise routine, or how he stayed motivated.",
+        "2.  **Coaching/Mentorship:** The post mentions the importance of good coaches and avoiding cheap online programs. Asking about his experience with coaches, what he looks for in a good coach, or his thoughts on the coaching industry could lead to an interesting conversation.",
+        "1.  Fitness/Workout Routines: Given the focus on workouts and \"shredding down,\" you could ask about his current workout routine, his favorite exercises, or his experience with specific training methods.",
+        "2.  Meal Prepping/Nutrition: The post mentions preparing over 35 meals a week. You could ask about his approach to meal prepping, his favorite healthy recipes, or his thoughts on the importance of nutrition for fitness.",
+        "1.  **Fitness Journey/Tips:** Given the post's focus on fitness, asking about his personal fitness journey, tips for beginners, or specific workout routines could be a good conversation starter."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

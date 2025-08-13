@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T20:58:27.578624",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T20:58:10.584784",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post by humbleathletehq featuring a man wearing a white hoodie with a \"BEAST FORM ACTIVATED\" design on the front. The design includes a roaring bear. The post promotes the design's availability on Redbubble.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by humbleathletehq featuring a person wearing a black t-shirt with the text \"Lift Heavy Pet Cats\" and a paw print design. The post includes hashtags related to fitness, cats, and motivation.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by humbleathletehq featuring two models wearing sweatshirts that say \"Lift Heavy Pet Dogs\". The post is promoting the design on Redbubble and is targeted towards people who enjoy lifting weights and love dogs.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two people modeling a t-shirt design featuring a cartoon frog with the text \"Just Doing My Best.\" The post promotes the design being available on Redbubble.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by humbleathletehq featuring a person wearing a t-shirt with a \"Lift Heavy Pet Cats\" design. The post promotes their Redbubble store where the design is available on various products.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by humbleathletehq showcasing their new \"I eat alot\" design on sweatshirts, featuring tiny food items. The post also includes hashtags related to fitness, food, and their Redbubble shop.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Fitness routines:** Given the hashtags like #lifting, #squats, #gym, #weightloss, #cardio, #bodybuilding, and #workout, you could ask about their favorite workout routines or exercises.",
+          "2.  **Pet cats:** The t-shirt design and the hashtags #pet and #cat suggest an interest in cats. You could ask about their own cats, favorite cat breeds, or funny cat stories.",
+          "1. **Dog breeds and training:** Asking about the type of dog they have, or if they have any training tips for lifting with their dogs (playfully).",
+          "2. **Fitness routines:** Inquiring about their favorite workout routines or asking for advice on incorporating weightlifting into a fitness plan.",
+          "1. Redbubble and online merchandise sales: \"I saw you're selling your designs on Redbubble. What's your experience been like with the platform?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The hoodie design looked really cool. 💪",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Fitness/Weightlifting",
+            "Cats",
+            "Dogs",
+            "Design/Merchandise (Redbubble)",
+            "Humor/Relatable Content"
+          ],
+          "LIFESTYLE": "Likely an individual involved in fitness and design, possibly selling merchandise online through Redbubble. They seem to enjoy a humorous and relatable approach to fitness and pet ownership.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite workout routine or exercise?",
+            "Do you have any cats (or dogs)? What are they like?",
+            "I saw you're selling your designs on Redbubble. What's your experience been like with the platform?",
+            "The 'Just Doing My Best' design is great! What inspired that?",
+            "What's the heaviest you've lifted while simultaneously petting a cat/dog? (Playful)"
+          ],
+          "PERSONALITY TRAITS": [
+            "Humorous",
+            "Motivated/Driven (related to fitness and design)",
+            "Animal Lover",
+            "Creative"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Fitness routines:** Given the hashtags like #lifting, #squats, #gym, #weightloss, #cardio, #bodybuilding, and #workout, you could ask about their favorite workout routines or exercises.",
+        "2.  **Pet cats:** The t-shirt design and the hashtags #pet and #cat suggest an interest in cats. You could ask about their own cats, favorite cat breeds, or funny cat stories.",
+        "1. **Dog breeds and training:** Asking about the type of dog they have, or if they have any training tips for lifting with their dogs (playfully).",
+        "2. **Fitness routines:** Inquiring about their favorite workout routines or asking for advice on incorporating weightlifting into a fitness plan.",
+        "1. Redbubble and online merchandise sales: \"I saw you're selling your designs on Redbubble. What's your experience been like with the platform?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

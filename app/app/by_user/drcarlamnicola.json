@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T21:28:33.083447",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T21:28:13.517263",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by drcarlamnicola is a graphic with the title \"12 Ways The Divine Speak to You.\" It features a stylized image of a flower with twelve different symbols and phrases arranged around it, each representing a different way the divine communicates. These include \"vivid dreams,\" \"de ja vu,\" \"synchronicities,\" \"repeating names, words, phrases,\" \"songs, music,\" \"intuition, inner knowing,\" \"1111 numbers,\" \"un\"expected meetings,\" \"smells,\" \"finding, losing or breaking objects,\" \"animals,\" and \"pain, illness, accidents.\" The graphic has a blue and gold color scheme.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a box of Patchi \"Les Essentiels\" chocolates. The caption thanks a friend for an \"amazing breakfast.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a table set with plates, bowls, and baskets, possibly for a buffet or catered event. There's also a toaster oven in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a selfie of a woman with blonde curly hair wearing a pink hat. The location tag is \"Giulio Cercato,\" and the caption is \"Beautiful.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by drcarlamnicola is a collage of images. Several images feature luxury cars (red, white, yellow), some are selfies of the poster, and one appears to be a shot inside a shopping mall. There is also a photo of \"Grecia\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a selfie of drcarlamnicola. In the background, there are other people sitting in what appears to be a bus or train. Another image shows a jar labeled \"Grecia\" (Greece).",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Patchi Chocolates: You could ask about their favorite Patchi flavors or if they have any other favorite chocolate brands.",
+          "2. Breakfast: You could ask about their favorite breakfast foods or routines.",
+          "1. Catering/Event Planning: \"That looks like a beautiful setup! Are you catering an event, or is that a home buffet?\"",
+          "2. Kitchen Appliances: \"I noticed the toaster oven in the background. Do you have any favorite recipes you like to make with it?\"",
+          "1.  Travel: Given the location tag \"Giulio Cercato,\" a conversation could start about travel experiences in that area or Italy in general."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The graphic was really beautiful and thought-provoking 🦋",
+        "profile_bio": {
+          "PERSON NAME": "Dr. Carla Mnicola",
+          "INTERESTS": [
+            "Spirituality/Divinity (interpreting signs and synchronicities)",
+            "Travel (especially to Italy and Greece)",
+            "Luxury (cars, shopping)",
+            "Food (chocolates, breakfast)",
+            "Personal Style (fashion, selfies)"
+          ],
+          "LIFESTYLE": "Appears to enjoy a comfortable lifestyle with travel, luxury goods, and social events. Potentially a professional (implied by 'Dr.' prefix) who is interested in spirituality and personal expression.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about the 12 ways the divine speaks to us. Which of those resonates most with you personally?",
+            "What are your favorite things to do in Giulio Cercato/Italy?",
+            "Patchi chocolates are amazing! Do you have a favorite flavor?",
+            "That breakfast looked delicious! What's your go-to breakfast on a typical day?",
+            "I noticed you've been to Greece. What were some of the highlights of your trip?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Spiritual/Intuitive",
+            "Appreciative (thanking friends, calling things 'beautiful')",
+            "Luxurious/Enjoys the finer things",
+            "Social (attends events, travels with others)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Patchi Chocolates: You could ask about their favorite Patchi flavors or if they have any other favorite chocolate brands.",
+        "2. Breakfast: You could ask about their favorite breakfast foods or routines.",
+        "1. Catering/Event Planning: \"That looks like a beautiful setup! Are you catering an event, or is that a home buffet?\"",
+        "2. Kitchen Appliances: \"I noticed the toaster oven in the background. Do you have any favorite recipes you like to make with it?\"",
+        "1.  Travel: Given the location tag \"Giulio Cercato,\" a conversation could start about travel experiences in that area or Italy in general."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

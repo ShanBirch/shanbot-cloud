@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T10:36:28.587153",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T10:36:07.066413",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by alivewithschnoor and laurenschnoor. The post features a picture of a woman with long auburn hair, wearing glasses and a grey top. She is smiling and standing in front of a blurry background of greenery and rocks. She has a turtle tattoo on her upper arm. The post's caption expresses excitement and gratitude for finally starting a business she's dreamed of for three years.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, presumably laurenschnoor, standing on a golf course in Lahaina, Maui. The background features a scenic view of the ocean and mountains. The post is a heartfelt message expressing her sadness and support for the community affected by the recent tragedy in Maui.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (presumably laurenschnoor) posing for a photo with golfer Bryson DeChambeau at Augusta National Golf Club. The caption expresses her excitement about the Masters tournament and her FOMO for not being there.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a woman with long red hair and glasses. The post text indicates she travels to watch golf tournaments and dreams of working with the PGA.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman wearing a Buffalo Bills jersey. She is smiling and appears to be indoors.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman smiling in front of a lush, mountainous landscape. She is wearing a green shirt with \"HIKE MAUI\" printed on it. The post caption mentions Hawaii, hiking, and golf.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Golf:** \"I saw your post from the golf course in Maui. Do you play often? What's your favorite course to play?\"",
+          "2.  **Maui/Hawaii:** \"I saw your post about Maui. Have you visited often? What are some of your favorite things to do there?\" (This is especially relevant considering the caption and hashtags.)",
+          "1.  **The Masters Tournament:** Ask her about her favorite moments from the tournament, her predictions for the winner, or her general thoughts on the competition.",
+          "2.  **Bryson DeChambeau:** Inquire about her experience meeting him, her opinion on his golfing style, or if she follows his career closely.",
+          "1. Golf: Ask about her favorite golfers or tournaments she's attended."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Lauren Schnoor",
+          "INTERESTS": [
+            "Golf (playing and spectating)",
+            "Travel (especially to Hawaii)",
+            "Hiking",
+            "Buffalo Bills Football",
+            "Entrepreneurship"
+          ],
+          "LIFESTYLE": "Appears to be an entrepreneur who enjoys traveling, particularly to golf tournaments and Hawaii. She is passionate about golf and hiking, and a fan of the Buffalo Bills. She is starting a new business she's been dreaming of for three years.",
+          "CONVERSATION STARTERS": [
+            "I saw your post from the golf course in Maui. Do you play often? What's your favorite course to play?",
+            "I saw your post about Maui. Have you visited often? What are some of your favorite things to do there?",
+            "What were some of your favorite moments from the Masters Tournament?",
+            "What was it like meeting Bryson DeChambeau? What do you think of his golfing style?",
+            "I noticed you're a Bills fan! What are your predictions for the upcoming season?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate",
+            "Adventurous",
+            "Enthusiastic",
+            "Grateful"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Golf:** \"I saw your post from the golf course in Maui. Do you play often? What's your favorite course to play?\"",
+        "2.  **Maui/Hawaii:** \"I saw your post about Maui. Have you visited often? What are some of your favorite things to do there?\" (This is especially relevant considering the caption and hashtags.)",
+        "1.  **The Masters Tournament:** Ask her about her favorite moments from the tournament, her predictions for the winner, or her general thoughts on the competition.",
+        "2.  **Bryson DeChambeau:** Inquire about her experience meeting him, her opinion on his golfing style, or if she follows his career closely.",
+        "1. Golf: Ask about her favorite golfers or tournaments she's attended."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

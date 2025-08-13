@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T14:05:21.276382",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T14:04:59.842356",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a top-down shot of a variety of vegan cookies arranged on a clear, decorative plate. The plate sits on a red and white patterned surface. The cookies include a gingerbread man with white icing details, thumbprint cookies with a red jam filling, chocolate chip cookies, white chocolate bark with peppermint pieces, and shortbread cookies decorated with red and green sprinkles.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of people, including the poster, gathered outside. Many are wearing shirts with the logo of \"Critter Creek Farm Sanctuary.\" There's also a dog and a pumpkin in the foreground. The poster mentions being thankful for animal warriors and that the sanctuary has become a big part of their life.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a pita bread filled with vegan breakfast ingredients like Just Egg, Follow Your Heart mozzarella, potatoes, and Beyond Meat breakfast sausage, topped with sriracha. The background shows a pool area.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan sandwich from Ybor City Vegandeli, called the Avocara sandwich, being held up. A chicken is also visible in the background. The post mentions that the chickens in Ybor City are protected by a city ordinance.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of vegan Alfredo pasta with tomatoes, basil, and vegan meatballs. The post mentions specific brands of ingredients used, including @chocolatecoveredkatie, @neophytofoods, and @jovialfoods.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a homemade vegan burger with a patty made of black beans, quinoa, and beets, topped with ketchup, mustard, and pickles, on a bun. The post mentions using zucchini instead of mushrooms.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Critter Creek Farm Sanctuary:** Inquire about their involvement with the sanctuary, what kind of work they do there, or what they find most rewarding about it.",
+          "2. **Veganism:** Since they mention starting their vegan journey in 2018, you could ask about their experiences with veganism, favorite vegan recipes, or challenges they've faced.",
+          "1. Vegan cooking/recipes: Discussing favorite vegan breakfast recipes, sharing tips for veganizing meals, or asking for recommendations for vegan ingredients.",
+          "2. Travel/Tampa: Asking about recommendations for vegan restaurants or activities in Tampa, Florida, or sharing travel experiences.",
+          "1.  Vegan food and restaurants: Discussing other vegan restaurants or dishes they enjoy, or asking for recommendations in the area."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism",
+            "Vegan Cooking & Baking",
+            "Animal Sanctuary/Animal Welfare (Critter Creek Farm Sanctuary)",
+            "Tampa, Florida (Local Vegan Food Scene)",
+            "Healthy Eating"
+          ],
+          "LIFESTYLE": "Likely a vegan home cook and baker who is actively involved with Critter Creek Farm Sanctuary. Appears to live in or frequently visit the Tampa, Florida area and enjoys exploring local vegan food options. Seems to prioritize healthy, plant-based meals.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about Critter Creek Farm Sanctuary! What kind of work do you do there, and what's the most rewarding part of it for you?",
+            "Your vegan breakfast pita looked amazing! Do you have any other favorite vegan breakfast recipes you'd be willing to share?",
+            "I'm also vegan and always looking for new restaurants to try. Do you have any favorite vegan spots in Tampa that you'd recommend?",
+            "I'm trying to veganize some of my favorite recipes. Do you have any tips or tricks for substituting ingredients?",
+            "I noticed you started your vegan journey in 2018. What has been your biggest challenge and your greatest reward since then?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Compassionate (towards animals)",
+            "Creative (in the kitchen, with baking and cooking)",
+            "Community-oriented (involved with the sanctuary)",
+            "Enthusiastic (about veganism and food)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Critter Creek Farm Sanctuary:** Inquire about their involvement with the sanctuary, what kind of work they do there, or what they find most rewarding about it.",
+        "2. **Veganism:** Since they mention starting their vegan journey in 2018, you could ask about their experiences with veganism, favorite vegan recipes, or challenges they've faced.",
+        "1. Vegan cooking/recipes: Discussing favorite vegan breakfast recipes, sharing tips for veganizing meals, or asking for recommendations for vegan ingredients.",
+        "2. Travel/Tampa: Asking about recommendations for vegan restaurants or activities in Tampa, Florida, or sharing travel experiences.",
+        "1.  Vegan food and restaurants: Discussing other vegan restaurants or dishes they enjoy, or asking for recommendations in the area."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

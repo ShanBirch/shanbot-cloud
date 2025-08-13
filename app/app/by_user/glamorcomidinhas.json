@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T12:32:18.243550",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T12:31:55.629825",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by glamor.comidinhas features two images. The first image is a close-up of a golden-brown quiche, garnished with rosemary, sitting on a decorative silver platter. The second image shows a tray of mini empanadas, some with a red topping (likely pepper) and others with a darker, meat-based filling. The caption is in Portuguese, asking if the viewer has tried these delicacies.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a freshly baked quiche, with a slice already removed. The quiche appears to have a sausage and onion filling.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a chicken and requeijão (Brazilian cream cheese) quiche. The post is from glamor.comidinhas, a food-related Instagram account. The caption mentions making Christmas happier with the quiche and offering different flavors for the New Year.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a Christmas-themed post with a drawing of a snowman surrounded by hearts. The text in the image wishes \"Bom dia!\" (Good day!) and \"Feliz Natal!!\" (Merry Christmas!!), and expresses the wish for peace, love, and unity in the home. The caption also wishes a happy and blessed Christmas to all friends and clients.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows several jars of homemade pickled goods, including sliced cucumber pickles, caramelized onion, tomato confit, and eggplant caponata. The jars are decorated with colorful fabric covers.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image features a quiche, a jar of what appears to be caponata, and a pink hibiscus flower. The post is tagged with #comidinhas (small foods), #fingerfoods, and #natal2020.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Cooking/Baking:** You could ask for the recipe or inquire about their favorite types of quiche fillings.",
+          "2.  **Entertaining:** The post mentions a \"confraternização de grandes amigas\" (gathering of great friends). You could ask about their favorite types of gatherings to host or attend.",
+          "1.  **Food Preferences/Cooking:** \"That quiche looks delicious! What other flavors do you specialize in?\" or \"Do you have any other recipes you could share?\"",
+          "2.  **Holiday Traditions:** \"I saw your post about making Christmas happier with the quiche. What are some of your other favorite holiday food traditions?\"",
+          "1. **Christmas traditions:** Given the Christmas theme, you could ask about their favorite Christmas traditions or what they enjoy most about the holiday season."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The quiche looked so delicious, and the mini empanadas were super cute! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Cooking/Baking (especially quiches and empanadas)",
+            "Homemade Pickled Goods (pickles, caramelized onions, tomato confit, eggplant caponata)",
+            "Entertaining/Hosting Gatherings",
+            "Holiday Food Traditions (especially Christmas)",
+            "Finger Foods/Small Bites (Comidinhas)"
+          ],
+          "LIFESTYLE": "Likely a home cook or small-scale food business owner specializing in artisanal baked goods and pickled items. Appears to enjoy hosting or catering for small gatherings and values holiday traditions. Possibly Brazilian, given the Portuguese captions and the mention of requeijão.",
+          "CONVERSATION STARTERS": [
+            "Your quiches look amazing! What are some of your most popular filling combinations?",
+            "I love the idea of homemade pickled goods. What's your favorite recipe from your collection?",
+            "You mentioned making Christmas happier with your quiche. What are some of your other favorite holiday food traditions?",
+            "I saw you tagged #fingerfoods. What are some other 'comidinhas' you enjoy making for parties?",
+            "Do you have any tips for making the perfect empanada dough?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (evident in the variety of food items and presentation)",
+            "Hospitable (enjoys entertaining and sharing food)",
+            "Festive (values holiday traditions and celebrations)",
+            "Artisanal (focus on homemade, high-quality ingredients)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Cooking/Baking:** You could ask for the recipe or inquire about their favorite types of quiche fillings.",
+        "2.  **Entertaining:** The post mentions a \"confraternização de grandes amigas\" (gathering of great friends). You could ask about their favorite types of gatherings to host or attend.",
+        "1.  **Food Preferences/Cooking:** \"That quiche looks delicious! What other flavors do you specialize in?\" or \"Do you have any other recipes you could share?\"",
+        "2.  **Holiday Traditions:** \"I saw your post about making Christmas happier with the quiche. What are some of your other favorite holiday food traditions?\"",
+        "1. **Christmas traditions:** Given the Christmas theme, you could ask about their favorite Christmas traditions or what they enjoy most about the holiday season."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

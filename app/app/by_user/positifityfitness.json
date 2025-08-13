@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T15:45:45.788252",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T15:45:24.262225",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image features two women standing close together, both with their arms raised in a celebratory pose. They are wearing matching light green workout sets consisting of a sports bra and leggings. The woman on the left has blonde hair, while the woman on the right has dark hair. The AYBL logo is visible on the leggings of the woman on the right. They are smiling and appear to be in a bright, well-lit space with a plain white wall behind them.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two women smiling and holding a package of \"Vitamine Fabriek Weerstand Complex\". The post promotes the vitamin brand and offers a discount code.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two women in fitness attire taking a selfie in a gym. They are standing near weightlifting equipment. The caption mentions they were on holiday.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows ingredients for a protein mojito, including protein powder, lemons, and a glass. The caption mentions enjoying these drinks after workouts.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two women in workout clothes taking a selfie in a bathroom, likely at a gym. The post lists 5 fun facts about them, including their shared love for Zumba, Spain, being Aries, trying group lessons, and sangria.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "Two women are posing for a selfie in what appears to be a public restroom, likely at a gym or fitness facility. They are both wearing workout attire. The post itself discusses the importance of spreading positivity and addressing negative comments they've received.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Vitamins and Supplements:** \"I saw your post about Vitamine Fabriek. Have you noticed a difference since you started taking them? I'm always looking for good recommendations.\"",
+          "2.  **Fitness and Active Lifestyle:** \"Your Instagram says you have an active lifestyle. What kind of workouts do you enjoy?\"",
+          "1. Holiday destinations: Given they mentioned being on holiday, asking about where they went or what they did could be a good conversation starter.",
+          "2. Workout routines: Since they are in a gym and the account is fitness-related, asking about their favorite exercises or workout routines could be a relevant topic.",
+          "1.  Protein powder brands and flavors: Ask about their favorite protein powder brands or flavors, especially if they have tried other \"unconventional\" flavors like mojito."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown (positifity.fitness)",
+          "INTERESTS": [
+            "Fitness and Exercise (especially gym workouts and group classes like Zumba)",
+            "Healthy Lifestyle (including vitamins and protein supplements)",
+            "Travel (specifically Spain and holiday destinations)",
+            "AYBL Apparel",
+            "Positive Mental Attitude"
+          ],
+          "LIFESTYLE": "Active lifestyle focused on fitness, health, and positivity. They appear to be fitness enthusiasts who enjoy working out together, trying new supplements, and traveling. They are likely influencers or brand ambassadors, possibly for AYBL and Vitamine Fabriek.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about Vitamine Fabriek. Have you noticed a difference since you started taking them? I'm always looking for good recommendations.",
+            "Your Instagram says you have an active lifestyle. What kind of workouts do you enjoy?",
+            "I noticed you mentioned being on holiday. Where did you go and what did you enjoy doing there?",
+            "What are some of your favorite exercises or workout routines?",
+            "That protein mojito looks interesting! What's your favorite protein powder brand and flavor? Have you tried any other unconventional flavors?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Positive and Encouraging",
+            "Enthusiastic and Energetic",
+            "Social and Collaborative",
+            "Health-conscious"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Vitamins and Supplements:** \"I saw your post about Vitamine Fabriek. Have you noticed a difference since you started taking them? I'm always looking for good recommendations.\"",
+        "2.  **Fitness and Active Lifestyle:** \"Your Instagram says you have an active lifestyle. What kind of workouts do you enjoy?\"",
+        "1. Holiday destinations: Given they mentioned being on holiday, asking about where they went or what they did could be a good conversation starter.",
+        "2. Workout routines: Since they are in a gym and the account is fitness-related, asking about their favorite exercises or workout routines could be a relevant topic.",
+        "1.  Protein powder brands and flavors: Ask about their favorite protein powder brands or flavors, especially if they have tried other \"unconventional\" flavors like mojito."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

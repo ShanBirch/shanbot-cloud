@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T21:40:39.987530",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T21:40:20.904120",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by jack_personaltrainer23. The post features a certificate that states \"SI CERTIFICA CHE STEFANETTO GIACOMO HA FREQUENTATO CON SUCCESSO LA SCUOLA OTTENENDO LA QUALIFICA DI PREPARATORE DI NATURAL BODY BUILDING AMATORIALE SBB BOLOGNA, 25 SETTEMBRE 2022\". The certificate also features a signature and the logo of \"Sustainable Body Building\". The caption is in Italian and expresses gratitude for the course and the people involved.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man, likely the personal trainer, standing in what appears to be a gym. He is wearing a t-shirt with a design that includes the words \"UNPLUGGED FROM SOCIAL MEDIA\" and an electrical plug. There is a Matrix weight machine in the background. The post is in Italian and promotes a YouTube video and a discount code for @prozis.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two people lying on the floor of a gym, seemingly exhausted after a workout. One person is lying with their head on a leg press machine, and the other is sitting up with a tired expression. The text overlay says \"la situazione dopo gli affondi\" which translates to \"the situation after lunges\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by jack_personaltrainer23, promoting a post about arm workouts and how to get bigger biceps. The post features a muscular man and text in Italian that translates to \"Bro, I want huge arms! How to train them?\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The post contains a carousel of images. The first image appears to be a video taken from inside a car, possibly while driving. The caption in Italian mentions the year 2015 and someone named Chiara Xena Benetti being forced to follow him on a trip and daring to fall asleep, with the hashtag #prank. Other images show a child doing lunges and the personal trainer sitting at a desk.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two men, likely fitness professionals or bodybuilders, sitting at a table in what appears to be a gym or studio setting. They seem to be recording a video or podcast, as there's a microphone present. The post is from ilario_fogarolo and mentions \"parte del video youtube censurata\" and \"Natural Bodybuilding.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **His T-shirt:** Comment on the \"UNPLUGGED FROM SOCIAL MEDIA\" t-shirt. Ask him about his views on social media and its impact on fitness or overall well-being.",
+          "2.  **His YouTube Channel:** Ask him about his YouTube channel and the type of fitness content he creates. This shows interest in his work and provides an opportunity for him to share more about his expertise.",
+          "1. **Leg day struggles:** Acknowledge the shared experience of leg day exhaustion and ask about their favorite/least favorite leg exercises.",
+          "2. **Training styles:** Ask about the type of training they were doing (e.g., high volume, heavy weight) that led to such exhaustion. This could lead to a discussion about different training methodologies.",
+          "1. Arm workout routines: The post is about arm workouts, so asking about specific exercises or training splits he recommends for bicep growth would be relevant."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! The certificate in your latest post looked like a big accomplishment! 💪",
+        "profile_bio": {
+          "PERSON NAME": "Giacomo Stefanetto (Username: jack_personaltrainer23)",
+          "INTERESTS": [
+            "Natural Bodybuilding",
+            "Fitness Training",
+            "YouTube Content Creation",
+            "Promoting a Healthy Lifestyle",
+            "Humor/Pranks (based on the 2015 trip post)"
+          ],
+          "LIFESTYLE": "Giacomo is a certified personal trainer specializing in natural bodybuilding. He seems to be actively involved in creating fitness content for YouTube and promoting fitness-related products (e.g., through discount codes). He appears to enjoy a gym-focused lifestyle and incorporates humor and personal anecdotes into his social media presence.",
+          "CONVERSATION STARTERS": [
+            "I noticed your 'UNPLUGGED FROM SOCIAL MEDIA' t-shirt. What are your thoughts on the impact of social media on fitness and overall well-being?",
+            "I saw you have a YouTube channel. What kind of fitness content do you create, and what are you hoping to achieve with it?",
+            "That 'situation after lunges' post was relatable! What are your favorite and least favorite leg exercises?",
+            "What kind of training style were you using in the 'situation after lunges' post? Was it high volume, heavy weight, or something else?",
+            "I saw your post about arm workouts. What specific exercises or training splits do you recommend for bicep growth?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated (to fitness and bodybuilding)",
+            "Humorous (uses pranks and relatable content)",
+            "Professional (certified trainer, creates content)",
+            "Engaging (actively promotes content and interacts with followers)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **His T-shirt:** Comment on the \"UNPLUGGED FROM SOCIAL MEDIA\" t-shirt. Ask him about his views on social media and its impact on fitness or overall well-being.",
+        "2.  **His YouTube Channel:** Ask him about his YouTube channel and the type of fitness content he creates. This shows interest in his work and provides an opportunity for him to share more about his expertise.",
+        "1. **Leg day struggles:** Acknowledge the shared experience of leg day exhaustion and ask about their favorite/least favorite leg exercises.",
+        "2. **Training styles:** Ask about the type of training they were doing (e.g., high volume, heavy weight) that led to such exhaustion. This could lead to a discussion about different training methodologies.",
+        "1. Arm workout routines: The post is about arm workouts, so asking about specific exercises or training splits he recommends for bicep growth would be relevant."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

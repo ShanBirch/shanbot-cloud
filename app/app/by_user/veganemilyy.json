@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-13T19:51:37.493580",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T07:43:41.576325",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up, overhead shot of a vibrant and colorful \"Kimchi Power Bowl\" created by veganemilyy. The bowl is filled with a variety of ingredients, including kimchi, mixed greens, tempeh, rice with pumpkin seeds, sunflower seeds, goji berries, cucumber, tomato, and radishes. The bowl is placed against a backdrop of greenery, suggesting it was photographed outdoors or near plants. The overall impression is fresh, healthy, and appetizing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of \"Blackberry crumble oats\" with a recipe provided in the caption. The oats are topped with blackberries, pumpkin seeds, peanut butter, and granola.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of blueberry banana oats with toppings like granola, chia seeds, and peanut butter. The post includes a recipe and hashtags related to veganism, healthy eating, and fitness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a stack of protein crumpets topped with strawberries and maple syrup. The post is tagged with #veganlife, #highproteinvegan, #veganuk, #veganbreakfast, and #fitnessvegan.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a stack of vegan pancakes topped with nuts and a red sauce, likely a berry compote. There's also a fig on the plate. The caption mentions \"Weekend highlights.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a hand holding a \"Barebells Vegan Hazelnut Nougat\" protein bar, labeled as a pre-workout snack. The caption mentions getting 130g+ of protein per day.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan recipes and cooking: Given the focus on vegan food and the provided recipe, you could ask about other vegan recipes they enjoy or share a favorite vegan recipe of your own.",
+          "2. Crumble desserts: The caption mentions an obsession with making crumbles. You could ask about their favorite crumble recipes or ingredients.",
+          "1. **Vegan recipes and cooking:** Ask about other favorite vegan recipes or cooking tips.",
+          "2. **Fitness and healthy lifestyle:** Inquire about their fitness routine or other healthy habits.",
+          "1. Vegan recipes: Ask about other favorite vegan breakfast recipes or high-protein vegan meal ideas."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Emily (Based on username 'veganemilyy')",
+          "INTERESTS": [
+            "Veganism",
+            "Healthy Eating",
+            "Fitness",
+            "Vegan Baking (Especially Crumbles)",
+            "Creating Visually Appealing Food"
+          ],
+          "LIFESTYLE": "Likely someone who prioritizes a healthy and active vegan lifestyle. They enjoy creating and sharing vegan recipes, particularly breakfast options and desserts. They are also conscious of their protein intake and incorporate fitness into their routine.",
+          "CONVERSATION STARTERS": [
+            "What's your go-to high-protein vegan meal?",
+            "I saw your Blackberry Crumble Oats – what other crumble recipes are you obsessed with?",
+            "What's your favorite vegan restaurant or cafe?",
+            "What's your current fitness routine like?",
+            "Do you have any tips for making vegan food look as beautiful as yours?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (with food presentation and recipes)",
+            "Health-conscious",
+            "Passionate (about veganism and fitness)",
+            "Organized (likely, given the detailed recipes and focus on protein intake)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Vegan Recipes/Cooking:** Discussing vegan recipes, particularly breakfast ideas, or asking for more details about the crumble-making process.",
+        "2.  **London Life:** The post includes the hashtag #veganlondonlife, so you could ask about vegan restaurants or food spots in London.",
+        "1.  Vegan cooking/baking: Ask about other vegan recipes they enjoy or if they have any tips for vegan baking.",
+        "2.  Healthy eating/fitness: Inquire about their fitness routine or other healthy food choices they make.",
+        "1. Vegan cooking and recipes: Ask about other favorite vegan breakfast recipes or tips for making high-protein vegan meals."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T01:43:11.093568",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T01:42:50.892139",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post from vegan_and_veg_clothing_acc. It features a woman modeling a black t-shirt with a graphic of a pumpkin and the words \"orange is new vegan color\" printed on it. She is wearing a black jacket and sunglasses perched on her head. The background is a blurred outdoor scene with trees.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a meme featuring a kookaburra bird with the text \"Goat? or Bird?\". The caption is \"Eyes do things to confuse.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post celebrating the vegan_and_veg_clothing_acc reaching 1000 followers. The post expresses excitement and gratitude.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person standing next to a motorcycle, wearing a t-shirt with the phrase \"I FIX MY OWN SHIT\" and a leather jacket.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a humorous cartoon depicting how to make a chicken salad. Step 1 is to prepare a salad, and Step 2 is to give the salad to a chicken. The image also has the text \"VEGANlife\" on the bottom left.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a square pillow with a colorful, circular pattern on a rug. There is also a book and a cup of tea or coffee in the background.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Birdwatching/Animal Identification: Since the post features a kookaburra, you could ask if they enjoy birdwatching or have any favorite birds.",
+          "2.  Humor/Memes: You could ask them about other funny memes they've seen recently or what kind of humor they enjoy.",
+          "1.  **Vegan Clothing:** Inquire about their best-selling vegan clothing items or any new products they are planning to release.",
+          "2.  **Business Growth:** Ask about their strategies for growing their follower base and sales, or what they've learned from reaching this milestone.",
+          "1.  Motorcycles: \"Cool bike! What kind is it?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The pumpkin design on that tee is so cute and perfect for fall 🎃",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism/Vegan Lifestyle",
+            "Vegan Clothing",
+            "Humor/Memes",
+            "Motorcycles",
+            "Home Decor (Pillows/Textiles)"
+          ],
+          "LIFESTYLE": "Likely an entrepreneur or small business owner focused on vegan clothing. Appears to enjoy a casual, humorous, and potentially outdoorsy lifestyle. May be mechanically inclined or appreciate DIY projects.",
+          "CONVERSATION STARTERS": [
+            "What are some of your best-selling vegan clothing items?",
+            "What strategies have you found most effective for growing your Instagram following and business?",
+            "I saw the kookaburra post! Do you enjoy birdwatching or have any favorite birds?",
+            "That 'I FIX MY OWN SHIT' t-shirt is awesome! What kind of motorcycle do you have?",
+            "What are some of your favorite vegan recipes or restaurants?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Humorous",
+            "Creative",
+            "Passionate (about veganism)",
+            "Independent/Self-Reliant"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Birdwatching/Animal Identification: Since the post features a kookaburra, you could ask if they enjoy birdwatching or have any favorite birds.",
+        "2.  Humor/Memes: You could ask them about other funny memes they've seen recently or what kind of humor they enjoy.",
+        "1.  **Vegan Clothing:** Inquire about their best-selling vegan clothing items or any new products they are planning to release.",
+        "2.  **Business Growth:** Ask about their strategies for growing their follower base and sales, or what they've learned from reaching this milestone.",
+        "1.  Motorcycles: \"Cool bike! What kind is it?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

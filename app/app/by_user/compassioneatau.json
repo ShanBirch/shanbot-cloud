@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T15:47:28.289024",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T15:47:07.247834",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post by @compassioneat.au advertising an \"End of financial year sale!\" The graphic features a large \"50% OFFER Special\" text design with the words in white against a vibrant green brushstroke background. The text \"OFF YOUR PURCHASE\" is also included. The post mentions using the code SAVE50 until June 30, 2022, and encourages customers to order from their website.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from @compassioneat.au featuring a new meal: Edamame Bolognese. The photo shows two plates of the dish, with green noodles topped with a red sauce. The post includes hashtags related to compassion, cruelty-free, plant-based food, and Melbourne.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image features a red heart with an EKG line running through it, and muscular arms flexing on either side. The post discusses the benefits of a plant-based diet, particularly in relation to cardiovascular health.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of food with scrambled tofu, spinach and tomatoes, and what appears to be mashed cauliflower topped with chives. It's presented on a wooden cutting board. The post is by @compassioneat.au, advertising their new Scramble Tofu.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plant-based burrito on a wooden cutting board, accompanied by tomatoes and a zucchini. The post mentions a change in ingredients from black rice to basmati rice.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from @compassioneat.au announcing they are \"OPEN AGAIN\" after a break. The post mentions restructuring, new staff, old meals for sale, new meals coming soon, focus on plant-based meals, and affordability.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Plant-based eating/veganism:** Since the post highlights plant-based food, you could ask about their experience with vegan or vegetarian cuisine, favorite plant-based recipes, or their thoughts on the growing popularity of plant-based diets.",
+          "2.  **Melbourne food scene:** The post includes the hashtag #melbourne, suggesting an interest in the local food scene. You could ask for recommendations on other restaurants or cafes in Melbourne that offer similar cuisine or have a great atmosphere.",
+          "1. Plant-based recipes: \"Have you tried any interesting plant-based recipes lately? I'm always looking for new ideas.\"",
+          "2. Fitness and diet: \"I'm interested in how diet impacts fitness. Do you find that a plant-based diet helps with your workouts or overall energy levels?\"",
+          "1. Plant-based eating: Since the post uses the hashtag #plantbased, you could ask about their favorite plant-based recipes or restaurants in the area."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The green brushstroke design was really eye-catching. 💚",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Plant-based eating/veganism",
+            "Melbourne food scene",
+            "Healthy eating and cardiovascular health",
+            "Affordable and accessible plant-based meals",
+            "Cruelty-free living"
+          ],
+          "LIFESTYLE": "Likely involved in the food industry, specifically focused on creating and providing plant-based meals. Appears to be a business owner or manager of a food establishment in Melbourne. Values health, affordability, and ethical food choices.",
+          "CONVERSATION STARTERS": [
+            "What inspired you to focus on plant-based cuisine?",
+            "I'm always looking for new plant-based recipes. What's your favorite dish to make at home?",
+            "What are some of your favorite plant-based restaurants or cafes in Melbourne besides your own?",
+            "I saw your post about the benefits of a plant-based diet for cardiovascular health. Can you tell me more about that?",
+            "I'm curious about the restructuring you mentioned. What are some of the new meals you're planning to introduce?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Compassionate",
+            "Health-conscious",
+            "Business-minded",
+            "Creative (in terms of developing new recipes)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Plant-based eating/veganism:** Since the post highlights plant-based food, you could ask about their experience with vegan or vegetarian cuisine, favorite plant-based recipes, or their thoughts on the growing popularity of plant-based diets.",
+        "2.  **Melbourne food scene:** The post includes the hashtag #melbourne, suggesting an interest in the local food scene. You could ask for recommendations on other restaurants or cafes in Melbourne that offer similar cuisine or have a great atmosphere.",
+        "1. Plant-based recipes: \"Have you tried any interesting plant-based recipes lately? I'm always looking for new ideas.\"",
+        "2. Fitness and diet: \"I'm interested in how diet impacts fitness. Do you find that a plant-based diet helps with your workouts or overall energy levels?\"",
+        "1. Plant-based eating: Since the post uses the hashtag #plantbased, you could ask about their favorite plant-based recipes or restaurants in the area."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,55 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 2,
+      "user_messages": 1,
+      "ai_messages": 1,
+      "ai_questions": 0,
+      "ai_statements": 1,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T00:41:21.496521",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-14T14:41:21.495855+00:00",
+          "type": "user",
+          "text": "Thanks man Make sure to give my account a follow too 🌱"
+        },
+        {
+          "timestamp": "2025-04-14T14:41:21.611838+00:00",
+          "type": "ai",
+          "text": "haha all good!  :)"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "denverlight9",
+      "first_message_timestamp": "2025-04-14T14:41:21.495855+00:00",
+      "last_message_timestamp": "2025-04-14T14:41:21.611838+00:00",
+      "conversation_duration_str": "0m",
+      "conversation_count": 1,
+      "last_seen_timestamp": "2025-04-14T14:41:21.611838+00:00"
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

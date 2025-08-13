@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T15:09:12.481476",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T15:08:48.496568",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of two hands intertwined, showcasing wedding rings. One hand has a silver ring with a diamond, and the other has a black band. The hands are resting on what appears to be a lap, with beige shoes visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man and woman kissing in front of a building. The caption indicates it's a \"hard launch\" with someone named @heatherrrene, suggesting a public announcement of their relationship.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from murraykellerhomes, a real estate company. It shows a TV screen displaying \"Top Teams\" with \"Vegan Realty\" listed as the number 2 team. The post also mentions saving animals, indicating a connection to veganism and animal welfare.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a couple, Vishesh and Ashley, standing in the backyard of their new home with their dog, Truffle. They are holding keys, presumably to the house. The post mentions that the dogs of the couple and the realtor became best friends and eat the same vegan dog food.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by murraykellerhomes, a real estate company. It shows a house with the words \"IN ESCROW\" overlaid on the image. The caption mentions that the buyers looked at 17 apartments before deciding on this house and that they lost out on a few offers before getting this one. The house is located at 7532 Garden Grove, Reseda CA.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by \"murraykellerhomes\" showcasing a recently sold property in Los Angeles. The image features a well-decorated living room with modern furniture and a fireplace. The text \"CLOSED\" is superimposed over the image, along with the address and price of the property. The caption mentions it's a perfect home for a couple and a shoutout to @cynthiawardla for rocking the sale. It also mentions a donation to animals.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Congratulations/Relationship:** \"Congratulations on the hard launch! How long have you two been together?\"",
+          "2.  **Real Estate/Business:** \"I noticed you're in real estate. What areas do you specialize in?\" (This is based on the account name \"murraykellerhomes\" and the assumption it's related to real estate).",
+          "1.  **Veganism/Animal Welfare:** Given the \"Vegan Realty\" branding and the mention of \"saving more animals,\" discussing veganism, animal welfare initiatives, or related topics could be a good conversation starter.",
+          "2.  **Real Estate Market:** As a real estate company, discussing current trends in the Los Angeles/Santa Monica real estate market, recent sales, or investment opportunities could be relevant and engaging.",
+          "1.  **Vegan dog food:** Since the post mentions vegan dog food, a conversation could be started about the benefits of vegan diets for pets, brands of vegan dog food, or recipes for homemade vegan dog treats."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The rings looked beautiful! 💍",
+        "profile_bio": {
+          "PERSON NAME": "Murray Keller (likely based on username 'murraykellerhomes')",
+          "INTERESTS": [
+            "Real Estate (Los Angeles/Reseda CA area)",
+            "Veganism",
+            "Animal Welfare/Rescue",
+            "Relationships/Family",
+            "Home Decor/Design"
+          ],
+          "LIFESTYLE": "Real estate professional (likely a realtor or part of a real estate team) in the Los Angeles area. Appears to be in a committed relationship with someone named Heather. Passionate about veganism and animal welfare, incorporating these values into their business and personal life.",
+          "CONVERSATION STARTERS": [
+            "Congratulations on your relationship with Heather! How did you two meet?",
+            "I saw you specialize in the Los Angeles real estate market. What are some of the biggest trends you're seeing right now?",
+            "Your 'Vegan Realty' branding is interesting! What inspired you to combine your passion for veganism with your real estate business?",
+            "I'm curious about vegan dog food. What are some of your favorite brands or recipes?",
+            "That recent sale on Garden Grove in Reseda was impressive! What were some of the challenges in getting that deal closed?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate (about real estate, veganism, and animal welfare)",
+            "Relationship-oriented (values relationships with clients and partners, as well as their personal relationship)",
+            "Professional (runs a real estate business)",
+            "Compassionate (dedicated to animal welfare)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Congratulations/Relationship:** \"Congratulations on the hard launch! How long have you two been together?\"",
+        "2.  **Real Estate/Business:** \"I noticed you're in real estate. What areas do you specialize in?\" (This is based on the account name \"murraykellerhomes\" and the assumption it's related to real estate).",
+        "1.  **Veganism/Animal Welfare:** Given the \"Vegan Realty\" branding and the mention of \"saving more animals,\" discussing veganism, animal welfare initiatives, or related topics could be a good conversation starter.",
+        "2.  **Real Estate Market:** As a real estate company, discussing current trends in the Los Angeles/Santa Monica real estate market, recent sales, or investment opportunities could be relevant and engaging.",
+        "1.  **Vegan dog food:** Since the post mentions vegan dog food, a conversation could be started about the benefits of vegan diets for pets, brands of vegan dog food, or recipes for homemade vegan dog treats."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

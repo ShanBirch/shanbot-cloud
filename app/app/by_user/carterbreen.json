@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T16:35:50.635908",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T16:35:33.408471",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by carterbreen is a headshot of him. He has long, wavy, light brown hair with blonde highlights. He is shirtless and wearing a beaded necklace. The background is a light gray.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A black and white portrait of a man with long hair, wearing an unbuttoned shirt, standing in front of a rocky background. The location tag indicates Oahu, Hawaii.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a professional-looking portrait of carterbreen. He has long, wavy hair and is wearing an unbuttoned linen shirt. The caption mentions it's a shot by @solidumstudios and includes the hashtag #model.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person standing in a lush, green forest, looking up at a large tree with many hanging vines.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a portrait of a person with long, wavy hair, wearing a black shirt and a beaded necklace. The background is a dark, solid color.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows carterbreen posing with two other people in front of a car. The caption mentions \"Labor day weekend\" and the location is Houston, Texas.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Photography/Black and White Photography:** Commenting on the artistic quality of the photo, asking about the photographer, or discussing preferences for black and white photography.",
+          "2.  **Travel/Hawaii:** Asking about his favorite spots in Oahu, or sharing your own experiences or interest in visiting Hawaii.",
+          "1. Modeling/Photography: You could ask about his experience as a model or his work with solidumstudios. For example, \"I saw you're a model! What's your favorite part about being in front of the camera?\" or \"That photo by solidumstudios is amazing! Have you worked with them often?\"",
+          "2. Haircare: Given his long hair, you could ask about his haircare routine. For example, \"Your hair looks great! Do you have any tips for maintaining long hair?\"",
+          "1. Travel: Asking about the location of the forest and if they enjoy traveling to natural settings."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Carter Breen",
+          "INTERESTS": [
+            "Modeling",
+            "Photography (especially black and white)",
+            "Travel (especially to natural settings and Hawaii)",
+            "Haircare/Grooming",
+            "Fashion/Style (beaded necklaces, linen shirts)"
+          ],
+          "LIFESTYLE": "Likely a model who enjoys traveling and spending time in nature. He seems to balance professional work with personal travel and socializing with friends. He has spent time in both Hawaii and Texas.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite part about being in front of the camera as a model?",
+            "That black and white portrait from Oahu is stunning! What are some of your favorite spots on the island?",
+            "Your hair always looks great! Do you have any tips for maintaining long hair, especially with highlights?",
+            "I saw you worked with @solidumstudios. What was that experience like?",
+            "That forest photo is beautiful! Do you enjoy traveling to natural settings often?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Artistic/Creative",
+            "Adventurous/Travel-loving",
+            "Stylish/Fashion-conscious",
+            "Social"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Photography/Black and White Photography:** Commenting on the artistic quality of the photo, asking about the photographer, or discussing preferences for black and white photography.",
+        "2.  **Travel/Hawaii:** Asking about his favorite spots in Oahu, or sharing your own experiences or interest in visiting Hawaii.",
+        "1. Modeling/Photography: You could ask about his experience as a model or his work with solidumstudios. For example, \"I saw you're a model! What's your favorite part about being in front of the camera?\" or \"That photo by solidumstudios is amazing! Have you worked with them often?\"",
+        "2. Haircare: Given his long hair, you could ask about his haircare routine. For example, \"Your hair looks great! Do you have any tips for maintaining long hair?\"",
+        "1. Travel: Asking about the location of the forest and if they enjoy traveling to natural settings."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,113 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T14:32:22.112127",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 5,
+        "timestamp": "2025-04-14T14:32:06.669229",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post by coach.kadyn. It shows a woman in athletic wear holding a barbell across her upper chest and shoulders, seemingly preparing for a lift. Coach Kadyn is standing behind her with a wooden stick, presumably providing guidance. The background shows a gym setting with Rogue equipment. The post's caption discusses fine-tuning the woman's Olympic lifting technique.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows coach.kadyn with three other men on a running track. They appear to have just finished a workout, as they are shirtless and sweaty. The caption mentions \"Christmas cardio\" and thanks followers for their support.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by coach.kadyn. The post is a video of the coach talking about whether or not to use supplements. In the background, there are Rogue medicine balls and kettlebells.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows coach.kadyn in a gym setting, with workout equipment and other people in the background. He's wearing workout clothes and a hat. The post itself asks followers what they want to know about exercise, nutrition, motivation, or programming.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows coach.kadyn in a gym setting with a female athlete. They are near Olympic lifting equipment, including a barbell and gymnastic rings. The post caption mentions \"Olympic Lifting\".",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Fitness/Cardio:** Given the context of \"Christmas cardio\" and the athletic setting, you could ask about their favorite cardio routines, training tips, or goals for the upcoming year.",
+          "2.  **Location/University of Queensland:** Since the location is tagged as the University of Queensland, you could ask if they are affiliated with the university or if they have any recommendations for places to visit in Brisbane.",
+          "1. The different types of kettlebells he uses and their benefits for certain exercises.",
+          "2. His opinion on the best flavor of protein powder.",
+          "1.  **Specific workout programming:** Given the post's direct question about what followers want to know, asking for specific advice on a particular workout program or exercise technique would be relevant."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Kadyn (Likely first name only, full name unknown)",
+          "INTERESTS": [
+            "Olympic Lifting",
+            "Strength and Conditioning",
+            "Fitness and Nutrition",
+            "Workout Programming",
+            "Supplementation (Fitness related)"
+          ],
+          "LIFESTYLE": "Fitness coach/trainer, likely working in a gym environment. Appears dedicated to helping others improve their fitness through Olympic lifting, strength training, and nutritional guidance. Possibly affiliated with the University of Queensland.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite cardio routines, and what are your thoughts on 'Christmas cardio'?",
+            "Are you affiliated with the University of Queensland, and do you have any recommendations for places to visit in Brisbane?",
+            "What are the different types of kettlebells you use and their benefits for certain exercises?",
+            "What's your opinion on the best flavor of protein powder?",
+            "I'm working on [specific workout goal, e.g., improving my snatch technique]. Do you have any advice on programming or specific exercises I should focus on?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Knowledgeable (demonstrated through coaching and supplement discussion)",
+            "Motivating (implied through coaching and follower engagement)",
+            "Dedicated (consistent fitness-related content)",
+            "Approachable (actively soliciting questions from followers)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Fitness/Cardio:** Given the context of \"Christmas cardio\" and the athletic setting, you could ask about their favorite cardio routines, training tips, or goals for the upcoming year.",
+        "2.  **Location/University of Queensland:** Since the location is tagged as the University of Queensland, you could ask if they are affiliated with the university or if they have any recommendations for places to visit in Brisbane.",
+        "1. The different types of kettlebells he uses and their benefits for certain exercises.",
+        "2. His opinion on the best flavor of protein powder.",
+        "1.  **Specific workout programming:** Given the post's direct question about what followers want to know, asking for specific advice on a particular workout program or exercise technique would be relevant."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

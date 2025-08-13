@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T21:59:49.347560",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T21:59:33.605158",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by desmosedici76 is a black and white portrait of a young girl with long hair. She is smiling slightly at the camera. The background is blurred.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a graphic related to a soccer (football) match between Galatasaray (GS) and Fenerbahçe (FB). The score is 0-1, favoring Fenerbahçe. The match took place on May 19, 2024, at Rams Park in Istanbul.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of five people sitting around a table at what appears to be a restaurant or bar. There are drinks and cigarettes on the table. The background features a decorative wall with wood logs.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a poster celebrating \"19 Mayıs Atatürk'ü Anma, Gençlik ve Spor Bayramı,\" which translates to \"May 19 Commemoration of Atatürk, Youth and Sports Day.\" It features a portrait of Mustafa Kemal Atatürk, a statue of him on horseback, and the ship Bandırma.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vintage family photograph featuring a woman, a man, and a young girl. The style of clothing and the photo's coloring suggest it's an older picture. The caption, translated, mentions \"Mother's childhood.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black and white graphic commemorating Mustafa Kemal Atatürk, the founder of the Republic of Turkey. It includes his portrait and text in Turkish.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Turkish football/Süper Lig: Discussing the league, the teams, or other recent matches.",
+          "2. Istanbul: Asking about their favorite places in Istanbul, or discussing local events.",
+          "1.  The restaurant/bar: You could ask about the name of the place in the picture or if they recommend it.",
+          "2.  The people in the picture: You could ask about the people in the picture, such as if they are family or friends.",
+          "1. Turkish history and culture, specifically regarding Atatürk and the significance of May 19th."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! She has such a sweet smile 😊",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Turkish Football (especially Galatasaray and Fenerbahçe)",
+            "Istanbul Culture and Life",
+            "Turkish History (particularly Mustafa Kemal Atatürk)",
+            "Family History and Nostalgia",
+            "Socializing (restaurants, bars)"
+          ],
+          "LIFESTYLE": "Likely lives in or has strong ties to Istanbul. Enjoys socializing with friends, following Turkish football, and has an appreciation for Turkish history and culture. Values family and cherishes memories.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite places to visit in Istanbul?",
+            "What did you think of the Galatasaray-Fenerbahçe match on May 19th?",
+            "Do you have any special memories associated with May 19th Atatürk'ü Anma, Gençlik ve Spor Bayramı?",
+            "That restaurant/bar in your picture looks interesting. What's it called and would you recommend it?",
+            "Can you tell me more about your family history and the vintage photograph you shared?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Nostalgic",
+            "Social",
+            "Patriotic/Culturally Aware",
+            "Family-Oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Turkish football/Süper Lig: Discussing the league, the teams, or other recent matches.",
+        "2. Istanbul: Asking about their favorite places in Istanbul, or discussing local events.",
+        "1.  The restaurant/bar: You could ask about the name of the place in the picture or if they recommend it.",
+        "2.  The people in the picture: You could ask about the people in the picture, such as if they are family or friends.",
+        "1. Turkish history and culture, specifically regarding Atatürk and the significance of May 19th."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T20:20:28.168256",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T20:20:10.402103",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of a taco on a white paper plate. The taco is filled with beans, shredded cabbage, cilantro, sliced radishes, and other toppings. The taco looks very fresh and colorful.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a promotional post for the Maxine McDonald Residential Scholars Program at Fresno State University. It highlights the program's benefits, such as a 2-year housing scholarship and enrichment activities, and notes the application deadline.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows three women at a table in a restaurant called \"Planet Vegan\". They are smiling and appear to be enjoying a meal together. The caption mentions friends, fellowship, and their love for Pastor Davis.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by travelgoodeatsandmore about Autism Awareness Day. It features a text-based image emphasizing the importance of teaching others how to interact with autistic individuals.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by travelgoodeatsandmore. The post includes a prayer and a caption about faith, gratitude, and new beginnings. The hashtags #prayer, #NewBeginnings, #gratitude, and #trust are also included.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two containers of Earth Balance Soy Free Buttery Spread stacked on a countertop. The post asks whether people keep their butter out or put it in the refrigerator.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Fresno State/Higher Education:** \"Are you connected to Fresno State? What are your thoughts on the Maxine McDonald Residential Scholars Program?\"",
+          "2.  **Scholarships/Educational Opportunities:** \"Have you applied for the Maxine McDonald scholarship? What other scholarships are you looking into?\"",
+          "1.  **Planet Vegan:** \"I noticed you were at Planet Vegan! I've heard great things. What's your favorite dish there?\"",
+          "2.  **Fellowship/Friends:** \"It looks like you had a wonderful time with your friends. What do you enjoy most about spending time with them?\"",
+          "1.  Autism Awareness: You could ask about their personal connection to autism awareness or what inspired them to share the post."
+        ],
+        "generated_comment": "Hey! Just was having a little stalk! Love your latest post! That taco looked so fresh and tasty! 🌮",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Food (especially tacos and vegan cuisine)",
+            "Travel (implied by username)",
+            "Higher Education/Scholarships (Fresno State, Maxine McDonald Program)",
+            "Faith/Spirituality (prayer posts)",
+            "Social Justice/Awareness (Autism Awareness)"
+          ],
+          "LIFESTYLE": "Likely a student or recent graduate (due to scholarship post) who enjoys spending time with friends, exploring local restaurants (especially vegan options), and is actively engaged in their faith community. They also seem to be mindful of social issues and enjoy sharing their thoughts and experiences online.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite taco spots in the area?",
+            "I saw your post about the Maxine McDonald Residential Scholars Program. What are your thoughts on it?",
+            "Have you tried any other vegan restaurants in Fresno besides Planet Vegan? Any recommendations?",
+            "What does Autism Awareness Day mean to you personally?",
+            "I noticed your post about prayer and new beginnings. What are you currently grateful for?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Social (enjoys spending time with friends)",
+            "Compassionate (Autism Awareness post, faith-based content)",
+            "Inquisitive/Curious (exploring new restaurants, asking about butter storage)",
+            "Faithful/Spiritual (prayer posts, mention of Pastor Davis)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Fresno State/Higher Education:** \"Are you connected to Fresno State? What are your thoughts on the Maxine McDonald Residential Scholars Program?\"",
+        "2.  **Scholarships/Educational Opportunities:** \"Have you applied for the Maxine McDonald scholarship? What other scholarships are you looking into?\"",
+        "1.  **Planet Vegan:** \"I noticed you were at Planet Vegan! I've heard great things. What's your favorite dish there?\"",
+        "2.  **Fellowship/Friends:** \"It looks like you had a wonderful time with your friends. What do you enjoy most about spending time with them?\"",
+        "1.  Autism Awareness: You could ask about their personal connection to autism awareness or what inspired them to share the post."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

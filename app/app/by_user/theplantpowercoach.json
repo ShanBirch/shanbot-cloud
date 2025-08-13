@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T00:02:40.632924",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T00:02:21.799957",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by theplantpowercoach is a promotional graphic for their \"Plant Power Transformation PROGRAM.\" The graphic features the program's name in bold, black font with a green watercolor-style brush stroke behind \"Plant Power Transformation.\" The post's caption outlines the steps to book a consultation and emphasizes that the program is about both external and internal transformation, focusing on healthy eating, mindset, and emotional management.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in a green dress, presumably the \"plantpowercoach,\" taking a selfie in front of a mirror. The caption discusses her journey with plant-based eating and debunking the myth that carbs are the enemy.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post advertising a free plant-powered weight loss guide. It features a green apple wrapped with a measuring tape. The text promotes the guide and highlights the coach's expertise in plant-based nutrition and weight loss.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by @theplantpowercoach. It features text promoting \"Healthy Weight Loss The Plant Powered Way\" and discusses why under-eating slows weight loss. There is also a photo of Kerryn Sawyer, The Plant Power Coach, wearing a green dress.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by \"theplantpowercoach.\" The post is a video about why willpower isn't the key to weight loss on a plant-based diet, and what things are more important instead. The coach is a woman with long red hair, wearing athletic clothing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by @theplantpowercoach. It features a photo of the coach in front of a mirror, wearing a green top and black pants. The text overlay says, \"This belief could be holding you back from weight loss success.\" The caption discusses how perfectionism can hinder weight loss goals and encourages making healthy choices even when they aren't \"perfect.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Plant-based protein sources:** The caption mentions her past struggles with finding palatable vegan protein sources. You could ask her about her current favorite plant-based protein sources and recipes.",
+          "2.  **Her personal weight loss journey:** She mentions being heavier in the past. You could ask her about specific challenges she faced and what strategies ultimately worked for her in her weight loss journey.",
+          "1. Plant-based nutrition: Ask about specific plant-based foods or recipes that are particularly effective for weight loss, or inquire about the benefits of a plant-based diet beyond weight management.",
+          "2. Sustainable weight loss strategies: Ask about the 6 strategies mentioned in the post and inquire about which strategy is most effective for clients.",
+          "1. Plant-based nutrition: Given the focus on \"The Plant Powered Way,\" asking about her favorite plant-based recipes or resources for healthy eating could be a good conversation starter."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The graphic you used for the Plant Power Transformation program was really eye-catching! 🌿",
+        "profile_bio": {
+          "PERSON NAME": "Kerryn Sawyer",
+          "INTERESTS": [
+            "Plant-based nutrition",
+            "Weight loss (specifically plant-based)",
+            "Mindset and emotional management for health",
+            "Healthy eating",
+            "Personal transformation"
+          ],
+          "LIFESTYLE": "Health and wellness coach specializing in plant-based nutrition and weight loss. Likely active and health-conscious, promoting a holistic approach to well-being that includes diet, mindset, and emotional regulation.",
+          "CONVERSATION STARTERS": [
+            "What are some of your current favorite plant-based protein sources and recipes?",
+            "What were some of the biggest challenges you faced during your own weight loss journey, and what strategies ultimately worked for you?",
+            "Beyond weight management, what are some of the other benefits you've experienced from following a plant-based diet?",
+            "In your experience, which of the strategies you teach is most effective for clients struggling with weight loss?",
+            "Can you share some of your favorite plant-based recipes or resources for healthy eating?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Empathetic (shares personal struggles and focuses on mindset)",
+            "Knowledgeable (demonstrates expertise in plant-based nutrition and weight loss)",
+            "Motivational (encourages transformation and sustainable healthy habits)",
+            "Practical (offers actionable advice and programs)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Plant-based protein sources:** The caption mentions her past struggles with finding palatable vegan protein sources. You could ask her about her current favorite plant-based protein sources and recipes.",
+        "2.  **Her personal weight loss journey:** She mentions being heavier in the past. You could ask her about specific challenges she faced and what strategies ultimately worked for her in her weight loss journey.",
+        "1. Plant-based nutrition: Ask about specific plant-based foods or recipes that are particularly effective for weight loss, or inquire about the benefits of a plant-based diet beyond weight management.",
+        "2. Sustainable weight loss strategies: Ask about the 6 strategies mentioned in the post and inquire about which strategy is most effective for clients.",
+        "1. Plant-based nutrition: Given the focus on \"The Plant Powered Way,\" asking about her favorite plant-based recipes or resources for healthy eating could be a good conversation starter."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

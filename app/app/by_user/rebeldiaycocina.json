@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T14:08:28.927810",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T14:08:08.117623",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a woman lying in a restorative yoga pose on a purple yoga mat. She is supported by two gray bolsters, one under her knees and one under her head. She's wearing an orange top and patterned leggings. A folded blanket is visible in the background, along with a folding chair. The photo appears to be taken indoors, in a studio or home setting.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post advertising a \"Yoga + Brunch\" event on Sunday, November 17th. The graphic features a cartoon image of a person doing a yoga pose on top of a sandwich. The post mentions that the event includes a yoga class and sound therapy, and that there are vegetarian and vegan options for the brunch.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman holding a slice of bread or cake. The post includes hashtags related to bread, bakery, vegan options, and artisanal baking.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of several uncooked, triangular-shaped pastries with small holes arranged in a line on each one. They appear to be on a baking sheet, ready to be baked.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of several uncooked empanadas arranged on a surface dusted with flour. The post advertises vegan and vegetarian empanadas for sale, with various fillings and crust options.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person holding a loaf of artisanal walnut bread (\"Pan de Nuez\") outdoors, with green foliage in the background. The hashtags include #pan, #bread, #pandenuez, #panartesanal, #bakery, #panaderia, #panaderiaartesanal, #panaderiacasera, and #vegan.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Yoga: Ask about their experience with yoga, favorite poses, or if they've tried sound therapy before.",
+          "2. Brunch/Food: Inquire about their favorite brunch dishes, dietary preferences (vegetarian/vegan), or if they've tried any of rebeldiaycocina's other food offerings.",
+          "1. Vegan baking: Ask about her favorite vegan baking recipes or tips for making vegan bread.",
+          "2. Artisanal bakeries: Inquire about her favorite artisanal bakeries or if she has any recommendations in the area.",
+          "1. Baking/Cooking: You could ask about the type of pastry being made, the recipe, or baking tips."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Yoga (especially restorative yoga and sound therapy)",
+            "Vegan and Vegetarian Baking",
+            "Artisanal Bread and Pastries",
+            "Brunch and Food Events",
+            "Healthy Lifestyle"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys a balanced lifestyle incorporating wellness practices like yoga with a passion for baking and sharing delicious, plant-based food. They may be a home baker or even run a small artisanal baking business, possibly offering yoga and brunch events.",
+          "CONVERSATION STARTERS": [
+            "I saw you're hosting a Yoga + Brunch event! Have you done many of those before? What's your favorite part?",
+            "Your vegan empanadas look amazing! What are some of the fillings you offer?",
+            "I'm trying to get into vegan baking. Do you have any tips for making a good vegan bread?",
+            "That walnut bread looks delicious! What's your favorite type of artisanal bread to bake?",
+            "I noticed you practice restorative yoga. What are some of your favorite poses and how do they help you?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Health-conscious",
+            "Passionate",
+            "Community-oriented (due to events)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Yoga: Ask about their experience with yoga, favorite poses, or if they've tried sound therapy before.",
+        "2. Brunch/Food: Inquire about their favorite brunch dishes, dietary preferences (vegetarian/vegan), or if they've tried any of rebeldiaycocina's other food offerings.",
+        "1. Vegan baking: Ask about her favorite vegan baking recipes or tips for making vegan bread.",
+        "2. Artisanal bakeries: Inquire about her favorite artisanal bakeries or if she has any recommendations in the area.",
+        "1. Baking/Cooking: You could ask about the type of pastry being made, the recipe, or baking tips."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

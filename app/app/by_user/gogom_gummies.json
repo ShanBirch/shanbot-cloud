@@ -1,0 +1,148 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 17,
+      "user_messages": 9,
+      "ai_messages": 8,
+      "ai_questions": 3,
+      "ai_statements": 5,
+      "user_responses_to_ai_question": 3,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 1.0,
+      "conversation_start_time": "2025-04-10T20:19:31.195415",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 229607.381959,
+      "achieved_message_milestones": [
+        10,
+        5
+      ],
+      "fitness_topic_initiator": "user",
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": true,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-10T10:19:31.195415+00:00",
+          "type": "user",
+          "text": "Hey Coco?!\nWe just launched Go-Gom creatine in gummy form 🍬🍓🫐\nNo powder, no pills just easy, tasty gains 💪\n\nWe’re in our early phase and looking for Aussie athletes like you to test it and give us real feedback 🙌\nIf you’re down to try it and share your thoughts, we’d be stoked to send some your way 🤩\n\n\nLaura & Diego💙 +\n https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1039877271327751&signature=AYdrxn_1g7Z-tkwGl9r_prReg_sEmvW3XcrOQeqIw9vOK0pkGqCPsvyRR9wrL_3CbGT-t4yrDKRqa1rASuLxD2tAZsY0jrKDEbfxuSsl2npHoeY-0oUQ3FPgDLG1Uj8kg7Br_GzUiPrpaXGs6ffxlkniYEODNenc58_y10PSVILTQEB6q40pa1QtLbHzdtNPdwFLRR81cPaMSmu9KO5T-lPDINHmEw"
+        },
+        {
+          "timestamp": "2025-04-10T10:19:31.221226+00:00",
+          "type": "ai",
+          "text": "Hey Laura & Diego! Gummies sound way better than powder haha. What sort of feedback are you looking for?"
+        },
+        {
+          "timestamp": "2025-04-11T01:11:07.795961+00:00",
+          "type": "user",
+          "text": "Hey Coco?!\nWe just launched Go-Gom creatine in gummy form 🍬🍓🫐\nNo powder, no pills just easy, tasty gains 💪\n\nWe’re in our early phase and looking for Aussie athletes like you to test it and give us real feedback 🙌\nIf you’re down to try it and share your thoughts, we’d be stoked to send some your way 🤩\n\n\nLaura & Diego💙 +\n https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1039877271327751&signature=AYdrxn_1g7Z-tkwGl9r_prReg_sEmvW3XcrOQeqIw9vOK0pkGqCPsvyRR9wrL_3CbGT-t4yrDKRqa1rASuLxD2tAZsY0jrKDEbfxuSsl2npHoeY-0oUQ3FPgDLG1Uj8kg7Br_GzUiPrpaXGs6ffxlkniYEODNenc58_y10PSVILTQEB6q40pa1QtLbHzdtNPdwFLRR81cPaMSmu9KO5T-lPDINHmEw + Shannon: Hey Laura & Diego! Gummies sound way better than powder haha. What sort of feedback are you looking for? {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks for your quick answer so glad you get it, it’s so much better than powder haha!🍓\n\nWe’re just starting out I’m French and Diego is Colombian, so yep, strong accents included haha. But we’d love to send you a sample to try (we’re sure you’ll love it!) and in return, get a bit of feedback photos or short videos we could share in our content. \n\nAnd if we vibe together, maybe even collaborate in the future!\n\n Let me know your thoughts about it. We are based in Melbourne!\n\nBy the way, is your name id coco? + Shannon: Haha nah, Shannon's the name! Coco was my rabbit, the gym's named after him.  Cool that you guys are based in Melbourne too! Photos and videos sound fair enough. Lead : Oh so cutee! Like it"
+        },
+        {
+          "timestamp": "2025-04-11T01:11:07.840111+00:00",
+          "type": "ai",
+          "text": "Haha Coco was a legend! Photos and vids sounds good, keen to give them a go and give you some feedback 💪"
+        },
+        {
+          "timestamp": "2025-04-11T05:36:41.729338+00:00",
+          "type": "user",
+          "text": "Hey Coco?!\nWe just launched Go-Gom creatine in gummy form 🍬🍓🫐\nNo powder, no pills just easy, tasty gains 💪\n\nWe’re in our early phase and looking for Aussie athletes like you to test it and give us real feedback 🙌\nIf you’re down to try it and share your thoughts, we’d be stoked to send some your way 🤩\n\n\nLaura & Diego💙 +\n https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1039877271327751&signature=AYdrxn_1g7Z-tkwGl9r_prReg_sEmvW3XcrOQeqIw9vOK0pkGqCPsvyRR9wrL_3CbGT-t4yrDKRqa1rASuLxD2tAZsY0jrKDEbfxuSsl2npHoeY-0oUQ3FPgDLG1Uj8kg7Br_GzUiPrpaXGs6ffxlkniYEODNenc58_y10PSVILTQEB6q40pa1QtLbHzdtNPdwFLRR81cPaMSmu9KO5T-lPDINHmEw + Shannon: Hey Laura & Diego! Gummies sound way better than powder haha. What sort of feedback are you looking for? {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks for your quick answer so glad you get it, it’s so much better than powder haha!🍓\n\nWe’re just starting out I’m French and Diego is Colombian, so yep, strong accents included haha. But we’d love to send you a sample to try (we’re sure you’ll love it!) and in return, get a bit of feedback photos or short videos we could share in our content. \n\nAnd if we vibe together, maybe even collaborate in the future!\n\n Let me know your thoughts about it. We are based in Melbourne!\n\nBy the way, is your name id coco? + Shannon: Haha nah, Shannon's the name! Coco was my rabbit, the gym's named after him.  Cool that you guys are based in Melbourne too! Photos and videos sound fair enough. Lead : Oh so cutee! Like it + Shannon: Haha Coco was a legend! Photos and vids sounds good, keen to give them a go and give you some feedback 💪 {{cuf_11967919}}  {{cuf_11967920}} Lead : Did coco pass away? 🤔 or i have chance to see him?"
+        },
+        {
+          "timestamp": "2025-04-11T05:36:41.795634+00:00",
+          "type": "ai",
+          "text": "Coco was a legend hey!  Nah he passed away but I got another rabbit now called Sunshine!"
+        },
+        {
+          "timestamp": "2025-04-11T11:21:38.785009+00:00",
+          "type": "user",
+          "text": "Hey Coco?!\nWe just launched Go-Gom creatine in gummy form 🍬🍓🫐\nNo powder, no pills just easy, tasty gains 💪\n\nWe’re in our early phase and looking for Aussie athletes like you to test it and give us real feedback 🙌\nIf you’re down to try it and share your thoughts, we’d be stoked to send some your way 🤩\n\n\nLaura & Diego💙 +\n https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1039877271327751&signature=AYdrxn_1g7Z-tkwGl9r_prReg_sEmvW3XcrOQeqIw9vOK0pkGqCPsvyRR9wrL_3CbGT-t4yrDKRqa1rASuLxD2tAZsY0jrKDEbfxuSsl2npHoeY-0oUQ3FPgDLG1Uj8kg7Br_GzUiPrpaXGs6ffxlkniYEODNenc58_y10PSVILTQEB6q40pa1QtLbHzdtNPdwFLRR81cPaMSmu9KO5T-lPDINHmEw + Shannon: Hey Laura & Diego! Gummies sound way better than powder haha. What sort of feedback are you looking for? {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks for your quick answer so glad you get it, it’s so much better than powder haha!🍓\n\nWe’re just starting out I’m French and Diego is Colombian, so yep, strong accents included haha. But we’d love to send you a sample to try (we’re sure you’ll love it!) and in return, get a bit of feedback photos or short videos we could share in our content. \n\nAnd if we vibe together, maybe even collaborate in the future!\n\n Let me know your thoughts about it. We are based in Melbourne!\n\nBy the way, is your name id coco? + Shannon: Haha nah, Shannon's the name! Coco was my rabbit, the gym's named after him.  Cool that you guys are based in Melbourne too! Photos and videos sound fair enough. Lead : Oh so cutee! Like it + Shannon: Haha Coco was a legend! Photos and vids sounds good, keen to give them a go and give you some feedback 💪 {{cuf_11967919}}  {{cuf_11967920}} Lead : Did coco pass away? 🤔 or i have chance to see him? + Shannon: Coco was a legend hey!  Nah he passed away but I got another rabbit now called Sunshine! {{cuf_11967919}}  {{cuf_11967920}} Lead : Coco-sunshine sounds really good ✌️"
+        },
+        {
+          "timestamp": "2025-04-11T11:21:38.851817+00:00",
+          "type": "ai",
+          "text": "Haha yeah! So what's the next step to get those gummies sorted?"
+        },
+        {
+          "timestamp": "2025-04-11T11:37:13.384110+00:00",
+          "type": "user",
+          "text": "Hey Coco?!\nWe just launched Go-Gom creatine in gummy form 🍬🍓🫐\nNo powder, no pills just easy, tasty gains 💪\n\nWe’re in our early phase and looking for Aussie athletes like you to test it and give us real feedback 🙌\nIf you’re down to try it and share your thoughts, we’d be stoked to send some your way 🤩\n\n\nLaura & Diego💙 +\n https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1039877271327751&signature=AYdrxn_1g7Z-tkwGl9r_prReg_sEmvW3XcrOQeqIw9vOK0pkGqCPsvyRR9wrL_3CbGT-t4yrDKRqa1rASuLxD2tAZsY0jrKDEbfxuSsl2npHoeY-0oUQ3FPgDLG1Uj8kg7Br_GzUiPrpaXGs6ffxlkniYEODNenc58_y10PSVILTQEB6q40pa1QtLbHzdtNPdwFLRR81cPaMSmu9KO5T-lPDINHmEw + Shannon: Hey Laura & Diego! Gummies sound way better than powder haha. What sort of feedback are you looking for? {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks for your quick answer so glad you get it, it’s so much better than powder haha!🍓\n\nWe’re just starting out I’m French and Diego is Colombian, so yep, strong accents included haha. But we’d love to send you a sample to try (we’re sure you’ll love it!) and in return, get a bit of feedback photos or short videos we could share in our content. \n\nAnd if we vibe together, maybe even collaborate in the future!\n\n Let me know your thoughts about it. We are based in Melbourne!\n\nBy the way, is your name id coco? + Shannon: Haha nah, Shannon's the name! Coco was my rabbit, the gym's named after him.  Cool that you guys are based in Melbourne too! Photos and videos sound fair enough. Lead : Oh so cutee! Like it + Shannon: Haha Coco was a legend! Photos and vids sounds good, keen to give them a go and give you some feedback 💪 {{cuf_11967919}}  {{cuf_11967920}} Lead : Did coco pass away? 🤔 or i have chance to see him? + Shannon: Coco was a legend hey!  Nah he passed away but I got another rabbit now called Sunshine! {{cuf_11967919}}  {{cuf_11967920}} Lead : Coco-sunshine sounds really good ✌️ + Shannon: Haha yeah! So what's the next step to get those gummies sorted? {{cuf_11967919}}  {{cuf_11967920}} Lead : We can swing by your gym next week if you’d like we’re just in Elwood :)\nWe’d love to drop off a box of gummies and a few samples for your team to try!\nLet us know what day works best for you next week!"
+        },
+        {
+          "timestamp": "2025-04-11T11:37:13.449121+00:00",
+          "type": "ai",
+          "text": "Yeah sweet, that works! Tuesday arvo is usually pretty good for me if you guys are free then?"
+        },
+        {
+          "timestamp": "2025-04-13T00:39:48.353665+00:00",
+          "type": "user",
+          "text": "Hey Coco?!\nWe just launched Go-Gom creatine in gummy form 🍬🍓🫐\nNo powder, no pills just easy, tasty gains 💪\n\nWe’re in our early phase and looking for Aussie athletes like you to test it and give us real feedback 🙌\nIf you’re down to try it and share your thoughts, we’d be stoked to send some your way 🤩\n\n\nLaura & Diego💙 +\n https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1039877271327751&signature=AYdrxn_1g7Z-tkwGl9r_prReg_sEmvW3XcrOQeqIw9vOK0pkGqCPsvyRR9wrL_3CbGT-t4yrDKRqa1rASuLxD2tAZsY0jrKDEbfxuSsl2npHoeY-0oUQ3FPgDLG1Uj8kg7Br_GzUiPrpaXGs6ffxlkniYEODNenc58_y10PSVILTQEB6q40pa1QtLbHzdtNPdwFLRR81cPaMSmu9KO5T-lPDINHmEw + Shannon: Hey Laura & Diego! Gummies sound way better than powder haha. What sort of feedback are you looking for? {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks for your quick answer so glad you get it, it’s so much better than powder haha!🍓\n\nWe’re just starting out I’m French and Diego is Colombian, so yep, strong accents included haha. But we’d love to send you a sample to try (we’re sure you’ll love it!) and in return, get a bit of feedback photos or short videos we could share in our content. \n\nAnd if we vibe together, maybe even collaborate in the future!\n\n Let me know your thoughts about it. We are based in Melbourne!\n\nBy the way, is your name id coco? + Shannon: Haha nah, Shannon's the name! Coco was my rabbit, the gym's named after him.  Cool that you guys are based in Melbourne too! Photos and videos sound fair enough. Lead : Oh so cutee! Like it + Shannon: Haha Coco was a legend! Photos and vids sounds good, keen to give them a go and give you some feedback 💪 {{cuf_11967919}}  {{cuf_11967920}} Lead : Did coco pass away? 🤔 or i have chance to see him? + Shannon: Coco was a legend hey!  Nah he passed away but I got another rabbit now called Sunshine! {{cuf_11967919}}  {{cuf_11967920}} Lead : Coco-sunshine sounds really good ✌️ + Shannon: Haha yeah! So what's the next step to get those gummies sorted? {{cuf_11967919}}  {{cuf_11967920}} Lead : We can swing by your gym next week if you’d like we’re just in Elwood :)\nWe’d love to drop off a box of gummies and a few samples for your team to try!\nLet us know what day works best for you next week! + Shannon: Yeah sweet, that works! Tuesday arvo is usually pretty good for me if you guys are free then? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes thats good for us too! + About 4pm?"
+        },
+        {
+          "timestamp": "2025-04-13T00:39:48.442757+00:00",
+          "type": "ai",
+          "text": "Yep 4pm Tuesday sounds good 👍"
+        },
+        {
+          "timestamp": "2025-04-13T01:01:28.416036+00:00",
+          "type": "user",
+          "text": "Hey Coco?!\nWe just launched Go-Gom creatine in gummy form 🍬🍓🫐\nNo powder, no pills just easy, tasty gains 💪\n\nWe’re in our early phase and looking for Aussie athletes like you to test it and give us real feedback 🙌\nIf you’re down to try it and share your thoughts, we’d be stoked to send some your way 🤩\n\n\nLaura & Diego💙 +\n https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1039877271327751&signature=AYdrxn_1g7Z-tkwGl9r_prReg_sEmvW3XcrOQeqIw9vOK0pkGqCPsvyRR9wrL_3CbGT-t4yrDKRqa1rASuLxD2tAZsY0jrKDEbfxuSsl2npHoeY-0oUQ3FPgDLG1Uj8kg7Br_GzUiPrpaXGs6ffxlkniYEODNenc58_y10PSVILTQEB6q40pa1QtLbHzdtNPdwFLRR81cPaMSmu9KO5T-lPDINHmEw + Shannon: Hey Laura & Diego! Gummies sound way better than powder haha. What sort of feedback are you looking for? {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks for your quick answer so glad you get it, it’s so much better than powder haha!🍓\n\nWe’re just starting out I’m French and Diego is Colombian, so yep, strong accents included haha. But we’d love to send you a sample to try (we’re sure you’ll love it!) and in return, get a bit of feedback photos or short videos we could share in our content. \n\nAnd if we vibe together, maybe even collaborate in the future!\n\n Let me know your thoughts about it. We are based in Melbourne!\n\nBy the way, is your name id coco? + Shannon: Haha nah, Shannon's the name! Coco was my rabbit, the gym's named after him.  Cool that you guys are based in Melbourne too! Photos and videos sound fair enough. Lead : Oh so cutee! Like it + Shannon: Haha Coco was a legend! Photos and vids sounds good, keen to give them a go and give you some feedback 💪 {{cuf_11967919}}  {{cuf_11967920}} Lead : Did coco pass away? 🤔 or i have chance to see him? + Shannon: Coco was a legend hey!  Nah he passed away but I got another rabbit now called Sunshine! {{cuf_11967919}}  {{cuf_11967920}} Lead : Coco-sunshine sounds really good ✌️ + Shannon: Haha yeah! So what's the next step to get those gummies sorted? {{cuf_11967919}}  {{cuf_11967920}} Lead : We can swing by your gym next week if you’d like we’re just in Elwood :)\nWe’d love to drop off a box of gummies and a few samples for your team to try!\nLet us know what day works best for you next week! + Shannon: Yeah sweet, that works! Tuesday arvo is usually pretty good for me if you guys are free then? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes thats good for us too! + About 4pm? + Shannon: Yep 4pm Tuesday sounds good 👍 {{cuf_11967919}}  {{cuf_11967920}} Lead : {{cuf_11944959}} + About 4pm?"
+        },
+        {
+          "timestamp": "2025-04-13T01:01:28.514521+00:00",
+          "type": "ai",
+          "text": "Yep, 4pm Tuesday is locked in 👍"
+        },
+        {
+          "timestamp": "2025-04-13T01:23:09.425900+00:00",
+          "type": "user",
+          "text": "Hey Coco?!\nWe just launched Go-Gom creatine in gummy form 🍬🍓🫐\nNo powder, no pills just easy, tasty gains 💪\n\nWe’re in our early phase and looking for Aussie athletes like you to test it and give us real feedback 🙌\nIf you’re down to try it and share your thoughts, we’d be stoked to send some your way 🤩\n\n\nLaura & Diego💙 +\n https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1039877271327751&signature=AYdrxn_1g7Z-tkwGl9r_prReg_sEmvW3XcrOQeqIw9vOK0pkGqCPsvyRR9wrL_3CbGT-t4yrDKRqa1rASuLxD2tAZsY0jrKDEbfxuSsl2npHoeY-0oUQ3FPgDLG1Uj8kg7Br_GzUiPrpaXGs6ffxlkniYEODNenc58_y10PSVILTQEB6q40pa1QtLbHzdtNPdwFLRR81cPaMSmu9KO5T-lPDINHmEw + Shannon: Hey Laura & Diego! Gummies sound way better than powder haha. What sort of feedback are you looking for? {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks for your quick answer so glad you get it, it’s so much better than powder haha!🍓\n\nWe’re just starting out I’m French and Diego is Colombian, so yep, strong accents included haha. But we’d love to send you a sample to try (we’re sure you’ll love it!) and in return, get a bit of feedback photos or short videos we could share in our content. \n\nAnd if we vibe together, maybe even collaborate in the future!\n\n Let me know your thoughts about it. We are based in Melbourne!\n\nBy the way, is your name id coco? + Shannon: Haha nah, Shannon's the name! Coco was my rabbit, the gym's named after him.  Cool that you guys are based in Melbourne too! Photos and videos sound fair enough. Lead : Oh so cutee! Like it + Shannon: Haha Coco was a legend! Photos and vids sounds good, keen to give them a go and give you some feedback 💪 {{cuf_11967919}}  {{cuf_11967920}} Lead : Did coco pass away? 🤔 or i have chance to see him? + Shannon: Coco was a legend hey!  Nah he passed away but I got another rabbit now called Sunshine! {{cuf_11967919}}  {{cuf_11967920}} Lead : Coco-sunshine sounds really good ✌️ + Shannon: Haha yeah! So what's the next step to get those gummies sorted? {{cuf_11967919}}  {{cuf_11967920}} Lead : We can swing by your gym next week if you’d like we’re just in Elwood :)\nWe’d love to drop off a box of gummies and a few samples for your team to try!\nLet us know what day works best for you next week! + Shannon: Yeah sweet, that works! Tuesday arvo is usually pretty good for me if you guys are free then? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes thats good for us too! + About 4pm? + Shannon: Yep 4pm Tuesday sounds good 👍 {{cuf_11967919}}  {{cuf_11967920}} Lead : {{cuf_11944959}} + About 4pm? + Shannon: Yep, 4pm Tuesday is locked in 👍 {{cuf_11967919}}  {{cuf_11967920}} Lead : {{cuf_11944959}} + About 4pm?"
+        },
+        {
+          "timestamp": "2025-04-13T01:23:09.489109+00:00",
+          "type": "ai",
+          "text": "Sweet, 4pm Tuesday it is! See ya then 👍"
+        },
+        {
+          "timestamp": "2025-04-13T01:44:47.230326+00:00",
+          "type": "user",
+          "text": "Hey Coco?!\nWe just launched Go-Gom creatine in gummy form 🍬🍓🫐\nNo powder, no pills just easy, tasty gains 💪\n\nWe’re in our early phase and looking for Aussie athletes like you to test it and give us real feedback 🙌\nIf you’re down to try it and share your thoughts, we’d be stoked to send some your way 🤩\n\n\nLaura & Diego💙 +\n https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1039877271327751&signature=AYdrxn_1g7Z-tkwGl9r_prReg_sEmvW3XcrOQeqIw9vOK0pkGqCPsvyRR9wrL_3CbGT-t4yrDKRqa1rASuLxD2tAZsY0jrKDEbfxuSsl2npHoeY-0oUQ3FPgDLG1Uj8kg7Br_GzUiPrpaXGs6ffxlkniYEODNenc58_y10PSVILTQEB6q40pa1QtLbHzdtNPdwFLRR81cPaMSmu9KO5T-lPDINHmEw + Shannon: Hey Laura & Diego! Gummies sound way better than powder haha. What sort of feedback are you looking for? {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks for your quick answer so glad you get it, it’s so much better than powder haha!🍓\n\nWe’re just starting out I’m French and Diego is Colombian, so yep, strong accents included haha. But we’d love to send you a sample to try (we’re sure you’ll love it!) and in return, get a bit of feedback photos or short videos we could share in our content. \n\nAnd if we vibe together, maybe even collaborate in the future!\n\n Let me know your thoughts about it. We are based in Melbourne!\n\nBy the way, is your name id coco? + Shannon: Haha nah, Shannon's the name! Coco was my rabbit, the gym's named after him.  Cool that you guys are based in Melbourne too! Photos and videos sound fair enough. Lead : Oh so cutee! Like it + Shannon: Haha Coco was a legend! Photos and vids sounds good, keen to give them a go and give you some feedback 💪 {{cuf_11967919}}  {{cuf_11967920}} Lead : Did coco pass away? 🤔 or i have chance to see him? + Shannon: Coco was a legend hey!  Nah he passed away but I got another rabbit now called Sunshine! {{cuf_11967919}}  {{cuf_11967920}} Lead : Coco-sunshine sounds really good ✌️ + Shannon: Haha yeah! So what's the next step to get those gummies sorted? {{cuf_11967919}}  {{cuf_11967920}} Lead : We can swing by your gym next week if you’d like we’re just in Elwood :)\nWe’d love to drop off a box of gummies and a few samples for your team to try!\nLet us know what day works best for you next week! + Shannon: Yeah sweet, that works! Tuesday arvo is usually pretty good for me if you guys are free then? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes thats good for us too! + About 4pm? + Shannon: Yep 4pm Tuesday sounds good 👍 {{cuf_11967919}}  {{cuf_11967920}} Lead : {{cuf_11944959}} + About 4pm? + Shannon: Yep, 4pm Tuesday is locked in 👍 {{cuf_11967919}}  {{cuf_11967920}} Lead : {{cuf_11944959}} + About 4pm? + Shannon: Sweet, 4pm Tuesday it is! See ya then 👍 {{cuf_11967919}}  {{cuf_11967920}} Lead : {{cuf_11944959}} + About 4pm?"
+        },
+        {
+          "timestamp": "2025-04-13T01:44:47.280669+00:00",
+          "type": "ai",
+          "text": "Sounds good, see ya Tuesday 4pm!"
+        },
+        {
+          "timestamp": "2025-04-13T02:06:27.743032+00:00",
+          "type": "user",
+          "text": "Hey Coco?!\nWe just launched Go-Gom creatine in gummy form 🍬🍓🫐\nNo powder, no pills just easy, tasty gains 💪\n\nWe’re in our early phase and looking for Aussie athletes like you to test it and give us real feedback 🙌\nIf you’re down to try it and share your thoughts, we’d be stoked to send some your way 🤩\n\n\nLaura & Diego💙 +\n https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1039877271327751&signature=AYdrxn_1g7Z-tkwGl9r_prReg_sEmvW3XcrOQeqIw9vOK0pkGqCPsvyRR9wrL_3CbGT-t4yrDKRqa1rASuLxD2tAZsY0jrKDEbfxuSsl2npHoeY-0oUQ3FPgDLG1Uj8kg7Br_GzUiPrpaXGs6ffxlkniYEODNenc58_y10PSVILTQEB6q40pa1QtLbHzdtNPdwFLRR81cPaMSmu9KO5T-lPDINHmEw + Shannon: Hey Laura & Diego! Gummies sound way better than powder haha. What sort of feedback are you looking for? {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks for your quick answer so glad you get it, it’s so much better than powder haha!🍓\n\nWe’re just starting out I’m French and Diego is Colombian, so yep, strong accents included haha. But we’d love to send you a sample to try (we’re sure you’ll love it!) and in return, get a bit of feedback photos or short videos we could share in our content. \n\nAnd if we vibe together, maybe even collaborate in the future!\n\n Let me know your thoughts about it. We are based in Melbourne!\n\nBy the way, is your name id coco? + Shannon: Haha nah, Shannon's the name! Coco was my rabbit, the gym's named after him.  Cool that you guys are based in Melbourne too! Photos and videos sound fair enough. Lead : Oh so cutee! Like it + Shannon: Haha Coco was a legend! Photos and vids sounds good, keen to give them a go and give you some feedback 💪 {{cuf_11967919}}  {{cuf_11967920}} Lead : Did coco pass away? 🤔 or i have chance to see him? + Shannon: Coco was a legend hey!  Nah he passed away but I got another rabbit now called Sunshine! {{cuf_11967919}}  {{cuf_11967920}} Lead : Coco-sunshine sounds really good ✌️ + Shannon: Haha yeah! So what's the next step to get those gummies sorted? {{cuf_11967919}}  {{cuf_11967920}} Lead : We can swing by your gym next week if you’d like we’re just in Elwood :)\nWe’d love to drop off a box of gummies and a few samples for your team to try!\nLet us know what day works best for you next week! + Shannon: Yeah sweet, that works! Tuesday arvo is usually pretty good for me if you guys are free then? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes thats good for us too! + About 4pm? + Shannon: Yep 4pm Tuesday sounds good 👍 {{cuf_11967919}}  {{cuf_11967920}} Lead : {{cuf_11944959}} + About 4pm? + Shannon: Yep, 4pm Tuesday is locked in 👍 {{cuf_11967919}}  {{cuf_11967920}} Lead : {{cuf_11944959}} + About 4pm? + Shannon: Sweet, 4pm Tuesday it is! See ya then 👍 {{cuf_11967919}}  {{cuf_11967920}} Lead : {{cuf_11944959}} + About 4pm? + Shannon: Sounds good, see ya Tuesday 4pm! {{cuf_11967919}}  {{cuf_11967920}} Lead : {{cuf_11944959}} + About 4pm?"
+        },
+        {
+          "timestamp": "2025-04-13T02:06:27.810137+00:00",
+          "type": "ai",
+          "text": "See ya Tuesday 4pm 👍"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "gogom_gummies",
+      "first_message_timestamp": "2025-04-10T10:19:31.195415+00:00",
+      "last_message_timestamp": "2025-04-13T02:06:27.743032+00:00",
+      "conversation_duration_str": "2d 15h 46m",
+      "conversation_count": 2,
+      "last_seen_timestamp": "2025-04-13T02:06:27.743032+00:00"
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

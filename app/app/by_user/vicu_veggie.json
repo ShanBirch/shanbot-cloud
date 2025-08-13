@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T00:12:34.061976",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T00:12:15.374148",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post featuring a close-up shot of a small, light brown rabbit standing on green grass. The rabbit is facing the camera with its ears perked up. The lighting is bright and natural. The post also shows the username \"vicu_veggie,\" other user comments, the like count (111 likes), and the date (October 5, 2020).",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of homemade vegan nuggets with a bowl of red sauce. The caption includes a recipe in Spanish for making the nuggets.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a jar of homemade strawberry chia seed jam. The recipe is in Spanish and includes hashtags like #vegan, #veggies, #crueltyfree, #veganfood, and #mermelada.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of what appears to be cauliflower bites covered in a dark sauce and garnished with fresh herbs. The post includes a recipe for vegan cauliflower bites with a barbecue sauce glaze.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a hand holding a bottle of homemade coconut milk. The post includes a recipe for making the milk. The background features lush green foliage.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a slice of vegan tangerine cake with melted chocolate on top, sitting on a wooden cutting board. The post includes a recipe in Spanish.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan cooking and recipes: Ask about other vegan recipes they enjoy making or if they have any tips for vegan cooking.",
+          "2. Spanish language: Ask about their favorite spanish-language recipes or cooking resources.",
+          "1. Vegan cooking/baking: Ask about other vegan recipes they enjoy or if they have any tips for vegan baking.",
+          "2. Homemade jams and preserves: Inquire about other types of jams or preserves they like to make or if they have any family recipes they enjoy.",
+          "1.  **Vegan cooking/recipes:** Ask about other favorite vegan recipes or cooking tips."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That little bunny looked so adorable! 🥺",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Cooking",
+            "Vegan Baking",
+            "Homemade Recipes (Jams, Sauces, Milks)",
+            "Cruelty-Free Living",
+            "Spanish-Language Recipes"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys cooking and baking from scratch, with a focus on vegan and cruelty-free options. They are passionate about sharing their recipes and creating homemade alternatives to store-bought products. They may be fluent in Spanish or actively learning the language.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite vegan recipes to make?",
+            "Do you have any tips for vegan baking that you've found particularly helpful?",
+            "What other types of jams or preserves do you enjoy making?",
+            "Do you have any favorite Spanish-language cooking resources or recipes you'd recommend?",
+            "What inspired you to start making your own vegan alternatives like coconut milk?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Passionate",
+            "Resourceful",
+            "Sharing/Generous (sharing recipes)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan cooking and recipes: Ask about other vegan recipes they enjoy making or if they have any tips for vegan cooking.",
+        "2. Spanish language: Ask about their favorite spanish-language recipes or cooking resources.",
+        "1. Vegan cooking/baking: Ask about other vegan recipes they enjoy or if they have any tips for vegan baking.",
+        "2. Homemade jams and preserves: Inquire about other types of jams or preserves they like to make or if they have any family recipes they enjoy.",
+        "1.  **Vegan cooking/recipes:** Ask about other favorite vegan recipes or cooking tips."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

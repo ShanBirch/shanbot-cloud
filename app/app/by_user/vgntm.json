@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T02:09:25.000477",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T02:09:06.587632",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by vgn.tm is announcing the winner of their \"No Quit Hoodie\" giveaway. The image shows a person lifting weights in a gym setting, with the words \"GIVEAWAY\" superimposed over the image. The post also mentions the winner and runner-up, tagging their Instagram handles. There are also several hashtags related to veganism, fitness, and small business. The post is dated December 19, 2023.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post is from a brand called VGN.TM, which sells vegan apparel. The post advertises a new drop on their website. The hashtags used include vegan, workout, gains, vegan bodybuilder, plant-based, and vegan fitness. The image also shows a black t-shirt with the VGN.TM logo.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post for a giveaway by vgn.tm. It features a person in a gym setting, standing in front of a barbell and weight rack. The person is wearing a hoodie and shorts, and the post promotes a \"No Quit\" hoodie giveaway. The hashtags suggest a focus on vegan fitness, bodybuilding, and strength training.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from vgn.tm. It features a logo with the text \"PROJECT VEGAN TEAM\" around a globe-like design, with \"EST 2020\" underneath. The post announces the return of the brand with new products and asks followers what they'd like to see. The hashtags indicate a focus on veganism, fitness, bodybuilding, and apparel.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by vgn.tm. The post includes hashtags related to veganism, fitness, bodybuilding, and small business. There is also a picture of a gym and a tank top with a logo.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by vgn.tm showcasing a ladies' tank top with a wolf design and the text \"VGN.TM\", \"1993 NEW WOLVES AT THE GATE 2020\". The post also includes hashtags related to veganism, fitness, and small business.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan fitness and nutrition: Given the focus on veganism and fitness in the hashtags, discussing plant-based diets for athletes or workout routines could be engaging.",
+          "2. Sustainable and ethical apparel: As the brand promotes vegan clothing, discussing the importance of sustainable and ethical fashion choices could be relevant.",
+          "1.  **Vegan Fitness/Diet:** Given the hashtags and the user's name, discussing their vegan diet and how it supports their fitness goals would be a relevant topic. You could ask about their favorite vegan protein sources or their experience with vegan bodybuilding.",
+          "2.  **Weightlifting/Training:** The image shows the person in a gym setting. Asking about their current training routine, favorite exercises, or goals in weightlifting could initiate a conversation. You could also ask about their experience with the equipment shown in the image.",
+          "1. **New product ideas:** Directly engaging with their request for feedback on new products. \"I saw your post about new products. Have you considered [specific type of vegan fitness apparel or supplement]?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! Congrats to the giveaway winner! 💪",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism",
+            "Fitness (Weightlifting/Bodybuilding)",
+            "Sustainable and Ethical Apparel",
+            "Small Business/Entrepreneurship",
+            "Plant-Based Nutrition"
+          ],
+          "LIFESTYLE": "Likely an active individual involved in weightlifting and fitness, promoting a vegan lifestyle and running a small business focused on vegan apparel. Possibly involved in the design and creation of the apparel.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about new products. Have you considered [specific type of vegan fitness apparel or supplement]?",
+            "What are your favorite vegan protein sources for fueling your workouts?",
+            "What's your current training routine like? Any favorite exercises?",
+            "I'm interested in learning more about sustainable and ethical fashion. What are some of the challenges you face in sourcing materials for your apparel?",
+            "The 'No Quit' hoodie looks great! What inspired that design?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven (evident from the 'No Quit' theme and focus on fitness)",
+            "Passionate (about veganism and its intersection with fitness)",
+            "Entrepreneurial (running a small business)",
+            "Community-Oriented (engaging with followers and running giveaways)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan fitness and nutrition: Given the focus on veganism and fitness in the hashtags, discussing plant-based diets for athletes or workout routines could be engaging.",
+        "2. Sustainable and ethical apparel: As the brand promotes vegan clothing, discussing the importance of sustainable and ethical fashion choices could be relevant.",
+        "1.  **Vegan Fitness/Diet:** Given the hashtags and the user's name, discussing their vegan diet and how it supports their fitness goals would be a relevant topic. You could ask about their favorite vegan protein sources or their experience with vegan bodybuilding.",
+        "2.  **Weightlifting/Training:** The image shows the person in a gym setting. Asking about their current training routine, favorite exercises, or goals in weightlifting could initiate a conversation. You could also ask about their experience with the equipment shown in the image.",
+        "1. **New product ideas:** Directly engaging with their request for feedback on new products. \"I saw your post about new products. Have you considered [specific type of vegan fitness apparel or supplement]?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

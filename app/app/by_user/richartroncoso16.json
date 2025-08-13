@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T17:38:16.438448",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T17:37:58.604148",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by user richartroncoso16. The post appears to be a video, as indicated by the play button in the lower left corner of the video frame. The video shows a close-up of a person wearing a blue baseball cap. The background is a blurry brick wall. The right side of the screenshot shows the post's details, including the username, the original audio, comments from other users (like _lechuza_12 with a string of emojis), the number of likes (27), and the date of the post (February 3, 2024).",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a selfie of a person holding a mate (a traditional South American caffeinated drink) with a thermos and a bottle nearby. They are wearing a sports jersey and appear to be relaxing indoors. The time on the clock is 07:27.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a collage of photos featuring richartroncoso16 with a group of friends. The photos depict them having fun outdoors, including one where they are piled on top of each other on the grass and another where they are carrying someone.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by richartroncoso16 featuring a video of a baby.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black and white video still from an Instagram post. It shows a person sitting at a table with bottles (possibly alcoholic beverages) on it. The caption reads \"yo llorando por un vago qué tal Santa Fe\" which translates to \"me crying over a bum, how about Santa Fe.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie taken in what appears to be a bathroom. The person has blue hair and is holding a phone with a flower design on the case. The post includes the text \"Vibras de Cumpleaños\" (Birthday Vibes).",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Mate: \"I noticed you were drinking mate. What kind of yerba do you prefer?\"",
+          "2. Sports: \"Cool jersey! Are you a fan of [team name based on the jersey]?\"",
+          "*   **Friendship/Group Activities:** \"Looks like you have a great group of friends! What were you guys celebrating in the photos?\"",
+          "*   **Music:** The caption mentions \"FMK, Emilia • Salgo a Bailar\". \"I noticed you mentioned FMK and Emilia in your caption, are you a fan of their music?\"",
+          "1.  The baby: Comment on how cute the baby is, or ask about the baby's name/age."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Richard Troncoso (Likely)",
+          "INTERESTS": [
+            "Mate (South American caffeinated drink)",
+            "Sports (Likely a specific team based on jersey)",
+            "Friendship and Group Activities",
+            "Music (Specifically FMK and Emilia)",
+            "Babies/Family"
+          ],
+          "LIFESTYLE": "Appears to be a young adult who enjoys spending time with friends, participating in outdoor activities, and listening to music. They also seem to have a connection to family, possibly a young child. The 'Santa Fe' reference suggests they may live in or have ties to that region. The 'Birthday Vibes' post indicates they celebrate birthdays and enjoy having fun.",
+          "CONVERSATION STARTERS": [
+            "I noticed you were drinking mate. What kind of yerba do you prefer?",
+            "Cool jersey! Are you a fan of [team name based on the jersey]?",
+            "Looks like you have a great group of friends! What were you guys celebrating in the photos?",
+            "I noticed you mentioned FMK and Emilia in your caption, are you a fan of their music?",
+            "The baby is so cute! What's their name/age?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Social",
+            "Fun-loving",
+            "Family-oriented",
+            "Possibly sentimental (based on the 'crying over a bum' post)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Mate: \"I noticed you were drinking mate. What kind of yerba do you prefer?\"",
+        "2. Sports: \"Cool jersey! Are you a fan of [team name based on the jersey]?\"",
+        "*   **Friendship/Group Activities:** \"Looks like you have a great group of friends! What were you guys celebrating in the photos?\"",
+        "*   **Music:** The caption mentions \"FMK, Emilia • Salgo a Bailar\". \"I noticed you mentioned FMK and Emilia in your caption, are you a fan of their music?\"",
+        "1.  The baby: Comment on how cute the baby is, or ask about the baby's name/age."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T15:16:19.905974",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T15:15:59.062715",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a woman, presumably __fit_by_moes_32, sitting on a ledge outdoors at night. She is wearing a hoodie and sweatpants, and her feet are propped up, with the soles of her sneakers facing the camera. She is holding a glass up to her mouth, as if taking a drink. There are buildings in the background and a street light illuminating the scene.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person standing in a field of tall grass with the sun setting in the background. The person has their arm raised, seemingly reaching towards the sun. The overall tone of the image and caption is reflective and somewhat melancholic.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman standing in a field at sunset. The post includes a poem expressing feelings of anxiety and being trapped.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person doing a handstand on a beach in Ostend, with the sun behind them. The post mentions \"Weekend recap\" and thanks to @upstairshotel and @twinsclub_bredene for awesome locations.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by @fit_by_moes_32. It's a video reel of the person doing a handstand walk on a bridge. The caption says \"Walking into the weekend like... My first reel yay. PS This is how I walk now.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman wearing jeans and a black t-shirt. The post is about the ethics of the fashion industry, specifically regarding jeans production.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Photography/Nature:** \"That's a beautiful photo! What kind of camera/phone did you use to capture it? I love the way the light is hitting the grass.\"",
+          "2.  **Well-being/Mental Health:** \"I appreciate your vulnerability in sharing your feelings. It's important to acknowledge those tough days. Do you have any go-to strategies for navigating those times?\" (Use this topic with caution and sensitivity)",
+          "1.  **Poetry/Creative Writing:** Given the poem in the caption, asking about their interest in poetry or creative writing could be a good way to engage.",
+          "2.  **Mental Health/Well-being:** The post expresses feelings of anxiety and struggling with mental health. Asking about their well-being or sharing similar experiences (if appropriate) could open a conversation. However, approach with sensitivity and respect.",
+          "1. **Handstand/Fitness:** \"That's an impressive handstand! How long have you been practicing?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! It looked like a fun night out 🌃",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Fitness (Handstands, General Activity)",
+            "Photography/Nature (Sunsets, Fields, Outdoor Scenes)",
+            "Well-being/Mental Health (Reflective posts, Expressing Feelings)",
+            "Ethical Fashion (Jeans Production)",
+            "Travel (Ostend, Bredene)"
+          ],
+          "LIFESTYLE": "Appears to be an active individual who enjoys fitness, particularly handstands. They seem to appreciate nature and photography, and are open about their mental health struggles. They are also interested in ethical fashion and travel.",
+          "CONVERSATION STARTERS": [
+            "That handstand walk on the bridge was amazing! How long have you been practicing handstands?",
+            "Your sunset photos are beautiful. What kind of camera or phone do you use?",
+            "I really appreciate your openness about mental health. Do you have any strategies that you find helpful when you're feeling anxious?",
+            "I'm also interested in ethical fashion. What are some of your favorite brands or resources for learning more about sustainable jeans production?",
+            "I saw you were in Ostend and Bredene. What did you enjoy most about those locations?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Reflective",
+            "Vulnerable",
+            "Active",
+            "Creative"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Photography/Nature:** \"That's a beautiful photo! What kind of camera/phone did you use to capture it? I love the way the light is hitting the grass.\"",
+        "2.  **Well-being/Mental Health:** \"I appreciate your vulnerability in sharing your feelings. It's important to acknowledge those tough days. Do you have any go-to strategies for navigating those times?\" (Use this topic with caution and sensitivity)",
+        "1.  **Poetry/Creative Writing:** Given the poem in the caption, asking about their interest in poetry or creative writing could be a good way to engage.",
+        "2.  **Mental Health/Well-being:** The post expresses feelings of anxiety and struggling with mental health. Asking about their well-being or sharing similar experiences (if appropriate) could open a conversation. However, approach with sensitivity and respect.",
+        "1. **Handstand/Fitness:** \"That's an impressive handstand! How long have you been practicing?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

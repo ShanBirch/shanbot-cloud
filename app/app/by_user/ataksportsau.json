@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T20:45:00.526613",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T20:44:40.720114",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post from ataksports.au, featuring two men on a grassy field. One man, wearing a yellow and green jersey and shorts with red cleats, is in mid-kick, striking a Gaelic football. The other man, wearing a blue jersey and shorts, stands in the background with his arms outstretched. The post thanks customers who purchased gloves and mentions the photographers.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by ataksports.au promoting a competition to win tickets to the \"Dig Deep Event\" for mental health. The post includes hashtags related to mental health awareness and a construction expo.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man in athletic wear (sports vest and shorts) and bright green socks. He is standing on a sports field, with other players visible in the background. The post is promoting \"grip socks\" for sports.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by ataksports.au congratulating @johnbarrett_ on returning to \"footie\" (Australian Rules Football) and scoring 2 goals. The caption mentions he recovered from a broken collarbone. The hashtags include #afl, #aflireland, #stkilda, #irishinmelbourne, and #irishinaustralia.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "Two men are shaking hands on a grassy field. They are holding AFL footballs. The post announces that Atak Sports Australia is sponsoring the Power House AFC.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black and white promotional shot of a fit woman holding a barbell, wearing black compression shorts and a sports bra with the \"ATAK\" logo on them. The post is from the Instagram account of ataksports.au, an athletic apparel company.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Mental health awareness: Discussing the importance of mental health initiatives and asking about their personal experiences or involvement in related causes.",
+          "2. Construction expo: Inquiring about their interest in the construction industry or related events, potentially sharing information about upcoming expos or relevant news.",
+          "1.  **Australian Football (AFL/VAFA):** The man is wearing what appears to be an AFL/VAFA jersey, and the post includes the hashtag #afl. You could ask about his team, his position, or his favorite AFL players.",
+          "2.  **Sports in general:** The post mentions multiple sports like soccer, cricket, hockey, and GAA. You could ask about which sports he plays or follows, or his opinion on a recent game.",
+          "1.  **Australian Rules Football:** You could ask about his favorite team, his position, or his thoughts on the upcoming season."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk of your profile. The action shot in your latest post was great, the player looked like he was really giving it his all! ⚽️",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Potentially John Barrett, based on a post congratulating him, but not confirmed as the account owner)",
+          "INTERESTS": [
+            "Australian Rules Football (AFL/VAFA)",
+            "Gaelic Football",
+            "Sports Apparel (especially grip socks and compression wear)",
+            "Mental Health Awareness",
+            "Supporting Local Sports Clubs (Power House AFC)"
+          ],
+          "LIFESTYLE": "Likely involved in sports, either as a player, supporter, or both. Appears to be an entrepreneur or business owner in the sports apparel industry. Potentially connected to the Irish community in Australia.",
+          "CONVERSATION STARTERS": [
+            "What are your thoughts on the current AFL season? Any teams you're particularly excited about?",
+            "I saw your post about the Dig Deep Event for mental health. What inspired you to get involved in that?",
+            "Your grip socks look interesting! What sports do you find them most beneficial for?",
+            "I noticed you sponsor Power House AFC. What made you choose to support them?",
+            "Are you involved in Gaelic Football? What do you think of the sport's growing popularity in Australia?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Supportive (of local sports and athletes)",
+            "Community-minded (involved in mental health initiatives)",
+            "Entrepreneurial (running a sports apparel business)",
+            "Passionate (about sports, particularly AFL and Gaelic Football)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Mental health awareness: Discussing the importance of mental health initiatives and asking about their personal experiences or involvement in related causes.",
+        "2. Construction expo: Inquiring about their interest in the construction industry or related events, potentially sharing information about upcoming expos or relevant news.",
+        "1.  **Australian Football (AFL/VAFA):** The man is wearing what appears to be an AFL/VAFA jersey, and the post includes the hashtag #afl. You could ask about his team, his position, or his favorite AFL players.",
+        "2.  **Sports in general:** The post mentions multiple sports like soccer, cricket, hockey, and GAA. You could ask about which sports he plays or follows, or his opinion on a recent game.",
+        "1.  **Australian Rules Football:** You could ask about his favorite team, his position, or his thoughts on the upcoming season."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

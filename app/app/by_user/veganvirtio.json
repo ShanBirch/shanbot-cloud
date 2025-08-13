@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T08:51:29.181624",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T08:51:05.054982",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by veganvirtio features a close-up shot of freshly chopped cilantro. The cilantro is vibrant green and appears to be sitting on a pink surface. The word \"coriander\" is written across the image in white text. There are also rainbow light effects and an \"OMG\" sticker. The post has 5 likes and a comment saying \"Looks delish\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up of dandelion petals, with the text \"Dandelion Honey\" overlaid. The post is by \"veganvirtio\" and the caption includes \"Just Like Honey.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of many dandelion flowers, along with a recipe for dandelion honey in the caption. The caption mentions that the user planted more wildflowers.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a pile of \"Buttermilk\" brand Peanut Nougat Choccy Bars, which are vegan. The post is a recommendation for people with a sweet tooth.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of kiwis, some whole and some peeled, with the peels also visible. The caption mentions \"Sweet Healthy Zerowaste\" and suggests using the peels for infusions or smoothies, highlighting a focus on reducing food waste.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a vegan dish being cooked in a pan. It contains potatoes, chickpeas, peas, and red peppers in a sauce. The user's handle is veganvirtio.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Dandelion Honey: Ask about their experience making dandelion honey, or inquire about other vegan honey alternatives they enjoy.",
+          "2. Foraging/Gardening: Since the image relates to dandelions and the comment mentions \"Mother Nature larder\" and planting wildflowers, you could ask about their foraging habits or gardening projects.",
+          "1.  Dandelion Honey: Ask about their experience making the dandelion honey, if they have made other types of honey or jams, or ask for tips on foraging for dandelions.",
+          "2.  Wildflowers: Inquire about the types of wildflowers they planted and their motivation for planting them (e.g., attracting pollinators, aesthetics).",
+          "1. Vegan snacks and favorite vegan brands: The post explicitly asks about favorite vegan treats, making this a natural conversation starter."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The cilantro looked so fresh and vibrant! 🌿",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism",
+            "Foraging (especially dandelions)",
+            "Gardening (wildflowers)",
+            "Zero-Waste Living",
+            "Vegan Cooking & Baking"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys cooking and experimenting with vegan recipes, particularly those that utilize foraged ingredients. They are environmentally conscious and actively try to reduce food waste. They also enjoy vegan snacks and treats.",
+          "CONVERSATION STARTERS": [
+            "I saw your dandelion honey post! How did it turn out? Have you tried making other vegan honey alternatives or jams?",
+            "What kind of wildflowers did you plant? What inspired you to plant them?",
+            "I'm always looking for new vegan snacks. What are some of your favorite vegan treats or brands?",
+            "Your zero-waste kiwi post was interesting! What other creative ways do you reduce food waste in your kitchen?",
+            "That vegan dish you cooked looked delicious! What's your favorite vegan recipe to make?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Environmentally Conscious",
+            "Foodie",
+            "Resourceful"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Dandelion Honey: Ask about their experience making dandelion honey, or inquire about other vegan honey alternatives they enjoy.",
+        "2. Foraging/Gardening: Since the image relates to dandelions and the comment mentions \"Mother Nature larder\" and planting wildflowers, you could ask about their foraging habits or gardening projects.",
+        "1.  Dandelion Honey: Ask about their experience making the dandelion honey, if they have made other types of honey or jams, or ask for tips on foraging for dandelions.",
+        "2.  Wildflowers: Inquire about the types of wildflowers they planted and their motivation for planting them (e.g., attracting pollinators, aesthetics).",
+        "1. Vegan snacks and favorite vegan brands: The post explicitly asks about favorite vegan treats, making this a natural conversation starter."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

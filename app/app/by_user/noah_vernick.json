@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T00:24:39.216979",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T00:24:19.185241",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a burlap tote bag hanging against a wall. The bag has dark brown straps and appears to be well-constructed. The background is a light-colored wall with vertical lines. The post is from the Instagram account \"burlapped.co\" and discusses the sourcing and production of the tote bag using upcycled materials.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a tote bag made from upcycled materials. The bag features a combination of burlap and a green fabric with printed designs. The post describes the company's mission to divert waste and promote a circular economy through the creation of tote bags.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up of a burlap tote bag. The post is from burlapped.co, a company in Los Angeles dedicated to upcycling materials from the coffee roasting industry.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a booth at an event, likely a flea market or festival, where \"anomaly.coffee.co\" is selling coffee. Noah Vernick is tagged in the post and appears to be involved in the business. The post emphasizes diversity, intellectual curiosity, and environmentalism.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows dehydrated fruit pulp on a baking sheet, with a caption discussing waste reduction by using fruit pulp from house sodas to make snacks or garnishes. The fruit pulp includes strawberry, kiwi, and lemon.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a workspace with burlap sacks, printing equipment, and finished art pieces on the wall. The post mentions diverting waste from landfills and upcycling.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Sustainability and Upcycling:** Discuss the importance of sustainable practices and ask about other upcycling projects or ideas they have.",
+          "2. **Local Manufacturing and Creative Collaboration:** Inquire about their experiences working with local manufacturers and creatives in the Los Angeles area.",
+          "1.  **Sustainability/Upcycling:** Discussing the importance of upcycling and sustainable practices in fashion and everyday life. You could ask about other brands or initiatives they admire in this space.",
+          "2.  **Local LA Businesses:** Since the company is based in Los Angeles, you could ask about other local businesses they support or recommend.",
+          "1.  **The Regenerative Flea:** Ask about their experience at the Regenerative Flea, what they learned from other environmentalists, or what practices and ideologies they shared."
+        ],
+        "generated_comment": "Hey! Just was having a little stalk of your profile, that latest post about the tote bag was really interesting! It looked like a great upcycling project ♻️",
+        "profile_bio": {
+          "PERSON NAME": "Noah Vernick",
+          "INTERESTS": [
+            "Sustainability and Upcycling",
+            "Local Los Angeles Businesses and Community",
+            "Circular Economy and Waste Reduction",
+            "Coffee and Related Industries (e.g., Anomaly Coffee)",
+            "Creative Collaboration and Local Manufacturing"
+          ],
+          "LIFESTYLE": "Likely an entrepreneur or involved in a small business focused on sustainability and upcycling, possibly with a connection to the coffee industry. Appears to be based in Los Angeles and actively participates in local events and collaborations. Values environmentalism and creative expression.",
+          "CONVERSATION STARTERS": [
+            "I'm really impressed with Burlapped.co's commitment to upcycling. What other upcycling projects or ideas are you passionate about?",
+            "How has working with local manufacturers and creatives in Los Angeles influenced Burlapped.co's design and production process?",
+            "I saw Burlapped.co at the Regenerative Flea. What was your biggest takeaway from that experience, and what practices did you share with other environmentalists?",
+            "Anomaly Coffee seems like a great business. What's your role there, and how does it align with your passion for sustainability?",
+            "Beyond Burlapped.co, what other local Los Angeles businesses do you admire or support, and why?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Environmentally Conscious",
+            "Creative and Innovative",
+            "Community-Oriented",
+            "Entrepreneurial"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Sustainability and Upcycling:** Discuss the importance of sustainable practices and ask about other upcycling projects or ideas they have.",
+        "2. **Local Manufacturing and Creative Collaboration:** Inquire about their experiences working with local manufacturers and creatives in the Los Angeles area.",
+        "1.  **Sustainability/Upcycling:** Discussing the importance of upcycling and sustainable practices in fashion and everyday life. You could ask about other brands or initiatives they admire in this space.",
+        "2.  **Local LA Businesses:** Since the company is based in Los Angeles, you could ask about other local businesses they support or recommend.",
+        "1.  **The Regenerative Flea:** Ask about their experience at the Regenerative Flea, what they learned from other environmentalists, or what practices and ideologies they shared."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

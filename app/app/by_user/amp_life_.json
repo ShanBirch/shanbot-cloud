@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T22:32:33.499100",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T22:32:14.092153",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows two dogs on a staircase. One dog, a black and white Border Collie mix, is lying down on the stairs with its head resting on its paws. The other dog, mostly black with some white markings, is standing on the stairs behind the first dog. They are both looking towards the camera. The background is a plain white wall.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bottle of Filey Bay Orange Wine Barrique whisky, a glass of the whisky, and a fireplace in the background. The post describes the whisky's unique aging process and flavor profile.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a black dog wearing a festive bow tie in front of a Christmas tree. The post mentions the dog was rescued from Dogs Trust Darlington.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a black dog standing on a dirt road in a forest. The dog is wearing a harness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a black and white dog sitting on a gravel road in a forest. The post mentions the location is Galloway Forest. The dog is tagged with several hashtags including #rescuedog, #vegan, and #bordercollie.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows the exterior of the Moffat Distillery in Moffat, Scotland. The post describes a tour of the distillery and highlights its use of wood-fired stills and focus on producing high-quality whisky and gin.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Whisky/Spirits:** Ask about their favorite whisky distilleries or other types of spirits they enjoy.",
+          "2. **Travel/Yorkshire:** Inquire about their experience with the Filey Bay distillery or other places to visit in Yorkshire, England.",
+          "1.  Dog rescue/adoption: \"I saw you adopted your dog from Dogs Trust Darlington. I'm considering adopting a dog myself. What was your experience like with them?\"",
+          "2.  Dog-friendly activities: \"Your dog looks so happy! Do you have any favorite dog-friendly places to walk or visit in your area?\"",
+          "1. Dog breeds and training: The hashtags suggest the dog is a border collie mix. You could ask about the dog's breed mix and training techniques they use."
+        ],
+        "generated_comment": "Hey! Just was having a little stalk of your profile and saw your latest post. Your two dogs looked so cute together! 🐕",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Whisky/Spirits (especially Scottish and Yorkshire distilleries)",
+            "Dogs (especially rescue dogs)",
+            "Travel (especially Scotland and Yorkshire, England)",
+            "Dog-Friendly Activities/Hiking",
+            "Vegan Lifestyle"
+          ],
+          "LIFESTYLE": "Likely an active individual who enjoys spending time outdoors with their dogs, particularly in natural settings like forests. They appreciate high-quality spirits and are interested in the production process. They are also likely a dog owner who is passionate about animal rescue and potentially follows a vegan lifestyle.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite whisky distilleries, and what do you look for in a good whisky?",
+            "I saw you visited Moffat Distillery. What was the most interesting thing you learned on the tour?",
+            "Your dog is adorable! What was your experience like adopting from Dogs Trust Darlington?",
+            "Do you have any recommendations for dog-friendly hiking trails in Yorkshire or Scotland?",
+            "I noticed you use the #vegan hashtag. What inspired you to adopt a vegan lifestyle, and do you find it challenging to maintain while traveling?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Animal Lover",
+            "Adventurous",
+            "Appreciative of Quality (e.g., whisky)",
+            "Compassionate (due to dog rescue and potential veganism)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Whisky/Spirits:** Ask about their favorite whisky distilleries or other types of spirits they enjoy.",
+        "2. **Travel/Yorkshire:** Inquire about their experience with the Filey Bay distillery or other places to visit in Yorkshire, England.",
+        "1.  Dog rescue/adoption: \"I saw you adopted your dog from Dogs Trust Darlington. I'm considering adopting a dog myself. What was your experience like with them?\"",
+        "2.  Dog-friendly activities: \"Your dog looks so happy! Do you have any favorite dog-friendly places to walk or visit in your area?\"",
+        "1. Dog breeds and training: The hashtags suggest the dog is a border collie mix. You could ask about the dog's breed mix and training techniques they use."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

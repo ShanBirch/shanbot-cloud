@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T11:24:05.139218",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T11:23:46.506439",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a full-body shot of Alycia standing on a balcony. She is wearing black leggings, a black top, a light grey cardigan, and brown ankle boots. A text overlay on the image says \"I'm Alycia\". The background shows trees and greenery.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by alyciainc promoting Thieves brand natural cleaning products. The post features various cleaning solutions like household cleaner, hand sanitizer, fruit & veggie soak, laundry soap, kitchen & bath scrub, hand soap, and dish soap. The post also includes hashtags related to healthy homes, low-tox living, and natural remedies.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post advertising Young Living Essential Oils starter bundles. It features various essential oil products, a diffuser, and NingXia Red drink pouches. The post promotes the idea of starting a \"wellness journey\" with these products.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by alyciainc. It features a woman running on a paved path lined with trees. The text overlay reads: \"MINDSET HABITS AND ROUTINES ARE THE BUILDING BLOCKS FOR SUCCESS TOWARDS YOUR WELLNESS GOALS.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The post features a drawing of a person with a cloud of thoughts above their head, accompanied by the text \"Feeling Stressed?\". The caption discusses using essential oils to support emotions and their impact on the brain.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows alyciainc dancing with friends and family at what appears to be a birthday celebration, as she mentions \"dancing my way into my 40's\".",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Natural Cleaning:** \"I noticed your post about natural cleaning products. What are some of your favorite ways to incorporate natural cleaning into your routine?\"",
+          "2. **Low-Tox Living:** \"Your post mentioned low-tox living. I'm interested in learning more about reducing toxins in my home. Do you have any beginner-friendly tips?\"",
+          "1.  **Essential Oils & Wellness:** \"I noticed you're promoting essential oils. What are some of your favorite ways to use them for wellness?\"",
+          "2.  **Diffusers:** \"I see you have a diffuser in the picture. What are your favorite essential oil blends to diffuse?\"",
+          "1.  Running/Fitness: Inquire about her running routine, favorite running spots, or fitness goals."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post, the outfit looked great on you! ✨",
+        "profile_bio": {
+          "PERSON NAME": "Alycia (likely last name starts with 'Inc')",
+          "INTERESTS": [
+            "Natural Cleaning & Low-Tox Living",
+            "Essential Oils & Wellness",
+            "Fitness (Running)",
+            "Mindset & Personal Growth",
+            "Celebrating Life & Family"
+          ],
+          "LIFESTYLE": "Alycia appears to be a wellness advocate promoting natural cleaning products and essential oils, possibly through Young Living. She prioritizes a healthy lifestyle, including fitness and mental well-being. She also values family and celebrations.",
+          "CONVERSATION STARTERS": [
+            "I'm trying to switch to more natural cleaning products. What are your go-to brands or DIY recipes?",
+            "I'm curious about essential oils. What's a good essential oil to start with for stress relief?",
+            "I saw you enjoy running! What's your favorite local running trail?",
+            "Your post about mindset really resonated with me. What are some daily habits you find most helpful for maintaining a positive mindset?",
+            "I'm interested in learning more about low-tox living. Do you have any beginner-friendly tips?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Wellness-focused",
+            "Positive & Encouraging",
+            "Family-oriented",
+            "Proactive (in health and well-being)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Natural Cleaning:** \"I noticed your post about natural cleaning products. What are some of your favorite ways to incorporate natural cleaning into your routine?\"",
+        "2. **Low-Tox Living:** \"Your post mentioned low-tox living. I'm interested in learning more about reducing toxins in my home. Do you have any beginner-friendly tips?\"",
+        "1.  **Essential Oils & Wellness:** \"I noticed you're promoting essential oils. What are some of your favorite ways to use them for wellness?\"",
+        "2.  **Diffusers:** \"I see you have a diffuser in the picture. What are your favorite essential oil blends to diffuse?\"",
+        "1.  Running/Fitness: Inquire about her running routine, favorite running spots, or fitness goals."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

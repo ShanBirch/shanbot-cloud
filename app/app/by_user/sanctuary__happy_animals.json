@@ -1,0 +1,109 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 12,
+      "user_messages": 6,
+      "ai_messages": 6,
+      "ai_questions": 5,
+      "ai_statements": 1,
+      "user_responses_to_ai_question": 4,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": true,
+      "question_response_rate": 0.75,
+      "conversation_start_time": "2025-04-14T22:41:24.571191",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 54999.891707,
+      "achieved_message_milestones": [
+        10,
+        5
+      ],
+      "fitness_topic_initiator": "user",
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-14T12:41:24.570191+00:00",
+          "type": "user",
+          "text": "Yes, we managed to save her. Now long-term treatment and rehabilitation are needed."
+        },
+        {
+          "timestamp": "2025-04-14T12:41:24.686327+00:00",
+          "type": "ai",
+          "text": "That's incredible news, so glad she was saved! What does the rehabilitation involve for her?"
+        },
+        {
+          "timestamp": "2025-04-14T12:56:12.975529+00:00",
+          "type": "user",
+          "text": "Yes, we managed to save her. Now long-term treatment and rehabilitation are needed. + Shannon: That's incredible news, so glad she was saved! What does the rehabilitation involve for her? {{cuf_11967919}}  {{cuf_11967920}} Lead : Mainly it's treatment and good nutrition. It's also necessary to work on her psyche, she's afraid of people, probably she was treated badly"
+        },
+        {
+          "timestamp": "2025-04-14T12:56:13.103435+00:00",
+          "type": "ai",
+          "text": "Yeah that's rough hey, poor thing. What kind of approach do you take to help her feel safe around people?"
+        },
+        {
+          "timestamp": "2025-04-14T13:14:52.601995+00:00",
+          "type": "user",
+          "text": "Yes, we managed to save her. Now long-term treatment and rehabilitation are needed. + Shannon: That's incredible news, so glad she was saved! What does the rehabilitation involve for her? {{cuf_11967919}}  {{cuf_11967920}} Lead : Mainly it's treatment and good nutrition. It's also necessary to work on her psyche, she's afraid of people, probably she was treated badly + Shannon: Yeah that's rough hey, poor thing. What kind of approach do you take to help her feel safe around people? {{cuf_11967919}}  {{cuf_11967920}} Lead : First I give her time to get used to it. She will observe how we treat other horses and animals, she should understand that we are not a danger to her and she will be comfortable with a person. + gentle interaction with her. I have to gain her trust. When she begins to trust me, she will open up and be more relaxed. Our goal is for her to be able to trust people. This is a common practice."
+        },
+        {
+          "timestamp": "2025-04-14T13:14:52.722291+00:00",
+          "type": "ai",
+          "text": "That makes a lot of sense hey, sounds like a really patient approach. How long does something like that typically take?"
+        },
+        {
+          "timestamp": "2025-04-14T13:34:25.187090+00:00",
+          "type": "user",
+          "text": "Yes, we managed to save her. Now long-term treatment and rehabilitation are needed. + Shannon: That's incredible news, so glad she was saved! What does the rehabilitation involve for her? {{cuf_11967919}}  {{cuf_11967920}} Lead : Mainly it's treatment and good nutrition. It's also necessary to work on her psyche, she's afraid of people, probably she was treated badly + Shannon: Yeah that's rough hey, poor thing. What kind of approach do you take to help her feel safe around people? {{cuf_11967919}}  {{cuf_11967920}} Lead : First I give her time to get used to it. She will observe how we treat other horses and animals, she should understand that we are not a danger to her and she will be comfortable with a person. + gentle interaction with her. I have to gain her trust. When she begins to trust me, she will open up and be more relaxed. Our goal is for her to be able to trust people. This is a common practice. + Shannon: That makes a lot of sense hey, sounds like a really patient approach. How long does something like that typically take? {{cuf_11967919}}  {{cuf_11967920}} Lead : With each horse it is different from 2 weeks to several years. Usually it takes several months. But there are exceptions. We have one wild stallion, he is 5 years old. We found a common language after two years. But he was absolutely wild."
+        },
+        {
+          "timestamp": "2025-04-14T13:34:25.356513+00:00",
+          "type": "ai",
+          "text": "Wow yeah, two years is some serious commitment with that stallion. Really shows the patience involved hey."
+        },
+        {
+          "timestamp": "2025-04-14T13:56:57.507243+00:00",
+          "type": "user",
+          "text": "Yes, we managed to save her. Now long-term treatment and rehabilitation are needed. + Shannon: That's incredible news, so glad she was saved! What does the rehabilitation involve for her? {{cuf_11967919}}  {{cuf_11967920}} Lead : Mainly it's treatment and good nutrition. It's also necessary to work on her psyche, she's afraid of people, probably she was treated badly + Shannon: Yeah that's rough hey, poor thing. What kind of approach do you take to help her feel safe around people? {{cuf_11967919}}  {{cuf_11967920}} Lead : First I give her time to get used to it. She will observe how we treat other horses and animals, she should understand that we are not a danger to her and she will be comfortable with a person. + gentle interaction with her. I have to gain her trust. When she begins to trust me, she will open up and be more relaxed. Our goal is for her to be able to trust people. This is a common practice. + Shannon: That makes a lot of sense hey, sounds like a really patient approach. How long does something like that typically take? {{cuf_11967919}}  {{cuf_11967920}} Lead : With each horse it is different from 2 weeks to several years. Usually it takes several months. But there are exceptions. We have one wild stallion, he is 5 years old. We found a common language after two years. But he was absolutely wild. + Shannon: Wow yeah, two years is some serious commitment with that stallion. Really shows the patience involved hey. {{cuf_11967919}}  {{cuf_11967920}} Lead : That's why we're here, to help animals🤷‍♀️"
+        },
+        {
+          "timestamp": "2025-04-14T13:56:57.631837+00:00",
+          "type": "ai",
+          "text": "Yeah true! What got you into helping animals in the first place?"
+        },
+        {
+          "timestamp": "2025-04-15T03:58:12.005852+00:00",
+          "type": "user",
+          "text": "Yes, we managed to save her. Now long-term treatment and rehabilitation are needed. + Shannon: That's incredible news, so glad she was saved! What does the rehabilitation involve for her? {{cuf_11967919}}  {{cuf_11967920}} Lead : Mainly it's treatment and good nutrition. It's also necessary to work on her psyche, she's afraid of people, probably she was treated badly + Shannon: Yeah that's rough hey, poor thing. What kind of approach do you take to help her feel safe around people? {{cuf_11967919}}  {{cuf_11967920}} Lead : First I give her time to get used to it. She will observe how we treat other horses and animals, she should understand that we are not a danger to her and she will be comfortable with a person. + gentle interaction with her. I have to gain her trust. When she begins to trust me, she will open up and be more relaxed. Our goal is for her to be able to trust people. This is a common practice. + Shannon: That makes a lot of sense hey, sounds like a really patient approach. How long does something like that typically take? {{cuf_11967919}}  {{cuf_11967920}} Lead : With each horse it is different from 2 weeks to several years. Usually it takes several months. But there are exceptions. We have one wild stallion, he is 5 years old. We found a common language after two years. But he was absolutely wild. + Shannon: Wow yeah, two years is some serious commitment with that stallion. Really shows the patience involved hey. {{cuf_11967919}}  {{cuf_11967920}} Lead : That's why we're here, to help animals🤷‍♀️ + Shannon: Yeah true! What got you into helping animals in the first place? {{cuf_11967919}}  {{cuf_11967920}} Lead : I've loved them since childhood. You know, I even wanted to go to a riding school. And when I bought myself a horse, I realized that I would never sit on its back again. After some time, I realized how many of them die because of humans. Physical, mental and chronic injuries that sometimes cannot be repaired."
+        },
+        {
+          "timestamp": "2025-04-15T03:58:12.321136+00:00",
+          "type": "ai",
+          "text": "Yeah for sure, it's pretty heavy stuff to think about hey. What was it that first got you into helping animals in the first place?"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "sanctuary__happy_animals",
+      "first_message_timestamp": "2025-04-14T12:41:24.570191+00:00",
+      "last_message_timestamp": "2025-04-15T03:58:12.321136+00:00",
+      "conversation_duration_str": "15h 16m",
+      "conversation_count": 1,
+      "last_seen_timestamp": "2025-04-15T03:58:12.321136+00:00",
+      "ai_detections": 1
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

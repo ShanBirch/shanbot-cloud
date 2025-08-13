@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T08:25:41.258524",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T08:25:22.270521",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up shot of several diagonally cut sandwiches arranged on a bright yellow square plate. A dollop of dark red jam or chutney sits in the upper left corner of the plate. The sandwiches appear to be made with whole wheat bread and have a visible filling. The background is a dark, textured surface.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post is promoting a new YouTube video. The image includes a map of Sri Lanka, specifically the Negombo area, with a \"New Video\" graphic and a \"Watch Now\" button. The caption mentions a beautiful sunset and includes hashtags related to travel in Sri Lanka, particularly Negombo, and backpacking.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from @wanderlustveggielifestyle about the health benefits of cantaloupe, specifically its ability to relieve anxiety, normalize heartbeat, and increase oxygen to the brain due to its high potassium content. The post includes a picture of cantaloupe slices and a cartoon illustration of a person experiencing heart palpitations or anxiety.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by wanderlustveggielifestyle promoting a new YouTube video about vegan food in Negombo, Sri Lanka. The video features dishes like Idiyappam, Coconut Panner, Potato Curry, and Eggplant.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by wanderlustveggielifestyle about a backpacking trip in Sri Lanka. It features a video about a tuk-tuk ride from Colombo to Negombo, with cost information in Indian Rupees (INR). The post also includes a link to a YouTube video and hashtags related to backpacking, budget travel, and Sri Lanka.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a collage of places to visit in Colombo, Sri Lanka. It features the Gangaramaya Buddhist Temple, Seema Malakaya, Galle Face Mall, and Galle Beach. The post is promoting a video about things to do in Colombo.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Sri Lanka Travel:** Ask about their favorite places in Sri Lanka, or if they have any recommendations for a first-time visitor.",
+          "2. **Sunset Photography:** Comment on the sunset mentioned in the caption and ask about their favorite spots for capturing sunsets.",
+          "1. **Healthy eating and its impact on mental health:** You could ask about other fruits or vegetables they recommend for anxiety relief or overall well-being.",
+          "2. **Travel in Sri Lanka:** The account indicates they are located in Sri Lanka. You could ask about their favorite places to visit or tips for traveling there.",
+          "1.  **Sri Lankan Cuisine:** Ask about their favorite Sri Lankan dishes or if they have any recommendations for vegan restaurants in Negombo."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan/Vegetarian Lifestyle",
+            "Sri Lanka Travel (especially Negombo and Colombo)",
+            "Backpacking/Budget Travel",
+            "Healthy Eating and Mental Wellness",
+            "Photography (especially sunsets)"
+          ],
+          "LIFESTYLE": "Likely a budget traveler and content creator focused on vegan food and travel experiences in Sri Lanka. They seem to be actively exploring and documenting their travels, creating videos for YouTube, and promoting healthy eating habits.",
+          "CONVERSATION STARTERS": [
+            "What are your top 3 must-see places in Sri Lanka for a first-time visitor?",
+            "That sunset in your Negombo post looked incredible! What's your favorite spot to capture sunsets?",
+            "I'm interested in learning more about how food impacts mental health. Besides cantaloupe, what other fruits or vegetables do you recommend for anxiety relief?",
+            "I'm planning a trip to Sri Lanka soon. Do you have any tips for navigating transportation or finding affordable accommodation?",
+            "Your vegan food videos from Negombo look delicious! What's your absolute favorite Sri Lankan dish, and do you have any recommendations for vegan restaurants there?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Health-conscious",
+            "Creative (content creation)",
+            "Informative/Helpful (sharing travel tips and health information)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Sri Lanka Travel:** Ask about their favorite places in Sri Lanka, or if they have any recommendations for a first-time visitor.",
+        "2. **Sunset Photography:** Comment on the sunset mentioned in the caption and ask about their favorite spots for capturing sunsets.",
+        "1. **Healthy eating and its impact on mental health:** You could ask about other fruits or vegetables they recommend for anxiety relief or overall well-being.",
+        "2. **Travel in Sri Lanka:** The account indicates they are located in Sri Lanka. You could ask about their favorite places to visit or tips for traveling there.",
+        "1.  **Sri Lankan Cuisine:** Ask about their favorite Sri Lankan dishes or if they have any recommendations for vegan restaurants in Negombo."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

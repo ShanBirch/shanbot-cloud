@@ -1,0 +1,75 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 2,
+      "user_messages": 1,
+      "ai_messages": 1,
+      "ai_questions": 1,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": true,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T00:36:07.437284",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": "user",
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-14T14:36:07.436282+00:00",
+          "type": "user",
+          "text": "Aww thankyou brother!  I hope you’re keeping well ✊🏾✨ love the work you’re doing with the fitness"
+        },
+        {
+          "timestamp": "2025-04-14T14:36:07.558155+00:00",
+          "type": "ai",
+          "text": "Cheers brother! Appreciate that heaps! Plantfitlife is a cool username! What's your story with fitness hey?"
+        },
+        {
+          "timestamp": "2025-04-17T08:48:46.678935+00:00",
+          "type": "user",
+          "text": "Well I’ve always been into sports and then dance growing up so it all eventually unfolded to more spiritual growth and a Plantbased lifestyle! Bro about you?"
+        },
+        {
+          "timestamp": "2025-04-17T08:48:46.678935+00:00",
+          "type": "ai",
+          "text": "Ah nice one brother! Similar story here, was a chubby kid, found fitness and nutrition changed everything. Been veggie my whole life! How long you been plant based?"
+        },
+        {
+          "timestamp": "2025-04-17T14:15:31.300157+00:00",
+          "type": "user",
+          "text": "Lead : Nicee bro! Glad to hear you found the real medicine ✨ + So about nearly 8 year but this past year I’ve opened up to be more intuitive and flexible"
+        },
+        {
+          "timestamp": "2025-04-17T14:15:31.300157+00:00",
+          "type": "ai",
+          "text": "Yeah 8 years is awesome bro! Totally get that intuitive shift hey, listening to your body is key. What's that flexibility look like for you now?"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "theplantfitlife",
+      "first_message_timestamp": "2025-04-14T14:36:07.436282+00:00",
+      "last_message_timestamp": "2025-04-14T14:36:07.558155+00:00",
+      "conversation_duration_str": "0m",
+      "conversation_count": 1,
+      "last_seen_timestamp": "2025-04-14T14:36:07.558155+00:00"
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

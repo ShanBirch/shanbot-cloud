@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T23:55:53.934363",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T23:55:34.996798",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screen capture of an Instagram post by king_cobba. The post shows him lying on his back with his two children standing on him. The boy is on the left, wearing a red and black shirt and shorts, and appears to be stepping on his father's stomach. The girl is on the right, wearing a pink shirt and patterned shorts, and is also standing on him. The father is smiling and looking up at his children. The post is captioned in Thai.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a video of a man, likely at a sporting event, possibly a football (soccer) match, based on the \"tntsportsfootball\" TikTok watermark. He appears to be in the stands. The caption indicates he is feeling sad.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (presumably king_cobba) taking a selfie video with an older woman (possibly his grandmother, given the translated caption). He has visible tattoos on his chest and shoulders. The background appears to be inside a home.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a young boy playing a game involving a rope and a suspended object (potentially a coconut or similar item) in what appears to be a backyard or outdoor area. The caption \"เดอะซัน ส.บ้านสวน\" translates to \"The Sun S. Baan Suan\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a soccer game being played at night. Two players are in focus: one in an orange jersey and the other in a green and black jersey. A third player in a blue jersey is further away near the goal.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person's foot, seemingly taken at night outdoors. The caption in Thai translates to something about \"cheating life for a long time.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Sports (specifically football/soccer): You could ask about the game he was watching or his favorite team.",
+          "2.  His well-being: Since he mentioned feeling sad, you could ask if everything is alright or offer a friendly message of support. (Use caution and sensitivity with this topic.)",
+          "1.  **Family:** Asking about his relationship with the older woman in the video, perhaps mentioning how heartwarming it is to see them together.",
+          "2.  **Tattoos:** Complimenting or inquiring about the meaning/artist behind his tattoos.",
+          "1.  **The game:** Ask about the game the boy is playing. What is it called? Is it a popular game in their culture/region?"
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post with the kids looked like so much fun. They're adorable! 😄",
+        "profile_bio": {
+          "PERSON NAME": "King Cobba (Likely a nickname, full name Unknown)",
+          "INTERESTS": [
+            "Family (especially his children)",
+            "Football/Soccer",
+            "Thai Culture/Traditions (e.g., games, family values)",
+            "Tattoos",
+            "Outdoor Activities"
+          ],
+          "LIFESTYLE": "Appears to be a family man living in Thailand. Enjoys spending time with his children, watching soccer, and participating in outdoor activities. Possibly involved in local sports or community events (based on the 'The Sun S. Baan Suan' caption). Seems to value family connections.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite football team to watch?",
+            "That game your son was playing looks interesting! What's it called and is it popular in Thailand?",
+            "Your tattoos look amazing! What inspired them?",
+            "It's so heartwarming to see you spending time with your grandmother. What's your favorite memory with her?",
+            "How did 'The Sun S. Baan Suan' get its name?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Family-oriented",
+            "Passionate (about sports, possibly other things)",
+            "Community-minded (potentially involved in local activities)",
+            "Expressive (through tattoos and social media posts)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Sports (specifically football/soccer): You could ask about the game he was watching or his favorite team.",
+        "2.  His well-being: Since he mentioned feeling sad, you could ask if everything is alright or offer a friendly message of support. (Use caution and sensitivity with this topic.)",
+        "1.  **Family:** Asking about his relationship with the older woman in the video, perhaps mentioning how heartwarming it is to see them together.",
+        "2.  **Tattoos:** Complimenting or inquiring about the meaning/artist behind his tattoos.",
+        "1.  **The game:** Ask about the game the boy is playing. What is it called? Is it a popular game in their culture/region?"
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T21:33:19.468135",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T21:33:02.168721",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by sportsbarista features an image of coffee beans with the text \"MORE THAN JUST A BEVERAGE\" overlaid. The post caption mentions \"Roasting pending!!!\" and \"More updates to come soon...\" along with relevant hashtags.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows sportsbarista with Sebastian Vettel next to a race car, likely at an event like Goodwood. The caption mentions them discussing Vettel's biofuel and Sports Barista coffee.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a promotional Instagram post by \"sportsbarista\" advertising a stock sell-off of their coffee bags. The coffee is marketed as a pre- and post-workout drink, and the packaging highlights that it's naturally high in caffeine.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a stack of boxes labeled \"Sports Barista Coffee Bags.\" The post announces that the company is pausing production due to cost increases and will be selling off remaining stock at discounted prices, first to loyal subscribers and regular customers.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black and white photo of a bag of \"Sports Barista\" coffee beans next to a cup of black coffee. The post is a message explaining that they are pausing production due to rising costs.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from sportsbarista announcing new packaging that is 70% less packaging and 100% recyclable. It also shows a bag of their coffee.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Formula 1/Motorsport:** Discussing the event, Vettel's career, or F1 in general.",
+          "2.  **Coffee/Biofuel:** Asking about the Sports Barista coffee or Vettel's biofuel initiatives, showing interest in the intersection of performance and sustainability.",
+          "1. **Coffee Preferences/Workout Routines:** Inquire about their favorite type of coffee or their workout routine, since the coffee is marketed towards athletes.",
+          "2. **Marketing/Business:** Comment on the marketing of the coffee as a pre- and post-workout drink, and ask about the target audience.",
+          "1. Coffee: Ask about their favorite coffee blends or brewing methods."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The coffee bean graphic looked really professional. ☕",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Coffee (especially high-caffeine and performance-focused)",
+            "Motorsport (Formula 1, Sebastian Vettel)",
+            "Sustainability (Biofuel, Eco-Friendly Packaging)",
+            "Fitness/Workout Routines",
+            "Entrepreneurship/Small Business"
+          ],
+          "LIFESTYLE": "Likely an entrepreneur or small business owner involved in the coffee industry, with a strong interest in sports and sustainability. Appears to be active and health-conscious, potentially involved in fitness or athletic activities. Attends motorsport events.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite coffee blends for pre-workout energy?",
+            "I saw your post about Sebastian Vettel's biofuel initiatives. What are your thoughts on the future of sustainable fuels in motorsport?",
+            "I'm curious about the challenges you've faced with rising production costs. What strategies are you exploring for the future of Sports Barista?",
+            "What inspired you to create a coffee specifically for athletes?",
+            "I noticed your new packaging is 70% less packaging and 100% recyclable. What other sustainability initiatives are you planning for Sports Barista?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate (about coffee, motorsport, and sustainability)",
+            "Entrepreneurial (running a coffee business)",
+            "Environmentally Conscious (focused on sustainable practices)",
+            "Resilient (dealing with business challenges and cost increases)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Formula 1/Motorsport:** Discussing the event, Vettel's career, or F1 in general.",
+        "2.  **Coffee/Biofuel:** Asking about the Sports Barista coffee or Vettel's biofuel initiatives, showing interest in the intersection of performance and sustainability.",
+        "1. **Coffee Preferences/Workout Routines:** Inquire about their favorite type of coffee or their workout routine, since the coffee is marketed towards athletes.",
+        "2. **Marketing/Business:** Comment on the marketing of the coffee as a pre- and post-workout drink, and ask about the target audience.",
+        "1. Coffee: Ask about their favorite coffee blends or brewing methods."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T23:23:06.225531",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T23:22:47.127958",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by timmyorganics features a quote in bold, sans-serif font that reads: \"MOST PEOPLE HAVE NO IDEA HOW GOOD THEIR BODY IS DESIGNED TO FEEL\" - KEVIN TRUDEAU. The post also includes a caption with tips for healthy living, such as waking up with energy, slowing down aging, never getting sick, losing weight, and feeling amazing. The caption encourages followers to follow for tips and advice and includes hashtags like #healthyliving, #organicliving, #toxicfree, #nevergetsick, and #optimalbody.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a smiling woman receiving a bouquet of red roses. The post is captioned \"We appreciate you so so much. Happy Mother's Day!\" and includes hashtags related to Mother's Day, plant-based living, veganism, and Adelaide vegans. The person handing the flowers has a visible tattoo on their arm.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is of Navagio Beach in Greece, also known as Shipwreck Beach. It features a stunning view of the beach from above, showcasing the turquoise water, white sand, and dramatic cliffs. The post is from timmyorganics and celebrates Earth Day, promoting eco-friendly, cruelty-free, and sustainable practices.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by timmyorganics featuring a quote by J. Krishnamurti: \"It is no measure of health to be well adjusted to a profoundly sick society.\" The post also includes hashtags related to plant-based diets, healthy living, and optimal health.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a hand holding a sparkler against a blue sky. The post is dated December 31, 2019, and the caption lists resolutions for 2020, focusing on eliminating unhealthy habits and negativity. The hashtags include #vegan, #organic, #sustainable, and #wellness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black and white photo of a woman kissing a horse on the nose. The post celebrates World Animal Day and promotes compassion for all beings. The hashtags include #worldanimalday, #earthlings, #plantbased, #veganbodybuilding, #compassion, #love, #donoharm, and #timmyorganics.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Plant-based/Vegan Lifestyle:** Since the post includes hashtags like #plantbased and #vegan, you could ask about their favorite vegan recipes or restaurants in Adelaide.",
+          "2. **Mother's Day traditions:** You could ask about their favorite Mother's Day memories or traditions.",
+          "1. **Travel and Greece:** \"Have you ever been to Greece or Navagio Beach? It looks absolutely incredible! I've always wanted to visit.\"",
+          "2. **Sustainability and Eco-Friendly Practices:** \"I appreciate your commitment to eco-friendly practices. What are some of your favorite ways to live more sustainably?\"",
+          "1. **Plant-based diets:** Given the hashtag #plantbaseddiet, you could ask about their favorite plant-based recipes or their reasons for choosing a plant-based lifestyle."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That quote really resonated with me. ✨",
+        "profile_bio": {
+          "PERSON NAME": "Timmy Organics (Likely Timmy, last name Organics or using 'Organics' as a brand name)",
+          "INTERESTS": [
+            "Plant-based/Vegan Lifestyle",
+            "Organic and Sustainable Living",
+            "Health and Wellness (Physical and Mental)",
+            "Animal Welfare and Compassion",
+            "Travel (Specifically Greece)"
+          ],
+          "LIFESTYLE": "Likely a health and wellness advocate promoting organic, plant-based living and sustainability. Possibly involved in vegan bodybuilding or fitness. May live in or be connected to Adelaide, Australia. Seems to value mental and emotional well-being alongside physical health.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite vegan recipes or restaurants in Adelaide?",
+            "I appreciate your commitment to eco-friendly practices. What are some of your favorite ways to live more sustainably?",
+            "Have you ever been to Greece or Navagio Beach? It looks absolutely incredible! I've always wanted to visit.",
+            "What inspired you to adopt a plant-based lifestyle?",
+            "What are some of your favorite ways to maintain a positive mindset and eliminate negativity?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Compassionate",
+            "Health-conscious",
+            "Environmentally aware",
+            "Thoughtful/Philosophical (due to quote selections)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Plant-based/Vegan Lifestyle:** Since the post includes hashtags like #plantbased and #vegan, you could ask about their favorite vegan recipes or restaurants in Adelaide.",
+        "2. **Mother's Day traditions:** You could ask about their favorite Mother's Day memories or traditions.",
+        "1. **Travel and Greece:** \"Have you ever been to Greece or Navagio Beach? It looks absolutely incredible! I've always wanted to visit.\"",
+        "2. **Sustainability and Eco-Friendly Practices:** \"I appreciate your commitment to eco-friendly practices. What are some of your favorite ways to live more sustainably?\"",
+        "1. **Plant-based diets:** Given the hashtag #plantbaseddiet, you could ask about their favorite plant-based recipes or their reasons for choosing a plant-based lifestyle."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T11:21:51.275964",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T11:21:32.865275",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up portrait of a woman dressed as Cruella Deville. She has platinum blonde hair with black streaks, styled in a blunt bob with bangs. She is wearing a white and black polka dot blouse with a red tie and a black vest. Her makeup includes bold red lipstick. The background is black.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a vintage black jacket with intricate embellishments. The post mentions thrifting, Poshmark, Etsy, and the hashtag #fashionhacks.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (thea.green) posing in a white blazer with floral decorations in the background. She is wearing statement jewelry and appears to be at a cafe or restaurant, with a small chocolate dessert in front of her.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows an elaborate floral arrangement covering the ceiling and walls of what appears to be a cafe or restaurant. The flowers are mostly white and pink, with some feathery pampas grass elements. The location seems to be @brewandbloom.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a pair of long, shiny, red opera gloves that were purchased from Amazon for $9. The caption discusses a DIY project involving a glove bralette/top inspired by T.Label and mentions styling the gloves for Galentine's Day.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A close-up portrait of a woman wearing a black polka dot top, a pink bralette underneath, and multiple necklaces. She has pink gloves on. The post is tagged with fashion-related hashtags, including #diyfashion, #valentinesdayoutfit, and #lingerielove.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Thrifting and vintage fashion: Ask about their favorite thrift stores or vintage finds.",
+          "2.  Poshmark and online selling: Inquire about their experience selling on Poshmark or other online platforms.",
+          "1. **Fashion/DIY Fashion:** Her post discusses floral appliqués and DIY fashion. You could ask her about her favorite DIY fashion projects or her thoughts on current fashion trends.",
+          "2. **Jewelry:** She mentions her jewelry is from @dylanlex and @noir.kala. You could ask her about her favorite jewelry pieces or brands.",
+          "1.  **The cafe/restaurant:** Ask about her experience at @brewandbloom. \"How was the food/drinks at Brew and Bloom? The decor looks amazing!\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Thea Green (likely based on username 'thea.green')",
+          "INTERESTS": [
+            "Vintage and Thrifted Fashion",
+            "DIY Fashion and Upcycling",
+            "Statement Jewelry",
+            "Unique Cafes and Floral Design",
+            "Creative Styling and Costume Design"
+          ],
+          "LIFESTYLE": "Appears to be a creative individual with a passion for fashion, particularly vintage and DIY. Enjoys exploring aesthetically pleasing cafes and restaurants. Likely involved in online selling of fashion items (Poshmark/Etsy). Possibly a student or someone with a flexible schedule that allows for thrifting, DIY projects, and cafe visits.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite thrift stores or vintage finds?",
+            "What's your experience been like selling on Poshmark or Etsy?",
+            "I love your DIY fashion projects! What are some of your favorite ones you've worked on?",
+            "Your jewelry is stunning! What are some of your favorite pieces from @dylanlex and @noir.kala?",
+            "How was the food/drinks at Brew and Bloom? The decor looks amazing!"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Stylish",
+            "Resourceful (due to thrifting and DIY)",
+            "Expressive"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Thrifting and vintage fashion: Ask about their favorite thrift stores or vintage finds.",
+        "2.  Poshmark and online selling: Inquire about their experience selling on Poshmark or other online platforms.",
+        "1. **Fashion/DIY Fashion:** Her post discusses floral appliqués and DIY fashion. You could ask her about her favorite DIY fashion projects or her thoughts on current fashion trends.",
+        "2. **Jewelry:** She mentions her jewelry is from @dylanlex and @noir.kala. You could ask her about her favorite jewelry pieces or brands.",
+        "1.  **The cafe/restaurant:** Ask about her experience at @brewandbloom. \"How was the food/drinks at Brew and Bloom? The decor looks amazing!\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

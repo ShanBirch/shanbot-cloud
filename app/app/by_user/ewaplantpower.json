@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T10:45:28.969831",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T10:45:08.761517",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a wide shot of a large, bronze-colored statue of a deity, likely a Buddha or bodhisattva, at the Kek Lok Si Temple in Penang, Malaysia. The statue is positioned outdoors, under a partially visible structure with ornate pillars and carvings. The sky is visible in the background. The statue is the focal point, and the surrounding architecture and natural elements provide context.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman posing in front of a street art mural in Penang, Malaysia. She is sitting on a bicycle and wearing colorful floral pants and a pink top. The mural depicts children riding a bicycle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two women sitting at a table in a restaurant, enjoying vegan food in Kuala Lumpur. The post mentions that the food is \"unusual\" and \"absurdly delicious.\" The hashtags #thehungrytapir, #lagula, #kusa, and #vegantravel are used.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two women standing in front of the Batu Caves in Kuala Lumpur, Malaysia. The background includes the colorful steps leading up to the caves and a large golden statue. The post's caption mentions the user traveled there by public transport, saw monkeys, and uses vegan-related hashtags.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "Two women wearing purple head coverings and sunglasses are standing in front of a building in Kuala Lumpur, Malaysia.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A woman is standing on a beach, holding a blue item above her head with both hands. She's wearing activewear including a pink shirt, patterned leggings, and blue sneakers. The background shows a windy beach with dunes.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Travel in Malaysia, specifically Penang and Georgetown, asking for recommendations or sharing similar experiences.",
+          "2. Street art and murals, inquiring about her favorite pieces or artists.",
+          "1. Vegan travel and recommendations for vegan-friendly destinations or restaurants.",
+          "2. Experiences with unusual or unique vegan dishes and ingredients.",
+          "1. Vegan travel: Given the hashtags used, asking about favorite vegan restaurants or experiences in Kuala Lumpur or other travel destinations could spark a conversation."
+        ],
+        "profile_bio": {
+          "PERSON_NAME": "Ewa (Based on username 'ewaplantpower')",
+          "INTERESTS": [
+            "Vegan Travel",
+            "Malaysian Culture and Travel (specifically Penang and Kuala Lumpur)",
+            "Street Art",
+            "Vegan Food (especially unique and unusual dishes)",
+            "Outdoor Activities (Beach)"
+          ],
+          "LIFESTYLE": "Likely a travel enthusiast with a strong commitment to veganism. Appears to be adventurous and enjoys exploring new cultures, particularly through food and art. Seems to prioritize ethical and sustainable travel, potentially using public transport.",
+          "CONVERSATION_STARTERS": [
+            "What are your top 3 vegan restaurants in Kuala Lumpur?",
+            "Which street art piece in Penang was your absolute favorite and why?",
+            "Do you have any recommendations for vegan-friendly travel destinations outside of Malaysia?",
+            "What's the most unusual vegan dish you've ever tried, and where did you find it?",
+            "What are some tips for navigating public transportation in Kuala Lumpur as a tourist?"
+          ],
+          "PERSONALITY_TRAITS": [
+            "Adventurous",
+            "Enthusiastic",
+            "Open-minded",
+            "Environmentally Conscious (implied through veganism and public transport use)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Travel in Malaysia, specifically Penang and Georgetown, asking for recommendations or sharing similar experiences.",
+        "2. Street art and murals, inquiring about her favorite pieces or artists.",
+        "1. Vegan travel and recommendations for vegan-friendly destinations or restaurants.",
+        "2. Experiences with unusual or unique vegan dishes and ingredients.",
+        "1. Vegan travel: Given the hashtags used, asking about favorite vegan restaurants or experiences in Kuala Lumpur or other travel destinations could spark a conversation."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

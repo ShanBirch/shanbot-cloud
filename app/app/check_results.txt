@@ -1,0 +1,8 @@
+General chat check position: -1
+WhatsApp check position: 14545
+
+General chat check not found, but WhatsApp check exists.
+
+Number of 'if initial_whatsapp_checkins_allowed:' instances: 1
+
+WhatsApp check context: '            if initial_whatsapp_checkins_allowed:'

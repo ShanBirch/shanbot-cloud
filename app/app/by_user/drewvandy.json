@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T23:29:43.718706",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T23:29:25.373528",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a man and a woman posing for a photo in front of a \"HAPPY\" banner with other decorative elements. The man is bald, wearing glasses, and a black long-sleeved shirt. The woman has curly brown hair and is wearing a white t-shirt. She has her arm around the man, and her hand is visible, showing a ring and painted nails. They are both smiling.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of a couple at a baseball game. They are both wearing baseball hats and apparel related to the Philadelphia Phillies. The man is wearing a shirt that says \"Drink Beers.\" The post is a sentimental one about their relationship.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a couple standing in front of their new house. The caption mentions setting up a garage gym.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman performing a weightlifting exercise (likely a snatch or overhead squat) in a gym setting. She is wearing a weightlifting belt, knee sleeves, and bright yellow shoes.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man and a woman, both wearing shirts that say \"Pennsylvania's Strongest\" and \"Pennsylvanian Strongest\" respectively. The man is wearing a red shirt and a bandana with an American flag print. The woman is wearing a blue shirt and has a tattoo on her arm. They are standing outside, possibly at a strongman competition or event. The caption mentions it was their \"First strongman weekend in the books.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (drewvandy) performing a front squat with 305 lbs. He is wearing a weightlifting belt and knee sleeves. The hashtags indicate he is involved in CrossFit and strength training.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Baseball, specifically the Phillies: \"Are you a big Phillies fan? What are your thoughts on their season so far?\"",
+          "2. The gym/fitness: The caption mentions meeting at the gym, so you could ask about their fitness routines or favorite exercises.",
+          "1.  Garage gym setup: Ask about the equipment they plan to get or if they have any specific fitness goals for the gym.",
+          "2.  Homeownership: Inquire about their experience with the home-buying process or ask about their plans for decorating or renovating the house.",
+          "1.  Weightlifting/CrossFit: You could ask about her training routine, favorite lifts, or any upcoming competitions she might be participating in."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You and your partner looked so happy! 😊",
+        "profile_bio": {
+          "PERSON_NAME": "Drew Vandy (Likely Drew Vanderbilt or similar)",
+          "INTERESTS": [
+            "Philadelphia Phillies Baseball",
+            "Strength Training (Weightlifting, CrossFit, Strongman)",
+            "Fitness and Gym Culture",
+            "Homeownership and DIY (Garage Gym Setup)",
+            "Relationship and Shared Activities with Partner"
+          ],
+          "LIFESTYLE": "Active lifestyle centered around fitness, particularly strength training. Enjoys attending Phillies games and spending time with his partner. Recently became a homeowner and is setting up a garage gym. Likely works a job that allows him to pursue these hobbies.",
+          "CONVERSATION_STARTERS": [
+            "What are your thoughts on the Phillies' season this year?",
+            "What kind of equipment are you planning to get for your garage gym?",
+            "What's your favorite lift or CrossFit WOD?",
+            "How did you both get into strongman competitions?",
+            "What are some of your favorite things about being a homeowner so far?"
+          ],
+          "PERSONALITY_TRAITS": [
+            "Passionate (about his interests, especially the Phillies and strength training)",
+            "Dedicated (to fitness and training)",
+            "Supportive (of his partner's fitness goals and achievements)",
+            "Enthusiastic (about life and new experiences, like homeownership and strongman competitions)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Baseball, specifically the Phillies: \"Are you a big Phillies fan? What are your thoughts on their season so far?\"",
+        "2. The gym/fitness: The caption mentions meeting at the gym, so you could ask about their fitness routines or favorite exercises.",
+        "1.  Garage gym setup: Ask about the equipment they plan to get or if they have any specific fitness goals for the gym.",
+        "2.  Homeownership: Inquire about their experience with the home-buying process or ask about their plans for decorating or renovating the house.",
+        "1.  Weightlifting/CrossFit: You could ask about her training routine, favorite lifts, or any upcoming competitions she might be participating in."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

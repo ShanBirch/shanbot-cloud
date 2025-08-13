@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T20:47:50.147960",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T20:47:27.000635",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows two balloon sculptures of Transformers, Bumblebee and Optimus Prime, standing on either side of a man with a beard and a patterned shirt. They are indoors, likely at an event space, with tables visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a split picture. The top half is a selfie with Ellen DeGeneres and several other celebrities at what appears to be an awards show. The bottom half features balloon art creations of the same celebrities.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person (veganballoons) playing a keyboard in what appears to be a decorated space. The post is dedicated to \"Grammie on her first heavenly birthday.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two people standing under a balloon arch made of pink, white, and gold balloons. The setting appears to be outdoors, possibly a backyard.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a pink balloon flamingo sculpture. In the background, there is a foosball table and a pool table.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a balloon display in shades of pink, purple, and silver, including disco ball accents. The caption mentions a new song, collaborations with @prettycreative.events, @polymendes, @mrgrabeel, and @iamtabithabrown, and thanks for making veganism cool.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Balloon Art:** Inquire about their process for creating the balloon art, asking about the challenges and techniques involved in capturing the likeness of the celebrities.",
+          "2.  **Celebrity Culture/Awards Shows:** Ask about their favorite celebrity or awards show moment, tying it back to the celebrities featured in the image.",
+          "1. Music: \"I noticed you were playing the keyboard in your recent post. What kind of music do you enjoy playing/creating?\"",
+          "2. Veganism: \"I saw the username is veganballoons. What inspired you to start a vegan balloon business?\"",
+          "1.  **Balloon Art/Decor:** Ask about the process of creating the balloon arch, the types of balloons used (since they are vegan), or any tips for creating similar decorations."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The balloon Transformers looked incredible, especially the Bumblebee! 🎈",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Balloon Art & Sculpting",
+            "Veganism",
+            "Music (Keyboard/Piano)",
+            "Celebrity Culture & Events",
+            "Event Decoration & Design"
+          ],
+          "LIFESTYLE": "Likely an event decorator and balloon artist specializing in vegan-friendly materials. They seem to be involved in celebrity events and have a passion for music and veganism. They may also be involved in collaborations with other creatives.",
+          "CONVERSATION STARTERS": [
+            "I'm fascinated by your balloon art! What are some of the biggest challenges you face when creating such intricate sculptures, especially capturing the likeness of celebrities?",
+            "Your username is 'veganballoons' - that's so unique! What inspired you to combine your passion for balloon art with a commitment to veganism?",
+            "I saw you playing the keyboard in your recent post. What kind of music do you enjoy playing or creating? Do you ever incorporate music into your events?",
+            "The balloon arch you created looks amazing! What types of vegan balloons do you typically use, and do you have any tips for creating similar decorations at home?",
+            "I noticed you've collaborated with some interesting people like @prettycreative.events and @iamtabithabrown. What do you enjoy most about collaborating with other creatives?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Passionate (about veganism and art)",
+            "Collaborative",
+            "Sentimental (dedication to Grammie)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Balloon Art:** Inquire about their process for creating the balloon art, asking about the challenges and techniques involved in capturing the likeness of the celebrities.",
+        "2.  **Celebrity Culture/Awards Shows:** Ask about their favorite celebrity or awards show moment, tying it back to the celebrities featured in the image.",
+        "1. Music: \"I noticed you were playing the keyboard in your recent post. What kind of music do you enjoy playing/creating?\"",
+        "2. Veganism: \"I saw the username is veganballoons. What inspired you to start a vegan balloon business?\"",
+        "1.  **Balloon Art/Decor:** Ask about the process of creating the balloon arch, the types of balloons used (since they are vegan), or any tips for creating similar decorations."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

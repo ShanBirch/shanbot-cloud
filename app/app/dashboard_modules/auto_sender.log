@@ -1,0 +1,468 @@
+2025-06-25 14:11:22,860 - __main__ - INFO - Press Ctrl+C to stop
+2025-06-25 14:11:22,870 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:11:22,871 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:12:22,885 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:12:22,885 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:13:22,894 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:13:22,895 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:14:13,414 - response_auto_sender - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:14:05.409600)
+2025-06-25 14:14:13,424 - response_auto_sender - INFO - Found 1 responses due for sending
+2025-06-25 14:14:13,424 - response_auto_sender - INFO - Processing response ID 11 for @test_user_141358
+2025-06-25 14:14:13,428 - response_auto_sender - INFO -   Scheduled: 2025-06-25T14:12:58.719462, Status: scheduled
+2025-06-25 14:14:13,429 - response_auto_sender - INFO -   Message: Test auto response from quick test script...
+2025-06-25 14:14:13,825 - response_auto_sender - ERROR - Error sending message via ManyChat: cannot import name 'send_manychat_message' from 'manychat_utils' (C:\Users\Shannon\OneDrive\Desktop\shanbot\app\manychat_utils.py)
+Traceback (most recent call last):
+  File "C:\Users\Shannon\OneDrive\Desktop\shanbot\app\dashboard_modules\response_auto_sender.py", line 52, in send_via_manychat
+    from manychat_utils import send_manychat_message
+ImportError: cannot import name 'send_manychat_message' from 'manychat_utils' (C:\Users\Shannon\OneDrive\Desktop\shanbot\app\manychat_utils.py)
+2025-06-25 14:14:13,832 - response_auto_sender - ERROR - Error processing scheduled responses: no such column: failed_at
+Traceback (most recent call last):
+  File "C:\Users\Shannon\OneDrive\Desktop\shanbot\app\dashboard_modules\response_auto_sender.py", line 140, in process_scheduled_responses
+    cursor.execute("""
+sqlite3.OperationalError: no such column: failed_at
+2025-06-25 14:14:22,912 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:14:05.409600)
+2025-06-25 14:14:22,937 - __main__ - INFO - Found 1 responses due for sending
+2025-06-25 14:14:22,937 - __main__ - INFO - Processing response ID 11 for @test_user_141358
+2025-06-25 14:14:22,937 - __main__ - INFO -   Scheduled: 2025-06-25T14:12:58.719462, Status: scheduled
+2025-06-25 14:14:22,937 - __main__ - INFO -   Message: Test auto response from quick test script...
+2025-06-25 14:14:23,574 - __main__ - ERROR - Error sending message via ManyChat: cannot import name 'send_manychat_message' from 'manychat_utils' (C:\Users\Shannon\OneDrive\Desktop\shanbot\app\manychat_utils.py)
+Traceback (most recent call last):
+  File "C:\Users\Shannon\OneDrive\Desktop\shanbot\app\dashboard_modules\response_auto_sender.py", line 52, in send_via_manychat
+    from manychat_utils import send_manychat_message
+ImportError: cannot import name 'send_manychat_message' from 'manychat_utils' (C:\Users\Shannon\OneDrive\Desktop\shanbot\app\manychat_utils.py)
+2025-06-25 14:14:23,576 - __main__ - ERROR - Error processing scheduled responses: no such column: failed_at
+Traceback (most recent call last):
+  File "C:\Users\Shannon\OneDrive\Desktop\shanbot\app\dashboard_modules\response_auto_sender.py", line 140, in process_scheduled_responses
+    cursor.execute("""
+sqlite3.OperationalError: no such column: failed_at
+2025-06-25 14:15:23,592 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:14:05.409600)
+2025-06-25 14:15:23,617 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:15:39,134 - response_auto_sender - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:14:05.409600)
+2025-06-25 14:15:39,144 - response_auto_sender - INFO - Found 0 responses due for sending
+2025-06-25 14:16:23,633 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:14:05.409600)
+2025-06-25 14:16:23,654 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:16:27,686 - response_auto_sender - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:14:05.409600)
+2025-06-25 14:17:09,440 - __main__ - INFO - Press Ctrl+C to stop
+2025-06-25 14:17:09,479 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:17:09,479 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:17:23,680 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:17:23,681 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:17:57,047 - __main__ - INFO - Press Ctrl+C to stop
+2025-06-25 14:17:57,068 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:17:57,068 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:18:23,698 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:18:23,698 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:18:57,085 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:18:57,086 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:19:23,714 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:19:23,715 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:19:57,093 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:19:57,094 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:20:23,726 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:20:23,727 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:20:57,099 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:20:57,099 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:21:23,731 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:21:23,731 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:21:57,111 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:21:57,112 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:22:08,670 - response_auto_sender - ERROR - Error checking auto mode status: local variable 'json' referenced before assignment
+2025-06-25 14:22:22,057 - response_auto_sender - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:22:23,732 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:22:23,733 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:22:27,840 - response_auto_sender - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:22:39,136 - __main__ - INFO - [START] Starting Auto Response Sender
+2025-06-25 14:22:39,137 - __main__ - INFO - Press Ctrl+C to stop
+2025-06-25 14:22:39,137 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:22:39,137 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:22:57,116 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:22:57,117 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:23:03,637 - __main__ - INFO - [START] Starting Auto Response Sender
+2025-06-25 14:23:03,637 - __main__ - INFO - Press Ctrl+C to stop
+2025-06-25 14:23:03,645 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:22:58.029547)
+2025-06-25 14:23:03,646 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 1, 'sent': 10}
+2025-06-25 14:23:03,647 - __main__ - INFO - Checking for responses due at 2025-06-25T14:23:03.647535
+2025-06-25 14:23:03,647 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:23:03,648 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:23:03,648 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:23:23,741 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:22:58.029547)
+2025-06-25 14:23:23,748 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:23:47,538 - __main__ - INFO - [START] Starting Auto Response Sender
+2025-06-25 14:23:47,539 - __main__ - INFO - Press Ctrl+C to stop
+2025-06-25 14:23:47,552 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:23:47,552 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:23:57,131 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:23:57,131 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:24:23,764 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:24:23,764 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:24:38,337 - response_auto_sender - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:23:46.859360)
+2025-06-25 14:24:43,239 - __main__ - INFO - [START] Starting Auto Response Sender
+2025-06-25 14:24:43,240 - __main__ - INFO - Press Ctrl+C to stop
+2025-06-25 14:24:43,240 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:23:46.859360)
+2025-06-25 14:24:43,244 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 1, 'sent': 10}
+2025-06-25 14:24:43,245 - __main__ - INFO - Checking for responses due at 2025-06-25T14:24:43.245147
+2025-06-25 14:24:43,246 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:24:43,246 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:24:43,246 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:25:23,766 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:25:23,766 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:25:30,008 - __main__ - INFO - [START] Starting Auto Response Sender
+2025-06-25 14:25:30,008 - __main__ - INFO - Press Ctrl+C to stop
+2025-06-25 14:25:30,019 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:25:30,022 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 1, 'sent': 10}
+2025-06-25 14:25:30,023 - __main__ - INFO - Checking for responses due at 2025-06-25T14:25:30.023668
+2025-06-25 14:25:30,023 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:25:30,023 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:25:30,023 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:26:23,779 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:26:23,780 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:26:30,029 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:26:30,030 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 1, 'sent': 10}
+2025-06-25 14:26:30,034 - __main__ - INFO - Checking for responses due at 2025-06-25T14:26:30.034471
+2025-06-25 14:26:30,034 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:26:30,034 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:26:30,034 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:27:23,790 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:27:23,790 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:27:30,045 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:27:30,047 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 1, 'sent': 10}
+2025-06-25 14:27:30,047 - __main__ - INFO - Checking for responses due at 2025-06-25T14:27:30.047358
+2025-06-25 14:27:30,047 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:27:30,047 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:27:30,047 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:28:23,807 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:28:23,807 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:28:30,055 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:28:30,055 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 1, 'sent': 10}
+2025-06-25 14:28:30,055 - __main__ - INFO - Checking for responses due at 2025-06-25T14:28:30.055396
+2025-06-25 14:28:30,064 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:28:30,064 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:28:30,064 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:29:23,818 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:29:23,818 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:29:30,071 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:29:30,071 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 1, 'sent': 10}
+2025-06-25 14:29:30,079 - __main__ - INFO - Checking for responses due at 2025-06-25T14:29:30.079677
+2025-06-25 14:29:30,079 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:29:30,082 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:29:30,082 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:30:23,824 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:30:23,824 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:30:30,090 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:30:30,093 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 1, 'sent': 10}
+2025-06-25 14:30:30,093 - __main__ - INFO - Checking for responses due at 2025-06-25T14:30:30.093250
+2025-06-25 14:30:30,096 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:30:30,098 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:30:30,098 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:31:23,828 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:31:23,828 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:31:30,102 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:31:30,105 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 1, 'sent': 10}
+2025-06-25 14:31:30,105 - __main__ - INFO - Checking for responses due at 2025-06-25T14:31:30.105296
+2025-06-25 14:31:30,109 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:31:30,109 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:31:30,110 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:32:23,847 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:32:23,848 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:32:30,116 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:32:30,117 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 1, 'sent': 10}
+2025-06-25 14:32:30,118 - __main__ - INFO - Checking for responses due at 2025-06-25T14:32:30.118860
+2025-06-25 14:32:30,119 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:32:30,120 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:32:30,120 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:33:23,863 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:33:23,863 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:33:30,127 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:33:30,127 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 1, 'sent': 10}
+2025-06-25 14:33:30,127 - __main__ - INFO - Checking for responses due at 2025-06-25T14:33:30.127134
+2025-06-25 14:33:30,127 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:33:30,127 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:33:30,127 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:34:23,873 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:34:23,873 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:34:30,147 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:34:30,150 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 1, 'sent': 10}
+2025-06-25 14:34:30,150 - __main__ - INFO - Checking for responses due at 2025-06-25T14:34:30.150549
+2025-06-25 14:34:30,154 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:34:30,154 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:34:30,154 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:35:23,874 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:35:23,874 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:35:30,169 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:35:30,170 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 1, 'sent': 10}
+2025-06-25 14:35:30,173 - __main__ - INFO - Checking for responses due at 2025-06-25T14:35:30.173879
+2025-06-25 14:35:30,175 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:35:30,175 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:35:30,175 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:36:23,875 - __main__ - INFO - Auto Mode Status: DISABLED (updated: Unknown)
+2025-06-25 14:36:23,875 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 14:36:30,181 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:36:30,181 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 1, 'sent': 10}
+2025-06-25 14:36:30,181 - __main__ - INFO - Checking for responses due at 2025-06-25T14:36:30.181642
+2025-06-25 14:36:30,189 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:36:30,191 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:36:30,191 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:37:30,205 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:37:30,207 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 1, 'sent': 10}
+2025-06-25 14:37:30,208 - __main__ - INFO - Checking for responses due at 2025-06-25T14:37:30.208277
+2025-06-25 14:37:30,209 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:37:30,209 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:37:30,210 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:38:30,211 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:38:30,213 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 1, 'sent': 10}
+2025-06-25 14:38:30,214 - __main__ - INFO - Checking for responses due at 2025-06-25T14:38:30.214289
+2025-06-25 14:38:30,214 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:38:30,215 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:38:30,215 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:39:30,238 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:39:30,242 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:39:30,244 - __main__ - INFO - Checking for responses due at 2025-06-25T14:39:30.244789
+2025-06-25 14:39:30,246 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:39:30,246 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:39:30,248 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:40:30,252 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:40:30,252 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:40:30,252 - __main__ - INFO - Checking for responses due at 2025-06-25T14:40:30.252021
+2025-06-25 14:40:30,260 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:40:30,260 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:40:30,260 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:41:30,266 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:41:30,266 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:41:30,266 - __main__ - INFO - Checking for responses due at 2025-06-25T14:41:30.266198
+2025-06-25 14:41:30,266 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:41:30,266 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:41:30,274 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:42:30,298 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:42:30,298 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:42:30,298 - __main__ - INFO - Checking for responses due at 2025-06-25T14:42:30.298282
+2025-06-25 14:42:30,306 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:42:30,306 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:42:30,306 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:43:30,322 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:25:29.186579)
+2025-06-25 14:43:30,322 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:43:30,322 - __main__ - INFO - Checking for responses due at 2025-06-25T14:43:30.322252
+2025-06-25 14:43:30,331 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:43:30,331 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:43:30,331 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:44:03,207 - __main__ - INFO - [START] Starting Auto Response Sender
+2025-06-25 14:44:03,213 - __main__ - INFO - Press Ctrl+C to stop
+2025-06-25 14:44:03,226 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:44:02.264996)
+2025-06-25 14:44:03,229 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:44:03,229 - __main__ - INFO - Checking for responses due at 2025-06-25T14:44:03.229973
+2025-06-25 14:44:03,232 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:44:03,232 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:44:03,232 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:45:03,235 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:44:02.264996)
+2025-06-25 14:45:03,239 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:45:03,239 - __main__ - INFO - Checking for responses due at 2025-06-25T14:45:03.239437
+2025-06-25 14:45:03,239 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:45:03,239 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:45:03,239 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:46:03,249 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:44:02.264996)
+2025-06-25 14:46:03,249 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:46:03,249 - __main__ - INFO - Checking for responses due at 2025-06-25T14:46:03.249646
+2025-06-25 14:46:03,249 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:46:03,249 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:46:03,249 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:47:03,261 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:44:02.264996)
+2025-06-25 14:47:03,262 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:47:03,263 - __main__ - INFO - Checking for responses due at 2025-06-25T14:47:03.263645
+2025-06-25 14:47:03,264 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:47:03,264 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:47:03,264 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:48:03,274 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:44:02.264996)
+2025-06-25 14:48:03,276 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:48:03,277 - __main__ - INFO - Checking for responses due at 2025-06-25T14:48:03.277582
+2025-06-25 14:48:03,278 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:48:03,278 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:48:03,279 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:48:34,748 - __main__ - INFO - [START] Starting Auto Response Sender
+2025-06-25 14:48:34,748 - __main__ - INFO - Press Ctrl+C to stop
+2025-06-25 14:48:34,765 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:48:34.078570)
+2025-06-25 14:48:34,767 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:48:34,767 - __main__ - INFO - Checking for responses due at 2025-06-25T14:48:34.767924
+2025-06-25 14:48:34,768 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:48:34,768 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:48:34,769 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:49:34,778 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:48:34.078570)
+2025-06-25 14:49:34,779 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:49:34,780 - __main__ - INFO - Checking for responses due at 2025-06-25T14:49:34.780359
+2025-06-25 14:49:34,781 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:49:34,781 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:49:34,781 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:50:34,784 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:48:34.078570)
+2025-06-25 14:50:34,785 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:50:34,786 - __main__ - INFO - Checking for responses due at 2025-06-25T14:50:34.786829
+2025-06-25 14:50:34,787 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:50:34,787 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:50:34,787 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:51:34,800 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:48:34.078570)
+2025-06-25 14:51:34,802 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:51:34,802 - __main__ - INFO - Checking for responses due at 2025-06-25T14:51:34.802050
+2025-06-25 14:51:34,803 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:51:34,803 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:51:34,803 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:52:34,815 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:48:34.078570)
+2025-06-25 14:52:34,816 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:52:34,817 - __main__ - INFO - Checking for responses due at 2025-06-25T14:52:34.817183
+2025-06-25 14:52:34,817 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:52:34,818 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:52:34,818 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:53:34,830 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:48:34.078570)
+2025-06-25 14:53:34,831 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:53:34,832 - __main__ - INFO - Checking for responses due at 2025-06-25T14:53:34.832136
+2025-06-25 14:53:34,833 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:53:34,833 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:53:34,834 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:54:40,447 - __main__ - INFO - [START] Starting Auto Response Sender
+2025-06-25 14:54:40,447 - __main__ - INFO - Press Ctrl+C to stop
+2025-06-25 14:54:40,468 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:54:39.521299)
+2025-06-25 14:54:40,470 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:54:40,470 - __main__ - INFO - Checking for responses due at 2025-06-25T14:54:40.470445
+2025-06-25 14:54:40,474 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:54:40,474 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:54:40,474 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:55:40,501 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:54:39.521299)
+2025-06-25 14:55:40,502 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:55:40,503 - __main__ - INFO - Checking for responses due at 2025-06-25T14:55:40.503115
+2025-06-25 14:55:40,503 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:55:40,504 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:55:40,504 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:56:40,506 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:54:39.521299)
+2025-06-25 14:56:40,508 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:56:40,508 - __main__ - INFO - Checking for responses due at 2025-06-25T14:56:40.508917
+2025-06-25 14:56:40,510 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:56:40,510 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:56:40,511 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:57:40,519 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:54:39.521299)
+2025-06-25 14:57:40,522 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:57:40,523 - __main__ - INFO - Checking for responses due at 2025-06-25T14:57:40.523247
+2025-06-25 14:57:40,524 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:57:40,524 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:57:40,525 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:58:40,526 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:54:39.521299)
+2025-06-25 14:58:40,528 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:58:40,529 - __main__ - INFO - Checking for responses due at 2025-06-25T14:58:40.529638
+2025-06-25 14:58:40,531 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:58:40,531 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:58:40,532 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 14:59:40,537 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T14:54:39.521299)
+2025-06-25 14:59:40,541 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 14:59:40,542 - __main__ - INFO - Checking for responses due at 2025-06-25T14:59:40.542042
+2025-06-25 14:59:40,543 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 14:59:40,543 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 14:59:40,543 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 15:00:40,557 - __main__ - INFO - Auto Mode Status: DISABLED (updated: 2025-06-25T14:59:55.972364)
+2025-06-25 15:00:40,557 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 15:01:18,805 - __main__ - INFO - [START] Starting Auto Response Sender
+2025-06-25 15:01:18,805 - __main__ - INFO - Press Ctrl+C to stop
+2025-06-25 15:01:18,832 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T15:01:18.179013)
+2025-06-25 15:01:18,834 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 15:01:18,834 - __main__ - INFO - Checking for responses due at 2025-06-25T15:01:18.834807
+2025-06-25 15:01:18,835 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 15:01:18,835 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 15:01:18,836 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 15:01:40,563 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T15:01:18.179013)
+2025-06-25 15:01:40,566 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 15:01:40,567 - __main__ - INFO - Checking for responses due at 2025-06-25T15:01:40.567098
+2025-06-25 15:01:40,570 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 15:01:40,570 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 15:01:40,571 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 15:02:18,844 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T15:01:18.179013)
+2025-06-25 15:02:18,847 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 15:02:18,848 - __main__ - INFO - Checking for responses due at 2025-06-25T15:02:18.848583
+2025-06-25 15:02:18,849 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 15:02:18,850 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 15:02:18,850 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 15:03:18,857 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T15:01:18.179013)
+2025-06-25 15:03:18,859 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 15:03:18,859 - __main__ - INFO - Checking for responses due at 2025-06-25T15:03:18.859067
+2025-06-25 15:03:18,859 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 15:03:18,859 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 15:03:18,859 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 15:04:18,869 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T15:01:18.179013)
+2025-06-25 15:04:18,871 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 15:04:18,871 - __main__ - INFO - Checking for responses due at 2025-06-25T15:04:18.871479
+2025-06-25 15:04:18,872 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 15:04:18,873 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 15:04:18,874 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 15:05:18,882 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T15:01:18.179013)
+2025-06-25 15:05:18,882 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 15:05:18,891 - __main__ - INFO - Checking for responses due at 2025-06-25T15:05:18.891087
+2025-06-25 15:05:18,891 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 15:05:18,891 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 15:05:18,891 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 15:06:18,892 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T15:01:18.179013)
+2025-06-25 15:06:18,892 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 15:06:18,901 - __main__ - INFO - Checking for responses due at 2025-06-25T15:06:18.901009
+2025-06-25 15:06:18,901 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 15:06:18,901 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 15:06:18,901 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 15:07:18,918 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T15:01:18.179013)
+2025-06-25 15:07:18,918 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 15:07:18,925 - __main__ - INFO - Checking for responses due at 2025-06-25T15:07:18.925468
+2025-06-25 15:07:18,925 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 15:07:18,925 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 15:07:18,925 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 15:08:18,930 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T15:01:18.179013)
+2025-06-25 15:08:18,935 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 15:08:18,937 - __main__ - INFO - Checking for responses due at 2025-06-25T15:08:18.937185
+2025-06-25 15:08:18,941 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 15:08:18,941 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 15:08:18,943 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 15:09:18,957 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T15:01:18.179013)
+2025-06-25 15:09:18,963 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 15:09:18,965 - __main__ - INFO - Checking for responses due at 2025-06-25T15:09:18.965858
+2025-06-25 15:09:18,966 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 15:09:18,967 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 15:09:18,967 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 15:10:18,975 - __main__ - INFO - Auto Mode Status: DISABLED (updated: 2025-06-25T15:09:32.767100)
+2025-06-25 15:10:18,975 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 15:11:18,976 - __main__ - INFO - Auto Mode Status: DISABLED (updated: 2025-06-25T15:09:32.767100)
+2025-06-25 15:11:18,977 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 15:12:18,985 - __main__ - INFO - Auto Mode Status: DISABLED (updated: 2025-06-25T15:09:32.767100)
+2025-06-25 15:12:18,985 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 15:13:18,995 - __main__ - INFO - Auto Mode Status: DISABLED (updated: 2025-06-25T15:09:32.767100)
+2025-06-25 15:13:18,995 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 15:14:19,004 - __main__ - INFO - Auto Mode Status: DISABLED (updated: 2025-06-25T15:09:32.767100)
+2025-06-25 15:14:19,004 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 15:15:19,007 - __main__ - INFO - Auto Mode Status: DISABLED (updated: 2025-06-25T15:09:32.767100)
+2025-06-25 15:15:19,007 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 15:16:19,019 - __main__ - INFO - Auto Mode Status: DISABLED (updated: 2025-06-25T15:09:32.767100)
+2025-06-25 15:16:19,020 - __main__ - INFO - Auto Mode is disabled, skipping this cycle
+2025-06-25 15:17:19,043 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T15:16:50.829338)
+2025-06-25 15:17:19,045 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 15:17:19,045 - __main__ - INFO - Checking for responses due at 2025-06-25T15:17:19.045180
+2025-06-25 15:17:19,046 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 15:17:19,046 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 15:17:19,046 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 15:18:19,050 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T15:16:50.829338)
+2025-06-25 15:18:19,052 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 15:18:19,052 - __main__ - INFO - Checking for responses due at 2025-06-25T15:18:19.052853
+2025-06-25 15:18:19,053 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 15:18:19,053 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 15:18:19,054 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 15:19:19,070 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T15:16:50.829338)
+2025-06-25 15:19:19,071 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 15:19:19,072 - __main__ - INFO - Checking for responses due at 2025-06-25T15:19:19.072779
+2025-06-25 15:19:19,073 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 15:19:19,074 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 15:19:19,074 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 15:20:19,076 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T15:16:50.829338)
+2025-06-25 15:20:19,078 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 15:20:19,079 - __main__ - INFO - Checking for responses due at 2025-06-25T15:20:19.079281
+2025-06-25 15:20:19,079 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 15:20:19,080 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 15:20:19,080 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 15:21:19,081 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T15:16:50.829338)
+2025-06-25 15:21:19,087 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 15:21:19,089 - __main__ - INFO - Checking for responses due at 2025-06-25T15:21:19.089004
+2025-06-25 15:21:19,092 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 15:21:19,093 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 15:21:19,093 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...
+2025-06-25 15:22:19,096 - __main__ - INFO - Auto Mode Status: ENABLED (updated: 2025-06-25T15:16:50.829338)
+2025-06-25 15:22:19,096 - __main__ - INFO - [STATS] Current stats: {'failed': 1, 'pending': 2, 'sent': 10}
+2025-06-25 15:22:19,096 - __main__ - INFO - Checking for responses due at 2025-06-25T15:22:19.096701
+2025-06-25 15:22:19,096 - __main__ - INFO - Found 0 responses due for sending
+2025-06-25 15:22:19,096 - __main__ - INFO - [IDLE] No responses to process, waiting...
+2025-06-25 15:22:19,096 - __main__ - INFO - [TIMER] Waiting 60 seconds until next check...

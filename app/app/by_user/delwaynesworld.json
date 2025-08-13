@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T21:05:08.676452",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T21:04:50.844060",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by @delwaynesworld features a video of a shirtless man running on a beach. He is wearing black athletic pants and white running shoes. Palm trees are visible in the background, along with other people on the beach. The sky is clear and blue. The caption reads \"The world is mine When I wake up\" followed by \"Go after what's yours\". The location is set to \"Kanye West - Can't Tell Me Nothing\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man in a grocery store (likely Sprouts, as mentioned in the caption) holding a very large jackfruit. The caption mentions other items he purchased, including vegan ice cream, veggie patties, and a Venus fly trap.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by delwaynesworld featuring a video of them working out at a gym. The post includes hashtags related to fitness, motivation, veganism, and clarity.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two people in a yoga-like pose (child's pose) in what appears to be a home setting. There's a keyboard, bookshelf with a basketball, and a music stand visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by delwaynesworld featuring a man (likely Russell Simmons, based on the tag) sitting in a meditative pose. The post discusses the importance of a plant-based lifestyle and awareness of health choices, particularly in relation to the American diet.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man, delwaynesworld, standing on a track field, likely demonstrating a fitness exercise (dips). The caption mentions triceps exercises and calisthenics. He also uses hashtags related to vegan fitness.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Jackfruit recipes/cooking:** Ask him what he plans to make with the jackfruit, or share a favorite jackfruit recipe.",
+          "2.  **Vegan/vegetarian food:** Since he bought vegan ice cream and veggie patties, you could ask about his favorite vegan/vegetarian restaurants or recipes.",
+          "1. Fitness Routine: Ask about their workout routine and what motivates them to stay consistent.",
+          "2. Vegan Fitness: Inquire about their experience with vegan fitness and any tips they have for maintaining a healthy vegan diet while working out.",
+          "1. Yoga/Stretching: \"I noticed your post about stretching. Do you practice yoga often, and what are your favorite poses?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! Looked like a great run on the beach! 🌴",
+        "profile_bio": {
+          "PERSON NAME": "Del Wayne (Likely based on username 'delwaynesworld')",
+          "INTERESTS": [
+            "Veganism/Plant-Based Lifestyle",
+            "Fitness (Calisthenics, Running, Gym Workouts)",
+            "Yoga/Stretching",
+            "Health & Wellness",
+            "Music (Implied by location tag and background items)"
+          ],
+          "LIFESTYLE": "Likely a health-conscious individual focused on fitness and a plant-based diet. Appears to be active, possibly a fitness enthusiast or trainer. May have an interest in music and meditation.",
+          "CONVERSATION STARTERS": [
+            "What are you planning to make with that giant jackfruit?",
+            "What are some of your favorite vegan restaurants or go-to vegan recipes?",
+            "Can you share a bit about your workout routine and what keeps you motivated?",
+            "What's your experience with vegan fitness, and do you have any tips for maintaining a healthy vegan diet while working out?",
+            "I noticed your post about stretching. Do you practice yoga often, and what are your favorite poses?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Motivated",
+            "Health-Conscious",
+            "Disciplined",
+            "Inspirational"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Jackfruit recipes/cooking:** Ask him what he plans to make with the jackfruit, or share a favorite jackfruit recipe.",
+        "2.  **Vegan/vegetarian food:** Since he bought vegan ice cream and veggie patties, you could ask about his favorite vegan/vegetarian restaurants or recipes.",
+        "1. Fitness Routine: Ask about their workout routine and what motivates them to stay consistent.",
+        "2. Vegan Fitness: Inquire about their experience with vegan fitness and any tips they have for maintaining a healthy vegan diet while working out.",
+        "1. Yoga/Stretching: \"I noticed your post about stretching. Do you practice yoga often, and what are your favorite poses?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

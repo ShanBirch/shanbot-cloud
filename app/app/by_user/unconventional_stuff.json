@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T21:23:05.154653",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T21:22:46.253137",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up selfie of a woman with long brown hair and bangs. She is smiling slightly. Behind her, there is a brick wall with a sign that says \"Thirsty Thursdays.\" The post is a birthday celebration, as indicated by the caption.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of chopped vegetables, including zucchini, red onion, red bell peppers, and eggplant. The caption indicates the user is trying to incorporate more vegetables into their son's diet after he relied on noodles and pasta while at university. The hashtags include #vegan, #eatveggies, #vegancooking, #momlife, and #plantbased.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a close-up shot of a vegan salad. The salad contains spinach, tomatoes, cucumbers, yellow bell peppers, and what appears to be breaded vegan chicken, drizzled with a creamy sauce. The post is captioned with hashtags related to veganism and vegan food.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan food, including a red lentil pancake, a salad with red bell peppers and cucumbers, and what appears to be smoked tofu. The poster mentions the pancake was spicy.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a hand holding a green \"Edamummy\" bath bomb from Lush, shaped like peas in a pod, over a bathtub filling with water. The caption mentions it was a Mother's Day treat and highlights the vegan aspect.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a bowl of vegan \"chicken\" Kare from Wagamama, with rice, vegetables, and a lime wedge. The hashtags indicate a focus on veganism, plant-based eating, and dining out.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan cooking and recipe ideas: Ask for the recipe or share your favorite vegan recipes.",
+          "2. Parenting and food habits: Share relatable experiences about trying to get children to eat healthier.",
+          "1. **Vegan cooking/recipes:** Ask about the recipe for the vegan chicken or the creamy sauce. You could also ask for other vegan recipe recommendations.",
+          "2. **Veganism and health:** The post mentions nursing a cold with the salad. You could ask about their experience with veganism and its impact on their health and well-being.",
+          "1. Vegan/vegetarian cooking: Ask about other vegan recipes they enjoy or if they have any tips for making red lentil pancakes."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You looked great celebrating your birthday 🎉",
+        "profile_bio": {
+          "PERSON_NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan cooking and recipes",
+            "Plant-based eating",
+            "Parenting and healthy eating habits for children",
+            "Vegan beauty and self-care (Lush bath bombs)",
+            "Dining out at vegan-friendly restaurants"
+          ],
+          "LIFESTYLE": "Likely a mother focused on incorporating more plant-based meals into her family's diet. Enjoys cooking vegan food at home and exploring vegan options when dining out. Appears to value self-care and ethical consumption (vegan bath bombs). Possibly celebrates 'Thirsty Thursdays' occasionally.",
+          "CONVERSATION_STARTERS": [
+            "What are your favorite vegan recipes for picky eaters?",
+            "Do you have any tips for making red lentil pancakes?",
+            "What's your go-to vegan restaurant?",
+            "What are some of your favorite vegan beauty products?",
+            "How has veganism impacted your overall health and well-being?"
+          ],
+          "PERSONALITY_TRAITS": [
+            "Caring (concerned about her son's diet)",
+            "Creative (experimenting with vegan recipes)",
+            "Health-conscious (focused on plant-based eating)",
+            "Positive (smiling in her selfie, celebrating her birthday)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan cooking and recipe ideas: Ask for the recipe or share your favorite vegan recipes.",
+        "2. Parenting and food habits: Share relatable experiences about trying to get children to eat healthier.",
+        "1. **Vegan cooking/recipes:** Ask about the recipe for the vegan chicken or the creamy sauce. You could also ask for other vegan recipe recommendations.",
+        "2. **Veganism and health:** The post mentions nursing a cold with the salad. You could ask about their experience with veganism and its impact on their health and well-being.",
+        "1. Vegan/vegetarian cooking: Ask about other vegan recipes they enjoy or if they have any tips for making red lentil pancakes."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

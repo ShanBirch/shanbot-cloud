@@ -1,0 +1,61 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 2,
+      "user_messages": 1,
+      "ai_messages": 1,
+      "ai_questions": 0,
+      "ai_statements": 1,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-10T20:10:36.527996",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": "user",
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": true,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-09T02:31:25.750680+00:00",
+          "type": "user",
+          "text": "Ohhh... Thank you so much for your kind words... Blessings 🙏🌺 + Shannon: You're welcome! How's your day going? {{cuf_11967919}}  {{cuf_11967920}} Lead : I'm quite tired + Shannon: Oh really? What have you been up to today then? 😊 {{cuf_11967919}}  {{cuf_11967920}} Lead : I've been very busy. Thanks for asking... Everything's fine. + Shannon: Oh yeah okay, busy days happen! What sort of things have you been up to? 😊 {{cuf_11967919}}  {{cuf_11967920}} Lead : I'm an architect, and my job is stressful sometimes...\nand today I had to take my mother to the clinic because she's sick... but fortunately, everything is fine now. + Shannon: Oh wow architect! Sounds intense at times. And taking your mum to the clinic, that's a lot on your plate for one day.  Glad to hear she's okay now! Is architecture something you've always been into? Lead : I wanted to be a police officer but when I was 15 I realized that I wouldn't be one because I'm short, I'm 1.50m tall... then I wanted to study medicine because I was always a studious woman but there were family difficulties and I decided to work, study and I felt that I wanted to study something related to the arts and mathematical sciences... I am happy as an Architect + But I also like the performing arts, I am the director of two dance theater groups... I am an actress, I study ballet, I am a vegetarian... in short, a woman who loves to learn, to always study. + Shannon: Induleka, wow that's awesome you're into so many cool things! Architect, dance, theatre, ballet...  that's amazing! {{cuf_11967919}}  {{cuf_11967920}} Lead : ☺️ + Shannon: Induleka, that's awesome! What do you enjoy most about it all? {{cuf_11967919}}  {{cuf_11967920}} Lead : I like to be busy...I really like to study, learn, train...I'm also a runner, my goal is to run a marathon, I only managed 21 km. + Shannon: Marathon hey! That's awesome Induleka!  Have you been running long? {{cuf_11967919}}  {{cuf_11967920}} Lead : 07 Years + 😁 + Shannon: 7 years, that's solid dedication! How's the marathon training going? {{cuf_11967919}}  {{cuf_11967920}} Lead : For now, I only train twice a week, little by little... I'm sorry I can't talk more... I've really had a very difficult day... I'm tired... Good night... Blessings"
+        },
+        {
+          "timestamp": "2025-04-09T02:31:25.777426+00:00",
+          "type": "ai",
+          "text": ":)"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "induleka_dasi",
+      "user_responses_to_questions": 0,
+      "response_rate": 0.0,
+      "coaching_inquiries": 0,
+      "ai_detections": 0,
+      "first_message_timestamp": "2025-04-09T02:31:25.750680+00:00",
+      "last_message_timestamp": "2025-04-09T02:31:25.777426+00:00",
+      "last_seen_timestamp": "2025-04-09T02:31:25.777426+00:00",
+      "conversation_count": 1,
+      "conversation_duration_str": "0m",
+      "fitness_topic_user_initiated": false,
+      "fitness_topic_ai_initiated": false
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

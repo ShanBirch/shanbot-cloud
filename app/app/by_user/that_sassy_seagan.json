@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T17:40:57.671671",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T17:40:39.601215",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows two homemade pizzas on a wooden cutting board. The pizzas are topped with vegan cheese, meat-free chorizo, black olives, tomatoes, onions, and spinach. The pizzas look delicious and fresh.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan \"pulled pork\" style pieces with BBQ sauce, served with rice and peas, topped with fresh green chili. The post is tagged with hashtags related to veganism, Caribbean food, and BBQ.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two bowls of homemade butternut squash and chili soup, garnished with coriander, creamy fraiche (likely Oatly brand), and black pepper. The caption mentions it's a vegan dish.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a homemade vegan chocolate cake, dusted with powdered sugar. The caption indicates a recipe link is provided.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two bowls of seafood ramen (salmon and prawns) with extra vegetables, along with two glasses of Prosecco. It appears to be a home-cooked meal for two.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of pasta with chili pesto and vegetables, topped with rocket and avocado. The caption mentions a tortilla pizza with tomato puree, dairy-free cheese, and oregano. The hashtags indicate a vegan lifestyle and interest in vegan food.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan cooking/recipes: Ask about other favorite vegan recipes, particularly Caribbean-inspired ones.",
+          "2. BBQ sauce: Inquire about the type of BBQ sauce used in the dish or their favorite brands/homemade recipes.",
+          "1. Vegan cooking and recipes: Ask about other favorite vegan recipes or cooking tips.",
+          "2. Soup variations: Inquire about other soup recipes they enjoy, or ask for variations on the butternut squash soup they posted.",
+          "1. Vegan baking: Ask about other vegan baking recipes they enjoy or if they have any tips for vegan baking substitutions."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The pizzas looked so vibrant and tasty! 🍕",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Cooking & Baking",
+            "Caribbean Cuisine (Vegan)",
+            "Homemade Meals",
+            "Healthy Eating",
+            "Cooking for Two"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys cooking at home, experimenting with vegan recipes, and sharing meals with a partner. They seem to prioritize fresh, homemade food and enjoy both vegan and non-vegan dishes, indicating flexibility in their diet. They may be a home cook or food enthusiast.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite Caribbean-inspired vegan recipes?",
+            "What's your go-to BBQ sauce for vegan 'pulled pork'? Do you have a favorite brand or homemade recipe?",
+            "Do you have any tips for making vegan baking substitutions?",
+            "What other soup recipes do you enjoy, or do you have any variations on your butternut squash soup?",
+            "I noticed you enjoy both vegan and non-vegan dishes. What are some of your favorite meals to cook for yourself and your partner?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Passionate about food",
+            "Health-conscious",
+            "Enthusiastic"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan cooking/recipes: Ask about other favorite vegan recipes, particularly Caribbean-inspired ones.",
+        "2. BBQ sauce: Inquire about the type of BBQ sauce used in the dish or their favorite brands/homemade recipes.",
+        "1. Vegan cooking and recipes: Ask about other favorite vegan recipes or cooking tips.",
+        "2. Soup variations: Inquire about other soup recipes they enjoy, or ask for variations on the butternut squash soup they posted.",
+        "1. Vegan baking: Ask about other vegan baking recipes they enjoy or if they have any tips for vegan baking substitutions."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

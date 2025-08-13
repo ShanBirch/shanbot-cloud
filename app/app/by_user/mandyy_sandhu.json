@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T10:47:40.101956",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T10:47:22.320530",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post by mandyy_sandhu. It features Mandy standing on a beach with waves lapping at her feet. She is wearing a striped blue and white bikini and sunglasses. The background shows a beach landscape with trees and a cloudy sky.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, mandyy_sandhu, in a gym setting. She is holding dumbbells and smiling. The background includes gym equipment.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (mandyy_sandhu) walking on a driveway in front of a black Jeep Wrangler. She's wearing a patterned dress with a high slit.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in a bikini taking a mirror selfie. She appears to be in good physical shape and has tattoos on her arms and chest. The caption emphasizes discipline, persistence, and hard work in achieving her physique.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (mandyy_sandhu) taking a selfie in a gym. She is wearing workout clothes and is surrounded by gym equipment.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (mandyy_sandhu) standing in what appears to be a home gym. There's a weight rack and other gym equipment visible in the background. She is wearing a tube top and denim shorts and has tattoos on her arms and chest.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Fitness/Weightlifting: You could ask about her workout routine, her favorite exercises, or her fitness goals.",
+          "2. The quote in her caption: You could ask her more about what the quote \"My happiness starts here and ends here\" means to her.",
+          "1.  **The Jeep Wrangler:** \"That's a great looking Jeep! Do you enjoy off-roading?\" (This acknowledges the vehicle and opens a conversation about outdoor activities.)",
+          "2.  **Her Caption:** Her caption mentions \"training\" and not taming the wild. Could ask about her training regime.",
+          "1. Fitness/Workout routines: Given the context of the post and the woman's physique, asking about her workout routine, favorite exercises, or fitness journey could be a good conversation starter."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The beach looked so relaxing 🌊",
+        "profile_bio": {
+          "PERSON NAME": "Mandy Sandhu",
+          "INTERESTS": [
+            "Fitness/Weightlifting",
+            "Beach/Travel",
+            "Fashion (specifically dresses and swimwear)",
+            "Automobiles (Jeep Wrangler)",
+            "Self-Improvement/Discipline"
+          ],
+          "LIFESTYLE": "Appears to be a fitness enthusiast who dedicates time to working out, both at a gym and at home. Enjoys spending time at the beach and showcasing her physique. Owns a Jeep Wrangler, suggesting an interest in outdoor activities. Values discipline and hard work in achieving her goals.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite exercise or workout routine?",
+            "What does the quote 'My happiness starts here and ends here' mean to you?",
+            "That's a great looking Jeep! Do you enjoy off-roading?",
+            "Your caption mentions 'training' - can you tell me more about your training regime?",
+            "What are your fitness goals, and what motivates you to stay disciplined?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Disciplined",
+            "Confident",
+            "Hardworking",
+            "Active"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Fitness/Weightlifting: You could ask about her workout routine, her favorite exercises, or her fitness goals.",
+        "2. The quote in her caption: You could ask her more about what the quote \"My happiness starts here and ends here\" means to her.",
+        "1.  **The Jeep Wrangler:** \"That's a great looking Jeep! Do you enjoy off-roading?\" (This acknowledges the vehicle and opens a conversation about outdoor activities.)",
+        "2.  **Her Caption:** Her caption mentions \"training\" and not taming the wild. Could ask about her training regime.",
+        "1. Fitness/Workout routines: Given the context of the post and the woman's physique, asking about her workout routine, favorite exercises, or fitness journey could be a good conversation starter."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

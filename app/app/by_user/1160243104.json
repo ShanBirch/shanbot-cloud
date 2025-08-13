@@ -1,0 +1,12 @@
+{
+  "subscriber_id": "1160243104",
+  "conversations": [],
+  "metrics": {
+    "total_messages": 0,
+    "ai_questions": 0,
+    "user_responses": 0,
+    "coaching_inquiries": 0,
+    "ai_detections": 0,
+    "missing_fields": []
+  }
+}

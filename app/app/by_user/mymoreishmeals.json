@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T13:47:02.519635",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T13:46:44.319417",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a slice of pumpkin pie topped with whipped cream on a white paper plate. A wooden utensil is stuck into the whipped cream. The background features a variety of pumpkins, some in a wooden crate. The overall scene has an autumnal, harvest-themed feel.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a bowl of ramen with noodles, grilled chicken, vegetables, and broth. Chopsticks are placed across the top of the bowl.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a cup of mac and cheese topped with mushrooms, held in someone's hand. The background shows a festival setting with tents and flags. The caption says \"Festival food is back bby!\" and the location is tagged as \"Tramlines\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person holding a bowl made from a coconut shell filled with what appears to be frozen coconut dessert (\"froconut\") topped with various ingredients like dried fruit and honeycomb. The caption mentions \"river swim.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a bowl of \"Alpine Mac and Cheese\" from Bristol Street Food Market. It features macaroni and cheese topped with what appears to be sliced sausage, crispy fried onions, and chopped chives.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a charcuterie board with various cheeses, crackers, fruits, vegetables, and olives. The post caption mentions \"cocktails and nibbly bits,\" suggesting it's meant to be enjoyed with drinks.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Ramen Recipes/Cooking:** Ask about their favorite ramen recipes, ingredients, or cooking techniques.",
+          "2.  **Autumn Food:** Since the caption mentions autumn, you could ask about other seasonal foods they enjoy during the fall.",
+          "1. **Festival Food:** Ask about other festival foods they've enjoyed or are looking forward to trying.",
+          "2. **Tramlines Festival:** Inquire about their experience at Tramlines, asking about their favorite acts or moments.",
+          "1.  **The \"froconut\" itself:** Ask about the specific ingredients or the recipe. Inquire about other interesting dessert combinations they enjoy."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Food Festivals & Street Food",
+            "Comfort Food (Mac & Cheese, Ramen, Pie)",
+            "Seasonal Eating (Autumn/Harvest Foods)",
+            "Desserts (Especially Unique Combinations)",
+            "Charcuterie & Appetizers"
+          ],
+          "LIFESTYLE": "Appears to enjoy attending food festivals and outdoor events. Likely enjoys cooking or trying new restaurants. Seems to have a social lifestyle, enjoying food with friends and cocktails. Enjoys outdoor activities like river swimming.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite ramen recipes or ingredients you like to use?",
+            "Besides pumpkin pie, what other autumn foods are you looking forward to this season?",
+            "What other festival foods have you enjoyed, or are you looking forward to trying at future events?",
+            "What were some of your favorite acts or moments at Tramlines Festival?",
+            "That 'froconut' looks amazing! What are some of the ingredients you used, and what other interesting dessert combinations do you enjoy?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous (willing to try new foods and combinations)",
+            "Social (enjoys sharing food and experiences with others)",
+            "Enthusiastic (expresses excitement about food and festivals)",
+            "Appreciative of aesthetics (presents food in visually appealing ways)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Ramen Recipes/Cooking:** Ask about their favorite ramen recipes, ingredients, or cooking techniques.",
+        "2.  **Autumn Food:** Since the caption mentions autumn, you could ask about other seasonal foods they enjoy during the fall.",
+        "1. **Festival Food:** Ask about other festival foods they've enjoyed or are looking forward to trying.",
+        "2. **Tramlines Festival:** Inquire about their experience at Tramlines, asking about their favorite acts or moments.",
+        "1.  **The \"froconut\" itself:** Ask about the specific ingredients or the recipe. Inquire about other interesting dessert combinations they enjoy."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

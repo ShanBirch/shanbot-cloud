@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T19:36:02.191595",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T19:35:40.250977",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a flat bagel cut into four pieces, arranged on a wooden cutting board. The bagel is topped with chipotle hummus, red onions, red pepper, air-fried portobello mushroom, and lettuce. The bagel itself appears to be an everything bagel, covered in seeds.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan nachos from Nooch A Vegan Eatery. The nachos are topped with lettuce, tomatoes, green onions, jalapeños, and a creamy sauce.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a lentil salad with smashed potatoes, topped with mushrooms, onions, and celery. The hashtags #vegan and #plantbased are also included in the caption.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan pecan salad with lettuce, tomatoes, olives, pecans, and a creamy dressing. The hashtags #vegan and #plantbased are included in the caption.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a vegan lunch consisting of jasmine rice mixed with kale slaw, corn, and black beans. The post is tagged with #vegan and #plantbased.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a black bean quesadilla, filled with various vegetables, on a white plate. The post is tagged with #vegan and #plantbased.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Vegan food and restaurants:** Since the post is about vegan nachos from a vegan eatery, you could ask about their favorite vegan restaurants or dishes.",
+          "2. **Nooch A Vegan Eatery:** You could ask about their experience at Nooch A Vegan Eatery, or if they have any other recommendations from that restaurant.",
+          "1. Vegan/Plant-based cooking: Discussing favorite vegan recipes, cooking tips, or plant-based restaurants.",
+          "2. Lentil salad variations: Asking about other ingredients or dressings that could be added to the lentil salad.",
+          "1. Vegan/Plant-based recipes: Discussing other favorite vegan recipes or ingredients, asking for recommendations, or sharing tips for plant-based cooking."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That bagel looked super delicious 🤤.",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: plantifulmissy)",
+          "INTERESTS": [
+            "Vegan Food",
+            "Plant-Based Cooking",
+            "Healthy Eating",
+            "Vegan Restaurants",
+            "Experimenting with Recipes"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys cooking and eating vegan/plant-based meals. They seem to actively seek out vegan restaurants and create their own plant-based dishes at home. They are likely health-conscious and interested in sharing their food experiences with others.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite vegan restaurants in the area?",
+            "Do you have any tips for making a really flavorful lentil salad?",
+            "What's your go-to vegan comfort food recipe?",
+            "Have you tried any other dishes at Nooch A Vegan Eatery that you would recommend?",
+            "What are some of your favorite ingredients to use in plant-based cooking?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (with food)",
+            "Health-conscious",
+            "Enthusiastic (about vegan food)",
+            "Sharing (willing to share their food experiences)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Vegan food and restaurants:** Since the post is about vegan nachos from a vegan eatery, you could ask about their favorite vegan restaurants or dishes.",
+        "2. **Nooch A Vegan Eatery:** You could ask about their experience at Nooch A Vegan Eatery, or if they have any other recommendations from that restaurant.",
+        "1. Vegan/Plant-based cooking: Discussing favorite vegan recipes, cooking tips, or plant-based restaurants.",
+        "2. Lentil salad variations: Asking about other ingredients or dressings that could be added to the lentil salad.",
+        "1. Vegan/Plant-based recipes: Discussing other favorite vegan recipes or ingredients, asking for recommendations, or sharing tips for plant-based cooking."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

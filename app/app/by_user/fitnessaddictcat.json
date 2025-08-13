@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T10:50:30.195774",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T10:50:12.033191",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a selfie taken by a woman in a gym bathroom. She is wearing a black sports bra and black Gymshark shorts. She is posing with one hand on her hip, showing off her arm muscles. Her hair is pulled back, and she is wearing a watch and bracelets. The background shows a mirror, a door, and tiled walls.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in a bikini posing in three different angles (front, back, side). The post's caption discusses her fitness journey, including tracking her food and water intake, focusing on mental health, and preparing for a competition in Nashville in August. She also mentions being vegan.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group photo of people on a stage, likely after a fitness workshop or event at the @michigannpc. The caption thanks everyone who helped. The hashtags indicate a focus on fitness, veganism, weightlifting, and a healthy lifestyle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in a gym, taking a selfie. She is wearing workout clothes and appears to be in good shape. The background shows various gym equipment. The caption discusses consistency and being proud of one's journey.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in workout clothes at a gym, taking a selfie. There are weights and gym equipment in the background. Her hashtags include #veganfit and #vegan.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a baby in a yellow inflatable ring in a swimming pool. The post caption asks what song gets you pumped up for a lift, and the hashtags include fitness-related terms, as well as \"vegan.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Nashville Competition:** Ask about the specific type of competition she's preparing for in Nashville.",
+          "2. **Vegan Fitness:** Inquire about her experience with veganism and how it supports her fitness goals.",
+          "1.  **The @michigannpc workshop:** Ask about the specific activities or topics covered in the workshop.",
+          "2.  **Vegan fitness:** Inquire about their experience with vegan fitness and any tips or challenges they've encountered.",
+          "1. Vegan fitness: The user includes hashtags like #veganfit and #veganathlete, indicating an interest in veganism and its connection to fitness. Asking about their favorite vegan protein sources or vegan recipes for muscle building could be a good conversation starter."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You looked like you were feeling yourself 💪",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Fitness",
+            "Weightlifting",
+            "Fitness Competitions (specifically in Nashville)",
+            "Healthy Lifestyle",
+            "Mental Wellness"
+          ],
+          "LIFESTYLE": "Likely a fitness enthusiast and competitor who follows a vegan lifestyle. Actively involved in the fitness community, possibly leading or participating in workshops. Dedicated to consistent training and tracking progress. Appears to balance fitness with family life (as indicated by the baby photo).",
+          "CONVERSATION STARTERS": [
+            "What type of competition are you preparing for in Nashville this August?",
+            "As a vegan athlete, what are your favorite vegan protein sources and recipes for muscle building?",
+            "What were some of the key takeaways or activities from the @michigannpc workshop you attended?",
+            "What are some of the biggest challenges you've faced and overcome on your vegan fitness journey?",
+            "What song gets you pumped up for a lift?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated",
+            "Motivated",
+            "Community-oriented",
+            "Positive"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Nashville Competition:** Ask about the specific type of competition she's preparing for in Nashville.",
+        "2. **Vegan Fitness:** Inquire about her experience with veganism and how it supports her fitness goals.",
+        "1.  **The @michigannpc workshop:** Ask about the specific activities or topics covered in the workshop.",
+        "2.  **Vegan fitness:** Inquire about their experience with vegan fitness and any tips or challenges they've encountered.",
+        "1. Vegan fitness: The user includes hashtags like #veganfit and #veganathlete, indicating an interest in veganism and its connection to fitness. Asking about their favorite vegan protein sources or vegan recipes for muscle building could be a good conversation starter."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

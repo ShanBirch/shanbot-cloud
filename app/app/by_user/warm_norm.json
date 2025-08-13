@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T00:05:47.495679",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T00:05:29.061841",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a video still from Instagram user warm_norm's post. It shows a landscape at sunrise or sunset, with a bright sun shining over a grassy field and a white building or cliffside in the background. The light is golden and creates a warm, hazy atmosphere. The caption includes hashtags like #sunrise, #sunshine, and #sevensisterscliffs, suggesting the location is the Seven Sisters cliffs.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a sunrise photo with text overlay promoting enjoying the sunrise and getting involved in environmental activities. The post also mentions a website and social media pages related to environmentalism.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a scenic view of the Seven Sisters cliffs at dusk or early evening, with the text \"Soak Up the Moonlight\" and \"Early Evening\". The post promotes the website bhassexplore.com, which focuses on environmental efforts for a cleaner planet, specifically removing marine debris and plastic trash.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by \"warm_norm\" promoting beach cleaning and environmental awareness. The post features text overlayed on a beach scene, encouraging people to enjoy the weekend, clean up trash, and join environmental initiatives.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man standing next to a road sign that says \"Alternative\" with a parking symbol. The caption mentions \"What Are We Doing To Our Planet\" and #greensockmovement.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post promoting beach cleanups and wildlife habitat cleanups. It features a video or image of a beach, and the caption includes information about the organization behind the cleanups, their website, and related social media accounts.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Environmental volunteering/Green Sock Movement:** The post heavily promotes environmental activities and mentions the Green Sock Movement. You could ask about their experience volunteering or inquire about specific projects they're involved in.",
+          "2.  **Sunrise photography/appreciation:** The image is a sunrise. You could ask about their favorite places to watch the sunrise or share your own experiences with sunrise photography.",
+          "1. **Environmental Conservation:** Discuss their work with bhassexplore.com and their efforts to remove marine debris and plastic trash. You could ask about specific projects they're working on or challenges they face.",
+          "2. **Travel/Photography:** Comment on the beauty of the Seven Sisters cliffs and ask if they often visit the area for photography or leisure. You could also ask about other favorite coastal locations they enjoy.",
+          "1.  **Beach Cleaning/Environmentalism:** You could ask about their experiences with beach cleanups, their favorite environmental organizations, or discuss local environmental issues."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post looked so peaceful, what a beautiful sunrise! ☀️",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Environmental Conservation",
+            "Sunrise/Sunset Photography",
+            "Beach Cleaning & Marine Debris Removal",
+            "The Seven Sisters Cliffs (and coastal landscapes in general)",
+            "Environmental Activism/Volunteering"
+          ],
+          "LIFESTYLE": "Likely an environmentally conscious individual who enjoys spending time outdoors, particularly near the coast. They are actively involved in environmental cleanup efforts and promoting awareness. They may be a photographer or simply enjoy capturing the beauty of nature, especially sunrises and sunsets. They are likely a volunteer or supporter of environmental organizations.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about the Seven Sisters cliffs - have you been there often? What's your favorite time of day to visit?",
+            "Your photos of sunrises are beautiful! What's your favorite spot to watch the sunrise?",
+            "I'm really interested in environmental conservation too. What got you involved in beach cleanups and marine debris removal?",
+            "I noticed you mentioned bhassexplore.com. What kind of projects are you currently working on with them?",
+            "I saw your post about the Green Sock Movement. Can you tell me more about that and how I can get involved?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate",
+            "Environmentally Conscious",
+            "Active",
+            "Appreciative of Nature"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Environmental volunteering/Green Sock Movement:** The post heavily promotes environmental activities and mentions the Green Sock Movement. You could ask about their experience volunteering or inquire about specific projects they're involved in.",
+        "2.  **Sunrise photography/appreciation:** The image is a sunrise. You could ask about their favorite places to watch the sunrise or share your own experiences with sunrise photography.",
+        "1. **Environmental Conservation:** Discuss their work with bhassexplore.com and their efforts to remove marine debris and plastic trash. You could ask about specific projects they're working on or challenges they face.",
+        "2. **Travel/Photography:** Comment on the beauty of the Seven Sisters cliffs and ask if they often visit the area for photography or leisure. You could also ask about other favorite coastal locations they enjoy.",
+        "1.  **Beach Cleaning/Environmentalism:** You could ask about their experiences with beach cleanups, their favorite environmental organizations, or discuss local environmental issues."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

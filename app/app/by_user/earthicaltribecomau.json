@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T23:12:22.379556",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T23:12:03.466461",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of pink blossoms on a tree branch. The blossoms are vibrant and fill the frame, with a soft, blurred background. Text overlayed on the image reads \"Spring is a lovely reminder of how beautiful change can truly be.\" The Earthical Tribe logo is visible in the top left corner.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a post from earthicaltribe.com.au on Instagram, listing various mental health support services in Australia, including Lifeline, Sane Australia, Beyond Blue, Suicide Call Back Service, Kids Helpline, Headspace, Parentline, MensLine Australia, Open Arms, Safe Steps, and OCD and Anxiety Helpline. The post also includes a caption discussing the impact of lockdowns and uncertainty on mental health, quoting a psychologist.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person outdoors in an autumnal setting, reaching up towards a tree with golden leaves. They are wearing a dark outfit and carrying a tote bag with the word \"VEGAN\" printed on it.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from earthicaltribe.com.au advertising their ethical vegan clothing. It features a couple wearing t-shirts and carrying tote bags with vegan-related slogans. The post also highlights the brand's commitment to no sweat shops, animal cruelty-free practices, and donating a portion of profits to animal rescue.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a tree with its leaves shaped like a heart, set in a field of green grass and small white flowers. The sky is visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a sunny landscape with a green field and a blue sky with clouds. The text \"2021 is on\" is superimposed on the image. The post reflects on the challenges of 2020 and looks forward to 2021 with hope and a focus on resilience and gratitude.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Mental health and well-being:** Given the post's focus on mental health resources and the impact of current events on mental well-being, you could initiate a conversation about strategies for coping with stress and anxiety, or discuss the importance of seeking help when needed.",
+          "2. **Community support:** The post highlights various support services. You could ask about their experience with these services or other community initiatives they find helpful.",
+          "1. Veganism: Given the prominent \"VEGAN\" tote bag, a conversation could be started about their favorite vegan recipes, restaurants, or ethical considerations related to veganism.",
+          "2. Appreciation for Nature/Autumn: The image captures a beautiful autumn scene. One could comment on the beauty of the season and ask about their favorite outdoor activities during autumn or their favorite places to experience fall foliage.",
+          "1.  Veganism/Plant-based lifestyle: Since the image and the brand are heavily focused on veganism, asking about their favorite vegan recipes, restaurants, or resources could be a good conversation starter."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The blossoms looked so pretty 🌸",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Uses brand name 'Earthical Tribe')",
+          "INTERESTS": [
+            "Veganism and Ethical Living",
+            "Mental Health and Well-being",
+            "Nature and Environmentalism",
+            "Community Support",
+            "Positive Change and Resilience"
+          ],
+          "LIFESTYLE": "Likely involved in the ethical fashion industry, promoting veganism and mental well-being through their brand. Appears to value spending time outdoors and appreciating nature. Actively promotes mental health resources and community support.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite vegan recipes or restaurants?",
+            "What are some effective strategies you use for managing stress and anxiety?",
+            "What are some of your favorite outdoor activities, especially during the autumn season?",
+            "What community support initiatives do you find particularly helpful or impactful?",
+            "What are some small changes people can make to live more ethically and sustainably?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Compassionate",
+            "Environmentally Conscious",
+            "Supportive",
+            "Positive and Hopeful"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Mental health and well-being:** Given the post's focus on mental health resources and the impact of current events on mental well-being, you could initiate a conversation about strategies for coping with stress and anxiety, or discuss the importance of seeking help when needed.",
+        "2. **Community support:** The post highlights various support services. You could ask about their experience with these services or other community initiatives they find helpful.",
+        "1. Veganism: Given the prominent \"VEGAN\" tote bag, a conversation could be started about their favorite vegan recipes, restaurants, or ethical considerations related to veganism.",
+        "2. Appreciation for Nature/Autumn: The image captures a beautiful autumn scene. One could comment on the beauty of the season and ask about their favorite outdoor activities during autumn or their favorite places to experience fall foliage.",
+        "1.  Veganism/Plant-based lifestyle: Since the image and the brand are heavily focused on veganism, asking about their favorite vegan recipes, restaurants, or resources could be a good conversation starter."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

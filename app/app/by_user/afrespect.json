@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T19:48:25.505770",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T19:48:06.222637",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by afrespect features a black and white image of Bob Marley looking at a book or paper. The text above him reads, \"Knowledge isn't free,\" and the text below him reads, \"You have to pay attention.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image features a motivational quote \"Winners find a way, losers find an excuse\" with a picture of Dwayne \"The Rock\" Johnson and another man, both smiling. The post's caption encourages followers to follow the poster on Facebook for tips on saving money, paying off debt, investing, and building wealth.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a meme featuring a man with a distinctive hairstyle and beard. The text overlay reads, \"I'M CUT FROM A DIFFERENT CLOTH AND THEY DON'T MAKE THE FABRIC ANYMORE.\" The post promotes following the user on Facebook for financial advice.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a meme featuring a woman wearing sunglasses with the text \"DO WHAT OTHERS REFUSE TO DO\". The post caption encourages followers to follow the poster on Facebook for tips on saving money, paying off debt, investing, and building wealth.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a meme featuring Regina King holding an Oscar. The text overlay reads \"You turn up, I earn up. You gossip, I boss up.\" The post's caption mentions tips on saving money, paying off debt, investing, and building wealth.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a picture with the text \"Rich people plan for four generations. Poor people plan for Saturday night.\" It appears to feature a younger and older person, possibly representing the different generations. The user's caption mentions saving money, paying off debt, investing, and building wealth.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Financial goals/investing: Given the caption's focus on finance, asking about their personal financial goals or sharing investment strategies could be a relevant conversation starter.",
+          "2. Motivation and success: The image's motivational theme provides an opening to discuss personal definitions of success or strategies for overcoming challenges. You could ask about a time they had to \"find a way\" to achieve something.",
+          "1. Financial Advice: The user explicitly promotes financial advice on their Facebook page. Asking about a specific tip or strategy they mentioned could initiate a conversation.",
+          "2. Personal Style: Commenting on the man's unique hairstyle and beard could be a lighthearted way to engage, perhaps asking about his grooming routine or inspiration.",
+          "1. Financial goals: Given the post's focus on wealth building, asking about the person's financial goals or current investment strategies could spark a conversation."
+        ],
+        "generated_comment": "Hey! Just was having a little stalk! That Bob Marley post was so true! 💯",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Finance (Saving, Debt Reduction, Investing, Wealth Building)",
+            "Motivation and Success",
+            "Personal Development",
+            "Entrepreneurship (Implied through wealth building)",
+            "Black Culture (Implied through use of Bob Marley, Dwayne Johnson, Regina King)"
+          ],
+          "LIFESTYLE": "Likely someone interested in self-improvement and financial independence. They are probably actively working towards building wealth and may be interested in sharing their knowledge or learning from others. Their lifestyle likely involves reading, learning, and seeking out motivational content. They may be an entrepreneur or aspiring entrepreneur.",
+          "CONVERSATION STARTERS": [
+            "What are your top 3 financial goals for the next 5 years?",
+            "What's the biggest challenge you've overcome to achieve a goal, and how did you 'find a way'?",
+            "I saw you mentioned financial advice on your Facebook page. What's one tip you think is most crucial for young adults starting out?",
+            "I noticed the post about planning for generations. What are some concrete steps you're taking to build a legacy for future generations?",
+            "What does success mean to you personally, and how are you measuring your progress towards it?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven/Ambitious",
+            "Motivational/Inspirational",
+            "Knowledge-Seeking",
+            "Confident/Self-Assured"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Financial goals/investing: Given the caption's focus on finance, asking about their personal financial goals or sharing investment strategies could be a relevant conversation starter.",
+        "2. Motivation and success: The image's motivational theme provides an opening to discuss personal definitions of success or strategies for overcoming challenges. You could ask about a time they had to \"find a way\" to achieve something.",
+        "1. Financial Advice: The user explicitly promotes financial advice on their Facebook page. Asking about a specific tip or strategy they mentioned could initiate a conversation.",
+        "2. Personal Style: Commenting on the man's unique hairstyle and beard could be a lighthearted way to engage, perhaps asking about his grooming routine or inspiration.",
+        "1. Financial goals: Given the post's focus on wealth building, asking about the person's financial goals or current investment strategies could spark a conversation."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T09:05:59.479218",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T09:05:37.689420",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of greenery, likely taken outdoors. The focus is on small, light-colored flowers or leaves, with taller green plants blurred in the background. The overall impression is fresh and summery, aligning with the hashtags used in the post.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a cup of coffee with a spoon in it, surrounded by dried wheat stalks. The overall aesthetic is warm, cozy, and has a bohemian/Nordic vibe.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person crafting a DIY project using wooden spoons and a glass jar. There are also other decorative items like woven mats and a rope knot visible. The post is tagged with hashtags related to DIY, home decor, Scandinavian design, and interior design.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows an Instagram post by \"kreativ.geschnatter\" featuring home decor, including vases, and a Christmas tree. The post also mentions a song and asks if others have it stuck in their head.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two wooden decorative items that resemble artichokes or lotus flowers, likely DIY projects made from wooden spoons. They are surrounded by dried grasses, suggesting a cozy, natural, and Scandinavian-inspired aesthetic.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of Pad Thai in front of a decorated Christmas tree. The post mentions trying a recipe from @zuckerjagdwurst and includes hashtags like #padthai, #veganerezepte, #weihnachtsbaum, and #instafood.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Coffee Preferences:** Ask about their favorite type of coffee or how they like to prepare it.",
+          "2.  **Bohemian/Nordic Decor:** Inquire about their interest in bohemian or Nordic interior design, perhaps asking about their favorite elements or pieces in their home.",
+          "1. **DIY projects:** Ask about other DIY projects they've worked on or are planning to do.",
+          "2. **Interior design:** Inquire about their favorite interior design styles or elements.",
+          "1.  **Home Decor:** Discussing their decorating style (Scandinavian, Hygge) and asking about their favorite decor pieces or tips."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The greenery looked so fresh and vibrant! 🌿",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "DIY Projects & Crafting",
+            "Scandinavian/Nordic Interior Design",
+            "Home Decor (especially with natural elements)",
+            "Vegan Food & Cooking (especially Pad Thai)",
+            "Cozy & Bohemian Aesthetics"
+          ],
+          "LIFESTYLE": "Likely enjoys a creative and cozy lifestyle focused on home decor, DIY projects, and plant-based cooking. Possibly works from home or has a significant amount of free time dedicated to these hobbies. Appears to appreciate a connection with nature and a relaxed, aesthetically pleasing environment.",
+          "CONVERSATION STARTERS": [
+            "I love your DIY wooden spoon projects! What inspired you to create those?",
+            "Your home decor has such a lovely Scandinavian vibe. What are your favorite elements of that style?",
+            "That Pad Thai looks delicious! Do you have any other favorite vegan recipes you'd recommend?",
+            "I'm also a big fan of incorporating natural elements into my home decor. What are some of your go-to pieces?",
+            "What's your favorite type of coffee and how do you usually prepare it?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Cozy/Hygge-loving",
+            "Nature-oriented",
+            "Aesthetic-minded"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Coffee Preferences:** Ask about their favorite type of coffee or how they like to prepare it.",
+        "2.  **Bohemian/Nordic Decor:** Inquire about their interest in bohemian or Nordic interior design, perhaps asking about their favorite elements or pieces in their home.",
+        "1. **DIY projects:** Ask about other DIY projects they've worked on or are planning to do.",
+        "2. **Interior design:** Inquire about their favorite interior design styles or elements.",
+        "1.  **Home Decor:** Discussing their decorating style (Scandinavian, Hygge) and asking about their favorite decor pieces or tips."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

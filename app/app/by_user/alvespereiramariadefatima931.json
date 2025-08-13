@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T09:37:45.766776",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T09:37:28.930436",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by alvespereiramariadefatima931. The post is a video from TikTok, featuring a lush, green landscape, possibly a forest or jungle, with a dirt path visible. It appears to be raining or drizzling. The TikTok logo and username @graciana15b are visible on the video. Text overlayed on the video reads \"na sua vida.\" The post has 75 views and was posted on March 4, 2021. There are no comments on the post yet.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a video post on Instagram featuring a TikTok video with a religious theme. It shows an open book (likely a Bible) with text in Portuguese that translates to \"Happy is the nation whose God is the Lord.\" The video also includes imagery of light rays and birds flying upwards.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a young girl with her hands clasped in what appears to be prayer. Superimposed on the image is the text \"JÁ FALOU COM JESUS HOJE?\" which translates to \"HAVE YOU SPOKEN TO JESUS TODAY?\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a religious post in Portuguese that says \"Jesus Cristo, O Único e Suficiente Salvador! A Ele Toda a Glória!\" which translates to \"Jesus Christ, The Only and Sufficient Savior! To Him All the Glory!\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a landscape photo of a canyon at sunrise, with a person standing on the edge of a cliff. The text overlay in Portuguese translates to \"I will say to the Lord, He is my refuge and my fortress, my God, in whom I trust. (Psalms 91:2)\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a quote from Billy Graham in Portuguese about the importance of the Bible for spiritual growth. It features a picture of Billy Graham and an open Bible.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Religion/Faith:** The post is clearly religious in nature. You could ask about their faith, what the verse means to them, or their favorite religious texts.",
+          "2.  **Portuguese Language/Culture:** The text is in Portuguese. You could ask if they speak Portuguese, if they are from Portugal or Brazil, or about their favorite aspects of Portuguese culture.",
+          "1.  **Religion/Faith:** The image clearly indicates a religious interest. You could ask about their beliefs, favorite religious texts, or how their faith influences their life.",
+          "2.  **Family/Children:** The image features a child, suggesting an interest in family or children. You could ask if they have children or grandchildren and share a positive anecdote about kids.",
+          "1.  Religious beliefs and faith. You could ask about their personal connection to the message or their favorite religious texts/teachings."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The scenery looked so peaceful 😌",
+        "profile_bio": {
+          "PERSON NAME": "Maria de Fátima Alves Pereira",
+          "INTERESTS": [
+            "Christian Faith/Religion",
+            "Portuguese Language and Culture",
+            "Nature and Landscapes",
+            "Family/Children",
+            "Inspirational Quotes"
+          ],
+          "LIFESTYLE": "Likely someone who finds solace and inspiration in their faith and nature. They seem to value family and share religious content online. Their profession is unknown, but their online activity suggests a focus on spirituality and sharing positive messages.",
+          "CONVERSATION STARTERS": [
+            "What does the verse from Psalms 91:2 mean to you personally?",
+            "What are some of your favorite aspects of Portuguese culture?",
+            "Do you have any children or grandchildren? I love hearing stories about kids!",
+            "What are some of your favorite passages or teachings from the Bible?",
+            "What do you find most inspiring about nature and landscapes?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Spiritual",
+            "Family-oriented",
+            "Positive/Inspirational",
+            "Contemplative"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Religion/Faith:** The post is clearly religious in nature. You could ask about their faith, what the verse means to them, or their favorite religious texts.",
+        "2.  **Portuguese Language/Culture:** The text is in Portuguese. You could ask if they speak Portuguese, if they are from Portugal or Brazil, or about their favorite aspects of Portuguese culture.",
+        "1.  **Religion/Faith:** The image clearly indicates a religious interest. You could ask about their beliefs, favorite religious texts, or how their faith influences their life.",
+        "2.  **Family/Children:** The image features a child, suggesting an interest in family or children. You could ask if they have children or grandchildren and share a positive anecdote about kids.",
+        "1.  Religious beliefs and faith. You could ask about their personal connection to the message or their favorite religious texts/teachings."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

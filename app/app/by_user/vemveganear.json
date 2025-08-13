@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T17:34:05.574014",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T17:33:47.089451",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a rectangular vegan pizza on a baking sheet. The pizza has a golden-brown crust and is topped with tomato sauce, cherry tomatoes cut in half, fresh arugula, and what appears to be vegan feta cheese. A pizza cutter is visible next to the pizza.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of several small, golden-brown pastries topped with sesame seeds, sitting in white paper liners. The pastries appear to be vegan, based on the hashtags used in the post.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of vegan pastries (pastéis) and vegan pizza (pão pizza) being sold at what appears to be a fair or market. There are signs indicating the ingredients and prices.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two baked pizza rolls or stuffed bread loaves. A handwritten sign lists ingredients in Portuguese, including \"Massa Pizza, Molho Tomate, Sabor Mozzarella.\" The hashtags indicate it is a vegan recipe.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two types of vegan cake: one is a chocolate swirl loaf, and the other is a blueberry cake. A sign in the background lists ingredients, indicating they are selling these baked goods. The hashtags in the post also indicate it is vegan, bio/organic, and from Portugal.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a variety of vegan pastries and savory snacks at a food stand in Coimbra, Portugal. There are \"Pão Pizza Mozzarella\", \"Pão Pizza Tofu Fumado\", \"Pastéis\" and \"Empada de Legumes c/ Tofu\" (vegetable and tofu pies) on display with price tags.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan baking/cooking: \"I saw your post about the vegan pastries. Do you have any other favorite vegan baking recipes you'd be willing to share?\"",
+          "2. Location (Coimbra, Portugal): \"I noticed you're located in Coimbra. I've always wanted to visit Portugal. What are some of your favorite vegan-friendly restaurants or cafes in the area?\"",
+          "1. Vegan baking/cooking: Ask about their favorite vegan baking tips or recipes.",
+          "2. Local food scene in Coimbra, Portugal: Inquire about other vegan-friendly places or markets in the Coimbra area.",
+          "1. Vegan baking: \"I saw your vegan pizza rolls! I've been trying to get into vegan baking myself. Do you have any tips for working with vegan dough?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post of the pizza looked so fresh and delicious! 🍕",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan baking",
+            "Vegan cooking",
+            "Portuguese cuisine (veganized)",
+            "Local food markets/fairs",
+            "Organic/Bio food"
+          ],
+          "LIFESTYLE": "Likely a vegan baker/cook who sells their creations at local markets or fairs in Coimbra, Portugal. They seem passionate about creating and sharing vegan versions of traditional Portuguese pastries and savory snacks. Possibly a small business owner or hobbyist.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite vegan ingredients to work with when baking?",
+            "Could you share some tips for making a great vegan pizza crust?",
+            "What are some other vegan-friendly places or markets you recommend in the Coimbra area?",
+            "What inspired you to start creating vegan versions of traditional Portuguese pastries?",
+            "Do you have any plans to expand your vegan baking business?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Passionate",
+            "Entrepreneurial",
+            "Community-oriented (participates in local markets)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan baking/cooking: \"I saw your post about the vegan pastries. Do you have any other favorite vegan baking recipes you'd be willing to share?\"",
+        "2. Location (Coimbra, Portugal): \"I noticed you're located in Coimbra. I've always wanted to visit Portugal. What are some of your favorite vegan-friendly restaurants or cafes in the area?\"",
+        "1. Vegan baking/cooking: Ask about their favorite vegan baking tips or recipes.",
+        "2. Local food scene in Coimbra, Portugal: Inquire about other vegan-friendly places or markets in the Coimbra area.",
+        "1. Vegan baking: \"I saw your vegan pizza rolls! I've been trying to get into vegan baking myself. Do you have any tips for working with vegan dough?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

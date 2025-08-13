@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T16:28:47.794978",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T16:28:28.835090",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows Chris.d.estes giving a presentation on a stage. He's wearing a grey shirt and jeans, holding a microphone, and gesturing with his hands. Behind him is a projection screen and an American flag. There are people in the audience, and someone is recording him with their phone.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows Chris.d.estes on stage at what appears to be an awards ceremony or conference. He's dressed in a suit and is pointing towards the camera. The backdrop features a geometric design. The caption mentions being recognized as a top earner at NYKO and discusses developing a \"championship culture.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a photo of Chris and his wife, Lindsay, celebrating their anniversary. The post describes the importance of intentional effort in marriage and lists six key actions they take to maintain a strong relationship.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two men in a living room setting. One man is sitting with a laptop, while the other is sitting with a notebook and pen, seemingly engaged in a meeting or planning session. There is an Ironman medal rack in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person relaxing by a fire pit in their backyard. The person in the background is smiling and appears to be enjoying the evening. The post includes text about taking a break and refueling.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by chris.d.estes featuring a quote by Jim Rohn: \"If you don't like how things are, change it! You're not a tree.\" The post also includes a personal message from Chris about reflecting on the past year and preparing for the new year using the \"3 R's\": Reflect, Refuel, Regain Control.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **NYKO and the event:** \"Congratulations on being recognized as a top earner at NYKO! What was the highlight of the event for you?\"",
+          "2.  **Championship Culture:** \"I found your thoughts on building a 'championship culture' really insightful. What are some practical steps you take to foster that kind of environment?\"",
+          "1.  **Marriage/Relationship Advice:** Given the detailed list of practices they follow, you could ask for more specific advice on one of the points, such as their favorite faith and family books they read together or how they structure their weekly relationship reviews.",
+          "2.  **Hobbies/Interests:** The post mentions they enjoy working out, playing games, and competing. You could inquire about their favorite workouts, games, or competitive activities.",
+          "1.  **Ironman/Triathlon:** The Ironman medal rack is a clear indicator of interest in endurance sports. Asking about his Ironman experiences, training regimen, or future race plans could be a good conversation starter."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Chris D. Estes",
+          "INTERESTS": [
+            "Leadership & Building a 'Championship Culture'",
+            "Marriage & Relationships",
+            "Personal Development & Self-Improvement",
+            "Endurance Sports (Ironman/Triathlon)",
+            "Business/Entrepreneurship (NYKO)"
+          ],
+          "LIFESTYLE": "Chris appears to be a business professional (likely associated with NYKO) who is passionate about leadership, personal growth, and maintaining a strong marriage. He is also an athlete who participates in Ironman/Triathlon events. He values taking time for rest and reflection.",
+          "CONVERSATION STARTERS": [
+            "Congratulations on being recognized as a top earner at NYKO! What was the highlight of the event for you?",
+            "I found your thoughts on building a 'championship culture' really insightful. What are some practical steps you take to foster that kind of environment?",
+            "You mentioned intentional effort in marriage. What are some of your favorite faith and family books you read together?",
+            "I noticed the Ironman medal rack. What's been your most challenging Ironman experience so far?",
+            "I'm also interested in personal development. What are some of the key takeaways from Jim Rohn's teachings that resonate with you?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven & Ambitious (Top earner, championship culture)",
+            "Relationship-Oriented (Values marriage, spends time with others)",
+            "Disciplined & Goal-Oriented (Ironman training, intentional relationship practices)",
+            "Reflective & Thoughtful (Personal development, '3 R's')"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **NYKO and the event:** \"Congratulations on being recognized as a top earner at NYKO! What was the highlight of the event for you?\"",
+        "2.  **Championship Culture:** \"I found your thoughts on building a 'championship culture' really insightful. What are some practical steps you take to foster that kind of environment?\"",
+        "1.  **Marriage/Relationship Advice:** Given the detailed list of practices they follow, you could ask for more specific advice on one of the points, such as their favorite faith and family books they read together or how they structure their weekly relationship reviews.",
+        "2.  **Hobbies/Interests:** The post mentions they enjoy working out, playing games, and competing. You could inquire about their favorite workouts, games, or competitive activities.",
+        "1.  **Ironman/Triathlon:** The Ironman medal rack is a clear indicator of interest in endurance sports. Asking about his Ironman experiences, training regimen, or future race plans could be a good conversation starter."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

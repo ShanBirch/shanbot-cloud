@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T12:54:15.929776",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T12:53:54.903285",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by fashionwala_ features a promotional image for \"Beshbhusa, The authentic jewellery collection.\" The image is split into two sections: on the left, a pair of ornate golden jhumka earrings are displayed against a black background with a gold frame. On the right, a multi-strand golden necklace with green and red stone accents is showcased on a black mannequin against a similar black background. The background of the entire image is a gradient of gold, with the words \"this months favorites\" written in white script.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from \"fashionwala_\" showcasing their \"Beshbhusa\" jewelry collection. It features a collage of gold jewelry pieces, including earrings, a necklace, and bangles. The post promotes new products and invites customers to visit their offline store in Birati or contact them via call or WhatsApp.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image showcases a close-up of a glamorous, ornate necklace and earring set from the \"Beshbhusa\" jewellery collection. The set is gold-toned and features numerous clear crystals in floral and teardrop shapes.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows four different cloth face masks, each with unique embroidered designs. The masks are red with gold stars, navy with gold geometric shapes, pink with colorful flowers, and green with pink floral designs. They appear to be packaged individually in clear plastic.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vibrant orange kurta with a black and gold patterned vest.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a pink handbag with blue embroidery. The embroidery features a bird design and geometric patterns. The handle appears to be a white ring.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Jewelry Design/Inspiration:** \"I love the intricate details on the necklace! Where do you draw inspiration for your designs?\"",
+          "2. **Local Business:** \"I saw you have a store in Birati. I'm always looking to support local businesses. What's your favorite part about having a shop there?\"",
+          "1.  Jewellery Design: You could ask about the inspiration behind the design of the necklace and earrings, or inquire about the materials used.",
+          "2.  Fashion Trends: You could ask about current trends in jewellery and how this piece fits into those trends, or what occasions this type of jewellery would be best suited for.",
+          "1. Embroidery: \"I love the embroidery on these masks! Do you design the patterns yourself, or do you draw inspiration from somewhere?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The detail on those earrings is incredible! ✨",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Jewelry Design (especially traditional/authentic)",
+            "Fashion (clothing and accessories)",
+            "Embroidery",
+            "Supporting Local Businesses",
+            "Indian Fashion/Culture"
+          ],
+          "LIFESTYLE": "Likely a small business owner or designer involved in creating and selling jewelry, clothing, and accessories. Appears to have a physical store location in Birati, India, and also utilizes online platforms like Instagram for promotion and sales.",
+          "CONVERSATION STARTERS": [
+            "I'm curious about the 'Beshbhusa' collection. What does that name mean, and what's the story behind it?",
+            "The embroidery on the masks and handbags is beautiful! Can you tell me more about the techniques you use?",
+            "I noticed you have a store in Birati. What are some of your favorite things about being a local business owner in that area?",
+            "Your jewelry designs are so intricate. Where do you find inspiration for your work?",
+            "What are some current trends you're seeing in Indian jewelry and fashion?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Entrepreneurial",
+            "Passionate about their craft",
+            "Proud of their cultural heritage"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Jewelry Design/Inspiration:** \"I love the intricate details on the necklace! Where do you draw inspiration for your designs?\"",
+        "2. **Local Business:** \"I saw you have a store in Birati. I'm always looking to support local businesses. What's your favorite part about having a shop there?\"",
+        "1.  Jewellery Design: You could ask about the inspiration behind the design of the necklace and earrings, or inquire about the materials used.",
+        "2.  Fashion Trends: You could ask about current trends in jewellery and how this piece fits into those trends, or what occasions this type of jewellery would be best suited for.",
+        "1. Embroidery: \"I love the embroidery on these masks! Do you design the patterns yourself, or do you draw inspiration from somewhere?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

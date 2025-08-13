@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T20:49:02.720922",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T20:48:41.218713",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a plate of vegan food. There's a half of a baked sweet potato topped with grated cheese. Next to it is a tofu scramble with zucchini. The plate is light blue and sits on a wooden table.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan food, including lasagna, sweet potato, and spinach/rocket salad. The caption mentions a recent house move and getting another dog.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a pan of vegan paella with various vegetables. The caption mentions vegan chorizo and hashtags related to vegan food and lifestyle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of crispy gochujang tofu and rice, topped with sesame seeds. The dish looks spicy and flavorful.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan breakfast plate with scrambled tofu, grilled tomato, a mushroom, greens, toast, and a small packet of vegan butter. The post is tagged with various vegan-related hashtags.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan food, specifically miso duck and vegetables served over rice. The dish includes ingredients like mushrooms, zucchini, green peppers, and bean sprouts, topped with sesame seeds.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan cooking/recipes: Ask about their favorite vegan lasagna recipe or other vegan meal ideas.",
+          "2. Pets: Inquire about their new dog (breed, name, personality, etc.) or share experiences with your own pets.",
+          "1. Vegan cooking and recipes: Ask about her favorite vegan recipes or ingredients, or share your own.",
+          "2. Veganism in the Midlands (UK): Since she used the hashtag #veganmidlands, you could ask about vegan-friendly restaurants or events in that region.",
+          "1. Gochujang: Asking about their favorite brands of gochujang or other spicy vegan recipes they enjoy."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The tofu scramble looked really appetizing! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Vicki (veganvicki__)",
+          "INTERESTS": [
+            "Vegan cooking and recipes",
+            "Vegan lifestyle",
+            "Pets (especially dogs)",
+            "Spicy food (Gochujang)",
+            "Healthy eating"
+          ],
+          "LIFESTYLE": "Likely a home cook who enjoys creating and sharing vegan meals. Appears to be based in the Midlands, UK. Recently moved house and adopted a new dog. Actively promotes a vegan lifestyle.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite vegan lasagna recipe? I'm always looking for new variations!",
+            "Congratulations on the house move and the new dog! What breed is your new furry friend, and what's their name?",
+            "I noticed you used the hashtag #veganmidlands. Do you have any recommendations for vegan-friendly restaurants or events in the area?",
+            "I love gochujang! What's your favorite brand to use, and do you have any other spicy vegan recipes you enjoy?",
+            "Your vegan miso duck looks amazing! What kind of mushrooms did you use in that dish?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate (about veganism)",
+            "Creative (in the kitchen)",
+            "Caring (about animals)",
+            "Enthusiastic (about sharing her lifestyle)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan cooking/recipes: Ask about their favorite vegan lasagna recipe or other vegan meal ideas.",
+        "2. Pets: Inquire about their new dog (breed, name, personality, etc.) or share experiences with your own pets.",
+        "1. Vegan cooking and recipes: Ask about her favorite vegan recipes or ingredients, or share your own.",
+        "2. Veganism in the Midlands (UK): Since she used the hashtag #veganmidlands, you could ask about vegan-friendly restaurants or events in that region.",
+        "1. Gochujang: Asking about their favorite brands of gochujang or other spicy vegan recipes they enjoy."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

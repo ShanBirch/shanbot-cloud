@@ -1,0 +1,112 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T17:52:10.649425",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T17:51:47.864804",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up, overhead shot of a plate of food. The main element is sliced sirloin steak, arranged in overlapping rows. To the left of the steak is a salad composed of romaine lettuce, pickled red cabbage, and cucumber. A fork is piercing a piece of steak. The plate sits on a wooden surface.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a radio broadcasting studio setup with a mixing console, multiple monitors displaying audio waveforms and software, microphones, and speakers. A sign that says \"City of Champions\" is visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of \"cheer hair,\" specifically a hairstyle with curls and a sparkly orange hair accessory. The post mentions learning back-walkovers, handsprings, and team spirit, all related to cheerleading.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of food featuring sous-vide top sirloin seared on cast iron, alongside an avocado, cucumber, and tomato salad with a horseradish mustard and balsamic reduction dressing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a girl with curly hair styled in a high ponytail with a large orange and white cheerleading bow. The post is by the girl's father, who mentions it's his second attempt at doing \"cheer hair\" for the Alberta Cheerleading Association Scholastic Classic on International Women's Day.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two people holding a large check for $16,000 made out to Youth Empowerment & Support Services (YESS) from Sonic 102.9 and The Collin Bruce Mortgage Team. The background features a \"Listener Lounge\" with music-themed decor.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  The \"City of Champions\" slogan: Ask about the history of the slogan, why it was retired, and what it would take to bring it back.",
+          "2.  Radio broadcasting/audio production: Inquire about their favorite aspects of radio broadcasting, the equipment they use, or any interesting stories from their show.",
+          "1. Cheerleading: \"I saw your post about the cheer season ending. What was your favorite part about this season?\"",
+          "2. Hair Styling: \"That cheer hair looks amazing! Do you have any tips for getting the curls to hold so well?\"",
+          "1.  Cooking techniques: Ask about their experience with sous-vide cooking, or their favorite methods for searing steak."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! That steak in your latest post looked perfectly cooked! 🤤",
+        "profile_bio": {
+          "PERSON NAME": "Layne Mitchell (likely)",
+          "INTERESTS": [
+            "Cooking/Food (especially steak and healthy salads)",
+            "Radio Broadcasting/Audio Production",
+            "Cheerleading (or supporting someone who does)",
+            "Hair Styling (specifically cheer hair)",
+            "Community Involvement/Charity"
+          ],
+          "LIFESTYLE": "Likely involved in radio broadcasting, possibly as a host or producer. Seems to be a parent (likely father) supporting a child involved in cheerleading. Enjoys cooking and sharing food creations. Appears to be involved in charitable activities and community support.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite aspect of working in radio broadcasting?",
+            "I saw your post about the 'City of Champions' slogan. What are your thoughts on bringing it back?",
+            "That steak looks amazing! What's your favorite method for searing it?",
+            "Your daughter's cheer hair is always so impressive! Do you have any tips for getting the curls to hold so well?",
+            "The donation to YESS is fantastic! What inspired you to support that organization?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Supportive (evident from cheerleading posts)",
+            "Creative (cooking, radio production, hair styling)",
+            "Generous/Community-minded (charity involvement)",
+            "Passionate (about their interests)"
+          ]
+        }
+      },
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

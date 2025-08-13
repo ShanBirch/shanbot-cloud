@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T12:03:57.370000",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T12:03:36.187314",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a bowl of food. The bowl is light gray and contains two distinct sections. One section is filled with a yellow, granular food, likely couscous. The other section contains a mixture of ground meat, possibly beef or lamb, cooked with vegetables such as zucchini and peppers. The dish is garnished with fresh herbs, possibly parsley. The bowl is held in someone's hand, and the background appears to be a light-colored countertop or table.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of homemade \"Chinese fakeaway\" food, including chicken satay, sticky chicken, egg fried rice, and salt & chilli chips. The post mentions using recipes from other Instagram users.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two cups of hot chocolate being held outside, likely after a walk. The caption mentions a \"muddy winter walk\" and regrets wearing Vans.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of paella, a Spanish rice dish, with a lemon wedge on top. The caption indicates it's the user's first time making paella and that it was delicious and only 645 calories.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a mirror selfie of a woman (amydfitness) in casual clothing (jacket, sweater, pants). The background shows a living room setting with a radiator, door, and couch. The post mentions struggling with content creation and Christmas gift ideas.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a McDonald's burger and fries. The caption discusses the importance of balance in diet and enjoying treats like McDonald's without guilt.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Cooking and Recipes:** Ask about the specific recipes used, which one was the most challenging, or if she has any other favorite healthy recipes to share.",
+          "2.  **Fitness and Healthy Eating:** Inquire about her fitness goals for the year, how she balances healthy eating with indulging in treats, or her favorite ways to stay active.",
+          "1. Favorite winter walking spots: Ask about other places she enjoys walking, especially during the winter months.",
+          "2. Hot chocolate preferences: Inquire about her favorite type of hot chocolate or if she has any go-to recipes.",
+          "1.  **Cooking/Recipes:** Ask about the recipe she used for the paella, or share your own favorite paella variations."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That dish looked so yummy! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Amy (amydfitness)",
+          "INTERESTS": [
+            "Healthy Eating & Balanced Diet",
+            "Home Cooking & Experimenting with Recipes (especially healthy versions of comfort food)",
+            "Fitness & Staying Active (e.g., walking)",
+            "Trying New Cuisines (e.g., Paella, 'Chinese Fakeaway')",
+            "Sharing Recipes and Food Inspiration"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys cooking at home and prioritizes a balanced lifestyle that includes both healthy meals and occasional treats. They seem to enjoy staying active through outdoor activities like walking. They also appear to be a homebody, as indicated by the living room selfie.",
+          "CONVERSATION STARTERS": [
+            "I saw your paella post! What recipe did you use? I've been wanting to try making it myself.",
+            "Your 'Chinese fakeaway' looked amazing! Which recipe was the most challenging to recreate?",
+            "I love your approach to balancing healthy eating with treats. What are some of your favorite ways to stay active?",
+            "You mentioned a muddy winter walk. Do you have any other favorite winter walking spots?",
+            "That hot chocolate looked so cozy! What's your go-to hot chocolate recipe or favorite type?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Balanced: Emphasizes balance in diet and lifestyle.",
+            "Creative: Enjoys experimenting with recipes and creating homemade versions of takeout favorites.",
+            "Relatable: Shares struggles with content creation and everyday life.",
+            "Practical: Focuses on healthy and relatively easy-to-make meals."
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Cooking and Recipes:** Ask about the specific recipes used, which one was the most challenging, or if she has any other favorite healthy recipes to share.",
+        "2.  **Fitness and Healthy Eating:** Inquire about her fitness goals for the year, how she balances healthy eating with indulging in treats, or her favorite ways to stay active.",
+        "1. Favorite winter walking spots: Ask about other places she enjoys walking, especially during the winter months.",
+        "2. Hot chocolate preferences: Inquire about her favorite type of hot chocolate or if she has any go-to recipes.",
+        "1.  **Cooking/Recipes:** Ask about the recipe she used for the paella, or share your own favorite paella variations."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

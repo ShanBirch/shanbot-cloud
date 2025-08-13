@@ -1,0 +1,111 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T17:35:09.399078",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T17:34:48.232863",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by millys.journey. The post features a video of a young woman with red hair demonstrating a morning stretch routine. She's wearing a white sports bra and grey leggings. The background shows a bright, tidy living room with neutral tones and a glimpse of a dining area. The caption lists the stretches included: Hip Opener/Frog Stretch, Lunge Stretch, Calf Stretch, Toe Touches, and Mobility Movements.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman sitting on a sailboat on a lake at sunset. The caption mentions \"Missing the Summer Dayz.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie taken by a woman in what appears to be her bedroom. She is wearing workout attire. The caption mentions workouts and dance videos. The caption also asks who else is going through a stressy work phase.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post featuring a young woman, millys.journey, in a TikTok video. She's wearing a \"Dance Camp\" t-shirt and appears to be in her bedroom. The caption mentions doing an older TikTok trend and struggling with procrastination.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a mirror selfie of a woman in workout clothes. She mentions being busy with university work in the caption.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a young woman sitting outside in a garden setting. She is wearing a summery outfit. The caption indicates she is in Munich, Germany and is reminiscing about summer.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Sailing: Ask about her experience sailing, if she sails often, or if she has any favorite sailing locations.",
+          "2. Summer Activities: Ask about her favorite summer activities or what she misses most about summer.",
+          "1.  Workout/Dance Routines: Ask about her favorite types of workouts or dance styles, or if she has any recommendations for beginners.",
+          "2.  Stress Management: Inquire about how she manages stress during busy work phases, or share your own experiences and ask for advice.",
+          "1. TikTok trends: Ask her about other TikTok trends she enjoys or finds interesting."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Milly (Based on username 'millys.journey')",
+          "INTERESTS": [
+            "Fitness (Stretching, Workouts, Dance)",
+            "Travel (Munich, Sailing)",
+            "Summer Activities",
+            "TikTok/Social Media",
+            "Health and Wellness"
+          ],
+          "LIFESTYLE": "Likely a university student who enjoys fitness, dance, and travel. She seems to balance her studies with her hobbies and social media presence. She appears to be health-conscious and enjoys sharing her routines and experiences online.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about sailing! Have you been sailing for long, and do you have a favorite place to sail?",
+            "Your morning stretch routine looks amazing! What's your favorite type of workout, and do you have any recommendations for beginners?",
+            "I'm also going through a stressful work phase right now. How do you usually manage stress when you're feeling overwhelmed?",
+            "I noticed you did a TikTok trend recently. What other trends are you enjoying or find interesting at the moment?",
+            "You mentioned missing summer in your Munich post. What's your favorite thing about summer?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Active",
+            "Relatable (Shares struggles with procrastination and stress)",
+            "Positive (Promotes healthy habits)",
+            "Engaging (Shares content and interacts with followers)"
+          ]
+        }
+      },
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

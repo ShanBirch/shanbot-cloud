@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T20:30:53.579654",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T20:30:34.653370",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of a colorful salad in a white bowl. The salad contains mixed greens, sliced radishes, tomato wedges, and pumpkin seeds. The dressing appears to be a light vinaigrette. The photo is well-lit and the ingredients look fresh.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a variety of fresh, raw vegetables including red and orange bell peppers, mushrooms, green onions, cilantro, red onion, and garlic cloves. The post asks for advice on following a raw vegan diet and lists goals for the dietary change, such as increased energy and decreased inflammation.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan food, including pulled jackfruit sandwiches, roasted spiced chickpeas, and sesame garlic green beans.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a promotional post for \"Follow Back Friday\" featuring a vibrant display of fresh carrots in various colors (orange, purple, yellow) with lush green tops, laid out on a wooden surface. The words \"FOLLOW BACK FRIDAY!\" are superimposed over the image.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan dinner consisting of mujadara (rice and lentils), roasted curry cauliflower, and sauteed mushrooms. There's also a yellow teapot and a decorative owl figurine visible.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vibrant vegan salad with mangoes, cucumber, jalapeno, lemon, brown sugar, olive oil, peanuts, lemon, and herbs. In the back is a Lebanese inspired mixed bean salad with mixed beans, celery, green onion, garlic, lemon, olive oil, and herbs. Topped with sliced avocado and hemp hearts.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Raw Vegan Recipes:** Since they're asking for advice on a raw vegan diet, asking about their favorite raw vegan recipes or sharing some of your own could be a good conversation starter.",
+          "2.  **Health Benefits of Raw Veganism:** They mentioned specific health goals (increased energy, decreased inflammation). You could ask about their experience with these benefits so far, or share information about the science behind raw veganism and its potential impact on health.",
+          "1.  Vegan cooking and recipes: Ask about their favorite vegan recipes or cooking tips.",
+          "2.  Jackfruit: Inquire about their experience with jackfruit, how they prepare it, or other dishes they like to make with it.",
+          "1. **Recipes/Cooking with Carrots:** Given the focus on carrots, you could ask about their favorite carrot recipes or ways to prepare them. \"I saw your post about Follow Back Friday and all those beautiful carrots! Do you have any favorite recipes you like to use them in?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That salad looked so vibrant and refreshing! 🥗",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism",
+            "Raw Veganism",
+            "Healthy Eating",
+            "Plant-Based Recipes",
+            "Cooking with Fresh Vegetables"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys cooking and experimenting with vegan recipes, with a particular interest in raw veganism and its potential health benefits. They seem to prioritize fresh, whole foods and are interested in sharing their culinary creations and connecting with others in the vegan community.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about raw veganism. What are some of your favorite raw vegan recipes?",
+            "You mentioned wanting to increase energy and decrease inflammation through a raw vegan diet. Have you noticed any changes so far?",
+            "Your jackfruit sandwiches looked delicious! What's your favorite way to prepare jackfruit?",
+            "I loved your Follow Back Friday post with all the colorful carrots! Do you have any go-to carrot recipes?",
+            "What are some of your favorite vegan dishes to cook when you're short on time?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Creative (in the kitchen)",
+            "Community-oriented (participates in Follow Back Friday)",
+            "Inquisitive (seeking advice on raw veganism)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Raw Vegan Recipes:** Since they're asking for advice on a raw vegan diet, asking about their favorite raw vegan recipes or sharing some of your own could be a good conversation starter.",
+        "2.  **Health Benefits of Raw Veganism:** They mentioned specific health goals (increased energy, decreased inflammation). You could ask about their experience with these benefits so far, or share information about the science behind raw veganism and its potential impact on health.",
+        "1.  Vegan cooking and recipes: Ask about their favorite vegan recipes or cooking tips.",
+        "2.  Jackfruit: Inquire about their experience with jackfruit, how they prepare it, or other dishes they like to make with it.",
+        "1. **Recipes/Cooking with Carrots:** Given the focus on carrots, you could ask about their favorite carrot recipes or ways to prepare them. \"I saw your post about Follow Back Friday and all those beautiful carrots! Do you have any favorite recipes you like to use them in?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

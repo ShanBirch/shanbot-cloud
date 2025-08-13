@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T11:27:12.859877",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T11:26:54.090078",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a full-body shot of a woman standing near a pool, with palm trees and a building in the background. She is wearing a black dress and carrying a black purse. The location is Dorado Beach, a Ritz-Carlton Reserve.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in workout clothes (pink shorts and a black top) at a gym, taking a mirror selfie. She's wearing headphones. The location is tagged as Dorado Beach, a Ritz-Carlton Reserve.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a woman in athletic wear (onsie/bodysuit) in what appears to be her home. There are two dogs visible in the background. The post is captioned \"Happy Weekend what are you getting into today?\" and includes hashtags related to fitness and lifestyle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (vimbaifit) performing a dumbbell exercise. The text overlay on the image describes it as a workout to replace cardio, involving two dumbbells, 10 reps x 3 sets, for 20 minutes. The caption discusses exercise as a way to manage anxiety and improve mood.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in activewear (a crop top and pleated skirt) taking a mirror selfie. The caption asks whether people prefer tennis or pickleball. The location is tagged as Puerto Rico.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, presumably vimbaifit, posing on a beach at sunset. She is wearing athletic wear and sneakers. The location is San Juan, Puerto Rico, according to the post's location tag. The hashtags include #beachday, #cardio, #walk, #sunshine, #vacay, #sunset, #love, and #brownskin.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Fitness/Workout Routines:** Ask about her favorite workout routines or exercises she enjoys at the gym.",
+          "2. **Travel/Location:** Inquire about Dorado Beach and the Ritz-Carlton Reserve, asking if she's enjoying her time there or if she has any recommendations for things to do in the area.",
+          "1.  **Fitness/Workout Routine:** Given the athletic wear and fitness-related hashtags, asking about her workout routine or favorite exercises could be a good conversation starter. \"I saw your post and love the athletic wear! What's your favorite type of workout?\"",
+          "2.  **Dogs:** Since there are two dogs in the background, asking about them could be a good way to engage. \"Your dogs are adorable! What are their names and personalities?\"",
+          "1. **Workout routines:** You could ask her about her favorite dumbbell exercises or other workout routines she recommends."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The Ritz-Carlton looks amazing, and you looked stunning in that dress! ✨",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: vimbaifit)",
+          "INTERESTS": [
+            "Fitness and Exercise (especially dumbbell workouts)",
+            "Travel (particularly to Puerto Rico and Dorado Beach)",
+            "Fashion (specifically athletic wear and dresses)",
+            "Healthy Lifestyle",
+            "Dogs"
+          ],
+          "LIFESTYLE": "Appears to be a fitness enthusiast who enjoys traveling, particularly to luxurious locations like Dorado Beach, a Ritz-Carlton Reserve in Puerto Rico. She incorporates fitness into her travel and daily life, balancing workouts with relaxation and enjoying the outdoors. She also seems to value her pets and a comfortable home environment.",
+          "CONVERSATION STARTERS": [
+            "I saw your post from Dorado Beach, it looks amazing! What are your favorite things to do there?",
+            "Your dumbbell workout routine looks effective! What other exercises do you recommend for managing anxiety?",
+            "Your dogs are adorable! What are their names and personalities?",
+            "I love your athletic wear! Where do you usually shop for your workout clothes?",
+            "Tennis or pickleball? What do you enjoy most about playing either sport?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Active",
+            "Stylish",
+            "Health-conscious",
+            "Positive (based on the 'Happy Weekend' post and focus on mood improvement through exercise)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Fitness/Workout Routines:** Ask about her favorite workout routines or exercises she enjoys at the gym.",
+        "2. **Travel/Location:** Inquire about Dorado Beach and the Ritz-Carlton Reserve, asking if she's enjoying her time there or if she has any recommendations for things to do in the area.",
+        "1.  **Fitness/Workout Routine:** Given the athletic wear and fitness-related hashtags, asking about her workout routine or favorite exercises could be a good conversation starter. \"I saw your post and love the athletic wear! What's your favorite type of workout?\"",
+        "2.  **Dogs:** Since there are two dogs in the background, asking about them could be a good way to engage. \"Your dogs are adorable! What are their names and personalities?\"",
+        "1. **Workout routines:** You could ask her about her favorite dumbbell exercises or other workout routines she recommends."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

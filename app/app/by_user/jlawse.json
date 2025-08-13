@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T11:36:50.767830",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T11:36:34.047260",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a selfie of a person with reddish-brown hair, wearing round glasses, a white turtleneck sweater, and a dark jacket. They have a nose ring and are standing outside, with a graffiti-covered wall visible in the background. The sun is shining, creating a lens flare effect. The caption is in German.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of a person with glasses and a nose ring.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows an Instagram post by user jla.wse. The post has 12 likes and was posted on January 1st. There are no comments yet.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a cartoon drawing of Patrick Star and SpongeBob SquarePants with the text \"What's better than 2024...? 2025\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows an Instagram post by user jla.wse. The post has 4 likes and was posted on January 1st. There are no comments on the post yet. The image itself is mostly dark, but the profile picture of jla.wse shows a person wearing sunglasses.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of a person with blonde hair, wearing glasses and a hooded jacket. The photo appears to be taken outdoors on a sunny day. The text is in German and seems to be a reflection on the past year.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Glasses: \"I really like your glasses! Where did you get them?\"",
+          "2. Piercings: \"I noticed your nose ring, do you have any other piercings?\"",
+          "1.  **The content of the post itself:** Since the image is cropped, it's impossible to know the content of the post. If you could see the post, you could ask about the subject matter, location, or people featured.",
+          "2.  **Instagram features:** You could ask about their experience with Instagram features like Reels, Guides, or specific filters, as they are active on the platform.",
+          "1.  SpongeBob SquarePants: You could ask about their favorite episodes or characters from the show."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post had such a nice sunny vibe to it ☀️.",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "SpongeBob SquarePants",
+            "Fashion (specifically glasses, nose rings, and outerwear)",
+            "Photography/Selfies",
+            "German Language/Culture",
+            "Humor/Memes"
+          ],
+          "LIFESTYLE": "Likely an individual who enjoys expressing themselves through fashion and photography. They seem to be active on social media and potentially interested in pop culture. The German captions suggest they either live in a German-speaking country or are learning/fluent in the language. The outdoor selfies suggest they enjoy spending time outside.",
+          "CONVERSATION STARTERS": [
+            "I love your glasses! Where did you get them?",
+            "I noticed your nose ring, do you have any other piercings?",
+            "What's your favorite SpongeBob SquarePants episode?",
+            "What are your goals for 2025?",
+            "What's your favorite Instagram feature to use?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Expressive",
+            "Humorous",
+            "Stylish",
+            "Social"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Glasses: \"I really like your glasses! Where did you get them?\"",
+        "2. Piercings: \"I noticed your nose ring, do you have any other piercings?\"",
+        "1.  **The content of the post itself:** Since the image is cropped, it's impossible to know the content of the post. If you could see the post, you could ask about the subject matter, location, or people featured.",
+        "2.  **Instagram features:** You could ask about their experience with Instagram features like Reels, Guides, or specific filters, as they are active on the platform.",
+        "1.  SpongeBob SquarePants: You could ask about their favorite episodes or characters from the show."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

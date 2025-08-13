@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T17:37:37.957114",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T17:37:21.342529",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows victoriousveganista standing on a balcony with a scenic view of hills and olive trees in the background. She is holding a wooden tray with pomegranates, a pitcher of pink pomegranate juice, and a glass filled with the same juice. She is wearing a colorful outfit and a blue headscarf. The photo is well-lit and focuses on the juice and pomegranates.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a flatbread topped with what appears to be vegan cheese, surrounded by fresh vegetables like green onions, tomatoes, radishes, and a green pepper.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a tray of vegan food, including bread, olives, dips (possibly hummus and za'atar), radishes, and a cup of tea, set on a table outdoors with a garden in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan caprese salad being drizzled with dressing. The salad contains tomatoes, red onion, basil, and vegan mozzarella.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of hummus topped with what appears to be vegan ground meat and pine nuts, sprinkled with paprika. There's also pita bread on the side. The account name is \"victoriousveganista\" suggesting a vegan lifestyle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of quinoa salad, specifically a quinoa tabouleh, with a lemon wedge and basil leaves as garnish. There's also a pile of roasted pistachios on the plate. The post includes the recipe in English and Arabic.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan cooking/baking: You could ask about the recipe for the flatbread or the vegan cheese.",
+          "2. Vegan lifestyle: You could ask about their favorite vegan restaurants or recipes.",
+          "1. Vegan recipes: Ask about the recipe for one of the dips or the bread.",
+          "2. Gardening: Inquire about the garden in the background.",
+          "1. Vegan cooking/recipes: Asking about the recipe for the vegan mozzarella or the dressing."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post looked so refreshing, and the pomegranates looked so vibrant 🍹!",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Cooking & Baking",
+            "Vegan Lifestyle",
+            "Mediterranean Cuisine (Veganized)",
+            "Gardening",
+            "Sharing Recipes"
+          ],
+          "LIFESTYLE": "Likely a home cook and advocate for veganism, possibly living in a region with access to fresh produce and olive trees. Enjoys creating and sharing vegan versions of Mediterranean dishes. Appears to have a passion for gardening and creating visually appealing food presentations.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite vegan cheese recipe for flatbreads?",
+            "Do you have any recommendations for vegan restaurants in your area?",
+            "Could you share the recipe for the hummus you featured in your recent post?",
+            "Tell me more about your garden – what are you growing?",
+            "I'd love to know how you make your vegan mozzarella for the caprese salad!"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Passionate",
+            "Hospitable (sharing recipes)",
+            "Visually-oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan cooking/baking: You could ask about the recipe for the flatbread or the vegan cheese.",
+        "2. Vegan lifestyle: You could ask about their favorite vegan restaurants or recipes.",
+        "1. Vegan recipes: Ask about the recipe for one of the dips or the bread.",
+        "2. Gardening: Inquire about the garden in the background.",
+        "1. Vegan cooking/recipes: Asking about the recipe for the vegan mozzarella or the dressing."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

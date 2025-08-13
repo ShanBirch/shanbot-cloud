@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T10:44:43.568377",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T10:44:23.992543",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by mealsinamoment features a photo of a muscular man with tattoos sitting on a weight bench in a gym. He's wearing a black tank top and shorts, and he's eating from a black container. A gym bag and hat are on the floor next to him. In the background, there's gym equipment and weights.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from mealsinamoment, announcing a partnership with @jayoarcher. The post includes a picture of a \"Meals in a Moment\" container with chicken and sweet chili sauce. The hashtags used are #freestyle #motocross #athlete #nitrocircus #professional #hard #work #food #healthylifestyle #healthyfood.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a food presentation of \"Chicken Marsala\" with yellow rice, carrot sticks, a lemon wedge, and chopped greens on a dark gray plate.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of beef and vegetable casserole with a rich gravy. It's part of a post advertising a new \"Active Lifestyle Menu\" item.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of Spaghetti Bolognese, garnished with parsley. The post mentions a new lifestyle range launching soon and uses hashtags related to food, healthy food, delivery, and Melbourne.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a meal prep container with beef patties covered in gravy, roasted potatoes, peas, and carrots.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Motocross/Freestyle/Nitro Circus:** Since the post mentions a partnership with @jayoarcher and includes hashtags related to motocross, freestyle, and Nitro Circus, you could ask about their involvement in these activities or express your own interest in these sports.",
+          "2. **Healthy Food/Lifestyle:** The post also includes hashtags about healthy food and lifestyle. You could ask about the types of meals they offer or share your own healthy eating habits.",
+          "1. Chicken Marsala: Ask about the specific ingredients or preparation techniques used in their Chicken Marsala recipe.",
+          "2. Melbourne Food Scene: Inquire about their favorite local food spots or other restaurants they admire in Melbourne, given the #melbournefoodie tag.",
+          "1. **Meal Prep/Cooking:** Ask about their favorite meal prep strategies or other easy recipes they enjoy making."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The guy looks like he enjoyed his meal after a workout 💪",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (mealsinamoment)",
+          "INTERESTS": [
+            "Healthy Food & Meal Prep",
+            "Active Lifestyle & Fitness",
+            "Motocross/Freestyle/Nitro Circus (Partnership with @jayoarcher)",
+            "Melbourne Food Scene",
+            "Cooking & Food Presentation"
+          ],
+          "LIFESTYLE": "Focuses on providing healthy, pre-prepared meals for individuals with active lifestyles. Likely caters to athletes and those seeking convenient and nutritious food options. Potentially based in or serving the Melbourne area.",
+          "CONVERSATION STARTERS": [
+            "I saw your partnership with @jayoarcher! What's your connection to the motocross/Nitro Circus scene?",
+            "Your meal prep containers look amazing! What are some of your go-to strategies for efficient meal prepping?",
+            "That Chicken Marsala looks delicious! Can you tell me a bit about the recipe?",
+            "I noticed you're using #melbournefoodie. What are some of your favorite restaurants or food spots in Melbourne?",
+            "I'm trying to incorporate more healthy meals into my routine. Do you have any recommendations from your menu for someone just starting out?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-Conscious",
+            "Driven/Hardworking (Associated with athletes and active lifestyles)",
+            "Organized (Implied by meal prep focus)",
+            "Collaborative (Partnership with @jayoarcher)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Motocross/Freestyle/Nitro Circus:** Since the post mentions a partnership with @jayoarcher and includes hashtags related to motocross, freestyle, and Nitro Circus, you could ask about their involvement in these activities or express your own interest in these sports.",
+        "2. **Healthy Food/Lifestyle:** The post also includes hashtags about healthy food and lifestyle. You could ask about the types of meals they offer or share your own healthy eating habits.",
+        "1. Chicken Marsala: Ask about the specific ingredients or preparation techniques used in their Chicken Marsala recipe.",
+        "2. Melbourne Food Scene: Inquire about their favorite local food spots or other restaurants they admire in Melbourne, given the #melbournefoodie tag.",
+        "1. **Meal Prep/Cooking:** Ask about their favorite meal prep strategies or other easy recipes they enjoy making."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

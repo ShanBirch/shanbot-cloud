@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T22:02:47.546555",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T22:02:29.585674",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a roasted vegetable salad in a white bowl. The salad contains lettuce, red onion, roasted carrots, roasted pumpkin or squash, broccoli, and halved cherry tomatoes. It is topped with a creamy, white lemon tofu dressing. The background is a speckled countertop.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows an empty teacup and saucer with tea leaves at the bottom of the cup. The teacup and saucer have a gold floral design. The caption reads, \"My happy kind home made food.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan food, specifically teriyaki tofu with brown rice, cauliflower, and other vegetables. The caption includes hashtags like #easyfood, #fifteenminutemeals, #nutritious, and #protine.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of tofu stir-fry with brown rice and vegetables. The vegetables include broccoli, carrots, red bell peppers, and celery. The caption includes hashtags related to veganism, stir-fry, sweet and sour flavors, and specific ingredients.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of vegan food, including brown rice, grilled tomatoes, roasted cauliflower, broccoli, and grilled mushrooms, with a vegan cheese sauce. The caption includes hashtags related to the ingredients and cooking methods.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of curry tofu with brown rice, garnished with coriander and a lemon wedge. The caption includes hashtags related to vegan recipes, Indian spices, and easy meals.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Tea:** Ask about the type of tea they were drinking, or their favorite tea blends.",
+          "2. **Home-made food:** Ask what other homemade foods they enjoy making.",
+          "1.  **Vegan Cooking/Recipes:** Discussing vegan recipes, sharing favorite vegan dishes, or asking for tips on quick and easy vegan meals.",
+          "2.  **Nutrition and Health:** Talking about the nutritional benefits of vegan food, protein sources in a vegan diet, or healthy eating habits.",
+          "1.  **Vegan Cooking/Recipes:** Ask about other favorite vegan recipes or cooking tips."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! The roasted veggie salad looked amazing! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Cooking",
+            "Healthy Eating",
+            "Quick and Easy Meals",
+            "Homemade Food",
+            "Tea"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys cooking and prioritizes healthy, plant-based meals. They seem to favor quick and easy recipes, suggesting a busy lifestyle. They also appreciate the ritual of tea.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite type of tea to relax with?",
+            "Do you have any other go-to 15-minute vegan meals you can recommend?",
+            "What are some of your favorite Indian spices to use in vegan cooking?",
+            "I'm always looking for new vegan cheese sauce recipes. What's your secret ingredient?",
+            "What's your favorite homemade food to make besides the ones you've posted?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Practical (values quick and easy solutions)",
+            "Creative (enjoys experimenting with recipes)",
+            "Appreciative of simple pleasures (tea, homemade food)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Tea:** Ask about the type of tea they were drinking, or their favorite tea blends.",
+        "2. **Home-made food:** Ask what other homemade foods they enjoy making.",
+        "1.  **Vegan Cooking/Recipes:** Discussing vegan recipes, sharing favorite vegan dishes, or asking for tips on quick and easy vegan meals.",
+        "2.  **Nutrition and Health:** Talking about the nutritional benefits of vegan food, protein sources in a vegan diet, or healthy eating habits.",
+        "1.  **Vegan Cooking/Recipes:** Ask about other favorite vegan recipes or cooking tips."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

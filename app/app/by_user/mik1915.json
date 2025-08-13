@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T16:29:56.056525",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T16:29:37.123619",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a meme-style post in Italian. It features a picture of a man in a blue and white period costume, pointing his finger. Behind him are images of the Colosseum. The text translates to something like, \"If a Roman gives you advice, it's not because he knows more than you... it's just that he's made more mistakes!!!\" It's attributed to \"Cit. Roberto T.\" The post also includes the \"Roma Mia\" logo.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a screenshot of an Instagram post by mik1915 featuring a map of a trail running route near Minusio, Ticino. The post details the distance (12.56km), elevation gain (830m), and time (1:48:25) of the run.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows mik1915 running in a race. The text overlay in Italian translates to something like \"Running has really changed my self-esteem. Before I saw myself as ugly. Now I see myself as slow and weak.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a swimming pool in a backyard with lush greenery, including tall trees and hydrangeas. Mountains are visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a pair of Altra trail running shoes on top of an Altra shoebox. The post caption thanks Altra Running and includes hashtags related to Altra and trail running.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man, presumably mik1915, standing on a mountain trail. The background features mountains, a blue sky with clouds, and green vegetation. He is wearing athletic gear, including a hydration pack, and appears to be trail running.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Trail Running:** Ask about their favorite trails in the Ticino region or their general trail running experiences.",
+          "2.  **Ticino/Italian Culture:** Inquire about other activities or places to visit in the Ticino region, as they seem to be local to the area.",
+          "1. Running/Fitness: You could ask about their running journey, training routine, or any upcoming races they're planning to participate in.",
+          "2. Self-Esteem/Motivation: You could comment on their post about how running has impacted their self-esteem and ask them to elaborate on their experience.",
+          "1. Travel/Location: Inquire about the location of the photo, as the landscape appears scenic."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! That latest post was pretty funny 😂.",
+        "profile_bio": {
+          "PERSON_NAME": "Roberto T. (likely a source of quotes, not necessarily mik1915's name. mik1915's actual name is Unknown)",
+          "INTERESTS": [
+            "Trail Running",
+            "Italian Culture/Humor (specifically Roman)",
+            "Fitness/Running",
+            "Ticino Region (Switzerland)",
+            "Altra Running Shoes"
+          ],
+          "LIFESTYLE": "Likely a trail runner and fitness enthusiast living in or near the Ticino region of Switzerland. Appears to enjoy outdoor activities and has a sense of humor about the challenges of running. Potentially has access to a private swimming pool.",
+          "CONVERSATION_STARTERS": [
+            "What are your favorite trail running routes in the Ticino region?",
+            "I saw your post about running and self-esteem. Can you tell me more about how running has impacted your perspective?",
+            "That picture of the pool is beautiful! Where is that located?",
+            "I'm planning a trip to Ticino. Do you have any recommendations for places to visit or things to do?",
+            "What do you like most about Altra trail running shoes?"
+          ],
+          "PERSONALITY_TRAITS": [
+            "Humorous",
+            "Active",
+            "Self-Aware",
+            "Passionate (about running)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Trail Running:** Ask about their favorite trails in the Ticino region or their general trail running experiences.",
+        "2.  **Ticino/Italian Culture:** Inquire about other activities or places to visit in the Ticino region, as they seem to be local to the area.",
+        "1. Running/Fitness: You could ask about their running journey, training routine, or any upcoming races they're planning to participate in.",
+        "2. Self-Esteem/Motivation: You could comment on their post about how running has impacted their self-esteem and ask them to elaborate on their experience.",
+        "1. Travel/Location: Inquire about the location of the photo, as the landscape appears scenic."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

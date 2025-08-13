@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T11:39:33.539192",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T11:39:11.111260",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image features a woman posing next to a white Mercedes-Benz G-Wagon. She is wearing a black and white spotted faux fur coat, black thigh-high boots, and holding a cocktail in a stemmed glass. The background is dark, with city lights visible in the distance.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a large, colorful, non-alcoholic drink in a stemmed glass. It has layers of red, yellow, and green liquid, topped with green ice and a straw. A \"BBQ\" branded umbrella is also in the drink. The post mentions it's a \"Tsunami\" drink inspired by Dallas BBQ.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a \"Summer Drink Candle\" made of gel or soy wax, resembling a cocktail in a stemmed glass with \"ice\" being poured into it. The glass rim appears to be decorated.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by crazydaiscreationz. It features a woman in a red outfit with long nails and bracelets. The post text welcomes new customers and business collaborations, promoting a \"crazy\" experience and directing users to a website link in the bio.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The post is about a pop-up brunch in New Jersey where the creator is selling their creations. The post mentions a collaboration with @crafted.creations.market and @dolcelounge, and highlights that tips are now accepted. The image shows the entrance to the venue.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a variety of colorful cocktails and shot glasses, suggesting a business or event related to drinks. The text in the post mentions \"Jersey,\" implying a location or event in New Jersey.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Dallas BBQ:** Ask if they've ever been to Dallas BBQ and what their favorite items are on the menu.",
+          "2. **Crafting Drinks/TikTok:** Inquire about their TikTok channel and the process of crafting the drink. Ask if they have any other unique drink recipes they plan to share.",
+          "1. **Custom Candle Making:** Ask about the process of creating custom candles and what inspires their unique designs.",
+          "2. **Bar Art/Drink-themed Creations:** Inquire about other \"bar art\" creations they've made or plan to make, and what their favorite real-life cocktails are.",
+          "1. **Business Collaborations:** The post mentions new business collaborations. You could ask about the type of collaborations they are looking for or share your own relevant business/skills."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The coat looked amazing on you! ✨",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Unique & Creative Drinks (alcoholic & non-alcoholic)",
+            "Candle Making (especially drink-themed)",
+            "Pop-Up Events & Markets",
+            "Fashion & Style (specifically bold and eye-catching)",
+            "Business Collaborations"
+          ],
+          "LIFESTYLE": "Likely an entrepreneur or small business owner focused on creating and selling unique drink-themed candles and potentially other bar art. She seems to be active in the New Jersey area, participating in pop-up events and collaborating with other businesses. She enjoys a stylish and somewhat luxurious lifestyle, as suggested by the G-Wagon and fashionable attire.",
+          "CONVERSATION STARTERS": [
+            "I saw your 'Tsunami' drink inspired by Dallas BBQ! Have you been there often, and what's your go-to order?",
+            "Your drink-themed candles are so creative! What inspires your unique designs, and what's the process like?",
+            "I noticed you're open to business collaborations. What kind of partnerships are you currently looking for?",
+            "I love your style! That faux fur coat is amazing. Where do you find your inspiration for your outfits?",
+            "I saw you were at a pop-up brunch in New Jersey. Do you have any other events planned soon?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Entrepreneurial",
+            "Stylish",
+            "Outgoing"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Dallas BBQ:** Ask if they've ever been to Dallas BBQ and what their favorite items are on the menu.",
+        "2. **Crafting Drinks/TikTok:** Inquire about their TikTok channel and the process of crafting the drink. Ask if they have any other unique drink recipes they plan to share.",
+        "1. **Custom Candle Making:** Ask about the process of creating custom candles and what inspires their unique designs.",
+        "2. **Bar Art/Drink-themed Creations:** Inquire about other \"bar art\" creations they've made or plan to make, and what their favorite real-life cocktails are.",
+        "1. **Business Collaborations:** The post mentions new business collaborations. You could ask about the type of collaborations they are looking for or share your own relevant business/skills."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T07:59:59.996926",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T07:59:38.418487",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of a \"Peace & Cream\" smoothie bowl sitting on a white wooden table. The bowl is clear plastic, revealing layers of red smoothie and toppings like granola and coconut flakes. In the blurred background, there's a stainless steel thermos, a potted plant, and a hint of a blue object, suggesting an outdoor setting.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of people, presumably at a wedding or celebration, raising champagne glasses in a toast. The poster, coco_cree, is in the foreground with a man, likely her partner, also raising a glass. They are dressed up, and the overall vibe is celebratory and romantic.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a scenic shot of a beach at sunrise or sunset. There's a wooden railing in the foreground, and the sky is a gradient of blue and orange. The post's hashtags indicate the person is interested in running, beaches, Florida, pitbulls, rescue animals, and veganism.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows coco_cree and another person, presumably at a Christmas-themed gathering. The background is decorated with Christmas lights. They are both holding drinks. The post is captioned \"Christmas dump.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The post shows a video or image (hard to tell from a still screenshot) with the caption \"December runs\" and hashtags related to running, barefoot running, the beach, Florida, pitbull rescue, and veganism. There's also a women's restroom sign visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows coco_cree with a man on his birthday. They appear to be at a wedding, possibly theirs. The man is wearing a green velvet tuxedo jacket and a bow tie, and coco_cree is in a wedding dress. They are surrounded by colorful flowers.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Wedding/Celebration:** \"That looks like a fun celebration! Was it a wedding, or another special occasion?\"",
+          "2.  **Travel/Location:** \"The background looks beautiful! Was this taken somewhere special?\"",
+          "1.  Running: \"I saw your post about January runs. Do you have a favorite route or trail you like to run?\"",
+          "2.  Rescue Animals: \"I noticed you used the #adoptdontshop hashtag. Do you have any rescue pets? I'm a big supporter of animal rescue too.\"",
+          "1.  **Christmas:** Given the \"Christmas dump\" caption and the Christmas decorations, asking about their favorite Christmas tradition or memory could be a good conversation starter."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Coco Cree (Likely a nickname, full name unknown)",
+          "INTERESTS": [
+            "Running (especially barefoot running on the beach)",
+            "Veganism",
+            "Animal Rescue (specifically Pitbulls)",
+            "Travel (especially to beaches in Florida)",
+            "Celebrations/Weddings"
+          ],
+          "LIFESTYLE": "Appears to live an active and healthy lifestyle, enjoying outdoor activities like running and spending time at the beach. Seems to be in a committed relationship and enjoys celebrating special occasions. Advocates for veganism and animal rescue. Possibly lives in or frequently visits Florida.",
+          "CONVERSATION STARTERS": [
+            "I love your smoothie bowl photos! What are your favorite vegan recipes or restaurants?",
+            "I saw you're a runner! What are your favorite running shoes or tips for barefoot running?",
+            "I noticed you used the #adoptdontshop hashtag. Do you have any rescue pets? I'm a big supporter of animal rescue too.",
+            "That beach photo is stunning! What's your favorite beach to run on in Florida?",
+            "Your wedding photos looked beautiful! What was your favorite part of the day?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Active",
+            "Compassionate (towards animals)",
+            "Celebratory/Joyful",
+            "Health-conscious"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Wedding/Celebration:** \"That looks like a fun celebration! Was it a wedding, or another special occasion?\"",
+        "2.  **Travel/Location:** \"The background looks beautiful! Was this taken somewhere special?\"",
+        "1.  Running: \"I saw your post about January runs. Do you have a favorite route or trail you like to run?\"",
+        "2.  Rescue Animals: \"I noticed you used the #adoptdontshop hashtag. Do you have any rescue pets? I'm a big supporter of animal rescue too.\"",
+        "1.  **Christmas:** Given the \"Christmas dump\" caption and the Christmas decorations, asking about their favorite Christmas tradition or memory could be a good conversation starter."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

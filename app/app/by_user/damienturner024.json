@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T13:15:54.960365",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T13:15:33.048847",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by damienturner024 is a video showing a large piece of equipment being lifted by a crane. The equipment is chained and ready to be lifted off a truck. The text overlay on the video reads \"Chained and ready for lift off!\". The location is Newcastle. The caption mentions it's a restoration project using ultra-high pressure.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a \"New 40k Hammelmann pump\" for hydro demolition and surface preparation. The post is by waterjettingsolutions and damienturner024.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a blue BMW (likely an E46 coupe) with two people inside. The post mentions celebrating birthdays with housemates and going for a drive, as well as some car issues and plans to get more \"seat time\" in. The hashtags indicate an interest in drift cars and the #barratheworld hashtag suggests an interest in Barra engines.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman standing in a garden, pushing a wheelbarrow filled with straw or mulch. There's a compost bin and other gardening-related items in the background. The post celebrates a 16-year anniversary.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows Haltech engine management system components, specifically a Nexus Rebel LS, Wideband WB2, 3x5 Keypad, and ic7 Dash, presumably for an LS-swapped E46 BMW.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a blue BMW drifting on a racetrack. The post mentions #qrraceway, #skidcontrol, #e46drift, #e46coupe, #drifting, #bmwdrift, #e46barrabuild, and #e46barra. The poster also mentions snapping an axle and considering a \"winters rear end setup.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Hydro Demolition/Surface Preparation: Ask about specific projects they've used the Hammelmann pump for or the types of surfaces it's most effective on.",
+          "2.  Equipment/Fleet: Inquire about other equipment they use for water jetting or their overall fleet and how the new pump fits in.",
+          "1.  **Drifting/Cars:** \"I saw you mentioned getting more seat time in your post. Are you planning on hitting up any specific drift events soon?\" (This directly references the post and shows interest in the car/drifting aspect.)",
+          "2.  **Barra Engines:** \"I noticed the #barratheworld hashtag. Are you running a Barra in your E46, or is that a future plan?\" (This picks up on a specific detail from the hashtags and opens a conversation about a specific type of engine.)",
+          "1. Gardening: Ask about the garden, what she's growing, or her favorite gardening tips."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Damien Turner (Based on username 'damienturner024')",
+          "INTERESTS": [
+            "Hydro Demolition/Surface Preparation (Water Jetting)",
+            "Drifting/Motorsport (Specifically E46 BMWs)",
+            "Barra Engine Swaps",
+            "Gardening",
+            "Automotive Technology (Engine Management Systems)"
+          ],
+          "LIFESTYLE": "Damien appears to be involved in the hydro demolition/surface preparation industry, likely working on restoration projects. He is also a car enthusiast with a passion for drifting, specifically with an E46 BMW, and is actively involved in modifying and improving his car. He also seems to value his relationships, celebrating anniversaries and spending time with housemates. He also enjoys gardening.",
+          "CONVERSATION STARTERS": [
+            "I saw you mentioned getting more seat time in your post. Are you planning on hitting up any specific drift events soon?",
+            "I noticed the #barratheworld hashtag. Are you running a Barra in your E46, or is that a future plan?",
+            "I saw the new Hammelmann pump you're using for hydro demolition. What types of surfaces is it most effective on?",
+            "Your garden looks great! What are you growing, and do you have any favorite gardening tips?",
+            "What other equipment do you use for water jetting, and how does the new pump fit into your overall fleet?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate: Demonstrates strong enthusiasm for his work and hobbies.",
+            "Hands-on: Actively involved in both his professional work and car modifications.",
+            "Relationship-oriented: Values relationships and celebrates milestones with loved ones.",
+            "Driven: Actively working to improve his drifting skills and car performance."
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Hydro Demolition/Surface Preparation: Ask about specific projects they've used the Hammelmann pump for or the types of surfaces it's most effective on.",
+        "2.  Equipment/Fleet: Inquire about other equipment they use for water jetting or their overall fleet and how the new pump fits in.",
+        "1.  **Drifting/Cars:** \"I saw you mentioned getting more seat time in your post. Are you planning on hitting up any specific drift events soon?\" (This directly references the post and shows interest in the car/drifting aspect.)",
+        "2.  **Barra Engines:** \"I noticed the #barratheworld hashtag. Are you running a Barra in your E46, or is that a future plan?\" (This picks up on a specific detail from the hashtags and opens a conversation about a specific type of engine.)",
+        "1. Gardening: Ask about the garden, what she's growing, or her favorite gardening tips."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

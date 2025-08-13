@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T20:57:31.101272",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T20:57:14.257635",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of a pecan cake or muffin on a white plate. A silver spoon is cutting into the cake, revealing its texture. The cake has a golden-brown color and appears moist. The background is slightly blurred.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a bowl of creamy, cheesy pasta with mushrooms and spinach. The post is tagged with #vegan, #pasta, #eats, #yums, #eat, and #food.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of baked oats topped with chocolate chips. The caption mentions \"baked oats\" and expresses happiness about the amount of chocolate.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a fruit tart topped with mango, raspberries, and blueberries, filled with coconut cream.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person holding a blueberry muffin that has been broken in half. The caption indicates it's a vegan blueberry muffin.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a cinnamon roll on a white plate, being cut with a fork. The post is tagged with hashtags like #cinammonrolls, #vegan, #eats, #breakfast, #dessert, #yummy, and #food.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan cooking/recipes: Ask about their favorite vegan recipes or tips for making vegan cheese sauce.",
+          "2. Pasta: Inquire about their favorite types of pasta or pasta dishes.",
+          "1.  Baked Oats Recipes: Ask about the specific recipe used for the baked oats, or share a favorite baked oats recipe.",
+          "2.  Chocolate Preferences: Inquire about their favorite type of chocolate or other chocolate-based desserts they enjoy.",
+          "1. Baking/Dessert Making: Ask about their favorite types of desserts to make or if they have any other unique fruit tart recipes."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The pecan cake looked so delicious! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Ayla (Based on username 'aylas.eats')",
+          "INTERESTS": [
+            "Vegan Baking and Cooking",
+            "Pasta Dishes (especially vegan)",
+            "Desserts (Cakes, Muffins, Tarts, Cinnamon Rolls)",
+            "Chocolate (especially in baked goods)",
+            "Healthy Eating (Implied by vegan focus and baked oats)"
+          ],
+          "LIFESTYLE": "Likely enjoys cooking and baking, with a focus on vegan recipes. Appears to prioritize creating visually appealing and delicious food. Possibly health-conscious due to veganism and baked oats focus. Could be a home cook, baker, or food blogger.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite tips for making a creamy vegan cheese sauce?",
+            "Do you have a go-to recipe for baked oats that you would recommend?",
+            "What's your favorite type of pasta to use in vegan dishes?",
+            "Besides the fruit tart you posted, do you have any other unique fruit tart recipes you enjoy making?",
+            "What's your favorite type of chocolate to bake with?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (evident in the variety and presentation of dishes)",
+            "Passionate (about vegan cooking and baking)",
+            "Detail-oriented (close-up shots and attention to detail in food presentation)",
+            "Enthusiastic (expressed happiness about chocolate in baked oats)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan cooking/recipes: Ask about their favorite vegan recipes or tips for making vegan cheese sauce.",
+        "2. Pasta: Inquire about their favorite types of pasta or pasta dishes.",
+        "1.  Baked Oats Recipes: Ask about the specific recipe used for the baked oats, or share a favorite baked oats recipe.",
+        "2.  Chocolate Preferences: Inquire about their favorite type of chocolate or other chocolate-based desserts they enjoy.",
+        "1. Baking/Dessert Making: Ask about their favorite types of desserts to make or if they have any other unique fruit tart recipes."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

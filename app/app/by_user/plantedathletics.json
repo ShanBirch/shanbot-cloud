@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T16:36:37.487676",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T16:36:19.645499",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by @plantedathletics is a black and white video. The top half shows a person lifting up their shirt to reveal their abs. The bottom half of the video has text that reads \"Stronger so I can pick up bigger dogs\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in a gym setting, performing a deadlift. The caption mentions \"Lift heavy. Eat your veggies.\" and the hashtags include terms like #veganbodybuilding, #vegan, #fitness, #veganathlete, and #plantbased.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman hiking on a rocky trail, wearing athletic clothing and a backpack. She is smiling at the camera. The post is from Planted Athletics, and the caption discusses challenging oneself and mentions vegan bodybuilding.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman doing a rope climb in what appears to be a gym setting. The post is from Planted Athletics and includes hashtags related to vegan bodybuilding and fitness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a before and after photo of a woman, presumably a client of Planted Athletics, showcasing her physical transformation over a period of time. The post emphasizes the convenience and effectiveness of the program, especially for busy individuals.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in a gym setting, lifting an 80-pound kettlebell. The post is tagged with various hashtags related to vegan bodybuilding and fitness.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Vegan bodybuilding/fitness:** You could ask about her experience with vegan bodybuilding, her favorite vegan protein sources, or her training routine.",
+          "2. **Deadlift technique/weightlifting:** You could ask about her deadlift routine, tips for improving form, or her personal best.",
+          "1. Hiking: Ask about her favorite hiking trails or if she has any upcoming hiking plans.",
+          "2. Vegan bodybuilding: Inquire about her vegan bodybuilding journey, favorite vegan protein sources, or any tips for others interested in vegan fitness.",
+          "1.  **Veganism/Plant-Based Diet:** Given the numerous vegan-related hashtags, inquiring about their favorite vegan recipes or plant-based protein sources could be a good conversation starter."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post, that's a great goal to work towards 💪",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Bodybuilding",
+            "Weightlifting (especially Deadlifts and Kettlebells)",
+            "Hiking",
+            "Fitness",
+            "Animal Welfare (implied by 'Stronger so I can pick up bigger dogs')"
+          ],
+          "LIFESTYLE": "Likely a fitness professional or enthusiast focused on vegan bodybuilding and a plant-based lifestyle. She appears to be active, enjoys weightlifting, hiking, and potentially coaches or trains others, particularly busy individuals, in achieving their fitness goals through a vegan diet.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite vegan protein sources for bodybuilding?",
+            "Do you have any tips for improving deadlift form?",
+            "What are some of your favorite hiking trails, and do you have any upcoming hiking plans?",
+            "What inspired you to pursue vegan bodybuilding, and what challenges have you faced?",
+            "I noticed the before and after photos. What makes your program effective for busy individuals?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven/Motivated",
+            "Passionate (about veganism and fitness)",
+            "Strong/Resilient",
+            "Empathetic (implied by helping others transform)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Vegan bodybuilding/fitness:** You could ask about her experience with vegan bodybuilding, her favorite vegan protein sources, or her training routine.",
+        "2. **Deadlift technique/weightlifting:** You could ask about her deadlift routine, tips for improving form, or her personal best.",
+        "1. Hiking: Ask about her favorite hiking trails or if she has any upcoming hiking plans.",
+        "2. Vegan bodybuilding: Inquire about her vegan bodybuilding journey, favorite vegan protein sources, or any tips for others interested in vegan fitness.",
+        "1.  **Veganism/Plant-Based Diet:** Given the numerous vegan-related hashtags, inquiring about their favorite vegan recipes or plant-based protein sources could be a good conversation starter."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

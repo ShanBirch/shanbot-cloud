@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T16:04:30.527357",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T16:04:11.529082",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a graphic titled \"THE LAWS OF DETACHMENT.\" It features six colorful circles arranged in two rows of three. Each circle contains a different phrase: \"Allow others to be who they are,\" \"Allow yourself to be who you are,\" \"Don't force situations,\" \"Solutions will emerge,\" \"Uncertainty is reality,\" and \"Embrace it.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an infographic about the nutritional benefits of hemp seeds. It highlights the high levels of fiber, omega fatty acids, vitamins, and minerals, and lists the benefits of hemp seeds for brain function, immune function, weight loss, and skin health.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a post by healthyinternational featuring a text graphic titled \"The Magic Bank Account.\" The text discusses the concept of time as a valuable resource, comparing each day to having $86,400 deposited into an account, emphasizing the importance of using time wisely.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an infographic about the 7 benefits of MCT oil. The benefits listed are: anti-microbial and anti-fungal properties, improved performance, appetite control, instant brain energy, helps with neurodegenerative disorders, lowers blood sugar, and helps with weight loss.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a quote by Creig Crippen: \"Do not chase love, Choose love. Do not need love, Share love. Do not fear love, Embrace love. Do not seek love, Become love.\" The post also includes a variety of hashtags related to self-love, personal growth, and positive mindset. The location tagged is Tulum Beach.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan pizza with various toppings, including peppers and what appears to be artichoke hearts, on a pesto base. The caption mentions it's the best vegan pizza they've ever had and thanks two other Instagram users for the recommendation.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Recipes using hemp seeds:** Ask about their favorite ways to incorporate hemp seeds into their diet or if they have any interesting recipes to share.",
+          "2. **Hemp Farming/CBD:** Given the hashtags used, inquire about their involvement or interest in hemp farming or the CBD industry.",
+          "1. Time Management: Given the post's focus on time as a valuable resource, you could ask about their favorite time management strategies or tools they use to maximize their day.",
+          "2. Entrepreneurial Journey: Since the post includes many entrepreneur-related hashtags, you could ask about their entrepreneurial journey and what inspired them to start their own business.",
+          "1. Healthy recipes: The post uses hashtags like #healthyrecipe and #healthyfoodrecipes. You could ask them about their favorite healthy recipes using MCT oil or other ingredients."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The colors in the graphic were really eye-catching. 🌈",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Holistic Health & Wellness",
+            "Vegan/Plant-Based Food",
+            "Personal Growth & Self-Love",
+            "Time Management & Productivity",
+            "Nutritional Supplements (Hemp Seeds, MCT Oil)"
+          ],
+          "LIFESTYLE": "Likely someone who prioritizes healthy living, mindfulness, and personal development. They may be a health enthusiast, wellness advocate, or potentially involved in the health/wellness industry. The Tulum Beach tag suggests they enjoy travel and potentially a connection to nature.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about hemp seeds! What's your favorite way to incorporate them into your diet?",
+            "That vegan pizza looked amazing! Do you have any other vegan restaurant recommendations?",
+            "Your post about 'The Magic Bank Account' really resonated with me. What are some of your go-to time management strategies?",
+            "I noticed you're interested in self-love and personal growth. What's one piece of advice you'd give to someone starting their journey?",
+            "I'm curious about your experience with MCT oil. What benefits have you personally noticed from using it?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Positive & Optimistic",
+            "Health-Conscious",
+            "Mindful & Reflective",
+            "Empathetic & Encouraging"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Recipes using hemp seeds:** Ask about their favorite ways to incorporate hemp seeds into their diet or if they have any interesting recipes to share.",
+        "2. **Hemp Farming/CBD:** Given the hashtags used, inquire about their involvement or interest in hemp farming or the CBD industry.",
+        "1. Time Management: Given the post's focus on time as a valuable resource, you could ask about their favorite time management strategies or tools they use to maximize their day.",
+        "2. Entrepreneurial Journey: Since the post includes many entrepreneur-related hashtags, you could ask about their entrepreneurial journey and what inspired them to start their own business.",
+        "1. Healthy recipes: The post uses hashtags like #healthyrecipe and #healthyfoodrecipes. You could ask them about their favorite healthy recipes using MCT oil or other ingredients."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

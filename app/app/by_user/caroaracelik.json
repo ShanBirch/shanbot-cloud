@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T11:53:57.575469",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T11:53:40.870947",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by \"fibwitv\" featuring Carolina Kravacek (@caro.aracelik). She is standing in front of a backdrop with the words \"MINU\" visible. She is wearing a blue off-the-shoulder top and patterned blue pants. She is holding a red and white document with \"30 Minutos\" on it. There are two glasses and a white cone shaped lamp behind her. The post promotes her appearance on \"En30Minutos\" and highlights her project \"Eco Mission,\" an app focused on environmental challenges.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a poster for \"Gira Mujeres\" (Women's Tour) by Coca-Cola. The poster highlights support for women's projects and features the Coca-Cola logo. The Instagram post itself mentions the user was a finalist in the Gira Mujeres program with Eco Mission.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a wedding photo. The bride and groom are smiling. The photographer is also visible in the corner of the image.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (caro.aracelik) smiling in front of the Eiffel Tower in Paris, France.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two women standing on a bridge in Amsterdam, Netherlands. There are canals and buildings in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (caro.aracelik) standing in the Memorial to the Murdered Jews of Europe (Holocaust Memorial) in Berlin, Germany.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  The Gira Mujeres program: Ask about their experience as a finalist in the program, what they learned, or what impact it had on their Eco Mission initiative.",
+          "2.  Eco Mission and environmental initiatives: Inquire further about the Eco Mission project and their passion for environmental care, or other environmental initiatives they are interested in.",
+          "1. Wedding planning: \"Are you planning a wedding? The photos look beautiful!\"",
+          "2. Photography: \"The photographer seems talented. Do you enjoy photography as well?\"",
+          "1. Travel: \"I saw your picture in Paris! Have you been there before, or was it your first time? What was your favorite part?\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Carolina Kravacek",
+          "INTERESTS": [
+            "Environmentalism (Eco Mission)",
+            "Women's Empowerment (Gira Mujeres)",
+            "Travel",
+            "Technology/App Development",
+            "Social Impact"
+          ],
+          "LIFESTYLE": "Carolina appears to be an entrepreneur or innovator focused on environmental solutions, likely involved in app development and social impact initiatives. She enjoys traveling and exploring different cultures. She is also recently married or engaged.",
+          "CONVERSATION STARTERS": [
+            "I saw you were a finalist in the Gira Mujeres program with Eco Mission. What was the most valuable thing you learned from that experience?",
+            "Your Eco Mission project sounds fascinating! What are some of the biggest environmental challenges you're hoping to address with the app?",
+            "Congratulations on your wedding! What was your favorite part of the wedding planning process?",
+            "I noticed you've traveled to Paris, Amsterdam, and Berlin. What's been your favorite travel experience so far, and why?",
+            "I saw you were on 'En30Minutos' talking about Eco Mission. What was it like being on the show and sharing your project with a wider audience?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate",
+            "Driven",
+            "Adventurous",
+            "Socially Conscious"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  The Gira Mujeres program: Ask about their experience as a finalist in the program, what they learned, or what impact it had on their Eco Mission initiative.",
+        "2.  Eco Mission and environmental initiatives: Inquire further about the Eco Mission project and their passion for environmental care, or other environmental initiatives they are interested in.",
+        "1. Wedding planning: \"Are you planning a wedding? The photos look beautiful!\"",
+        "2. Photography: \"The photographer seems talented. Do you enjoy photography as well?\"",
+        "1. Travel: \"I saw your picture in Paris! Have you been there before, or was it your first time? What was your favorite part?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

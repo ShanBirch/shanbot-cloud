@@ -1,0 +1,81 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T16:13:02.728725",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 1,
+        "timestamp": "2025-04-15T16:12:58.593682",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post from tiagooficial096. It shows Tiago and a woman, presumably his partner, posing for a selfie in a gym. They are both dressed in workout attire. The background shows gym equipment and other people working out.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [],
+        "generated_comment": "Heya! Just was having a little stalk! You and your partner looked great in your latest post! 💪",
+        "profile_bio": {
+          "PERSON NAME": "Tiago (Last name likely unknown)",
+          "INTERESTS": [
+            "Fitness",
+            "Working out",
+            "Gym life",
+            "Relationships/Partnerships",
+            "Selfies/Photography"
+          ],
+          "LIFESTYLE": "Likely leads an active lifestyle focused on fitness and health. Spends time at the gym regularly. Appears to be in a committed relationship.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite types of workouts?",
+            "What are your fitness goals?",
+            "How do you and your partner motivate each other in the gym?",
+            "What's your favorite piece of equipment at the gym and why?",
+            "Do you have any tips for staying consistent with a workout routine?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Social (willing to share photos)",
+            "Relationship-oriented",
+            "Likely motivated and disciplined (dedication to fitness)"
+          ]
+        }
+      },
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

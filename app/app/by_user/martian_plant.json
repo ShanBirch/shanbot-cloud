@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T20:27:15.312217",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T20:26:56.991616",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a newly married couple standing outdoors in front of greenery. The bride is wearing a striking red gown with a sweetheart neckline and puffy sleeves, and she's holding a black and red bouquet. The groom is wearing a black suit with a red tie. They are both smiling.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person in a long, red dress holding a dark bouquet, possibly roses. They are standing outside, with trees and a building visible in the background. The lighting suggests it's late afternoon or early evening.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a night scene with a pink/red aurora in the sky. A house and a car are visible in the foreground. The post is captioned with hashtags related to the aurora and solar storms.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a selfie of martian_plant with two older adults, likely family members. They are standing in front of a house with a garage door.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows martian_plant and another person dressed up for the Air Force Ball 2023 at Tyndall AFB.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows martian_plant posing with a man in a US Air Force uniform. The post is captioned \"Happy birthday sweetie @lilbat_\".",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Fashion/Costuming:** Complimenting the dress and asking about the occasion it was worn for, or inquiring about their interest in fashion or design.",
+          "2. **Flowers/Gardening:** Asking about the bouquet and their interest in flowers or gardening, given their username \"martian_plant.\"",
+          "1.  The aurora: Ask about their experience seeing the aurora, if they frequently observe them, or if they have any tips for aurora photography.",
+          "2.  The car: Inquire about the make and model of the car, or their interest in cars in general.",
+          "1. Family: \"It looks like you had a great time with your family! What were you all up to?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The red dress was absolutely stunning! ❤️",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Fashion (especially red dresses and formal wear)",
+            "Flowers/Gardening (implied by username)",
+            "Aurora Borealis/Space Weather",
+            "Air Force (likely connected to military life)",
+            "Family"
+          ],
+          "LIFESTYLE": "Likely married, possibly connected to the US Air Force (either as a member or spouse), enjoys attending formal events, and appreciates natural phenomena like the aurora. Appears to value family and enjoys spending time with them.",
+          "CONVERSATION STARTERS": [
+            "That red dress is stunning! What was the occasion you wore it for?",
+            "Your username is intriguing! Do you have a passion for gardening or botany?",
+            "I saw your aurora post! Have you seen the aurora often? Do you have any tips for capturing them in photos?",
+            "I noticed you attended the Air Force Ball. What was your favorite part of the event?",
+            "It looks like you had a great time with your family! What were you all up to?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Stylish/Fashion-conscious",
+            "Appreciative of beauty (flowers, aurora)",
+            "Family-oriented",
+            "Social (attends events, shares photos with others)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Fashion/Costuming:** Complimenting the dress and asking about the occasion it was worn for, or inquiring about their interest in fashion or design.",
+        "2. **Flowers/Gardening:** Asking about the bouquet and their interest in flowers or gardening, given their username \"martian_plant.\"",
+        "1.  The aurora: Ask about their experience seeing the aurora, if they frequently observe them, or if they have any tips for aurora photography.",
+        "2.  The car: Inquire about the make and model of the car, or their interest in cars in general.",
+        "1. Family: \"It looks like you had a great time with your family! What were you all up to?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

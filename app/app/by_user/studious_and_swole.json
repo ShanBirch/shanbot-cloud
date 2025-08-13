@@ -1,0 +1,65 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 2,
+      "user_messages": 1,
+      "ai_messages": 1,
+      "ai_questions": 1,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": true,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-16T05:19:23.629329",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-15T19:19:23.628026+00:00",
+          "type": "user",
+          "text": "Appreciate you boss! We working haha"
+        },
+        {
+          "timestamp": "2025-04-15T19:19:23.860907+00:00",
+          "type": "ai",
+          "text": "Let's get it haha! What are you working on today?"
+        },
+        {
+          "timestamp": "2025-04-17T15:48:05.414340+00:00",
+          "type": "user",
+          "text": "Today I did a training run for my upcoming half marathon for cancer research"
+        },
+        {
+          "timestamp": "2025-04-17T15:48:05.414340+00:00",
+          "type": "ai",
+          "text": "Good on ya mate! Supporting cancer research like that is amazing. How's the training feeling overall?"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "studious_and_swole",
+      "first_message_timestamp": "2025-04-15T19:19:23.628026+00:00",
+      "last_message_timestamp": "2025-04-15T19:19:23.860907+00:00",
+      "conversation_duration_str": "0m",
+      "conversation_count": 1,
+      "last_seen_timestamp": "2025-04-15T19:19:23.860907+00:00"
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T12:06:50.220263",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T12:06:31.723463",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a selfie of a man with a shaved head and a full beard, smiling at the camera. He is wearing a black t-shirt. The background appears to be a kitchen with gray cabinets. The post mentions he is 15 months sober and focused on his goals.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A young boy is standing in front of a counter with various vegan food items, including black beans, protein granola, soya milk, wraps, and vegetables. He is wearing a Sonic the Hedgehog sweatshirt. The post mentions he had scrambled tofu, sriracha tofu, black bean, salsa, spinach, and avocado wraps, and tempeh stir fry with edamame beans in a chilli sauce.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a variety of vegan meals and snacks prepared in containers, including a protein smoothie, tofu sandwich, kidney bean and rice salad, vegan chicken breast with chickpeas, lentils, and vegetables, peanut butter and banana bagel, carrots and hummus, a fruit and nut mix, and cranberry juice. The post also includes the calorie and protein count for each item, as well as the total for the day.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan bagel sandwich with vegan salmon slices, vegan cream cheese, cucumber, and greens. The post mentions it's a 400kcal meal.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A man is holding a can of Liquid Death sparkling water. The post celebrates 300 days of sobriety.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a collage of selfies featuring a man and a young boy holding cans of Liquid Death non-alcoholic beverages. They are making silly faces. The caption mentions listening to the Toby Morse podcast and the benefits of Liquid Death as an alcohol alternative.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan Recipes for Kids: Ask for more details about the recipes mentioned in the post, especially the tempeh stir fry or the tofu scramble, and how the child enjoys them.",
+          "2. Sonic the Hedgehog: Comment on the child's Sonic sweatshirt and ask if he's a fan of the games or movies.",
+          "1. **Vegan meal preparation and recipe ideas:** Ask about specific recipes or techniques used in the meals shown, or request more details about the preparation process.",
+          "2. **Balancing a demanding job with fitness and veganism:** Inquire about how they manage to maintain a healthy vegan diet and fitness routine while working long hours.",
+          "1.  **Vegan Cooking/Recipes:** Ask about other vegan recipes they enjoy or if they have any tips for making vegan salmon."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism",
+            "Sobriety/Recovery",
+            "Fitness",
+            "Vegan Cooking/Meal Prep",
+            "Fatherhood"
+          ],
+          "LIFESTYLE": "This individual appears to be a dedicated vegan, focused on fitness and maintaining sobriety. He is a father and actively involved in preparing vegan meals for himself and his child. He is likely health-conscious and prioritizes a structured diet and lifestyle. He may have a demanding job, given the emphasis on meal prepping.",
+          "CONVERSATION STARTERS": [
+            "Your tempeh stir fry with edamame beans sounds delicious! Could you share the recipe or any tips for making it kid-friendly?",
+            "I noticed your son's Sonic the Hedgehog sweatshirt. Is he a big fan of the games or movies?",
+            "You're clearly a pro at vegan meal prep. What are some of your go-to techniques for making it efficient and enjoyable?",
+            "Congratulations on your sobriety! How has Liquid Death helped you in your journey?",
+            "That vegan salmon bagel looks amazing! Do you have any tips for making vegan salmon taste authentic?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated",
+            "Health-conscious",
+            "Positive/Optimistic",
+            "Family-oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan Recipes for Kids: Ask for more details about the recipes mentioned in the post, especially the tempeh stir fry or the tofu scramble, and how the child enjoys them.",
+        "2. Sonic the Hedgehog: Comment on the child's Sonic sweatshirt and ask if he's a fan of the games or movies.",
+        "1. **Vegan meal preparation and recipe ideas:** Ask about specific recipes or techniques used in the meals shown, or request more details about the preparation process.",
+        "2. **Balancing a demanding job with fitness and veganism:** Inquire about how they manage to maintain a healthy vegan diet and fitness routine while working long hours.",
+        "1.  **Vegan Cooking/Recipes:** Ask about other vegan recipes they enjoy or if they have any tips for making vegan salmon."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

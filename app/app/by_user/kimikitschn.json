@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T17:05:24.485865",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T17:05:04.795803",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of alphabet soup. A spoon is holding some of the letters, which are arranged to spell out \"FUCK TRUMP\". The soup is in a clear container.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up shot of a plate of roasted vegetables (baby red potatoes, carrots, cauliflower, and garlic) over a yellow tali sauce. The caption includes a detailed list of ingredients in the sauce and hashtags related to veganism and plant-based cooking.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a vegan sandwich made with chunky peanut butter, sliced bananas, and vegan honey on seedy toast. The sandwich is plated on a blue and white striped dish.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows kimikitschn at Crossroads Kitchen, celebrating an early birthday dinner. She is posing with a man, presumably her son.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a Shepherd's pie made with mushrooms instead of meat, topped with brown butter garlic mashed potatoes. The caption includes the recipe and hashtags related to vegan cooking and plant-based diets.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a recipe for White Bean Potato Soup alongside a picture of the finished dish. The recipe includes ingredients like avocado oil, leeks, celery, carrots, garlic, red pepper flakes, nutritional yeast, thyme, Dijon mustard, potatoes, white beans, vegetable broth, bay leaves, miso paste, spinach, lemon, and dill.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Vegan/Plant-Based Cooking:** Ask about their favorite vegan recipes or cooking tips, or share your own.",
+          "2.  **Roasted Vegetables:** Inquire about their preferred methods for roasting vegetables, or ask for specific tips on roasting cauliflower or potatoes.",
+          "1. Vegan food and recipes: Discussing favorite vegan recipes, ingredients, or restaurants.",
+          "2. Woody Harrelson: Asking about the story behind the \"Woody Harrelson\" sandwich or discussing his work.",
+          "1.  **Crossroads Kitchen:** \"I saw you were at Crossroads Kitchen! I've heard great things about their [mention a specific dish or type of cuisine they offer]. Have you been there before, and what did you think?\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan/Plant-Based Cooking & Recipes",
+            "Roasted Vegetables",
+            "Experimenting with Vegan Ingredients (e.g., Nutritional Yeast, Miso Paste)",
+            "Vegan Dining (especially Crossroads Kitchen)",
+            "Political Activism (Anti-Trump)"
+          ],
+          "LIFESTYLE": "Likely a home cook who enjoys creating and sharing vegan recipes. Appears to have a son. Enjoys dining out at vegan restaurants. Potentially politically active.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite vegan recipes that you've been experimenting with lately?",
+            "I saw you made roasted vegetables with tali sauce. Do you have any tips for getting cauliflower perfectly roasted?",
+            "Have you been to Crossroads Kitchen before? What's your favorite dish there?",
+            "That white bean potato soup looks amazing! What's your secret ingredient?",
+            "I noticed the 'FUCK TRUMP' alphabet soup. What are your thoughts on [current political issue related to Trump or his policies]?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (with food and potentially other areas)",
+            "Passionate (about veganism and potentially politics)",
+            "Detail-oriented (provides detailed recipes and ingredient lists)",
+            "Expressive (willing to share strong opinions)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Vegan/Plant-Based Cooking:** Ask about their favorite vegan recipes or cooking tips, or share your own.",
+        "2.  **Roasted Vegetables:** Inquire about their preferred methods for roasting vegetables, or ask for specific tips on roasting cauliflower or potatoes.",
+        "1. Vegan food and recipes: Discussing favorite vegan recipes, ingredients, or restaurants.",
+        "2. Woody Harrelson: Asking about the story behind the \"Woody Harrelson\" sandwich or discussing his work.",
+        "1.  **Crossroads Kitchen:** \"I saw you were at Crossroads Kitchen! I've heard great things about their [mention a specific dish or type of cuisine they offer]. Have you been there before, and what did you think?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

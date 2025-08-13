@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T15:37:39.315031",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T15:37:20.477836",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a full-body selfie taken by a woman in a gray athletic outfit (sports bra and leggings) and white sneakers. She is standing in front of a mirror in what appears to be a dressing room or closet area. The background includes a wooden door, a glimpse of clothing rack, and a neutral-colored wall.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a screenshot of an Instagram post by jessduchesne.coaching. The post is about a kickoff session with the Daily Design Community, focusing on the benefits of journaling and the #30DaysOfJournaling challenge. The image also shows a laptop screen displaying a video of Jess Duchesne holding a phone.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of Jess Duchesne, a coach, in what appears to be her home. There are plants in the background. The post discusses how we respond to negative situations and encourages focusing on daily victories.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of mushrooms, along with bowls of lemons, olive oil, salt, and pepper. The post discusses the benefits of vitamin D enhanced mushrooms.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows Jess Duchesne, a coach, in a casual setting, likely at home. She's wearing a sweater and has a watch on her wrist. The post is about her client, Naomi, and the positive changes Naomi has experienced through coaching, including setting goals, developing routines, and managing stress.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows Jess Duchesne sitting at a table with a laptop and a journal. The caption discusses the importance of consistent practice with a journal and promotes her online community and a free cookbook.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Journaling: Given the post's focus on journaling and the #30DaysOfJournaling challenge, asking about her personal journaling practices, favorite prompts, or the impact of journaling on her life could be a good conversation starter.",
+          "2. Daily Design Community: Inquire about the Daily Design Community, its goals, and how people can get involved. This shows interest in her work and community building efforts.",
+          "1.  Her coaching practice: Ask about the types of clients she works with and the challenges they typically face.",
+          "2.  Plants: Compliment her plants and ask for tips on caring for similar indoor plants.",
+          "1.  **Mushroom Recipes:** Since the post mentions adding mushrooms to scrambled eggs, you could ask for other recipe recommendations using mushrooms or share your own favorite mushroom recipes."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Jess Duchesne",
+          "INTERESTS": [
+            "Journaling & Personal Development",
+            "Coaching & Helping Others Achieve Goals",
+            "Healthy Eating & Nutrition (specifically mushrooms)",
+            "Building Online Communities",
+            "Mindfulness & Well-being"
+          ],
+          "LIFESTYLE": "Jess Duchesne is a coach who works with clients to help them set goals, develop routines, and manage stress. She seems to work from home and is passionate about journaling, healthy living, and building a supportive online community. She likely leads a relatively active lifestyle, as suggested by her athletic wear.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about the #30DaysOfJournaling challenge. What are some of your favorite journaling prompts?",
+            "The Daily Design Community sounds interesting! What are its main goals, and how can people get involved?",
+            "What types of clients do you typically work with, and what are some of the common challenges they face?",
+            "I noticed you have some lovely plants in the background of your photos. Do you have any tips for caring for them?",
+            "I loved your post about vitamin D enhanced mushrooms! Do you have any other favorite mushroom recipes you'd be willing to share?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Encouraging: She motivates others to focus on daily victories and positive change.",
+            "Passionate: She is clearly enthusiastic about journaling, coaching, and healthy living.",
+            "Community-oriented: She actively builds and engages with her online community.",
+            "Empathetic: She highlights the positive changes her clients experience, suggesting a caring and supportive approach."
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Journaling: Given the post's focus on journaling and the #30DaysOfJournaling challenge, asking about her personal journaling practices, favorite prompts, or the impact of journaling on her life could be a good conversation starter.",
+        "2. Daily Design Community: Inquire about the Daily Design Community, its goals, and how people can get involved. This shows interest in her work and community building efforts.",
+        "1.  Her coaching practice: Ask about the types of clients she works with and the challenges they typically face.",
+        "2.  Plants: Compliment her plants and ask for tips on caring for similar indoor plants.",
+        "1.  **Mushroom Recipes:** Since the post mentions adding mushrooms to scrambled eggs, you could ask for other recipe recommendations using mushrooms or share your own favorite mushroom recipes."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

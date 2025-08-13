@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T15:12:08.103433",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T15:11:47.531515",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a still from an Instagram post by bbalance_together. It shows a sunny beach scene with turquoise water and white sand. In the foreground, there are two beach chairs with turquoise cushions and an orange beach umbrella. A person is partially visible in the background, appearing to be using fitness equipment, specifically the #hyfitgear mentioned in the post's caption.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a shirtless man in a gym setting. He's standing in front of a barbell with weights, wearing shorts, socks, and sneakers. The background includes various gym equipment.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a collection of various protein and supplement powders and pills, along with some fruit (mangoes) and a bag of organic porridge oats. There is also a cactus in a pot. The caption mentions pea protein, casein protein, and creatine.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a view from what appears to be a cruise ship cabin, with a resistance band set up for a workout. The ocean and a sunrise/sunset are visible in the background. The post mentions quarantine, workouts, healthy food, and the Caribbean.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a tray of food (eggs, sandwiches, and fruit) with the ocean in the background, presumably taken on a ship or near the sea. The post mentions being back at sea after time in Spain and quarantining for 14 days, emphasizing the importance of balanced nutrition.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man standing on a rocky outcrop, seemingly at the top of a mountain, with a scenic view of a coastal city and the sea in the background. He is shirtless, wearing shorts and sneakers, and appears to be using resistance bands for a workout. The post mentions hiking and outdoor workouts.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Fitness goals and workout routines: The post includes hashtags like #fitness, #goals, #shredding, and #workinprogress. You could ask about his current fitness goals or his favorite exercises.",
+          "2. Healthy eating habits: The caption mentions eating veggies and using the hashtag #eatbalanced #healthyfood. You could ask about his diet or favorite healthy recipes.",
+          "1.  **Supplements:** Ask about their experience with a specific supplement they have shown in the picture (e.g., \"I noticed you have [Supplement Name]. Have you found it effective for [specific benefit]?\").",
+          "2.  **Healthy Eating/Diet:** Inquire about how they incorporate the mangoes and oats into their diet or if they have any favorite recipes using those ingredients.",
+          "1. **Fitness Routines:** Ask about their favorite resistance band exercises or workout routines, especially those that can be done in small spaces."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Fitness (Gym workouts, resistance band training, outdoor workouts)",
+            "Healthy Eating (Balanced nutrition, supplements, specific foods like mangoes and oats)",
+            "Travel (Cruises, Spain, Caribbean)",
+            "Hiking and Outdoor Activities",
+            "Maintaining Fitness While Traveling"
+          ],
+          "LIFESTYLE": "Appears to be a fitness enthusiast who prioritizes health and wellness while traveling. He seems to enjoy outdoor activities and incorporates workouts into his travel experiences, even when quarantined or in limited spaces. Likely works out regularly and pays attention to his diet and supplementation.",
+          "CONVERSATION STARTERS": [
+            "I noticed you use #hyfitgear. How do you like it for beach workouts?",
+            "What are your favorite resistance band exercises, especially for travel?",
+            "I saw you had mangoes and oats in one of your posts. Do you have any favorite recipes using those ingredients?",
+            "You mentioned being back at sea after Spain. What are some of your favorite ways to stay active on a cruise?",
+            "What are your current fitness goals, and how are you working towards them?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Motivated (Consistently working out and maintaining a healthy lifestyle)",
+            "Adventurous (Enjoys travel and outdoor activities)",
+            "Disciplined (Maintains fitness routine even while traveling and quarantining)",
+            "Health-conscious (Prioritizes balanced nutrition and supplementation)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Fitness goals and workout routines: The post includes hashtags like #fitness, #goals, #shredding, and #workinprogress. You could ask about his current fitness goals or his favorite exercises.",
+        "2. Healthy eating habits: The caption mentions eating veggies and using the hashtag #eatbalanced #healthyfood. You could ask about his diet or favorite healthy recipes.",
+        "1.  **Supplements:** Ask about their experience with a specific supplement they have shown in the picture (e.g., \"I noticed you have [Supplement Name]. Have you found it effective for [specific benefit]?\").",
+        "2.  **Healthy Eating/Diet:** Inquire about how they incorporate the mangoes and oats into their diet or if they have any favorite recipes using those ingredients.",
+        "1. **Fitness Routines:** Ask about their favorite resistance band exercises or workout routines, especially those that can be done in small spaces."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

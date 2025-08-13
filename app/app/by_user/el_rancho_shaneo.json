@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T08:46:19.654988",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T08:45:57.199167",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by el_rancho_shaneo shows a video of someone riding a bull in a rodeo. The rider is wearing a white shirt and jeans, and the bull is bucking wildly. The video is taken from behind the chutes, with a cowboy hat visible in the foreground. The caption mentions \"blew the dust of the white boots for Shepparton rodeo\" and that \"Got a bit loose and hand blew but we onto the next one ol son\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man standing in front of a ranch-style house with a dog. He is wearing overalls and holding a beverage. The caption of the post is \"El Rancho *officially*\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person standing triumphantly on a rock at Everest Base Camp. The rock is covered in graffiti. The background features snowy mountains and a clear blue sky. The post mentions a 12-day trek through Nepal.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person (el_rancho_shaneo) in an outdoor, wooded area. They are wearing what appears to be climbing or rigging gear and holding a white dog. There is also some sort of folded fabric or material on the ground nearby. The caption says \"Exploring with the best ❤️\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person lifting weights in what appears to be a gym or training center. The post caption mentions competing, achieving great results with their team, and a personal best (PB) of a 70kg snatch.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person performing a GHD (Glute Ham Developer) exercise in a gym setting. There's also a barbell with weight plates on the floor, and a list of exercises written on the screen. The caption mentions \"300 and something days till the next CrossFit open.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Ranch life/homesteading: \"I noticed you're calling it El Rancho officially now. What kind of projects are you working on around the ranch?\"",
+          "2. Dog Breed: \"Cute dog! What breed is it?\"",
+          "1.  **The Nepal Trek:** Ask about the most challenging or rewarding part of the 12-day trek.",
+          "2.  **Gear and Guides:** Inquire about the specific gear they used or the guide they mentioned in the post.",
+          "*   **The dog:** \"Your dog looks like a great adventure buddy! What's their name and what's their favorite thing to do outside?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! That rodeo post looked intense! Hope the rider is doing okay. 🤠",
+        "profile_bio": {
+          "PERSON NAME": "Shane (Inferred from username 'el_rancho_shaneo')",
+          "INTERESTS": [
+            "Rodeo/Bull Riding",
+            "Ranching/Homesteading",
+            "Fitness (Weightlifting, CrossFit)",
+            "Adventure Travel (Nepal Trekking)",
+            "Dogs/Outdoor Activities with Dogs"
+          ],
+          "LIFESTYLE": "Shane appears to live a diverse and active lifestyle. He participates in rodeo events, likely lives on or manages a ranch ('El Rancho'), is dedicated to fitness through weightlifting and CrossFit, enjoys outdoor adventures like trekking and exploring with his dog, and has a competitive spirit.",
+          "CONVERSATION STARTERS": [
+            "I saw you blew the dust off your white boots for the Shepparton rodeo. How did that go?",
+            "I noticed you're calling it El Rancho officially now. What kind of projects are you working on around the ranch?",
+            "Your dog looks like a great adventure buddy! What's their name and what's their favorite thing to do outside?",
+            "That Everest Base Camp trek looked incredible! What was the most challenging or rewarding part of the 12-day trek?",
+            "Congrats on the 70kg snatch PB! What are your fitness goals for the next CrossFit Open?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Dedicated/Disciplined (Fitness, Ranching)",
+            "Competitive",
+            "Outdoorsy"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Ranch life/homesteading: \"I noticed you're calling it El Rancho officially now. What kind of projects are you working on around the ranch?\"",
+        "2. Dog Breed: \"Cute dog! What breed is it?\"",
+        "1.  **The Nepal Trek:** Ask about the most challenging or rewarding part of the 12-day trek.",
+        "2.  **Gear and Guides:** Inquire about the specific gear they used or the guide they mentioned in the post.",
+        "*   **The dog:** \"Your dog looks like a great adventure buddy! What's their name and what's their favorite thing to do outside?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

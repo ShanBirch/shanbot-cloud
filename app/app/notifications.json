@@ -1,0 +1,635 @@
+{
+  "notifications": [
+    {
+      "id": "1751335212.546628_0",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @test_user1",
+      "type": "warning",
+      "username": "test_user1",
+      "timestamp": "2025-07-01T12:00:12.548134",
+      "read": true
+    },
+    {
+      "id": "1751335212.559692_1",
+      "title": "\ud83c\udd93 New Trial Member!",
+      "message": "@test_user2 signed up for Trial Week 1",
+      "type": "success",
+      "username": "test_user2",
+      "timestamp": "2025-07-01T12:00:12.559692",
+      "read": true
+    },
+    {
+      "id": "1751335212.571265_2",
+      "title": "\ud83d\udcb0 New Sale!",
+      "message": "@test_user3 became a Paying Client",
+      "type": "success",
+      "username": "test_user3",
+      "timestamp": "2025-07-01T12:00:12.571265",
+      "read": true
+    },
+    {
+      "id": "1751335308.08191_3",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @sarah_fitness_journey",
+      "type": "warning",
+      "username": "sarah_fitness_journey",
+      "timestamp": "2025-07-01T12:01:48.081910",
+      "read": true
+    },
+    {
+      "id": "1751335308.101933_4",
+      "title": "\ud83c\udd93 New Trial Member!",
+      "message": "@mike_strongman signed up for Trial Week 1",
+      "type": "success",
+      "username": "mike_strongman",
+      "timestamp": "2025-07-01T12:01:48.101933",
+      "read": true
+    },
+    {
+      "id": "1751335308.116022_5",
+      "title": "\ud83d\udcb0 New Sale!",
+      "message": "@jessica_plantbased became a Paying Client",
+      "type": "success",
+      "username": "jessica_plantbased",
+      "timestamp": "2025-07-01T12:01:48.116022",
+      "read": true
+    },
+    {
+      "id": "1751335308.131675_6",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Free Trial Program to @alex_veganfitness",
+      "type": "warning",
+      "username": "alex_veganfitness",
+      "timestamp": "2025-07-01T12:01:48.131675",
+      "read": true
+    },
+    {
+      "id": "1751340313.665495_7",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @bre.with.nature",
+      "type": "warning",
+      "username": "bre.with.nature",
+      "timestamp": "2025-07-01T13:25:13.665495",
+      "read": true
+    },
+    {
+      "id": "1751359589.996217_8",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @bre.with.nature",
+      "type": "warning",
+      "username": "bre.with.nature",
+      "timestamp": "2025-07-01T18:46:29.996217",
+      "read": true
+    },
+    {
+      "id": "1751359687.182171_9",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @bre.with.nature",
+      "type": "warning",
+      "username": "bre.with.nature",
+      "timestamp": "2025-07-01T18:48:07.182171",
+      "read": true
+    },
+    {
+      "id": "1751359696.842193_10",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @bre.with.nature",
+      "type": "warning",
+      "username": "bre.with.nature",
+      "timestamp": "2025-07-01T18:48:16.842193",
+      "read": true
+    },
+    {
+      "id": "1751359756.095134_11",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @bre.with.nature",
+      "type": "warning",
+      "username": "bre.with.nature",
+      "timestamp": "2025-07-01T18:49:16.095134",
+      "read": true
+    },
+    {
+      "id": "1751359969.426626_12",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @bre.with.nature",
+      "type": "warning",
+      "username": "bre.with.nature",
+      "timestamp": "2025-07-01T18:52:49.426626",
+      "read": true
+    },
+    {
+      "id": "1751435780.039725_13",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @lycornh",
+      "type": "warning",
+      "username": "lycornh",
+      "timestamp": "2025-07-02T15:56:20.039725",
+      "read": true
+    },
+    {
+      "id": "1751448501.834542_14",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @eli3palazzi",
+      "type": "warning",
+      "username": "eli3palazzi",
+      "timestamp": "2025-07-02T19:28:21.834542",
+      "read": true
+    },
+    {
+      "id": "1751452289.179848_15",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @user_599331123",
+      "type": "warning",
+      "username": "user_599331123",
+      "timestamp": "2025-07-02T20:31:29.179848",
+      "read": true
+    },
+    {
+      "id": "1751459866.307391_16",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @grateful_vegan_sunflower",
+      "type": "warning",
+      "username": "grateful_vegan_sunflower",
+      "timestamp": "2025-07-02T22:37:46.307391",
+      "read": true
+    },
+    {
+      "id": "1751460555.244561_17",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @vegan4tanimals",
+      "type": "warning",
+      "username": "vegan4tanimals",
+      "timestamp": "2025-07-02T22:49:15.244561",
+      "read": true
+    },
+    {
+      "id": "1751460928.347829_18",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @vegan4tanimals",
+      "type": "warning",
+      "username": "vegan4tanimals",
+      "timestamp": "2025-07-02T22:55:28.347829",
+      "read": true
+    },
+    {
+      "id": "1751462759.298453_19",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @user_369312216",
+      "type": "warning",
+      "username": "user_369312216",
+      "timestamp": "2025-07-02T23:25:59.298453",
+      "read": true
+    },
+    {
+      "id": "1751487254.764684_20",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @grateful_vegan_sunflower",
+      "type": "warning",
+      "username": "grateful_vegan_sunflower",
+      "timestamp": "2025-07-03T06:14:14.764684",
+      "read": true
+    },
+    {
+      "id": "1751489285.053581_21",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @grateful_vegan_sunflower",
+      "type": "warning",
+      "username": "grateful_vegan_sunflower",
+      "timestamp": "2025-07-03T06:48:05.053581",
+      "read": true
+    },
+    {
+      "id": "1751492359.262323_22",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @a.living.vegan",
+      "type": "warning",
+      "username": "a.living.vegan",
+      "timestamp": "2025-07-03T07:39:19.262323",
+      "read": true
+    },
+    {
+      "id": "1751497753.309514_23",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @grateful_vegan_sunflower",
+      "type": "warning",
+      "username": "grateful_vegan_sunflower",
+      "timestamp": "2025-07-03T09:09:13.309514",
+      "read": true
+    },
+    {
+      "id": "1751499289.774002_24",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @grateful_vegan_sunflower",
+      "type": "warning",
+      "username": "grateful_vegan_sunflower",
+      "timestamp": "2025-07-03T09:34:49.774002",
+      "read": true
+    },
+    {
+      "id": "1751500361.07248_25",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @grateful_vegan_sunflower",
+      "type": "warning",
+      "username": "grateful_vegan_sunflower",
+      "timestamp": "2025-07-03T09:52:41.072480",
+      "read": true
+    },
+    {
+      "id": "1751508213.883792_26",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @grateful_vegan_sunflower",
+      "type": "warning",
+      "username": "grateful_vegan_sunflower",
+      "timestamp": "2025-07-03T12:03:33.883792",
+      "read": true
+    },
+    {
+      "id": "1751521712.846421_27",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @cocos_pt_studio",
+      "type": "warning",
+      "username": "cocos_pt_studio",
+      "timestamp": "2025-07-03T15:48:32.846421",
+      "read": true
+    },
+    {
+      "id": "1751533132.74672_28",
+      "title": "Test Notification",
+      "message": "Manual test notification from webhook debugging.",
+      "type": "warning",
+      "username": "debug_bot",
+      "timestamp": "2025-07-03T18:58:52.746720",
+      "read": true
+    },
+    {
+      "id": "1751536827.219712_29",
+      "title": "Onboarding FAILED",
+      "message": "Onboarding FAILED for Shannon Birch (IG: @cocos_pt_studio). Needs manual check. Client Added: False, Meal Plan: False, Workout Program: False",
+      "type": "error",
+      "username": "cocos_pt_studio",
+      "timestamp": "2025-07-03T20:00:27.219712",
+      "read": true
+    },
+    {
+      "id": "1751540206.911232_30",
+      "title": "Onboarding FAILED",
+      "message": "Onboarding FAILED for Shannon Birch (IG: @cocos_pt_studio). Needs manual check. Client Added: False, Meal Plan: False, Workout Program: False",
+      "type": "error",
+      "username": "cocos_pt_studio",
+      "timestamp": "2025-07-03T20:56:46.911232",
+      "read": true
+    },
+    {
+      "id": "1751541390.718808_31",
+      "title": "Onboarding FAILED",
+      "message": "Onboarding FAILED for Shannon Birch (IG: @cocos_pt_studio). Needs manual check. Client Added: False, Meal Plan: False, Workout Program: False",
+      "type": "error",
+      "username": "cocos_pt_studio",
+      "timestamp": "2025-07-03T21:16:30.718808",
+      "read": true
+    },
+    {
+      "id": "1751543591.584298_32",
+      "title": "New client - Onboarded completely",
+      "message": "New client - Onboarded completely: Shannon Birch (IG: @cocos_pt_studio). ClientAdded=True, MealPlan=True, WorkoutProgram=True",
+      "type": "success",
+      "username": "cocos_pt_studio",
+      "timestamp": "2025-07-03T21:53:11.584298",
+      "read": true
+    },
+    {
+      "id": "1751548481.721903_33",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @kayblossom9",
+      "type": "warning",
+      "username": "kayblossom9",
+      "timestamp": "2025-07-03T23:14:41.721903",
+      "read": true
+    },
+    {
+      "id": "1751549891.787003_34",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @user_426319321",
+      "type": "warning",
+      "username": "user_426319321",
+      "timestamp": "2025-07-03T23:38:11.787003",
+      "read": true
+    },
+    {
+      "id": "1751550280.839632_35",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @kayblossom9",
+      "type": "warning",
+      "username": "kayblossom9",
+      "timestamp": "2025-07-03T23:44:40.839632",
+      "read": true
+    },
+    {
+      "id": "1751553938.505169_36",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @lizzie.loves.veg",
+      "type": "warning",
+      "username": "lizzie.loves.veg",
+      "timestamp": "2025-07-04T00:45:38.505169",
+      "read": true
+    },
+    {
+      "id": "1751554133.954112_37",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @lizzie.loves.veg",
+      "type": "warning",
+      "username": "lizzie.loves.veg",
+      "timestamp": "2025-07-04T00:48:53.954112",
+      "read": true
+    },
+    {
+      "id": "1751554321.55895_38",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @lizzie.loves.veg",
+      "type": "warning",
+      "username": "lizzie.loves.veg",
+      "timestamp": "2025-07-04T00:52:01.558950",
+      "read": true
+    },
+    {
+      "id": "1751554587.666755_39",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @lizzie.loves.veg",
+      "type": "warning",
+      "username": "lizzie.loves.veg",
+      "timestamp": "2025-07-04T00:56:27.666755",
+      "read": true
+    },
+    {
+      "id": "1751563154.98224_40",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @user_774846284",
+      "type": "warning",
+      "username": "user_774846284",
+      "timestamp": "2025-07-04T03:19:14.982240",
+      "read": true
+    },
+    {
+      "id": "1751565734.824999_41",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @livrenee_fit",
+      "type": "warning",
+      "username": "livrenee_fit",
+      "timestamp": "2025-07-04T04:02:14.824999",
+      "read": true
+    },
+    {
+      "id": "1751566722.313481_42",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @henry_ngwena_av",
+      "type": "warning",
+      "username": "henry_ngwena_av",
+      "timestamp": "2025-07-04T04:18:42.313481",
+      "read": true
+    },
+    {
+      "id": "1751569123.571893_43",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @asemanenilgun000",
+      "type": "warning",
+      "username": "asemanenilgun000",
+      "timestamp": "2025-07-04T04:58:43.572857",
+      "read": true
+    },
+    {
+      "id": "1751581871.791759_44",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @livrenee_fit",
+      "type": "warning",
+      "username": "livrenee_fit",
+      "timestamp": "2025-07-04T08:31:11.791759",
+      "read": true
+    },
+    {
+      "id": "1751591412.214088_45",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @ralphguerino2",
+      "type": "warning",
+      "username": "ralphguerino2",
+      "timestamp": "2025-07-04T11:10:12.214088",
+      "read": true
+    },
+    {
+      "id": "1751594190.444538_46",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @cocos_pt_studio",
+      "type": "warning",
+      "username": "cocos_pt_studio",
+      "timestamp": "2025-07-04T11:56:30.444538",
+      "read": true
+    },
+    {
+      "id": "1751681741.123667_47",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @sararamani48",
+      "type": "warning",
+      "username": "sararamani48",
+      "timestamp": "2025-07-05T12:15:41.123667",
+      "read": true
+    },
+    {
+      "id": "1751761572.980686_48",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @danielvrtacic",
+      "type": "warning",
+      "username": "danielvrtacic",
+      "timestamp": "2025-07-06T10:26:12.980686",
+      "read": true
+    },
+    {
+      "id": "1751778731.75539_49",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @test_vegan_lead_001",
+      "type": "warning",
+      "username": "test_vegan_lead_001",
+      "timestamp": "2025-07-06T15:12:11.755390",
+      "read": true
+    },
+    {
+      "id": "1751778738.542195_50",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @test_vegan_lead_002",
+      "type": "warning",
+      "username": "test_vegan_lead_002",
+      "timestamp": "2025-07-06T15:12:18.542195",
+      "read": true
+    },
+    {
+      "id": "1751778746.138915_51",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @test_vegan_lead_003",
+      "type": "warning",
+      "username": "test_vegan_lead_003",
+      "timestamp": "2025-07-06T15:12:26.138915",
+      "read": true
+    },
+    {
+      "id": "1753001463.364485_52",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @cal_menara",
+      "type": "warning",
+      "username": "cal_menara",
+      "timestamp": "2025-07-20T18:51:03.364485",
+      "read": true
+    },
+    {
+      "id": "1753017141.743671_53",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @misswolf1957",
+      "type": "warning",
+      "username": "misswolf1957",
+      "timestamp": "2025-07-20T23:12:21.743671",
+      "read": true
+    },
+    {
+      "id": "1753046440.239228_54",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @sofi_maceratessi",
+      "type": "warning",
+      "username": "sofi_maceratessi",
+      "timestamp": "2025-07-21T07:20:40.239228",
+      "read": true
+    },
+    {
+      "id": "1753070542.286755_55",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @mazzie_maz_wellness",
+      "type": "warning",
+      "username": "mazzie_maz_wellness",
+      "timestamp": "2025-07-21T14:02:22.286755",
+      "read": true
+    },
+    {
+      "id": "1753074359.537187_56",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @idivc2711",
+      "type": "warning",
+      "username": "idivc2711",
+      "timestamp": "2025-07-21T15:05:59.537187",
+      "read": true
+    },
+    {
+      "id": "1753075806.063403_57",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @idivc2711",
+      "type": "warning",
+      "username": "idivc2711",
+      "timestamp": "2025-07-21T15:30:06.063403",
+      "read": true
+    },
+    {
+      "id": "1753079371.06247_58",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @michellekvianna",
+      "type": "warning",
+      "username": "michellekvianna",
+      "timestamp": "2025-07-21T16:29:31.062470",
+      "read": true
+    },
+    {
+      "id": "1753081447.208332_59",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @tealperryx",
+      "type": "warning",
+      "username": "tealperryx",
+      "timestamp": "2025-07-21T17:04:07.208332",
+      "read": false
+    },
+    {
+      "id": "1753094239.894521_60",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @tealperryx",
+      "type": "warning",
+      "username": "tealperryx",
+      "timestamp": "2025-07-21T20:37:19.894521",
+      "read": false
+    },
+    {
+      "id": "1753094256.921248_61",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered 28-Day Transformation Challenge to @plantbased.for.weightloss",
+      "type": "warning",
+      "username": "plantbased.for.weightloss",
+      "timestamp": "2025-07-21T20:37:36.921248",
+      "read": false
+    },
+    {
+      "id": "1753102464.055117_62",
+      "title": "\ud83d\udce7 Email Collected!",
+      "message": "@user_649757228 provided email: lykafoxpole@gmail.com - Ready for July 28th challenge!",
+      "type": "info",
+      "username": "user_649757228",
+      "timestamp": "2025-07-21T22:54:24.055117",
+      "read": false
+    },
+    {
+      "id": "1753102848.210218_63",
+      "title": "\ud83d\udce7 Email Collected!",
+      "message": "@anna_bellelle provided email: A.n.ble592@gmail.com - Ready for July 28th challenge!",
+      "type": "info",
+      "username": "anna_bellelle",
+      "timestamp": "2025-07-21T23:00:48.210218",
+      "read": false
+    },
+    {
+      "id": "1753133359.772472_64",
+      "title": "\ud83d\udce7 Email Collected!",
+      "message": "@kombuchabear provided email: kombuchabear@gmail.com - Ready for July 28th challenge!",
+      "type": "info",
+      "username": "kombuchabear",
+      "timestamp": "2025-07-22T07:29:19.772472",
+      "read": false
+    },
+    {
+      "id": "1753163000.8559_65",
+      "title": "\ud83c\udfaf Challenge Offered!",
+      "message": "Offered Coaching Program to @tealperryx",
+      "type": "warning",
+      "username": "tealperryx",
+      "timestamp": "2025-07-22T15:43:20.856894",
+      "read": false
+    },
+    {
+      "id": "1754205947.687738_66",
+      "title": "\ud83d\udcb0 New Sale!",
+      "message": "@cocos_pt_studio became a Paying Client",
+      "type": "success",
+      "username": "cocos_pt_studio",
+      "timestamp": "2025-08-03T17:25:47.687738",
+      "read": false
+    },
+    {
+      "id": "1754206029.620836_67",
+      "title": "\ud83d\udcb0 New Sale!",
+      "message": "@blissedlia became a Paying Client",
+      "type": "success",
+      "username": "blissedlia",
+      "timestamp": "2025-08-03T17:27:09.620836",
+      "read": false
+    },
+    {
+      "id": "1754207772.585883_68",
+      "title": "\ud83d\udcb0 New Sale!",
+      "message": "@burcherella became a Paying Client",
+      "type": "success",
+      "username": "burcherella",
+      "timestamp": "2025-08-03T17:56:12.585883",
+      "read": false
+    },
+    {
+      "id": "1754208132.847849_69",
+      "title": "\ud83d\udcb0 New Sale!",
+      "message": "@aussiepotter became a Paying Client",
+      "type": "success",
+      "username": "aussiepotter",
+      "timestamp": "2025-08-03T18:02:12.847849",
+      "read": false
+    }
+  ],
+  "last_updated": "2025-08-03T18:02:12.848849"
+}

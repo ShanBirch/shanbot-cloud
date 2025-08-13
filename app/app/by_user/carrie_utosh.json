@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T12:16:20.770761",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T12:15:59.823504",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a butterfly resting on a concrete surface. The butterfly has orange and black markings. The concrete is textured and has small pebbles embedded in it. The lighting suggests it was taken outdoors in daylight.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an illustration of a mother and daughter sharing a loving moment, possibly a kiss. The background features floral designs. The post includes hashtags like #momanddaughter, #daughters, #mommiesgirls, #besties, and #bestfriendsforever.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a text graphic that reads: \"Peace in your home. Peace in your mind. Peace in your heart. Peace in your soul.\" The post also includes hashtags related to peace and inner peace.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a display of crystals, crystal jewelry, and plants, likely at a market or shop.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two glasses of juice, one red (likely beet juice, as indicated by the hashtag) and one green, presumably at a cafe or restaurant. The post is captioned \"Lil morning outing :).\" with hashtags #selfcare, #beets, and #selflove.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a chalkboard with the handwritten question: \"Share a story about a time of struggle in your life. How did hope break through?\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Motherhood/Daughterhood:** Comment on the special bond between mothers and daughters, perhaps sharing a personal anecdote or asking about her experiences as a mom.",
+          "2.  **Illustration/Art:** If you are interested in art, you could compliment the style of the illustration and ask about the artist or the inspiration behind it.",
+          "1.  **Inner Peace/Mindfulness:** You could ask about their practices for achieving inner peace or their thoughts on the importance of mindfulness in daily life.",
+          "2.  **Home Decor/Creating a Peaceful Home Environment:** Given the phrase \"Peace in your home,\" you could ask about their approach to creating a peaceful and calming atmosphere in their living space, or if they have any favorite decor items that contribute to that feeling.",
+          "1. **Crystals:** \"I noticed you have a beautiful crystal display! Do you have a favorite crystal, or one you find yourself drawn to often?\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Carrie Utosh (based on username 'carrie_utosh')",
+          "INTERESTS": [
+            "Motherhood/Family",
+            "Art/Illustration",
+            "Mindfulness/Inner Peace",
+            "Crystals/Spirituality",
+            "Health & Wellness/Self-Care"
+          ],
+          "LIFESTYLE": "Likely a mother who values self-care, inner peace, and spending quality time with her daughter. She seems to appreciate art, crystals, and healthy living. She may be involved in selling or collecting crystals, or simply enjoys visiting crystal shops/markets. The chalkboard post suggests an interest in personal growth and reflection.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite thing about being a mom?",
+            "The illustration of the mother and daughter is beautiful! Do you know the artist?",
+            "What are some of your go-to practices for finding inner peace?",
+            "I love the crystal display! Do you have a favorite crystal, or one you find yourself drawn to often?",
+            "What are some ways you incorporate self-care into your daily routine?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Loving/Nurturing",
+            "Spiritual/Mindful",
+            "Artistic/Creative",
+            "Reflective/Introspective"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Motherhood/Daughterhood:** Comment on the special bond between mothers and daughters, perhaps sharing a personal anecdote or asking about her experiences as a mom.",
+        "2.  **Illustration/Art:** If you are interested in art, you could compliment the style of the illustration and ask about the artist or the inspiration behind it.",
+        "1.  **Inner Peace/Mindfulness:** You could ask about their practices for achieving inner peace or their thoughts on the importance of mindfulness in daily life.",
+        "2.  **Home Decor/Creating a Peaceful Home Environment:** Given the phrase \"Peace in your home,\" you could ask about their approach to creating a peaceful and calming atmosphere in their living space, or if they have any favorite decor items that contribute to that feeling.",
+        "1. **Crystals:** \"I noticed you have a beautiful crystal display! Do you have a favorite crystal, or one you find yourself drawn to often?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

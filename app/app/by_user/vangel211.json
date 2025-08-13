@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T16:55:23.236172",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T16:55:05.401765",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post by vangel.211. It's a collage featuring a headline that reads \"Academy of Music Bans Taylor Swift for Life 'You've Become Woke'\". The collage also includes a picture of the Academy of Music building and a portrait of Taylor Swift. The post was made on February 14, 2024.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by vangel.211 sharing an article about the Academy of Music banning Taylor Swift for life, claiming she has become \"woke.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by user vangel.211. It features a news headline about the Academy of Music banning Taylor Swift for life due to being \"woke\". The post includes a picture of the Academy of Music building and a photo of Taylor Swift. The profile indicates the user posts about \"Art Music\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by vangel.211 is about the Academy of Music banning Taylor Swift for life for \"becoming woke.\" The post includes a link to a news article.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by vangel.211. The post shares an article about Michael Jordan reportedly rejecting a $200 million offer to do a commercial with LeBron James, citing \"woke\" issues.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by vangel.211. The post includes a meme about the Academy of Music banning Taylor Swift for life because she has \"become woke,\" alongside a picture of Taylor Swift. The post also includes a caption about Michael Jordan turning down a $200 million offer to do a commercial with LeBron James due to the latter being \"woke.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Taylor Swift: Discussing opinions on Taylor Swift's music, public image, or recent controversies.",
+          "2.  \"Wokeness\" in Music/Entertainment: Engaging in a conversation about the concept of \"wokeness\" and its perceived impact on the music industry or entertainment in general.",
+          "1. Taylor Swift: Discussing opinions on Taylor Swift's music, her influence, or the controversy mentioned in the post.",
+          "2. Academy of Music/Music Venues: Asking about their favorite music venues or discussing the role of institutions like the Academy of Music in the music industry.",
+          "1.  Taylor Swift: Discussing opinions on her music, public persona, or the controversy surrounding the ban."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Saw your latest post about Taylor Swift - that's a pretty bold statement! 😮",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Music (specifically related to current events and controversies)",
+            "Art (as indicated in profile description)",
+            "Cultural Commentary (particularly on 'wokeness' in entertainment)",
+            "News and Current Events (related to music and entertainment)",
+            "Sports (specifically basketball and Michael Jordan)"
+          ],
+          "LIFESTYLE": "Likely an individual who follows current events in the music and entertainment industries and enjoys sharing their opinions, particularly on controversial topics. They may be interested in the intersection of culture, politics, and entertainment. Their profession is unknown, but they have time to create and share content on Instagram.",
+          "CONVERSATION STARTERS": [
+            "What are your thoughts on the Academy of Music's decision regarding Taylor Swift?",
+            "How do you define 'wokeness' in the context of the music industry?",
+            "What are your favorite music venues and why?",
+            "Do you think Michael Jordan made the right decision turning down the commercial with LeBron James? Why or why not?",
+            "What other artists or cultural figures do you think are being affected by 'wokeness'?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Opinionated",
+            "Interested in current events and controversies",
+            "Potentially critical of 'wokeness'",
+            "Engaged in cultural commentary"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Taylor Swift: Discussing opinions on Taylor Swift's music, public image, or recent controversies.",
+        "2.  \"Wokeness\" in Music/Entertainment: Engaging in a conversation about the concept of \"wokeness\" and its perceived impact on the music industry or entertainment in general.",
+        "1. Taylor Swift: Discussing opinions on Taylor Swift's music, her influence, or the controversy mentioned in the post.",
+        "2. Academy of Music/Music Venues: Asking about their favorite music venues or discussing the role of institutions like the Academy of Music in the music industry.",
+        "1.  Taylor Swift: Discussing opinions on her music, public persona, or the controversy surrounding the ban."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

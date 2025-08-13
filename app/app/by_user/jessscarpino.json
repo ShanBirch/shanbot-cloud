@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T22:33:58.425086",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T22:33:39.706995",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by @himalayanyogaassociation is a carousel post, with the first image featuring a yoga instructor guiding a student in a triangle pose. The student is bending to the side with one hand reaching towards the floor, while the instructor is gently adjusting her arm. Other students are seen in the background practicing different yoga poses. The words \"ASHTANGA VINYASA cultivate discipline\" are overlaid on the image.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows Jess.scarpino in a yoga studio in Rishikesh, India, performing a handstand with the assistance of a yoga instructor. The caption mentions Rishikesh Yoga Teacher Training and expresses gratitude for the opportunity to learn in the capital of yoga. Hashtags include #india, #rishikesh, #yoga, #viajeespiritual (spiritual journey), #viajera (traveler), #hathavinyasayoga, #solotravel, and #crecimiento (growth).",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (presumably jess.scarpino) receiving a blessing or spiritual marking on her forehead, likely during a yoga retreat or spiritual experience at the Himalayan Yoga Ashram. The post is promoting the Himalayan Yoga Association in Rishikesh, India.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, jess.scarpino, doing a headstand yoga pose inside an intricately designed structure in Jaipur, India. The hashtags in the post include #india, #jaipur, #yoga, and #viajeespiritual (spiritual journey).",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman smiling, wearing a flower garland and a tilak on her forehead. The location is tagged as Rishikesh. The hashtags include yoga, India, and spiritual travel.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (presumably jess.scarpino) walking in front of the Taj Mahal in India. The photo includes a reflection of the Taj Mahal in water.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Yoga Teacher Training: Ask about her experience with the yoga teacher training program in Rishikesh. You could inquire about the specific style of yoga she's learning (Hatha Vinyasa), the challenges she's faced, or what she hopes to achieve with the training.",
+          "2.  Solo Travel in India: Given the #solotravel hashtag, you could ask about her experiences traveling alone in India, what she's enjoyed most, or any tips she might have for other solo travelers.",
+          "1.  **Yoga and Spirituality:** \"I saw your post about the Himalayan Yoga Association. Have you been practicing yoga for a long time? What aspects of yoga or spirituality resonate most with you?\"",
+          "2.  **Travel to Rishikesh:** \"Your post about Rishikesh looks amazing! I've always been interested in visiting India. What was your favorite part of the experience?\"",
+          "1.  **Travel in India/Jaipur:** Inquire about her experience traveling in India, specifically Jaipur. You could ask about her favorite places she's visited or if she has any recommendations for someone planning a trip there."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The yoga instructor looked really helpful. 🙏",
+        "profile_bio": {
+          "PERSON NAME": "Jess Scarpino",
+          "INTERESTS": [
+            "Yoga (specifically Hatha Vinyasa and Ashtanga Vinyasa)",
+            "Spiritual Travel",
+            "Solo Travel",
+            "Indian Culture",
+            "Personal Growth"
+          ],
+          "LIFESTYLE": "Jess appears to be a solo traveler and yoga enthusiast currently immersed in yoga teacher training in Rishikesh, India. She actively seeks spiritual experiences and explores different regions of India, documenting her journey through photos and sharing her experiences online.",
+          "CONVERSATION STARTERS": [
+            "How has your yoga teacher training in Rishikesh been going? What's been the most challenging or rewarding aspect?",
+            "I noticed you're traveling solo in India. What are some of your favorite experiences or tips for other solo travelers?",
+            "Your photos from the Himalayan Yoga Association look incredible. What aspects of yoga or spirituality resonate most with you?",
+            "You've visited both Rishikesh and Jaipur. How would you compare the two cities, and what were your highlights in each?",
+            "What inspired you to embark on this spiritual journey to India, and what are you hoping to gain from the experience?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Spiritual",
+            "Open-minded",
+            "Introspective"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Yoga Teacher Training: Ask about her experience with the yoga teacher training program in Rishikesh. You could inquire about the specific style of yoga she's learning (Hatha Vinyasa), the challenges she's faced, or what she hopes to achieve with the training.",
+        "2.  Solo Travel in India: Given the #solotravel hashtag, you could ask about her experiences traveling alone in India, what she's enjoyed most, or any tips she might have for other solo travelers.",
+        "1.  **Yoga and Spirituality:** \"I saw your post about the Himalayan Yoga Association. Have you been practicing yoga for a long time? What aspects of yoga or spirituality resonate most with you?\"",
+        "2.  **Travel to Rishikesh:** \"Your post about Rishikesh looks amazing! I've always been interested in visiting India. What was your favorite part of the experience?\"",
+        "1.  **Travel in India/Jaipur:** Inquire about her experience traveling in India, specifically Jaipur. You could ask about her favorite places she's visited or if she has any recommendations for someone planning a trip there."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T12:46:53.316875",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T12:46:29.078750",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows model_deepakagnihotri_page posing with a woman against a brick wall backdrop. He is wearing a white button-down shirt over a black and white striped t-shirt and dark jeans. The woman is wearing a white sweatshirt and light-wash jeans. They are both touching their necks and looking at each other.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a promotional poster for a \"Mr. & Miss Etawah 2020\" music and dance festival. It features images of judges, guests of honor, and show organizers, including model_deepakagnihotri_page as one of the show organizers.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person taking a selfie in a mirror, flexing their bicep. The image is partially in color and partially in black and white.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie taken by model_deepakagnihotri_page with two other people in the background. The selfie taker is wearing yellow sunglasses and a denim jacket.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a young man, presumably Deepak Agnihotri, wearing sunglasses and a red patterned shirt. He has a stylish haircut. The background is slightly blurred, but appears to be outdoors with some construction or concrete elements.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a young man, presumably Deepak Agnihotri, leaning out of a white car. He's wearing sunglasses and a denim jacket.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **The event itself:** \"I saw you were involved in organizing the Mr. & Miss Etawah event. What was your favorite part about putting it together?\"",
+          "2.  **Modeling/Entertainment Industry:** \"I noticed you're involved in modeling and events. What are some of the challenges and rewards of working in the entertainment industry?\"",
+          "1. Fitness/Workout routine: You could ask about their workout routine or what kind of exercises they do to stay in shape.",
+          "2. Modeling: Since their username includes \"model,\" you could ask about their modeling career, what kind of modeling they do, or how they got started.",
+          "1.  **Fashion/Style:** Comment on his style, specifically the sunglasses or denim jacket, and ask where he got them."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The lighting really made the colours pop ✨",
+        "profile_bio": {
+          "PERSON NAME": "Deepak Agnihotri",
+          "INTERESTS": [
+            "Modeling",
+            "Event Organization (specifically beauty pageants/talent shows)",
+            "Fashion/Style",
+            "Fitness",
+            "Music and Dance"
+          ],
+          "LIFESTYLE": "Model and event organizer. Appears to be active and social, involved in the entertainment industry. Likely prioritizes fitness and maintaining a stylish appearance. Seems to be based in or have strong ties to Etawah.",
+          "CONVERSATION STARTERS": [
+            "What was your favorite part about organizing the Mr. & Miss Etawah event?",
+            "What are some of the challenges and rewards of working in the entertainment industry, particularly in modeling and event planning?",
+            "I love your style! Where did you get those sunglasses/denim jacket?",
+            "What's your workout routine like? Any tips for staying in shape?",
+            "How did you get started in modeling, and what kind of modeling do you enjoy the most?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Confident (evident in selfies and modeling)",
+            "Stylish (demonstrated through clothing choices and attention to appearance)",
+            "Social (seen in group photos and event involvement)",
+            "Driven/Ambitious (involved in organizing events and pursuing a modeling career)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **The event itself:** \"I saw you were involved in organizing the Mr. & Miss Etawah event. What was your favorite part about putting it together?\"",
+        "2.  **Modeling/Entertainment Industry:** \"I noticed you're involved in modeling and events. What are some of the challenges and rewards of working in the entertainment industry?\"",
+        "1. Fitness/Workout routine: You could ask about their workout routine or what kind of exercises they do to stay in shape.",
+        "2. Modeling: Since their username includes \"model,\" you could ask about their modeling career, what kind of modeling they do, or how they got started.",
+        "1.  **Fashion/Style:** Comment on his style, specifically the sunglasses or denim jacket, and ask where he got them."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

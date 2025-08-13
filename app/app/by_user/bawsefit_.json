@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T21:59:42.768426",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T21:59:23.924144",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of an acai bowl, placed in front of a window with a city skyline view. The bowl contains a vibrant purple acai base, topped with various ingredients such as chia seeds, fresh raspberries, kiwi slices, granola, and a dollop of peanut butter. A spoon is placed in the bowl. The background shows a blurred cityscape with tall buildings and a bright, sunny atmosphere.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post advertising a giveaway by bawsefit_. The giveaway includes candles and a gift voucher for bawsefit products. The image features a pink water bottle with the bawsefit logo, a male and female torso candle, and a pink pleated fan.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in grey activewear looking out at a city skyline, presumably Melbourne, Australia. The post promotes a \"Vixen set\" from her brand.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows four Bawsefit water bottles (two pink, two black) in front of an \"Espresso Bar\" sign. The post mentions Melbourne's best coffee and vegan options.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in a purple loungewear set, sitting on a couch with a face mask on. She is holding a pink tumbler. There's a framed picture of Elvis Presley in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by bawsefit_ announcing they are now selling their branded tumbler cups in a retail shop, Espresso Bar Melbsq. The photo shows a display of these tumblers, some in black and one in pink, with the \"BAWSEFIT\" logo. There are also water bottles on a shelf in the background.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Candle Scents/Self-Care:** \"I saw you're giving away candles! What are your favorite scents for relaxation?\" or \"I love the idea of a self-care giveaway. What are some of your favorite self-care practices?\"",
+          "2. **Fitness/Hydration:** \"I noticed the Bawsefit water bottle in the giveaway. Do you have any tips for staying hydrated during workouts?\" or \"I'm always looking for new fitness inspiration. What kind of workouts do you enjoy?\"",
+          "1. Melbourne: \"I noticed you're in Melbourne. What are some of your favorite spots in the city?\"",
+          "2. Fitness/Activewear: \"I'm always looking for comfortable and stylish activewear. What inspired the design of the Vixen set?\"",
+          "1. Coffee: \"I saw you mentioned Melbourne's best coffee. Do you have a favorite cafe in the city?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post looked so delicious with that acai bowl! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Fitness & Activewear",
+            "Self-Care & Wellness (Candles, Face Masks)",
+            "Healthy Eating (Acai Bowls)",
+            "Melbourne Lifestyle (Coffee, City Views)",
+            "Entrepreneurship (Bawsefit Brand)"
+          ],
+          "LIFESTYLE": "Likely a fitness enthusiast and entrepreneur based in Melbourne, Australia. She promotes her activewear brand, 'Bawsefit,' and seems to enjoy a healthy lifestyle, including acai bowls and self-care routines. She also appears to appreciate Melbourne's coffee culture.",
+          "CONVERSATION STARTERS": [
+            "What inspired you to start the Bawsefit brand?",
+            "What are your go-to spots for healthy food and coffee in Melbourne?",
+            "Can you share some of your favorite self-care practices?",
+            "What are your favorite types of workouts?",
+            "What's the story behind the name 'Bawsefit'?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven (Entrepreneurial)",
+            "Health-Conscious",
+            "Stylish (Activewear, Aesthetics)",
+            "Positive (Promoting wellness and self-care)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Candle Scents/Self-Care:** \"I saw you're giving away candles! What are your favorite scents for relaxation?\" or \"I love the idea of a self-care giveaway. What are some of your favorite self-care practices?\"",
+        "2. **Fitness/Hydration:** \"I noticed the Bawsefit water bottle in the giveaway. Do you have any tips for staying hydrated during workouts?\" or \"I'm always looking for new fitness inspiration. What kind of workouts do you enjoy?\"",
+        "1. Melbourne: \"I noticed you're in Melbourne. What are some of your favorite spots in the city?\"",
+        "2. Fitness/Activewear: \"I'm always looking for comfortable and stylish activewear. What inspired the design of the Vixen set?\"",
+        "1. Coffee: \"I saw you mentioned Melbourne's best coffee. Do you have a favorite cafe in the city?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T15:54:18.238396",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T15:53:59.001242",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is taken from inside a building, looking out through a large window. A black and gold banner with the words \"PADRÃO DOURADO CENTRO DE TREINAMENTO\" is visible on the left side of the window. Outside, there's a view of a street with power lines, a small building, and some greenery. The overall lighting is bright, suggesting it's daytime.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a selfie of giulianamaroso with a man, presumably her partner. They are outdoors in a park-like setting with trees and pink flowers in the background. The caption mentions a trip to Bento.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two people, giulianamaroso and joaoadourado, running outdoors, likely during sunset. The caption mentions \"Corrida de domingo curtindo o pôr do sol\" which translates to \"Sunday run enjoying the sunset\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman and a young girl holding hands in a park-like setting with tall trees and what appears to be a ropes course in the background. The text of the post mentions a \"maravilhoso\" (wonderful) day in nature with family and fun activities. The location is tagged as Tedesco Eco Park.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows giulianamaroso and another woman (presumably her mother, based on the caption) doing squats with medicine balls in a gym.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman standing at a music festival (\"Planeta Atlântida\") holding a flag. The background shows a stage and a crowd of people. The caption mentions enjoying the festival and having attended it for many years.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Travel: Ask about the trip to Bento mentioned in the caption. \"I saw you mentioned a trip to Bento. What was the best part of the trip?\"",
+          "2. Relationship: The caption mentions the beginning of their relationship. \"Your caption about the start of your relationship is so sweet! What's your favorite memory from the early days?\"",
+          "1. **Running/Fitness:** You could ask about their running routine, favorite running routes, or training tips.",
+          "2. **Location (Orla do Guaiba - Poa RS):** You could ask about the Orla do Guaiba area, if they enjoy running there, or if they have any other recommendations for things to do in that area.",
+          "1.  **Travel/Eco Parks:** \"I saw your post about Tedesco Eco Park! It looks like a great place for a family outing. Have you been to other similar parks in the area, or is this one your favorite?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! It looked like a really nice day outside. ☀️",
+        "profile_bio": {
+          "PERSON NAME": "Giuliana Maroso",
+          "INTERESTS": [
+            "Fitness (Running, Gym Workouts)",
+            "Travel (Especially within Brazil)",
+            "Family Activities (Parks, Eco Parks)",
+            "Music Festivals",
+            "Relationships"
+          ],
+          "LIFESTYLE": "Appears to lead an active and family-oriented lifestyle. Enjoys outdoor activities, fitness, and spending time with loved ones. Likely involved with 'PADRÃO DOURADO CENTRO DE TREINAMENTO' (possibly as a member or trainer). Enjoys attending music festivals and exploring new places within Brazil.",
+          "CONVERSATION STARTERS": [
+            "I saw you mentioned a trip to Bento. What was the best part of the trip?",
+            "Your caption about the start of your relationship is so sweet! What's your favorite memory from the early days?",
+            "I saw your post about Tedesco Eco Park! It looks like a great place for a family outing. Have you been to other similar parks in the area, or is this one your favorite?",
+            "I noticed you enjoy running. What's your favorite running route, and do you have any tips for staying motivated?",
+            "I saw you at Planeta Atlântida! How many years have you been attending, and what's your favorite part of the festival?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Active",
+            "Family-oriented",
+            "Enthusiastic",
+            "Social"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Travel: Ask about the trip to Bento mentioned in the caption. \"I saw you mentioned a trip to Bento. What was the best part of the trip?\"",
+        "2. Relationship: The caption mentions the beginning of their relationship. \"Your caption about the start of your relationship is so sweet! What's your favorite memory from the early days?\"",
+        "1. **Running/Fitness:** You could ask about their running routine, favorite running routes, or training tips.",
+        "2. **Location (Orla do Guaiba - Poa RS):** You could ask about the Orla do Guaiba area, if they enjoy running there, or if they have any other recommendations for things to do in that area.",
+        "1.  **Travel/Eco Parks:** \"I saw your post about Tedesco Eco Park! It looks like a great place for a family outing. Have you been to other similar parks in the area, or is this one your favorite?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T22:51:23.182358",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T22:51:05.964896",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of a person wearing black, high-waisted leggings with a subtle stripe pattern. The leggings have a perforated design on the lower thighs. The person is also wearing black sneakers. The background is plain white.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by riseactive.sportswear featuring a male model wearing a cycling jersey and shorts. The jersey has a distinctive design with red, white, blue, and gray/black sections. The post includes hashtags related to cycling, fitness, and entrepreneurship.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman modeling black activewear (sports bra and leggings) with mesh detailing. The post mentions available colors (black and red) and includes hashtags related to Valentine's Day, gym, and gym motivation.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a male model wearing a cycling jersey and gloves, standing next to a bicycle. The jersey is a patterned design with the brand \"INIZIO ACTIVE\" visible. The post is promoting the Inizio Cycling Jersey.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image features a plus-size woman modeling activewear (leggings and a zip-up jacket) on outdoor steps. The post includes hashtags related to plus-size fashion, fitness, self-love, and gym motivation.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from riseactive.sportswear advertising a Cyber Monday sale. It features various models wearing activewear, including cycling gear and workout outfits.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Cycling: Inquire about the person's favorite cycling routes or recent cycling experiences.",
+          "2. Fitness: Ask about their fitness goals or workout routines, given the post's fitness-related hashtags.",
+          "1. **Gym/Fitness Motivation:** Given the hashtags #gym and #gymmotivation, you could ask about their workout routines, favorite exercises, or fitness goals.",
+          "2. **Activewear Preferences:** You could ask about their favorite features in activewear, what they look for in leggings, or if they prefer black or red activewear.",
+          "1. Cycling: Discussing favorite cycling routes, training tips, or upcoming cycling events."
+        ],
+        "generated_comment": "Hey! Just had a look at your profile and your latest post. Those leggings looked really stylish, especially with the perforated detail! 👍",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Activewear (specifically leggings, sports bras, and cycling jerseys)",
+            "Cycling",
+            "Fitness and Gym Workouts",
+            "Plus-Size Fashion and Body Positivity",
+            "Fashion and Style"
+          ],
+          "LIFESTYLE": "Likely an active individual involved in fitness activities, possibly including cycling. They promote and sell activewear, suggesting an entrepreneurial aspect to their lifestyle. They also seem to value inclusivity and body positivity.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite features in activewear, and what do you look for when choosing leggings or sports bras?",
+            "Do you have any favorite cycling routes or upcoming cycling events you're excited about?",
+            "What are your current fitness goals, and what's your favorite workout routine?",
+            "I noticed you promote plus-size activewear. What are some of the challenges and rewards of catering to that market?",
+            "I saw the Inizio Cycling Jersey you featured. What makes it stand out from other cycling jerseys?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Entrepreneurial",
+            "Inclusive",
+            "Fashion-conscious",
+            "Health-oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Cycling: Inquire about the person's favorite cycling routes or recent cycling experiences.",
+        "2. Fitness: Ask about their fitness goals or workout routines, given the post's fitness-related hashtags.",
+        "1. **Gym/Fitness Motivation:** Given the hashtags #gym and #gymmotivation, you could ask about their workout routines, favorite exercises, or fitness goals.",
+        "2. **Activewear Preferences:** You could ask about their favorite features in activewear, what they look for in leggings, or if they prefer black or red activewear.",
+        "1. Cycling: Discussing favorite cycling routes, training tips, or upcoming cycling events."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T07:33:30.795619",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T07:33:08.500130",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a man, connorpwelch, standing on a rocky mountaintop. He is wearing a black hoodie, black shorts, and white sneakers. Behind him is a stunning view of a mountainous landscape with a body of water in the distance. The sky is partly cloudy.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows Connor Welch posing with two other people, likely family members, outdoors at night. The location appears to be near a beach or waterfront, as there is water visible in the background. The caption mentions \"3/4 of the crazies,\" suggesting a playful or close-knit relationship with the people in the photo. The location tag is Ericeira.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (connorpwelch) standing on a stone pathway with a cityscape in the background. The caption says \"Bom dia Lisboa\" which means \"Good day Lisbon\" in Portuguese.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (connorpwelch) standing on a rocky outcrop with a scenic mountain range in the background. The location is tagged as the Philippines. The caption mentions fitting many destinations into half a day.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A photo of Connor and another woman (likely his partner) standing on a wooden walkway with a beach and ocean view in the background. The location is tagged as Noosa, Queensland.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A group selfie of Connor and several friends near a rocky area with a small waterfall or stream in the background. Everyone is smiling and appears to be enjoying an outdoor adventure.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Travel: \"I saw you were in Ericeira! How was it? I've always wanted to visit Portugal.\"",
+          "2.  Family/Relationships: \"Your caption mentioned '3/4 of the crazies' - sounds like you have a fun family! What were you all up to in Ericeira?\"",
+          "1. Travel: Ask about his trip to Lisbon, Portugal. What were his favorite spots, any recommendations for a first-time visitor, etc.",
+          "2. Photography/Scenery: Compliment the photo and ask about the location, if he enjoys photography, or if he has any other travel photos from the trip.",
+          "1. Travel in the Philippines: Ask about specific recommendations for places to visit in the Philippines, or inquire about his favorite part of the trip."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Connor Welch",
+          "INTERESTS": [
+            "Travel (especially international)",
+            "Outdoor Adventures (hiking, beaches, waterfalls)",
+            "Photography/Scenery",
+            "Family & Friends",
+            "Exploring new cultures"
+          ],
+          "LIFESTYLE": "Connor appears to lead an active and adventurous lifestyle, frequently traveling to diverse locations around the world. He values spending time with family and friends, often engaging in outdoor activities. His profession is unknown, but his lifestyle suggests he may have a flexible work arrangement or enjoys frequent vacations.",
+          "CONVERSATION STARTERS": [
+            "I saw you were in the Philippines! What were your favorite places to visit there?",
+            "Your photos from Lisbon are beautiful! Do you have any recommendations for a first-time visitor?",
+            "Ericeira looks amazing! What did you and your family get up to while you were there?",
+            "You seem to travel a lot! What's been your most memorable travel experience so far?",
+            "I love your photos! Do you enjoy photography as a hobby, or is it more of a casual thing?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Sociable/Friendly",
+            "Appreciative of beauty (scenery, landscapes)",
+            "Family-oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Travel: \"I saw you were in Ericeira! How was it? I've always wanted to visit Portugal.\"",
+        "2.  Family/Relationships: \"Your caption mentioned '3/4 of the crazies' - sounds like you have a fun family! What were you all up to in Ericeira?\"",
+        "1. Travel: Ask about his trip to Lisbon, Portugal. What were his favorite spots, any recommendations for a first-time visitor, etc.",
+        "2. Photography/Scenery: Compliment the photo and ask about the location, if he enjoys photography, or if he has any other travel photos from the trip.",
+        "1. Travel in the Philippines: Ask about specific recommendations for places to visit in the Philippines, or inquire about his favorite part of the trip."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

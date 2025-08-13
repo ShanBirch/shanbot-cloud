@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T10:54:23.824516",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T10:53:59.808052",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up, overhead shot of a Chicken Caesar Pasta Salad on a speckled grey plate. The salad consists of elbow macaroni, spinach, bacon, boiled eggs, quinoa and sliced chicken. The plate sits on a dark grey textured surface, with a small glass dish of salt and a glass of water visible in the background. The lighting is soft and natural, highlighting the textures of the food.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from strength_meals_co featuring their \"Classic Chicken Dinner,\" a high-protein, calorie-conscious meal with grilled chicken, sweet potato, pumpkin wedges, and gravy.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by strength_meals_co featuring their Spinach & Ricotta Tortellini. The post highlights the protein and carb content, the vegetarian aspect, and the creamy pesto sauce. It also mentions availability at Woolworths and the price.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post advertising Strength Meals Co.'s high-protein, calorie-conscious Smoky Pea & Ham Soup. It shows a bowl of the soup and a packaged container.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in athletic wear (tank top and leggings) holding a Strength Meals Co. pre-made meal in front of a refrigerator in a kitchen.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by strength_meals_co advertising their high protein soups. It features close-up shots of several soup containers, highlighting flavors like Hearty Beef, Smoky Pea & Ham, and Chicken Laksa. The post mentions a 25% off sale and encourages shoppers to buy at Woolworths.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Diet and Nutrition:** The post emphasizes the meal's high protein and low calorie content. A conversation could revolve around dietary preferences, fitness goals, or other healthy meal options.",
+          "2.  **Convenience Meals:** The post mentions that the meal is ready in 5 minutes. This could spark a conversation about the convenience of ready-made meals, time-saving cooking tips, or favorite quick and healthy meal options.",
+          "1. **Vegetarian Meal Options:** Discussing other vegetarian meal options they enjoy or are looking for.",
+          "2. **Macro-Balanced Meals:** Inquire about their interest in macro-balanced diets and their experience with similar products.",
+          "1.  **High-protein diets/fitness:** The product is marketed as high-protein and calorie-conscious. This could be a starting point to discuss fitness goals, dietary preferences, or favorite high-protein recipes."
+        ],
+        "generated_comment": "Hey! Just had a look at your profile and saw your latest post. That Chicken Caesar Pasta Salad looked so delicious! 🤤",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "High-Protein Diets",
+            "Calorie-Conscious Eating",
+            "Convenient and Ready-Made Meals",
+            "Fitness and Healthy Living",
+            "Vegetarian Meal Options"
+          ],
+          "LIFESTYLE": "Likely someone who is health-conscious and values convenience due to a busy lifestyle. They are probably interested in fitness and maintaining a balanced diet without spending excessive time cooking. May be a professional or student with limited time for meal preparation.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite high-protein recipes or go-to protein sources?",
+            "Have you tried any other ready-made meal services or brands? What did you think?",
+            "What are your fitness goals, and how does your diet support them?",
+            "Are you vegetarian, or do you just enjoy vegetarian meals sometimes? What are some of your favorite vegetarian dishes?",
+            "What are your thoughts on macro-balanced diets, and do you actively track your macros?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Practical/Efficient",
+            "Active",
+            "Potentially detail-oriented (due to interest in macros and calorie counting)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Diet and Nutrition:** The post emphasizes the meal's high protein and low calorie content. A conversation could revolve around dietary preferences, fitness goals, or other healthy meal options.",
+        "2.  **Convenience Meals:** The post mentions that the meal is ready in 5 minutes. This could spark a conversation about the convenience of ready-made meals, time-saving cooking tips, or favorite quick and healthy meal options.",
+        "1. **Vegetarian Meal Options:** Discussing other vegetarian meal options they enjoy or are looking for.",
+        "2. **Macro-Balanced Meals:** Inquire about their interest in macro-balanced diets and their experience with similar products.",
+        "1.  **High-protein diets/fitness:** The product is marketed as high-protein and calorie-conscious. This could be a starting point to discuss fitness goals, dietary preferences, or favorite high-protein recipes."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

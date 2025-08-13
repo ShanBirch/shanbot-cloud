@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T12:03:05.101488",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T12:02:44.858569",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post from prysmathletics featuring a woman with long blonde hair wearing black high-waisted leggings and a plaid shirt. She's sitting in a chair outdoors, holding a drink with a straw. The background is slightly blurred, showing a body of water and some greenery. The post promotes breathable and flexible leggings for training and tags @gabby_deluca.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a person tying the laces of a white running shoe. The shoe has a unique design with a textured upper and a distinctive sole. The person is also wearing a watch.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person wearing Prysm Essentials shorts, a long-sleeved shirt, and patterned sneakers. The person is leaning against a wall in an urban setting. The post promotes the brand's activewear collection for both gym and casual wear.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a muscular man wearing a tank top and holding dumbbells. He has several tattoos on his arms and neck. There is a punching bag in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by prysmathletics featuring a woman in a matching maroon workout set (crop top and leggings) and white sneakers. The post is advertising new women's workout sets.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by prysmathletics featuring a muscular man wearing a red sleeveless hoodie with the words \"TRAIN LIKE A MACHINE\" printed on it. The background is a colorful abstract design.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Running/Fitness: Given the running shoe and the hashtags used, you could ask about their favorite running routes in Minnesota or their current fitness goals.",
+          "2. Fashion/Shoes: You could compliment the shoe's design and ask about their favorite brands or styles of athletic footwear.",
+          "1. Activewear and Fashion: Discussing favorite brands, trends in athletic wear, or the comfort and style of the Prysm Essentials shorts.",
+          "2. Fitness and Lifestyle: Asking about their workout routines, favorite exercises, or how they balance fitness with a relaxed lifestyle.",
+          "1. **Tattoos:** The man has visible tattoos. Asking about the inspiration behind them or his favorite tattoo could be a good conversation starter."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown, potentially Gabby Deluca (mentioned in a tagged post)",
+          "INTERESTS": [
+            "Fitness & Training",
+            "Activewear Fashion",
+            "Running",
+            "Healthy Lifestyle",
+            "Urban Style"
+          ],
+          "LIFESTYLE": "Likely an active individual who prioritizes fitness and incorporates it into their daily life. They seem to enjoy both gym workouts and outdoor activities. They also appear to value stylish and comfortable activewear for both training and casual wear. Potentially involved in promoting or modeling for Prysm Athletics.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite running routes in Minnesota?",
+            "I love the design of those white running shoes! What are some of your favorite brands or styles of athletic footwear?",
+            "The Prysm Essentials shorts look really comfortable. What are your go-to brands for activewear?",
+            "What's your typical workout routine like? Do you prefer gym workouts or outdoor activities?",
+            "I noticed the tattoos on the man in one of your posts. What's the inspiration behind them, or what's his favorite tattoo?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Active",
+            "Stylish",
+            "Health-conscious",
+            "Motivated"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Running/Fitness: Given the running shoe and the hashtags used, you could ask about their favorite running routes in Minnesota or their current fitness goals.",
+        "2. Fashion/Shoes: You could compliment the shoe's design and ask about their favorite brands or styles of athletic footwear.",
+        "1. Activewear and Fashion: Discussing favorite brands, trends in athletic wear, or the comfort and style of the Prysm Essentials shorts.",
+        "2. Fitness and Lifestyle: Asking about their workout routines, favorite exercises, or how they balance fitness with a relaxed lifestyle.",
+        "1. **Tattoos:** The man has visible tattoos. Asking about the inspiration behind them or his favorite tattoo could be a good conversation starter."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

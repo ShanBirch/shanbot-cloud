@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T08:22:41.052379",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T08:22:20.929607",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of a gold medal being held in someone's hand. The medal is for the Gold Coast Marathon 21km half marathon in 2024. The medal has intricate designs around the edges and the words \"21KM FINISHER\" prominently displayed. The ribbon attached to the medal is orange and blue.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man wearing a medal from the \"Bridge to Brisbane\" race. The caption indicates he completed a 10km run with a personal best time.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a white dog lying on a black beanbag or cushion. The post's caption and comments suggest the dog has passed away.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows bodhi_t_ with his cousin, rubylaforgia, presumably at a birthday celebration. Bodhi is wearing a Red Hot Chili Peppers t-shirt and holding a drink.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a dark, blurry video still. It appears to show someone on horseback, possibly at night. The caption reads, \"I'm gonna take my horse to the old town road.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person wearing a Boston Celtics jersey and a Los Angeles Dodgers hat, sunglasses, and tattoos. They are sitting at a table with watermelon, a can of Canadian Club, and what appears to be a Christmas cracker. The background looks like an outdoor patio.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Running: Ask about his training routine, favorite running routes in Brisbane, or if he plans to participate in other races.",
+          "2.  Bridge to Brisbane: Inquire about his experience at the event, if he's participated before, or if he has any tips for someone considering running it in the future.",
+          "1.  Expressing condolences for the loss of their pet.",
+          "2.  Sharing a personal story about a beloved pet.",
+          "1. **Music:** Inquire about his taste in music, specifically about Red Hot Chili Peppers or other bands he enjoys."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Bodhi T (Last name Unknown)",
+          "INTERESTS": [
+            "Running (Half Marathons, 10k Races)",
+            "Music (Red Hot Chili Peppers, Country Music)",
+            "Sports (Boston Celtics, Los Angeles Dodgers)",
+            "Animals (Dogs)",
+            "Socializing with Family"
+          ],
+          "LIFESTYLE": "Active lifestyle centered around running and fitness. Enjoys spending time with family and friends, attending social events, and has an appreciation for music and sports. Seems to live in or near Brisbane, Australia.",
+          "CONVERSATION STARTERS": [
+            "Congratulations on your Gold Coast Marathon and Bridge to Brisbane achievements! What's your training routine like?",
+            "I saw you ran the Bridge to Brisbane with a personal best! Do you have any tips for someone thinking about running it next year?",
+            "I noticed you're a fan of the Red Hot Chili Peppers. What are some of your other favorite bands?",
+            "I'm so sorry to hear about the loss of your dog. They looked like a wonderful companion. What was their name?",
+            "I see you're a fan of both the Celtics and the Dodgers! How did you become a fan of teams from different cities?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven (Achieves running goals, sets personal bests)",
+            "Family-oriented (Spends time with family, celebrates birthdays)",
+            "Passionate (Enthusiastic about running, music, and sports)",
+            "Sentimental (Expresses grief over the loss of a pet)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Running: Ask about his training routine, favorite running routes in Brisbane, or if he plans to participate in other races.",
+        "2.  Bridge to Brisbane: Inquire about his experience at the event, if he's participated before, or if he has any tips for someone considering running it in the future.",
+        "1.  Expressing condolences for the loss of their pet.",
+        "2.  Sharing a personal story about a beloved pet.",
+        "1. **Music:** Inquire about his taste in music, specifically about Red Hot Chili Peppers or other bands he enjoys."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T15:23:22.075072",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T15:23:02.626380",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post by \"shells_travels\" taken at Mt Stirling Summit. It features a woman holding a young child, both wearing matching pink beanies. The woman is wearing a maroon hoodie and black leggings, standing on a rocky outcrop. Behind them is a landscape of rolling hills and mountains with a vibrant sunrise in the background, casting a warm glow. The foreground consists of dry, golden grass and rocks.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman standing in front of a lake in what appears to be a national park (Lake Eildon National Park). She is wearing a sweater and shorts, and the landscape looks somewhat dry.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A woman and a young child are standing on a rocky beach with the ocean in the background. The sky is clear and blue. The location is identified as Skenes Creek, Victoria, Australia.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (shells_travels) standing on a rocky beach in Cala Llombars, Mallorca. The water is clear and turquoise, and there are people swimming and sunbathing in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two pictures of a young girl, presumably the poster's daughter, celebrating her 1st and 2nd birthdays. The first picture shows her looking serious in a red dress, while the second shows her smiling in a white sweater and leopard print boots. Both photos are taken indoors in front of a brick wall and what appears to be a fireplace. A banner that says \"Ruby\" is hung above her.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman standing on a forest path with a baby in a carrier. The post caption indicates it was a 16km hike in Redwood Forest.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Travel: \"I saw your post from Lake Eildon National Park. Have you been to that area before? Any recommendations for things to do there?\"",
+          "2. Outdoor Activities: \"Looks like a beautiful spot for outdoor adventures. Do you enjoy hiking or watersports when you're in places like Lake Eildon?\"",
+          "1. Travel in Victoria, Australia: \"I saw your post from Skenes Creek. Have you been to other places in Victoria? Any recommendations?\"",
+          "2. Traveling with children: \"Your photo is adorable! Any tips for traveling with young kids? I'm planning a trip with my [niece/nephew/child] soon.\"",
+          "1.  **Travel to Mallorca/Europe:** The post mentions \"Majorca magic\" and \"Euro summer photos.\" You could ask about her favorite things to do in Mallorca or other European destinations she's visited."
+        ],
+        "generated_comment": "Hey! Just had a little stalk and saw your latest post. The sunrise looked amazing and Ruby looked so cute in her beanie! 🌄",
+        "profile_bio": {
+          "PERSON NAME": "Michelle (shells_travels)",
+          "INTERESTS": [
+            "Travel (especially with children)",
+            "Hiking and outdoor adventures",
+            "Exploring Victoria, Australia",
+            "European travel (specifically Mallorca)",
+            "Family and motherhood"
+          ],
+          "LIFESTYLE": "Michelle appears to be a mother who enjoys traveling and exploring the outdoors with her young daughter, Ruby. She seems to prioritize family adventures and documents her experiences through Instagram. She enjoys hiking, beach trips, and exploring different landscapes, both in Australia and internationally.",
+          "CONVERSATION STARTERS": [
+            "I noticed your post from Mt Stirling Summit. What's your favorite hike in Victoria?",
+            "Your daughter Ruby is adorable! What are some of your best tips for traveling with a toddler?",
+            "I'm planning a trip to Mallorca. What are some must-see spots you'd recommend?",
+            "That 16km hike in Redwood Forest sounds intense! How do you prepare for hikes with a baby carrier?",
+            "I saw you've been to Lake Eildon National Park. What activities did you enjoy there?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Family-oriented",
+            "Outdoorsy",
+            "Positive and appreciative (based on the 'Majorca magic' comment)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Travel: \"I saw your post from Lake Eildon National Park. Have you been to that area before? Any recommendations for things to do there?\"",
+        "2. Outdoor Activities: \"Looks like a beautiful spot for outdoor adventures. Do you enjoy hiking or watersports when you're in places like Lake Eildon?\"",
+        "1. Travel in Victoria, Australia: \"I saw your post from Skenes Creek. Have you been to other places in Victoria? Any recommendations?\"",
+        "2. Traveling with children: \"Your photo is adorable! Any tips for traveling with young kids? I'm planning a trip with my [niece/nephew/child] soon.\"",
+        "1.  **Travel to Mallorca/Europe:** The post mentions \"Majorca magic\" and \"Euro summer photos.\" You could ask about her favorite things to do in Mallorca or other European destinations she's visited."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

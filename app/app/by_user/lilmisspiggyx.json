@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T13:41:23.307933",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T13:41:07.542641",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by lilmisspiggyx featuring a container of Sainsbury's Minestrone Soup. The container is prominently displayed, showing the soup's ingredients and nutritional information. The post's caption highlights the soup's low calorie count and delicious taste.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by lilmisspiggyx featuring a \"Kirsty's Luxury Apple Pie\" that is both gluten-free and vegan-friendly. The caption praises the pie, calling it the best apple pie they've ever had and giving it a 10/10 rating.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a tub of \"Swedish Glace Delightful Raspberry\" vegan ice cream. The poster, lilmisspiggyx, mentions buying it at Waitrose and gives it a 9/10 rating, noting its creamy texture.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by lilmisspiggyx featuring a container of \"Taste the Difference\" Sweet Potato, Coconut & Chilli Soup from Sainsbury's. The caption discusses the level of spiciness and the need for extra salt, rating the soup 9/10.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by lilmisspiggyx featuring a Sainsbury's \"On the Go\" Mexican Style 3 Bean wrap. The post includes a review of the wrap, praising its texture and flavor combinations, while noting the low spice level.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a review of \"Just Whole Foods\" vegan strawberry jelly. The user, lilmisspiggyx, rates the jelly 4/10, praising the flavor but criticizing the consistency.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan/Gluten-Free Food: Since the pie is vegan and gluten-free, you could ask about other vegan or gluten-free desserts they enjoy or if they have any favorite vegan/gluten-free recipes.",
+          "2. Apple Pie: You could ask about their favorite apple pie recipes, or other apple desserts they enjoy.",
+          "1. **Ice Cream Preferences:** Ask about their other favorite ice cream flavors, especially if they have tried other vegan options.",
+          "2. **Waitrose Recommendations:** Inquire about other products they enjoy purchasing from Waitrose, as they mentioned the ice cream being a good price for a Waitrose item.",
+          "1. **Food preferences/Dietary habits:** Discussing their preference for mild spices, their interest in healthy eating, or asking about other soups or dishes they enjoy."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: lilmisspiggyx)",
+          "INTERESTS": [
+            "Vegan Food",
+            "Gluten-Free Food",
+            "Healthy Eating (Low-Calorie Options)",
+            "Food Reviews",
+            "Convenience Foods (Wraps, Soups)"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys trying new food products, especially those that are vegan and/or gluten-free. They seem to appreciate convenience and are conscious of calorie intake. They regularly shop at supermarkets like Sainsbury's and Waitrose.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite vegan or gluten-free desserts?",
+            "Have you tried any other vegan ice cream flavors you'd recommend?",
+            "What other products do you enjoy buying from Waitrose?",
+            "What are some of your favorite soups or quick meals?",
+            "I noticed you prefer mild spices. What are some of your go-to flavor combinations?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Foodie",
+            "Health-Conscious",
+            "Reviewer/Opinionated (Provides ratings and detailed feedback)",
+            "Adventurous (Willing to try new products)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan/Gluten-Free Food: Since the pie is vegan and gluten-free, you could ask about other vegan or gluten-free desserts they enjoy or if they have any favorite vegan/gluten-free recipes.",
+        "2. Apple Pie: You could ask about their favorite apple pie recipes, or other apple desserts they enjoy.",
+        "1. **Ice Cream Preferences:** Ask about their other favorite ice cream flavors, especially if they have tried other vegan options.",
+        "2. **Waitrose Recommendations:** Inquire about other products they enjoy purchasing from Waitrose, as they mentioned the ice cream being a good price for a Waitrose item.",
+        "1. **Food preferences/Dietary habits:** Discussing their preference for mild spices, their interest in healthy eating, or asking about other soups or dishes they enjoy."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

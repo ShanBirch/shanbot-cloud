@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T07:56:37.162932",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T07:56:15.789284",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a man, presumably rickvanborg, taking a selfie in what appears to be an elevator. He's wearing a black cap, sunglasses, and an Adidas tracksuit. He's holding an Aldi shopping bag with a picture of food on it. He has one leg slightly raised.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person, presumably rickvanborg, jumping in the air while holding drumsticks in front of a drum set. The post's hashtags include #drummer and #drumming.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person, rickvanborg, standing in water holding a stand-up paddleboard (SUP). The background features a calm body of water and some trees in the distance. The post includes hashtags related to beach life and SUP boarding.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person wearing a skull mask, goggles, and a hat. The person is muscular and appears to be dressed for some kind of activity. The caption mentions \"Lockdown 2.0\" and hashtags related to staying home, staying safe, being well, staying fit, and staying healthy.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of a man wearing a Reebok tank top and a baseball cap. He's smiling and appears to be in a bathroom. The caption mentions waking up early and treating your body right.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A man wearing sunglasses, a floral shirt, and a \"LOVE\" necklace. There is a calendar with a nude woman in the background.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Drumming: You could ask about their favorite drummers, drumming techniques, or the type of music they enjoy playing.",
+          "2. \"Jumper\": In the caption, the poster used the hashtag \"#jumper\". You could ask about the context of the photo and why they used that hashtag.",
+          "1. SUP boarding: Ask about their favorite places to paddleboard or if they have any tips for beginners.",
+          "2. Beach life: Inquire about other beach activities they enjoy or their favorite thing about spending time at the beach.",
+          "1.  Fitness/Workout Routines: The hashtags #stayfit and #stayhealthy suggest an interest in fitness. You could ask about their workout routine during lockdown or what kind of exercise they enjoy."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Rick van Borg (Presumed)",
+          "INTERESTS": [
+            "Drumming",
+            "Stand-Up Paddleboarding (SUP)",
+            "Fitness & Healthy Living",
+            "Beach Life",
+            "Music"
+          ],
+          "LIFESTYLE": "Appears to be an active individual who enjoys drumming, watersports, and maintaining a healthy lifestyle. He seems to prioritize fitness and enjoys spending time outdoors, particularly at the beach. The Aldi bag suggests he likely does his own grocery shopping. The 'Lockdown 2.0' post indicates he adapts his fitness routine to home workouts when necessary.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite drummers or drumming techniques you're currently working on?",
+            "I saw you paddleboarding! What are some of your favorite places to SUP, and do you have any tips for beginners?",
+            "Your fitness posts are inspiring! What's your typical workout routine like, especially when you're stuck at home?",
+            "You seem to enjoy beach life. What other beach activities do you enjoy besides SUP boarding?",
+            "I noticed you used the hashtag '#jumper' in one of your posts. What was the context of that photo?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Active",
+            "Health-conscious",
+            "Adventurous",
+            "Humorous (Implied by the selfie with the Aldi bag and the 'Lockdown 2.0' post)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Drumming: You could ask about their favorite drummers, drumming techniques, or the type of music they enjoy playing.",
+        "2. \"Jumper\": In the caption, the poster used the hashtag \"#jumper\". You could ask about the context of the photo and why they used that hashtag.",
+        "1. SUP boarding: Ask about their favorite places to paddleboard or if they have any tips for beginners.",
+        "2. Beach life: Inquire about other beach activities they enjoy or their favorite thing about spending time at the beach.",
+        "1.  Fitness/Workout Routines: The hashtags #stayfit and #stayhealthy suggest an interest in fitness. You could ask about their workout routine during lockdown or what kind of exercise they enjoy."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

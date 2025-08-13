@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T20:52:00.240152",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T20:51:38.395796",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a top-down shot of numerous vegan peanut butter chocolate chip cookies scattered across a dark surface. The cookies are golden brown with visible chocolate chunks and what appear to be peanut pieces. The arrangement is dense, creating a visually appealing and appetizing display.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a tray of vegan lemon bars, surrounded by whole and halved lemons. The post includes the recipe ingredients.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a bowl of vegan coleslaw. The post includes the recipe ingredients and hashtags related to veganism, healthy food, and vegan community.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up shot of a vegan stir-fry dish. The dish contains ingredients like broccoli, bell peppers, carrots, zucchini, and rice or noodles. The post also includes a detailed list of ingredients.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vibrant vegan corn and black bean salsa in a bowl, surrounded by fresh ingredients like corn on the cob, tomatoes, limes, cilantro, and other vegetables. The post includes the recipe ingredients and related hashtags.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a loaf of vegan chocolate chip banana bread on a wooden cutting board, with bananas, raspberries, and a bowl of oats in the background. The post includes the recipe ingredients and hashtags related to vegan food and baking.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan baking: Ask about their experience with vegan baking, perhaps what other vegan desserts they enjoy making.",
+          "2. Lemon desserts: Inquire about other lemon-based recipes they like or if they have any tips for working with lemons in desserts.",
+          "1.  Vegan cooking and recipes: Ask about their favorite vegan recipes or ingredients, or share your own.",
+          "2.  Healthy eating and lifestyle: Discuss the benefits of veganism or healthy eating habits.",
+          "1. Vegan cooking and recipe preferences: Ask about their favorite vegan dishes or ingredients, or if they have any variations on the stir-fry recipe they'd like to share."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! Those cookies looked absolutely delicious 🤤",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Baking",
+            "Vegan Cooking",
+            "Healthy Eating",
+            "Recipe Development",
+            "Plant-Based Lifestyle"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys cooking and baking vegan meals at home. They are passionate about sharing their recipes and promoting a healthy, plant-based lifestyle. They may be a food blogger or influencer focused on vegan cuisine.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite vegan dessert to bake, besides the peanut butter chocolate chip cookies?",
+            "Do you have any tips for getting the perfect balance of sweet and tart in lemon desserts?",
+            "What are some of your go-to vegan ingredients that you always keep stocked in your pantry?",
+            "What are some of the biggest benefits you've experienced since adopting a vegan lifestyle?",
+            "Have you ever tried adding tofu to your stir-fry for extra protein? What are your thoughts?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (with recipes and food presentation)",
+            "Passionate (about veganism and healthy eating)",
+            "Generous (sharing recipes and tips)",
+            "Detail-oriented (providing ingredient lists and instructions)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan baking: Ask about their experience with vegan baking, perhaps what other vegan desserts they enjoy making.",
+        "2. Lemon desserts: Inquire about other lemon-based recipes they like or if they have any tips for working with lemons in desserts.",
+        "1.  Vegan cooking and recipes: Ask about their favorite vegan recipes or ingredients, or share your own.",
+        "2.  Healthy eating and lifestyle: Discuss the benefits of veganism or healthy eating habits.",
+        "1. Vegan cooking and recipe preferences: Ask about their favorite vegan dishes or ingredients, or if they have any variations on the stir-fry recipe they'd like to share."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

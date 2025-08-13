@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T17:17:43.446630",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T17:17:25.880644",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of an arm featuring a tattoo of two koi fish swimming in a circular pattern with flowing lines representing water or fins. The tattoo is primarily in black ink with some subtle shading. The fish have detailed scales and fin details.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a booth for \"Elevate Nutrition Coaching\" at what appears to be a university event (Worcester State University). The booth is decorated with signs promoting intuitive eating, body positivity, and anti-diet culture messages.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a promotional poster for the 2022 New England VegFest, hosted by elevatenutritioncoaching. It features various vegan food illustrations like a burger, pizza, cupcake, avocado, and broccoli. The post mentions the event date, location, and invites people to visit their booth for intuitive eating and wellness coaching questions.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by @elevatenutritioncoaching about the \"Hunger/Fullness Pendulum,\" illustrating how restriction leads to overeating and bingeing. It emphasizes intuitive eating and avoiding extreme dieting behaviors.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by elevatenutritioncoaching announcing an Intuitive Eating group coaching class at Harvard Medical School. The post includes a screenshot of the course details from the Harvard Training Portal, highlighting that it's a 10-week course for beginners focused on reconnecting with the body and moving away from diet rules.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by elevatenutritioncoaching announcing that they are now a Certified Intuitive Eating Counselor. The post includes a picture of their certification from \"The Original Intuitive Eating Pros.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Intuitive Eating:** Given the focus on intuitive eating in the booth's signage and hashtags, a conversation could start by asking about their approach to intuitive eating or sharing personal experiences with it.",
+          "2. **Anti-Diet Culture:** The booth's emphasis on anti-diet culture could lead to a discussion about the challenges of navigating diet culture in today's society or asking for their perspective on specific diet trends.",
+          "1.  **Vegan Food:** Ask about their favorite vegan recipes or restaurants.",
+          "2.  **Intuitive Eating/Wellness Coaching:** Inquire about specific aspects of intuitive eating or wellness coaching that interest them, demonstrating engagement with their professional services.",
+          "1.  **Intuitive Eating:** Ask about their experience with intuitive eating and if they've found it helpful in managing their relationship with food."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The koi tattoo looked so elegant 🐟",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Intuitive Eating",
+            "Anti-Diet Culture",
+            "Body Positivity",
+            "Veganism/Plant-Based Nutrition",
+            "Wellness Coaching"
+          ],
+          "LIFESTYLE": "Nutrition Coach specializing in Intuitive Eating. Likely involved in academic or educational settings, given the Harvard Medical School course and Worcester State University event. Appears to be passionate about promoting a healthy relationship with food and body image.",
+          "CONVERSATION STARTERS": [
+            "What inspired you to become a Certified Intuitive Eating Counselor?",
+            "I'm curious about your approach to intuitive eating, especially for beginners. What's the first step you recommend?",
+            "Navigating diet culture can be challenging. What are some practical tips for resisting its pressures?",
+            "I saw you were at the New England VegFest! What are some of your favorite vegan recipes or restaurants?",
+            "I've been struggling with [mention a specific challenge related to food or body image]. Do you have any general advice based on your intuitive eating principles?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate",
+            "Empathetic",
+            "Educational",
+            "Body Positive"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Intuitive Eating:** Given the focus on intuitive eating in the booth's signage and hashtags, a conversation could start by asking about their approach to intuitive eating or sharing personal experiences with it.",
+        "2. **Anti-Diet Culture:** The booth's emphasis on anti-diet culture could lead to a discussion about the challenges of navigating diet culture in today's society or asking for their perspective on specific diet trends.",
+        "1.  **Vegan Food:** Ask about their favorite vegan recipes or restaurants.",
+        "2.  **Intuitive Eating/Wellness Coaching:** Inquire about specific aspects of intuitive eating or wellness coaching that interest them, demonstrating engagement with their professional services.",
+        "1.  **Intuitive Eating:** Ask about their experience with intuitive eating and if they've found it helpful in managing their relationship with food."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

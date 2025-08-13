@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T17:57:52.468260",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T17:57:36.205335",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by @mikeymahalo__ shows a video still of him performing a stunt on a bicycle in an indoor skatepark. He is airborne, having launched from a ramp, with the foam pit visible below. The post caption mentions traveling from Arizona to Lethbridge, Alberta, in two days.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a video still from an Instagram post by @mikeymahalo__. It shows the person snowboarding at night. The caption indicates they are in Australia and missing snowboarding.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person in a wetsuit carrying a surfboard on a beach at sunset. The location is identified as Florencia Beach in Tofino/Ucluelet. The caption mentions a \"9'6 Parallax\" surfboard and the \"Slasher Low pro.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person snowboarding and doing a jump. They are wearing snowboarding gear, and the snowboard has the brand \"Salomon\" on it. There's a ski lift and snowy trees in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person lying in the snow on a ski slope. The caption mentions listening to Creed as a teenager.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person snowboarding down a snowy slope. The caption says \"I wanna snowboard.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Snowboarding: Ask about their favorite snowboarding spots, tricks they're working on, or their general experience with the sport.",
+          "2. Australia: Ask about what it's like to live in Australia, or if they have any travel recommendations for the area.",
+          "1. Surfing: Ask about their experience surfing at Florencia Beach or in Tofino/Ucluelet in general.",
+          "2. Surfboard Recommendations: Inquire about the \"Slasher Low pro\" surfboard mentioned in the caption, since they are considering saving up for it.",
+          "1. Snowboarding: Ask about their favorite snowboarding spots, tricks they're working on, or their experience with Salomon snowboards."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Mikey Mahalo (Likely first name Mikey, last name Mahalo based on username)",
+          "INTERESTS": [
+            "Snowboarding",
+            "Surfing",
+            "BMX/Skatepark Stunts",
+            "Travel",
+            "Music (Implied by Creed reference)"
+          ],
+          "LIFESTYLE": "Appears to be an adventurous individual who enjoys action sports and traveling to different locations to pursue them. Likely spends time in both snowy and coastal environments. May be a professional or semi-professional athlete, or simply a dedicated hobbyist.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite snowboarding spots, and what tricks are you currently working on?",
+            "I saw you were in Australia! What was that like, and do you have any travel recommendations for the area?",
+            "How was your experience surfing at Florencia Beach in Tofino/Ucluelet? I've heard great things about the surf there.",
+            "I'm thinking about saving up for a 'Slasher Low pro' surfboard. What are your thoughts on it?",
+            "What do you enjoy most about BMX/Skatepark stunts, and what kind of challenges do you face?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Passionate",
+            "Active",
+            "Travel-oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Snowboarding: Ask about their favorite snowboarding spots, tricks they're working on, or their general experience with the sport.",
+        "2. Australia: Ask about what it's like to live in Australia, or if they have any travel recommendations for the area.",
+        "1. Surfing: Ask about their experience surfing at Florencia Beach or in Tofino/Ucluelet in general.",
+        "2. Surfboard Recommendations: Inquire about the \"Slasher Low pro\" surfboard mentioned in the caption, since they are considering saving up for it.",
+        "1. Snowboarding: Ask about their favorite snowboarding spots, tricks they're working on, or their experience with Salomon snowboards."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

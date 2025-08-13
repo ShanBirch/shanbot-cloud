@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T16:02:46.167710",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T16:02:26.885002",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a muscular man wearing a black tank top with the Gymshark logo. He has a beard and is wearing wireless earbuds. The background is a blurred gym setting with equipment. The post is about survivorship bias in the fitness industry.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a muscular man in a gym setting, wearing workout attire and wireless earbuds. He appears to be focused and in good physical condition.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man in a gym setting, taking a selfie with his phone. He's wearing a mask and a tank top, and his physique suggests he's actively involved in fitness. The post is about the pros and cons of free weights vs. machines.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a muscular man in a tank top, likely in a gym setting. The post is about how to manage resistance training with sports/activities. He has a scorpion tattoo on his left shoulder.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man in a gym, taking a selfie. He is wearing a tank top and a face mask. The post is about the importance of work capacity in resistance training.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man in a gym, wearing a tank top with a gym logo, taking a selfie. He is also wearing a mask. The post is about misleading nutrition labels.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Fitness Goals/Training:** The post discusses different fitness goals (general health, powerlifting, bodybuilding). You could ask about his personal fitness goals or his training routine.",
+          "2.  **Nutrition:** The post mentions the importance of nutrition in achieving fitness goals. You could ask about his dietary approach or favorite healthy recipes.",
+          "1. Fitness/Workout Routines: Discussing his preferred workout routines, asking about his experience with free weights vs. machines (as mentioned in the post), or inquiring about specific exercises he finds effective.",
+          "2. Gym/Fitness Equipment: Asking about the gym he frequents, or discussing the types of equipment he uses and his opinions on different brands or models.",
+          "1.  **Resistance Training for Sports:** Given the post's focus, asking about specific sports he trains for, or his philosophy on integrating resistance training with other activities, could be a good starting point."
+        ],
+        "profile_bio": {
+          "PERSON_NAME": "Unknown",
+          "INTERESTS": [
+            "Resistance Training",
+            "Fitness and Nutrition",
+            "Gym Culture",
+            "Integrating Resistance Training with Sports/Activities",
+            "Debunking Fitness Myths (e.g., survivorship bias, misleading nutrition labels)"
+          ],
+          "LIFESTYLE": "Likely a fitness enthusiast and gym-goer. Actively involved in resistance training and focused on maintaining a muscular physique. Seems knowledgeable about fitness and nutrition, potentially a personal trainer or someone deeply invested in their own fitness journey.",
+          "CONVERSATION_STARTERS": [
+            "I saw your post about survivorship bias in the fitness industry. What's the most common misconception you see people fall for?",
+            "You mentioned the pros and cons of free weights vs. machines. What's your personal preference and why?",
+            "I'm curious about how you manage resistance training alongside other sports/activities. Do you have any tips for balancing the two?",
+            "What are your thoughts on the importance of work capacity in resistance training? How do you incorporate it into your routine?",
+            "I noticed you're interested in nutrition labels. What's the most surprising thing you've learned about them?"
+          ],
+          "PERSONALITY_TRAITS": [
+            "Knowledgeable: Demonstrates understanding of fitness concepts and nutrition.",
+            "Dedicated: Consistently involved in resistance training and gym activities.",
+            "Analytical: Critically examines fitness trends and information (e.g., survivorship bias, nutrition labels).",
+            "Passionate: Clearly invested in fitness and sharing his knowledge with others."
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Fitness Goals/Training:** The post discusses different fitness goals (general health, powerlifting, bodybuilding). You could ask about his personal fitness goals or his training routine.",
+        "2.  **Nutrition:** The post mentions the importance of nutrition in achieving fitness goals. You could ask about his dietary approach or favorite healthy recipes.",
+        "1. Fitness/Workout Routines: Discussing his preferred workout routines, asking about his experience with free weights vs. machines (as mentioned in the post), or inquiring about specific exercises he finds effective.",
+        "2. Gym/Fitness Equipment: Asking about the gym he frequents, or discussing the types of equipment he uses and his opinions on different brands or models.",
+        "1.  **Resistance Training for Sports:** Given the post's focus, asking about specific sports he trains for, or his philosophy on integrating resistance training with other activities, could be a good starting point."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

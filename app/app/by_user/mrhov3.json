@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T11:10:04.653852",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T11:09:45.320666",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a luxurious outdoor pool area in Port Vila, Vanuatu Islands. The pool is a unique shape, with a wooden deck surrounding it. There are several lounge chairs with umbrellas lined up next to the pool, facing a body of water. The sky is blue with fluffy white clouds.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by mr.hov3 featuring a positive client review. The review praises Nash (presumably mr.hov3) as a \"young, up and coming star\" in real estate, highlighting his politeness, respectfulness, and ability to deliver a stress-free selling experience. The post also includes the realestate.com.au logo, suggesting he works with or is affiliated with that platform.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by mr.hov3, a real estate agent. He's standing in front of a \"SOLD\" sign, congratulating buyers and sellers. The post also mentions contacting Nash for buying or selling.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a view from a sub-penthouse in Southport, Queensland, Australia. The view overlooks a marina and the ocean.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an aerial view of a luxury penthouse apartment in Southport, Queensland, Australia, showcasing the Gold Coast skyline and waterways. The post is promoting \"luxury living\" and \"property investment.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an aerial view of a property for sale on Hope Island, Australia. It highlights the location of the land in relation to the surrounding area, including the Coomera River, Ephraim Island, and nearby amenities. The post promotes the property as an ideal location to build a dream home.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Real Estate Market Trends: Given that he's in real estate, asking about current market trends in his area (Coombabah) could be a good conversation starter.",
+          "2.  Client Satisfaction: You could ask about his approach to ensuring client satisfaction, referencing the positive review in the post.",
+          "1. Real Estate Market: \"I saw your post about the recent sale. What are your thoughts on the current real estate market trends in the area?\"",
+          "2. Local Area: \"I noticed the location mentioned in your video. I'm familiar with that area. What do you think makes it a desirable place to live?\"",
+          "1.  Southport/Queensland: Ask about their favorite things to do in the area or if they have any recommendations for restaurants or activities."
+        ],
+        "generated_comment": "Hey! Just had a look at your profile, that pool in your latest post looked so relaxing! 🌴",
+        "profile_bio": {
+          "PERSON NAME": "Nash (Based on client review)",
+          "INTERESTS": [
+            "Real Estate (Buying, Selling, Investment)",
+            "Luxury Properties",
+            "Queensland, Australia (Specifically Gold Coast and surrounding areas)",
+            "Property Development (Hope Island)",
+            "Travel (Implied by Vanuatu post, though potentially work-related)"
+          ],
+          "LIFESTYLE": "Real estate agent specializing in luxury properties in the Gold Coast region of Queensland, Australia. Appears to be successful and focused on client satisfaction. Potentially travels for work or leisure.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about the recent sale. What are your thoughts on the current real estate market trends in the area (e.g., Coombabah)?",
+            "I noticed the location mentioned in your video. I'm familiar with that area. What do you think makes it a desirable place to live?",
+            "Your client review mentioned a stress-free selling experience. What's your approach to ensuring client satisfaction?",
+            "I saw your post about the sub-penthouse in Southport. What are your favorite things to do in the Southport/Gold Coast area?",
+            "What are the key factors you consider when advising clients on property investment opportunities in the Gold Coast?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Professional",
+            "Client-focused",
+            "Ambitious (Up-and-coming star)",
+            "Polite/Respectful (Based on client review)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Real Estate Market Trends: Given that he's in real estate, asking about current market trends in his area (Coombabah) could be a good conversation starter.",
+        "2.  Client Satisfaction: You could ask about his approach to ensuring client satisfaction, referencing the positive review in the post.",
+        "1. Real Estate Market: \"I saw your post about the recent sale. What are your thoughts on the current real estate market trends in the area?\"",
+        "2. Local Area: \"I noticed the location mentioned in your video. I'm familiar with that area. What do you think makes it a desirable place to live?\"",
+        "1.  Southport/Queensland: Ask about their favorite things to do in the area or if they have any recommendations for restaurants or activities."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

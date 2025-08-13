@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T21:39:33.194422",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T21:37:38.170077",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by emily.bustle_ features a graphic of three vertical bars in varying shades of blue, resembling a simple bar graph or abstract design. The post's caption introduces Emily as a marketing assistant and promotes her services for small to medium businesses looking to grow online. She encourages viewers to message her for a consultation.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by emily.bustle_ promotes her online marketing services, including SEO, web design and development, PPC management, and social media marketing. The post encourages viewers to contact her for a free consultation.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post advertising services to help startups boost their business. It features a graphic with a rocket ship and the text \"Boost your start-up today!\" and encourages viewers to book a free consultation. The post text mentions helping businesses with Google Ads, Meta Ads, and landing pages.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by emily.bustle_ promoting \"3 ways to work with Bustle.\" It features a blue graphic with white text and a white arrow.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by emily.bustle_ about Facebook Ads campaigns not bringing in leads. The post promises to show how to fix this in just 3 steps.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by emily.bustle_ asking \"What's the difference between Google ads and Facebook ads?\" The post has a blue background with abstract shapes and a white arrow.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Specific Marketing Services:** Ask about a specific service she offers, such as \"I'm curious about your approach to SEO. What are some common challenges you see businesses facing in that area?\"",
+          "2.  **Content Creation:** Ask about content creation, which is a key component of social media marketing. For example, \"I noticed you offer social media marketing. What kind of content do you find most effective for engaging audiences these days?\"",
+          "1. **Start-up Challenges:** Inquire about the specific challenges they face in helping startups gain traction and scale their businesses.",
+          "2. **Digital Marketing Strategies:** Ask about their experience with Google Ads and Meta Ads, and what strategies they've found most effective for different types of startups.",
+          "1. Bustle: Asking about their experience working with Bustle or their opinion on the brand."
+        ],
+        "generated_comment": "Hey! Just had a look at your profile. I really liked the graphic you used in your latest post, it looked clean and professional! 💙",
+        "profile_bio": {
+          "PERSON NAME": "Emily (Last name likely Bustle, but not explicitly stated)",
+          "INTERESTS": [
+            "Digital Marketing",
+            "SEO",
+            "Social Media Marketing",
+            "Web Design & Development",
+            "Helping Small to Medium Businesses Grow"
+          ],
+          "LIFESTYLE": "Marketing Assistant/Freelancer providing digital marketing services to small to medium businesses and startups. Likely works remotely or in a small office setting.",
+          "CONVERSATION STARTERS": [
+            "I'm curious about your approach to SEO. What are some common challenges you see businesses facing in that area?",
+            "I noticed you offer social media marketing. What kind of content do you find most effective for engaging audiences these days?",
+            "What are the specific challenges you face in helping startups gain traction and scale their businesses?",
+            "What strategies have you found most effective for different types of startups using Google Ads and Meta Ads?",
+            "Can you tell me more about the '3 ways to work with Bustle' that you mentioned in one of your posts?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Helpful",
+            "Knowledgeable",
+            "Proactive",
+            "Business-oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Specific Marketing Services:** Ask about a specific service she offers, such as \"I'm curious about your approach to SEO. What are some common challenges you see businesses facing in that area?\"",
+        "2.  **Content Creation:** Ask about content creation, which is a key component of social media marketing. For example, \"I noticed you offer social media marketing. What kind of content do you find most effective for engaging audiences these days?\"",
+        "1. **Start-up Challenges:** Inquire about the specific challenges they face in helping startups gain traction and scale their businesses.",
+        "2. **Digital Marketing Strategies:** Ask about their experience with Google Ads and Meta Ads, and what strategies they've found most effective for different types of startups.",
+        "1. Bustle: Asking about their experience working with Bustle or their opinion on the brand."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

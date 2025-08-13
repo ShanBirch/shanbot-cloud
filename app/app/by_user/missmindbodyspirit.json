@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T15:31:51.325699",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T15:31:33.883940",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a woman squatting in what appears to be a garage, repotting plants. There's a white car parked in the background, and several potted plants of various sizes are arranged around her. She's wearing a light-colored sweatshirt and dark shorts. The overall scene has a bright, natural light.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two mason jars being filled with liquid, presumably water. The caption says \"Things are getting juicy\" and includes fruit emojis, suggesting it might be related to making a fruit-infused drink or juice.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows several ripe mangoes on a surface, with a person's hands holding two of them. The caption reads \"You can't eat just one\" and \"Mango love\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in a white tank top and grey shorts, holding her stomach. The post is about mindful eating and avoiding distractions during meals. She has a floral tattoo on her shoulder.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post with the text \"Your health is priceless\" and includes a picture of watermelon, mint, and a pink smoothie. The text at the top reads \"Eat better. Sleep better. Think better.\" The post emphasizes the importance of taking care of one's body.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a woman sticking her tongue out, holding a tongue scraper. The post is about the benefits of tongue scraping, an Ayurvedic self-care practice.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Inquiring about the specific fruit or ingredients being used to make the drink.",
+          "2. Asking about the benefits of fruit-infused drinks or juice for overall health and wellness.",
+          "1. Mango recipes: Ask about their favorite ways to enjoy mangoes (smoothies, salads, desserts, etc.).",
+          "2. Healthy eating/Wellness: Since the account name is \"missmindbodyspirit\" and the post is about a healthy fruit, you could ask about their general approach to healthy eating and wellness.",
+          "1.  **Mindful Eating Practices:** Ask about specific techniques she uses for mindful eating or share your own experiences with trying to be more present during meals."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Planting/Gardening",
+            "Healthy Eating/Nutrition",
+            "Mindful Living",
+            "Fruit-Infused Drinks/Juicing",
+            "Ayurvedic Self-Care (Tongue Scraping)"
+          ],
+          "LIFESTYLE": "Likely someone who prioritizes health and wellness, incorporating practices like mindful eating, self-care routines, and a plant-based or fruit-focused diet. They seem to enjoy gardening and creating healthy beverages. The garage setting suggests a practical and down-to-earth approach to their hobbies.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite fruits to infuse in water or juice, and what benefits have you noticed?",
+            "Do you have any go-to mango recipes you'd be willing to share?",
+            "What are some of your favorite techniques for practicing mindful eating?",
+            "I'm curious about your approach to overall wellness. What are some daily habits that you find most impactful?",
+            "I've been thinking about incorporating tongue scraping into my routine. What benefits have you experienced from it?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Mindful",
+            "Nature-loving",
+            "Positive/Upbeat (inferred from the 'Mango love' and selfie)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Inquiring about the specific fruit or ingredients being used to make the drink.",
+        "2. Asking about the benefits of fruit-infused drinks or juice for overall health and wellness.",
+        "1. Mango recipes: Ask about their favorite ways to enjoy mangoes (smoothies, salads, desserts, etc.).",
+        "2. Healthy eating/Wellness: Since the account name is \"missmindbodyspirit\" and the post is about a healthy fruit, you could ask about their general approach to healthy eating and wellness.",
+        "1.  **Mindful Eating Practices:** Ask about specific techniques she uses for mindful eating or share your own experiences with trying to be more present during meals."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

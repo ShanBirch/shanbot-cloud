@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T20:34:35.952867",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T20:34:17.787384",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows two mini tortillas topped with a tofu scramble, sliced avocado, and a drizzle of hot sauce. The scramble appears to contain diced red bell peppers. The tortillas are arranged on a bright blue plate.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan brownies, likely homemade, with a Christmas tree and snowflake ornament in the background. The post mentions it's the first time the poster made this recipe and that they are delicious.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a slice of homemade vegan \"Chx\" (chicken) pot pie on a green plate. The pot pie has a flaky crust and a creamy, savory filling with vegetables.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a box filled with vegan donuts and croissants. There are chocolate-covered donuts, a donut with cookie-like crumbles on top, and croissants, some with powdered sugar and almond slivers.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up shot of a vegan Caesar salad from Parlor City Vegan. The salad includes greens, grilled bread, what appears to be vegan chicken, carrots, radishes, and a dressing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a colorful bowl filled with a vegan breakfast parfait. It includes sliced mango, banana, strawberries, raspberries, vanilla bean cashew yogurt (from Trader Joe's), and homemade granola (recipe from @ohsheglows).",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Vegan Baking: Ask about other vegan baking recipes they enjoy or if they have any tips for vegan baking.",
+          "2.  Christmas/Holiday Traditions: Inquire about their favorite holiday traditions or ask if they have any other Christmas-themed baking plans.",
+          "1. Vegan cooking/baking: Ask about their favorite vegan recipes or baking tips, especially for savory dishes like pot pie.",
+          "2. Homemade food: Inquire about other homemade dishes they enjoy making from scratch.",
+          "1. Vegan baking/pastry: Ask about their favorite vegan baking recipes or tips, or inquire about their experience with vegan substitutes for traditional baking ingredients."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The tofu scramble looked so vibrant and delicious 😋",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Baking",
+            "Vegan Cooking (especially savory dishes)",
+            "Homemade Food",
+            "Vegan Pastry",
+            "Exploring Vegan Options at Restaurants"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys cooking and baking vegan food from scratch. They also seem to appreciate trying vegan options at local restaurants and are interested in healthy vegan breakfasts. They may be a hobbyist baker/cook or someone who is passionate about veganism and enjoys sharing their creations.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite vegan baking recipes, especially for beginners?",
+            "Do you have any tips for making a flaky vegan pot pie crust?",
+            "Besides the granola, what other recipes from @ohsheglows do you enjoy?",
+            "What are some other vegan restaurants in the area that you would recommend?",
+            "What are your favorite vegan substitutes for traditional baking ingredients like eggs or butter?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Passionate (about veganism)",
+            "Enthusiastic (about cooking and baking)",
+            "Resourceful (finding and adapting recipes)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Vegan Baking: Ask about other vegan baking recipes they enjoy or if they have any tips for vegan baking.",
+        "2.  Christmas/Holiday Traditions: Inquire about their favorite holiday traditions or ask if they have any other Christmas-themed baking plans.",
+        "1. Vegan cooking/baking: Ask about their favorite vegan recipes or baking tips, especially for savory dishes like pot pie.",
+        "2. Homemade food: Inquire about other homemade dishes they enjoy making from scratch.",
+        "1. Vegan baking/pastry: Ask about their favorite vegan baking recipes or tips, or inquire about their experience with vegan substitutes for traditional baking ingredients."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

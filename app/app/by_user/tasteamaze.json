@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T15:15:36.300684",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T15:15:19.046814",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of a mango pulp smoothie in a clear glass. A blue and white striped straw is inserted into the smoothie, and a sprig of mint garnishes the top. The smoothie has a vibrant yellow color and appears thick and creamy.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a mason jar filled with a smoothie, garnished with mint leaves and a black straw. The post describes it as a pineapple mint smoothie with chia seeds and almond milk. The hashtags include #smoothie, #healthybreakfast, #healthyeating, #vegan, #veganfood, and #veganrecipes.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of an acai bowl with bananas, cacao nibs, oats, and granola in a wooden bowl.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of an acai bowl with strawberries, granola, blueberries, and cacao nibs. The post is tagged with hashtags related to superfoods, healthy eating, and Amazon fruit.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows an acai bowl topped with granola, sliced bananas, and cacao nibs in a wooden bowl.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of an acai bowl with toppings including strawberries, coconut flakes, and banana slices.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "*   **Smoothie Recipes:** Ask about other smoothie recipes they enjoy or if they have any variations on this particular recipe.",
+          "*   **Vegan Food/Diet:** Inquire about their experience with vegan cooking or their favorite vegan restaurants/dishes.",
+          "1. Healthy eating habits and favorite superfood combinations.",
+          "2. Travel or interest in Brazilian ingredients and cuisine.",
+          "1.  **Acai bowls and healthy eating:** You could ask about their favorite acai bowl toppings, other healthy recipes they enjoy, or their general approach to healthy eating."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Smoothies (especially fruit-based)",
+            "Vegan Food & Recipes",
+            "Healthy Eating",
+            "Acai Bowls",
+            "Superfoods"
+          ],
+          "LIFESTYLE": "Likely someone who prioritizes healthy eating and enjoys creating visually appealing and nutritious meals. They may be interested in fitness and overall well-being. Possibly a home cook or food enthusiast who enjoys experimenting with recipes.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite smoothie recipes, besides the mango and pineapple mint ones?",
+            "Do you have any go-to vegan restaurants or dishes you'd recommend?",
+            "What are your favorite superfood combinations to add to your acai bowls or smoothies?",
+            "Have you ever traveled to Brazil or are you interested in Brazilian cuisine, given your love for acai?",
+            "What's your general approach to healthy eating? Do you follow any specific dietary guidelines?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Creative (in the kitchen)",
+            "Visually oriented (cares about food presentation)",
+            "Enthusiastic (about healthy food)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "*   **Smoothie Recipes:** Ask about other smoothie recipes they enjoy or if they have any variations on this particular recipe.",
+        "*   **Vegan Food/Diet:** Inquire about their experience with vegan cooking or their favorite vegan restaurants/dishes.",
+        "1. Healthy eating habits and favorite superfood combinations.",
+        "2. Travel or interest in Brazilian ingredients and cuisine.",
+        "1.  **Acai bowls and healthy eating:** You could ask about their favorite acai bowl toppings, other healthy recipes they enjoy, or their general approach to healthy eating."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

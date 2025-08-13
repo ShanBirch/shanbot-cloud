@@ -1,0 +1,91 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T22:59:09.991509",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 2,
+        "timestamp": "2025-04-23T22:59:02.662706",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a portrait of a man wearing a black scrub top with the name \"Jean Franck Enfermeiro\" embroidered on it. He has short dark hair, a mustache, and is wearing glasses. He has his arms crossed and is looking directly at the camera. Behind him, there is medical equipment visible, suggesting he is in a hospital or clinic setting.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a male nurse (identified as \"enfermeiro_nurse_intensivista\") in a white coat and blue pants, sitting at what appears to be his workstation in a hospital or clinic. He is wearing glasses and a lanyard with his name and credentials. A monitor and other medical equipment are visible in the background.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Nursing/Intensive Care: Given his profession and the setting of the photo, discussing aspects of nursing, intensive care, or healthcare in general could be a good conversation starter.",
+          "2. Personal Projects: The caption mentions taking projects \"out of the drawer\" for 2025. Inquiring about these projects could lead to a more personal and engaging conversation."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You looked really professional in your scrubs! 👍",
+        "profile_bio": {
+          "PERSON NAME": "Jean Franck Enfermeiro",
+          "INTERESTS": [
+            "Nursing",
+            "Intensive Care",
+            "Healthcare",
+            "Professional Development",
+            "Personal Projects"
+          ],
+          "LIFESTYLE": "Works as a nurse, likely specializing in intensive care. Appears dedicated to his profession and potentially involved in personal projects outside of work.",
+          "CONVERSATION STARTERS": [
+            "What are some of the biggest challenges you face in intensive care nursing?",
+            "You mentioned taking projects 'out of the drawer' for 2025. Can you tell me a little about what you're working on?",
+            "What inspired you to become a nurse, especially in intensive care?",
+            "What are some of the most rewarding aspects of your job?",
+            "What are your thoughts on the future of nursing and intensive care?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated",
+            "Professional",
+            "Focused",
+            "Potentially Ambitious (due to personal projects)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Nursing/Intensive Care: Given his profession and the setting of the photo, discussing aspects of nursing, intensive care, or healthcare in general could be a good conversation starter.",
+        "2. Personal Projects: The caption mentions taking projects \"out of the drawer\" for 2025. Inquiring about these projects could lead to a more personal and engaging conversation."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

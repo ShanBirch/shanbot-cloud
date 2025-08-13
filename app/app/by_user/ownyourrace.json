@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T22:27:41.766827",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T22:27:23.369899",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a medium shot of a woman running in a marathon. She is wearing a black sports bra, patterned running tights, a black cap, and sunglasses. She has a race bib pinned to her chest. The background shows other runners and blurred scenery.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman standing in the middle of a street after completing a marathon. She is wearing a race bib and medal, and there are other runners and spectators in the background. The caption describes the challenges she faced during the race and her determination to finish.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman celebrating after completing the Boston Marathon. She is wearing a race bib, raising her arms in the air, and smiling. The caption describes the emotional experience of the race, particularly the joy and pride of seeing other Black runners and the support from the crowd.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman standing in what appears to be the aftermath of a marathon. She is holding up her medal and wearing her race bib, which indicates she participated in the TCS Amsterdam Marathon. The text in the post confirms she completed her 8th marathon.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman running outdoors, likely on a trail or path, with a city skyline in the background. The post includes hashtags related to running, motivation, and athleticism.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman running on a track. She is wearing athletic clothing and appears to be in mid-stride. The post includes hashtags related to running, marathons, and fitness.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Running/Marathons:** Ask about her training regimen for the marathon, her favorite part of the race, or any other running events she has participated in or plans to participate in.",
+          "2.  **Overcoming Challenges:** Inquire about the hip injury she mentioned in the caption, how she's managing it, or other strategies she uses to overcome obstacles in her running or life in general.",
+          "1.  **Running/Marathon Training:** Ask about her training regimen for the Boston Marathon, or inquire about her future running goals and upcoming races.",
+          "2.  **Experiences as a Black runner:** The post highlights the significance of seeing other Black runners during the race. You could ask her to elaborate on her experiences as a Black woman in the running community, or the importance of representation in sports.",
+          "1.  **Running/Marathon Training:** Ask about her training regimen for marathons, or if she has any tips for someone looking to run their first marathon."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You looked so strong and focused during the Chicago Marathon! 💪",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Marathon Running",
+            "Fitness and Training",
+            "Overcoming Challenges",
+            "Representation in Sports (Specifically Black Runners)",
+            "Personal Motivation and Achievement"
+          ],
+          "LIFESTYLE": "Likely an active individual who dedicates significant time to marathon training and participation. Appears to be a dedicated runner who participates in races internationally. May be a fitness enthusiast or athlete.",
+          "CONVERSATION STARTERS": [
+            "What does your typical marathon training regimen look like?",
+            "You mentioned a hip injury in one of your posts. How are you managing it and what strategies do you use to overcome challenges in your running?",
+            "What was the most emotional or impactful part of running the Boston Marathon for you?",
+            "As a Black woman in the running community, what are some of the challenges you've faced and what does representation in sports mean to you?",
+            "You've run eight marathons! Do you have any tips for someone looking to run their first marathon?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Determined",
+            "Resilient",
+            "Passionate",
+            "Motivated"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Running/Marathons:** Ask about her training regimen for the marathon, her favorite part of the race, or any other running events she has participated in or plans to participate in.",
+        "2.  **Overcoming Challenges:** Inquire about the hip injury she mentioned in the caption, how she's managing it, or other strategies she uses to overcome obstacles in her running or life in general.",
+        "1.  **Running/Marathon Training:** Ask about her training regimen for the Boston Marathon, or inquire about her future running goals and upcoming races.",
+        "2.  **Experiences as a Black runner:** The post highlights the significance of seeing other Black runners during the race. You could ask her to elaborate on her experiences as a Black woman in the running community, or the importance of representation in sports.",
+        "1.  **Running/Marathon Training:** Ask about her training regimen for marathons, or if she has any tips for someone looking to run their first marathon."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

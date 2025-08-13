@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T21:29:12.128951",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T21:28:54.662331",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by blonde_bohemian features a black and white photo of several women wearing \"ANIMAL RESCUE\" t-shirts, standing in what appears to be a chicken coop. The women are holding chickens. The post is captioned \"Revolutionary Women Of The Animal Rights Movement\" and discusses the important role women have played in animal rights history.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The post is about the suffering of elephants in the entertainment industry and promotes a sanctuary for rescued elephants. The image shows a map of Europe with the text \"I'M RACING\" overlaid on it.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by blonde_bohemian features a still from the animated film \"Flow,\" showing a cat silhouetted against a sunset or sunrise. The post expresses the user's strong feelings about the film and its themes of animal welfare and the beauty of nature without human interference.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by blonde_bohemian featuring a video of a rescued kitten being comforted by a foster cat. The post expresses sadness about animal abuse and promotes kindness and adoption.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a tortoiseshell cat lying on a white fluffy surface with a pink heart next to it. The post is captioned \"Happy Valentine's Day!\" and mentions several cat names, including Romeo, Larry, Tuna Fish, Sausage, Maserati, and \"Lil Bear\" (a grey foster cat available for adoption). The hashtags focus on adoption, rescue animals, and general pet-related content.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of strawberry \"lobster\" claws on a white surface. The post is tagged with vegan-related hashtags, suggesting it's a vegan alternative to lobster.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Elephant conservation and ethical tourism:** Given the post's focus on elephant welfare and the #indiatravelgram hashtag, you could ask about their experiences with ethical tourism or their thoughts on the best ways to support elephant conservation efforts.",
+          "2.  **Travel:** The \"I'M RACING\" text overlaid on a map of Europe suggests an interest in travel. You could ask about their favorite travel destinations in Europe or what their dream trip would be.",
+          "1.  **Animal Welfare/Veganism:** The user clearly cares deeply about animal rights and welfare, as evidenced by the hashtags and the content of their post. Asking about their involvement in animal welfare or their thoughts on veganism could spark a conversation.",
+          "2.  **Animated Films/Art:** The user describes \"Flow\" as visually stunning and appreciates animation as an art form. Asking about other animated films they enjoy or their general interest in art could be a good conversation starter.",
+          "1.  **Animal rescue/adoption:** You could ask about their experience with animal rescue or adoption, or share your own stories about pets."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! It was really interesting to see those women in action. ✊",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Animal Rights & Welfare (especially elephants, cats, and chickens)",
+            "Veganism & Plant-Based Living",
+            "Animal Rescue & Adoption",
+            "Travel (especially in Europe)",
+            "Animated Films & Art"
+          ],
+          "LIFESTYLE": "Likely an animal rights advocate and possibly involved in animal rescue/fostering. Appears to be a vegan or vegetarian. Enjoys travel and appreciates art, particularly animated films. May be involved in some kind of race or competition in Europe.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite ethical travel experiences, particularly related to wildlife?",
+            "I saw your post about 'Flow' - what other animated films have resonated with you?",
+            "What inspired you to get involved in animal rescue, and what's been the most rewarding part?",
+            "I noticed the 'I'M RACING' overlay on the map of Europe. Can you tell me more about that?",
+            "What are some of your favorite vegan recipes or restaurants?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Compassionate",
+            "Advocate",
+            "Artistic",
+            "Adventurous"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Elephant conservation and ethical tourism:** Given the post's focus on elephant welfare and the #indiatravelgram hashtag, you could ask about their experiences with ethical tourism or their thoughts on the best ways to support elephant conservation efforts.",
+        "2.  **Travel:** The \"I'M RACING\" text overlaid on a map of Europe suggests an interest in travel. You could ask about their favorite travel destinations in Europe or what their dream trip would be.",
+        "1.  **Animal Welfare/Veganism:** The user clearly cares deeply about animal rights and welfare, as evidenced by the hashtags and the content of their post. Asking about their involvement in animal welfare or their thoughts on veganism could spark a conversation.",
+        "2.  **Animated Films/Art:** The user describes \"Flow\" as visually stunning and appreciates animation as an art form. Asking about other animated films they enjoy or their general interest in art could be a good conversation starter.",
+        "1.  **Animal rescue/adoption:** You could ask about their experience with animal rescue or adoption, or share your own stories about pets."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

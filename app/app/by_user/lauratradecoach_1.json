@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T23:02:31.220188",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T23:02:14.089322",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a graphic for an Instagram post. It features a jar of coins spilling out, with the text \"How To Raise Finance\" prominently displayed above the coins. The coins are a mix of pennies, nickels, dimes, and quarters. The background is a bright white.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows an Instagram post by lauratradecoach_1, showcasing a significant increase in account value from $10,000 to $228,000 in less than a month. The post details some trading decisions and strategies, including not using margin initially and selling TSLA contracts too early. A graph illustrates the account's growth over the past month.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by lauratradecoach_1 features a quote about earning and investing to create a second income source. The caption encourages followers to learn how to achieve similar results by following the account and sending a direct message.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A couple is sitting on stairs, holding a sign that says \"Credit Card Debt Free!\". They are celebrating paying off their credit card debt. They are wearing Jacksonville Jaguars shirts.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by lauratradecoach_1. The post features a text graphic that reads, \"THE GOAL IS NOT MORE MONEY ITS FINANCIAL FREEDOM.\" The caption discusses making choices to improve one's life and mentions several locations: Brooklyn, Canada (Montreal), Spain (Madrid, Barcelona).",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A couple is posing in front of a chalkboard that says \"PAID OFF $15,567.77 In August #1000PAYOFF\". The post mentions financial freedom, paying off debt, and sacrificing an anniversary trip.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Trading Strategies:** Ask about the specific criteria used to select stocks for day trading or inquire about the risk management strategies employed, especially regarding the decision to switch to margin trading.",
+          "2. **TSLA Trade:** Ask about the specific TSLA trade, what the entry and exit points were, and what lessons were learned from not holding the contracts longer.",
+          "1. Investment strategies: Inquire about the specific types of investments she recommends for creating a second income stream.",
+          "2. Success stories: Ask her to share examples of clients who have successfully implemented her strategies and achieved their financial goals.",
+          "1.  **Debt-free journey:** Ask about their experience with Financial Peace University or other strategies they used to pay off their debt."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post had a really great visual with the coins spilling out. 💰",
+        "profile_bio": {
+          "PERSON NAME": "Laura (Based on username 'lauratradecoach_1')",
+          "INTERESTS": [
+            "Trading (Stocks, Options)",
+            "Financial Freedom",
+            "Debt Reduction",
+            "Investing for Second Income",
+            "Travel (Brooklyn, Montreal, Madrid, Barcelona)"
+          ],
+          "LIFESTYLE": "Financial coach and trader, focused on helping others achieve financial freedom through trading and debt reduction. Appears to be in a relationship and enjoys travel.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about the TSLA trade. What were your entry and exit points, and what did you learn from selling the contracts early?",
+            "Your account growth from $10,000 to $228,000 in a month is impressive! Can you share more about the trading strategies you used, especially regarding risk management?",
+            "I'm interested in creating a second income stream. What types of investments do you typically recommend for that purpose?",
+            "Congratulations on becoming credit card debt-free! Did you use Financial Peace University or any other specific strategies that were particularly helpful?",
+            "I noticed you mentioned Brooklyn, Montreal, Madrid, and Barcelona. What were you doing in those locations, and how does travel fit into your financial freedom goals?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven",
+            "Goal-oriented",
+            "Empathetic (Helping others)",
+            "Transparent (Sharing trading decisions)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Trading Strategies:** Ask about the specific criteria used to select stocks for day trading or inquire about the risk management strategies employed, especially regarding the decision to switch to margin trading.",
+        "2. **TSLA Trade:** Ask about the specific TSLA trade, what the entry and exit points were, and what lessons were learned from not holding the contracts longer.",
+        "1. Investment strategies: Inquire about the specific types of investments she recommends for creating a second income stream.",
+        "2. Success stories: Ask her to share examples of clients who have successfully implemented her strategies and achieved their financial goals.",
+        "1.  **Debt-free journey:** Ask about their experience with Financial Peace University or other strategies they used to pay off their debt."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

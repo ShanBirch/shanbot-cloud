@@ -1,0 +1,93 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 8,
+      "user_messages": 4,
+      "ai_messages": 4,
+      "ai_questions": 2,
+      "ai_statements": 2,
+      "user_responses_to_ai_question": 2,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 1.0,
+      "conversation_start_time": "2025-04-10T20:10:36.529050",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 132713.704674,
+      "achieved_message_milestones": [
+        5
+      ],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": true,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-10T05:58:54.010289+00:00",
+          "type": "user",
+          "text": "Thanks!  It’s been fun to put on for all the vegan littles!"
+        },
+        {
+          "timestamp": "2025-04-10T05:58:54.030091+00:00",
+          "type": "ai",
+          "text": "Haha yeah awesome! Are you expecting many to come along?"
+        },
+        {
+          "timestamp": "2025-04-10T21:57:56.609137+00:00",
+          "type": "user",
+          "text": "Thanks!  It’s been fun to put on for all the vegan littles! + Shannon: Haha yeah awesome! Are you expecting many to come along? {{cuf_11967919}}  {{cuf_11967920}} Lead : We try to grow the event every year, so we’re hoping for 150 kids this year! + Shannon: Haha yeah 150! That's awesome! You must be getting pretty good at organising these events! What kind of vegan treats will there be? 😋 {{cuf_11967919}}  {{cuf_11967920}} Lead : We have smarties, blow pops, Swedish fish, pixi stix, dum dums, veggie chips, pretzels, Oreos, and little toys.  The kids have a blast and it is so fun go them to be able to have anything they want since it’s all vegan!  I definitely learn something every year and we’re getting more people interested in volunteering which is so amazing + Shannon: Haha yeah smarties and oreos for the win! Sounds like you have all the bases covered with the treats.  It’s awesome you are getting more volunteers too, so cool to see it grow each year.  Lead : Thanks!  Yeah it’s been fun"
+        },
+        {
+          "timestamp": "2025-04-10T21:57:56.649487+00:00",
+          "type": "ai",
+          "text": "Yeah okay good on ya!  Are you excited for it?"
+        },
+        {
+          "timestamp": "2025-04-11T17:41:52.043636+00:00",
+          "type": "user",
+          "text": "Thanks!  It’s been fun to put on for all the vegan littles! + Shannon: Haha yeah awesome! Are you expecting many to come along? {{cuf_11967919}}  {{cuf_11967920}} Lead : We try to grow the event every year, so we’re hoping for 150 kids this year! + Shannon: Haha yeah 150! That's awesome! You must be getting pretty good at organising these events! What kind of vegan treats will there be? 😋 {{cuf_11967919}}  {{cuf_11967920}} Lead : We have smarties, blow pops, Swedish fish, pixi stix, dum dums, veggie chips, pretzels, Oreos, and little toys.  The kids have a blast and it is so fun go them to be able to have anything they want since it’s all vegan!  I definitely learn something every year and we’re getting more people interested in volunteering which is so amazing + Shannon: Haha yeah smarties and oreos for the win! Sounds like you have all the bases covered with the treats.  It’s awesome you are getting more volunteers too, so cool to see it grow each year.  Lead : Thanks!  Yeah it’s been fun + Shannon: Yeah okay good on ya!  Are you excited for it? {{cuf_11967919}}  {{cuf_11967920}} Lead : Definitely!"
+        },
+        {
+          "timestamp": "2025-04-11T17:41:52.092723+00:00",
+          "type": "ai",
+          "text": "Nice! It's always rewarding seeing the kids have a blast at these things."
+        },
+        {
+          "timestamp": "2025-04-11T23:02:42.555320+00:00",
+          "type": "user",
+          "text": "Thanks!  It’s been fun to put on for all the vegan littles! + Shannon: Haha yeah awesome! Are you expecting many to come along? {{cuf_11967919}}  {{cuf_11967920}} Lead : We try to grow the event every year, so we’re hoping for 150 kids this year! + Shannon: Haha yeah 150! That's awesome! You must be getting pretty good at organising these events! What kind of vegan treats will there be? 😋 {{cuf_11967919}}  {{cuf_11967920}} Lead : We have smarties, blow pops, Swedish fish, pixi stix, dum dums, veggie chips, pretzels, Oreos, and little toys.  The kids have a blast and it is so fun go them to be able to have anything they want since it’s all vegan!  I definitely learn something every year and we’re getting more people interested in volunteering which is so amazing + Shannon: Haha yeah smarties and oreos for the win! Sounds like you have all the bases covered with the treats.  It’s awesome you are getting more volunteers too, so cool to see it grow each year.  Lead : Thanks!  Yeah it’s been fun + Shannon: Yeah okay good on ya!  Are you excited for it? {{cuf_11967919}}  {{cuf_11967920}} Lead : Definitely! + Shannon: Nice! It's always rewarding seeing the kids have a blast at these things. {{cuf_11967919}}  {{cuf_11967920}} Lead : Yes!  And they get to meet other vegan kids from all over the valley.  It’s so important for them to know other vegan kids so they don’t feel different"
+        },
+        {
+          "timestamp": "2025-04-11T23:02:42.596504+00:00",
+          "type": "ai",
+          "text": "Yeah absolutely, creating that community for them is so important. Makes a big difference."
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "the.deliciousvegan",
+      "user_responses_to_questions": 0,
+      "response_rate": 0.0,
+      "coaching_inquiries": 0,
+      "ai_detections": 0,
+      "first_message_timestamp": "2025-04-10T05:58:54.010289+00:00",
+      "last_message_timestamp": "2025-04-11T23:02:42.596504+00:00",
+      "last_seen_timestamp": "2025-04-11T23:02:42.596504+00:00",
+      "conversation_count": 1,
+      "conversation_duration_str": "1d 17h 3m",
+      "fitness_topic_user_initiated": false,
+      "fitness_topic_ai_initiated": false
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

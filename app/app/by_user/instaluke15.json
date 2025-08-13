@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T23:52:51.394115",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T23:52:31.243008",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a man, presumably instaluke15, standing on a sandy beach. He is wearing sunglasses, a striped t-shirt, and camo shorts. He's holding a bottle in his right hand. The beach stretches out behind him, with the ocean and a cloudy sky in the background. The sun is trying to peek through the clouds.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a photo of Catani Gardens at sunset, featuring palm trees silhouetted against a colorful sky. Two people are walking in the distance.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man standing on a rocky cliff overlooking a beautiful beach. The location is tagged as Sunshine Beach.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two men on a beach, likely at Double Island Point, Queensland. They are both wearing matching Christmas-themed swim trunks. One man is shirtless with tattoos and holding a gift-wrapped box, while the other is wearing a bucket hat and a khaki shirt and holding a can. There's a blue pickup truck with an awning in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a newly purchased house with a well-manicured lawn, solar panels on the roof, and two white vehicles parked in the driveway. The post caption confirms it's a new home purchase.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person (presumably instaluke15) on a beach, throwing a ball. There are beach chairs and other people in the background. The caption mentions \"Noosa's finest.\" The post also mentions the band Foo Fighters.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Travel/Location: \"Have you been to Catani Gardens often? It looks like a beautiful place to relax.\"",
+          "2. Photography: \"That's a stunning sunset! Do you enjoy taking photos?\"",
+          "1. Travel/Sunshine Beach: \"Sunshine Beach looks amazing! Have you been there before? What are some of your favorite things to do there?\"",
+          "2. Nature/Outdoors: \"That view is incredible! Do you enjoy hiking and exploring nature?\"",
+          "1. **Double Island Point:** \"I saw your post from Double Island Point. Have you been there before? What are some of your favorite things to do there?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The beach looked so peaceful 🏖️",
+        "profile_bio": {
+          "PERSON NAME": "Luke (Based on username 'instaluke15')",
+          "INTERESTS": [
+            "Travel (especially beaches and coastal areas)",
+            "Photography (particularly landscapes and sunsets)",
+            "Outdoor activities (hiking, beach activities)",
+            "Music (Foo Fighters)",
+            "Homeownership"
+          ],
+          "LIFESTYLE": "Appears to enjoy a relaxed, outdoorsy lifestyle. He travels to scenic locations, spends time at the beach, and enjoys photography. He recently purchased a home, suggesting a stable and settled life. He seems to value spending time with friends, as evidenced by the Double Island Point photo.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite things to do at Sunshine Beach?",
+            "Do you have any other favorite spots in Queensland besides Double Island Point?",
+            "What kind of photography equipment do you use?",
+            "What's your favorite Foo Fighters album?",
+            "What made you decide to buy a house in this area?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous (willing to travel and explore new places)",
+            "Appreciative of beauty (enjoys sunsets, landscapes, and well-maintained homes)",
+            "Sociable (spends time with friends and family)",
+            "Relaxed (beach-oriented lifestyle suggests a laid-back personality)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Travel/Location: \"Have you been to Catani Gardens often? It looks like a beautiful place to relax.\"",
+        "2. Photography: \"That's a stunning sunset! Do you enjoy taking photos?\"",
+        "1. Travel/Sunshine Beach: \"Sunshine Beach looks amazing! Have you been there before? What are some of your favorite things to do there?\"",
+        "2. Nature/Outdoors: \"That view is incredible! Do you enjoy hiking and exploring nature?\"",
+        "1. **Double Island Point:** \"I saw your post from Double Island Point. Have you been there before? What are some of your favorite things to do there?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

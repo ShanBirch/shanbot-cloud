@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T20:54:35.369400",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T20:54:16.782882",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a calico cat sleeping on a white surface, presumably a bed or blanket. The cat's face is slightly blurred in the background, while its front paw is in sharp focus. The paw has black fur with a white tip, and the pink paw pads are clearly visible. The overall tone of the image is soft and peaceful.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by youareyoga features an image of Mr. T with the text \"I pity the fool who doesn't stay for Savasana.\" The caption encourages people to stay for Savasana during yoga practice.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a cat sitting on a bed in a dimly lit room. The caption and hashtags suggest the person is a \"crazy cat lady\" and enjoys yoga.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post advertising a free Vinyasa yoga class in Wimbledon. It features a woman in a meditative pose, with the words \"FREE YOGA TONIGHT. 6.30PM. WIMBLEDON. DM to join\" prominently displayed. The post emphasizes the class is for all levels and offers a safe, non-judgmental space.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a yoga instructor sitting in a meditative pose on a purple yoga mat in a studio. The windows behind her have the words \"Surya Hot Yoga\" spelled out in large letters. The caption mentions returning to in-person classes and the importance of community.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person in a yoga pose (Malasana) while working on upcycling an old mirror. They are outside, possibly in a garden or backyard.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Yoga and Savasana:** Discuss the benefits of Savasana and why it's an important part of a yoga practice. Ask about their personal experiences with Savasana or any tips they have for making the most of it.",
+          "2.  **Pop Culture/80s Nostalgia:** Reference Mr. T and the A-Team. Ask if they were a fan of the show or any other 80s pop culture references.",
+          "1.  Cats: Ask about the cat's name, breed, or personality.",
+          "2.  Yoga: Inquire about their favorite type of yoga or if they have any tips for beginners.",
+          "1.  Yoga experience: \"Have you practiced Vinyasa yoga before? What are some of your favorite poses or flows?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The close-up of the paw was so cute! 😻",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Yoga (especially Vinyasa and potentially Hot Yoga)",
+            "Cats",
+            "Upcycling/DIY Projects",
+            "Community and Wellness",
+            "Pop Culture/80s Nostalgia"
+          ],
+          "LIFESTYLE": "Likely a yoga instructor or someone deeply involved in the yoga community. They seem to enjoy a blend of physical activity, creative projects, and spending time with their cat. They may teach or attend classes at Surya Hot Yoga and offer free Vinyasa classes in Wimbledon. They value community and creating a safe, non-judgmental space for others.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite poses or flows in Vinyasa yoga, and why?",
+            "Tell me about your cat! What's their name and what's their personality like?",
+            "I saw you're into upcycling. What's the most rewarding project you've worked on?",
+            "What do you find most beneficial about Savasana, and do you have any tips for making the most of it?",
+            "Were you a fan of Mr. T and the A-Team? Any other favorite 80s pop culture memories?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Compassionate/Caring (offers free classes, emphasizes safe spaces)",
+            "Creative (upcycling, yoga instruction)",
+            "Humorous (Mr. T reference, 'crazy cat lady')",
+            "Dedicated/Passionate (about yoga and community)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Yoga and Savasana:** Discuss the benefits of Savasana and why it's an important part of a yoga practice. Ask about their personal experiences with Savasana or any tips they have for making the most of it.",
+        "2.  **Pop Culture/80s Nostalgia:** Reference Mr. T and the A-Team. Ask if they were a fan of the show or any other 80s pop culture references.",
+        "1.  Cats: Ask about the cat's name, breed, or personality.",
+        "2.  Yoga: Inquire about their favorite type of yoga or if they have any tips for beginners.",
+        "1.  Yoga experience: \"Have you practiced Vinyasa yoga before? What are some of your favorite poses or flows?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

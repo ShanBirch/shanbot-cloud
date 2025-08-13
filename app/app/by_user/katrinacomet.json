@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T22:49:07.527416",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T22:48:50.234370",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by katrinacomet shows a black and white image of a woman playing an electric guitar. Above her, in teal and blue text, are the words \"DESERT MERMAID' by Katrina Picozzi.\" She is standing on a stage in front of a speaker.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by katrinacomet. It shows her playing a stringed instrument (possibly a ukulele or small guitar) and singing. The caption mentions \"a little bit of live!\" and includes a link to what appears to be her website for natural therapy.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person wearing a Viking helmet and playing a banjo outdoors, possibly near a coast. Another person is partially visible in the background. The hashtags include #Perthcoast, #EASTER2025, and #shantypanties.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a yellow rubber duck being held up in front of the camera. The background shows a beach scene, with people and the ocean visible. The caption mentions filming a promo video on the Perth coast and that the duck is their mascot.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by katrinacomet. It features a black and white photo of Katrina with another person, possibly at an event. The caption congratulates @steven.foy.756 on his performance at the Collie Idol Finals and mentions a karaoke performance. Another image in the post shows a beach.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a beach scene with the word \"SKATI\" written in the sand. The ocean is in the background with some boats visible.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Music: Ask about the instrument she's playing, her musical influences, or the type of music she enjoys.",
+          "2.  Natural Therapy: Inquire about her work as a natural therapist, the types of therapies she offers, or what inspired her to pursue that career.",
+          "1. Music: Ask about the type of music they play on the banjo or their musical interests in general.",
+          "2. Travel/Location: Inquire about Perthcoast, asking for recommendations or sharing your own experiences if you've been there.",
+          "1.  **The Promo Video:** Ask about the promo video being filmed, what it's for, and what the project is about."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The title \"Desert Mermaid\" is intriguing! 🎶",
+        "profile_bio": {
+          "PERSON NAME": "Katrina Picozzi (Username: katrinacomet)",
+          "INTERESTS": [
+            "Music (Guitar, Banjo, Singing, Karaoke)",
+            "Natural Therapy",
+            "Perth Coast (Travel/Local Exploration)",
+            "Humor/Whimsy (Rubber Duck Mascot, #shantypanties)",
+            "Community Events (Collie Idol Finals)"
+          ],
+          "LIFESTYLE": "Appears to be a musician and natural therapist based in or around Perth, Australia. She enjoys performing live music, exploring the coast, and participating in local community events. Her lifestyle seems to blend artistic expression with a holistic approach to well-being.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about 'Desert Mermaid'! Can you tell me more about that project and the type of music you play?",
+            "Your website for natural therapy looks interesting. What inspired you to get into that field, and what kind of therapies do you offer?",
+            "I noticed you were filming a promo video on the Perth coast. What's the video about, and what was it like filming there?",
+            "That banjo performance with the Viking helmet looked fun! What kind of music do you usually play on the banjo?",
+            "I've always wanted to visit the Perth coast. Do you have any recommendations for must-see spots or hidden gems?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (Musician, Artistic Presentation)",
+            "Community-Oriented (Supports local events, Congratulates others)",
+            "Humorous/Playful (Rubber Duck Mascot, #shantypanties)",
+            "Holistic (Natural Therapy)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Music: Ask about the instrument she's playing, her musical influences, or the type of music she enjoys.",
+        "2.  Natural Therapy: Inquire about her work as a natural therapist, the types of therapies she offers, or what inspired her to pursue that career.",
+        "1. Music: Ask about the type of music they play on the banjo or their musical interests in general.",
+        "2. Travel/Location: Inquire about Perthcoast, asking for recommendations or sharing your own experiences if you've been there.",
+        "1.  **The Promo Video:** Ask about the promo video being filmed, what it's for, and what the project is about."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

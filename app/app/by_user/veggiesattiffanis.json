@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T21:04:03.028453",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T21:03:45.544900",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a plate of vegan crepes topped with a generous amount of whipped cream and mixed berries (blueberries and strawberries). The crepes are rolled and filled with a white cream. The plate is white and sits on a grey surface.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is of a vegan pulled jackfruit sandwich with beet BBQ sauce and avocado slaw, served with sweet potato fries.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a stack of blueberry muffins next to a can of Bambucha kombucha. There are also loose blueberries scattered around the muffins. The post advertises a vegan, gluten-free blueberry kombucha muffin recipe.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate with buffalo cauliflower, a green salad with great northern beans and white balsamic vinaigrette, and a caprese pasta salad.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a Caprese salad in a blue and white striped bowl. The salad contains cavatelli pasta, cherry tomatoes, what appears to be dairy-free mozzarella, basil leaves, and a balsamic glaze.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan food. It includes spicy Thai basil pesto and panko-encrusted marinated tofu, orange-sesame veggie fried rice, and asparagus sautéed in sweet black soy sauce with garlic and ginger.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan cooking/recipes: Discussing favorite vegan recipes, ingredients, or cooking techniques.",
+          "2. Beet BBQ sauce: Asking about the specific recipe for the beet BBQ sauce, or other unique BBQ sauce variations.",
+          "1. Kombucha brands and flavors: \"I noticed you're a fan of Bambucha kombucha. Have you tried any other flavors from them or other kombucha brands you'd recommend?\"",
+          "2. Vegan and gluten-free baking: \"I'm always looking for new vegan and gluten-free recipes. Do you have any other go-to recipes or baking tips you could share?\"",
+          "1. Vegan cooking/recipes: Discussing vegan alternatives to traditional dishes, sharing favorite vegan recipes, or asking for tips on vegan cooking techniques."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! Those vegan crepes looked absolutely divine! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Tiffani (Based on username 'veggiesattiffanis')",
+          "INTERESTS": [
+            "Vegan Cooking & Baking",
+            "Plant-Based Recipes",
+            "Gluten-Free Baking",
+            "Kombucha (especially Bambucha)",
+            "Creative & Flavorful Vegan Cuisine"
+          ],
+          "LIFESTYLE": "Likely a home cook or food enthusiast who enjoys creating and sharing vegan recipes. Appears to be health-conscious and enjoys experimenting with different flavors and cuisines. Possibly a food blogger or influencer.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite vegan recipe to make for a special occasion?",
+            "Can you share your recipe for the beet BBQ sauce you used on the jackfruit sandwich?",
+            "Besides Bambucha, what other kombucha brands and flavors do you enjoy?",
+            "Do you have any tips for achieving the perfect texture in vegan and gluten-free baked goods?",
+            "What are some of your favorite vegan alternatives to traditional dishes?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Health-Conscious",
+            "Passionate about veganism",
+            "Enthusiastic about food"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan cooking/recipes: Discussing favorite vegan recipes, ingredients, or cooking techniques.",
+        "2. Beet BBQ sauce: Asking about the specific recipe for the beet BBQ sauce, or other unique BBQ sauce variations.",
+        "1. Kombucha brands and flavors: \"I noticed you're a fan of Bambucha kombucha. Have you tried any other flavors from them or other kombucha brands you'd recommend?\"",
+        "2. Vegan and gluten-free baking: \"I'm always looking for new vegan and gluten-free recipes. Do you have any other go-to recipes or baking tips you could share?\"",
+        "1. Vegan cooking/recipes: Discussing vegan alternatives to traditional dishes, sharing favorite vegan recipes, or asking for tips on vegan cooking techniques."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T18:15:50.926319",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T18:15:30.030726",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a wide shot of a beach in Grand Cayman. The sand is white, and the water is a clear turquoise. There are several yellow beach umbrellas lined up with beach chairs underneath. In the distance, there are a few boats on the water. The sky is a clear blue.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a street scene in Havana, Cuba. There are old stone buildings lining the street, with vendors selling goods on one side. In the distance, there's a fort or castle-like structure.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a long, straight road lined with trees on both sides. The road appears to be in a rural area, possibly in India, based on the hashtags.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a photograph of Kovalam Beach in Kerala, India, taken at dusk or dawn. The sky is a mix of blues, grays, and pinks, and the ocean is calm. Lights are visible along the shoreline.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a rural scene with small, simple houses with thatched roofs in a grassy area, surrounded by lush green trees and vegetation. The location is tagged as Viñales, Cuba.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a long wooden pier extending into a calm, blue ocean under a clear sky. The pier has white posts along its sides and a small white gazebo at the end. The location is identified as Cayman Islands.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Cuba Travel:** Ask about their experience in Cuba, what they enjoyed most, or if they have any recommendations for future travelers.",
+          "2.  **Photography:** Comment on the composition of the photo, ask about their camera equipment (they hashtagged #canon), or inquire about their photography style.",
+          "1.  **Travel in West Bengal/Shantiniketan/Bolpur:** The hashtags indicate the location. You could ask about their favorite places to visit in the area or if they have any recommendations for someone planning a trip there.",
+          "2.  **Photography:** They use several photography-related hashtags. You could compliment their photography skills and ask about their favorite photography equipment or techniques.",
+          "1. Photography: Discussing photography techniques used to capture the colors and mood of the sunset/sunrise."
+        ],
+        "profile_bio": {
+          "PERSON_NAME": "Unknown",
+          "INTERESTS": [
+            "Travel Photography",
+            "Beach Destinations (Caribbean & India)",
+            "Cultural Exploration (Cuba, India)",
+            "Landscape Photography",
+            "Exploring Rural Areas"
+          ],
+          "LIFESTYLE": "Likely a travel enthusiast and photographer who enjoys exploring diverse cultures and landscapes. They seem to appreciate both popular tourist destinations and off-the-beaten-path locations. They may be a hobbyist photographer or someone who takes their photography seriously, given the use of #canon and other photography-related hashtags.",
+          "CONVERSATION_STARTERS": [
+            "What was your favorite part about traveling in Cuba, and do you have any recommendations for someone planning a trip there?",
+            "Your photos are stunning! What camera equipment do you typically use, and do you have any favorite lenses?",
+            "I noticed you visited Shantiniketan/Bolpur in West Bengal. What were some of your favorite places to visit in that area?",
+            "The Kovalam Beach photo is beautiful. Can you tell me a bit about the photography techniques you used to capture the colors and mood of the sunset/sunrise?",
+            "I'm curious about your experience in the Cayman Islands. What activities would you recommend for someone visiting for the first time?"
+          ],
+          "PERSONALITY_TRAITS": [
+            "Adventurous",
+            "Appreciative of Beauty",
+            "Curious",
+            "Observant"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Cuba Travel:** Ask about their experience in Cuba, what they enjoyed most, or if they have any recommendations for future travelers.",
+        "2.  **Photography:** Comment on the composition of the photo, ask about their camera equipment (they hashtagged #canon), or inquire about their photography style.",
+        "1.  **Travel in West Bengal/Shantiniketan/Bolpur:** The hashtags indicate the location. You could ask about their favorite places to visit in the area or if they have any recommendations for someone planning a trip there.",
+        "2.  **Photography:** They use several photography-related hashtags. You could compliment their photography skills and ask about their favorite photography equipment or techniques.",
+        "1. Photography: Discussing photography techniques used to capture the colors and mood of the sunset/sunrise."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

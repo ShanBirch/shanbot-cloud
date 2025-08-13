@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T00:27:30.439001",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T00:27:11.645709",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by plantfit_jen. The post features a close-up shot of a golden-brown loaf of bread in a clear glass baking dish. The caption on the image reads \"Sourdough or focaccia ??\" The bread has a slightly uneven, textured surface.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by plantfit_jen. She is making a video about her sourdough starter. She is adding flour to the starter. The hashtags include #sourdoughstarter, #plantfit, #breadbaking, #simplelife, and #healthybodyhealthymind.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by plantfit_jen. The post features a video of her doing a chest press in what appears to be a home gym in a basement. Her caption discusses the mental hurdles she faces when posting content and her journey towards self-confidence.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a carousel of content from plantfit_jen's Instagram. The first image is of her lying on an acupressure mat, with the text \"Good morning from the acupressure mat.\" Other images in the carousel show a chest press machine and a pot pie. The caption says \"Talking fast today.... therapy tomorrow.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, plantfit_jen, lying on what appears to be an acupressure mat. She's sharing her morning routine, specifically what she adds to her water for electrolyte balance.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman holding a pot pie in her kitchen. The post includes hashtags related to pot pie, dinner ideas, comfort food, and plant-based fitness.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Sourdough baking: Ask about her favorite sourdough recipes or tips for maintaining a healthy starter.",
+          "2. Plant-based lifestyle/fitness: Inquire about her plant-based diet and fitness routine, given the \"plantfit\" username and relevant hashtags.",
+          "1.  **Home Gym Setup:** Given the basement gym setting, you could ask about her experience setting up a home gym, what equipment she finds most useful, or any tips she has for others looking to create their own workout space.",
+          "2.  **Mental Game of Fitness/Posting:** Her caption focuses on the mental barriers she faces when posting content. You could inquire about her strategies for overcoming these challenges, or share your own experiences with the mental side of fitness and social media.",
+          "1. Acupressure mats: You could ask about her experience with acupressure mats, how often she uses them, and what benefits she finds."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post with the bread looked amazing! I hope it tasted as good as it looked 😋",
+        "profile_bio": {
+          "PERSON NAME": "Jen (plantfit_jen)",
+          "INTERESTS": [
+            "Sourdough Baking",
+            "Plant-Based Fitness",
+            "Home Workouts/Home Gym",
+            "Mental Wellness/Self-Confidence",
+            "Acupressure/Holistic Wellness"
+          ],
+          "LIFESTYLE": "Jen appears to lead a health-conscious lifestyle focused on plant-based eating, home fitness, and mental well-being. She enjoys baking sourdough bread and incorporates holistic practices like acupressure into her routine. She is also open about her struggles with self-confidence and the challenges of posting content online.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite sourdough recipes, and do you have any tips for maintaining a healthy starter?",
+            "Could you share more about your plant-based diet and fitness routine? What are some of your go-to meals and workouts?",
+            "I noticed your home gym setup. What equipment do you find most useful, and do you have any tips for others looking to create their own workout space?",
+            "You mentioned the mental hurdles you face when posting content. What strategies do you use to overcome these challenges, and how do you build self-confidence?",
+            "I'm curious about your experience with acupressure mats. How often do you use them, and what benefits have you noticed?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Open/Vulnerable",
+            "Dedicated/Disciplined",
+            "Authentic"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Sourdough baking: Ask about her favorite sourdough recipes or tips for maintaining a healthy starter.",
+        "2. Plant-based lifestyle/fitness: Inquire about her plant-based diet and fitness routine, given the \"plantfit\" username and relevant hashtags.",
+        "1.  **Home Gym Setup:** Given the basement gym setting, you could ask about her experience setting up a home gym, what equipment she finds most useful, or any tips she has for others looking to create their own workout space.",
+        "2.  **Mental Game of Fitness/Posting:** Her caption focuses on the mental barriers she faces when posting content. You could inquire about her strategies for overcoming these challenges, or share your own experiences with the mental side of fitness and social media.",
+        "1. Acupressure mats: You could ask about her experience with acupressure mats, how often she uses them, and what benefits she finds."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T21:56:50.833833",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T21:56:33.619617",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by boshesapburasiafk features a screenshot of a tweet from Ünlülerin Dünyası~ (@nuteIIa1d) which includes text in Turkish about Lady Gaga and Kemal Kılıçdaroğlu. The tweet is accompanied by an image of Lady Gaga standing at a podium, superimposed over a red background with white arrows, resembling a political campaign image. The post is tagged with #kemalkılıçdaroğlu and has a few likes and a comment.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by boshesapburasiafk. The post features a screenshot of a tweet by \"iskender sigorta\" (@abdullahcevdet8) containing a political statement. The hashtags used by boshesapburasiafk are #meralakşener, #serakadıgil, #iyip, and #tip.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The post shows an orange cat named Ron who has been diagnosed with FIB (Feline Infectious Bronchitis). The poster is asking for financial support for Ron's treatment. There is also a picture of Ron's vet results.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a post about the book \"İncik Tom'un Sırrı\" (Tom's Secret) by Fulvia Degl'Innocenti and Roberto Lauciello, translated by Ceylan Özçapkın. The post is celebrating World Vegan Day and recommending the book. The image includes a picture of the book cover, which depicts a cartoon scene of people outside a shop called \"Il Paradiso della Salsiccia,\" and a picture of what appears to be a veterinary test result.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a meme featuring a \"Little Miss\" character with the text \"LITTLE MISS GETS ARRESTED FOR JOKING.\" The post also includes hashtags related to the release of Gülşen, a Turkish singer who was arrested for a joke.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person holding up a children's book titled \"Daha Fazla Kumkurdu\" (More Sandworm). The post is in Turkish and mentions reading the book, as well as trying a vegan recipe.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Politics: Discussing the political figures or issues mentioned in the tweet and hashtags.",
+          "2. Social Media: Discussing the use of social media for political commentary and sharing opinions.",
+          "1.  Inquire about Ron's current condition and treatment plan.",
+          "2.  Offer resources or support for pet owners dealing with FIB, such as online communities or organizations that provide financial assistance.",
+          "1.  Books and Literature: You could ask about their favorite authors or genres, or if they've read any other books by Fulvia Degl'Innocenti or Roberto Lauciello."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The Gaga image was pretty creative! 🤩",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Turkish Politics (specifically Meral Akşener, Kemal Kılıçdaroğlu, and potentially Serap Kadıgil)",
+            "Social Commentary/Memes",
+            "Animal Welfare (especially cats)",
+            "Veganism/Vegetarianism",
+            "Children's Literature"
+          ],
+          "LIFESTYLE": "Likely an active social media user who engages with political and social issues. Appears to be compassionate and concerned about animal welfare. May be interested in reading and promoting children's literature, possibly for personal enjoyment or professional reasons. Potentially follows current events in Turkey.",
+          "CONVERSATION STARTERS": [
+            "How is Ron doing with his FIB treatment? Are there any updates on his condition?",
+            "What are your thoughts on the current political climate in Turkey?",
+            "Have you read any other books by Fulvia Degl'Innocenti or Roberto Lauciello, besides 'İncik Tom'un Sırrı'?",
+            "What are some of your favorite vegan recipes?",
+            "What do you think about the use of humor and memes to address serious social and political issues?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Compassionate",
+            "Politically Aware",
+            "Humorous/Sardonic",
+            "Literary/Bookish"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Politics: Discussing the political figures or issues mentioned in the tweet and hashtags.",
+        "2. Social Media: Discussing the use of social media for political commentary and sharing opinions.",
+        "1.  Inquire about Ron's current condition and treatment plan.",
+        "2.  Offer resources or support for pet owners dealing with FIB, such as online communities or organizations that provide financial assistance.",
+        "1.  Books and Literature: You could ask about their favorite authors or genres, or if they've read any other books by Fulvia Degl'Innocenti or Roberto Lauciello."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

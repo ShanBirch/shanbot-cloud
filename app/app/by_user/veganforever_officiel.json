@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T21:32:03.255570",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T21:31:41.506298",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a vibrant vegan chili served in a bright blue bowl. The chili appears to contain diced tomatoes, black beans, chunks of orange squash, and mushrooms. Three slices of avocado are artfully arranged on top. The bowl is sitting on a surface covered in green leaves.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a flat lay of various fruits, vegetables, and legumes arranged to spell out the word \"VEGAN\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man standing in a greenhouse filled with tomato plants. He is holding a wooden crate filled with ripe tomatoes. He is wearing a white t-shirt with a lion graphic and the words \"Brave Vegan.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person holding a \"Vegan Forever\" mug, which is promoting a juice and smoothie bar. The person is also wearing a gold bracelet and a ring. The post itself includes a quote by Jeremy Bentham about animal suffering.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman wearing a \"Vegan Forever\" t-shirt. The post promotes vegan clothing made with organic cotton and PETA certified.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a person wearing a white t-shirt with the words \"Avocado Addict\" printed on it. The post is by veganforever_officiel, promoting vegan clothing made with organic cotton and PETA certified.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Favorite Vegan Recipes:** The post asks \"So what's your favorite part about being vegan?\". A follow-up could be asking about their favorite vegan recipes or ingredients to cook with.",
+          "2.  **Vegan Food Photography:** The image is well-composed and visually appealing. You could ask about their interest in food photography or if they have any tips for capturing appetizing vegan dishes.",
+          "1.  Gardening/Growing Tomatoes: You could ask about their experience growing tomatoes, what varieties they prefer, or any tips they have for successful tomato cultivation.",
+          "2.  Vegan Fashion/T-Shirt Design: You could compliment the \"Brave Vegan\" t-shirt and ask about the inspiration behind the design or the brand itself.",
+          "1. Veganism: Discussing veganism, vegan recipes, or the ethical considerations of veganism, given the brand name and the Jeremy Bentham quote."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That vegan chili looked so colorful and delicious! 🥑",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism (Ethical & Lifestyle)",
+            "Vegan Cooking & Recipes",
+            "Vegan Fashion & Sustainable Clothing",
+            "Gardening (Specifically Tomatoes)",
+            "Vegan Food Photography"
+          ],
+          "LIFESTYLE": "Likely a passionate vegan advocate involved in promoting veganism through various avenues, including food, fashion, and ethical considerations. They may be involved in gardening, particularly growing tomatoes, and have an interest in visually appealing vegan food presentation. Potentially involved with a juice/smoothie bar or promoting vegan businesses.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite vegan recipe to make, and what makes it special?",
+            "Your food photography is stunning! Do you have any tips for capturing the beauty of vegan dishes?",
+            "I saw you grow tomatoes! What's your favorite variety to grow, and do you have any advice for beginners?",
+            "The 'Brave Vegan' t-shirt is awesome! What inspired the design, and where can I find similar vegan apparel?",
+            "I noticed the Jeremy Bentham quote. What are some of the most compelling ethical arguments that led you to embrace veganism?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate",
+            "Creative",
+            "Ethical",
+            "Visually-Oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Favorite Vegan Recipes:** The post asks \"So what's your favorite part about being vegan?\". A follow-up could be asking about their favorite vegan recipes or ingredients to cook with.",
+        "2.  **Vegan Food Photography:** The image is well-composed and visually appealing. You could ask about their interest in food photography or if they have any tips for capturing appetizing vegan dishes.",
+        "1.  Gardening/Growing Tomatoes: You could ask about their experience growing tomatoes, what varieties they prefer, or any tips they have for successful tomato cultivation.",
+        "2.  Vegan Fashion/T-Shirt Design: You could compliment the \"Brave Vegan\" t-shirt and ask about the inspiration behind the design or the brand itself.",
+        "1. Veganism: Discussing veganism, vegan recipes, or the ethical considerations of veganism, given the brand name and the Jeremy Bentham quote."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

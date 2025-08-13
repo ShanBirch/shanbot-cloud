@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T20:08:04.240564",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T20:07:42.216391",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows several pieces of vegan sushi arranged on a white plate. The sushi rolls have a dark purple/black seaweed wrap and are filled with pinkish-purple rice, a strip of avocado, and a piece of vegan salmon. The photo is taken at a close angle, highlighting the texture and colors of the sushi.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows three plates of homemade vegan sushi. The sushi includes various fillings like carrots, tofu, avocado, and mushrooms. The post mentions the user now makes their own vegan sushi after being disappointed with store-bought options.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows several platters of vegan sushi rolls. The caption mentions different types of rolls, including umami tofu, rainbow rolls, and teriyaki mushroom rolls. The post also mentions that this was a catering job for a concert in aid of a charity.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a homemade vegan sushi platter in a foil container. The sushi rolls contain ingredients like sweet potato, tofu, dill, yellow pepper, coriander, and carrot. There are also separate compartments with pickled ginger, wasabi, and what appears to be roasted red pepper.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan sushi. The caption lists three favorite vegan sushi combinations, including panko-crusted sweet potato with avocado and sriracha mayo, air-fried tofu with crunchy veg and topped with red pepper 'tuna', and teriyaki mushroom inside out roll with green beans, broccoli, black sesame and topped with coriander.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows several plates of vegan sushi. There are different types of rolls, including inside-out rolls, and the caption mentions using tomato-based \"vegan sashimi\" as a topping.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Vegan Cooking/Recipes:** Ask about the user's favorite vegan sushi fillings or other vegan recipes they enjoy making.",
+          "2.  **Sushi Making:** Inquire about tips or tricks for making sushi at home, especially vegan variations.",
+          "1.  Vegan Sushi: Ask about their favorite vegan sushi ingredients or flavor combinations.",
+          "2.  Catering/Vegan Business: Inquire about their experience starting a vegan catering business or ask for advice on starting a similar venture.",
+          "1. **Vegan cooking/recipes:** Ask about their favorite vegan sushi recipes or other vegan dishes they enjoy making."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post with the vegan sushi looked so creative and delicious! 🍣",
+        "profile_bio": {
+          "PERSON NAME": "Gabi (Based on username 'gabidreamsof')",
+          "INTERESTS": [
+            "Vegan Sushi",
+            "Vegan Cooking & Recipes",
+            "Homemade Food",
+            "Catering",
+            "Charity/Social Impact (Implied by catering for a charity concert)"
+          ],
+          "LIFESTYLE": "Likely a vegan home cook and possibly a small business owner specializing in vegan sushi catering. Enjoys experimenting with different vegan ingredients and flavor combinations. Appears to be passionate about creating delicious and visually appealing vegan food.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite, go-to vegan sushi fillings?",
+            "Do you have any tips or tricks for making perfect sushi rice at home?",
+            "I'm curious about your experience with vegan catering. What's been the most rewarding part?",
+            "Your 'vegan sashimi' using tomatoes sounds intriguing! Could you share more about how you make it?",
+            "What other vegan dishes do you enjoy creating besides sushi?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (Experimenting with unique vegan sushi combinations)",
+            "Passionate (Dedicated to vegan cooking and catering)",
+            "Generous (Catering for a charity event)",
+            "Detail-oriented (Focus on the presentation and texture of the sushi)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Vegan Cooking/Recipes:** Ask about the user's favorite vegan sushi fillings or other vegan recipes they enjoy making.",
+        "2.  **Sushi Making:** Inquire about tips or tricks for making sushi at home, especially vegan variations.",
+        "1.  Vegan Sushi: Ask about their favorite vegan sushi ingredients or flavor combinations.",
+        "2.  Catering/Vegan Business: Inquire about their experience starting a vegan catering business or ask for advice on starting a similar venture.",
+        "1. **Vegan cooking/recipes:** Ask about their favorite vegan sushi recipes or other vegan dishes they enjoy making."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

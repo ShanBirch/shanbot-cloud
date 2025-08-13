@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T13:59:41.971354",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T13:59:18.183583",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a young boy and two dogs in the back seat of a car. The boy is in the left of the frame, smiling widely with his mouth open. He is wearing a grey and black shirt and blue patterned shorts. To his right are two dogs. The dog in the top right is tan with its tongue sticking out and the dog in the bottom right is a darker tan and wearing a blue harness. The background shows the interior of the car and a glimpse of trees outside the window.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post of radiantveganvixen with her son and friends in Halloween costumes. The caption mentions \"Halloween 2023\" and includes hashtags like #happyhalloween, #halloween2023, and #momlife.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a child running outdoors in a lush, tropical environment, likely in Kauai, as indicated by the hashtag. The hashtags also suggest a vegan lifestyle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of young children on a stage, presumably at their preschool graduation. They are wearing leis and holding what appears to be musical instruments. The post is captioned with gratitude for those who care for the children. The hashtags include #alohaschool, #kauai, and #hanalei.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a young boy standing outside in a grassy area. He is shirtless and wearing shorts, with a patterned shirt draped over his shoulders. The caption mentions his preschool graduation.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a sunny beach scene with two children walking on rocks near the ocean. A rainbow is visible in the sky. The caption includes hashtags related to Hawaii, family, veganism, and rainbows.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Halloween costumes: You could ask about the inspiration behind her costume or her son's costume.",
+          "2. Veganism: Her username is radiantveganvixen, so you could ask about her favorite vegan recipes or restaurants.",
+          "1. Kauai: Asking about their favorite spots on the island or experiences they've had there.",
+          "2. Veganism: Inquiring about their favorite vegan recipes or restaurants in the area.",
+          "1.  **The Aloha School:** You could ask about the school itself. \"I saw you posted about Aloha School. What do you like about it?\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism",
+            "Kauai/Hawaii",
+            "Family/Children",
+            "Dogs",
+            "Early Childhood Education (Aloha School)"
+          ],
+          "LIFESTYLE": "Likely a stay-at-home or work-from-home parent living in or frequently visiting Kauai, Hawaii. She is a dedicated vegan and actively involved in her child's life, particularly his education and activities. She also appears to be a dog owner.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite vegan restaurants or recipes in Kauai?",
+            "I saw you posted about Aloha School. What do you like about it?",
+            "What are some of your favorite spots on Kauai for families?",
+            "What inspired your Halloween costume this year?",
+            "Tell me more about your dogs! What are their names and personalities?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Loving/Caring (evident in her posts about her son and his school)",
+            "Positive/Joyful (her username and the happy images she shares)",
+            "Environmentally Conscious/Health-Focused (due to her vegan lifestyle and connection to nature)",
+            "Community-Oriented (involved with her child's school and sharing local experiences)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Halloween costumes: You could ask about the inspiration behind her costume or her son's costume.",
+        "2. Veganism: Her username is radiantveganvixen, so you could ask about her favorite vegan recipes or restaurants.",
+        "1. Kauai: Asking about their favorite spots on the island or experiences they've had there.",
+        "2. Veganism: Inquiring about their favorite vegan recipes or restaurants in the area.",
+        "1.  **The Aloha School:** You could ask about the school itself. \"I saw you posted about Aloha School. What do you like about it?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

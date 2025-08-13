@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T12:18:43.087981",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T12:18:24.305550",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by @overnightcleanse. The post features a person in a white robe holding a bottle of pills next to a bottle of water on a bedside table. The post is advertising a 5-day colon cleanse. The caption includes hashtags related to gut health, detox, and natural products. There are also comments visible, including one from @skiinandhairclinic expressing their long-term use of the product.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post advertising \"Overnight Cleanse\" capsules. It highlights the benefits of the product, such as relieving constipation, reducing gas and bloating, supporting healthy bowel function, avoiding uncomfortable cramping, containing no harsh chemicals or stimulants, and using natural ingredients.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by overnightcleanse promoting their \"Overnight Cleanse\" product. It features a person holding a bottle of the cleanse capsules. The post highlights a sale and includes hashtags related to gut health, digestive health, and wellness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from overnightcleanse promoting the incorporation of beetroot into one's diet. The post features a close-up shot of beetroots and text overlay stating \"WHY YOU SHOULD INCORPORATE BEETROOT IN YOUR DIET.\" The post also credits @recipe_tin, @minimalistbaker, and @pickuplimes for their recipes.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by overnightcleanse promoting their \"Overnight Cleanse\" product. The product is shown in front of a natural background with flowing water and greenery. The post discusses the connection between gut health and skin health, suggesting that addressing gut issues can improve skin conditions like acne.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by overnightcleanse. It highlights the \"subtle signs of toxic overload & fecal impaction\" and features their \"Overnight Cleanse\" and \"Advanced Gut Relief\" supplements. The post lists symptoms such as bloating, constipation, skin issues, fatigue, and brain fog.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Gut health and wellness: The post focuses on gut health and overall wellness, so asking about their personal experiences with gut health issues or wellness routines could be a good conversation starter.",
+          "2. Natural remedies and ingredients: The product emphasizes natural ingredients, so inquiring about their interest in natural remedies or specific ingredients they look for in health products could be relevant.",
+          "1. Gut health and digestive wellness: You could ask about their experience with colon cleanses or other gut health products, or share your own experiences and ask for their opinion.",
+          "2. Healthy living and self-care: You could inquire about their overall wellness routine and what other self-care practices they incorporate into their daily life.",
+          "1.  **Beetroot recipes:** Ask about their favorite beetroot recipes or share a recipe you enjoy. This directly relates to the post's content and the credited accounts."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! The latest post looked so relaxing, especially with the robe and water bottle 🛀",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Gut Health",
+            "Digestive Wellness",
+            "Natural Remedies and Ingredients",
+            "Healthy Living and Self-Care",
+            "Beetroot Recipes & Healthy Eating"
+          ],
+          "LIFESTYLE": "Likely someone interested in holistic wellness and proactive about addressing health concerns through natural means. They may be interested in incorporating healthy foods like beetroot into their diet. Their lifestyle likely includes a focus on self-care and preventative health measures.",
+          "CONVERSATION STARTERS": [
+            "Have you ever tried a colon cleanse or other gut health products? What was your experience?",
+            "I'm always looking for new ways to improve my gut health. What are some of your favorite natural remedies or ingredients you look for in health products?",
+            "I saw your post about beetroot! Do you have any favorite beetroot recipes you'd be willing to share?",
+            "What are some other self-care practices you incorporate into your daily life to support your overall wellness?",
+            "Have you noticed a connection between your gut health and your skin? I'm curious about your experience."
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Proactive",
+            "Interested in natural solutions",
+            "Wellness-oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Gut health and wellness: The post focuses on gut health and overall wellness, so asking about their personal experiences with gut health issues or wellness routines could be a good conversation starter.",
+        "2. Natural remedies and ingredients: The product emphasizes natural ingredients, so inquiring about their interest in natural remedies or specific ingredients they look for in health products could be relevant.",
+        "1. Gut health and digestive wellness: You could ask about their experience with colon cleanses or other gut health products, or share your own experiences and ask for their opinion.",
+        "2. Healthy living and self-care: You could inquire about their overall wellness routine and what other self-care practices they incorporate into their daily life.",
+        "1.  **Beetroot recipes:** Ask about their favorite beetroot recipes or share a recipe you enjoy. This directly relates to the post's content and the credited accounts."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T15:42:37.725327",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T15:42:13.901990",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a portrait of a muscular man with his arms crossed, wearing a white tank top with the words \"HARDEST WORKER\" and an Under Armour logo on it. He is standing in front of a textured stone wall. He is looking off to the side with a focused expression.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a muscular man in a gym, lifting dumbbells. He's wearing a tank top with a logo, and the background features various gym equipment like weights, ropes, and pull-up bars. The location is tagged as Oxygen Gym O2 Fitness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man in a gym, shirtless, lifting dumbbells. There are rows of kettlebells in the background, and a sign that says \"NO MERCY\" is visible. The caption mentions being in Abu Dhabi at Oxygen Gym O2 Fitness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man wearing a leather jacket, posing shirtless. The post includes hashtags related to fitness, lifestyle, and fashion.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a shirtless man (decunningham.build) standing next to a rooftop swimming pool in Saudi Arabia. He is wearing sunglasses and blue swim trunks. The background features city buildings and outdoor furniture.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bodybuilder, decunningham.build, posing on stage at the CPA President's Cup Naturals competition where he placed 2nd. He is wearing a posing suit and displaying his physique.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Gym/Fitness:** Ask about his workout routine, specific exercises he enjoys, or his experience at Oxygen Gym.",
+          "2. **Travel/UAE:** He has hashtags related to travel and UAE life. You could ask about his favorite places in the UAE or his travel experiences.",
+          "1.  **Fitness and Training:** Discuss specific workout routines, training philosophies, or the benefits of certain exercises (e.g., dumbbell exercises, kettlebell workouts).",
+          "2.  **Travel and Gyms:** Ask about his experience training in Abu Dhabi, specifically at Oxygen Gym O2 Fitness, and compare it to gyms in other locations.",
+          "1. **Fitness Routine:** Given the fitness-related hashtags, you could ask about his workout routine or favorite exercises."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Dec Cunningham (Based on username 'decunningham.build')",
+          "INTERESTS": [
+            "Fitness/Bodybuilding",
+            "Travel (especially UAE and Saudi Arabia)",
+            "Gym Culture (Oxygen Gym O2 Fitness)",
+            "Fashion/Lifestyle (Leather Jackets, Swimwear)",
+            "Competitive Bodybuilding"
+          ],
+          "LIFESTYLE": "Dec Cunningham appears to be a dedicated bodybuilder and fitness enthusiast who enjoys traveling, particularly in the Middle East. He competes in natural bodybuilding competitions and seems to maintain a healthy and active lifestyle. He likely spends a significant amount of time in the gym and is interested in fashion and presenting a well-maintained physique.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite workout routine at Oxygen Gym O2 Fitness in Abu Dhabi?",
+            "I saw you competed at the CPA President's Cup Naturals. What was that experience like?",
+            "What are your favorite places to visit in the UAE or Saudi Arabia?",
+            "What are some of the biggest differences you've noticed between gyms in different countries?",
+            "What's your go-to exercise for building upper body strength?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven/Dedicated (evident from his bodybuilding and 'HARDEST WORKER' tank top)",
+            "Confident (posing shirtless, competing on stage)",
+            "Disciplined (consistent gym attendance and competition preparation)",
+            "Adventurous (traveling to different countries)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Gym/Fitness:** Ask about his workout routine, specific exercises he enjoys, or his experience at Oxygen Gym.",
+        "2. **Travel/UAE:** He has hashtags related to travel and UAE life. You could ask about his favorite places in the UAE or his travel experiences.",
+        "1.  **Fitness and Training:** Discuss specific workout routines, training philosophies, or the benefits of certain exercises (e.g., dumbbell exercises, kettlebell workouts).",
+        "2.  **Travel and Gyms:** Ask about his experience training in Abu Dhabi, specifically at Oxygen Gym O2 Fitness, and compare it to gyms in other locations.",
+        "1. **Fitness Routine:** Given the fitness-related hashtags, you could ask about his workout routine or favorite exercises."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

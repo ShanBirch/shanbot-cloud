@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T11:25:28.013524",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T11:25:10.328810",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up shot of a vibrant and colorful vegan salad bowl. The bowl, which is light blue, is filled with various ingredients including shredded carrots, quinoa, diced red peppers, beets, and what appear to be falafel balls. The salad is placed on a wooden table next to a book titled \"Nutrition.\" The background is slightly blurred, showing a restaurant setting with patterned flooring and a glimpse of chairs.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan and gluten-free meal, featuring a grilled sandwich and a bowl of greens with beans. The post mentions Chef Tara Punzone and the restaurant Puravita in West Hollywood.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan burger with fries and a side salad at a restaurant called MeeT in Gastown, Vancouver, BC. The post highlights that the restaurant has gluten-free options.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a colorful plate of vegan Mexican food, including enchiladas with mole sauce, guacamole, rice, beans, chips, and orange slices.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan pizza with mushrooms and sprouts. The post is by functional.vegan and includes hashtags related to vegan food, Los Angeles, and healthy lifestyle. The user also has a tattoo visible in the image.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan food, specifically a soup with cauliflower, carrots, and greens, served with a side of toasted bread. The caption mentions \"soup and sams on a hot day.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Vegan/Gluten-Free Dining:** \"I'm also interested in vegan and gluten-free food. Have you tried any other great spots in West Hollywood besides Puravita?\"",
+          "2. **Chef Tara Punzone:** \"I saw you mentioned Chef Tara Punzone. What are some of your favorite dishes created by her?\"",
+          "1.  **Vegan/Gluten-Free Food:** Ask about other vegan and gluten-free restaurants they enjoy in Vancouver or Los Angeles.",
+          "2.  **Travel:** Inquire about their experiences in Vancouver and Los Angeles, or other cities they enjoy visiting.",
+          "1.  **Vegan Mexican Cuisine:** Given the focus on vegan Mexican food, you could ask about their favorite vegan Mexican restaurants in Los Angeles or if they have any other favorite vegan Mexican recipes."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Cuisine",
+            "Gluten-Free Options",
+            "Healthy Eating",
+            "Travel (Vancouver, Los Angeles)",
+            "Plant-Based Restaurants"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys dining out at vegan and gluten-free restaurants, particularly in Los Angeles and Vancouver. They seem to prioritize healthy eating and enjoy exploring diverse vegan cuisines. Potentially a food blogger or someone passionate about sharing their vegan food experiences.",
+          "CONVERSATION STARTERS": [
+            "I noticed you've been to MeeT in Gastown. What other vegan restaurants in Vancouver would you recommend?",
+            "Your vegan Mexican food post looked amazing! Do you have any favorite vegan Mexican restaurants in Los Angeles?",
+            "Have you tried any other dishes by Chef Tara Punzone besides the ones you mentioned at Puravita?",
+            "I'm always looking for new vegan and gluten-free options. What are some of your go-to healthy meals?",
+            "I see you've been to both Vancouver and Los Angeles. Which city do you prefer for vegan dining and why?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous (willing to try different vegan cuisines)",
+            "Health-conscious (focus on nutrition and healthy eating)",
+            "Enthusiastic (passionate about sharing vegan food experiences)",
+            "Discerning (chooses restaurants with gluten-free options)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Vegan/Gluten-Free Dining:** \"I'm also interested in vegan and gluten-free food. Have you tried any other great spots in West Hollywood besides Puravita?\"",
+        "2. **Chef Tara Punzone:** \"I saw you mentioned Chef Tara Punzone. What are some of your favorite dishes created by her?\"",
+        "1.  **Vegan/Gluten-Free Food:** Ask about other vegan and gluten-free restaurants they enjoy in Vancouver or Los Angeles.",
+        "2.  **Travel:** Inquire about their experiences in Vancouver and Los Angeles, or other cities they enjoy visiting.",
+        "1.  **Vegan Mexican Cuisine:** Given the focus on vegan Mexican food, you could ask about their favorite vegan Mexican restaurants in Los Angeles or if they have any other favorite vegan Mexican recipes."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

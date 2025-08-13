@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T13:21:45.070359",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T13:21:25.813107",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of a bowl of vermicelli salad. The salad contains vermicelli noodles, lettuce, shredded carrots, sliced cucumbers, and sliced green onions. There are also pieces of tofu that appear to be glazed with a dark sauce, likely hoisin and sriracha as mentioned in the caption. The dish is presented in a white bowl.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of Singapore noodles with vegetables (broccoli, carrots, peas, green peppers) and what appears to be tofu.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of vegan lemon crinkle cookies with lemons in the background. The caption mentions that the recipe is courtesy of @thelittleblogofvegan.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two trays of vegan cinnamon rolls being drizzled with icing. The post mentions the recipe being from Buzzfeed Tasty and Merleeshay.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a Caesar salad with vegan bacon and dressing. The poster, tennilleamy.food, mentions using @madewithplants bacon and @colessupermarkets vegan caesar dressing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a Starbucks Frappuccino with plant-based whipped cream. The photo appears to be taken inside a shopping mall, with a Christmas tree visible in the background.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Cooking/Recipes:** You could ask about the recipe for the Singapore noodles, or if they have any other favorite noodle dishes.",
+          "2.  **Food Photography:** You could compliment their food photography skills and ask what kind of camera or lighting they use.",
+          "1. Baking: Ask about her experience baking vegan cookies, or if she has any other favorite vegan baking recipes.",
+          "2. Veganism: Inquire about her journey with veganism or her favorite vegan restaurants/products.",
+          "1. Vegan baking: Since the post is about vegan cinnamon rolls and includes hashtags like #veganbaking, asking about other vegan baking recipes they enjoy or challenges they've faced could be a good conversation starter."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Tennille Amy (Based on username 'tennilleamy.food')",
+          "INTERESTS": [
+            "Vegan Cooking",
+            "Vegan Baking",
+            "Plant-Based Food",
+            "Food Photography",
+            "Trying Vegan Products"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys cooking and baking vegan food at home. They also seem to enjoy eating out or purchasing vegan options from stores like Coles and Starbucks. The Christmas tree in the background of the Frappuccino photo suggests they enjoy seasonal activities and shopping.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite vegan noodle dish to make?",
+            "Your food photography is beautiful! What kind of camera or lighting do you use?",
+            "Do you have any tips for baking vegan cookies?",
+            "What inspired you to go vegan, and what are some of your favorite vegan restaurants or products?",
+            "What are some of the biggest challenges you've faced with vegan baking, and how did you overcome them?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (Enjoys cooking and baking)",
+            "Health-Conscious (Focus on vegan food)",
+            "Artistic (Good food photography)",
+            "Enthusiastic (Shares recipes and products)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Cooking/Recipes:** You could ask about the recipe for the Singapore noodles, or if they have any other favorite noodle dishes.",
+        "2.  **Food Photography:** You could compliment their food photography skills and ask what kind of camera or lighting they use.",
+        "1. Baking: Ask about her experience baking vegan cookies, or if she has any other favorite vegan baking recipes.",
+        "2. Veganism: Inquire about her journey with veganism or her favorite vegan restaurants/products.",
+        "1. Vegan baking: Since the post is about vegan cinnamon rolls and includes hashtags like #veganbaking, asking about other vegan baking recipes they enjoy or challenges they've faced could be a good conversation starter."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

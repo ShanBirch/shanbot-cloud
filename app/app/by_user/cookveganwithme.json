@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T02:17:15.840932",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T02:16:53.391844",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a bowl filled with zucchini noodles, seasoned with lime and pepper. The noodles are a mix of light and dark green, and are arranged in a visually appealing way. The bowl is white and sits on a wooden surface.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person holding a bowl of purple smoothie topped with two slices of dragon fruit. The caption indicates the smoothie contains blueberries, pineapple, banana, and oat milk. The background shows greenery, suggesting the photo was taken outdoors.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a vegan stir-fry dish featuring broccoli, tofu, mushrooms, and what appears to be a soy-based sauce.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan carrot cake squares topped with a white frosting and chopped walnuts.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a slice of vegan pizza topped with various vegetables, accompanied by a green salad. The post emphasizes how vegan meals can be varied and delicious.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two slices of avocado toast topped with tomatoes, onions, and jalapenos. The caption mentions it's an edamame avocado toast recipe by @plant_your_living.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan smoothie recipes: Ask about other favorite vegan smoothie combinations or ingredients they like to use.",
+          "2. Dragon fruit: Inquire about their favorite ways to enjoy dragon fruit or if they have any tips for selecting ripe ones.",
+          "1. Vegan cooking: Ask about their favorite vegan recipes or cooking tips.",
+          "2. Healthy eating: Inquire about their approach to maintaining a healthy lifestyle through diet.",
+          "1. Vegan baking: Discussing vegan baking tips, favorite vegan recipes, or challenges in veganizing traditional recipes."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! That zucchini dish in your latest post looked so refreshing! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Cooking",
+            "Vegan Baking",
+            "Healthy Eating",
+            "Smoothie Recipes",
+            "Plant-Based Cuisine"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys creating and sharing vegan recipes, focusing on healthy and visually appealing plant-based meals. They seem to appreciate fresh ingredients and diverse flavors, and may be passionate about promoting a vegan lifestyle.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite vegan baking tips for beginners?",
+            "Do you have any go-to vegan smoothie combinations you'd recommend?",
+            "What's your favorite way to enjoy dragon fruit?",
+            "What are some of your favorite vegan recipes that are quick and easy to make?",
+            "How do you approach maintaining a healthy lifestyle through your diet?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Health-conscious",
+            "Passionate",
+            "Visually-oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan smoothie recipes: Ask about other favorite vegan smoothie combinations or ingredients they like to use.",
+        "2. Dragon fruit: Inquire about their favorite ways to enjoy dragon fruit or if they have any tips for selecting ripe ones.",
+        "1. Vegan cooking: Ask about their favorite vegan recipes or cooking tips.",
+        "2. Healthy eating: Inquire about their approach to maintaining a healthy lifestyle through diet.",
+        "1. Vegan baking: Discussing vegan baking tips, favorite vegan recipes, or challenges in veganizing traditional recipes."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

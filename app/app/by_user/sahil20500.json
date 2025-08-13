@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T23:36:43.632619",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T23:36:26.760333",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by sahil20500 features a music player interface displaying the song \"TU JAANE NA [Slowed+Reverb]\" with the artist listed as \"Retro Vibes.\" The album art is a stylized illustration of two people in a car, possibly embracing, with a city skyline visible through the windshield. The artwork has a dark, moody aesthetic and includes a \"PREQUEL ADVISORY\" label. The song is 3 seconds into the 3 minute 44 second track. The post has 43 views and was posted on January 30, 2022.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of sahil20500. He is wearing a hoodie with some text and graphics on it.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by sahil20500. The post features a video of a young man in a teal shirt. A comment by sk.nasrina mentions \"Amy dedicated eta\" with emojis.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows sahil20500 in a selfie with another person. They are both wearing hoodies.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of sahil20500. He is wearing a patterned shirt, and there is a patterned wall behind him.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a young man wearing a blue and black patterned shirt.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Fashion/Clothing: You could ask about the brand or style of his hoodie.",
+          "2. General: Comment on the picture and ask how his day is going.",
+          "1. Music/Video creation: Since it's a video post, you could ask about what kind of content sahil20500 enjoys creating or what inspires his videos.",
+          "2. Amy: You could ask about who Amy is, based on the comment. This could be a friend, family member, or someone else entirely.",
+          "1.  The other person in the photo: \"Hey, that's a cool photo! Are you and [other person's name, if known] close friends?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The album art had a cool vibe. 🌃",
+        "profile_bio": {
+          "PERSON NAME": "Sahil (Likely, based on username sahil20500)",
+          "INTERESTS": [
+            "Music (especially slowed + reverb versions)",
+            "Fashion/Clothing (hoodies, patterned shirts)",
+            "Selfies/Photography",
+            "Video Creation (potentially short-form content)",
+            "Friends/Socializing"
+          ],
+          "LIFESTYLE": "Likely a young adult who enjoys music, fashion, and spending time with friends. Appears to be active on social media, sharing selfies and potentially creating short videos. Specific profession or activities are unknown, but the 'PREQUEL ADVISORY' on the album art suggests an interest in storytelling or creative projects.",
+          "CONVERSATION STARTERS": [
+            "I noticed you were listening to 'TU JAANE NA [Slowed+Reverb]'. What other slowed + reverb songs do you enjoy?",
+            "That hoodie looks really cool! Where did you get it?",
+            "What kind of videos do you like to create? What inspires you?",
+            "Who is Amy? The comment on your video mentioned her.",
+            "You seem to take a lot of selfies. What do you enjoy about photography?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Social (frequent selfies with others)",
+            "Creative (interest in music, video, and potentially storytelling)",
+            "Stylish (attention to clothing and aesthetics)",
+            "Introspective/Moody (potentially, based on the dark aesthetic of the album art)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Fashion/Clothing: You could ask about the brand or style of his hoodie.",
+        "2. General: Comment on the picture and ask how his day is going.",
+        "1. Music/Video creation: Since it's a video post, you could ask about what kind of content sahil20500 enjoys creating or what inspires his videos.",
+        "2. Amy: You could ask about who Amy is, based on the comment. This could be a friend, family member, or someone else entirely.",
+        "1.  The other person in the photo: \"Hey, that's a cool photo! Are you and [other person's name, if known] close friends?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

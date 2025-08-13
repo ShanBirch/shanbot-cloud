@@ -1,0 +1,108 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T09:09:18.866187",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 4,
+        "timestamp": "2025-04-15T09:09:05.362844",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a man, presumably mirko_wolff, in a bright orange and black soccer goalkeeper uniform, diving to his right to catch a soccer ball. He's on a grassy field with a soccer goal behind him. In the background, there are other people and trees. The post is captioned \"Play me anywhere coach\" and includes hashtags #5aside #Otavi #keeperofthetournament.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a selfie of a man and a woman, possibly a couple, lying down. The man is wearing a t-shirt with text and a logo that is partially visible.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person's legs and feet with soccer cleats on, resting on a soccer ball on a grassy field. In the background, there are mountains and a blue sky. The location is tagged as Stellenbosch, Western Cape.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a bathroom mirror selfie featuring mirko_wolff and another person. The photo was posted on December 28, 2015.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **The t-shirt:** Inquire about the t-shirt, its design, and the meaning of the text/logo.",
+          "2.  **Travel:** The caption \"#beefwärebesser\" might suggest a travel experience. You could ask about the context of the caption and if it relates to a specific trip or location.",
+          "1. Soccer: \"Do you play soccer often? What position do you play?\"",
+          "2. Travel/Location: \"That looks like a beautiful place to play soccer. How is Stellenbosch?\"",
+          "1.  **Friendship/Travel:** Since the photo includes a friend, you could ask about their friendship or if they have any travel plans together."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You looked like you were having a blast playing soccer! ⚽️",
+        "profile_bio": {
+          "PERSON NAME": "Mirko Wolff",
+          "INTERESTS": [
+            "Soccer (Goalkeeping)",
+            "Travel (Especially Stellenbosch, Western Cape)",
+            "Fitness/Active Lifestyle",
+            "Friendship/Relationships"
+          ],
+          "LIFESTYLE": "Appears to be an active individual who enjoys playing soccer, particularly as a goalkeeper. He seems to enjoy traveling and spending time with friends. The bathroom selfie from 2015 suggests he's been using Instagram for a while, indicating a consistent online presence.",
+          "CONVERSATION STARTERS": [
+            "I saw you tagged Stellenbosch in one of your posts. How is it there?",
+            "You seem like a great goalkeeper! How often do you play soccer?",
+            "I noticed you were 'Keeper of the Tournament'! Congratulations! What tournament was that?",
+            "I'm curious about the t-shirt you're wearing in the selfie with your friend. What does it say/mean?",
+            "What's the story behind the '#beefwärebesser' hashtag? Was that from a specific trip?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Enthusiastic (About soccer and life in general)",
+            "Social (Enjoys spending time with friends)",
+            "Adventurous (Implied by travel and active lifestyle)",
+            "Dedicated (To soccer, as evidenced by the 'Keeper of the Tournament' hashtag and consistent posts)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **The t-shirt:** Inquire about the t-shirt, its design, and the meaning of the text/logo.",
+        "2.  **Travel:** The caption \"#beefwärebesser\" might suggest a travel experience. You could ask about the context of the caption and if it relates to a specific trip or location.",
+        "1. Soccer: \"Do you play soccer often? What position do you play?\"",
+        "2. Travel/Location: \"That looks like a beautiful place to play soccer. How is Stellenbosch?\"",
+        "1.  **Friendship/Travel:** Since the photo includes a friend, you could ask about their friendship or if they have any travel plans together."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

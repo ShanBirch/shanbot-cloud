@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T11:53:47.253269",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T11:53:28.006574",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a motivational quote against a background of a sunset over water. A silhouette of a tree is visible in the center. The text reads: \"The world will beat you to your knees. It's on you. You want to stay there?? or You will get up and fight again???\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a motivational quote superimposed on a scenic view of a coastal town with boats on the water. The quote reads: \"If you are self-motivated. One day you will get your goal. Just don't let it die.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image features a person standing on a mountain top with arms raised, overlooking a scenic mountain range. The image is overlaid with a motivational quote about perseverance and fighting until the end. The post is from an Instagram account dedicated to motivational content.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by @__motivation_for_life__. The post features a video with the caption \"Suicide is not the cure to your problems.\" The video appears to show a young man with a concerned or sad expression. The video was made with KineMaster.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image features a motivational quote superimposed on a landscape photo of a mountain range with two people standing on a peak. The quote reads: \"It doesn't matter you win or lose. Give your 100%, that matters the most.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a motivational quote overlaid on a picture of a person running along a coastal path with palm trees and the ocean in the background. The quote reads: \"Stop asking how long it will take???? Ask yourself how far you can go??\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Motivational Speakers/Authors:** The post uses many hashtags of motivational speakers and authors, such as Tony Robbins, Eric Thomas, and Robert Kiyosaki. You could ask them which speaker or author they find most inspiring and why.",
+          "2. **Goal Setting/Self-Improvement:** The quote itself is about achieving goals through self-motivation. You could ask them about a current goal they are working towards and what strategies they use to stay motivated.",
+          "1. **Hiking/Outdoors:** The image shows a person enjoying a mountain view. You could ask about their favorite hiking spots or if they enjoy spending time in nature.",
+          "2. **Motivation/Inspiration:** The account focuses on motivational content. You could ask them what inspires them or what they do to stay motivated during challenging times.",
+          "1.  **Mental Health & Motivation:** Given the account name and the post's message, discussing mental health, coping mechanisms, or motivational strategies would be relevant. You could ask about their favorite ways to stay positive or what they find most helpful when feeling down."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The sunset in the background looked so peaceful. 🌅",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Motivation and Self-Improvement",
+            "Goal Setting and Achievement",
+            "Hiking and Outdoors",
+            "Mental Wellness",
+            "Motivational Speakers/Authors"
+          ],
+          "LIFESTYLE": "Likely someone who is actively pursuing personal growth and enjoys outdoor activities. They are likely interested in self-help and motivational content and may be facing or have faced personal challenges that they are working to overcome. They may be a student or young professional striving for success.",
+          "CONVERSATION STARTERS": [
+            "Which motivational speaker or author do you find most inspiring and why?",
+            "What is a current goal you are working towards, and what strategies do you use to stay motivated?",
+            "Do you have any favorite hiking spots or places you enjoy spending time in nature?",
+            "What inspires you, or what do you do to stay motivated during challenging times?",
+            "What are some of your favorite ways to stay positive or what do you find most helpful when feeling down?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven",
+            "Resilient",
+            "Inspirational",
+            "Empathetic"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Motivational Speakers/Authors:** The post uses many hashtags of motivational speakers and authors, such as Tony Robbins, Eric Thomas, and Robert Kiyosaki. You could ask them which speaker or author they find most inspiring and why.",
+        "2. **Goal Setting/Self-Improvement:** The quote itself is about achieving goals through self-motivation. You could ask them about a current goal they are working towards and what strategies they use to stay motivated.",
+        "1. **Hiking/Outdoors:** The image shows a person enjoying a mountain view. You could ask about their favorite hiking spots or if they enjoy spending time in nature.",
+        "2. **Motivation/Inspiration:** The account focuses on motivational content. You could ask them what inspires them or what they do to stay motivated during challenging times.",
+        "1.  **Mental Health & Motivation:** Given the account name and the post's message, discussing mental health, coping mechanisms, or motivational strategies would be relevant. You could ask about their favorite ways to stay positive or what they find most helpful when feeling down."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

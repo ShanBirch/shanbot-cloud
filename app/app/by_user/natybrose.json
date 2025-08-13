@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T13:44:15.549562",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T13:43:55.545325",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a photo taken at the Estereo Picnic music festival in Bogota, Colombia. The stage is massive, with complex scaffolding, lighting rigs, and screens. The words \"ESTEREO PICNIC\" are visible at the top. A large screen displays the name \"Shawn\" in bright yellow. Silhouettes of people in the audience can be seen in the foreground.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two women hugging in what appears to be a European city square (likely in Belgium based on the caption). There are several people in the background and ornate buildings.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman standing in Paris, France, near the Notre Dame Cathedral. She is posing next to a street sign.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of people dressed in formal attire, likely celebrating a special occasion outdoors. They are posing and appear to be in high spirits. The backdrop features a scenic landscape with trees and hills.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (presumably natybrose) standing on a balcony with an ornate stone railing, overlooking a body of water with a historical building in the distance. The caption indicates the location is Torre de Belem in Lisbon, Portugal.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows natybrose with a group of friends at what appears to be a bar or club. There's a neon sign in the background that says \"Cuéntala\". The caption is in Spanish and expresses gratitude for the people in her life.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Travel: \"I saw your post from Belgium! What was your favorite part of the trip?\"",
+          "2. Family: \"It looks like you had a great time visiting your sister. What do you admire most about her?\"",
+          "1. Travel: \"I saw your post from Paris! What was the most surprising or memorable part of your trip?\"",
+          "2. Architecture/History: \"That's a great picture near Notre Dame. Did you get a chance to visit the Crypte Archéologique du Parvis Notre Dame?\"",
+          "1. **The event they were celebrating:** You could ask about the occasion they were celebrating in the photo, as it seems like a significant event."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Naty Brose (likely Natalia Brose)",
+          "INTERESTS": [
+            "Travel (especially Europe and South America)",
+            "Music Festivals (Estereo Picnic)",
+            "Architecture and History",
+            "Friendships and Social Gatherings",
+            "Celebrations and Special Occasions"
+          ],
+          "LIFESTYLE": "Appears to enjoy traveling internationally, attending music festivals, and spending time with friends and family. Likely has a social life that involves going out to bars/clubs. The formal attire photo suggests she attends or participates in significant events. Profession is unknown, but she has the means to travel.",
+          "CONVERSATION STARTERS": [
+            "I saw your post from Estereo Picnic! What was your favorite performance?",
+            "Your picture in Lisbon at Torre de Belem was beautiful! What other historical sites did you visit in Portugal?",
+            "The photo with your friends at 'Cuéntala' looked like a lot of fun! What kind of music do you enjoy listening to?",
+            "What was the occasion you were celebrating in the photo with everyone dressed up?",
+            "You've traveled to some amazing places! What's next on your travel bucket list?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous (willing to travel and explore new places)",
+            "Social (enjoys spending time with friends and family)",
+            "Appreciative (expresses gratitude for the people in her life)",
+            "Celebratory (enjoys special occasions and events)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Travel: \"I saw your post from Belgium! What was your favorite part of the trip?\"",
+        "2. Family: \"It looks like you had a great time visiting your sister. What do you admire most about her?\"",
+        "1. Travel: \"I saw your post from Paris! What was the most surprising or memorable part of your trip?\"",
+        "2. Architecture/History: \"That's a great picture near Notre Dame. Did you get a chance to visit the Crypte Archéologique du Parvis Notre Dame?\"",
+        "1. **The event they were celebrating:** You could ask about the occasion they were celebrating in the photo, as it seems like a significant event."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T17:30:43.215148",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T17:30:27.620074",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a grey and coral colored Adidas running shoe. The focus is on the laces and the side of the shoe, showcasing the design and texture. The background is slightly blurred.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person wearing black AAPE (A Bathing Ape) sweatpants and black sneakers. The focus is on the clothing item being advertised.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a pair of burgundy New Balance 574 sneakers.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a pair of black Adidas Terrex Swift R2 GTX hiking shoes.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a backpack with a design featuring the Jordan logo, the number 23, and the word \"Flight.\" The backpack has a red, white, and grey color scheme.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a promotional shot of a pair of Air Jordan 1 Dior sneakers.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Streetwear fashion: Inquire about their favorite streetwear brands or recent purchases.",
+          "2. Sneaker culture: Ask about their favorite sneaker models or recent sneaker releases they are interested in.",
+          "1. New Balance sneakers: You could ask about their favorite New Balance models or their opinion on the 574 series.",
+          "2. Sneaker fashion: You could ask about their general interest in sneakers, their favorite brands, or their style preferences.",
+          "1. Hiking and outdoor activities: \"Do you enjoy hiking or other outdoor activities? These shoes look like they'd be great for that.\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! The latest post with the shoe looked really sharp, I liked the color combo. 👍",
+        "profile_bio": {
+          "PERSON_NAME": "Unknown",
+          "INTERESTS": [
+            "Sneakers (especially Adidas, New Balance, and Air Jordan)",
+            "Streetwear Fashion (AAPE)",
+            "Hiking/Outdoor Activities",
+            "Backpacks/Accessories",
+            "High-End Fashion (Dior x Air Jordan)"
+          ],
+          "LIFESTYLE": "Likely someone interested in fashion, particularly streetwear and sneakers. They may enjoy outdoor activities like hiking. They appreciate both athletic and high-end brands. Could be a student, young professional, or someone who works in a creative field.",
+          "CONVERSATION_STARTERS": [
+            "What are your favorite streetwear brands?",
+            "What are your thoughts on the latest Air Jordan releases?",
+            "Do you have a favorite New Balance model, and what do you think of the 574 series?",
+            "Do you enjoy hiking or other outdoor activities? What are your favorite trails?",
+            "What's your go-to backpack for everyday use or travel?"
+          ],
+          "PERSONALITY_TRAITS": [
+            "Fashion-conscious",
+            "Active",
+            "Appreciative of quality and design",
+            "Trend-aware"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Streetwear fashion: Inquire about their favorite streetwear brands or recent purchases.",
+        "2. Sneaker culture: Ask about their favorite sneaker models or recent sneaker releases they are interested in.",
+        "1. New Balance sneakers: You could ask about their favorite New Balance models or their opinion on the 574 series.",
+        "2. Sneaker fashion: You could ask about their general interest in sneakers, their favorite brands, or their style preferences.",
+        "1. Hiking and outdoor activities: \"Do you enjoy hiking or other outdoor activities? These shoes look like they'd be great for that.\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

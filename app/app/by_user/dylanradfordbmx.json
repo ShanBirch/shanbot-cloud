@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T08:32:16.959789",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T08:31:56.623527",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a woman holding a baby in front of a backdrop that says \"My First Rodeo.\" The woman is wearing a beige off-the-shoulder top, a black denim skirt, and brown cowboy boots. The baby is wearing a beige outfit and small brown cowboy boots. The backdrop is decorated with cowboy-themed images like hats, cacti, and lassos.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a baby celebrating their first birthday. There's a cake, balloons, and decorations. The baby is reaching for the cake. The post is captioned \"Happiest first birthday baby.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman holding a toddler, with a slightly older boy standing next to them. They appear to be dressed for school or daycare. The caption mentions \"First day,\" \"Daycare,\" \"Year 5,\" and \"Year 8,\" suggesting the children are starting or returning to school.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of people, including a child, standing on a wooden deck overlooking a beautiful beach and ocean view. The location is identified as Noosa, Queensland. The caption mentions \"Twenty Five\" with a palm tree and champagne glass emoji, likely referring to a 25th birthday or anniversary.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a baby wearing a white onesie with brown palm trees on it. The baby is lying on a white surface and smiling.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a BMX rider, Dylan Radford, at a skatepark, specifically rolling down a ramp. The caption mentions riding at \"AC\" with friends and tags two other users.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Parenting/Children:** As a new parent, they might be open to discussing the joys and challenges of raising a child. You could ask about their experiences with milestones, routines, or favorite baby products.",
+          "2.  **Birthday Celebrations:** You could ask about the planning process for the party, or if they have any fun traditions for birthdays.",
+          "1.  School/Education: Ask about the children's experiences at school or daycare, such as their favorite subjects, activities, or friends.",
+          "2.  Family/Children: Comment on how quickly children grow up or ask about the challenges and joys of raising kids.",
+          "1. **Noosa, Queensland:** \"That view of Noosa looks incredible! Have you been there before, or was this your first time visiting?\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Dylan Radford (likely a parent, possibly the mother, based on the images)",
+          "INTERESTS": [
+            "BMX Riding",
+            "Family & Children",
+            "Travel (specifically Noosa, Queensland)",
+            "Celebrating Milestones (birthdays, first days of school)",
+            "Fashion (evident from clothing choices in photos)"
+          ],
+          "LIFESTYLE": "Appears to be a parent (likely mother) balancing family life with personal interests like BMX riding. Enjoys celebrating family milestones and traveling to scenic locations. Possibly works or is a stay-at-home parent.",
+          "CONVERSATION STARTERS": [
+            "How was the 'My First Rodeo' party? Any fun stories from that day?",
+            "Your kids are growing up so fast! What are their favorite activities at school/daycare?",
+            "That view of Noosa looks incredible! Have you been there before, or was this your first time visiting?",
+            "I saw you're into BMX. What's your favorite trick to land at AC skatepark?",
+            "Any tips for planning a memorable first birthday party?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Family-oriented",
+            "Active/Adventurous (BMX and travel)",
+            "Celebratory/Enthusiastic (milestones and birthdays)",
+            "Stylish (attention to clothing and aesthetics)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Parenting/Children:** As a new parent, they might be open to discussing the joys and challenges of raising a child. You could ask about their experiences with milestones, routines, or favorite baby products.",
+        "2.  **Birthday Celebrations:** You could ask about the planning process for the party, or if they have any fun traditions for birthdays.",
+        "1.  School/Education: Ask about the children's experiences at school or daycare, such as their favorite subjects, activities, or friends.",
+        "2.  Family/Children: Comment on how quickly children grow up or ask about the challenges and joys of raising kids.",
+        "1. **Noosa, Queensland:** \"That view of Noosa looks incredible! Have you been there before, or was this your first time visiting?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

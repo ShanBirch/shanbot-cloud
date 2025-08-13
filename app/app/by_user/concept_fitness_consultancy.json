@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T16:49:08.856621",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T16:48:51.204669",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by concept_fitness_consultancy features a graphic with the text \"WHERE DO YOU START?\" in bold red and yellow letters against a black background. To the right of the text is an image of a monkey with a thoughtful expression, its hand near its mouth as if pondering. The background behind the monkey is bright yellow. The post's caption discusses using an annual marketing plan as a guide and dedicating time to outbound marketing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an advertisement for Concept Fitness Consultancy, focusing on how trainers and coaches can boost their client base and sales. It features the text \"MAKE MORE SALES\" prominently, along with percentage symbols and a shopping cart. The post lists key takeaways, including consistency, multi-channel marketing, building relationships, and educating & inspiring.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from concept_fitness_consultancy. It features a graphic with the text \"DON'T FORGET YOUR CURRENT CLIENTS\" and an image of a finger with a string tied around it as a reminder. The post provides five tips for creating a community that keeps the business moving in the right direction.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post advertising a personal trainer qualification program. It features a woman in workout attire holding a clipboard, with the text \"LOOKING TO GET QUALIFIED?\" prominently displayed. The post details a partnership between CONCEPT Coaching and PT Skills to offer a comprehensive training program for personal trainers.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from concept_fitness_consultancy. It features a muscular man in fitness attire looking upwards, next to text that reads \"DO YOU HAVE A MARKETING STRATEGY.\" The post discusses the importance of a marketing strategy for fitness trainers.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from concept_fitness_consultancy. The post is about helping personal trainers get organized, specifically focusing on booking systems and time management. The graphic says \"HS4PT Helpful Shit 4 Personal Trainers GET F***ING ORGANIZED STEP 1\".",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Marketing Strategies for Fitness Professionals:** The post highlights multi-channel marketing. A conversation could revolve around discussing effective marketing strategies specifically for fitness professionals, such as social media engagement, email campaigns, or local events.",
+          "2. **Client Relationship Building:** The post emphasizes building relationships with clients. A potential topic could be discussing strategies for fostering meaningful connections with clients beyond just workouts, and how this can lead to increased client loyalty and referrals.",
+          "1. **Social Media Challenges:** The post mentions organizing fitness challenges on social media. A conversation could be started by asking about successful challenges they've run, or sharing ideas for new and engaging challenges.",
+          "2. **Client Spotlights:** The post suggests featuring client success stories. You could ask about the process of gathering client testimonials and how they are used to attract new clients.",
+          "1. **The Active IQ Level 2 Fitness Instruction and Active IQ Level 3 Personal Trainer certifications:** You could ask about the specifics of these certifications, their relevance in the industry, or how they compare to other certifications."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Concept Fitness Consultancy)",
+          "INTERESTS": [
+            "Fitness Professional Development",
+            "Marketing for Fitness Businesses",
+            "Client Retention Strategies",
+            "Personal Trainer Education & Qualification",
+            "Time Management & Organization for Fitness Professionals"
+          ],
+          "LIFESTYLE": "Professional consultancy focused on supporting fitness trainers and coaches in building successful businesses. Likely involves creating marketing strategies, providing business advice, and offering educational resources.",
+          "CONVERSATION STARTERS": [
+            "What are some of the most effective multi-channel marketing strategies you've seen work for fitness professionals recently?",
+            "How do you advise fitness trainers to build meaningful relationships with their clients beyond just the workout sessions?",
+            "Can you share some examples of successful social media fitness challenges you've helped clients run?",
+            "What's your process for gathering client testimonials and how do you recommend using them to attract new clients?",
+            "Could you tell me more about the Active IQ Level 2 Fitness Instruction and Active IQ Level 3 Personal Trainer certifications offered through your partnership with PT Skills?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Helpful",
+            "Strategic",
+            "Organized",
+            "Results-Oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Marketing Strategies for Fitness Professionals:** The post highlights multi-channel marketing. A conversation could revolve around discussing effective marketing strategies specifically for fitness professionals, such as social media engagement, email campaigns, or local events.",
+        "2. **Client Relationship Building:** The post emphasizes building relationships with clients. A potential topic could be discussing strategies for fostering meaningful connections with clients beyond just workouts, and how this can lead to increased client loyalty and referrals.",
+        "1. **Social Media Challenges:** The post mentions organizing fitness challenges on social media. A conversation could be started by asking about successful challenges they've run, or sharing ideas for new and engaging challenges.",
+        "2. **Client Spotlights:** The post suggests featuring client success stories. You could ask about the process of gathering client testimonials and how they are used to attract new clients.",
+        "1. **The Active IQ Level 2 Fitness Instruction and Active IQ Level 3 Personal Trainer certifications:** You could ask about the specifics of these certifications, their relevance in the industry, or how they compare to other certifications."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

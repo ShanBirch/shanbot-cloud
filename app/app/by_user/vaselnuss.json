@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T20:44:03.007437",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T20:43:39.466624",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a plate of vegan coffee Tibetan power balls, arranged in front of a collection of miniature chicken and rooster figurines. The plate has a decorative gold leaf pattern. In the background, a wooden sign with the word \"LOVE\" painted on it is visible, adding a rustic touch to the scene.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of food featuring white asparagus, edamame, carrot hearts, and tempeh hearts. The dish is arranged in a decorative, flower-like pattern. The post includes hashtags related to vegan food, raw food, and asparagus.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a creative raw vegan dish featuring green asparagus, parsley roots, red paprika, and carrots arranged to resemble two chickens.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan strawberry tart with whipped cream on a decorative plate. There's also a yellow chick illustration in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a protest sign against the dairy industry, specifically Swissmilk. The sign contains images and text highlighting concerns about animal welfare, including separation of mothers and calves, artificial insemination, udder inflammation, and slaughtering cows at a young age. The post includes hashtags related to veganism and animal rights.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan food, including oven fries, crispy vegan chicken strips (from @eatplanted), and broccoli cooked in miso water. The post is tagged with various vegan-related hashtags.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Vegan/Raw Food:** Given the hashtags and the nature of the dish, discussing vegan or raw food recipes, favorite ingredients, or experiences with vegan/raw diets could be a good conversation starter.",
+          "2.  **Asparagus:** Asking about different ways to prepare asparagus, or sharing personal preferences for green vs. white asparagus, could be a relevant topic.",
+          "1.  **Raw Vegan Recipes/Diet:** Given the hashtags and description, asking about their favorite raw vegan recipes or tips for maintaining a raw vegan diet could be a good conversation starter.",
+          "2.  **Food Art/Creative Food Presentation:** Complimenting the artistic presentation of the dish and asking about other creative food art they've made or seen could be an engaging topic.",
+          "1. Vegan baking/desserts: Since the post is about a vegan dessert, you could ask about their favorite vegan recipes or baking tips."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post looked so cute, especially with the little chickens! 🐔",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism",
+            "Raw Vegan Food",
+            "Animal Rights/Welfare",
+            "Creative Food Presentation/Food Art",
+            "Vegan Baking"
+          ],
+          "LIFESTYLE": "Likely a vegan activist and food artist who enjoys creating visually appealing and ethically conscious meals. Possibly involved in animal rights advocacy.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite raw vegan recipes, and do you have any tips for maintaining a raw vegan diet?",
+            "Your food presentation is incredible! What inspires your food art, and have you seen any other creative food presentations that you particularly enjoyed?",
+            "I noticed your post about Swissmilk. What are some of the most effective ways you've found to advocate for animal rights?",
+            "I'm always looking for new ways to prepare asparagus. Do you have a preference for green or white asparagus, and what are some of your favorite recipes?",
+            "That vegan strawberry tart looked delicious! Do you have any go-to vegan baking tips or favorite vegan dessert recipes you'd be willing to share?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Compassionate",
+            "Artistic",
+            "Passionate"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Vegan/Raw Food:** Given the hashtags and the nature of the dish, discussing vegan or raw food recipes, favorite ingredients, or experiences with vegan/raw diets could be a good conversation starter.",
+        "2.  **Asparagus:** Asking about different ways to prepare asparagus, or sharing personal preferences for green vs. white asparagus, could be a relevant topic.",
+        "1.  **Raw Vegan Recipes/Diet:** Given the hashtags and description, asking about their favorite raw vegan recipes or tips for maintaining a raw vegan diet could be a good conversation starter.",
+        "2.  **Food Art/Creative Food Presentation:** Complimenting the artistic presentation of the dish and asking about other creative food art they've made or seen could be an engaging topic.",
+        "1. Vegan baking/desserts: Since the post is about a vegan dessert, you could ask about their favorite vegan recipes or baking tips."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

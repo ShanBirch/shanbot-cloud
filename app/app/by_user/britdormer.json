@@ -1,0 +1,77 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 6,
+      "user_messages": 3,
+      "ai_messages": 3,
+      "ai_questions": 2,
+      "ai_statements": 1,
+      "user_responses_to_ai_question": 2,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.5,
+      "conversation_start_time": "2025-04-11T21:48:55.382392",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 2811.335108,
+      "achieved_message_milestones": [
+        5
+      ],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-11T11:48:55.382392+00:00",
+          "type": "user",
+          "text": "Sorry for the late reply! \nWork and more work :)"
+        },
+        {
+          "timestamp": "2025-04-11T11:48:55.434930+00:00",
+          "type": "ai",
+          "text": "Ah the classic work grind hey! Hopefully you get to relax a bit this weekend?"
+        },
+        {
+          "timestamp": "2025-04-11T12:23:21.567058+00:00",
+          "type": "user",
+          "text": "Sorry for the late reply! \nWork and more work :) + Shannon: Ah the classic work grind hey! Hopefully you get to relax a bit this weekend? {{cuf_11967919}}  {{cuf_11967920}} Lead : A little! Couple of hours tomorrow and then done for the week. How about you?"
+        },
+        {
+          "timestamp": "2025-04-11T12:23:21.613191+00:00",
+          "type": "ai",
+          "text": "Yeah same for me really, got the Saturday morning class then hopefully some downtime. Any fun plans once you knock off work tomorrow?"
+        },
+        {
+          "timestamp": "2025-04-11T12:36:00.687927+00:00",
+          "type": "user",
+          "text": "Sorry for the late reply! \nWork and more work :) + Shannon: Ah the classic work grind hey! Hopefully you get to relax a bit this weekend? {{cuf_11967919}}  {{cuf_11967920}} Lead : A little! Couple of hours tomorrow and then done for the week. How about you? + Shannon: Yeah same for me really, got the Saturday morning class then hopefully some downtime. Any fun plans once you knock off work tomorrow? {{cuf_11967919}}  {{cuf_11967920}} Lead : It’s not so bad Saturdays I actually find everyone’s in a good mood haha. \nYes! Catching up with a few friends later on tomorrow night. You?"
+        },
+        {
+          "timestamp": "2025-04-11T12:36:00.732717+00:00",
+          "type": "ai",
+          "text": "Nice, catching up with friends sounds like a good plan! I'll probably play squash after class or just chill out."
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "britdormer",
+      "first_message_timestamp": "2025-04-11T11:48:55.382392+00:00",
+      "last_message_timestamp": "2025-04-11T12:36:00.732717+00:00",
+      "conversation_duration_str": "47m",
+      "conversation_count": 1,
+      "last_seen_timestamp": "2025-04-11T12:36:00.732717+00:00"
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

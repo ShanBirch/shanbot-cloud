@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T08:42:46.634291",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T08:42:24.554582",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a patch of yellow paint on a concrete surface, with a small stick placed upright in the center. The paint appears to be a circle, and the stick is thin and brown. Adjacent to the concrete is a patch of dry, brown grass. The photo is taken from a slightly high angle, showing the contrast between the man-made concrete and the natural elements.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person holding a cat. The cat appears to be comfortable and relaxed in the person's arms. The caption mentions that the cat quickly warmed up to this person, which is unusual.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a box for a Dash Express Dog Treat Maker. The poster, misscinnamont, mentions initially mistaking it for a waffle maker.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a selfie of misscinnamont with a black cat named Bundy. The caption indicates it's Bundy's 15th birthday and they are celebrating all month.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a sunset over the Missouri River with the Omaha skyline in the background, taken from the Iowa side on a pedestrian bridge. The caption mentions a potential calendar featuring cats and nature.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a Casey's coffee cup, two bags of Cinnamon Toast Crunch popcorn, a Silk Oat creamer, and a receipt from Casey's. The post celebrates National Coffee Day and promotes the Casey's app for free coffee and BOGO snacks.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Cat breeds/care:** Ask about the cat's breed or if they have any tips for getting a cat to warm up to someone quickly.",
+          "2.  **Animal rescue/adoption:** Inquire if the cat is a rescue and share experiences about rescuing or adopting animals.",
+          "1.  **Dogs/Pets:** Since the post is about a dog treat maker, a conversation could be started about their dog(s), experiences with making homemade dog treats, or general pet ownership stories.",
+          "2.  **Cooking/Baking:** The initial confusion with a waffle maker provides an opening to discuss cooking or baking interests, favorite recipes, or experiences with kitchen gadgets.",
+          "1.  **Cats:** Ask about Bundy's personality, favorite activities, or share a story about your own pet (if applicable)."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post with the yellow paint and stick was so creative! 🌻",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: misscinnamont)",
+          "INTERESTS": [
+            "Cats (especially black cats)",
+            "Nature (sunsets, Missouri River, Iowa/Omaha area)",
+            "Coffee and Snacks (Casey's, Cinnamon Toast Crunch popcorn)",
+            "Pet Care (potentially dogs and homemade treats)",
+            "Photography (capturing sunsets and everyday moments)"
+          ],
+          "LIFESTYLE": "Likely lives in or near Omaha, Nebraska/Iowa border. Appears to enjoy simple pleasures like coffee, snacks, and spending time with her cat. Potentially interested in photography and creating a cat/nature calendar. May be a pet owner who is interested in making homemade treats.",
+          "CONVERSATION STARTERS": [
+            "What's Bundy's favorite thing to do?",
+            "That sunset photo over the Missouri River is beautiful! Do you have a favorite spot to watch the sunset?",
+            "I saw you got the Dash Express Dog Treat Maker. Have you tried making any treats yet? Any recommendations?",
+            "Your cat seems to warm up to people quickly! Do you have any tips for getting cats to trust new people?",
+            "I love Casey's coffee! What's your go-to order?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Animal Lover (especially cats)",
+            "Appreciative of simple pleasures",
+            "Creative (potential calendar project, photography)",
+            "Friendly and Approachable (willing to share everyday moments)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Cat breeds/care:** Ask about the cat's breed or if they have any tips for getting a cat to warm up to someone quickly.",
+        "2.  **Animal rescue/adoption:** Inquire if the cat is a rescue and share experiences about rescuing or adopting animals.",
+        "1.  **Dogs/Pets:** Since the post is about a dog treat maker, a conversation could be started about their dog(s), experiences with making homemade dog treats, or general pet ownership stories.",
+        "2.  **Cooking/Baking:** The initial confusion with a waffle maker provides an opening to discuss cooking or baking interests, favorite recipes, or experiences with kitchen gadgets.",
+        "1.  **Cats:** Ask about Bundy's personality, favorite activities, or share a story about your own pet (if applicable)."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

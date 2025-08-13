@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T07:46:32.143764",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T07:46:09.492470",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of an American Bully XL puppy with a light brown coat and bright blue eyes. The puppy is lying down on a white surface, looking directly at the camera. The background is plain white, emphasizing the puppy.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a litter of American Bully puppies nursing from their mother. The puppies are various shades of brown and grey.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a very young American Bully XL puppy lying on a white fluffy surface. There are also two red Christmas ornaments in the frame. The text in the post is in German and discusses the quality and lineage of the puppies.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a box full of American Bully XL puppies. The puppies are various colors, including blue, lilac, and fawn. The text in the post mentions the puppies' lineage, ABKC papers, health evaluations, and \"thick bones.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a large, muscular American Bully dog sitting on a dirt path. There's another dog in the background, further down the path. The post is captioned in German, mentioning the dog's age and weight, and includes hashtags related to the breed and locations in Switzerland.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an advertisement for American Bully XL puppies. It features two dogs, Ciroc and Nala, who are the parents of the expected litter. The text highlights the dogs' qualities, pedigree, and health certifications. It also mentions that the puppies will be well-socialized and come with a pedigree and starter pack.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Puppy Care: Ask about the specific breed, their care routine, or any challenges they're facing raising the puppies.",
+          "2.  Location: The post mentions Germany and Switzerland, so you could ask about their experience raising dogs in that region.",
+          "1.  **American Bully XL Breed:** Inquire about their experience with the American Bully XL breed, or ask about the specific traits they look for when breeding.",
+          "2.  **Dog Breeding:** Ask about the breeding process, the care of the puppies, or the lineage of the dogs.",
+          "1.  **The specific bloodlines mentioned (NALA x CIROC):** Asking about the parents of the puppies, specifically NALA and CIROC, and their traits. This shows interest in the breeding and quality of the dogs."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "American Bully XL Breed",
+            "Dog Breeding (specifically American Bully XL)",
+            "Dog Lineage and Pedigree",
+            "Puppy Care and Socialization",
+            "Dog Health and Well-being"
+          ],
+          "LIFESTYLE": "Likely a dog breeder specializing in American Bully XLs. Appears to be based in or frequently travels to Germany and/or Switzerland. Their lifestyle likely revolves around caring for and raising puppies, managing breeding pairs, and potentially participating in dog shows or related events. They seem to prioritize the quality and lineage of their dogs.",
+          "CONVERSATION STARTERS": [
+            "What are some of the unique challenges of raising American Bully XL puppies in Germany/Switzerland?",
+            "Can you tell me more about the lineage of Nala and Ciroc and what traits they pass on to their puppies?",
+            "What health certifications do you prioritize when breeding American Bully XLs?",
+            "What steps do you take to ensure your puppies are well-socialized before they go to their new homes?",
+            "What are your thoughts on the current standards and trends in the American Bully XL breed?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate: Demonstrates a clear passion for the American Bully XL breed.",
+            "Detail-Oriented: Focuses on lineage, health certifications, and quality breeding practices.",
+            "Responsible: Emphasizes puppy socialization and providing a starter pack for new owners.",
+            "Proud: Showcases their dogs and puppies with high-quality photos and descriptions."
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Puppy Care: Ask about the specific breed, their care routine, or any challenges they're facing raising the puppies.",
+        "2.  Location: The post mentions Germany and Switzerland, so you could ask about their experience raising dogs in that region.",
+        "1.  **American Bully XL Breed:** Inquire about their experience with the American Bully XL breed, or ask about the specific traits they look for when breeding.",
+        "2.  **Dog Breeding:** Ask about the breeding process, the care of the puppies, or the lineage of the dogs.",
+        "1.  **The specific bloodlines mentioned (NALA x CIROC):** Asking about the parents of the puppies, specifically NALA and CIROC, and their traits. This shows interest in the breeding and quality of the dogs."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

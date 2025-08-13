@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T21:19:33.771708",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T21:19:13.401364",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by gabrielitalamexicanita features a wide, scenic shot of the Hoover Dam. The dam is the central focus, with its curved face prominently displayed. Behind the dam is a reservoir of water, and in the background, there are layers of mountains under a blue sky with scattered clouds. A road winds alongside the dam, with cars visible on it. The overall impression is one of scale and engineering marvel.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a desert landscape with large, layered red and tan mountains in the background under a clear blue sky. The foreground is a dry, rocky terrain with sparse vegetation.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a blue bird perched on a yucca plant in a desert landscape.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a long, paved path lined with trees in a park-like setting. There's a person walking in the distance.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a rustic garden scene with a wooden walkway, a small pond, and various plants. There's a wooden structure with a water feature in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a rustic, old-fashioned building with the word \"PORKY'S\" painted on it. There's also a water tower in the background labeled \"LUMLEY 1889\". The overall scene has a Wild West or historical theme.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Hiking/Outdoor Activities: The image suggests an interest in outdoor activities like hiking or exploring natural landscapes. You could ask about their favorite hiking spots or if they have any upcoming outdoor adventures planned.",
+          "2. Travel/Photography: The photo indicates a possible interest in travel and photography. You could inquire about the location of the photo or ask about other places they've enjoyed visiting and photographing.",
+          "1.  Birdwatching/Wildlife Photography: You could ask if she enjoys birdwatching or wildlife photography as a hobby, or if she knows what kind of bird it is.",
+          "2.  Nature/Hiking: You could ask if she enjoys spending time in nature, hiking, or exploring desert landscapes.",
+          "*   **Local Parks/Nature:** \"That looks like a great place for a walk! Do you go there often?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The Hoover Dam is so impressive in that shot! 😮",
+        "profile_bio": {
+          "PERSON NAME": "Gabriela (gabrielitalamexicanita)",
+          "INTERESTS": [
+            "Travel",
+            "Photography (especially landscapes and wildlife)",
+            "Hiking/Outdoor Activities",
+            "Nature (deserts, parks, gardens)",
+            "History/Historical Sites (Wild West themes)"
+          ],
+          "LIFESTYLE": "Likely enjoys exploring natural landscapes, traveling to different locations (potentially in the American Southwest), and documenting her experiences through photography. May be interested in local history and preservation.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite hiking spot in the Southwest?",
+            "That Hoover Dam photo is amazing! What other places have you enjoyed photographing?",
+            "Do you know what kind of bird that is in the yucca plant photo?",
+            "Have you been to Lumley before? What's the history behind Porky's?",
+            "That park path looks so peaceful. Do you go there often?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Appreciative of nature",
+            "Observant (pays attention to details in her surroundings)",
+            "Curious (interested in exploring new places and learning about history)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Hiking/Outdoor Activities: The image suggests an interest in outdoor activities like hiking or exploring natural landscapes. You could ask about their favorite hiking spots or if they have any upcoming outdoor adventures planned.",
+        "2. Travel/Photography: The photo indicates a possible interest in travel and photography. You could inquire about the location of the photo or ask about other places they've enjoyed visiting and photographing.",
+        "1.  Birdwatching/Wildlife Photography: You could ask if she enjoys birdwatching or wildlife photography as a hobby, or if she knows what kind of bird it is.",
+        "2.  Nature/Hiking: You could ask if she enjoys spending time in nature, hiking, or exploring desert landscapes.",
+        "*   **Local Parks/Nature:** \"That looks like a great place for a walk! Do you go there often?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

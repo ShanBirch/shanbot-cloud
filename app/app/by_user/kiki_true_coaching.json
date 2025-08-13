@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T12:19:22.385891",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T12:18:59.957285",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a full shot of a woman, presumably Kiki, standing outdoors with her arms raised in a celebratory pose. She is wearing athletic attire, including a race bib with the number 271, and a medal around her neck, suggesting she has just completed a race. There is a banner for the \"Lost Dutchman Marathon\" in the background. The sky is clear and blue. The post's caption discusses the meaning behind \"Kiki True\" and her commitment to authentic living.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post promoting a new website and free masterclass by kiki_true_coaching. The post features a logo with a person in a meditative pose and mentions topics related to Multiple Sclerosis (MS), healing, and empowerment.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (presumably kiki_true_coaching) standing on a bridge with a series of red heart-shaped structures overhead. The caption mentions life changes, soul searching, and healing, and includes hashtags related to overcoming multiple sclerosis, healthy lifestyle, and self-improvement.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a beautiful landscape with a tall, red and yellow flower in the foreground, a lush green forest, and a mountain partially covered in clouds in the background. The location is tagged as Valle del Cocora.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person relaxing in a hammock with a view of greenery and sky outside. The caption focuses on slowing down, being present, and listening to one's soul.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two people standing on a snowy, rocky terrain, possibly a mountain or glacier. The background features a dramatic landscape with ice formations and a cloudy sky. The post is captioned with reflections on the past year and intentions for the new year, including themes of healing, self-awareness, and prioritizing joy.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  The \"Mind Over MS\" program: Ask about the specific tools and techniques used in the program, particularly those related to nutrition and movement.",
+          "2.  The free masterclass: Ask about the key takeaways from the masterclass and how it helps individuals rewrite their story with MS.",
+          "1. **The location:** \"That bridge with the heart structures looks beautiful! Where is it located?\" (This is a simple, direct question that shows interest in the visual aspect of the post.)",
+          "2. **Multiple Sclerosis journey:** \"I noticed your hashtags about overcoming MS. I'd be interested to hear more about your journey and what you've learned about healing.\" (This acknowledges the personal aspect of the post and offers a chance for her to share her experiences.)",
+          "1. Travel: \"That looks like an amazing place! Have you traveled to Valle del Cocora before? What was your favorite part?\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Kiki (Last name likely True, based on username)",
+          "INTERESTS": [
+            "Multiple Sclerosis (MS) Healing & Empowerment",
+            "Authentic Living & Self-Improvement",
+            "Travel & Adventure",
+            "Mindfulness & Presence",
+            "Fitness & Wellness (Running)"
+          ],
+          "LIFESTYLE": "Kiki appears to be a life coach specializing in helping individuals with MS rewrite their stories and find healing. She promotes a holistic approach to wellness, incorporating elements of nutrition, movement, mindfulness, and self-awareness. She also seems to enjoy travel and outdoor activities.",
+          "CONVERSATION STARTERS": [
+            "I saw you completed the Lost Dutchman Marathon! What was that experience like?",
+            "Your 'Mind Over MS' program sounds fascinating. Can you tell me more about the nutritional and movement techniques you use?",
+            "I'm curious about your journey with MS. What's been the most valuable lesson you've learned about healing?",
+            "That bridge with the heart structures looks beautiful! Where is it located?",
+            "I noticed you visited Valle del Cocora. What was your favorite part of that trip?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Inspirational",
+            "Authentic",
+            "Empathetic",
+            "Adventurous"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  The \"Mind Over MS\" program: Ask about the specific tools and techniques used in the program, particularly those related to nutrition and movement.",
+        "2.  The free masterclass: Ask about the key takeaways from the masterclass and how it helps individuals rewrite their story with MS.",
+        "1. **The location:** \"That bridge with the heart structures looks beautiful! Where is it located?\" (This is a simple, direct question that shows interest in the visual aspect of the post.)",
+        "2. **Multiple Sclerosis journey:** \"I noticed your hashtags about overcoming MS. I'd be interested to hear more about your journey and what you've learned about healing.\" (This acknowledges the personal aspect of the post and offers a chance for her to share her experiences.)",
+        "1. Travel: \"That looks like an amazing place! Have you traveled to Valle del Cocora before? What was your favorite part?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

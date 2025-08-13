@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T20:34:20.959883",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T20:34:01.039134",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up, overhead shot of a bowl of spicy Tan Tan ramen. The ramen is topped with vibrant green broccolini on the left, a generous portion of chilli garlic oyster mushrooms in the center, and a scattering of fresh green onions towards the front. The noodles are visible beneath the toppings, and the bowl has a red rim. A hand holding the bowl is partially visible on the left.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a bowl of spicy vegan ramen. The ramen is topped with green onions, chili threads, and other ingredients. Side dishes are also visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a vegan pizza with toppings including red onion, vegan cheese dollops, and some kind of meat substitute. The post mentions the pizza is from Francie's Pizzeria and uses hashtags related to vegan food, pizza, and the Gold Coast/Brisbane area of Australia.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows ingredients for a recipe of Caramel Hemp Seed Pastries. There is a bag of hemp seeds, a blender with hemp seeds inside, and the recipe is described in the caption.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of stuffed capsicums (bell peppers) filled with a mixture of brown rice, quinoa, chickpeas, and other ingredients. The post mentions a vegan special challenge and the use of Yumi's Roasted Pumpkin Hommus.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a large bowl of vegan salad with grilled vegetables, including asparagus and bell peppers, and a dog (named Maple) in the background. The post is from an account called \"aplantbasedtable\" and includes hashtags related to vegan food and healthy eating.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan ramen: Ask about their favorite vegan ramen spots or recipes.",
+          "2. Brisbane vegan scene: Inquire about other vegan restaurants or events in Brisbane, since they tagged #veganbrisbane.",
+          "1. **Vegan food and recipes:** Given the account name and the focus on vegan pizza, asking about their favorite vegan recipes or vegan restaurants in the area could be a good conversation starter.",
+          "2. **Local restaurants in Gold Coast/Brisbane:** The post mentions Francie's Pizzeria and uses location-specific hashtags. Asking for other restaurant recommendations in the area, especially vegan-friendly ones, could be a good way to engage.",
+          "1. Vegan baking and recipe ideas: Ask about other favorite vegan baking recipes or tips for using hemp seeds in other dishes."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post, that ramen looked so delicious! 🍜",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan cooking and baking",
+            "Vegan cuisine (especially ramen and pizza)",
+            "Healthy eating and plant-based recipes",
+            "Exploring vegan restaurants in Brisbane/Gold Coast",
+            "Using unique ingredients like hemp seeds"
+          ],
+          "LIFESTYLE": "Likely a home cook and food enthusiast who enjoys creating and sharing vegan recipes. They seem to be based in or frequently visit the Gold Coast/Brisbane area of Australia and enjoy exploring local vegan food options. They may also be health-conscious and enjoy incorporating nutritious ingredients into their meals. They also own a dog named Maple.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite vegan ramen spots in Brisbane?",
+            "Do you have any tips for using hemp seeds in baking besides the caramel pastries?",
+            "I saw you tagged #veganbrisbane. What other vegan restaurants in Brisbane do you recommend?",
+            "That vegan pizza from Francie's Pizzeria looked amazing! What are some other must-try vegan dishes in the Gold Coast?",
+            "I'm always looking for new vegan recipes. What's your go-to recipe for a quick and healthy weeknight meal?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (with recipes and food presentation)",
+            "Passionate (about veganism and food)",
+            "Health-conscious",
+            "Local (supports local businesses and engages with the Brisbane/Gold Coast community)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan ramen: Ask about their favorite vegan ramen spots or recipes.",
+        "2. Brisbane vegan scene: Inquire about other vegan restaurants or events in Brisbane, since they tagged #veganbrisbane.",
+        "1. **Vegan food and recipes:** Given the account name and the focus on vegan pizza, asking about their favorite vegan recipes or vegan restaurants in the area could be a good conversation starter.",
+        "2. **Local restaurants in Gold Coast/Brisbane:** The post mentions Francie's Pizzeria and uses location-specific hashtags. Asking for other restaurant recommendations in the area, especially vegan-friendly ones, could be a good way to engage.",
+        "1. Vegan baking and recipe ideas: Ask about other favorite vegan baking recipes or tips for using hemp seeds in other dishes."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

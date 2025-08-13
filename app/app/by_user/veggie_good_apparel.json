@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T12:39:42.019293",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T12:39:22.277883",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a vegan quesadilla served on a black and white polka dot plate. The quesadilla is topped with diced avocado. A glass of orange juice and a bottle (likely milk or water) are visible in the background. The quesadilla appears to be filled with vegan bacon, onions, peppers, and cheese, as described in the post's caption. The overall presentation is appetizing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman lying down wearing a \"Plant Based Babe\" t-shirt and headphones. There is a \"Flash Sale\" graphic next to her.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan breakfast turnover with a glass of orange juice. The turnover is filled with vegetables.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two bowls of vegan smoothie bowls topped with strawberries, kiwi, sliced almonds, and seeds.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by veggie_good_apparel advertising a \"Buy 1 Tee Get 1 50% off\" sale. The post features a woman wearing a \"Plant Based Babe\" t-shirt and headphones.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of vegan food consisting of rice and beans, veggies, plantains, and coconut cream sauce.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Plant-based lifestyle/diet: Inquire about their favorite plant-based recipes or restaurants.",
+          "2. Music/headphones: Ask about their favorite music genres or if they have any podcast recommendations.",
+          "1. Vegan cooking/recipes: Ask about their favorite vegan recipes or ingredients to use in breakfast dishes.",
+          "2. Travel: The hashtags include #vegandisneyworld and #vegandisney, so you could ask about their experiences eating vegan at Disney or other travel destinations.",
+          "1. Vegan recipes and food: The post uses many vegan-related hashtags. You could ask about their favorite vegan recipes or ingredients."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Food & Cooking",
+            "Plant-Based Lifestyle",
+            "Music (potentially podcasts)",
+            "Vegan Fashion/Apparel",
+            "Travel (especially vegan-friendly destinations like Disney)"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys a plant-based lifestyle, including cooking vegan meals, wearing vegan-themed apparel, and potentially listening to music or podcasts. They may also be interested in travel, particularly to destinations with vegan options.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite plant-based recipes or restaurants?",
+            "I noticed you wear headphones in some of your posts. What kind of music do you enjoy, or do you have any podcast recommendations?",
+            "That vegan quesadilla looked amazing! What are some of your favorite vegan breakfast recipes or ingredients to use in the morning?",
+            "I saw you used the hashtags #vegandisneyworld and #vegandisney. What was your experience eating vegan at Disney like? Do you have any tips for finding good vegan options there?",
+            "Your smoothie bowls look delicious! What are your go-to toppings or ingredients for a perfect smoothie bowl?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Creative (in cooking and presentation)",
+            "Fashion-conscious (wearing apparel)",
+            "Positive/Upbeat (the food and apparel choices suggest a positive outlook)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Plant-based lifestyle/diet: Inquire about their favorite plant-based recipes or restaurants.",
+        "2. Music/headphones: Ask about their favorite music genres or if they have any podcast recommendations.",
+        "1. Vegan cooking/recipes: Ask about their favorite vegan recipes or ingredients to use in breakfast dishes.",
+        "2. Travel: The hashtags include #vegandisneyworld and #vegandisney, so you could ask about their experiences eating vegan at Disney or other travel destinations.",
+        "1. Vegan recipes and food: The post uses many vegan-related hashtags. You could ask about their favorite vegan recipes or ingredients."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

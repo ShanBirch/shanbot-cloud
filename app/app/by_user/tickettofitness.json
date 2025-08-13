@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T00:37:24.872185",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T00:37:06.226003",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by tickettofitness announces Zara Goodier as the winner of their FREE ENTRY competition. The image features a digital scale with a smartphone displaying data from the scale. The text \"WINNER!!!\" is at the top, and Zara Goodier's name is prominently displayed. The website address is at the bottom.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from tickettofitness congratulating Sarah Winter on winning a Fitbit Versa 3 in a competition. The image features the Fitbit Versa 3 prominently.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post announcing Michael Ambler as the winner of a Nintendo Switch and Ring Fit bundle competition by tickettofitness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by \"tickettofitness\" promoting a giveaway of a Nintendo Switch with Ring Fit or a Fitbit Versa 3. The post includes hashtags related to weight loss, diet, Fitbit, Nintendo Switch, Fortnite, running, and walking in the UK. The image also shows a man, presumably the owner or representative of \"tickettofitness,\" speaking in a video.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post advertising a live draw by tickettofitness. The prizes are a Fitbit Versa 3, a Nintendo Switch, and a smart scale.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an advertisement for a raffle or competition to win a Nintendo Switch and Ring Fit Adventure. It features the Nintendo Switch console and the Ring Fit Adventure accessories.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Fitness Tracking:** Ask about Sarah's fitness goals and how she plans to use the Fitbit to achieve them.",
+          "2. **Smartwatch Features:** Inquire about which features of the Fitbit she's most excited to use (e.g., sleep tracking, heart rate monitoring, notifications).",
+          "1.  **Gaming and Fitness:** \"Congratulations on winning the Nintendo Switch and Ring Fit! Have you tried Ring Fit Adventure before? It's a fun way to get a workout in while gaming. What are your favorite games to play on the Switch?\"",
+          "2.  **Competitions/Raffles:** \"Congrats on winning! What made you decide to enter the competition? Do you often enter raffles or competitions?\"",
+          "1. **Fitness Technology:** Given the mention of Fitbit Versa 3 and Ring Fit, you could ask about their experience with fitness trackers or gaming-based fitness programs. For example, \"Have you found the Ring Fit Adventure to be an effective workout?\" or \"What are your favorite features of the Fitbit Versa 3?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The scales look really high-tech! 🤩",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: tickettofitness)",
+          "INTERESTS": [
+            "Fitness",
+            "Technology (Smart Scales, Fitness Trackers, Gaming Consoles)",
+            "Competitions/Giveaways",
+            "Gaming (Nintendo Switch, Ring Fit Adventure)",
+            "Health & Wellness"
+          ],
+          "LIFESTYLE": "Likely someone involved in promoting fitness and healthy living through competitions and giveaways. Possibly a small business owner or influencer focused on fitness technology and gaming-related fitness.",
+          "CONVERSATION STARTERS": [
+            "What inspired you to start 'tickettofitness' and run these competitions?",
+            "What are some of the biggest challenges you face when organizing and promoting these giveaways?",
+            "What kind of fitness technology do you personally use and recommend?",
+            "Have you seen a positive impact on people's fitness journeys through the prizes you offer?",
+            "What are your future plans for 'tickettofitness' and the types of competitions you'll be running?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Generous (Giving away prizes)",
+            "Engaging (Running competitions to interact with followers)",
+            "Enthusiastic (Passionate about fitness and technology)",
+            "Promotional (Actively advertising and promoting competitions)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Fitness Tracking:** Ask about Sarah's fitness goals and how she plans to use the Fitbit to achieve them.",
+        "2. **Smartwatch Features:** Inquire about which features of the Fitbit she's most excited to use (e.g., sleep tracking, heart rate monitoring, notifications).",
+        "1.  **Gaming and Fitness:** \"Congratulations on winning the Nintendo Switch and Ring Fit! Have you tried Ring Fit Adventure before? It's a fun way to get a workout in while gaming. What are your favorite games to play on the Switch?\"",
+        "2.  **Competitions/Raffles:** \"Congrats on winning! What made you decide to enter the competition? Do you often enter raffles or competitions?\"",
+        "1. **Fitness Technology:** Given the mention of Fitbit Versa 3 and Ring Fit, you could ask about their experience with fitness trackers or gaming-based fitness programs. For example, \"Have you found the Ring Fit Adventure to be an effective workout?\" or \"What are your favorite features of the Fitbit Versa 3?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

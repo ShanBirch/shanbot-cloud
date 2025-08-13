@@ -1,0 +1,71 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 4,
+      "user_messages": 3,
+      "ai_messages": 1,
+      "ai_questions": 1,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": true,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-10T20:10:36.529050",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-10T00:55:22.193762+00:00",
+          "type": "user",
+          "text": "Hi mate, hope you have been well. It’s been a long time 😊 yeah it was an amazing experience. I’m going back to the US next week for the world dressing championship this time. I’m hoping that I can get the chance to judge the world rushing championship and another amazing experience hopefully 🙏🏻"
+        },
+        {
+          "timestamp": "2025-04-10T00:55:22.206011+00:00",
+          "type": "ai",
+          "text": "Yeah awesome man! US again hey! That's epic. What's world dressing and rushing championships?  Sounds intense! 🤣"
+        },
+        {
+          "timestamp": "2025-04-10T01:27:50.810110+00:00",
+          "type": "user",
+          "text": "Hi mate, hope you have been well. It’s been a long time 😊 yeah it was an amazing experience. I’m going back to the US next week for the world dressing championship this time. I’m hoping that I can get the chance to judge the world rushing championship and another amazing experience hopefully 🙏🏻 + Shannon: Yeah awesome man! US again hey! That's epic. What's world dressing and rushing championships?  Sounds intense! 🤣 {{cuf_11967919}}  {{cuf_11967920}} Lead : Haha it happens every year. Like IFBBPro comps haha"
+        },
+        {
+          "timestamp": "2025-04-10T02:45:38.692286+00:00",
+          "type": "user",
+          "text": "Hi mate, hope you have been well. It’s been a long time 😊 yeah it was an amazing experience. I’m going back to the US next week for the world dressing championship this time. I’m hoping that I can get the chance to judge the world rushing championship and another amazing experience hopefully 🙏🏻 + Shannon: Yeah awesome man! US again hey! That's epic. What's world dressing and rushing championships?  Sounds intense! 🤣 {{cuf_11967919}}  {{cuf_11967920}} Lead : Haha it happens every year. Like IFBBPro comps haha + Shannon: Yeah okay haha! What are dressing and rushing championships actually? Is it like some kind of fashion or sport thing? 🤣 {{cuf_11967919}}  {{cuf_11967920}} Lead : Sorry didn’t understand the question haha"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "bioaryan",
+      "user_responses_to_questions": 0,
+      "response_rate": 0.0,
+      "coaching_inquiries": 0,
+      "ai_detections": 0,
+      "first_message_timestamp": "2025-04-10T00:55:22.193762+00:00",
+      "last_message_timestamp": "2025-04-10T02:45:38.692286+00:00",
+      "last_seen_timestamp": "2025-04-10T02:45:38.692286+00:00",
+      "conversation_count": 1,
+      "conversation_duration_str": "1h 50m",
+      "fitness_topic_user_initiated": false,
+      "fitness_topic_ai_initiated": false
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

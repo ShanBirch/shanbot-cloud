@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T22:06:37.830736",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T22:06:18.257134",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by @vegancim. The post is a graphic with a green background and black text in Turkish. The text is a statement condemning animal fighting as exploitation and criticizing the Germencik Municipality for allowing bullfights. It also mentions camel wrestling and mistreatment of street animals. The post includes a logo for \"Aydın Vegan Kolektifi.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of grilled mushroom skewers, garnished with fresh herbs. The mushrooms appear to be glazed or marinated in a savory sauce.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows three pieces of toast topped with sliced tomatoes and basil. The post is from an account called \"vegancim\" and includes hashtags related to vegan food and lifestyle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up overhead shot of four vegan donuts with various toppings and glazes on a dark baking sheet.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a stack of what appear to be vegan zucchini fritters (kabak mücver), topped with a basil leaf and served with a side of arugula. The caption is in Turkish and includes hashtags related to veganism, vegan food, and vegan recipes.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up shot of a vegan dish, likely \"kısır,\" a Turkish bulgur salad, served on a bed of lettuce. There are also pickled vegetables in the background. The post is by \"vegancim\" from Istanbul.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan cooking/recipes: The post is tagged with numerous vegan-related hashtags. Asking about the specific recipe or marinade used on the mushrooms could be a good conversation starter.",
+          "2. Health and nutrition: The caption mentions the nutritional benefits of mushrooms (selenium and vitamins C and D). You could ask about their interest in vegan nutrition or their favorite sources of these vitamins.",
+          "1. Vegan cooking/recipes: Ask about the specific recipe used for the tomato toast, or inquire about other favorite vegan recipes.",
+          "2. Vegan lifestyle/activism: The caption mentions animal cruelty and the hope for a world where animals are not harmed. This could lead to a conversation about veganism, animal rights, or related activism.",
+          "1.  Vegan baking/cooking: Given the focus on vegan donuts, asking about their favorite vegan baking recipes or tips could be a good conversation starter."
+        ],
+        "generated_comment": "Hey! I was just looking at your profile, and your latest post really resonated with me. It's great that you're raising awareness about these issues. 💚",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: vegancim)",
+          "INTERESTS": [
+            "Vegan Cooking & Baking (especially Turkish vegan cuisine)",
+            "Vegan Lifestyle",
+            "Animal Rights & Activism",
+            "Health & Nutrition (focused on vegan sources)",
+            "Istanbul (location based on one post)"
+          ],
+          "LIFESTYLE": "Likely a vegan individual living in Istanbul, who enjoys cooking and sharing vegan recipes, and is passionate about animal rights. They are likely involved in or supportive of the Aydın Vegan Kolektifi.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite vegan recipe to make when you're short on time?",
+            "I saw your post about the Germencik Municipality. What other animal rights issues are you passionate about?",
+            "The grilled mushroom skewers looked amazing! Could you share the marinade recipe?",
+            "What are your go-to sources for vitamin D on a vegan diet?",
+            "Do you have any recommendations for vegan-friendly restaurants or shops in Istanbul?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Compassionate",
+            "Creative (in the kitchen)",
+            "Activist",
+            "Health-conscious"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan cooking/recipes: The post is tagged with numerous vegan-related hashtags. Asking about the specific recipe or marinade used on the mushrooms could be a good conversation starter.",
+        "2. Health and nutrition: The caption mentions the nutritional benefits of mushrooms (selenium and vitamins C and D). You could ask about their interest in vegan nutrition or their favorite sources of these vitamins.",
+        "1. Vegan cooking/recipes: Ask about the specific recipe used for the tomato toast, or inquire about other favorite vegan recipes.",
+        "2. Vegan lifestyle/activism: The caption mentions animal cruelty and the hope for a world where animals are not harmed. This could lead to a conversation about veganism, animal rights, or related activism.",
+        "1.  Vegan baking/cooking: Given the focus on vegan donuts, asking about their favorite vegan baking recipes or tips could be a good conversation starter."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

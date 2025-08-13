@@ -1,0 +1,98 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 10,
+      "user_messages": 5,
+      "ai_messages": 5,
+      "ai_questions": 4,
+      "ai_statements": 1,
+      "user_responses_to_ai_question": 3,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": true,
+      "question_response_rate": 0.6666666666666666,
+      "conversation_start_time": "2025-04-11T13:27:14.469958",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 6901.108073,
+      "achieved_message_milestones": [
+        10,
+        5
+      ],
+      "fitness_topic_initiator": "user",
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-11T03:27:14.469958+00:00",
+          "type": "user",
+          "text": "😍"
+        },
+        {
+          "timestamp": "2025-04-11T03:27:14.514268+00:00",
+          "type": "ai",
+          "text": "Haha yeah kids say the funniest things! How old is the little one?"
+        },
+        {
+          "timestamp": "2025-04-11T03:40:18.222748+00:00",
+          "type": "user",
+          "text": "😍 + Shannon: Haha yeah kids say the funniest things! How old is the little one? {{cuf_11967919}}  {{cuf_11967920}} Lead : Doing better got the flu + Which one"
+        },
+        {
+          "timestamp": "2025-04-11T03:40:18.385094+00:00",
+          "type": "ai",
+          "text": "Haha yeah they are the best! What have you been up to today?"
+        },
+        {
+          "timestamp": "2025-04-11T03:56:25.063556+00:00",
+          "type": "user",
+          "text": "😍 + Shannon: Haha yeah kids say the funniest things! How old is the little one? {{cuf_11967919}}  {{cuf_11967920}} Lead : Doing better got the flu + Which one + Shannon: Haha yeah they are the best! What have you been up to today? {{cuf_11967919}}  {{cuf_11967920}} Lead : Recovering from the flu"
+        },
+        {
+          "timestamp": "2025-04-11T03:56:25.093272+00:00",
+          "type": "ai",
+          "text": "Haha yeah they are the best! Hope you're having a good Friday arvo hey!"
+        },
+        {
+          "timestamp": "2025-04-11T05:10:24.796378+00:00",
+          "type": "user",
+          "text": "😍 + Shannon: Haha yeah kids say the funniest things! How old is the little one? {{cuf_11967919}}  {{cuf_11967920}} Lead : Doing better got the flu + Which one + Shannon: Haha yeah they are the best! What have you been up to today? {{cuf_11967919}}  {{cuf_11967920}} Lead : Recovering from the flu + Shannon: Its going round hey! Hope you have a good friday! xx {{cuf_11967919}}  {{cuf_11967920}} Lead : Same to u"
+        },
+        {
+          "timestamp": "2025-04-11T05:10:24.837336+00:00",
+          "type": "ai",
+          "text": "Yeah no worries! Feeling any better now you're over the worst of it? :)"
+        },
+        {
+          "timestamp": "2025-04-11T05:22:44.058551+00:00",
+          "type": "user",
+          "text": "😍 + Shannon: Haha yeah kids say the funniest things! How old is the little one? {{cuf_11967919}}  {{cuf_11967920}} Lead : Doing better got the flu + Which one + Shannon: Haha yeah they are the best! What have you been up to today? {{cuf_11967919}}  {{cuf_11967920}} Lead : Recovering from the flu + Shannon: Its going round hey! Hope you have a good friday! xx {{cuf_11967919}}  {{cuf_11967920}} Lead : Same to u + Shannon: Yeah no worries! Feeling any better now you're over the worst of it? :) {{cuf_11967919}}  {{cuf_11967920}} Lead : A lot better than I was + Will be bk to gym today hope been a couple weeks moving sickness"
+        },
+        {
+          "timestamp": "2025-04-11T05:22:44.096905+00:00",
+          "type": "ai",
+          "text": "Sweet you're feeling heaps better! Back to the gym today hey? Must be keen to get back into it after a couple weeks!"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "fiercewarriorqueen",
+      "first_message_timestamp": "2025-04-11T03:27:14.469958+00:00",
+      "last_message_timestamp": "2025-04-11T05:22:44.096905+00:00",
+      "conversation_duration_str": "1h 55m",
+      "conversation_count": 1,
+      "last_seen_timestamp": "2025-04-11T05:22:44.096905+00:00"
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

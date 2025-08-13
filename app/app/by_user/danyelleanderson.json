@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T23:02:08.998137",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T23:01:51.218550",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows danyelleanderson standing on a paved walkway next to a beach. She is wearing a short, fitted green dress and nude heels. The ocean and sky are visible in the background. The sun is shining, and the overall scene is bright and cheerful.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The post is by danyelleanderson, who is excited to get back into Muay Thai in 5 months after a 7-month break. She also shared a link to an ABC News article about ACL injury healing and surgery. The hashtags used are related to fitness, Muay Thai, weightlifting, ACL injury/rehab, bodybuilding, and nutrition.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, danyelleanderson, from the back, wearing a bikini bottom. She is standing on a rooftop or outdoor area with a building in the background. The post is captioned \"Friday vibe...\" and includes hashtags related to fitness, modeling, and bodybuilding.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a post by danyelleanderson featuring a custom-made \"Fitness & Fashion Barbie\" doll that resembles her. The doll is packaged in a Barbie box and includes accessories like a barbell, a Stanley tumbler, Creed perfume, and Muay Thai boxing gloves.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, danyelleanderson, in a gym setting. She's taking a selfie in front of a mirror, wearing workout clothes. The text overlay says \"I train because it is my passion.\" The caption includes hashtags related to fitness, bodybuilding, Muay Thai, and boxing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman practicing Muay Thai with a trainer in a gym. She is wearing boxing gloves and Muay Thai shorts.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Muay Thai:** Ask about her experience with Muay Thai, what she enjoys about it, or her training goals.",
+          "2.  **ACL Injury/Rehab:** Since she mentions ACL recovery, ask about her recovery process, what she's learned, or share experiences if you have any relevant knowledge.",
+          "1. Fitness/Training: Given the hashtags used, asking about her training routine, specific exercises she enjoys, or her experience as a personal trainer could be a good conversation starter.",
+          "2. Location/Photography: Commenting on the location of the photo or asking about who takes her photos could be another way to engage.",
+          "1.  **Muay Thai/Boxing:** The doll is wearing Muay Thai shorts and boxing gloves. You could ask about her experience with Muay Thai or boxing, if she trains regularly, or what she enjoys about the sport."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The green dress looked amazing on you! 💚",
+        "profile_bio": {
+          "PERSON NAME": "Danyelle Anderson",
+          "INTERESTS": [
+            "Muay Thai/Boxing",
+            "Fitness & Weightlifting",
+            "Bodybuilding",
+            "Fashion",
+            "Health & Wellness (specifically ACL injury recovery)"
+          ],
+          "LIFESTYLE": "Danyelle appears to lead an active and fitness-focused lifestyle. She is passionate about Muay Thai and weightlifting, and seems to be recovering from an ACL injury. She also has an interest in fashion and modeling, and enjoys sharing her fitness journey and personal style online.",
+          "CONVERSATION STARTERS": [
+            "How's your Muay Thai training coming along? What are you working on right now?",
+            "I saw you're recovering from an ACL injury. How's the rehab process going?",
+            "What's your favorite exercise or workout routine at the moment?",
+            "That 'Fitness & Fashion Barbie' doll is amazing! How did you come up with that idea?",
+            "I noticed you train in Muay Thai and boxing. What do you enjoy most about those sports?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate",
+            "Driven",
+            "Stylish",
+            "Resilient"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Muay Thai:** Ask about her experience with Muay Thai, what she enjoys about it, or her training goals.",
+        "2.  **ACL Injury/Rehab:** Since she mentions ACL recovery, ask about her recovery process, what she's learned, or share experiences if you have any relevant knowledge.",
+        "1. Fitness/Training: Given the hashtags used, asking about her training routine, specific exercises she enjoys, or her experience as a personal trainer could be a good conversation starter.",
+        "2. Location/Photography: Commenting on the location of the photo or asking about who takes her photos could be another way to engage.",
+        "1.  **Muay Thai/Boxing:** The doll is wearing Muay Thai shorts and boxing gloves. You could ask about her experience with Muay Thai or boxing, if she trains regularly, or what she enjoys about the sport."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T22:23:41.445754",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T22:23:22.843004",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a toddler sitting in a high chair with a blue seat. The toddler has light hair and is wearing a green t-shirt with a cartoon dinosaur on it. The toddler's face and hands are slightly messy, suggesting they have been eating. On the high chair tray, there are pieces of what appears to be veggie sushi, scattered rice, blueberries, and a piece of yellow food, possibly tofu or corn.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of homemade hummus being made, with olives mixed in. A hand mixer is visible in the hummus.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a red bowl filled with cooked sweet potatoes, seemingly prepared with coconut oil and cinnamon. The bowl sits on a woven surface.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of what appears to be vegan rice pudding topped with blueberries and a homemade vegan marshmallow. The post celebrates reaching 2,000 followers and expresses gratitude for their support.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman taking a selfie with her young child who is wrapped in a hooded towel. The child appears to have just had a bath. The hashtags indicate a focus on veganism, motherhood, and a plant-based lifestyle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of pan-fried apples with cinnamon, arranged in a flower shape, on a woven mat. The post describes it as a simple, healthy, and sweet vegan dessert made with apples, cinnamon, and coconut oil.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Hummus recipes: Discuss different variations of hummus, ingredients, or cooking techniques.",
+          "2. Vegan snacks: Talk about other favorite vegan snacks, healthy eating habits, or vegan lifestyle tips.",
+          "1. Vegan/Vegetarian Cooking: Given the hashtags and the nature of the dish, discussing other vegan or vegetarian recipes, cooking tips, or favorite ingredients would be relevant.",
+          "2. Healthy Eating for Moms: The post mentions \"easy mom dish number 200,\" suggesting the user is a parent who focuses on quick and healthy meals. Asking about other go-to recipes for busy parents could spark a conversation.",
+          "1. Vegan baking/cooking: The post mentions homemade vegan marshmallows. Asking about the recipe or other vegan baking tips could be a good conversation starter."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The little one looked like they were really enjoying their sushi! 🍣",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (username: veganlife_innovativepixies.llc)",
+          "INTERESTS": [
+            "Vegan cooking and baking",
+            "Plant-based nutrition for toddlers and families",
+            "Healthy and quick recipes for busy moms",
+            "Homemade vegan snacks and desserts",
+            "Vegan lifestyle and motherhood"
+          ],
+          "LIFESTYLE": "Likely a stay-at-home or work-from-home mom who is passionate about veganism and creating healthy, plant-based meals for her family, particularly her young child. She enjoys experimenting with recipes and sharing her creations online.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite quick and easy vegan meals to make on busy weeknights?",
+            "Could you share your recipe for homemade vegan marshmallows? They look amazing!",
+            "What are some creative ways you incorporate vegetables into your toddler's diet?",
+            "Do you have any tips for transitioning to a plant-based diet as a family?",
+            "What are some of your go-to vegan snacks for yourself and your child?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (innovative recipes and food presentation)",
+            "Caring (focused on healthy eating for her child)",
+            "Passionate (enthusiastic about veganism)",
+            "Grateful (expressed gratitude for followers)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Hummus recipes: Discuss different variations of hummus, ingredients, or cooking techniques.",
+        "2. Vegan snacks: Talk about other favorite vegan snacks, healthy eating habits, or vegan lifestyle tips.",
+        "1. Vegan/Vegetarian Cooking: Given the hashtags and the nature of the dish, discussing other vegan or vegetarian recipes, cooking tips, or favorite ingredients would be relevant.",
+        "2. Healthy Eating for Moms: The post mentions \"easy mom dish number 200,\" suggesting the user is a parent who focuses on quick and healthy meals. Asking about other go-to recipes for busy parents could spark a conversation.",
+        "1. Vegan baking/cooking: The post mentions homemade vegan marshmallows. Asking about the recipe or other vegan baking tips could be a good conversation starter."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

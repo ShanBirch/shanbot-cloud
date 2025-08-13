@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T13:54:02.512634",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T13:53:42.566544",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a woman flexing her biceps while wearing an \"Old Lady Lifting Club\" tank top. She is smiling broadly and standing in front of a display of similar tank tops, presumably at a booth or event. The background is somewhat cluttered with various items for sale.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a rack of fitness apparel, specifically tank tops, with various designs including \"Old Lady Fitness Club,\" \"Live Love Lift,\" and a skull and crossbones design with the phrase \"lift it you pussy\". The post mentions that these are new styles available at Torian Pro in Brisbane.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A woman is jumping in the air on a dirt path in a wooded area. She is wearing fitness apparel and appears to be enjoying a run. The caption mentions running as a form of therapy after homeschooling and work.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman named Kylie wearing fitness apparel, including a tank top that says \"One Shot at Life,\" shorts, and sneakers. She's giving a thumbs up and smiling. The background shows other people exercising in what looks like a parkrun event.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two women in fitness attire after a Christmas-themed workout at CrossFit Bounce. They are wearing tank tops with motivational sayings and festive socks. The post mentions a 50-minute time cap for the workout.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of three people standing in front of a backdrop for the \"Raw Challenge\" obstacle course event. The backdrop features images of people participating in the event, including running through mud and swimming with inner tubes. There is a pile of shoes at the bottom of the image. The caption indicates they completed the 9km course with 60 obstacles.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Fitness Apparel Design:** Discussing the different designs on the tank tops and asking about the inspiration behind them, or asking about their favorite design.",
+          "2. **Torian Pro Event:** Inquiring about the Torian Pro event in Brisbane, asking if they are attending, or what they are most looking forward to seeing at the event.",
+          "1. Running/Fitness: Ask about her favorite running routes in the Coombabah Lake Conservation Park or other fitness activities she enjoys.",
+          "2. Homeschooling: Inquire about her experience with homeschooling and any tips she might have for others juggling work and homeschooling.",
+          "*   **Parkrun/Running:** \"I saw you were at the Paradise Point parkrun! How often do you participate in those events?\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Kylie (mentioned in one post, assuming it's her)",
+          "INTERESTS": [
+            "Fitness Apparel (especially motivational designs)",
+            "CrossFit/Functional Fitness",
+            "Running (especially parkrun and trail running)",
+            "Obstacle Course Racing (e.g., Raw Challenge)",
+            "Homeschooling"
+          ],
+          "LIFESTYLE": "Appears to be a busy, active woman who juggles homeschooling, work, and a passion for fitness. She participates in various fitness activities, including CrossFit, running, and obstacle course races. She also designs or sells fitness apparel, likely with a focus on empowering women.",
+          "CONVERSATION STARTERS": [
+            "I love the 'Old Lady Lifting Club' tank top! What inspired that design?",
+            "I saw you were at the Torian Pro event in Brisbane. What was your favorite part?",
+            "Do you have any favorite running routes in the Coombabah Lake Conservation Park?",
+            "You mentioned homeschooling. What's been the most rewarding (and challenging) aspect of it?",
+            "I saw you were at the Paradise Point parkrun! How often do you participate in those events?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Motivated",
+            "Enthusiastic",
+            "Empowering",
+            "Resilient"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Fitness Apparel Design:** Discussing the different designs on the tank tops and asking about the inspiration behind them, or asking about their favorite design.",
+        "2. **Torian Pro Event:** Inquiring about the Torian Pro event in Brisbane, asking if they are attending, or what they are most looking forward to seeing at the event.",
+        "1. Running/Fitness: Ask about her favorite running routes in the Coombabah Lake Conservation Park or other fitness activities she enjoys.",
+        "2. Homeschooling: Inquire about her experience with homeschooling and any tips she might have for others juggling work and homeschooling.",
+        "*   **Parkrun/Running:** \"I saw you were at the Paradise Point parkrun! How often do you participate in those events?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T10:28:46.547609",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T10:28:28.842533",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by vegan_omad_no1. The post is a video of a man (presumably vegan_omad_no1) sitting in a car, talking about how to do OMAD (One Meal A Day). The video is taken from a close-up angle, showing his face clearly. The post's caption includes hashtags related to OMAD and veganism. Several users have commented on the post.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of people in Dublin, Ireland, holding a sign that says \"VEGAN\". The post is about vegan activism and encourages people in Dublin to join them.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by vegan_omad_no1. The post is a video where the person is explaining why they only eat one meal a day (OMAD). The hashtags include #omaddublin, #omadweightloss, #omadmeal, #OMAD, #onemealadayvegan, #onemealaday, #whyomad, #omad, #omaddiet, and #omaddad.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person holding a screen displaying a video of animals in cages. The post is tagged with hashtags related to veganism, Dublin, and supporting local businesses.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person holding a sign with images related to veganism and animal rights. The person is outdoors, possibly during a campaign or demonstration. The hashtags used in the post confirm this.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of people standing on a city street, participating in an \"Anonymous for the Voiceless\" cube of truth demonstration. The caption invites people to join them on May 3rd to speak up for animals.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Vegan activism in Dublin:** You could ask about the vegan scene in Dublin, what kind of activism they're involved in, or any upcoming events.",
+          "2.  **Influences:** The post mentions watching videos by @humanehancock, @earthlinged and @joey_carbstrong. You could ask about which of these influencers they find most inspiring or what other resources they recommend for learning about veganism and animal rights.",
+          "1.  **OMAD/Vegan Diet:** Ask about their experience with the OMAD diet, particularly as a vegan. You could ask about challenges, benefits, or favorite vegan OMAD meals.",
+          "2.  **Dublin:** The hashtag #omaddublin suggests they are located in Dublin. You could ask about vegan food options in Dublin or their favorite places to eat there.",
+          "1.  **Veganism and Animal Rights:** Given the content of the video and the hashtags used, discussing veganism, animal rights, or specific animal welfare concerns would be relevant."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk of your profile! Your latest post was really informative, thanks for sharing your insights on OMAD! 👍",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism",
+            "Animal Rights Activism",
+            "OMAD (One Meal A Day) Diet",
+            "Dublin Vegan Scene",
+            "Vegan Weight Loss"
+          ],
+          "LIFESTYLE": "Likely a vegan activist living in Dublin, Ireland, who practices the OMAD diet. They are actively involved in demonstrations and campaigns related to animal rights and veganism. They share their experiences and promote veganism and OMAD through social media.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite vegan restaurants or food spots in Dublin?",
+            "What are some of the biggest challenges you've faced while following the OMAD diet as a vegan, and how have you overcome them?",
+            "I noticed you're involved in vegan activism in Dublin. What are some upcoming events or campaigns that people can get involved in?",
+            "Which vegan influencers (like @humanehancock, @earthlinged, or @joey_carbstrong) have been most influential in your journey, and why?",
+            "What are some of your go-to vegan OMAD meals?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate",
+            "Activist",
+            "Dedicated",
+            "Advocate"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Vegan activism in Dublin:** You could ask about the vegan scene in Dublin, what kind of activism they're involved in, or any upcoming events.",
+        "2.  **Influences:** The post mentions watching videos by @humanehancock, @earthlinged and @joey_carbstrong. You could ask about which of these influencers they find most inspiring or what other resources they recommend for learning about veganism and animal rights.",
+        "1.  **OMAD/Vegan Diet:** Ask about their experience with the OMAD diet, particularly as a vegan. You could ask about challenges, benefits, or favorite vegan OMAD meals.",
+        "2.  **Dublin:** The hashtag #omaddublin suggests they are located in Dublin. You could ask about vegan food options in Dublin or their favorite places to eat there.",
+        "1.  **Veganism and Animal Rights:** Given the content of the video and the hashtags used, discussing veganism, animal rights, or specific animal welfare concerns would be relevant."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,913 @@
+# Shanbot System Overview - Updated Architecture
+
+## System Description
+Shanbot is a comprehensive AI-powered fitness coaching automation system that handles all aspects of an online fitness coaching business including:
+- Client acquisition and sales through Instagram automation
+- Customer service and client communication via Instagram DMs
+- Automated client check-ins and progress tracking
+- Workout program building and modification
+- Progress analysis and personalized feedback
+- Video summary generation
+- Analytics tracking and business insights
+
+The system uses Google's Gemini AI for natural language understanding and generation while maintaining a personal trainer's authentic voice throughout all communications.
+
+## Environment Setup and Dependencies
+
+### Python Environment Setup
+1. **Python Installation**
+   - Install Python 3.11 (recommended version) from python.org
+   - During installation:
+     * Check "Add Python to PATH"
+     * Check "Install for all users"
+   - Install location should be: C:\Program Files\Python311
+
+2. **Virtual Environment Setup**
+   ```bash
+   # Create a virtual environment in the shanbot directory
+   python -m venv venv
+   
+   # Activate the virtual environment
+   # On Windows:
+   .\venv\Scripts\activate
+   ```
+
+3. **Core Dependencies Installation**
+   ```bash
+   # Install all required packages
+   pip install fastapi uvicorn pydantic requests google-generativeai streamlit pandas matplotlib selenium google-cloud-speech pydub python-dateutil google-api-python-client google-auth-httplib2 google-auth-oauthlib moviepy Pillow
+   ```
+
+### Directory Structure
+```
+shanbot/
+├── app/                    # Main application directory
+│   ├── webhook_manychat.py # Main webhook handler
+│   ├── analytics_dashboard.py
+│   ├── followersbot2.py
+│   ├── story1.py
+│   ├── checkin_new_1904.py
+│   ├── simple_blue_video.py
+│   └── requirements.txt    # All package dependencies
+├── venv/                   # Virtual environment
+├── music/                  # Music files for video generation
+├── output/                 # Generated videos and reports
+└── templates/              # Video templates
+```
+
+### Running Scripts
+1. **First Time Setup**
+   ```bash
+   cd C:\Users\Shannon\OneDrive\Desktop\shanbot
+   python -m venv venv
+   .\venv\Scripts\activate
+   cd app
+   pip install -r requirements.txt
+   ```
+
+2. **Running Individual Scripts**
+   - Always activate the virtual environment first:
+   ```bash
+   cd C:\Users\Shannon\OneDrive\Desktop\shanbot
+   .\venv\Scripts\activate
+   cd app
+   ```
+   
+   - Then run the desired script:
+   ```bash
+   # For webhook server
+   python -m webhook_manychat.py
+   
+   # For analytics dashboard
+   streamlit run analytics_dashboard.py
+   
+   # For Instagram bots
+   python followersbot2.py
+   python story1.py
+   ```
+
+### Common Issues and Solutions
+1. **"Python not found" Error**
+   - Make sure you're in the correct directory
+   - Activate the virtual environment first
+   - Use `python` or `py` command based on your system
+
+2. **Module Import Errors**
+   - Make sure you're in the app directory
+   - Verify virtual environment is activated
+   - Try reinstalling requirements: `pip install -r requirements.txt`
+
+3. **Multiple Python Versions**
+   - Use specific Python version: `py -3.11 -m pip install ...`
+   - Check Python path: `where python`
+   - Verify virtual environment activation
+
+### Required External Services
+1. **FFmpeg** (for audio/video processing)
+   - Install location: C:\ffmpeg
+   - Add to PATH environment variable
+
+2. **Chrome WebDriver** (for Selenium)
+   - Install in C:\SeleniumDrivers
+   - Match version with installed Chrome
+
+3. **API Keys and Credentials**
+   - Store in secure location
+   - Update in respective scripts
+   - Keep backup of all credentials
+
+## Core Components
+
+### 1. Instagram Engagement System
+#### Story Interaction Bot (`story1.py`)
+- Automatically engages with Instagram stories
+- Uses Gemini AI to analyze story content
+- Generates contextual responses
+- Tracks interaction history
+- Implements safety measures and rate limiting
+
+#### Follower Engagement Bot (`followersbot2.py`) 
+- Handles initial DM outreach to followers
+- Analyzes profiles with Gemini AI
+- Generates personalized messages
+- Tracks engagement metrics
+- Maintains conversation history
+
+#### Follow-up Manager (`followup_manager.py`)
+- Manages ongoing Instagram conversations
+- Handles scheduled follow-ups
+- Maintains persistent browser session
+- Implements smart timing for responses
+- Tracks message success rates
+
+### 2. Client Management System
+#### Webhook Handler (`webhook.py`)
+- Primary interface for Instagram/ManyChat integration
+- Handles multiple types of interactions:
+  * General chat conversations
+  * Form check video analysis
+  * Food/meal photo analysis
+  * Workout program modifications
+  * Check-in processing
+  * Client onboarding
+
+##### Message Processing Features
+- Buffered message handling (15-second window)
+- Media URL detection and processing
+- Conversation history tracking
+- Dynamic response timing based on user patterns
+- Multi-model AI fallback system (Gemini Pro → Flash → Standard)
+
+##### Form Check Analysis
+- Detects form check requests
+- Processes video content using Gemini Vision
+- Provides detailed technique analysis
+- Generates actionable feedback
+- Updates dashboard with completed analysis
+
+##### Food Analysis System
+- Detects food/meal photo requests
+- Analyzes food images with Gemini Vision
+- Provides calorie and macro estimates
+- Handles ingredient descriptions
+- Tracks analysis in dashboard
+
+##### Workout Program Modifications
+- Natural language request detection
+- Automated Trainerize integration
+- Exercise addition/removal
+- Sets and reps management
+- Success/failure tracking
+- Dashboard task management
+
+##### Check-in Processing
+- Supports Monday and Wednesday check-ins
+- Loads client-specific check-in data
+- Uses specialized prompt templates
+- Tracks check-in flow state
+- Handles acknowledgment messages
+
+##### Dashboard Integration
+- Real-time task updates
+- Completed action logging
+- Client interaction tracking
+- Progress monitoring
+- Analytics data management
+
+##### Error Handling & Recovery
+- Multi-model AI fallback system
+- Robust JSON parsing
+- Media processing fallbacks
+- Trainerize automation recovery
+- User-friendly error messages
+
+##### Security Features
+- Rate limiting
+- API key management
+- Secure credential handling
+- Error logging
+- State management
+
+#### Analytics Dashboard (`analytics_dashboard.py`)
+- Provides real-time business metrics
+- Tracks conversation analytics
+- Monitors engagement rates
+- Displays client progress stats
+- Generates business insights
+
+### 3. Training Program Management
+#### Program Builder (`programbuilder.py`)
+- Creates new workout programs
+- Manages exercise libraries
+- Handles program templates
+- Validates exercise combinations
+- Implements progressive overload
+
+#### Program Editor (`pe.py`)
+- Modifies existing workout programs
+- Updates exercise parameters
+- Manages program progression
+- Tracks program changes
+- Validates modifications
+
+#### Automated Program Modification System (NEW)
+- **Intent Detection**
+  - Uses Gemini AI to analyze user messages
+  - Identifies workout modification requests
+  - Extracts exercise and workout details
+  - Validates against exercise library
+  - Confidence scoring for request validation
+
+- **Action Processing**
+  - Automated Trainerize login and navigation
+  - Exercise addition/removal/modification
+  - Sets and reps management
+  - Program validation and safety checks
+  - Success/failure tracking
+
+- **User Communication**
+  - Real-time request acknowledgment
+  - Progress status updates
+  - Confirmation messages
+  - Error handling and user guidance
+  - Follow-up prompts for missing information
+
+- **Data Management**
+  - Program state tracking
+  - Exercise history maintenance
+  - Modification logging
+  - Analytics integration
+  - User preference learning
+
+- **Integration Points**
+  - ManyChat field updates
+  - Trainerize automation
+  - Analytics data storage
+  - Exercise library validation
+  - User profile synchronization
+
+### 4. Client Progress System
+#### Check-in Automation (`checkin_new_1904.py`)
+- Processes client check-ins
+- Analyzes progress metrics
+- Generates feedback reports
+- Updates client records
+- Triggers video generation
+
+#### Video Generator (`simple_blue_video.py`)
+- Creates personalized progress videos
+- Visualizes client achievements
+- Incorporates progress metrics
+- Adds motivational content
+- Manages video templates
+
+### 5. Analytics & Integration
+#### Conversation Analytics (`conversation_analytics_integration.py`)
+- Tracks all client interactions
+- Analyzes conversation patterns
+- Measures engagement metrics
+- Identifies conversion opportunities
+- Generates interaction reports
+
+### 6. Calorie & Macro Tracking System
+#### Overview
+The calorie tracking system automatically tracks users' daily nutrition intake through food photo analysis and maintains daily totals with automatic midnight resets.
+
+#### Components:
+1. **Calorie Manager (`calorie_manager_calorietracker.py`)**
+   - Core tracking functionality
+   - Handles daily totals and resets
+   - Integrates with existing food analysis
+   - Maintains user nutrition data in analytics_data_good.json
+
+2. **Daily Reset (`daily_reset_calorietracker.py`)**
+   - Handles midnight resets (Melbourne time)
+   - Preserves target values
+   - Resets consumed values
+   - Clears daily meal history
+
+#### Data Structure:
+```json
+"calorie_tracking": {
+    "daily_target": 2000,
+    "current_date": "2025-05-05",
+    "calories_consumed": 0,
+    "remaining_calories": 2000,
+    "macros": {
+        "protein": {
+            "daily_target": 180,
+            "consumed": 0,
+            "remaining": 180
+        },
+        "carbs": {
+            "daily_target": 250,
+            "consumed": 0,
+            "remaining": 250
+        },
+        "fats": {
+            "daily_target": 65,
+            "consumed": 0,
+            "remaining": 65
+        }
+    },
+    "meals_today": []
+}
+```
+
+#### User Interaction Flow:
+1. **Food Photo Analysis**
+   ```
+   📱 Food Analysis:
+
+   Your meal contains:
+   • 550 calories
+   • 35g protein
+   • 55g carbs
+   • 22g fats
+   ```
+
+2. **Daily Totals Update**
+   ```
+   📊 Updated Daily Totals:
+
+   Calories: 1450/2000 Remaining
+   Protein: 145g remaining
+   Carbs: 195g remaining
+   Fats: 43g remaining
+   ```
+
+#### Features:
+- Automatic food photo analysis
+- Real-time calorie/macro tracking
+- Daily automatic reset at midnight Melbourne time
+- Meal history tracking
+- Target maintenance across resets
+- Integration with analytics system
+
+#### Implementation Details:
+1. **Photo Analysis Integration**
+   - Uses existing Gemini Vision analysis
+   - Parses calorie and macro data
+   - Supports user-provided descriptions
+
+2. **Data Management**
+   - Stores data in analytics_data_good.json
+   - Updates in real-time
+   - Maintains user-specific targets
+   - Tracks daily consumption
+
+3. **Reset System**
+   - Runs on APScheduler
+   - Timezone-aware (Melbourne)
+   - Preserves user targets
+   - Clears daily consumption
+
+4. **Response Formatting**
+   - Two-part response system
+   - Immediate meal analysis
+   - Updated daily totals
+   - Clean, aesthetic formatting
+
+#### Integration Points:
+1. **Webhook Handler**
+   - Detects food photos
+   - Processes analysis
+   - Updates tracking
+   - Sends formatted responses
+
+2. **Analytics System**
+   - Stores tracking data
+   - Maintains history
+   - Supports reporting
+   - Enables data analysis
+
+3. **ManyChat Integration**
+   - o1 Response: Food analysis
+   - o1 Response 2: Daily totals
+   - Consistent formatting
+   - Real-time updates
+
+## Engagement & Follow-up Strategy
+
+### Engagement Categories
+1. **High Engagers**
+   - Criteria: 51+ messages
+   - Follow-up Timing: Every 2 days
+   - Conversation Flow: All 5 topics with shorter intervals
+
+2. **Medium Engagers**
+   - Criteria: 11-50 messages
+   - Follow-up Timing: Every 5 days
+   - Conversation Flow: All 5 topics with moderate intervals
+
+3. **Low Engagers**
+   - Criteria: 1-10 messages
+   - Follow-up Timing: Every 7 days
+   - Conversation Flow: All 5 topics with longer intervals
+
+4. **No Engagers**
+   - Criteria: 0 messages
+   - Follow-up: None
+   - Status: Inactive/Archive
+
+### Conversation Flow Strategy
+1. **Initial Engagement Phase**
+   - Topic 1 (Personal Interest)
+   - Topic 2 (Personal Interest)
+   - Topic 3 (Personal Interest)
+   - Topic 4 (Personal Interest)
+   - Topic 5 (Health/Fitness + Trial Offer)
+
+2. **Trial Period Structure**
+   - Week 1:
+     * Monday Morning: Encouragement message
+     * Wednesday: Unofficial check-in + meal idea
+     * Saturday: Week review + official check-in PDF
+   
+   - Week 2-3:
+     * Monday Morning: Weekly encouragement
+     * Wednesday: Check-in + meal idea + value check
+     * Saturday: Week review + official check-in PDF
+   
+   - Week 4 (Final):
+     * Monday Morning: Final week motivation
+     * Wednesday: Check-in + meal idea + soft offer
+     * Saturday: Week review + official check-in PDF + formal offer
+
+3. **Paid Client Schedule**
+   - Weekly Routine:
+     * Wednesday Evening: Check-in and guidance
+     * Saturday Evening: Official check-in PDF
+
+### Follow-up System Logic
+1. **Engagement Analysis**
+   - Track message frequency
+   - Monitor response patterns
+   - Calculate engagement level
+   - Adjust timing automatically
+
+2. **Topic Progression**
+   - Natural conversation endings
+   - Calculated wait periods
+   - Context-aware follow-ups
+   - Strategic topic transitions
+
+3. **Trial Period Management**
+   - Structured check-in schedule
+   - Progress monitoring
+   - Value demonstration
+   - Strategic offer timing
+
+4. **Paid Client Management**
+   - Consistent check-in schedule
+   - Progress documentation
+   - Ongoing engagement
+   - Long-term retention
+
+### Implementation Details
+1. **Timing Rules**
+   - Based on engagement level
+   - Respects conversation natural flow
+   - Avoids message overlap
+   - Maintains optimal spacing
+
+2. **Content Generation**
+   - Context-aware messages
+   - Personalized follow-ups
+   - Progress-based encouragement
+   - Strategic offer placement
+
+3. **Analytics Tracking**
+   - Engagement metrics
+   - Conversion rates
+   - Response patterns
+   - Success indicators
+
+4. **Automation Controls**
+   - Rate limiting
+   - Message spacing
+   - Context verification
+   - Error handling
+
+## Data Flow & Integration
+
+### Client Acquisition Flow
+1. `story1.py` and `followersbot2.py` identify and engage potential clients
+2. `followup_manager.py` maintains engagement
+3. `webhook.py` handles responses and qualifies leads
+4. Gemini AI analyzes conversations and triggers appropriate actions
+
+### Client Onboarding Flow
+1. `webhook.py` detects signup intent
+2. System collects client information via structured conversation
+3. `programbuilder.py` creates initial workout program
+4. `checkin_new_1904.py` establishes baseline metrics
+
+### Weekly Check-in Flow
+1. `checkin_new_1904.py` processes client metrics
+2. Gemini AI analyzes progress and generates feedback
+3. `simple_blue_video.py` creates progress summary
+4. System delivers video and feedback via Instagram
+
+### Program Modification Flow
+1. `webhook.py` detects program modification requests
+2. Gemini AI analyzes request context
+3. `pe.py` implements required changes
+4. System confirms changes with client
+
+### Analytics & Reporting Flow
+1. All components log to central analytics
+2. `analytics_dashboard.py` processes metrics
+3. `conversation_analytics_integration.py` analyzes patterns
+4. System generates business insights and recommendations
+
+## System Architecture
+
+### Core Services
+- Instagram API Integration
+- ManyChat Webhook System
+- Trainerize Automation
+- Google Gemini AI (Pro, Flash, Standard models)
+- Google Sheets Integration
+- Analytics Processing
+- Form Check Analysis
+- Food Analysis System
+- Check-in Processing
+
+### Data Storage
+- Client Profiles
+- Conversation History
+- Progress Metrics
+- Program Templates
+- Analytics Data
+- Media Assets
+- Check-in Data
+- Task Management
+- Completed Actions
+
+### External Integrations
+- Instagram Graph API
+- ManyChat API
+- Trainerize Platform
+- Google Services
+- Cloud Storage
+
+## Automation Rules & Logic
+
+### Message Handling
+- Context-aware response generation
+- Intent detection and routing
+- Action triggering based on keywords
+- Follow-up scheduling
+- Error handling and recovery
+- Media processing
+- Check-in flow management
+- Task tracking
+
+### Program Management
+- Progressive overload implementation
+- Exercise selection logic
+- Program modification rules
+- Safety validation
+- Client capability matching
+- Form check integration
+- Nutrition guidance
+
+### Progress Tracking
+- Metric analysis algorithms
+- Progress evaluation
+- Goal adjustment logic
+- Feedback generation
+- Video content selection
+
+## Future Enhancements
+
+### Planned Integration
+- Unified client dashboard
+- Enhanced AI decision making
+- Automated program optimization
+- Advanced analytics insights
+- Expanded media generation
+
+### System Improvements
+- Streamlined data flow
+- Enhanced error handling
+- Improved AI context awareness
+- Automated A/B testing
+   - Performance optimization
+
+## Maintenance & Monitoring
+
+### System Health
+- Service status monitoring
+- Error rate tracking
+- Performance metrics
+- Resource utilization
+- API quota management
+
+### Data Management
+- Backup procedures
+- Archive policies
+- Clean-up routines
+- Version control
+- Security protocols
+
+## Security & Compliance
+
+### Data Protection
+- Encryption standards
+- Access control
+- Privacy compliance
+- Audit logging
+- Secure storage
+
+### Rate Limiting
+- API request limits
+- Interaction delays
+- Concurrent operations
+- Resource allocation
+- Error backoff
+
+## Best Practices
+
+### Code Management
+- Version control
+- Documentation
+- Testing procedures
+- Deployment process
+- Error handling
+
+### Operation Guidelines
+- Monitoring procedures
+- Backup routines
+- Update protocols
+- Emergency procedures
+- Recovery plans
+
+## Enhanced User Profiles & Progress Tracking
+
+### Client Bio Integration
+1. **Initial Bio Collection**
+   - Gathered during onboarding process
+   - Updated through conversations
+   - Extracted from Instagram profile analysis
+   
+2. **Bio Components**
+   ```json
+   {
+     "personal_info": {
+       "name": "string",
+       "age": "number",
+       "location": "string",
+       "occupation": "string",
+       "instagram_handle": "string"
+     },
+     "fitness_profile": {
+       "current_fitness_level": "string",
+       "experience": "string",
+       "injuries_limitations": "array",
+       "preferred_workout_types": "array",
+       "goals": "array"
+     },
+     "lifestyle_factors": {
+       "daily_schedule": "string",
+       "stress_levels": "string",
+       "sleep_patterns": "string",
+       "dietary_preferences": "string"
+     },
+     "engagement_preferences": {
+       "communication_style": "string",
+       "preferred_check_in_times": "string",
+       "motivation_triggers": "array"
+     }
+   }
+   ```
+
+### Weekly Progress Tracking
+1. **Check-in Data Integration**
+   - Weekly measurements
+   - Progress photos
+   - Workout completion rates
+   - Nutrition adherence
+   
+2. **Progress Metrics**
+   ```json
+   {
+     "weekly_metrics": {
+       "weight": "number",
+       "measurements": {
+         "chest": "number",
+         "waist": "number",
+         "hips": "number",
+         "arms": "number",
+         "legs": "number"
+       },
+       "progress_photos": {
+         "front": "url",
+         "side": "url",
+         "back": "url",
+         "date_taken": "timestamp"
+       }
+     },
+     "workout_metrics": {
+       "weekly_completion_rate": "percentage",
+       "exercises_completed": "number",
+       "total_volume": "number",
+       "personal_records": "array"
+     },
+     "nutrition_metrics": {
+       "meal_plan_adherence": "percentage",
+       "water_intake": "number",
+       "protein_goals_met": "percentage"
+     }
+   }
+   ```
+
+### Dashboard Integration
+1. **User Profile View Enhancements**
+   - Bio section at the top
+   - Progress timeline visualization
+   - Weekly metrics comparison
+   - Progress photo gallery
+   
+2. **Progress Visualization**
+   ```python
+   progress_charts = {
+       "metrics_timeline": {
+           "type": "line_chart",
+           "metrics": ["weight", "measurements", "completion_rates"],
+           "timeframe": "12_weeks"
+       },
+       "photo_progress": {
+           "type": "gallery",
+           "layout": "before_after",
+           "interval": "weekly"
+       },
+       "performance_metrics": {
+           "type": "bar_chart",
+           "metrics": ["volume", "intensity", "frequency"],
+           "comparison": "week_over_week"
+       }
+   }
+   ```
+
+3. **Analysis Features**
+   - Trend detection
+   - Goal progress tracking
+   - Milestone celebrations
+   - Automated insights generation
+
+### Implementation Details
+1. **Data Collection**
+   ```python
+   data_sources = {
+       "trainerize": [
+           "workout_logs",
+           "measurement_updates",
+           "progress_photos"
+       ],
+       "nutrition_tracking": [
+           "meal_logs",
+           "water_intake",
+           "supplement_tracking"
+       ],
+       "manual_input": [
+           "coach_notes",
+           "client_feedback",
+           "adjustment_records"
+       ],
+       "program_modifications": [
+           "modification_requests",
+           "exercise_changes",
+           "workout_adjustments",
+           "user_preferences"
+       ]
+   }
+   ```
+
+2. **Integration Points**
+   ```python
+   system_integration = {
+       "analytics_dashboard": {
+           "bio_display": "user_profile_section",
+           "progress_charts": "weekly_metrics_tab",
+           "photo_gallery": "progress_photos_section",
+           "program_modifications": "workout_changes_tab"
+       },
+       "followup_manager": {
+           "progress_based_messaging": True,
+           "milestone_celebrations": True,
+           "check_in_reminders": True,
+           "modification_confirmations": True
+       },
+       "program_modification": {
+           "intent_detection": {
+               "model": "gemini-2.5-pro-exp-03-25",
+               "confidence_threshold": 70,
+               "fallback_models": ["gemini-2.0-flash-thinking-exp-01-21", "gemini-2.0-flash"]
+           },
+           "action_handling": {
+               "trainerize_automation": True,
+               "exercise_validation": True,
+               "safety_checks": True,
+               "user_confirmation": True
+           },
+           "response_management": {
+               "real_time_updates": True,
+               "error_handling": True,
+               "missing_info_prompts": True
+           }
+       }
+   }
+   ```
+
+3. **Update Frequency**
+   ```python
+   update_schedule = {
+       "bio_information": "as_needed",
+       "progress_metrics": "weekly",
+       "photos": "weekly",
+       "analysis": "real_time",
+       "insights": "weekly",
+       "program_modifications": "real_time"
+   }
+   ```
+
+4. **Program Modification Flow**
+   ```python
+   modification_flow = {
+       "request_detection": {
+           "input": "user_message",
+           "processing": "gemini_ai_analysis",
+           "output": "structured_request_data"
+       },
+       "validation": {
+           "exercise_check": "library_validation",
+           "workout_compatibility": "program_rules",
+           "safety_verification": "exercise_combinations"
+       },
+       "execution": {
+           "trainerize_login": "automated_auth",
+           "program_navigation": "client_specific",
+           "modification_implementation": "selenium_automation",
+           "verification": "success_check"
+       },
+       "communication": {
+           "user_updates": "manychat_fields",
+           "confirmation": "structured_response",
+           "error_handling": "user_guidance"
+       },
+       "documentation": {
+           "analytics_update": "modification_logging",
+           "history_tracking": "user_preferences",
+           "performance_metrics": "success_rate"
+       }
+   }
+   ```
+
+### Success Metrics
+1. **Data Completeness**
+   - Bio completion rate
+   - Weekly check-in compliance
+   - Progress photo submission rate
+
+2. **User Engagement**
+   - Profile view frequency
+   - Progress tracking interaction
+   - Response to insights
+
+3. **Progress Tracking**
+   - Goal achievement rate
+   - Adherence to program
+   - Long-term retention
+
+### Privacy & Security
+1. **Data Protection**
+   - Encrypted storage
+   - Access controls
+   - Consent management
+
+2. **Sharing Controls**
+   - Client-approved sharing
+   - Progress photo privacy
+   - Metric visibility settings

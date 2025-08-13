@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T10:02:50.876687",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T10:02:29.894909",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by healthbybeans. The post is a video showing a woman performing elevated heel lunge squat lunges in a gym setting. Text overlay on the video reads \"Elevated heel lunge squat lunge 5 sets of 4\". The caption mentions it was a good leg day.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman doing donkey kicks in what appears to be a home gym. The post caption mentions focusing on arm growth, leg workouts, losing fat, and gaining muscle. The hashtags include #veganbodybuilding and #fueledbyplants.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman doing a seated single arm row in a home gym. She is using a cable machine and the caption mentions it was a back workout. The hashtags indicate she is a personal trainer, into weightlifting, vegan, and fueled by plants.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by healthbybeans shows a woman holding a container of KOS protein powder. The post details what she eats in a day as a vegan dietetic intern, including breakfast, lunch, dinner, and snacks.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, healthbybeans, posing in workout attire. She's wearing a blue sports bra and olive green shorts. The caption mentions sustainable fashion and workout routines.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by healthbybeans featuring a video of her doing rear delt flyes at the gym. She mentions seeing shoulder growth and feeling the hard work paying off. The caption includes hashtags related to fitness, veganism, and nutrition.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Vegan bodybuilding:** Given the hashtag #veganbodybuilding, a conversation could revolve around vegan sources of protein for muscle growth, favorite vegan recipes for fitness, or challenges/benefits of vegan bodybuilding.",
+          "2.  **Home gym setup:** You could ask about the equipment she has in her home gym, what she finds most useful, or tips for setting up a functional home workout space.",
+          "1.  **Home gym setups:** Asking about her home gym setup, what equipment she finds most useful, or any tips for setting up a home gym.",
+          "2.  **Vegan fitness:** Inquiring about her experience with vegan fitness, what she eats to fuel her workouts, or her favorite vegan protein sources.",
+          "1.  **Vegan Diet/Recipe Ideas:** Since she is a vegan dietetic intern, asking about her favorite vegan recipes or tips for maintaining a balanced vegan diet could be a good conversation starter."
+        ],
+        "generated_comment": "Hey! Just was having a little stalk! The elevated heel lunges looked intense! 💪",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: healthbybeans)",
+          "INTERESTS": [
+            "Vegan Bodybuilding",
+            "Weightlifting/Strength Training",
+            "Home Gym Workouts",
+            "Vegan Nutrition and Dietetics",
+            "Sustainable Fashion"
+          ],
+          "LIFESTYLE": "A vegan dietetic intern who is passionate about fitness, particularly weightlifting and bodybuilding. She incorporates both gym and home workouts into her routine and is interested in sustainable fashion. She is dedicated to a plant-based lifestyle and promoting its benefits for fitness.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite vegan protein sources for muscle growth?",
+            "Could you share some tips for setting up a functional and effective home gym?",
+            "What are some of the biggest challenges and rewards you've experienced with vegan bodybuilding?",
+            "As a dietetic intern, what's your go-to vegan recipe for a post-workout meal?",
+            "Where do you find sustainable workout clothing brands that align with your values?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated/Disciplined",
+            "Passionate",
+            "Health-conscious",
+            "Motivated"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Vegan bodybuilding:** Given the hashtag #veganbodybuilding, a conversation could revolve around vegan sources of protein for muscle growth, favorite vegan recipes for fitness, or challenges/benefits of vegan bodybuilding.",
+        "2.  **Home gym setup:** You could ask about the equipment she has in her home gym, what she finds most useful, or tips for setting up a functional home workout space.",
+        "1.  **Home gym setups:** Asking about her home gym setup, what equipment she finds most useful, or any tips for setting up a home gym.",
+        "2.  **Vegan fitness:** Inquiring about her experience with vegan fitness, what she eats to fuel her workouts, or her favorite vegan protein sources.",
+        "1.  **Vegan Diet/Recipe Ideas:** Since she is a vegan dietetic intern, asking about her favorite vegan recipes or tips for maintaining a balanced vegan diet could be a good conversation starter."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

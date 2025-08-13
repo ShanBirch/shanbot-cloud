@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T12:43:18.264999",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T12:43:02.823790",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a video still from baba67's Instagram post. The main subject is a person holding up a white paper cup with \"Crédit\" printed on it, obscuring their face. The background shows an indoor space with other people, some seated, suggesting a casual gathering or waiting area.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (presumably baba67) in an outdoor setting. He's wearing a jacket, scarf, and hat, and appears to be on a hike or enjoying a scenic view. The background features trees and a blue sky.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a live concert performance of Nass Lghiwan in Strasbourg. The band features a percussionist, a violinist, and a keyboard player.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (presumably baba67) standing in what appears to be a desert landscape with a bright sunset in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person running in a desert landscape towards a sunset. The username \"baba67\" is visible, along with the caption \"Xavier Rudd • Follow The Sun.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a band performing on stage. There are several musicians playing different instruments, including what appears to be a keyboard, string instruments, and percussion. The stage is lit with red lights.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Hiking/Outdoors: \"That looks like a great spot for a hike! Do you have any favorite trails in that area?\"",
+          "2. Travel: \"Looks like you're having a good time! Where was this photo taken?\"",
+          "1.  Music: Ask about their favorite songs by Nass Lghiwan or other similar artists.",
+          "2.  Travel/Culture: Ask about their experience in Strasbourg or other places they enjoy visiting for cultural events.",
+          "1.  Travel/Location: \"That sunset is incredible! Where was this taken?\""
+        ],
+        "profile_bio": {
+          "PERSON_NAME": "Unknown",
+          "INTERESTS": [
+            "Hiking/Outdoors",
+            "Travel",
+            "Music (especially live music and artists like Nass Lghiwan and Xavier Rudd)",
+            "Cultural Events",
+            "Sunsets/Photography"
+          ],
+          "LIFESTYLE": "Appears to enjoy traveling to diverse locations, from urban settings to deserts and scenic hiking spots. Seems to have an appreciation for live music and cultural experiences. Likely enjoys spending time outdoors and capturing moments through photography.",
+          "CONVERSATION_STARTERS": [
+            "What are some of your favorite hiking trails?",
+            "What's your favorite song by Nass Lghiwan?",
+            "What was your experience like in Strasbourg?",
+            "Where was that incredible sunset photo taken?",
+            "What other artists do you enjoy listening to besides Xavier Rudd?"
+          ],
+          "PERSONALITY_TRAITS": [
+            "Adventurous",
+            "Appreciative of nature and beauty",
+            "Interested in culture and music",
+            "Possibly introverted/private (obscuring face in one photo)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Hiking/Outdoors: \"That looks like a great spot for a hike! Do you have any favorite trails in that area?\"",
+        "2. Travel: \"Looks like you're having a good time! Where was this photo taken?\"",
+        "1.  Music: Ask about their favorite songs by Nass Lghiwan or other similar artists.",
+        "2.  Travel/Culture: Ask about their experience in Strasbourg or other places they enjoy visiting for cultural events.",
+        "1.  Travel/Location: \"That sunset is incredible! Where was this taken?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

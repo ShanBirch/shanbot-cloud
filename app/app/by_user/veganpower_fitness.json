@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T21:01:58.521403",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T21:01:39.895357",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post is a video featuring a shirtless person with blonde hair pulled back, wearing black shorts and wrist wraps, performing calisthenics on parallel bars. The person looks up and yells with apparent excitement. Text on the video says \"I stopped being so hard on myself.\" The caption encourages followers to follow @jessstjohn for vegan calisthenic coaching and @veganpower_fitness to discover vegan athletes and bodybuilders.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman wearing a black crop top and shorts with the brand's logo. The top has the words \"Train With A Purpose. Obtain Your Vegan Power\" printed on the back.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person lifting weights in a gym setting. The post is from a vegan fitness account, and the caption includes hashtags related to vegan bodybuilding, fitness, and motivation.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person wearing a black hoodie with the words \"Train with a Purpose, Obtain Your Vegan Power\" printed on the back. The person is standing outside near a lake or river with trees in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by veganpower_fitness. It shows a person lifting weights in a gym setting. The post includes hashtags related to veganism, fitness, and powerlifting. The caption mentions training with a purpose greater than oneself and encourages followers to DM if they want to be featured on their page.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by veganpower_fitness showcasing a black t-shirt with the words \"Train With A Purpose\" and \"Vegan Power\" printed on it. The post is promoting their upcoming \"The Messenger Collection.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan fitness: Inquire about their vegan fitness journey, favorite vegan protein sources, or workout routines.",
+          "2. The brand's clothing line: Ask about the design, the message behind the clothing, or other items in the collection.",
+          "1.  Vegan bodybuilding: Ask about their favorite vegan protein sources or their biggest challenges and successes with vegan bodybuilding.",
+          "2.  Fitness Motivation: Inquire about their favorite motivational strategies or ask for advice on staying consistent with fitness goals.",
+          "1. Vegan fitness and training: Discussing vegan fitness routines, favorite vegan protein sources, or the benefits of a vegan lifestyle for athletic performance."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post looked like a great workout session! 💪",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Jess St. John is mentioned as a coach, but it's unclear if they are the owner of veganpower_fitness)",
+          "INTERESTS": [
+            "Vegan Fitness",
+            "Calisthenics",
+            "Vegan Bodybuilding",
+            "Fitness Motivation",
+            "Vegan Lifestyle"
+          ],
+          "LIFESTYLE": "Likely a vegan athlete, bodybuilder, or fitness enthusiast. They are involved in calisthenics and weightlifting, and promote a vegan lifestyle through fitness and clothing. They may also be involved in coaching or mentoring others in vegan fitness.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite vegan protein sources for building muscle?",
+            "Can you tell me more about the inspiration behind 'The Messenger Collection' and the 'Train With A Purpose' message?",
+            "What are some of the biggest challenges you've faced as a vegan bodybuilder, and how have you overcome them?",
+            "What are your go-to strategies for staying motivated and consistent with your fitness goals?",
+            "I'm interested in learning more about vegan calisthenics. Do you have any tips for beginners?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Motivated",
+            "Passionate",
+            "Empowering",
+            "Driven"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan fitness: Inquire about their vegan fitness journey, favorite vegan protein sources, or workout routines.",
+        "2. The brand's clothing line: Ask about the design, the message behind the clothing, or other items in the collection.",
+        "1.  Vegan bodybuilding: Ask about their favorite vegan protein sources or their biggest challenges and successes with vegan bodybuilding.",
+        "2.  Fitness Motivation: Inquire about their favorite motivational strategies or ask for advice on staying consistent with fitness goals.",
+        "1. Vegan fitness and training: Discussing vegan fitness routines, favorite vegan protein sources, or the benefits of a vegan lifestyle for athletic performance."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

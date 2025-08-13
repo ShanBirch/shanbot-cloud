@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T17:31:23.441158",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T17:30:58.943717",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows three muscular men posing in a gym in front of a rack of dumbbells. The man in the center is wearing a red tank top and black shorts with red shoes. The man on the left is wearing a black tank top and red shorts, and the man on the right is wearing a grey tank top and black shorts with white shoes. All three men are flexing their biceps and have tattoos.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows three men in a martial arts gym, likely after a sparring session. They are wearing fighting shorts and have tattoos. The caption mentions \"Good Sparring session with Karate kid and Kick Ass Dan\" and the bio says \"VICE JIU JITSU\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows four men posing together, likely after a strength and conditioning session. They are wearing athletic apparel, and some have tattoos. The post mentions \"Awesome Strength and Conditioning session with the Wild Horse, Danny Jitsu and Karate Kid.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two men in a gym setting, posing with fists up in a boxing stance. There are rows of dumbbells in the background. The caption mentions \"Strength and Conditioning session with The Wild Horse Nordo.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two men in a gym setting. There's a neon \"Cardio\" sign in the background. Both men appear to have just completed a workout, and they are posing for the picture.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows three men posing in what appears to be a gym or fitness studio. The man in the center is wearing a Jiu Jitsu tank top and shorts with an Australian flag design. The post caption mentions \"Back and Burpees session done with Karate Kid jarrad and Jitz boy Danny.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Jiu-Jitsu/Martial Arts: You could ask about their training, their favorite techniques, or their experience with Jiu-Jitsu or other martial arts.",
+          "2. Tattoos: Comment on the tattoos, asking about the meaning behind them or the artist who did them.",
+          "1.  **Strength and Conditioning:** You could ask about their training regimen, specific exercises they focus on, or their favorite strength and conditioning techniques.",
+          "2.  **Martial Arts:** Given the mention of \"Danny Jitsu and Karate Kid\" and the MMA shirts, you could inquire about their martial arts background, preferred styles, or recent training experiences.",
+          "1.  **Fitness/Strength Training:** You could ask about their training routine, the types of exercises they focus on, or their experience with the \"Wild Horse Nordo\" program mentioned in the caption."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: bonezshuttleworth)",
+          "INTERESTS": [
+            "Jiu-Jitsu",
+            "Strength and Conditioning",
+            "Martial Arts (potentially Karate, Kickboxing)",
+            "Fitness and Gym Workouts",
+            "Tattoos"
+          ],
+          "LIFESTYLE": "Likely a fitness enthusiast and martial arts practitioner. Spends significant time in gyms and martial arts studios. Seems to train regularly with a group of friends. Possibly involved with VICE JIU JITSU.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite Jiu-Jitsu technique to use in sparring?",
+            "I noticed you train with 'Wild Horse Nordo'. What's that training program like?",
+            "Tell me about your experience with VICE JIU JITSU.",
+            "I like your tattoos! What's the story behind them?",
+            "What are your current strength and conditioning goals?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated (to fitness and training)",
+            "Social (trains with a consistent group of friends)",
+            "Disciplined (consistent training in multiple areas)",
+            "Passionate (about martial arts and fitness)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Jiu-Jitsu/Martial Arts: You could ask about their training, their favorite techniques, or their experience with Jiu-Jitsu or other martial arts.",
+        "2. Tattoos: Comment on the tattoos, asking about the meaning behind them or the artist who did them.",
+        "1.  **Strength and Conditioning:** You could ask about their training regimen, specific exercises they focus on, or their favorite strength and conditioning techniques.",
+        "2.  **Martial Arts:** Given the mention of \"Danny Jitsu and Karate Kid\" and the MMA shirts, you could inquire about their martial arts background, preferred styles, or recent training experiences.",
+        "1.  **Fitness/Strength Training:** You could ask about their training routine, the types of exercises they focus on, or their experience with the \"Wild Horse Nordo\" program mentioned in the caption."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

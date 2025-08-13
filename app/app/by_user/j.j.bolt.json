@@ -1,0 +1,65 @@
+{
+  "metrics": {
+    "total_messages": 2,
+    "user_messages": 1,
+    "ai_messages": 1,
+    "ai_questions": 1,
+    "ai_statements": 0,
+    "user_responses_to_ai_question": 0,
+    "ai_question_turns_without_user_response": 0,
+    "last_message_was_ai_question": true,
+    "question_response_rate": 0.0,
+    "conversation_start_time": "2025-04-11T17:35:24.993428",
+    "conversation_end_time": null,
+    "conversation_duration_seconds": 0,
+    "achieved_message_milestones": [],
+    "fitness_topic_initiator": null,
+    "offer_mentioned_in_conv": false,
+    "link_sent_in_conv": false,
+    "coaching_inquiry_count": 0,
+    "signup_recorded": false,
+    "vegan_topic_mentioned": false,
+    "weight_loss_mentioned": false,
+    "muscle_gain_mentioned": false,
+    "responder_category": "Low Responder",
+    "conversation_history": [
+      {
+        "timestamp": "2025-04-11T07:35:24.993428+00:00",
+        "type": "user",
+        "text": "Aye man thanks for that. Yea little Henry is now 1 month old"
+      },
+      {
+        "timestamp": "2025-04-11T07:35:25.035907+00:00",
+        "type": "ai",
+        "text": "Ah congrats man! 1 month is a cool milestone. How are you and the missus settling in with little Henry? \ud83d\ude0a"
+      }
+    ],
+    "post_analysis": null,
+    "meal_plan_offered": false,
+    "meal_plan_accepted": false,
+    "meal_plan_type": null,
+    "meal_plan_goal": null,
+    "meal_plan_customizations": [],
+    "meal_plan_feedback": null,
+    "ig_username": "j.j.bolt",
+    "first_message_timestamp": "2025-04-11T07:35:24.993428+00:00",
+    "last_message_timestamp": "2025-04-11T07:35:25.035907+00:00",
+    "conversation_duration_str": "0m",
+    "conversation_count": 1,
+    "last_seen_timestamp": "2025-04-11T07:35:25.035907+00:00"
+  },
+  "profile_bio": {},
+  "conversation_topics": [],
+  "conversation_history": [
+    {
+      "timestamp": "2025-04-11T07:35:24.993428+00:00",
+      "type": "user",
+      "text": "Aye man thanks for that. Yea little Henry is now 1 month old"
+    },
+    {
+      "timestamp": "2025-04-11T07:35:25.035907+00:00",
+      "type": "ai",
+      "text": "Ah congrats man! 1 month is a cool milestone. How are you and the missus settling in with little Henry? \ud83d\ude0a"
+    }
+  ]
+}

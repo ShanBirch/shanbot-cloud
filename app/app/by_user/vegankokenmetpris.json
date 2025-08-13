@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T21:16:37.263796",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T21:16:19.632229",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a plate of vegan food. The plate contains roasted potatoes, green beans, vegan meatballs, and a salad with shredded carrots, cabbage, and what appears to be fried tofu or croutons. The plate has a black and white floral pattern.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of risotto with spring onions, garlic, mushrooms, zucchini, and plant-based smoked salmon.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of red lentil soup and pita bread topped with hummus, tomato, and cucumber.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan food, including berry rice, edamame, tempeh, roasted peanuts, nuts, and seeds.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan food, including what appears to be a vegan \"kip\" (chicken) burger, potato wedges, green beans, and a salad with various vegetables.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a vegan dish, described as Witlof (endive) from the oven with onion, vegan minced meat, a mixed sauce, and plant-based cheese.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan cooking: Ask about their favorite vegan recipes or cooking tips.",
+          "2. Plant-based alternatives: Inquire about their experience with plant-based \"smoked salmon\" or other similar products.",
+          "1. Vegan recipes and cooking: Given the focus on vegan food and recipes, you could ask about their favorite vegan recipes or cooking tips.",
+          "2. Vegan lifestyle: The post uses hashtags related to veganism and vegan lifestyle. You could ask about their journey into veganism or their favorite aspects of a vegan lifestyle.",
+          "1.  Vegan cooking/recipes: Ask for the recipe for the tempeh or berry rice."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The vegan meatballs looked so tasty 😋",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Cooking",
+            "Plant-Based Alternatives",
+            "Healthy Eating",
+            "Recipe Development",
+            "Vegan Lifestyle"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys cooking and experimenting with vegan recipes. They are passionate about plant-based eating and creating diverse and appealing vegan meals. They likely spend time sourcing ingredients and preparing food at home.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite vegan recipes to cook?",
+            "Have you tried many different plant-based 'smoked salmon' alternatives? Which one do you recommend?",
+            "Could you share the recipe for your berry rice and tempeh dish?",
+            "What inspired you to adopt a vegan lifestyle?",
+            "What are some of your go-to vegan comfort food recipes?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (in the kitchen)",
+            "Health-conscious",
+            "Passionate (about veganism)",
+            "Resourceful (finding plant-based alternatives)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan cooking: Ask about their favorite vegan recipes or cooking tips.",
+        "2. Plant-based alternatives: Inquire about their experience with plant-based \"smoked salmon\" or other similar products.",
+        "1. Vegan recipes and cooking: Given the focus on vegan food and recipes, you could ask about their favorite vegan recipes or cooking tips.",
+        "2. Vegan lifestyle: The post uses hashtags related to veganism and vegan lifestyle. You could ask about their journey into veganism or their favorite aspects of a vegan lifestyle.",
+        "1.  Vegan cooking/recipes: Ask for the recipe for the tempeh or berry rice."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

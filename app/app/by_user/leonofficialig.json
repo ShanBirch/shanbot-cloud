@@ -1,0 +1,79 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T19:48:22.933272",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 1,
+        "timestamp": "2025-04-23T19:48:17.766438",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by leonofficialig features a stylized image with a quote about creativity. The background is a soft blend of orange and blue, resembling a sunrise or sunset. In the foreground, there's a lightbulb with the filament glowing, positioned in front of the sun. Above the lightbulb, the quote \"CREATIVITY IS KNOWING HOW TO HIDE YOUR SOURCES\" is written, attributed to C.E.M. Joad. Below the lightbulb, there is a link to Unsplash and the name Ameen Fahmy with his Instagram handle. In the bottom right corner, the logo \"azino digital\" is visible.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The lightbulb image with the quote was really thought-provoking 💡",
+        "profile_bio": {
+          "PERSON NAME": "Leon (Likely, full name unknown)",
+          "INTERESTS": [
+            "Creativity",
+            "Design (Digital)",
+            "Photography (potentially, based on Unsplash link)",
+            "Digital Art",
+            "Inspiration/Quotes"
+          ],
+          "LIFESTYLE": "Likely involved in digital design or creative work, possibly associated with 'azino digital'. Appears to curate visually appealing and thought-provoking content related to creativity. Could be a freelancer, part of a design agency, or simply passionate about digital art.",
+          "CONVERSATION STARTERS": [
+            "What does the quote 'Creativity is knowing how to hide your sources' mean to you?",
+            "What are some of your favorite sources of inspiration for your creative work?",
+            "Tell me more about your involvement with 'azino digital'.",
+            "Do you use Unsplash often for your projects? What are some of your favorite photographers on the platform?",
+            "What are some of the biggest challenges you face in your creative process, and how do you overcome them?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Thoughtful",
+            "Visually-oriented",
+            "Potentially collaborative (due to crediting Ameen Fahmy and linking Unsplash)"
+          ]
+        }
+      }
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

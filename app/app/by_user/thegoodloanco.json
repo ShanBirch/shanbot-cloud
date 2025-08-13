@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T14:56:40.800842",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T14:56:21.923587",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a wide shot of a lush, green garden. It features a variety of plants and trees, including some shaped into cones. A stone retaining wall creates a tiered effect, and gravel covers the ground. The photo is well-lit and gives a sense of tranquility and natural beauty.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an aerial view of a coastal scene. It features a beach, clear turquoise water with several boats, a boat ramp, a grassy area, and a headland in the background. The lighting suggests either sunrise or sunset.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a modern architectural design featuring a pool, orange trees, and minimalist furniture. The overall aesthetic is clean, serene, and luxurious.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an illustration promoting a giveaway of a zero-waste kit. The kit includes reusable bags, a collapsible cup, metal straws, a reusable drink bottle, and a reusable carry bag.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by thegoodloan.co asks \"what is a first home buyer application?\". The post includes hashtags related to interior design, home buying, and mortgage brokering.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "Close-up shot of a bed headboard made of woven rattan or similar natural material. The post emphasizes the detail and craftsmanship.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Travel/Vacation:** Discussing favorite coastal destinations or asking about the best time to visit the Central Coast, NSW.",
+          "2. **Boating/Water Activities:** Asking about their experience with boating or other water sports in the area.",
+          "1. Interior Design/Architecture: Discussing the design elements, the use of clean lines, or the overall aesthetic of the space. You could ask about their favorite design styles or architects.",
+          "2. Travel/Relaxation: The image evokes a sense of relaxation and escape. You could ask about their favorite vacation destinations or what they do to unwind and de-stress.",
+          "1.  **Sustainability/Zero Waste Living:** Discussing tips, challenges, or favorite products related to reducing waste and living a more sustainable lifestyle."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Sustainable Living & Zero Waste",
+            "Interior Design & Architecture (Modern/Minimalist)",
+            "Coastal Travel & Boating",
+            "Gardening & Natural Beauty",
+            "Home Ownership & Mortgage Brokering (Implied)"
+          ],
+          "LIFESTYLE": "Likely a homeowner or aspiring homeowner with an interest in sustainable living, modern design, and coastal experiences. Potentially works in the finance or real estate industry, specifically mortgage brokering, or is passionate about helping others achieve homeownership. Enjoys travel and relaxation.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite zero-waste swaps you've made recently?",
+            "I love the modern aesthetic in your photos! What are some of your favorite architects or design styles?",
+            "Have you been boating in the Central Coast, NSW? I'm planning a trip and would love to hear your recommendations.",
+            "That rattan headboard is beautiful! Where did you find it, or what are some similar styles you'd recommend?",
+            "As a first home buyer, what are some of the biggest challenges you've faced, and what advice would you give to others?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Environmentally Conscious",
+            "Aesthetic-Driven",
+            "Relaxed/Tranquil",
+            "Helpful/Informative (Implied by mortgage brokering content)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Travel/Vacation:** Discussing favorite coastal destinations or asking about the best time to visit the Central Coast, NSW.",
+        "2. **Boating/Water Activities:** Asking about their experience with boating or other water sports in the area.",
+        "1. Interior Design/Architecture: Discussing the design elements, the use of clean lines, or the overall aesthetic of the space. You could ask about their favorite design styles or architects.",
+        "2. Travel/Relaxation: The image evokes a sense of relaxation and escape. You could ask about their favorite vacation destinations or what they do to unwind and de-stress.",
+        "1.  **Sustainability/Zero Waste Living:** Discussing tips, challenges, or favorite products related to reducing waste and living a more sustainable lifestyle."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

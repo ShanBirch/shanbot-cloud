@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T14:39:36.692905",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T14:39:18.517318",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screen capture of an Instagram post by matthewbookerpt. The post features a video of Matthew in a gym, lying on a bench and lifting a dumbbell. The gym has various other exercise equipment visible in the background. The lighting in the gym is a mix of blue and white. The post's caption discusses how training doesn't have to feel like a chore and promotes personal training services.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by matthewbookerpt. The post features a video of him performing a clean lift with 100kg. The caption discusses his journey overcoming a shoulder injury from a mountain biking accident and promoting his personal training services at Optimus Gym Chichester, his YouTube channel, and discount codes for fitness apparel.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by matthewbookerpt. It shows him in a gym setting performing a weightlifting exercise. The text overlay asks \"Do you power snatch more than you full snatch?\". The post also includes hashtags related to CrossFit, weightlifting, and personal training.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man wearing a \"Coach Matt\" t-shirt, sunglasses, and a cap. He appears to be outside, possibly walking down a street. The right side of the image shows a weightlifting area.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man, presumably Matthew Booker, sitting on a weightlifting bench in what appears to be a home gym. He is wearing athletic clothing and running shoes. The background includes weightlifting equipment and a poster. The post caption mentions strength training, specifically upper body work and waiter presses, and also identifies him as a running coach/strength conditioning/Olympic lifting/weight loss and rehab specialist. He also uses hashtags like #coach #runningcoach #runninginspiration #trailrunners #ultramarathonrunner.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by matthewbookerpt. It shows a man (presumably Matthew) during a run outdoors. The post also includes text discussing the importance of calorie deficit and strength training for weight loss alongside running, and promoting his coaching services.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **His recovery from the mountain biking accident/shoulder injury:** You could ask about the specific exercises or therapies he found most helpful in his recovery, or inquire about the mental challenges he faced during that time.",
+          "2.  **Optimus Gym Chichester:** If you're familiar with the area or the gym, you could ask about his experience training there or what he enjoys most about the gym's atmosphere or facilities.",
+          "1.  Weightlifting Technique: Engage in a conversation about the differences between power snatches and full snatches, asking about his preferred technique or any tips he has for improving form.",
+          "2.  CrossFit/Weightlifting Training: Inquire about his experience with CrossFit or weightlifting, asking about his training regimen, favorite WODs (Workout of the Day), or goals in the sport.",
+          "1.  **Coaching:** Ask about his coaching philosophy or the types of clients he works with."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Matthew Booker",
+          "INTERESTS": [
+            "Weightlifting (Olympic Lifting, Powerlifting, CrossFit)",
+            "Running (Trail Running, Ultramarathons)",
+            "Strength and Conditioning",
+            "Injury Rehabilitation",
+            "Personal Training/Coaching"
+          ],
+          "LIFESTYLE": "Matthew Booker is a personal trainer and coach specializing in strength and conditioning, Olympic lifting, weight loss, and injury rehabilitation. He trains at Optimus Gym Chichester and coaches runners, including trail and ultramarathon runners. He is also a weightlifter himself, overcoming a shoulder injury from a mountain biking accident. He appears to lead an active and fitness-focused lifestyle.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about your shoulder injury from mountain biking. What were some of the most effective exercises or therapies you used during your recovery?",
+            "I'm curious about your experience at Optimus Gym Chichester. What do you enjoy most about training there?",
+            "Your post about power snatches vs. full snatches got me thinking. Do you have any tips for improving snatch form, especially for someone new to weightlifting?",
+            "I'm interested in learning more about your coaching philosophy. What types of clients do you typically work with, and what's your approach to helping them achieve their goals?",
+            "I noticed you coach runners, including trail and ultramarathon runners. What are some key strength training exercises you recommend for runners to improve their performance and prevent injuries?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated (to fitness and coaching)",
+            "Resilient (overcoming injury)",
+            "Knowledgeable (about strength training, weightlifting, and running)",
+            "Motivating (promoting fitness and personal training)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **His recovery from the mountain biking accident/shoulder injury:** You could ask about the specific exercises or therapies he found most helpful in his recovery, or inquire about the mental challenges he faced during that time.",
+        "2.  **Optimus Gym Chichester:** If you're familiar with the area or the gym, you could ask about his experience training there or what he enjoys most about the gym's atmosphere or facilities.",
+        "1.  Weightlifting Technique: Engage in a conversation about the differences between power snatches and full snatches, asking about his preferred technique or any tips he has for improving form.",
+        "2.  CrossFit/Weightlifting Training: Inquire about his experience with CrossFit or weightlifting, asking about his training regimen, favorite WODs (Workout of the Day), or goals in the sport.",
+        "1.  **Coaching:** Ask about his coaching philosophy or the types of clients he works with."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

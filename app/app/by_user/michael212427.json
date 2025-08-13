@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T15:27:40.255090",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T15:27:19.296857",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post by user michael212427. The post features a photo of a black bear climbing a tree in the woods. A \"PRIVATE PROPERTY\" sign is nailed to the tree. The caption reads \"Young bears 🐻 out romping around the woods.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a QR code for the Instagram account @MATCHESSEEDS. The post encourages followers to also follow the business on Facebook and Pinterest under the same name.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post is about YouTube's \"Keep YouTube Yours\" campaign, specifically addressing concerns about Bill C-11. The user, michael212427, is asking for opinions on the bill and sharing a link to a Google blog post about it.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a vibrant yellow Mini Cattleya orchid in bloom, potted indoors. The caption states that it has no scent but enjoys the \"summer outside.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is of a cemetery with a close-up of a headstone with the name \"Matischuk\" on it. The headstone lists several names and dates. The caption reflects on death, remembrance, and the vastness of the universe.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by user michael212427. The post features a picture of Leslie Jordan, with a caption expressing gratitude for the joy and fun he brought to the world, followed by \"RIP.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Business/Marketing on Social Media:** Could ask about their experience using different social media platforms for their business (Instagram, Facebook, Pinterest).",
+          "2. **Seed-related topics:** Since their username is @MATCHESSEEDS, you could ask about the types of seeds they sell, their favorite seeds to grow, or gardening tips.",
+          "1.  **Bill C-11:** Directly engage with their question about the bill. Ask for clarification on their stance or share your own thoughts on the potential impact on YouTube content creators and viewers.",
+          "2.  **YouTube Content Creation/Consumption:** Discuss favorite YouTube channels, content genres, or the future of online video platforms. This could lead into a broader conversation about the importance of personalized content feeds.",
+          "1.  Orchid care and cultivation: You could ask about their experience growing orchids, inquire about specific care tips for Mini Cattleyas, or share your own experiences with orchid growing."
+        ],
+        "generated_comment": "Hey! Just was having a little stalk of your profile, that bear cub looked like it was having a blast in the woods! 🐻",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Nature/Wildlife (especially bears)",
+            "Gardening (specifically orchids and potentially seeds)",
+            "Social Media Marketing/Business (MatchesSeeds)",
+            "Politics/Internet Regulation (Bill C-11)",
+            "Remembrance/Mortality"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys spending time outdoors, possibly living near wooded areas. They are involved in a business related to seeds (MatchesSeeds) and are active on social media. They also seem to have an appreciation for beauty, as evidenced by the orchid photo, and a reflective side, indicated by the cemetery post.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite types of seeds to grow for MatchesSeeds, and do you have any gardening tips for beginners?",
+            "What are your thoughts on the potential impact of Bill C-11 on YouTube content creators and viewers?",
+            "I noticed your Mini Cattleya orchid. What are some of the challenges you've faced growing orchids, and what advice would you give to someone just starting out?",
+            "Can you tell me more about MatchesSeeds and your experience using Instagram, Facebook, and Pinterest for your business?",
+            "What are some of your favorite YouTube channels or content genres that you enjoy watching?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Appreciative (Gratitude for Leslie Jordan)",
+            "Reflective/Contemplative (Cemetery post)",
+            "Business-minded (Promoting MatchesSeeds)",
+            "Engaged/Opinionated (Bill C-11 post)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Business/Marketing on Social Media:** Could ask about their experience using different social media platforms for their business (Instagram, Facebook, Pinterest).",
+        "2. **Seed-related topics:** Since their username is @MATCHESSEEDS, you could ask about the types of seeds they sell, their favorite seeds to grow, or gardening tips.",
+        "1.  **Bill C-11:** Directly engage with their question about the bill. Ask for clarification on their stance or share your own thoughts on the potential impact on YouTube content creators and viewers.",
+        "2.  **YouTube Content Creation/Consumption:** Discuss favorite YouTube channels, content genres, or the future of online video platforms. This could lead into a broader conversation about the importance of personalized content feeds.",
+        "1.  Orchid care and cultivation: You could ask about their experience growing orchids, inquire about specific care tips for Mini Cattleyas, or share your own experiences with orchid growing."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

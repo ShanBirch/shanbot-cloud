@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T20:16:50.312932",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T20:16:34.245756",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by greeniegenie42 features a still image of Val Kilmer as Madmartigan from the movie \"Willow.\" He is wearing a detailed warrior costume with armor and leather straps. The background is a rocky, mountainous landscape. The post caption reads \"RIP Val! You were always MY Batman. #valkilmer #willow #thedoors #imyourhuckleberry #batman\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man holding a baby in what appears to be a car. The man is looking out the window. The hashtags include #daddy #babyboy #fatherandson.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man holding a baby, presumably his son, outside. The caption mentions the baby's name is Royce. The location is Baton Rouge, Louisiana.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a neon sign that says \"HUMBLE HUSTLE\". The post also includes hashtags like #husbandandwife, #veganfitness, #soberlife, #happy, #healthy, and #runeverywhere.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a person wearing glasses, a t-shirt, and jeans. The caption includes hashtags related to being vegan, fitness, and New Orleans (#nola). The post is also tagged with a Lynyrd Skynyrd song, \"Call Me The Breeze.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person using a power saw to cut reclaimed wood. The post is tagged with hashtags related to woodworking, fitness, and a sober lifestyle.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Parenting: \"How are you finding fatherhood so far?\" or \"What's been the most surprising thing about being a dad?\"",
+          "2. Travel/Road Trips: \"Looks like you're on a road trip! Where are you headed?\" or \"Any tips for traveling with a baby?\"",
+          "1.  Parenting/Fatherhood: Commenting on the joys or challenges of being a parent, or asking about Royce's development.",
+          "2.  Baton Rouge: Asking about interesting places to visit or things to do in Baton Rouge.",
+          "1. **Vegan Fitness:** Given the #veganfitness hashtag, inquiring about their workout routine or favorite vegan recipes could be a good conversation starter."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! I loved that pic of Val Kilmer, he was so good in Willow! ⚔️",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Parenting (especially fatherhood)",
+            "Veganism and Fitness",
+            "Woodworking/DIY",
+            "Movies (especially Val Kilmer films like Willow and Batman)",
+            "Music (Lynyrd Skynyrd, The Doors)"
+          ],
+          "LIFESTYLE": "Lives in or near Baton Rouge, Louisiana. Appears to be a dedicated father to a baby boy named Royce. Enjoys woodworking and maintaining a vegan, sober, and healthy lifestyle. Possibly self-employed or involved in a 'humble hustle' business venture.",
+          "CONVERSATION STARTERS": [
+            "How are you finding fatherhood so far?",
+            "What are some of your favorite vegan recipes for staying fit?",
+            "What kind of woodworking projects are you currently working on?",
+            "What are some of your favorite things to do in Baton Rouge with Royce?",
+            "I noticed you're a Val Kilmer fan! What's your favorite movie of his?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Family-oriented",
+            "Health-conscious",
+            "Creative/Handy",
+            "Nostalgic/Appreciative of classic movies and music"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Parenting: \"How are you finding fatherhood so far?\" or \"What's been the most surprising thing about being a dad?\"",
+        "2. Travel/Road Trips: \"Looks like you're on a road trip! Where are you headed?\" or \"Any tips for traveling with a baby?\"",
+        "1.  Parenting/Fatherhood: Commenting on the joys or challenges of being a parent, or asking about Royce's development.",
+        "2.  Baton Rouge: Asking about interesting places to visit or things to do in Baton Rouge.",
+        "1. **Vegan Fitness:** Given the #veganfitness hashtag, inquiring about their workout routine or favorite vegan recipes could be a good conversation starter."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

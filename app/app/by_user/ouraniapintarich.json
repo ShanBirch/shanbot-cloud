@@ -1,0 +1,77 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 6,
+      "user_messages": 3,
+      "ai_messages": 3,
+      "ai_questions": 3,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 2,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": true,
+      "question_response_rate": 0.5,
+      "conversation_start_time": "2025-04-15T23:21:05.222602",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 32256.108592,
+      "achieved_message_milestones": [
+        5
+      ],
+      "fitness_topic_initiator": "user",
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-15T13:21:05.218567+00:00",
+          "type": "user",
+          "text": "Sorry to disappoint you but those are my models. I'm the girl in the green dress with the white flowers but I will let them know. Thanks 👍"
+        },
+        {
+          "timestamp": "2025-04-15T13:21:05.491262+00:00",
+          "type": "ai",
+          "text": "Sorry about that! You looked amazing in that green dress though! Was it a fun shoot to do?"
+        },
+        {
+          "timestamp": "2025-04-15T21:05:58.217993+00:00",
+          "type": "user",
+          "text": "Sorry to disappoint you but those are my models. I'm the girl in the green dress with the white flowers but I will let them know. Thanks 👍 + Shannon: Sorry about that! You looked amazing in that green dress though! Was it a fun shoot to do? {{cuf_11967919}}  {{cuf_11967920}} Lead : That's so fine 🙂 \nThankyou. Yeah I have been doing fashion since I was 17 years old so it's always fun to do. I see you do training that's amazing I love training too. I run and do weights . It's my zen place. Well I appreciate the contact I hope in the future everything you ever dreamed of comes true for you. 🙏👍"
+        },
+        {
+          "timestamp": "2025-04-15T21:05:58.459483+00:00",
+          "type": "ai",
+          "text": "Oh wow fashion since 17! That's awesome! And love that training is your zen place too! What sort of running do you usually do?"
+        },
+        {
+          "timestamp": "2025-04-15T22:18:46.728653+00:00",
+          "type": "user",
+          "text": "Sorry to disappoint you but those are my models. I'm the girl in the green dress with the white flowers but I will let them know. Thanks 👍 + Shannon: Sorry about that! You looked amazing in that green dress though! Was it a fun shoot to do? {{cuf_11967919}}  {{cuf_11967920}} Lead : That's so fine 🙂 \nThankyou. Yeah I have been doing fashion since I was 17 years old so it's always fun to do. I see you do training that's amazing I love training too. I run and do weights . It's my zen place. Well I appreciate the contact I hope in the future everything you ever dreamed of comes true for you. 🙏👍 + Shannon: Oh wow fashion since 17! That's awesome! And love that training is your zen place too! What sort of running do you usually do? {{cuf_11967919}}  {{cuf_11967920}} Lead : Thanks heaps 👍\nYeah I run on the treadmill I do about from 5 km to 10 km. It depends on how I feel especially after having a big day with my 2 yr old son,lol 😆\nAt least I'm doing something that's what my husband says ,his funny 😂"
+        },
+        {
+          "timestamp": "2025-04-15T22:18:47.069164+00:00",
+          "type": "ai",
+          "text": "Yeah okay treadmill is solid! Do you usually do it at home or gym? 💪"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "ouraniapintarich",
+      "first_message_timestamp": "2025-04-15T13:21:05.218567+00:00",
+      "last_message_timestamp": "2025-04-15T22:18:47.069164+00:00",
+      "conversation_duration_str": "8h 57m",
+      "conversation_count": 1,
+      "last_seen_timestamp": "2025-04-15T22:18:47.069164+00:00"
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

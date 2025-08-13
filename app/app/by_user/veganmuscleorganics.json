@@ -1,0 +1,102 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T09:17:42.509367",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 3,
+        "timestamp": "2025-04-15T09:17:32.488977",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a Happy New Year greeting from Vegan Muscle Organics. It features a navy blue background with white text that reads \"HAPPY NEW YEAR FROM VEGAN MUSCLE ORGANICS\". Above the text is a stylized graphic of a rising sun made of white lines, with a small, minimalist drawing of a muscular arm flexing in the center of the sun.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by veganmuscleorganics announcing that they have trademarked their logo. The logo is a minimalist design featuring a muscular arm sprouting a plant. The post also includes hashtags related to fitness, veganism, and organic products.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person with flexed biceps, standing with a scenic view of mountains and the ocean in the background. The post is an introduction to Vegan Muscle Organics, a company focused on vegan fitness supplements and a holistic approach to mind and body wellness.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Vegan fitness:** The post focuses on vegan muscle gain, so asking about their own vegan fitness journey or favorite vegan protein sources could be a good conversation starter.",
+          "2.  **Organic and natural products:** The company emphasizes organic and natural ingredients. Asking about their interest in organic products or their thoughts on the benefits of organic food could be a relevant topic.",
+          "1. **Vegan Fitness/Supplements:** Inquire about their specific vegan fitness supplement line, asking about the ingredients, benefits, or target audience.",
+          "2. **Mindfulness/Holistic Wellness:** Ask about the mindfulness aspect of their brand and how they incorporate it into their products or philosophy."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The sun graphic looked really cool! 💪",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Fitness",
+            "Vegan Supplements",
+            "Organic and Natural Products",
+            "Holistic Wellness (Mind & Body)",
+            "Trademarking/Business"
+          ],
+          "LIFESTYLE": "Likely involved in the fitness industry, promoting a vegan lifestyle and organic products. Possibly an entrepreneur or part of a team focused on developing and marketing vegan supplements and promoting a holistic approach to health.",
+          "CONVERSATION STARTERS": [
+            "What inspired you to create Vegan Muscle Organics and focus on vegan fitness?",
+            "Can you tell me more about the specific ingredients in your vegan fitness supplement line and their benefits?",
+            "How do you incorporate mindfulness and holistic wellness into your products and overall brand philosophy?",
+            "What are some of your favorite vegan protein sources for building muscle?",
+            "What are some of the challenges and rewards of running a business focused on vegan and organic products?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven (Trademarking their logo)",
+            "Health-conscious (Focus on veganism, organic products, and holistic wellness)",
+            "Passionate (About vegan fitness and promoting a healthy lifestyle)",
+            "Professional (Presents a polished brand image)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Vegan fitness:** The post focuses on vegan muscle gain, so asking about their own vegan fitness journey or favorite vegan protein sources could be a good conversation starter.",
+        "2.  **Organic and natural products:** The company emphasizes organic and natural ingredients. Asking about their interest in organic products or their thoughts on the benefits of organic food could be a relevant topic.",
+        "1. **Vegan Fitness/Supplements:** Inquire about their specific vegan fitness supplement line, asking about the ingredients, benefits, or target audience.",
+        "2. **Mindfulness/Holistic Wellness:** Ask about the mindfulness aspect of their brand and how they incorporate it into their products or philosophy."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

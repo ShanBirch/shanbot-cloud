@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T10:19:25.017483",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T10:19:06.616306",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a full-body shot of a woman with dark hair wearing a metallic blue bikini. She is standing indoors with one hand raised behind her head. The background is slightly blurred, but appears to be a room with dark wooden elements. The woman is toned and appears confident. The post is from @healthyandfit.ca and the caption discusses their Metabolic Balance program.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in a pink workout outfit, standing in a yoga pose with her arms raised. She is in a room with large windows. The post discusses the impact of stress on metabolism and offers solutions like customized nutrition plans and stress management techniques.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in a pink jumpsuit standing near a window. The post is from a health and fitness account and lists 5 habits to upgrade health.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in scrubs, presumably a healthcare worker, standing in what appears to be a clinic or office setting. There's a plant in the background. The caption mentions \"clinic vibes now, gym grind later\" and emphasizes health as a lifestyle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman standing by a body of water on a sunny day. She is wearing jeans, boots, and a light-colored jacket. The post is captioned with \"#VibesOnly #MysteryMood #CowgirlElegance\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a creative advertisement by healthyandfit.ca, portraying the owner as a \"DollGoneWild\" fitness figure in a toy package. The package includes symbols representing aspects of a healthy lifestyle: a protein shake, a yoga pose, a salad, sleep, and dumbbells.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Yoga/Mindfulness: \"I noticed you're doing a yoga pose in the picture. Do you find yoga or other mindfulness practices helpful for managing stress, as mentioned in your post?\"",
+          "2. Nutrition/Metabolism: \"Your post about the connection between stress and metabolism was interesting. What are some simple dietary changes people can make to support their metabolism when they're feeling stressed?\"",
+          "1.  **Fitness/Workout Routines:** The post emphasizes daily movement and mindful recovery. You could ask about her favorite types of workouts or recovery methods.",
+          "2.  **Nutrition:** The post mentions balanced nutrition and healthy fats. You could ask about her favorite healthy recipes or her approach to meal planning.",
+          "1.  **Fitness/Gym Routine:** Given the mention of \"gym grind later,\" you could ask about her favorite workouts or fitness goals."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The metallic blue bikini looked amazing on you! ✨",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: healthyandfit.ca)",
+          "INTERESTS": [
+            "Fitness (Weight Training, Yoga)",
+            "Nutrition (Metabolic Balance, Healthy Eating)",
+            "Wellness (Stress Management, Mindfulness)",
+            "Fashion/Style (Workout Apparel, Western/Cowgirl Style)",
+            "Health & Healthcare (Potentially a healthcare professional)"
+          ],
+          "LIFESTYLE": "Appears to be a health and fitness professional or enthusiast who promotes a balanced lifestyle encompassing physical activity, mindful recovery, and healthy eating. She may also work in the healthcare field. She values both the 'gym grind' and mindful practices like yoga. Enjoys outdoor activities and expressing her personal style.",
+          "CONVERSATION STARTERS": [
+            "I noticed you're doing a yoga pose in the picture. Do you find yoga or other mindfulness practices helpful for managing stress, as mentioned in your post?",
+            "Your post about the connection between stress and metabolism was interesting. What are some simple dietary changes people can make to support their metabolism when they're feeling stressed?",
+            "What are your favorite types of workouts or recovery methods?",
+            "What are your favorite healthy recipes or your approach to meal planning?",
+            "I'm curious about your Metabolic Balance program. What makes it unique compared to other nutrition plans?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Confident",
+            "Driven/Motivated",
+            "Stylish/Expressive",
+            "Dedicated/Disciplined"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Yoga/Mindfulness: \"I noticed you're doing a yoga pose in the picture. Do you find yoga or other mindfulness practices helpful for managing stress, as mentioned in your post?\"",
+        "2. Nutrition/Metabolism: \"Your post about the connection between stress and metabolism was interesting. What are some simple dietary changes people can make to support their metabolism when they're feeling stressed?\"",
+        "1.  **Fitness/Workout Routines:** The post emphasizes daily movement and mindful recovery. You could ask about her favorite types of workouts or recovery methods.",
+        "2.  **Nutrition:** The post mentions balanced nutrition and healthy fats. You could ask about her favorite healthy recipes or her approach to meal planning.",
+        "1.  **Fitness/Gym Routine:** Given the mention of \"gym grind later,\" you could ask about her favorite workouts or fitness goals."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

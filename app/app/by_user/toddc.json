@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T10:33:09.694143",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T10:32:48.806301",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a wide shot of a beach in Corfu, Greece, posted by user t.o.d.d.c. The sky is a clear, bright blue with a few scattered white clouds. In the background, there are mountains across the water. The foreground shows a beach with people enjoying the water and sun. There are several beach umbrellas, including a large blue and white striped one in the right foreground. People are swimming, wading, and relaxing on the beach. The water is a clear turquoise color.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man and a woman standing on a rocky, white cliff overlooking the ocean. The location tag indicates they are in Milos, Greece.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two people on a sailboat in Naousa, Paros Island, Greece. The water is turquoise, and there's a rocky coastline in the background with buildings.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man and a woman standing together in what appears to be a sunny, coastal location in Greece. The background features white buildings and a clear blue sky. The man is wearing a tank top and linen pants, while the woman is wearing a similar style of clothing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a beach scene at sunrise or sunset. There is a person on a paddleboard in the distance on the water. The caption is \"Cowabunga dude\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a scenic shot of a sunset over a body of water, likely a river or lake. There are trees silhouetted in the foreground, and the sky is filled with vibrant orange and yellow hues. The caption reads \"I'm a sucker for sunsets.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Travel: \"I saw your post from Milos! I've always wanted to go to Greece. What were some of your favorite things to do there?\"",
+          "2. Photography/Scenery: \"That photo you took in Milos is stunning! The landscape looks incredible. What kind of camera do you use?\"",
+          "1. Travel to Paros Island/Greece: \"I saw your post from Paros Island! It looks beautiful. Have you been there before, or was this your first time?\"",
+          "2. Sailing/Boating: \"That's a great picture of you on the sailboat! Are you an experienced sailor?\"",
+          "1. Travel: Since the location is identified as Paros Island, Greece, you could ask about their travel experiences there, such as favorite spots, restaurants, or activities."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Travel (especially Greece)",
+            "Photography (especially landscapes and scenery)",
+            "Sailing/Boating",
+            "Beaches and Coastal Scenery",
+            "Sunsets"
+          ],
+          "LIFESTYLE": "Appears to enjoy traveling, particularly to Greece. Enjoys outdoor activities like swimming, sailing, and paddleboarding. Appears to have a relaxed and adventurous lifestyle, appreciating beautiful scenery and sharing it through photography.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite hidden gems in Greece that aren't as crowded with tourists?",
+            "Your photos are amazing! What kind of photography equipment do you use, and do you have any tips for capturing stunning landscapes?",
+            "I saw you were sailing in Paros. What's your experience level with sailing, and what do you enjoy most about it?",
+            "What's the story behind the 'Cowabunga dude' caption? Are you a surfer or just a fan of the phrase?",
+            "You seem to have a real appreciation for sunsets. What's the most memorable sunset you've ever witnessed?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Appreciative of beauty",
+            "Relaxed/Easygoing",
+            "Photographically inclined"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Travel: \"I saw your post from Milos! I've always wanted to go to Greece. What were some of your favorite things to do there?\"",
+        "2. Photography/Scenery: \"That photo you took in Milos is stunning! The landscape looks incredible. What kind of camera do you use?\"",
+        "1. Travel to Paros Island/Greece: \"I saw your post from Paros Island! It looks beautiful. Have you been there before, or was this your first time?\"",
+        "2. Sailing/Boating: \"That's a great picture of you on the sailboat! Are you an experienced sailor?\"",
+        "1. Travel: Since the location is identified as Paros Island, Greece, you could ask about their travel experiences there, such as favorite spots, restaurants, or activities."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

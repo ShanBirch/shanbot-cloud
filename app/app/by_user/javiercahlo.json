@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T07:40:28.867032",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T07:40:08.145547",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up selfie of a man, presumably Javiercahlo, lying down outside. He has dark hair, a mustache, and a slight smile. He is wearing a yellow tank top and has several visible tattoos on his neck and arms. The background appears to be a textured, light-colored surface, possibly a wall or ground.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a man, Javiercahlo, likely taken as part of an Instagram Reel. The text overlay indicates he is a \"profesor de matemática\" (math teacher).",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up selfie of a man smiling. The text in the post mentions \"profesor de matemática\" which translates to \"mathematics professor\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a man with short dark hair and light eyes. He is shirtless and wearing a beaded necklace. He has one arm raised behind his head.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of Javiercahlo smiling. He is wearing a necklace.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (javiercahlo) standing outside in what appears to be a courtyard or patio. He is wearing a button-down shirt, light-colored pants, and dress shoes. The background is a plain white wall.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Mathematics: Given that he identifies as a math teacher, asking about his favorite area of mathematics, or a challenging problem he's working on, could be a good conversation starter.",
+          "2. Teaching: Asking about his experience as a teacher, or his approach to teaching mathematics, could also be a good way to engage with him.",
+          "1.  Mathematics: Given that the post mentions he is a mathematics professor, asking about his work, teaching methods, or favorite areas of mathematics could be a good conversation starter.",
+          "2.  Language: The post includes Spanish text. You could ask about his language background or if he teaches in Spanish.",
+          "1.  The necklace: \"That's a cool necklace! Is there a story behind it?\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Javier Cahlo",
+          "INTERESTS": [
+            "Mathematics",
+            "Teaching",
+            "Fashion/Accessories (Necklaces, Tattoos)",
+            "Fitness/Well-being (Implied by shirtless photos and outdoor activity)",
+            "Photography/Selfies"
+          ],
+          "LIFESTYLE": "Javier is a mathematics professor. He appears to enjoy taking selfies and showcasing his personal style, including tattoos and necklaces. He also seems to enjoy spending time outdoors.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite area of mathematics to teach or research?",
+            "What's your approach to teaching mathematics, and what do you find most rewarding about it?",
+            "That's a cool necklace! Is there a story behind it?",
+            "Do you teach mathematics in Spanish or English (or another language)?",
+            "What's a challenging math problem you're currently working on, or one that you find particularly fascinating?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Confident (Comfortable taking selfies and showing off his style)",
+            "Approachable (Smiling in many photos)",
+            "Creative (Expressing himself through tattoos and accessories)",
+            "Dedicated (To his profession as a mathematics professor)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Mathematics: Given that he identifies as a math teacher, asking about his favorite area of mathematics, or a challenging problem he's working on, could be a good conversation starter.",
+        "2. Teaching: Asking about his experience as a teacher, or his approach to teaching mathematics, could also be a good way to engage with him.",
+        "1.  Mathematics: Given that the post mentions he is a mathematics professor, asking about his work, teaching methods, or favorite areas of mathematics could be a good conversation starter.",
+        "2.  Language: The post includes Spanish text. You could ask about his language background or if he teaches in Spanish.",
+        "1.  The necklace: \"That's a cool necklace! Is there a story behind it?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

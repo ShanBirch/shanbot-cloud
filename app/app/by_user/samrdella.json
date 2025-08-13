@@ -1,0 +1,103 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 8,
+      "user_messages": 6,
+      "ai_messages": 2,
+      "ai_questions": 2,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 1,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": true,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-10T20:10:36.527996",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 72842.974913,
+      "achieved_message_milestones": [
+        5
+      ],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-09T04:10:23.356077+00:00",
+          "type": "user",
+          "text": "Oh thanks. It was a few different walks."
+        },
+        {
+          "timestamp": "2025-04-09T04:10:23.374635+00:00",
+          "type": "ai",
+          "text": "oh nice! How's your day going?"
+        },
+        {
+          "timestamp": "2025-04-09T07:01:55.848728+00:00",
+          "type": "user",
+          "text": "Oh thanks. It was a few different walks. + Shannon: oh nice! How's your day going? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yeah not too bad thanks. How about yours?"
+        },
+        {
+          "timestamp": "2025-04-09T11:06:37.317219+00:00",
+          "type": "user",
+          "text": "Oh thanks. It was a few different walks. + Shannon: oh nice! How's your day going? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yeah not too bad thanks. How about yours? + Shannon: Yeah going well thanks mate! Just finishing up some work here. Anything interesting happen on your walks? {{cuf_11967919}}  {{cuf_11967920}} Lead : That’s good. Working at the studio!?\n\nAhh Nahh not really. Just some cool wildlife  hha"
+        },
+        {
+          "timestamp": "2025-04-09T11:21:06.801412+00:00",
+          "type": "user",
+          "text": "Oh thanks. It was a few different walks. + Shannon: oh nice! How's your day going? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yeah not too bad thanks. How about yours? + Shannon: Yeah going well thanks mate! Just finishing up some work here. Anything interesting happen on your walks? {{cuf_11967919}}  {{cuf_11967920}} Lead : That’s good. Working at the studio!?\n\nAhh Nahh not really. Just some cool wildlife  hha + Shannon: Nah just doing some online work from upstairs! Wildlife is cool though, what did you see? {{cuf_11967919}}  {{cuf_11967920}} Lead : Oh that’s handy!\nA seal, an echidna and a snake believe it or not lol 😂"
+        },
+        {
+          "timestamp": "2025-04-10T07:56:53.590108+00:00",
+          "type": "user",
+          "text": "Oh thanks. It was a few different walks. + Shannon: oh nice! How's your day going? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yeah not too bad thanks. How about yours? + Shannon: Yeah going well thanks mate! Just finishing up some work here. Anything interesting happen on your walks? {{cuf_11967919}}  {{cuf_11967920}} Lead : That’s good. Working at the studio!?\n\nAhh Nahh not really. Just some cool wildlife  hha + Shannon: Nah just doing some online work from upstairs! Wildlife is cool though, what did you see? {{cuf_11967919}}  {{cuf_11967920}} Lead : Oh that’s handy!\nA seal, an echidna and a snake believe it or not lol 😂 + Shannon: Haha solid wildlife spotting mate! A snake hey, that's wild. Where abouts was this walk? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yeah haha it was a few different ones + Point Nepean is where the seal was, the echidna was greens bush in Mornington and the snake was the redwood forest + Shannon: Point Nepean for seals is awesome! Redwood forest for snakes is wild haha! Do you walk around those areas often? {{cuf_11967919}}  {{cuf_11967920}} Lead : Haha yeah the seal was a bit of a surprise!!! Cool though. \nRedwood not very often.  Warburton is gorgeous though and has lots of tracks. \nI just like to trail walk in summer. \nHow about you?"
+        },
+        {
+          "timestamp": "2025-04-11T03:10:58.527416+00:00",
+          "type": "user",
+          "text": "Oh thanks. It was a few different walks. + Shannon: oh nice! How's your day going? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yeah not too bad thanks. How about yours? + Shannon: Yeah going well thanks mate! Just finishing up some work here. Anything interesting happen on your walks? {{cuf_11967919}}  {{cuf_11967920}} Lead : That’s good. Working at the studio!?\n\nAhh Nahh not really. Just some cool wildlife  hha + Shannon: Nah just doing some online work from upstairs! Wildlife is cool though, what did you see? {{cuf_11967919}}  {{cuf_11967920}} Lead : Oh that’s handy!\nA seal, an echidna and a snake believe it or not lol 😂 + Shannon: Haha solid wildlife spotting mate! A snake hey, that's wild. Where abouts was this walk? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yeah haha it was a few different ones + Point Nepean is where the seal was, the echidna was greens bush in Mornington and the snake was the redwood forest + Shannon: Point Nepean for seals is awesome! Redwood forest for snakes is wild haha! Do you walk around those areas often? {{cuf_11967919}}  {{cuf_11967920}} Lead : Haha yeah the seal was a bit of a surprise!!! Cool though. \nRedwood not very often.  Warburton is gorgeous though and has lots of tracks. \nI just like to trail walk in summer. \nHow about you? + Shannon: Yeah Warburton is stunning hey! Love getting outdoors for a walk myself, used to ride bikes everywhere on Tamborine Mountain growing up.  Any favourite tracks out Warburton way?  Lead : Yeah it’s gorgeous.  \nOhhh where is Tamborine mountain!?\nUmmm… I don’t actually. I usually just drive there and try and find somewhere to walk. \nI quite like the greens bush walk to bush rangers bay though.  That would be my favourite lately. + Shannon: Greens Bush walk is awesome hey! Tamborine Mountain is in QLD, near the Gold Coast. What do you like about Greens Bush walk so much? {{cuf_11967919}}  {{cuf_11967920}} Lead : Ohh I see.  Are you originally from qld?\nI like that it’s not overcrowded or busy, the trail is gorgeous and it leads to the beach at the end!"
+        },
+        {
+          "timestamp": "2025-04-11T03:10:58.572098+00:00",
+          "type": "ai",
+          "text": "Yep, born and raised in QLD! Totally agree, less crowds and a beach finish is the best combo. What's the beach like at the end there?"
+        },
+        {
+          "timestamp": "2025-04-11T06:24:46.009014+00:00",
+          "type": "user",
+          "text": "Oh thanks. It was a few different walks. + Shannon: oh nice! How's your day going? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yeah not too bad thanks. How about yours? + Shannon: Yeah going well thanks mate! Just finishing up some work here. Anything interesting happen on your walks? {{cuf_11967919}}  {{cuf_11967920}} Lead : That’s good. Working at the studio!?\n\nAhh Nahh not really. Just some cool wildlife  hha + Shannon: Nah just doing some online work from upstairs! Wildlife is cool though, what did you see? {{cuf_11967919}}  {{cuf_11967920}} Lead : Oh that’s handy!\nA seal, an echidna and a snake believe it or not lol 😂 + Shannon: Haha solid wildlife spotting mate! A snake hey, that's wild. Where abouts was this walk? {{cuf_11967919}}  {{cuf_11967920}} Lead : Yeah haha it was a few different ones + Point Nepean is where the seal was, the echidna was greens bush in Mornington and the snake was the redwood forest + Shannon: Point Nepean for seals is awesome! Redwood forest for snakes is wild haha! Do you walk around those areas often? {{cuf_11967919}}  {{cuf_11967920}} Lead : Haha yeah the seal was a bit of a surprise!!! Cool though. \nRedwood not very often.  Warburton is gorgeous though and has lots of tracks. \nI just like to trail walk in summer. \nHow about you? + Shannon: Yeah Warburton is stunning hey! Love getting outdoors for a walk myself, used to ride bikes everywhere on Tamborine Mountain growing up.  Any favourite tracks out Warburton way?  Lead : Yeah it’s gorgeous.  \nOhhh where is Tamborine mountain!?\nUmmm… I don’t actually. I usually just drive there and try and find somewhere to walk. \nI quite like the greens bush walk to bush rangers bay though.  That would be my favourite lately. + Shannon: Greens Bush walk is awesome hey! Tamborine Mountain is in QLD, near the Gold Coast. What do you like about Greens Bush walk so much? {{cuf_11967919}}  {{cuf_11967920}} Lead : Ohh I see.  Are you originally from qld?\nI like that it’s not overcrowded or busy, the trail is gorgeous and it leads to the beach at the end! + Shannon: Yep, born and raised in QLD! Totally agree, less crowds and a beach finish is the best combo. What's the beach like at the end there? {{cuf_11967919}}  {{cuf_11967920}} Lead : Oh how cool! When did you move to Melbs?\nIt’s not bad.  The waves are quite big and rough so not ideal to swim in but the rock pools are stunning"
+        },
+        {
+          "timestamp": "2025-04-11T06:24:46.068022+00:00",
+          "type": "ai",
+          "text": "Rock pools are awesome hey! Do you get in and explore or just check em out from the side? Sounds like you love a coastal walk!"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "samrdella",
+      "user_responses_to_questions": 0,
+      "response_rate": 0.0,
+      "coaching_inquiries": 0,
+      "ai_detections": 0,
+      "first_message_timestamp": "2025-04-09T04:10:23.356077+00:00",
+      "last_message_timestamp": "2025-04-11T06:24:46.068022+00:00",
+      "last_seen_timestamp": "2025-04-11T06:24:46.068022+00:00",
+      "conversation_count": 1,
+      "conversation_duration_str": "2d 2h 14m",
+      "fitness_topic_user_initiated": false,
+      "fitness_topic_ai_initiated": false
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

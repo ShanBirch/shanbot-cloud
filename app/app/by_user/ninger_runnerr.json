@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T00:55:01.353093",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T00:54:43.406236",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a scenic view of a beach in Krabi, Thailand. The ocean is calm with gentle waves, and the sky is partly cloudy. The photo has a slightly desaturated, dreamy quality. Lush greenery lines the shore on the left. The post indicates it's a paid partnership.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A woman in athletic wear is standing on a paved path with a body of water and greenery in the background. She is holding a bottle of what appears to be a sports drink. Her shirt says \"RUN AWAY CLUB\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person in cycling gear standing next to a Giant road bike. The post includes stats from a morning ride: 116.6 km, 403 m elevation gain, and a time of 4 hours and 58 minutes. The location appears to be in Phuket, as indicated by the hashtag #zcoachingphuket.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person in running attire standing on a road next to a body of water and hills. The person is holding a small item in their hand, possibly an energy gel or snack. The caption mentions \"Interval running Day Wednesday Dam!\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a screenshot of an Instagram post by ninger_runnerr. The post features a photo of a beach with the ocean and trees in the background. The caption describes an open water swim, mentioning distance, time, and pace. The caption also mentions training, tonsillitis, and swimming with a buddy named Emma.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a lantern attached to a white wall, with greenery and yellow flowers in the background. The post is captioned \"Raining in summer time\" and tagged #soontreehouse. The location is Phuket, Thailand.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Running: Ask about her running routine, favorite running routes, or any upcoming races she's participating in.",
+          "2. The \"RUN AWAY CLUB\": Inquire about what the \"RUN AWAY CLUB\" is, if she is a member, and what activities they participate in.",
+          "1. Cycling: Ask about their experience cycling in Phuket, or inquire about their favorite routes or cycling goals.",
+          "2. Bike/Gear: Ask about their Giant bike, or what kind of gear they like to use.",
+          "1. Running: Ask about their running routine, favorite routes, or training tips."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The beach looked so peaceful and serene 🏖️",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Running",
+            "Cycling",
+            "Swimming (Open Water)",
+            "Travel (Thailand, specifically Phuket and Krabi)",
+            "Fitness & Training"
+          ],
+          "LIFESTYLE": "Appears to be an active individual living in or frequently visiting Phuket, Thailand. They are involved in endurance sports like running, cycling, and swimming, and participate in structured training. They may be affiliated with a running club ('RUN AWAY CLUB') and possibly a coaching program (#zcoachingphuket). They appreciate nature and scenic views.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about your 116km ride in Phuket! What are some of your favorite cycling routes there?",
+            "The beach photo from Krabi is stunning! What was it like swimming there?",
+            "I noticed you're part of the 'RUN AWAY CLUB'. What kind of activities do you guys do?",
+            "Your interval running post mentioned 'Wednesday Dam'. Is that a regular running spot for you?",
+            "I'm curious about your training routine. Do you have any tips for someone looking to improve their open water swimming pace?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Active",
+            "Dedicated (to fitness and training)",
+            "Adventurous",
+            "Appreciative of nature"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Running: Ask about her running routine, favorite running routes, or any upcoming races she's participating in.",
+        "2. The \"RUN AWAY CLUB\": Inquire about what the \"RUN AWAY CLUB\" is, if she is a member, and what activities they participate in.",
+        "1. Cycling: Ask about their experience cycling in Phuket, or inquire about their favorite routes or cycling goals.",
+        "2. Bike/Gear: Ask about their Giant bike, or what kind of gear they like to use.",
+        "1. Running: Ask about their running routine, favorite routes, or training tips."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

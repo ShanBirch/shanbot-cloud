@@ -1,0 +1,84 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 12,
+      "user_messages": 6,
+      "ai_messages": 6,
+      "ai_questions": 3,
+      "ai_statements": 3,
+      "user_responses_to_ai_question": 3,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 1.0,
+      "conversation_start_time": "2025-04-08T16:46:45.725219",
+      "conversation_end_time": "2025-04-08T19:21:47.718081",
+      "conversation_duration_seconds": 9301.992862,
+      "achieved_message_milestones": [
+        10,
+        5
+      ],
+      "fitness_topic_initiator": "user",
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": true,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-09T07:38:57.716814+00:00",
+          "type": "user",
+          "text": "Thanks 🙏 it was a great night + Shannon: Yeah good! Sounds like a ripper night! What did you get up to? {{cuf_11967919}}  {{cuf_11967920}} Lead : It was new years, just a few drinks at a penthouse then down Southbank at a bar 🥂 + Shannon: Sounds like a proper night out! Penthouse and Southbank is a good combo. How was the vibe down there? {{cuf_11967919}}  {{cuf_11967920}} Lead : It was great, what did you get up to new years + Shannon: Haha yeah okay! Just chilled at home with my rabbit Sunshine. How about you, anything else fun happen over the break Jess? {{cuf_11967919}}  {{cuf_11967920}} Lead : Haha a rabbit so cute, I was actually recovering from surgery between dec/jan I had carpel tunnel surgery \nFinally getting back my grip for upper sessions + Shannon: Oh no! Carpal tunnel surgery hey! Ouch! Sucks babe! Glad you're on the mend Jess!  Getting grip back for upper sessions 💪? What are your training goals at the moment? Gym or home? Lead : I go to the gym when I can I try for 3 to 5 days a week my sessions have been shit though, so unmotivated these days + Shannon: Oh no, that's the worst hey! Happens to the best of us Jess. What do you think is making you feel unmotivated lately? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just life really, I’ve been unwell the last 2 weeks with shingles \nAnd my 3 year old keeps me busy during the day and night unfortunately I feel like I haven’t slept in 4 years 😂😂"
+        },
+        {
+          "timestamp": "2025-04-09T07:38:57.747310+00:00",
+          "type": "ai",
+          "text": "Oh man, shingles are rough! And yeah, a 3 year old will definitely keep you on your toes hey, totally get the lack of sleep vibe. Makes total sense that motivation is hard to find right now."
+        },
+        {
+          "timestamp": "2025-04-09T08:32:30.156646+00:00",
+          "type": "user",
+          "text": "Thanks 🙏 it was a great night + Shannon: Yeah good! Sounds like a ripper night! What did you get up to? {{cuf_11967919}}  {{cuf_11967920}} Lead : It was new years, just a few drinks at a penthouse then down Southbank at a bar 🥂 + Shannon: Sounds like a proper night out! Penthouse and Southbank is a good combo. How was the vibe down there? {{cuf_11967919}}  {{cuf_11967920}} Lead : It was great, what did you get up to new years + Shannon: Haha yeah okay! Just chilled at home with my rabbit Sunshine. How about you, anything else fun happen over the break Jess? {{cuf_11967919}}  {{cuf_11967920}} Lead : Haha a rabbit so cute, I was actually recovering from surgery between dec/jan I had carpel tunnel surgery \nFinally getting back my grip for upper sessions + Shannon: Oh no! Carpal tunnel surgery hey! Ouch! Sucks babe! Glad you're on the mend Jess!  Getting grip back for upper sessions 💪? What are your training goals at the moment? Gym or home? Lead : I go to the gym when I can I try for 3 to 5 days a week my sessions have been shit though, so unmotivated these days + Shannon: Oh no, that's the worst hey! Happens to the best of us Jess. What do you think is making you feel unmotivated lately? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just life really, I’ve been unwell the last 2 weeks with shingles \nAnd my 3 year old keeps me busy during the day and night unfortunately I feel like I haven’t slept in 4 years 😂😂 + Shannon: Oh man, shingles are rough! And yeah, a 3 year old will definitely keep you on your toes hey, totally get the lack of sleep vibe.  Makes total sense that motivation is hard to find right now.  Lead : I feel as long as I get to the gym no matter how shit the session is, it’s a bonus"
+        },
+        {
+          "timestamp": "2025-04-09T08:32:30.172437+00:00",
+          "type": "ai",
+          "text": "Yeah definitely, showing up is half the battle sometimes hey! Especially with a little one and recovering from shingles. It's tough finding that energy and direction when you're run down."
+        },
+        {
+          "timestamp": "2025-04-09T09:47:18.558349+00:00",
+          "type": "user",
+          "text": "Thanks 🙏 it was a great night + Shannon: Yeah good! Sounds like a ripper night! What did you get up to? {{cuf_11967919}}  {{cuf_11967920}} Lead : It was new years, just a few drinks at a penthouse then down Southbank at a bar 🥂 + Shannon: Sounds like a proper night out! Penthouse and Southbank is a good combo. How was the vibe down there? {{cuf_11967919}}  {{cuf_11967920}} Lead : It was great, what did you get up to new years + Shannon: Haha yeah okay! Just chilled at home with my rabbit Sunshine. How about you, anything else fun happen over the break Jess? {{cuf_11967919}}  {{cuf_11967920}} Lead : Haha a rabbit so cute, I was actually recovering from surgery between dec/jan I had carpel tunnel surgery \nFinally getting back my grip for upper sessions + Shannon: Oh no! Carpal tunnel surgery hey! Ouch! Sucks babe! Glad you're on the mend Jess!  Getting grip back for upper sessions 💪? What are your training goals at the moment? Gym or home? Lead : I go to the gym when I can I try for 3 to 5 days a week my sessions have been shit though, so unmotivated these days + Shannon: Oh no, that's the worst hey! Happens to the best of us Jess. What do you think is making you feel unmotivated lately? {{cuf_11967919}}  {{cuf_11967920}} Lead : Just life really, I’ve been unwell the last 2 weeks with shingles \nAnd my 3 year old keeps me busy during the day and night unfortunately I feel like I haven’t slept in 4 years 😂😂 + Shannon: Oh man, shingles are rough! And yeah, a 3 year old will definitely keep you on your toes hey, totally get the lack of sleep vibe.  Makes total sense that motivation is hard to find right now.  Lead : I feel as long as I get to the gym no matter how shit the session is, it’s a bonus + Shannon: Yeah definitely, showing up is half the battle sometimes hey! Especially with a little one and recovering from shingles.  It's tough finding that energy and direction when you're run down.  Lead : 🫶🏼"
+        },
+        {
+          "timestamp": "2025-04-09T09:47:18.596131+00:00",
+          "type": "ai",
+          "text": "Yeah definitely, just getting through the door is a win sometimes! Having a clear plan can really help on those low energy days, takes the thinking out of it."
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "jess_leyshan",
+      "user_responses_to_questions": 0,
+      "response_rate": 0.0,
+      "coaching_inquiries": 0,
+      "ai_detections": 0,
+      "first_message_timestamp": "2025-04-09T07:38:57.716814+00:00",
+      "last_message_timestamp": "2025-04-09T09:47:18.596131+00:00",
+      "last_seen_timestamp": "2025-04-09T09:47:18.596131+00:00",
+      "conversation_count": 1,
+      "conversation_duration_str": "2h 8m",
+      "fitness_topic_user_initiated": false,
+      "fitness_topic_ai_initiated": false
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

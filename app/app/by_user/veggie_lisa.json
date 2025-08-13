@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T21:52:49.648518",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T21:52:31.853226",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a shot of veggie_lisa in her kitchen. She is laughing and looking at the camera, holding utensils over a glass bowl of salad. To her left is a bottle of olive oil and to her right is a bowl of green beans and salt and pepper shakers. The kitchen has white cabinets and a white and gold backsplash.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman named veggie_lisa standing outside a building. The text overlay says \"Corporate Health Coach\". The post's caption discusses her journey from a Dance Education Degree to becoming a health coach through online certifications. She also uses hashtags related to personal training, health coaching, group fitness instruction, and online education.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "Two women are on a cooking segment for Studio 5 KSL, demonstrating how to make a veggie dip. The post includes the recipe.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows veggie_lisa making a Cinnamon Swirl Cake. She is pouring an ingredient into a stand mixer. The post includes a recipe and mentions using European butter from France.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a colorful spring roll salad in a blue bowl. The post includes a recipe with ingredients like rice noodles, cucumber, red bell pepper, carrots, purple cabbage, edamame, peanuts, sesame seeds, avocado, and a peanut butter-based dressing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in workout clothes (pink tank top and shorts) holding a large water bottle. The post is a Father's Day shout-out related to fitness journeys. There is also a video clip of her on a set, possibly filming content.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Her career change from dance to health/fitness: \"I noticed you mentioned your background in Dance Education. What inspired you to transition into health and fitness coaching?\"",
+          "2.  Online certifications: \"I saw you mentioned getting certifications online. What are some of your favorite resources or courses you'd recommend?\"",
+          "1.  Ask about other vegetarian or plant-based recipes she enjoys.",
+          "2.  Inquire about her experience working with Studio 5 KSL and if she has other segments planned.",
+          "1. Baking: Ask about her favorite baking tips or other recipes she enjoys making."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The kitchen looked so bright and inviting. 🤩",
+        "profile_bio": {
+          "PERSON NAME": "Lisa (veggie_lisa)",
+          "INTERESTS": [
+            "Vegetarian/Plant-Based Cooking",
+            "Health & Fitness Coaching",
+            "Baking (especially with high-quality ingredients)",
+            "Dance/Movement",
+            "Online Education/Certifications"
+          ],
+          "LIFESTYLE": "Lisa is a Corporate Health Coach with a background in Dance Education. She creates and shares vegetarian/plant-based recipes, including salads, dips, and baked goods. She also seems to be involved in fitness and wellness content creation, potentially for television or online platforms. She values health, fitness, and sharing her knowledge with others.",
+          "CONVERSATION STARTERS": [
+            "I noticed you mentioned your background in Dance Education. What inspired you to transition into health and fitness coaching?",
+            "I saw you mentioned getting certifications online. What are some of your favorite resources or courses you'd recommend?",
+            "Do you have any other vegetarian or plant-based recipes you enjoy making?",
+            "I saw you on Studio 5 KSL! Do you have any other segments planned?",
+            "That Cinnamon Swirl Cake looked amazing! What are some of your favorite baking tips or other recipes you enjoy making?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Enthusiastic",
+            "Knowledgeable",
+            "Creative",
+            "Health-Conscious"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Her career change from dance to health/fitness: \"I noticed you mentioned your background in Dance Education. What inspired you to transition into health and fitness coaching?\"",
+        "2.  Online certifications: \"I saw you mentioned getting certifications online. What are some of your favorite resources or courses you'd recommend?\"",
+        "1.  Ask about other vegetarian or plant-based recipes she enjoys.",
+        "2.  Inquire about her experience working with Studio 5 KSL and if she has other segments planned.",
+        "1. Baking: Ask about her favorite baking tips or other recipes she enjoys making."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

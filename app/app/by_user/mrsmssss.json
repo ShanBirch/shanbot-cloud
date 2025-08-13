@@ -1,0 +1,114 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T13:09:18.274299",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 5,
+        "timestamp": "2025-04-15T13:08:59.364725",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by mr.smssss features a photo of Cristiano Ronaldo in his Portugal jersey, number 7, running on a soccer field. The photo appears to be from a game, with other players visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image contains a post from Instagram user mr.smssss. The post displays text in what appears to be Hindi, \"Hongi sab खूबसूरत Tum pyari ho\" with a blue heart emoji. The post has no comments.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a light green button-down shirt with a white circular pattern. The shirt appears to be new, with tags still attached. The brand name on the tag is \"PLAYERS.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person standing near a body of water (possibly a lake or sea) at sunset. The person has been digitally edited to include angel wings and a halo.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up shot of what appears to be a corner of a room or object, with a blurry, golden-brown color dominating the frame. The Instagram interface is visible, showing that the post has no comments and was liked by 2 people.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Language/Translation: Ask about the meaning of the text in the image, or inquire about their interest in Hindi or other languages.",
+          "2. Sentimental/Romantic Themes: The text appears to be a compliment or expression of affection. You could subtly engage with the sentiment of the post, perhaps by asking about the inspiration behind it or if they enjoy sharing such messages.",
+          "1. Fashion/Style: \"I noticed you posted a picture of that shirt. Do you have a particular style or brand you prefer?\"",
+          "2. The \"PLAYERS\" Brand: \"I saw the shirt you posted is from PLAYERS. Are you a fan of that brand? What do you like about their clothes?\"",
+          "1. Photo editing/digital art: You could ask about the app or software they used to add the angel wings and halo, or compliment their editing skills."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! Ronaldo looked like he was in his element there! ⚽️",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Cristiano Ronaldo/Soccer",
+            "Fashion (specifically the 'PLAYERS' brand)",
+            "Digital Art/Photo Editing",
+            "Sentimental/Romantic Expressions",
+            "Possibly Hindi Language/Culture"
+          ],
+          "LIFESTYLE": "Likely an individual who enjoys expressing themselves through social media, with interests ranging from sports and fashion to digital art and romantic sentiments. Their lifestyle appears to be relatively private, as evidenced by the lack of comments on their posts.",
+          "CONVERSATION STARTERS": [
+            "What do you admire most about Cristiano Ronaldo's game?",
+            "I noticed you posted a picture of that shirt from 'PLAYERS'. What do you like about their clothes?",
+            "The photo with the angel wings and halo is really cool! What app or software did you use to create that effect?",
+            "I saw the Hindi text in one of your posts. Could you tell me what it means? Are you interested in languages?",
+            "Do you enjoy sharing sentimental or romantic messages on your profile?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Expressive: They share a variety of content, suggesting a desire to express their interests and feelings.",
+            "Creative: The photo editing and the choice of content indicate a creative inclination.",
+            "Private: The lack of comments on their posts suggests they may prefer a more private online presence.",
+            "Appreciative: Their post of Ronaldo suggests they admire him."
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Language/Translation: Ask about the meaning of the text in the image, or inquire about their interest in Hindi or other languages.",
+        "2. Sentimental/Romantic Themes: The text appears to be a compliment or expression of affection. You could subtly engage with the sentiment of the post, perhaps by asking about the inspiration behind it or if they enjoy sharing such messages.",
+        "1. Fashion/Style: \"I noticed you posted a picture of that shirt. Do you have a particular style or brand you prefer?\"",
+        "2. The \"PLAYERS\" Brand: \"I saw the shirt you posted is from PLAYERS. Are you a fan of that brand? What do you like about their clothes?\"",
+        "1. Photo editing/digital art: You could ask about the app or software they used to add the angel wings and halo, or compliment their editing skills."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

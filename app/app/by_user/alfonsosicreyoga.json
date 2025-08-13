@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T16:01:18.813777",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T16:00:57.588903",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post by alfonsosicreyoga promoting a Dharma Yoga retreat called \"GERSON FRAU EN SONORA\". The image features a man in a tree pose with hands in prayer position. He is shirtless with dark pants. The background is a field of grass and the sky. Text on the image indicates the retreat dates: June 6-8, 2025, at Casa Anandi y San Carlos, Sonora. An Om symbol is visible in the upper right corner.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man, presumably Alfonso, in a challenging yoga pose outdoors with other people participating in a yoga class in the background. The setting appears to be a tropical location, possibly near a beach.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of three friends, dressed in formal attire, posing outdoors in a desert-like environment. The post caption mentions a wedding.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man, alfonsosicreyoga, doing a yoga pose outdoors on a sunny day. The caption mentions offering his practice for the happiness and peace of @chefsammysanz and @landonpost.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person, presumably the account owner, in a complex yoga pose (sirsasana variation) indoors. The hashtags indicate it's related to yoga, asana, dharma, and a specific yoga dance center.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man, alfonsosicreyoga, performing a yoga pose outside on a grassy lawn. He's wearing a beanie and a tank top. The background includes a modern-looking wooden fence.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Yoga Poses: Inquire about the specific yoga pose he is demonstrating, its benefits, or if he has any tips for beginners attempting it.",
+          "2.  Yoga Dance Center: Ask about the yoga dance center and what kind of classes they offer.",
+          "*   **The wedding:** You could ask about the wedding, such as \"How was the wedding? It looks like it was in a beautiful location.\"",
+          "*   **The location:** You could ask about the location, such as \"That looks like a beautiful desert setting. Where was the photo taken?\"",
+          "1. Yoga: You could ask about his yoga practice, favorite poses, or how yoga has impacted his life."
+        ],
+        "generated_comment": "Hey! Just was having a little stalk of your profile, the latest post looked amazing! I hope the retreat goes well 🙏",
+        "profile_bio": {
+          "PERSON NAME": "Alfonso Sicre",
+          "INTERESTS": [
+            "Dharma Yoga",
+            "Yoga Retreats",
+            "Outdoor Activities",
+            "Wellness & Mindfulness",
+            "Travel (specifically Sonora, Mexico)"
+          ],
+          "LIFESTYLE": "Alfonso appears to be a dedicated yoga practitioner and instructor, possibly specializing in Dharma Yoga. He leads or participates in yoga retreats, enjoys outdoor activities, and seems to have a social life that includes attending weddings. He values sharing his practice and promoting peace and happiness.",
+          "CONVERSATION STARTERS": [
+            "I saw you're hosting a Dharma Yoga retreat in Sonora. What makes that location special for yoga practice?",
+            "Your yoga poses are incredible! Do you have any advice for someone just starting out with more challenging asanas?",
+            "I noticed you practice a lot outdoors. How does practicing in nature enhance your yoga experience?",
+            "I saw you at a wedding in a desert setting. It looked beautiful! What was the occasion?",
+            "What is your favorite aspect of Dharma Yoga and how has it impacted your life?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated",
+            "Spiritual",
+            "Social",
+            "Adventurous"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Yoga Poses: Inquire about the specific yoga pose he is demonstrating, its benefits, or if he has any tips for beginners attempting it.",
+        "2.  Yoga Dance Center: Ask about the yoga dance center and what kind of classes they offer.",
+        "*   **The wedding:** You could ask about the wedding, such as \"How was the wedding? It looks like it was in a beautiful location.\"",
+        "*   **The location:** You could ask about the location, such as \"That looks like a beautiful desert setting. Where was the photo taken?\"",
+        "1. Yoga: You could ask about his yoga practice, favorite poses, or how yoga has impacted his life."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T12:13:08.769930",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T12:12:48.381369",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by bennyblancofromblock is a repost of a TikTok video. The video features the text \"Tag That Friend Who's Always Up For A Ruck\" over footage of people, likely in a social setting. The TikTok username is visible at the bottom of the video. The post includes hashtags like #fyp, #fypreels, #viral, and #fypage.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a meme featuring a woman saying she's \"super popular\" on social media, and a man responding that it's like being \"rich\" in Monopoly. The meme seems to be about the perceived value of social media popularity versus real-world wealth.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by bennyblancofromblock. The post features a video clip, likely of a jiu-jitsu match, given the hashtags #jiujitsu and #grandslam. The caption mentions a \"naughty foot lock\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by bennyblancofromblock. The post features a video or image of a grappling/jiu-jitsu competition called \"Grand Slam,\" featuring two young competitors, Oliver May and Olly Gibson. The poster expresses pride in the achievement of one of the competitors, likely Oliver May, mentioning a \"first grand slam\" and winning silver.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by bennyblancofromblock. The post is a video where he is talking about getting banned from social media for 30 days. He seems unconcerned. The caption mentions being caught \"slipping\" and uses hashtags like #fyp and #fypage.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a screenshot of Instagram Insights, specifically the professional dashboard. It displays metrics like views (660.8K), interactions (9.2K), new followers (2837), and content shared (253). The post caption expresses gratitude for the support received.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Thoughts on social media:** Ask them what they think about the meme's message regarding the value of social media fame compared to real-world success.",
+          "2.  **Monopoly:** Ask if they enjoy playing Monopoly and what their favorite strategy is.",
+          "1. Jiu-Jitsu: Ask about their interest in jiu-jitsu, their training experience, or their favorite techniques.",
+          "2. Grand Slam: Inquire about the specific Grand Slam event shown in the video, or their favorite Grand Slam tournaments.",
+          "1.  **Grappling/Jiu-Jitsu:** Ask about the competition, the specific techniques used, or other grappling events they follow."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Benny Blanco (likely a nickname or stage name, full name Unknown)",
+          "INTERESTS": [
+            "Jiu-Jitsu/Grappling",
+            "Social Media (with a potentially cynical view)",
+            "Supporting Young Athletes (specifically in Jiu-Jitsu)",
+            "Humor/Memes",
+            "Social Gatherings/Rucking"
+          ],
+          "LIFESTYLE": "Likely involved in the Jiu-Jitsu community, possibly as a coach or supporter of young athletes. Active on social media, despite acknowledging its potential superficiality. Seems to enjoy a social life and doesn't take social media bans too seriously.",
+          "CONVERSATION STARTERS": [
+            "What are your thoughts on the meme's message regarding the value of social media fame compared to real-world success?",
+            "Tell me more about the Grand Slam event you posted about. What makes it special?",
+            "What got you into Jiu-Jitsu? What do you enjoy most about it?",
+            "I saw you got banned from social media for a bit. What happened?",
+            "Do you enjoy playing Monopoly and what's your favorite strategy?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Supportive (of young athletes)",
+            "Humorous/Self-Aware (about social media)",
+            "Resilient/Unbothered (by social media bans)",
+            "Passionate (about Jiu-Jitsu)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Thoughts on social media:** Ask them what they think about the meme's message regarding the value of social media fame compared to real-world success.",
+        "2.  **Monopoly:** Ask if they enjoy playing Monopoly and what their favorite strategy is.",
+        "1. Jiu-Jitsu: Ask about their interest in jiu-jitsu, their training experience, or their favorite techniques.",
+        "2. Grand Slam: Inquire about the specific Grand Slam event shown in the video, or their favorite Grand Slam tournaments.",
+        "1.  **Grappling/Jiu-Jitsu:** Ask about the competition, the specific techniques used, or other grappling events they follow."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

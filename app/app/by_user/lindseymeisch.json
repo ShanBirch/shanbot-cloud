@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T20:23:56.528427",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T20:23:38.233869",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post by lindseymeisch. It shows a photo of lindseymeisch on stage at a bodybuilding competition. She is wearing a pink bikini and posing. The background shows the \"ILLINOIS PRESENTS MIDWEST\" banner. Other competitors are also visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, lindseymeisch, deadlifting a barbell with weights in a gym setting. She mentions hitting 315 lbs and aiming for 400 lbs. She also uses hashtags related to NPC wellness competitions and bikini competitions.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post reflecting on the year 2024. It features a dog running on a beach, with text overlaying the image that says \"and with that the 2024 season comes to an end.\" The caption expresses gratitude and hope for the future.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of a woman with blonde hair, dark winged eyeliner, and dark red lipstick. She's wearing a black top and choker. The caption mentions \"witchy era\" and includes hashtags related to witchcraft, spooky season, and lip fillers.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows lindseymeisch on stage at a bodybuilding competition. She is wearing a bikini and posing. The hashtags indicate she is an NPC wellness competitor.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (lindseymeisch) taking a mirror selfie. She is wearing workout clothes and appears to be showcasing her physique. The hashtags indicate she is involved in NPC wellness competitions.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Deadlifting/Weightlifting Goals:** You could ask about her training routine, what she's doing to prepare to hit 400 lbs, or share your own lifting goals/experiences.",
+          "2.  **NPC Wellness/Bikini Competitions:** If you are familiar with these competitions, you could ask about her experience with them, what she enjoys about them, or offer encouragement for her future competitions.",
+          "1.  **Dog Breed/Dog Ownership:** Comment on the dog's breed or ask about the dog's personality. \"What a beautiful dog! What breed is he/she?\" or \"Looks like your dog loves the beach. How old is he/she?\"",
+          "2.  **Beach/Location:** Inquire about the location of the beach. \"That beach looks beautiful! Where is it located?\" or \"Is that your favorite beach to visit?\"",
+          "1.  **Witchcraft/Spooky Season:** \"I noticed your post mentioned 'witchy era.' Are you into witchcraft or just embracing the spooky season vibes?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! You looked amazing in your latest post! 🔥",
+        "profile_bio": {
+          "PERSON NAME": "Lindsey Meisch",
+          "INTERESTS": [
+            "NPC Wellness/Bikini Competitions",
+            "Weightlifting (specifically deadlifting)",
+            "Dogs (likely dog ownership)",
+            "Spooky Season/Witchcraft Aesthetics",
+            "Fitness & Physique Development"
+          ],
+          "LIFESTYLE": "Lindsey appears to be a dedicated fitness enthusiast actively involved in NPC wellness and/or bikini competitions. She trains regularly, focusing on strength training, and enjoys a lifestyle that includes both competitive fitness and personal interests like dogs and embracing a 'witchy' aesthetic. The end of the '2024 season' suggests a cyclical approach to her competition schedule, with periods of intense training and competition followed by rest and reflection.",
+          "CONVERSATION STARTERS": [
+            "I saw you're aiming for a 400lb deadlift! What's your current training routine like to get there?",
+            "I'm curious about your experience with NPC wellness competitions. What do you enjoy most about them?",
+            "Your dog is adorable! What breed is he/she, and what's their personality like?",
+            "That beach photo looks amazing! Where was it taken?",
+            "I noticed your 'witchy era' post. Are you into witchcraft, or just enjoying the spooky season vibes?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven (evident from her dedication to weightlifting and competitions)",
+            "Confident (shown through her stage presence and physique selfies)",
+            "Expressive (demonstrated by her interest in aesthetics and personal style)",
+            "Grateful (expressed in her end-of-season reflection)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Deadlifting/Weightlifting Goals:** You could ask about her training routine, what she's doing to prepare to hit 400 lbs, or share your own lifting goals/experiences.",
+        "2.  **NPC Wellness/Bikini Competitions:** If you are familiar with these competitions, you could ask about her experience with them, what she enjoys about them, or offer encouragement for her future competitions.",
+        "1.  **Dog Breed/Dog Ownership:** Comment on the dog's breed or ask about the dog's personality. \"What a beautiful dog! What breed is he/she?\" or \"Looks like your dog loves the beach. How old is he/she?\"",
+        "2.  **Beach/Location:** Inquire about the location of the beach. \"That beach looks beautiful! Where is it located?\" or \"Is that your favorite beach to visit?\"",
+        "1.  **Witchcraft/Spooky Season:** \"I noticed your post mentioned 'witchy era.' Are you into witchcraft or just embracing the spooky season vibes?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

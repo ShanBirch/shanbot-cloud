@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T17:12:12.238449",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T17:11:54.042867",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a group of six people posing indoors, likely backstage or in a dressing room. They are dressed in a variety of colorful and somewhat eccentric outfits. The person on the left is wearing a light pink t-shirt with blue shorts and patterned leggings. Next to him is a man in a gold and black patterned tracksuit. A woman in a blue jacket and sunglasses is next, followed by a woman in a purple top and turquoise pants. The last two people are wearing a white t-shirt and grey leggings, and a white t-shirt and blue jacket. The overall vibe is fun and playful.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, pilarvilladoma15, smiling with her arms raised. She's wearing a yellow beanie and a sweatshirt with a cartoon design. The background appears to be a dressing room with clothing racks. The caption mentions \"opening night\" and #theater.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by pilarvilladoma15. The post is a video showing the user dancing, with the caption \"Let the rhythm of the Latin beat take control of your body #cardio #exercise #fitnesscoach\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two women in a car, each holding a beverage with a straw. The woman taking the photo is smiling, and the post is captioned \"Cheers to the New Year! #grateful\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two women standing in front of a Christmas tree and a nativity scene. The caption wishes \"Merry Christmas 2024\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (pilarvilladoma15) holding a Santa hat above her head, seemingly dancing or celebrating. The caption indicates she's feeling the Christmas spirit.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Theater:** Ask about the play she was in, her role, or her experience with opening night.",
+          "2. **Fashion/Style:** Compliment her beanie or sweatshirt and ask about her style preferences.",
+          "1. Fitness/Exercise: Ask about her favorite types of cardio or exercise routines.",
+          "2. Latin Music/Dance: Inquire about her favorite Latin music artists or dance styles.",
+          "1. **The drinks:** Ask about the type of drinks they are having (e.g., \"That drink looks interesting! What is it?\")."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Pilar Villadoma",
+          "INTERESTS": [
+            "Theater/Performing Arts",
+            "Fitness & Exercise (especially cardio and Latin dance)",
+            "Fashion (colorful and somewhat eccentric)",
+            "Celebrating Holidays (Christmas, New Year's)",
+            "Socializing with Friends"
+          ],
+          "LIFESTYLE": "Appears to be involved in theater, possibly as a performer. She also seems to be a fitness enthusiast, potentially working as a fitness coach, with a focus on cardio and Latin dance. She enjoys spending time with friends and celebrating holidays.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about opening night! What play were you in, and what was your role?",
+            "That yellow beanie you were wearing is so cool! How would you describe your personal style?",
+            "Your Latin dance cardio video looked amazing! What are some of your favorite Latin music artists to dance to?",
+            "I noticed you posted a picture with a drink. That drink looks interesting! What is it?",
+            "Merry Christmas! What are your favorite Christmas traditions?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Enthusiastic",
+            "Social",
+            "Energetic",
+            "Expressive"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Theater:** Ask about the play she was in, her role, or her experience with opening night.",
+        "2. **Fashion/Style:** Compliment her beanie or sweatshirt and ask about her style preferences.",
+        "1. Fitness/Exercise: Ask about her favorite types of cardio or exercise routines.",
+        "2. Latin Music/Dance: Inquire about her favorite Latin music artists or dance styles.",
+        "1. **The drinks:** Ask about the type of drinks they are having (e.g., \"That drink looks interesting! What is it?\")."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

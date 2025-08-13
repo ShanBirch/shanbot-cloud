@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T10:22:33.625174",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T10:22:15.651911",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of a pair of handmade earrings. Each earring features a silver hoop with a white, heart-shaped stone or bead attached to the top. Dangling from the bottom of the hoop is a fringe of pink, white, and silver beads. The background is a neutral, speckled surface.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a pair of handmade earrings. The earrings feature a square beaded top with colorful dots, a silver hoop, and a beaded fringe in various colors.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of handmade earrings that resemble Christmas trees. They are made of beads and have a fringe at the bottom. The post is on Instagram, and the username is veganhippie2015. The video is also posted on TikTok by @micky.newcomb.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of handmade Halloween-themed earrings. The earrings feature a triangular frame, a cat silhouette charm, beaded accents, and a beaded fringe in Halloween colors (green, orange, purple, black, yellow).",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a pair of handmade Halloween-themed earrings. They are hoop earrings with black beads around the hoop, a silver spider charm hanging inside, and black, red, and white beaded fringe hanging from the bottom.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a pair of handmade beaded fringe earrings with a rainbow heart at the top and rainbow stripes in the fringe. The post mentions \"love is love pride fringe earrings\" and uses hashtags related to pride and jewelry.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Crafting/Jewelry Making:** You could ask about the beading process, the materials used, or if they have any tips for someone interested in learning to make similar jewelry.",
+          "2.  **Veganism:** Since the username is \"veganhippie2015\" and the post was liked by \"vegan.foodie_with.loaf\", you could ask about their favorite vegan recipes or restaurants in their area (Sauk Village, Illinois).",
+          "1.  **Crafting/DIY:** You could ask about the process of making the earrings, what materials they used, or if they have other similar projects.",
+          "2.  **Veganism/Lifestyle:** Given the username \"veganhippie2015,\" you could ask about their favorite vegan recipes or tips for living a sustainable lifestyle.",
+          "1. Jewelry making: Inquire about the process of making the earrings, such as where they source their beads or what other types of jewelry they enjoy creating."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The earrings are so vibrant and unique!💖",
+        "profile_bio": {
+          "PERSON NAME": "Micky Newcomb (Likely, based on TikTok handle @micky.newcomb)",
+          "INTERESTS": [
+            "Handmade Jewelry (especially earrings)",
+            "Beading and Crafting",
+            "Veganism",
+            "DIY Projects",
+            "Hippie/Bohemian Lifestyle"
+          ],
+          "LIFESTYLE": "Likely a creative individual who enjoys crafting and expressing themselves through handmade jewelry. They likely follow a vegan lifestyle and may be interested in sustainable living. They may reside in or near Sauk Village, Illinois.",
+          "CONVERSATION STARTERS": [
+            "I love your earrings! Where do you source your beads from?",
+            "As a fellow vegan, I'm always looking for new recipes. Do you have any favorites you'd be willing to share?",
+            "I'm interested in learning how to make beaded jewelry. Do you have any tips for beginners?",
+            "Your Christmas tree earrings are so creative! What other holiday-themed jewelry have you made?",
+            "I noticed you posted Pride earrings. What inspired you to create them?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Artistic",
+            "Environmentally Conscious",
+            "Expressive"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Crafting/Jewelry Making:** You could ask about the beading process, the materials used, or if they have any tips for someone interested in learning to make similar jewelry.",
+        "2.  **Veganism:** Since the username is \"veganhippie2015\" and the post was liked by \"vegan.foodie_with.loaf\", you could ask about their favorite vegan recipes or restaurants in their area (Sauk Village, Illinois).",
+        "1.  **Crafting/DIY:** You could ask about the process of making the earrings, what materials they used, or if they have other similar projects.",
+        "2.  **Veganism/Lifestyle:** Given the username \"veganhippie2015,\" you could ask about their favorite vegan recipes or tips for living a sustainable lifestyle.",
+        "1. Jewelry making: Inquire about the process of making the earrings, such as where they source their beads or what other types of jewelry they enjoy creating."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T23:06:08.846629",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T23:05:50.044207",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by @vegbyhayley features a photo of the poster holding a long, rectangular container filled with a pancake from \"The Happy Pig Pancake Shop\" in Amsterdam. She is smiling at the pancake, which is topped with chocolate sauce and powdered sugar. She is wearing a light blue top and jeans. Sunglasses are perched on her head. The background is a blurred interior of the pancake shop.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan fish and chips at GOGOS Waterfront. The dish includes banana blossom \"fish,\" chips, peas, tartar sauce, and a lemon wedge. The caption mentions that her omni boyfriend said it tasted most like cod.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a vegan meal at Brasserie of Light in Selfridges, London. The meal includes pumpkin tortelloni and aubergine dishes. The caption highlights the restaurant's fantastic selection of vegan options.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan sausages and roasted cherry tomatoes on top of mashed potatoes. There is also a glass of red wine in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of tofu ramen with various toppings, including tofu, bok choy, and what appears to be chili peppers. The caption mentions that her boyfriend made it and that it was spicy and saucy.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of bangers and mash with greens and onion gravy. The caption mentions using a KitchenAid to make the creamy mash and tags #vegan, suggesting the meal is plant-based.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan food and restaurants: Discuss other vegan options in the Maidenhead/Windsor area or ask for recommendations on other vegan dishes she enjoys.",
+          "2. Travel and weekend trips: Ask about her weekend in Berkshire and if she has any other travel plans.",
+          "1. Vegan dining in London: Ask about other vegan-friendly restaurants they enjoy in London or if they have any recommendations for specific cuisines.",
+          "2. Brasserie of Light: Ask about their experience at the restaurant, what they enjoyed most about the food, or if they've tried other dishes on the menu.",
+          "1. Vegan cooking and recipes: Ask about other favorite vegan dishes or recipes."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! That pancake in your latest post looked amazing! 😋 Amsterdam looks like a great place to visit.",
+        "profile_bio": {
+          "PERSON NAME": "Hayley (Based on username 'vegbyhayley')",
+          "INTERESTS": [
+            "Vegan Food",
+            "Travel (especially to places with vegan options)",
+            "Restaurant Dining (particularly vegan-friendly restaurants)",
+            "Vegan Cooking",
+            "London"
+          ],
+          "LIFESTYLE": "Hayley appears to enjoy exploring vegan food options both at home and while traveling. She seems to live in or frequently visit the Maidenhead/Windsor area and London. She enjoys dining out and also cooks vegan meals at home. She has a boyfriend who also seems to enjoy vegan food, and sometimes cooks for her.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite vegan restaurants in the Maidenhead/Windsor area?",
+            "Do you have any upcoming travel plans? I'd love to hear about them!",
+            "What other vegan-friendly restaurants do you enjoy in London?",
+            "What did you enjoy most about the pumpkin tortelloni at Brasserie of Light?",
+            "What are some of your favorite vegan dishes to cook at home?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Enthusiastic (about vegan food)",
+            "Adventurous (willing to try new vegan restaurants and dishes)",
+            "Positive (smiling in photos, positive captions)",
+            "Foodie (focussed on food and dining experiences)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan food and restaurants: Discuss other vegan options in the Maidenhead/Windsor area or ask for recommendations on other vegan dishes she enjoys.",
+        "2. Travel and weekend trips: Ask about her weekend in Berkshire and if she has any other travel plans.",
+        "1. Vegan dining in London: Ask about other vegan-friendly restaurants they enjoy in London or if they have any recommendations for specific cuisines.",
+        "2. Brasserie of Light: Ask about their experience at the restaurant, what they enjoyed most about the food, or if they've tried other dishes on the menu.",
+        "1. Vegan cooking and recipes: Ask about other favorite vegan dishes or recipes."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

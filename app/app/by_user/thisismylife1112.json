@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T21:50:19.337607",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T21:50:01.395001",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up selfie of a woman with reddish-brown hair and blue eyes. The text \"MONDAY 30/10/2023\" is superimposed on the upper left corner, and the text \"BE HAP\" is superimposed on the lower center. She is wearing a white shirt and has lipstick on.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman's face next to a \"To Do List for Everyday\" which includes items like \"Drink Green Tea (or Coffee),\" \"Be a Blessing,\" \"Encourage someone,\" and \"Always be kind with others.\" The post is about Random Acts of Kindness Day and includes suggestions for simple acts of kindness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person with wet, newly dyed hair at what appears to be a salon or at-home hair dyeing session. The TikTok logo is visible, suggesting the image might be a clip from a TikTok video.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a woman with reddish-purple hair, wearing sunglasses and a red and black plaid shirt. She is outdoors with a lake and mountains in the background. The post mentions camping, nature, self-care, and Scotland (Loch Luichart).",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a quote by Maya Angelou: \"You may not control all the events that happen to you, but you can decide not to be reduced by them.\" The post also includes a quote from Bob Dylan.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a row of Federico Mahora perfumes and aftershaves, with different numbers assigned to each scent. The user is advertising access to these products at reduced prices.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Random Acts of Kindness:** Ask if they've done any random acts of kindness lately, or share an act of kindness you've witnessed or participated in.",
+          "2.  **The \"To Do List\":** Ask about their favorite item on the \"To Do List\" and why it resonates with them. You could also ask if they have any other items they would add to the list.",
+          "1. Hair care and dyeing: \"I saw your post about dyeing your hair. The color looks great! What products do you usually use to keep it healthy?\"",
+          "2. TikTok: \"I noticed the TikTok logo on your post. Do you enjoy making videos? What kind of content do you usually create?\"",
+          "1. **Camping in Scotland:** Ask about her favorite camping spots in Scotland or if she has any tips for someone planning a camping trip there."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! Your makeup looked great! 😊",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Self-care and well-being",
+            "Hair care and dyeing",
+            "Nature and camping (especially in Scotland)",
+            "Inspirational quotes and personal growth",
+            "Fragrances (Federico Mahora perfumes)"
+          ],
+          "LIFESTYLE": "Appears to be someone who values kindness, self-improvement, and spending time outdoors. Likely involved in sales or distribution of Federico Mahora products. Enjoys experimenting with hair color and possibly creates content for TikTok.",
+          "CONVERSATION STARTERS": [
+            "Have you done any random acts of kindness lately? I'd love to hear about it!",
+            "What's your favorite camping spot in Scotland? Any tips for someone planning a trip there?",
+            "I saw your post about dyeing your hair. The color looks great! What products do you usually use to keep it healthy?",
+            "I noticed the TikTok logo on your post. Do you enjoy making videos? What kind of content do you usually create?",
+            "What's your favorite item on your 'To Do List' and why does it resonate with you?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Kind and compassionate",
+            "Self-reflective and motivated for personal growth",
+            "Creative and expressive (through hair dyeing and possibly TikTok)",
+            "Appreciative of nature and the outdoors"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Random Acts of Kindness:** Ask if they've done any random acts of kindness lately, or share an act of kindness you've witnessed or participated in.",
+        "2.  **The \"To Do List\":** Ask about their favorite item on the \"To Do List\" and why it resonates with them. You could also ask if they have any other items they would add to the list.",
+        "1. Hair care and dyeing: \"I saw your post about dyeing your hair. The color looks great! What products do you usually use to keep it healthy?\"",
+        "2. TikTok: \"I noticed the TikTok logo on your post. Do you enjoy making videos? What kind of content do you usually create?\"",
+        "1. **Camping in Scotland:** Ask about her favorite camping spots in Scotland or if she has any tips for someone planning a camping trip there."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

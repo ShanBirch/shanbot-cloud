@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T15:19:30.678938",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T15:19:12.628055",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by mosscorallife is a video still of a woman with blonde hair pulled back, wearing a blue and white floral top and large hoop earrings. She is looking slightly off-camera with a somewhat skeptical expression. Red text overlaid on the image reads, \"When someone says they don't listen to podcasts.\" The caption discusses the benefits of podcasts for mental well-being and encourages viewers to comment with their favorite podcasts.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman walking down a dirt path in a wooded area. The post includes a motivational message about self-love and positivity.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by \"mosscorallife\" promoting their podcast. The post mentions topics like feeling overwhelmed, life, friendship, conversations, and wellness. The hashtags include #london and #britishpodcast, suggesting they are based in London.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A group of four women are posing for a selfie in front of the London Eye. The post is about the importance of surrounding yourself with supportive friends.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A woman is holding a glass of beer or ale, presumably toasting to something. The post mentions a podcast episode about health and wellness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman sitting on a cliffside overlooking the sea. The post is tagged with #wellnesswednesday, #mentalhealth, #podcasting, #podcast, #podcastersofinstagram, #podcasters, #mosscorallife, #becauselifehappens, #womensupportingwomen, #seaside, #margate, #london, and #kent.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Hiking/Nature: \"That looks like a beautiful place to walk! Do you have any favorite hiking spots in the area?\"",
+          "2. Motivation/Self-Care: \"I really appreciate the message in your post about being your own best friend. What are some ways you practice self-care?\"",
+          "1.  **Podcast Content:** Ask about a specific episode or topic discussed on their podcast that resonated with you, or suggest a topic they might consider covering in the future.",
+          "2.  **London/British Culture:** Inquire about their favorite things to do in London or ask for recommendations for local spots, given their use of the #london hashtag.",
+          "1.  **Travel/London:** \"I noticed you're in London! Have you been to the London Eye before? Any other recommendations for things to do in the city?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! Your expression in the video still was so relatable! 😂",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Podcasting (specifically wellness and lifestyle topics)",
+            "Mental Health and Self-Care",
+            "London and British Culture",
+            "Friendship and Women's Empowerment",
+            "Nature and Seaside Activities"
+          ],
+          "LIFESTYLE": "Likely a podcaster based in London, focused on wellness, lifestyle, and mental health. Enjoys spending time with friends, exploring nature (especially seaside locations), and promoting positive mental health practices. Possibly involved in the wellness industry or a related field.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about podcasts and mental well-being. What inspired you to start a podcast on this topic?",
+            "I'm planning a trip to London. What are some of your favorite hidden gems or local spots that you would recommend?",
+            "Your post about self-love really resonated with me. What are some practical tips you have for cultivating self-compassion?",
+            "I'm curious about your podcast. Could you tell me about an episode that you're particularly proud of or that had a significant impact on your listeners?",
+            "I noticed you've been to Margate. What did you enjoy most about it?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Empathetic",
+            "Motivational",
+            "Social",
+            "Wellness-focused"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Hiking/Nature: \"That looks like a beautiful place to walk! Do you have any favorite hiking spots in the area?\"",
+        "2. Motivation/Self-Care: \"I really appreciate the message in your post about being your own best friend. What are some ways you practice self-care?\"",
+        "1.  **Podcast Content:** Ask about a specific episode or topic discussed on their podcast that resonated with you, or suggest a topic they might consider covering in the future.",
+        "2.  **London/British Culture:** Inquire about their favorite things to do in London or ask for recommendations for local spots, given their use of the #london hashtag.",
+        "1.  **Travel/London:** \"I noticed you're in London! Have you been to the London Eye before? Any other recommendations for things to do in the city?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

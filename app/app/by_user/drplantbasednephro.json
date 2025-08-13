@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T22:55:52.695793",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T22:55:32.524355",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows Dr. Plant Based Nephro sitting in a small, stone-like tub of water outdoors. He is shirtless and wearing patterned swim trunks. The tub is surrounded by lush greenery. A small rock with the word \"Cold\" is visible near the tub. The Instagram post caption mentions it was his first cold plunge and that it lasted less than 30 seconds.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a plant-based salad with poached pear, arugula, and other ingredients, posted by dr.plantbasednephro. The caption mentions a trip from Tampa to Sarasota for a plant-based fine dining experience at Ka Papa Cuisine, specifically highlighting the plant-based salmon from @oshiseafood.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a variety of tropical fruits, including jackfruit, rambutan, longan, mangos, passionfruit, eggfruit, and apple bananas. The post is captioned \"Kauai farmers market haul.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by dr.plantbasednephro featuring a plant-based meal from a restaurant in Maui called @gatheronmaui. The meal appears to be a combination of vegan mushroom risotto, hummus board, golden beet poke, and a mana bowl.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows dr.plantbasednephro and three other individuals at the Plant Based Health and Nutrition conference. They are holding props like fruits, vegetables, and signs that say \"herbivore\" and \"Eat Plants.\" The post highlights the importance of green vegetables, fiber, and prolonged water fasting.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of raw vegan enchiladas and a jalapeño burger from Wild Living Foods. The dish is colorful and appears to be well-presented.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Plant-based cuisine/restaurants:** Inquire about other plant-based restaurants they enjoy in the Tampa/Sarasota area or other cities they've visited.",
+          "2.  **Travel for food:** Ask about other food-related travel experiences they've had, or if they have any upcoming trips planned around trying new vegan cuisine.",
+          "1.  **Kauai Farmers Market:** Ask about the best time to visit the Kauai farmers market or other local food experiences on the island.",
+          "2.  **Exotic Fruits:** Inquire about the person's favorite way to prepare or eat any of the less common fruits shown, such as jackfruit or rambutan.",
+          "1. **Plant-based diet/vegan cuisine:** Given the focus on plant-based food and the user's handle, discussing the benefits of a plant-based diet, favorite vegan recipes, or challenges/successes with plant-based eating could be engaging."
+        ],
+        "generated_comment": "Hey! Just was having a little stalk of your profile, that cold plunge looked intense! Hope you enjoyed the euphoric feeling afterwards 🥶",
+        "profile_bio": {
+          "PERSON NAME": "Dr. Plant Based Nephro (Likely a professional title and area of expertise, actual name Unknown)",
+          "INTERESTS": [
+            "Plant-based Cuisine",
+            "Vegan Fine Dining",
+            "Travel (especially for food)",
+            "Exotic Fruits",
+            "Health & Nutrition (specifically plant-based)"
+          ],
+          "LIFESTYLE": "Likely a medical professional (Nephrologist) who advocates for and practices a plant-based lifestyle. Enjoys travel, particularly to locations with access to fresh produce and innovative vegan cuisine. Seems to prioritize health and wellness, incorporating activities like cold plunges.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite plant-based restaurants in the Tampa/Sarasota area, or any other cities you've visited?",
+            "Do you have any upcoming trips planned around trying new vegan cuisine?",
+            "What's the best time to visit the Kauai farmers market, and are there any other local food experiences on the island you'd recommend?",
+            "What's your favorite way to prepare or eat jackfruit or rambutan?",
+            "What are some of the biggest benefits you've experienced from following a plant-based diet?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Adventurous (willing to try new foods and experiences like cold plunges)",
+            "Passionate (about plant-based nutrition)",
+            "Inquisitive (likely interested in learning about new foods and culinary techniques)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Plant-based cuisine/restaurants:** Inquire about other plant-based restaurants they enjoy in the Tampa/Sarasota area or other cities they've visited.",
+        "2.  **Travel for food:** Ask about other food-related travel experiences they've had, or if they have any upcoming trips planned around trying new vegan cuisine.",
+        "1.  **Kauai Farmers Market:** Ask about the best time to visit the Kauai farmers market or other local food experiences on the island.",
+        "2.  **Exotic Fruits:** Inquire about the person's favorite way to prepare or eat any of the less common fruits shown, such as jackfruit or rambutan.",
+        "1. **Plant-based diet/vegan cuisine:** Given the focus on plant-based food and the user's handle, discussing the benefits of a plant-based diet, favorite vegan recipes, or challenges/successes with plant-based eating could be engaging."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

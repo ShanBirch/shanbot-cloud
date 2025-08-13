@@ -1,0 +1,71 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 4,
+      "user_messages": 3,
+      "ai_messages": 1,
+      "ai_questions": 1,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": true,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-10T20:10:36.529050",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-09T08:57:50.656105+00:00",
+          "type": "user",
+          "text": "OMG, it’s amazing! Such a special place, very highly recommended. They also have rabbits running around so you will feel right at home. 🥰"
+        },
+        {
+          "timestamp": "2025-04-09T08:57:50.689042+00:00",
+          "type": "ai",
+          "text": "Haha love that they have rabbits! Sounds like my kind of place. Definitely adding it to the list! What was your favourite part about it?"
+        },
+        {
+          "timestamp": "2025-04-10T02:27:54.202346+00:00",
+          "type": "user",
+          "text": "OMG, it’s amazing! Such a special place, very highly recommended. They also have rabbits running around so you will feel right at home. 🥰 + Shannon: Haha love that they have rabbits! Sounds like my kind of place. Definitely adding it to the list! What was your favourite part about it? {{cuf_11967919}}  {{cuf_11967920}} Lead : Heheee! Sitting in the chair overlooking the ocean. It has a super warm and cosy vibe like you’re in someone’s home, rather than an AirBnB."
+        },
+        {
+          "timestamp": "2025-04-10T05:24:34.280784+00:00",
+          "type": "user",
+          "text": "OMG, it’s amazing! Such a special place, very highly recommended. They also have rabbits running around so you will feel right at home. 🥰 + Shannon: Haha love that they have rabbits! Sounds like my kind of place. Definitely adding it to the list! What was your favourite part about it? {{cuf_11967919}}  {{cuf_11967920}} Lead : Heheee! Sitting in the chair overlooking the ocean. It has a super warm and cosy vibe like you’re in someone’s home, rather than an AirBnB. + Shannon: Ocean views are the best! Anything else stand out about the place? {{cuf_11967919}}  {{cuf_11967920}} Lead : Free coffee, great quiet location, huge deck for sitting outside, kitchen table is massive (I used it for writing and looking out to the ocean), near the Kilcunda pub which has great food. Other shops nearby are lovely too. + Shannon: Sounds like an awesome spot hey!  What were you writing about? {{cuf_11967919}}  {{cuf_11967920}} Lead : It is! + How to build a business! + Are you thinking of booking the house?"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "leannespeaking",
+      "user_responses_to_questions": 0,
+      "response_rate": 0.0,
+      "coaching_inquiries": 0,
+      "ai_detections": 0,
+      "first_message_timestamp": "2025-04-09T08:57:50.656105+00:00",
+      "last_message_timestamp": "2025-04-10T05:24:34.280784+00:00",
+      "last_seen_timestamp": "2025-04-10T05:24:34.280784+00:00",
+      "conversation_count": 1,
+      "conversation_duration_str": "20h 26m",
+      "fitness_topic_user_initiated": false,
+      "fitness_topic_ai_initiated": false
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

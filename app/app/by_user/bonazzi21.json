@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T17:41:26.552506",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T17:41:10.657324",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a mirror selfie of a young man, presumably bonazzi21, shirtless and holding his phone up to take the picture. There is a TikTok logo on the video. The man has dark hair and is in what appears to be a bathroom. There is a filter on the video.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a young man, presumably bonazzi21, posing outdoors. He is wearing a light-colored blazer and a white t-shirt. There is greenery and a brick wall in the background. The TikTok logo is visible, suggesting the content might be related to that platform.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a shirtless man with tattoos, wearing shorts and sneakers, posing outdoors near a wooden structure, rocks, and greenery. The sky is blue.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (bonazzi21) standing in an elevator. He is wearing a navy blue athletic shirt. There is a fire-like effect added to the video.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person, presumably bonazzi21, playing golf. The person is in mid-swing, with the golf club raised above their head. The background appears to be a golf course with trees.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a shirtless man with tattoos, wearing jeans and a baseball cap, standing outdoors.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Fashion/Style:** Complimenting the outfit and asking about his style inspiration or where he shops.",
+          "2.  **TikTok:** Asking about the type of content he creates on TikTok or if he has any favorite trends.",
+          "1.  Fitness/Workout Routines: Given his physique, you could ask about his workout routine or fitness tips.",
+          "2.  Travel/Location: You could ask about the location of the photo.",
+          "1.  The fire effect: \"Cool fire effect! What app did you use to create it?\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Fitness/Working Out",
+            "Fashion/Style",
+            "TikTok Content Creation",
+            "Golf",
+            "Outdoor Activities/Travel"
+          ],
+          "LIFESTYLE": "Based on the content, 'bonazzi21' appears to lead an active lifestyle, focusing on fitness and outdoor activities. He seems interested in fashion and creating content for TikTok. The presence of golf suggests a leisure activity, and the various locations in the photos hint at some travel or exploration.",
+          "CONVERSATION STARTERS": [
+            "I really like your style! Where do you usually shop for your clothes or get your style inspiration?",
+            "What kind of content do you create on TikTok? Any favorite trends you're into right now?",
+            "You seem to be in great shape! Do you have a specific workout routine you follow, or any fitness tips you'd be willing to share?",
+            "That photo with the wooden structure and rocks looks amazing! Where was that taken?",
+            "Cool fire effect in the elevator video! What app did you use to create it?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Confident (posing shirtless and taking selfies)",
+            "Active (engaging in fitness and outdoor activities)",
+            "Stylish (demonstrated through clothing choices)",
+            "Creative (using filters and creating TikTok content)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Fashion/Style:** Complimenting the outfit and asking about his style inspiration or where he shops.",
+        "2.  **TikTok:** Asking about the type of content he creates on TikTok or if he has any favorite trends.",
+        "1.  Fitness/Workout Routines: Given his physique, you could ask about his workout routine or fitness tips.",
+        "2.  Travel/Location: You could ask about the location of the photo.",
+        "1.  The fire effect: \"Cool fire effect! What app did you use to create it?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T11:01:18.348035",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T11:00:59.517223",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by iamwilalexander is a carousel post. The first image shows a muscular man in a gym, bent over with his hands on an ab roller. The text overlayed on the image reads \"4 QUESTIONS TO ASK YOURSELF IF YOU'RE STUCK\". The background shows gym equipment.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a man in an elevator. He's wearing a black t-shirt and shorts, and has tattoos on his arm. The caption and hashtags suggest he's interested in fitness, business, and wellness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a shirtless man (iamwilalexander) in a gym setting, presumably after a workout. He has visible tattoos on his arms. The hashtags in the post confirm his interest in fitness, tattoos, and business.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a man (iamwilalexander) looking sweaty, likely after a workout. He is shirtless and appears to be in a gym or fitness-related environment. The location is listed as Sydney, Australia.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A selfie of a muscular man in a gym or bathroom setting, holding a water bottle. He has tattoos on his arm.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man, presumably iamwilalexander, in the shower. He has visible tattoos on his arm and neck. The post also includes hashtags related to fitness, health, and modeling.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Fitness/Bodybuilding: Comment on one of the specific fitness-related hashtags he used, like #bodybuilding or #workoutmotivation, and ask about his workout routine or favorite exercises.",
+          "2. Sydney: Since he tagged Sydney, asking about his favorite spots in the city or recommendations for places to visit could be a good conversation starter.",
+          "1. **Fitness/Workout Routines:** \"I saw your post from the gym. What's your favorite exercise for building [specific muscle group, e.g., chest]?\"",
+          "2. **Tattoos:** \"Love the ink! What's the story behind the design on your [specific arm]?\"",
+          "1. Fitness/Workout Routine: Ask about his workout routine, what kind of exercises he enjoys, or if he has any fitness goals he's currently working towards."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The gym content looked intense 💪",
+        "profile_bio": {
+          "PERSON NAME": "Wil Alexander (based on username 'iamwilalexander')",
+          "INTERESTS": [
+            "Fitness/Bodybuilding",
+            "Business/Entrepreneurship",
+            "Health & Wellness",
+            "Tattoos",
+            "Sydney, Australia (potentially travel/local experiences)"
+          ],
+          "LIFESTYLE": "Appears to be a fitness enthusiast and entrepreneur living in or frequently visiting Sydney, Australia. He dedicates time to working out, maintaining a muscular physique, and is likely involved in business ventures. He also seems to value health and wellness, possibly including aspects like nutrition and self-improvement.",
+          "CONVERSATION STARTERS": [
+            "I saw your post from the gym. What's your favorite exercise for building [specific muscle group, e.g., chest]?",
+            "Love the ink! What's the story behind the design on your [specific arm]?",
+            "I noticed you're often in Sydney. What are some of your favorite spots in the city?",
+            "What kind of workout routine do you typically follow?",
+            "I saw your post about being stuck and asking questions. What's one piece of advice you'd give to someone feeling unmotivated in their fitness journey?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven (dedication to fitness and business)",
+            "Confident (willing to share physique and personal thoughts)",
+            "Motivated (posts about self-improvement and overcoming obstacles)",
+            "Health-conscious (focus on fitness and wellness)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Fitness/Bodybuilding: Comment on one of the specific fitness-related hashtags he used, like #bodybuilding or #workoutmotivation, and ask about his workout routine or favorite exercises.",
+        "2. Sydney: Since he tagged Sydney, asking about his favorite spots in the city or recommendations for places to visit could be a good conversation starter.",
+        "1. **Fitness/Workout Routines:** \"I saw your post from the gym. What's your favorite exercise for building [specific muscle group, e.g., chest]?\"",
+        "2. **Tattoos:** \"Love the ink! What's the story behind the design on your [specific arm]?\"",
+        "1. Fitness/Workout Routine: Ask about his workout routine, what kind of exercises he enjoys, or if he has any fitness goals he's currently working towards."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

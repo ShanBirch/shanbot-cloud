@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T12:53:47.853378",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T12:53:31.907804",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by dr_mohamed_metwally_official features a headshot of him smiling warmly. The image is framed within a black circle. Overlayed on the image is the Arabic text \"عيد مبارك عليكم\" with a red heart and a decorative line beneath it. The background appears to be an interior setting with warm lighting.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a hand holding a small bottle of what appears to be a skincare product, possibly oil or serum. Other skincare products are visible in the background. The post includes hashtags related to beauty, skincare, and the doctor's name.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a hand petting a white cat. The caption also includes hashtags related to travel and being a doctor.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by dr_mohamed_metwally_official. The post is a video of the doctor, likely giving a message or announcement. The hashtags include #bioegypt, #hopeclinics, and his name in Arabic.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows Dr. Mohamed Metwally in what appears to be a recording setup. He is wearing a white coat, suggesting he is a medical professional. He is holding a phone and there is a microphone in the frame.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a selfie of Dr. Mohamed Metwally. He is wearing a casual outfit, and there are decorations visible in the background. The caption is in Arabic, but it includes hashtags related to his name, a clinic, and the phrase \"Egypt Specialist.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Skincare Products: Ask about the specific product in the photo, its ingredients, or its benefits.",
+          "2.  BioEgypt: Inquire about the BioEgypt hashtag and what it represents, showing interest in local or specialized healthcare initiatives.",
+          "1.  Cat ownership: \"I saw you have a beautiful white cat! What's their name and how long have you had them?\"",
+          "2.  Travel: \"I noticed you use the hashtag #travel. Where is the last place you visited and what made it memorable?\"",
+          "1.  His medical work and/or his clinic, \"Hope Clinics,\" especially if you are interested in the services they offer."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Dr. Mohamed Metwally",
+          "INTERESTS": [
+            "Skincare and Beauty",
+            "Healthcare and Medicine (specifically in Egypt)",
+            "Travel",
+            "Animal Companionship (Cats)",
+            "Content Creation/Video Production"
+          ],
+          "LIFESTYLE": "Dr. Mohamed Metwally appears to be a medical professional (likely a doctor) who is active on social media. He promotes skincare products, is involved with a clinic (Hope Clinics), and enjoys traveling. He also seems to be a cat owner and engages in content creation, possibly for educational or promotional purposes related to his work.",
+          "CONVERSATION STARTERS": [
+            "I'm curious about the skincare product you featured in your recent post. Could you tell me more about its ingredients and benefits?",
+            "I noticed the hashtag #BioEgypt in one of your posts. What does BioEgypt represent, and what kind of initiatives are you involved in?",
+            "I saw you have a beautiful white cat! What's their name and how long have you had them?",
+            "I noticed you use the hashtag #travel. Where is the last place you visited and what made it memorable?",
+            "I'm interested in learning more about Hope Clinics. What kind of services do you offer?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Professional",
+            "Engaging/Communicative",
+            "Caring/Compassionate (evident through animal interaction and 'Eid Mubarak' post)",
+            "Driven/Ambitious (evident through his medical work and content creation)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Skincare Products: Ask about the specific product in the photo, its ingredients, or its benefits.",
+        "2.  BioEgypt: Inquire about the BioEgypt hashtag and what it represents, showing interest in local or specialized healthcare initiatives.",
+        "1.  Cat ownership: \"I saw you have a beautiful white cat! What's their name and how long have you had them?\"",
+        "2.  Travel: \"I noticed you use the hashtag #travel. Where is the last place you visited and what made it memorable?\"",
+        "1.  His medical work and/or his clinic, \"Hope Clinics,\" especially if you are interested in the services they offer."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

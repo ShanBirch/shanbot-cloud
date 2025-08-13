@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T11:50:35.470384",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T11:50:16.498443",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image features two pineapples lying on a fluffy, white surface, possibly a rug. Nestled between them is a small hedgehog, lying on its back with its paws up. The hedgehog appears relaxed and content. The pineapples are ripe, with green tops and a mix of yellow and brown on their bodies. The overall tone of the image is cute and whimsical.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up shot of a jar of NutraKynd Probiotic Gummies. The jar is placed on a surface with a colorful, abstract paint splatter design.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by nutrakynd featuring a succulent plant in a white pot. The post includes the quote: \"If speaking kindly to plants helps them grow imagine what speaking kindly to humans can do.\" The hashtags used are related to veganism, health, and lifestyle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a product shot of Nutrakynd Turmeric Curcumin capsules. It's styled with yellow and orange backgrounds, sunflowers, and white flowers. The post highlights the health benefits of turmeric and encourages viewers to purchase the supplement.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by nutrakynd featuring a woman meditating on a beach at sunset. The post includes the text \"#VeganLifestyle Your body is a reflection of your lifestyle.\" and a variety of hashtags related to veganism, health, and wellness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a hand holding a bottle of NutraKynd Ashwagandha Root supplement. The background features a palm tree and a blue sky. The post includes a testimonial about feeling energized and less stressed.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Vegan/Plant-Based Lifestyle:** The post mentions the gummies are vegan and uses hashtags like #healthyvegan and #plantbasedsupplements. This could lead to a conversation about veganism, plant-based diets, or other vegan-friendly products.",
+          "2. **Health & Wellness:** The post promotes the health benefits of the probiotic gummies, such as supporting digestion and gut health. This could lead to a conversation about general health and wellness, dietary supplements, or specific health concerns related to digestion.",
+          "1.  **Plant care:** You could ask about the specific type of succulent featured or share tips about plant care in general.",
+          "2.  **Veganism/Kindness:** You could engage in a conversation about the importance of kindness, veganism, or healthy lifestyle choices. You could ask for their favorite vegan recipes, or ask them how they incorporate kindness into their daily routine.",
+          "1.  **Health and Wellness:** Ask about their personal health and wellness goals and how they incorporate supplements like turmeric into their routine."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The hedgehog looked so comfy between those pineapples! 🍍",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism/Plant-Based Lifestyle",
+            "Health & Wellness (especially gut health, stress management, and anti-inflammatory supplements)",
+            "Plant Care (Succulents)",
+            "Mindfulness & Meditation",
+            "Animal Welfare (Hedgehogs)"
+          ],
+          "LIFESTYLE": "Likely promotes a healthy and mindful lifestyle centered around veganism, natural supplements, and self-care. They seem to value both physical and mental well-being. Possibly an influencer or small business owner focused on health and wellness products.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite vegan recipes or go-to plant-based meals?",
+            "I noticed you featured NutraKynd Ashwagandha Root. What benefits have you personally experienced from taking it?",
+            "That succulent you posted is beautiful! Do you have any tips for caring for succulents?",
+            "I love the message about speaking kindly to plants and humans. How do you incorporate kindness into your daily routine?",
+            "What are your favorite ways to practice mindfulness and reduce stress?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Compassionate",
+            "Health-conscious",
+            "Positive",
+            "Mindful"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Vegan/Plant-Based Lifestyle:** The post mentions the gummies are vegan and uses hashtags like #healthyvegan and #plantbasedsupplements. This could lead to a conversation about veganism, plant-based diets, or other vegan-friendly products.",
+        "2. **Health & Wellness:** The post promotes the health benefits of the probiotic gummies, such as supporting digestion and gut health. This could lead to a conversation about general health and wellness, dietary supplements, or specific health concerns related to digestion.",
+        "1.  **Plant care:** You could ask about the specific type of succulent featured or share tips about plant care in general.",
+        "2.  **Veganism/Kindness:** You could engage in a conversation about the importance of kindness, veganism, or healthy lifestyle choices. You could ask for their favorite vegan recipes, or ask them how they incorporate kindness into their daily routine.",
+        "1.  **Health and Wellness:** Ask about their personal health and wellness goals and how they incorporate supplements like turmeric into their routine."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

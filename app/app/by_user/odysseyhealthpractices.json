@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T23:19:15.053234",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T23:18:57.934189",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by odysseyhealthpractices is a video promoting their PEAQ Calisthenics class. The text overlay on the video states \"WHEN: FRIDAYS 5:30PM WHERE: PEAQ $25PP\". The video shows three people performing a downward dog-like exercise on a blue mat in a gym setting. Gym equipment is visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from odysseyhealthpractices promoting calisthenics training and massage. It features a man performing a calisthenics exercise and lists movements like pull-ups, dips, muscle-ups, and handstands.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man sitting on a massage table in what appears to be a gym or training facility. He is wearing athletic clothing and there are weights and other equipment in the background. The post is from Odyssey Health Practices and includes hashtags like #calisthenics, #massage, #personaltraining, #movement, and #mobility.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two people doing a handstand walk in a grassy park on a sunny day. The post is from odysseyhealthpractices and mentions playing the game HORSE.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person receiving a massage at Odyssey Health Practices. The post caption mentions a 5x5x55 run and encourages donations.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of people practicing calisthenics in a park. One person is performing a handstand pushup on parallettes. The post is tagged with #calisthenics, #bodyweightstrength, #lsit, #hspu, #pullup, #frontlever, #backlever, and #handstand. The caption mentions encouraging each other to try new things and a regular Sunday meetup.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Calisthenics training: Ask about the person's experience with calisthenics, what their favorite exercises are, or what goals they have in their training.",
+          "2. Massage: Inquire about the person's experience with massage therapy, what benefits they've experienced, or what types of massage they prefer.",
+          "1.  **Calisthenics/Personal Training:** \"I noticed you offer calisthenics training. What are some of the benefits you've seen your clients experience with that type of workout?\"",
+          "2.  **Massage & Mobility:** \"Your post mentions massage and mobility. Do you find that massage is an effective tool for improving mobility and flexibility?\"",
+          "1.  Calisthenics/Handstand walking: \"I noticed you were doing handstand walks in the park. How long have you been practicing calisthenics?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The calisthenics class looked like a great workout 💪",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Calisthenics",
+            "Massage Therapy",
+            "Bodyweight Training",
+            "Mobility & Flexibility",
+            "Outdoor Fitness"
+          ],
+          "LIFESTYLE": "Likely a fitness professional (personal trainer or massage therapist) who promotes a healthy and active lifestyle. They offer calisthenics classes and massage services, and enjoy outdoor activities and group fitness. They value community and encourage others to try new things.",
+          "CONVERSATION STARTERS": [
+            "What are some of the benefits you've seen your clients experience with calisthenics training?",
+            "Do you find that massage is an effective tool for improving mobility and flexibility?",
+            "How long have you been practicing calisthenics, and what are some of your favorite exercises?",
+            "I saw you offer PEAQ Calisthenics on Fridays. What's a typical class like?",
+            "What are some of the most common mobility issues you address with your clients through massage?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Encouraging",
+            "Active",
+            "Community-oriented",
+            "Knowledgeable (in fitness and wellness)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Calisthenics training: Ask about the person's experience with calisthenics, what their favorite exercises are, or what goals they have in their training.",
+        "2. Massage: Inquire about the person's experience with massage therapy, what benefits they've experienced, or what types of massage they prefer.",
+        "1.  **Calisthenics/Personal Training:** \"I noticed you offer calisthenics training. What are some of the benefits you've seen your clients experience with that type of workout?\"",
+        "2.  **Massage & Mobility:** \"Your post mentions massage and mobility. Do you find that massage is an effective tool for improving mobility and flexibility?\"",
+        "1.  Calisthenics/Handstand walking: \"I noticed you were doing handstand walks in the park. How long have you been practicing calisthenics?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

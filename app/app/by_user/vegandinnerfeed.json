@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T17:48:05.861237",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T17:47:44.909311",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of someone preparing hummus avocado toast. A hand is holding a spoon and spreading a creamy, light-colored mixture, presumably hummus, onto a slice of toasted bread. Another slice of toast is visible in the background. Text overlay on the image states \"HUMMUS AVOCADO TOAST 8:10 AM | 500 KCAL/SERVING\". The background is a light-colored countertop.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from @vegandinnerfeed featuring a close-up shot of spicy roasted potatoes, likely vegan, garnished with fresh herbs. The post promotes a recipe available on their blog.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan food, specifically almond butter noodles with edamame salsa and smoked tofu triangles. The post includes the recipe and protein breakdown.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman holding a container of homemade healthy crackers. The post includes a recipe for vegan and gluten-free crackers made with seeds and psyllium husk.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from vegandinnerfeed featuring a creamy, spiced black bean soup topped with avocado and vegan sour cream, served with sourdough bread. The post includes a detailed recipe.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from vegandinnerfeed featuring a quick and easy recipe for Sesame Ginger Chickpeas. The image shows chickpeas being cooked in a pan on an induction cooktop. The caption highlights the recipe's simplicity and speed, making it ideal for busy weeknights or days when you don't feel like cooking.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan/vegetarian cooking: Discussing favorite vegan recipes, cooking tips, or challenges in finding vegan ingredients.",
+          "2. Potato recipes: Sharing other creative ways to prepare potatoes or asking for recommendations for potato-based dishes.",
+          "1. Vegan cooking and meal prepping: Ask about their favorite vegan recipes or meal prep tips.",
+          "2. High-protein vegan meals: Inquire about other sources of protein they incorporate into their diet.",
+          "1. Vegan/Gluten-Free Baking: Ask about other favorite vegan or gluten-free recipes, or share a favorite recipe of your own."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post with the hummus avocado toast looked delicious! 😋 The toast looked perfectly golden brown.",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Cooking",
+            "Healthy Eating",
+            "Recipe Development",
+            "Gluten-Free Baking",
+            "Quick & Easy Meals"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys cooking and creating vegan recipes, possibly with a focus on healthy and convenient options. They may be a food blogger or influencer sharing their recipes and lifestyle with others. They seem to value efficiency in the kitchen, as evidenced by the emphasis on quick and easy recipes.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite vegan recipes for meal prepping?",
+            "Besides tofu and edamame, what other high-protein vegan ingredients do you enjoy using?",
+            "Do you have any tips for finding vegan ingredients that are often hard to source?",
+            "What are some other creative ways you like to prepare potatoes?",
+            "What's your go-to vegan and gluten-free recipe when you need a quick and satisfying snack?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (with recipes)",
+            "Health-conscious",
+            "Efficient (values quick and easy recipes)",
+            "Sharing (willing to share recipes and tips)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan/vegetarian cooking: Discussing favorite vegan recipes, cooking tips, or challenges in finding vegan ingredients.",
+        "2. Potato recipes: Sharing other creative ways to prepare potatoes or asking for recommendations for potato-based dishes.",
+        "1. Vegan cooking and meal prepping: Ask about their favorite vegan recipes or meal prep tips.",
+        "2. High-protein vegan meals: Inquire about other sources of protein they incorporate into their diet.",
+        "1. Vegan/Gluten-Free Baking: Ask about other favorite vegan or gluten-free recipes, or share a favorite recipe of your own."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

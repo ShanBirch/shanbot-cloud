@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T01:29:46.927353",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T01:29:29.087113",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a selfie featuring two men at what appears to be the Notting Hill Carnival. The man in the foreground is Black, wearing sunglasses, and has a big smile. The other man is white, wearing a baseball cap, and smiling. In the background, there's a crowd of people, trees, and buildings. The post is tagged #nottinghillcarnival.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a crowded street scene, likely a parade or festival. The user, jayfitdoesit, tagged the post with #nottinghillcarnival. There's a sound system on a vehicle in the background, and many people are present.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a crowd of people at the Notting Hill Carnival.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a muscular man wearing a Hugo Boss polo shirt and Armani jeans. He is standing indoors, and the hashtags indicate he is interested in fitness, gym, veganism, and bodybuilding.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a person's neck with a new tattoo that says \"Fearless\" in cursive. There are also other tattoos visible on the neck.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man, presumably jayfitdoesit, doing a shoulder workout on a machine at the gym. The hashtags include #gymshark, #veganbodybuilding, and #vegan.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "*   Notting Hill Carnival: Ask about their experience at the carnival, what they enjoyed most, or if they plan to attend again.",
+          "*   Travel: If they frequently attend events like this, ask about other festivals or events they enjoy traveling to.",
+          "1. Notting Hill Carnival: You could ask about their favorite part of the carnival, or if they've been before.",
+          "2. Travel/Events: You could ask about other festivals or events they enjoy attending.",
+          "1. Vegan bodybuilding: Given his hashtags related to veganism and bodybuilding, a conversation could be started about his vegan diet and how he fuels his workouts."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! It looked like a great day at the carnival. 🥳",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Fitness/Bodybuilding",
+            "Veganism",
+            "Tattoos",
+            "Travel/Festivals (specifically Notting Hill Carnival)",
+            "Fashion (Hugo Boss, Armani)"
+          ],
+          "LIFESTYLE": "Appears to be a fitness enthusiast who follows a vegan lifestyle. Enjoys attending events like the Notting Hill Carnival and values personal style. Likely spends time at the gym and is dedicated to bodybuilding.",
+          "CONVERSATION STARTERS": [
+            "What was your favorite part of the Notting Hill Carnival this year?",
+            "I noticed your 'Fearless' tattoo. What's the story behind it?",
+            "I'm curious about vegan bodybuilding. What are some of your go-to meals for fueling your workouts?",
+            "Do you have any other festivals or events you enjoy traveling to?",
+            "What are your favorite exercises for shoulder workouts?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Outgoing/Social (attends crowded events, photographed with others)",
+            "Driven/Dedicated (fitness, veganism, bodybuilding)",
+            "Expressive (tattoos, fashion)",
+            "Confident (selfies, showing off physique)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "*   Notting Hill Carnival: Ask about their experience at the carnival, what they enjoyed most, or if they plan to attend again.",
+        "*   Travel: If they frequently attend events like this, ask about other festivals or events they enjoy traveling to.",
+        "1. Notting Hill Carnival: You could ask about their favorite part of the carnival, or if they've been before.",
+        "2. Travel/Events: You could ask about other festivals or events they enjoy attending.",
+        "1. Vegan bodybuilding: Given his hashtags related to veganism and bodybuilding, a conversation could be started about his vegan diet and how he fuels his workouts."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

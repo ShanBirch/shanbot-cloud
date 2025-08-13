@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T12:21:55.949779",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T12:21:38.174705",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post by anita_fitnessjourney promoting a HIIT Bootcamp by Kayla Itsines. The image features a pink graphic with a stylized medal/pendant shape. The text \"WEEK 1 • HIIT CARDIO & ABS - FOUNDATIONS\" is above \"HIIT Bootcamp\" and \"Kayla Itsines\" is below.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by @anita_fitnessjourney. It shows a workout plan focused on upper body and core strength, specifically \"Week 2 - Dynamic High Intensity\" by Kayla Itsines. The post caption mentions goals of gaining strength and taking up running to help with her job as a Sports Trainer who helps footballers with injuries.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by anita_fitnessjourney showing a completed workout screen from the Kayla Itsines app, specifically a \"Lower Body, Cardio & Core\" workout. The user is lying on a mat, presumably after completing the workout.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a dumbbell, a Pilates with Sara advertisement, and the caption talks about the importance of listening to the body's needs and healing.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a woman after a workout. She is wearing a blue t-shirt and looks slightly sweaty. The caption mentions hashtags related to fitness goals, Kayla Itsines workouts, and HIIT.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (anita_fitnessjourney) holding a bowl of what appears to be a corn salad. The caption indicates it's based on a recipe inspired by Cameron Diaz and includes the recipe she used.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Her work as a Sports Trainer:** Since she mentions working with footballers and their injuries, you could ask about the types of injuries she commonly sees or the most rewarding aspects of her job.",
+          "2.  **Her running goals:** She mentions taking up running. You could ask her about her running goals, current progress, or any tips she might have for someone starting to run.",
+          "1.  **Kayla Itsines workouts:** Ask about her experience with the Kayla Itsines program, what she likes about it, or if she has tried other programs by the same trainer.",
+          "2.  **Lower Body, Cardio & Core workouts:** Ask about her favorite lower body, cardio, or core exercises, or if she has any tips for staying motivated during these types of workouts.",
+          "1. Pilates: Ask about their experience with Pilates, or if they have any favorite Pilates exercises."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That HIIT bootcamp graphic looked really cool! 💪",
+        "profile_bio": {
+          "PERSON NAME": "Anita (Likely first name from username)",
+          "INTERESTS": [
+            "HIIT Workouts (Kayla Itsines programs)",
+            "Strength Training",
+            "Healthy Eating (Recipe Inspiration)",
+            "Running",
+            "Pilates"
+          ],
+          "LIFESTYLE": "Anita is a Sports Trainer who works with footballers, helping them recover from injuries. She is actively engaged in fitness, incorporating HIIT, strength training, and potentially running into her routine. She also focuses on healthy eating and listening to her body's needs.",
+          "CONVERSATION STARTERS": [
+            "What are some of the most common injuries you see in footballers, and how do you help them recover?",
+            "What are your current running goals, and what's been the biggest challenge you've faced so far?",
+            "What do you enjoy most about the Kayla Itsines workout programs, and have you tried any other programs by her?",
+            "Do you have any favorite lower body, cardio, or core exercises that you find particularly effective?",
+            "What are your favorite Pilates exercises and how do you incorporate Pilates into your fitness routine?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated (to fitness and her profession)",
+            "Health-conscious (focus on healthy eating and listening to her body)",
+            "Motivated (actively pursuing fitness goals)",
+            "Disciplined (following workout programs)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Her work as a Sports Trainer:** Since she mentions working with footballers and their injuries, you could ask about the types of injuries she commonly sees or the most rewarding aspects of her job.",
+        "2.  **Her running goals:** She mentions taking up running. You could ask her about her running goals, current progress, or any tips she might have for someone starting to run.",
+        "1.  **Kayla Itsines workouts:** Ask about her experience with the Kayla Itsines program, what she likes about it, or if she has tried other programs by the same trainer.",
+        "2.  **Lower Body, Cardio & Core workouts:** Ask about her favorite lower body, cardio, or core exercises, or if she has any tips for staying motivated during these types of workouts.",
+        "1. Pilates: Ask about their experience with Pilates, or if they have any favorite Pilates exercises."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T13:06:26.709337",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T13:06:08.100320",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a flat lay featuring several items. Dominating the background is a white shirt with \"GREAT BRITAIN MASTERS\" printed in large blue and red letters. On top of the shirt is a red and white striped ribbon. A gold medal with a white cross and red accents, labeled \"South of England Masters Athletics Championships\" sits near the top. A black business card with the \"Oud Island\" logo and contact information (oudisland08@gmail.com) is placed near the medal. Finally, a small bottle of fragrance is positioned near the business card.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a pair of black \"Animal\" brand boxing gloves resting on a wooden floor. The caption mentions protecting hands and includes hashtags related to boxing and the brand \"Animal Athletics.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two people sparring in a boxing ring. There's a banner in the background with details about \"BOX NATION\" and an event. The poster's caption mentions \"sparring\" and hashtags related to boxing gear and readiness for war.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by pompeysailor1981 featuring the Fareham Boxing Club logo and a message about boxing training, specifically pad work, bags, and sparring.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (pompeysailor1981) pointing to the logo on his t-shirt, which says \"Deep South Growlers.\" The caption mentions \"Lenox Village\" and \"#Nashville.\" There are also some collectibles on the shelf behind him.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a man holding up a boxing glove. He is wearing a baseball cap and appears to be in a gym or training facility.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Boxing: Ask about their experience with boxing, their training routine, or their favorite boxing techniques.",
+          "2. Gear: Ask about their experience with the \"Animal\" brand, their opinion on different brands of boxing gloves, or other boxing gear they use.",
+          "1. Boxing: Ask about their experience with sparring, their training regimen, or their favorite boxers.",
+          "2. Local Events: Inquire about the \"BOX NATION\" event mentioned on the banner and if they've attended or participated in similar events.",
+          "1. Boxing training: Ask about their training routine, favorite drills, or upcoming sparring sessions."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Boxing (Training, Sparring, Gear)",
+            "Masters Athletics (South of England Championships)",
+            "Travel (Nashville, Lenox Village)",
+            "Local Events (BOX NATION)",
+            "Oud Island (Fragrance, Business)"
+          ],
+          "LIFESTYLE": "Appears to be an active individual involved in boxing training and masters athletics. Likely participates in local sporting events. May have an interest in fragrance and possibly a connection to the 'Oud Island' business. Enjoys travel, as indicated by the Nashville post.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite aspect of boxing training – pad work, bag work, or sparring?",
+            "I noticed you use 'Animal' boxing gloves. What do you like about that brand?",
+            "Congratulations on your South of England Masters Athletics Championships medal! What event did you compete in?",
+            "Have you been to any of the 'BOX NATION' events? What are they like?",
+            "Tell me more about 'Oud Island'. What kind of fragrances do they offer?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven (evident from boxing and athletics involvement)",
+            "Dedicated (consistent training and competition)",
+            "Proud (showcasing achievements and team affiliations)",
+            "Active (engaging in physical activities)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Boxing: Ask about their experience with boxing, their training routine, or their favorite boxing techniques.",
+        "2. Gear: Ask about their experience with the \"Animal\" brand, their opinion on different brands of boxing gloves, or other boxing gear they use.",
+        "1. Boxing: Ask about their experience with sparring, their training regimen, or their favorite boxers.",
+        "2. Local Events: Inquire about the \"BOX NATION\" event mentioned on the banner and if they've attended or participated in similar events.",
+        "1. Boxing training: Ask about their training routine, favorite drills, or upcoming sparring sessions."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

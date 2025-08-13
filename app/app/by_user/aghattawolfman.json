@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T17:48:14.443372",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T17:47:57.196512",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows aghattawolfman sitting in a chair, wearing a red lace lingerie set. They have red hair and are wearing makeup, including pink lipstick and silver eyeshadow. The background is a simple white wall with some items on a shelf.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows aghattawolfman posing outdoors in a casual outfit consisting of a printed crop top and white shorts.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows aghattawolfman posing in what appears to be a faux fur coat or jacket.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (presumably aghattawolfman) standing next to a table with a cake, balloons, and treats. The cake has \"Paloma 26\" on it, suggesting it's a birthday celebration for someone named Paloma who is turning 26.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two people posing next to a birthday cake and table full of treats. The cake has \"Paloma 26\" on it, suggesting it's Paloma's 26th birthday. There are pink and yellow balloons in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person with vibrant pink/red hair wearing a black Adidas face mask. The post caption in Portuguese translates to \"A cold day, a good place to read a book, and thoughts of you.\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Fashion/Style: \"I like your style! Where do you usually shop for clothes?\"",
+          "2. Location/Travel: \"That looks like a cool place to take photos. Where was this taken?\"",
+          "1. Fashion/Style: \"I love your style! Where did you get that jacket/coat? It looks amazing.\"",
+          "2. Makeup: \"Your makeup looks great! What products do you use?\" (This is also supported by the comment in another language)",
+          "1.  **Baking/Cake Decorating:** Comment on the cake and ask if she made it herself or if she has any favorite bakeries."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Paloma (Likely)",
+          "INTERESTS": [
+            "Fashion (especially lingerie, casual wear, and outerwear)",
+            "Makeup",
+            "Celebrating birthdays/Social gatherings",
+            "Reading",
+            "Photography/Aesthetics"
+          ],
+          "LIFESTYLE": "Appears to enjoy fashion, beauty, and celebrating special occasions with friends. Enjoys reading and spending time in aesthetically pleasing locations. Possibly a student or young professional based on the casual nature of the posts.",
+          "CONVERSATION STARTERS": [
+            "I love your style! Where do you usually shop for clothes?",
+            "That looks like a cool place to take photos. Where was this taken?",
+            "Your makeup looks great! What products do you use, especially that lipstick?",
+            "That cake looks amazing! Did you bake it yourself, or do you have a favorite bakery?",
+            "What are you currently reading? I'm always looking for new book recommendations."
+          ],
+          "PERSONALITY TRAITS": [
+            "Stylish",
+            "Social",
+            "Aesthetic-minded",
+            "Introspective (based on the reading post)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Fashion/Style: \"I like your style! Where do you usually shop for clothes?\"",
+        "2. Location/Travel: \"That looks like a cool place to take photos. Where was this taken?\"",
+        "1. Fashion/Style: \"I love your style! Where did you get that jacket/coat? It looks amazing.\"",
+        "2. Makeup: \"Your makeup looks great! What products do you use?\" (This is also supported by the comment in another language)",
+        "1.  **Baking/Cake Decorating:** Comment on the cake and ask if she made it herself or if she has any favorite bakeries."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

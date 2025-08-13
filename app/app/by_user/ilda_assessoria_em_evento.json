@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T10:06:38.839323",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T10:06:16.761723",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a long, elegantly set dining table in a modern, high-rise setting. The table is covered with a black tablecloth and features black chairs. The place settings include black plates with gold trim, gold cutlery, and crystal glasses. White floral arrangements serve as centerpieces. Large windows offer a view of a cityscape and the ocean.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a beautifully decorated event table setting. It features white flowers, green napkins, gold cutlery, elegant glassware, and tall centerpieces.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a beautifully decorated event table setting with floral arrangements in shades of purple and white, clear acrylic candle holders, and purple napkins. The table appears to have a mirrored surface, reflecting the decorations.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a buffet setup at an event. There are several chafing dishes filled with food, and a sign that says \"Calulu de carne seca.\" The post is from ilda_assessoria_em_evento, who is likely an event planner or caterer.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a beautifully decorated table setting, likely for a wedding or other formal event. It features elegant chairs, white tablecloths, gold chargers, floral arrangements, and crystal glassware.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a beautifully decorated table setting, likely for an event. It features white plates, dark green napkins, gold cutlery, elegant glassware, and floral centerpieces in clear vases.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Event planning and design: \"I love the elegant aesthetic of your event setups! What are some of the biggest trends you're seeing in event design right now?\"",
+          "2. Floral arrangements: \"The white floral arrangements are stunning. Where do you source your flowers, or do you have a preferred florist?\"",
+          "1. Floral Design: \"The floral arrangements are stunning! What are some of your favorite flower combinations to work with for events?\"",
+          "2. Event Design Trends: \"I love the use of clear acrylic and mirrored surfaces. What are some other event design trends you're excited about right now?\"",
+          "1.  **Cuisine:** \"I saw your post about the Calulu de carne seca. It looks delicious! I'm curious, what are some other popular dishes you serve at events?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The table setting looked so chic! 🖤",
+        "profile_bio": {
+          "PERSON NAME": "Ilda (Last Name Unknown)",
+          "INTERESTS": [
+            "Event Planning & Design",
+            "Table Setting Aesthetics",
+            "Floral Arrangements (especially white and purple)",
+            "Catering & Cuisine (specifically Angolan dishes like Calulu de carne seca)",
+            "Luxury Event Design"
+          ],
+          "LIFESTYLE": "Professional event planner or event design company owner specializing in elegant and luxurious events, likely catering to high-end clients. Focuses on creating visually stunning table settings and providing delicious cuisine.",
+          "CONVERSATION STARTERS": [
+            "What are some of the most challenging aspects of planning events in high-rise settings with ocean views?",
+            "I noticed the Calulu de carne seca in one of your posts. What other traditional Angolan dishes do you often feature at events?",
+            "Your floral arrangements are always so beautiful. What are some of your favorite flower combinations to work with, and what inspires your choices?",
+            "I'm curious about the trends you're seeing in event design. What are some innovative materials or techniques you're excited about incorporating into future events?",
+            "What's your process for collaborating with clients to bring their vision for an event to life, especially when it comes to creating a cohesive and memorable table setting?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Detail-oriented",
+            "Creative",
+            "Sophisticated",
+            "Professional"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Event planning and design: \"I love the elegant aesthetic of your event setups! What are some of the biggest trends you're seeing in event design right now?\"",
+        "2. Floral arrangements: \"The white floral arrangements are stunning. Where do you source your flowers, or do you have a preferred florist?\"",
+        "1. Floral Design: \"The floral arrangements are stunning! What are some of your favorite flower combinations to work with for events?\"",
+        "2. Event Design Trends: \"I love the use of clear acrylic and mirrored surfaces. What are some other event design trends you're excited about right now?\"",
+        "1.  **Cuisine:** \"I saw your post about the Calulu de carne seca. It looks delicious! I'm curious, what are some other popular dishes you serve at events?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

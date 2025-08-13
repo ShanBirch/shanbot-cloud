@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T16:41:52.133667",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T16:41:33.484149",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a selfie of florawora, who is wearing a pink wig and a Sailor Moon-inspired outfit. She has pink eyeshadow and freckles drawn on her face. She is wearing long pink gloves.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person with blonde hair and deer-inspired makeup, including white spots, a darkened nose, and exaggerated eyelashes. They are wearing a green athletic top.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person with red hair, glasses, and a colorful striped sweater. The caption mentions an interest in Bob Dylan and The Beatles.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a large, decorated chocolate birthday cake with sports ball decorations (soccer ball, basketball, tennis ball) and the name \"Asher\" written on it. The cake also has a \"10\" symbol on the front, likely indicating the birthday age.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a white cake decorated with a large pink fondant bow. The post is captioned with phrases like \"She's giving camp,\" \"She's giving theatre,\" and \"She's giving *~~DRAMA~~*,\" suggesting a love for dramatic and theatrical aesthetics. The hashtags indicate the cake maker is located in Melbourne and specializes in fondant cakes for weddings and birthdays.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in a boat holding a small dog. The background features a rocky cliff face and clear water. The post caption mentions missing her dog and home, as well as activities like having coffee in front of waterfalls and working on freelance writing.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Makeup/Cosplay: Compliment the makeup and ask about the inspiration or the products used.",
+          "2. Halloween: Ask about other costumes they've done or if they have any plans for future costumes.",
+          "1. Music taste: Ask about favorite Bob Dylan or Beatles albums/songs.",
+          "2. The comment about \"not looking like\" someone who enjoys those artists: Ask about other artists they enjoy that might surprise people.",
+          "1. **Sports:** Comment on the sports-themed decorations. You could ask if Asher plays any of those sports or if the person who made the cake is a fan of sports."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Cosplay & Makeup (especially themed looks like Sailor Moon and deer)",
+            "Music (Bob Dylan, The Beatles)",
+            "Baking & Cake Decorating (especially fondant and themed cakes)",
+            "Travel & Nature (waterfalls, boating)",
+            "Dogs"
+          ],
+          "LIFESTYLE": "Appears to be a freelance writer who enjoys travel, nature, and spending time with her dog. She also seems to enjoy creating elaborate cakes for special occasions, possibly as a hobby or side business. She may live in or have strong ties to Melbourne, Australia.",
+          "CONVERSATION STARTERS": [
+            "What inspired your Sailor Moon cosplay? What products did you use for the pink eyeshadow?",
+            "Do you have any Halloween costume ideas planned for this year, or any favorite costumes you've done in the past?",
+            "What are your favorite Bob Dylan or Beatles albums/songs?",
+            "Asher's birthday cake looked amazing! Does he play any of those sports, or are you a fan?",
+            "I saw you mentioned missing your dog. What's your favorite thing to do together?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (evident in makeup, cosplay, and cake decorating)",
+            "Artistic (appreciation for music, theatrical aesthetics)",
+            "Sentimental (missing her dog and home)",
+            "Playful (embracing 'drama' and camp aesthetics)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Makeup/Cosplay: Compliment the makeup and ask about the inspiration or the products used.",
+        "2. Halloween: Ask about other costumes they've done or if they have any plans for future costumes.",
+        "1. Music taste: Ask about favorite Bob Dylan or Beatles albums/songs.",
+        "2. The comment about \"not looking like\" someone who enjoys those artists: Ask about other artists they enjoy that might surprise people.",
+        "1. **Sports:** Comment on the sports-themed decorations. You could ask if Asher plays any of those sports or if the person who made the cake is a fan of sports."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

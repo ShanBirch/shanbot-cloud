@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T02:14:16.885656",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T02:13:51.902245",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a hand holding a halved wrap, revealing its contents. The wrap appears to contain Quorn chicken, various vegetables including carrots, cucumbers and lettuce, and a creamy sauce. It's wrapped in foil. In the background, there's a view of a city skyline with trees and a light blue sky.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a half-cut watermelon with a spoon stuck in it. The caption mentions the price of the watermelon and tags Aldi UK. The hashtags suggest the person is interested in veganism, healthy eating, and plant-based diets.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of speltotto with peas, leeks, and asparagus, garnished with a lemon wedge. The post mentions it's a Gousto recipe and includes hashtags related to veganism, healthy eating, and cooking.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a hand holding a can of \"Saturday Lager\" against a backdrop of a blue sky with clouds. The hashtags include #beer, #vegan, #drinks, #instafood, and #beerstagram.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a large vegan burger held by a person. The burger appears to be from VLND at the Balti Jaama food market in Tallinn, Estonia. The caption includes hashtags related to vegan food, Tallinn, and fitness.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person holding a chickpea \"tuna\" sandwich on a ciabatta roll. The background shows a sunny day in Canterbury, Kent. The post includes hashtags related to vegan food, healthy eating, and the location.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Vegan Recipes/Plant-Based Diets:** Given the hashtags, asking about their favorite vegan recipes or plant-based meal ideas could be a good conversation starter.",
+          "2.  **Aldi Finds:** Since they tagged Aldi UK, you could ask about other good finds at Aldi or if they have any recommendations for products from that store.",
+          "1.  **Cooking and Recipes:** \"I saw your post about the Gousto speltotto. I've been meaning to try some new vegan recipes lately. Have you tried any other Gousto recipes you'd recommend?\"",
+          "2.  **Veganism and Healthy Eating:** \"Your speltotto looks delicious! I'm always looking for new vegan meal ideas. What are some of your favorite vegan dishes to make?\"",
+          "1. Beer preferences: Ask about their favorite types of beer or if they have tried other beers from the same brewery."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! That wrap looked so delicious and healthy! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (zobeje)",
+          "INTERESTS": [
+            "Veganism/Plant-Based Eating",
+            "Healthy Cooking & Recipes",
+            "Travel (specifically Tallinn, Estonia and Canterbury, Kent)",
+            "Beer (especially vegan options)",
+            "Finding affordable food options (e.g., Aldi UK)"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys cooking and eating healthy, plant-based meals. They appear to be active, possibly interested in fitness (implied by the Tallinn burger post), and enjoy exploring different locations and food scenes. They also appreciate affordable options and enjoy a good beer.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite vegan recipes or plant-based meal ideas?",
+            "I saw your post about the Gousto speltotto. I've been meaning to try some new vegan recipes lately. Have you tried any other Gousto recipes you'd recommend?",
+            "I noticed you tagged Aldi UK in your watermelon post. Do you have any other recommendations for products from that store?",
+            "I saw you had a Saturday Lager. What are some of your favorite types of beer, or have you tried other beers from that brewery?",
+            "I see you've been to Tallinn! What were some of your favorite vegan food spots there besides VLND?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Adventurous (willing to try new foods and explore new places)",
+            "Budget-conscious (appreciates affordable options)",
+            "Enthusiastic (about vegan food and sharing their experiences)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Vegan Recipes/Plant-Based Diets:** Given the hashtags, asking about their favorite vegan recipes or plant-based meal ideas could be a good conversation starter.",
+        "2.  **Aldi Finds:** Since they tagged Aldi UK, you could ask about other good finds at Aldi or if they have any recommendations for products from that store.",
+        "1.  **Cooking and Recipes:** \"I saw your post about the Gousto speltotto. I've been meaning to try some new vegan recipes lately. Have you tried any other Gousto recipes you'd recommend?\"",
+        "2.  **Veganism and Healthy Eating:** \"Your speltotto looks delicious! I'm always looking for new vegan meal ideas. What are some of your favorite vegan dishes to make?\"",
+        "1. Beer preferences: Ask about their favorite types of beer or if they have tried other beers from the same brewery."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

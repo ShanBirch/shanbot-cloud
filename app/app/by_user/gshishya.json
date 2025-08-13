@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T01:55:10.620885",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T01:54:47.192968",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a screenshot of an Instagram post by user gshishya. The post consists of a graphic with two overlapping speech bubbles, one green and one blue. Superimposed on the graphic is text in Hindi that asks people to send a message with their name, location, photo, address, and problem so the poster can help them in a short amount of time.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a painting of the Hindu goddess Durga riding a tiger on top of a buffalo demon. The text in the image translates to \"Mother Durga will remove your big problems with this remedy.\" The post's caption also discusses solving problems and mentions upcoming videos.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a hand receiving a stack of Indian Rupees (2000 denomination). The text overlay in Hindi translates to \"Tips to get rid of debt.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a post on Instagram by \"gshishya\" featuring a depiction of the Hindu goddess Kali standing on top of Shiva. The post also includes text in Hindi that translates to something like \"Any problem, trouble, calamity, will be removed in a snap with the remedies of Kali Maa\". The post also includes a link to a video.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a cartoon-style illustration of a man, presumably a \"Tantrik\" (as indicated in the post's caption and text in the image), sitting in a meditative pose with a fire burning in front of him. He is also holding a phone to his ear. There's a skull and other ritualistic items present. The text in the image translates to \"Tantrik and my channel\" and the logo \"Guru Shishya\" is also visible.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a post on Instagram by gshishya. It features an image of the goddess Lakshmi and text in Hindi that translates to \"Lakshmi Prapti Ke Teen Achuk Totke\" which means \"Three Sure Remedies for Attaining Lakshmi (Prosperity).\"",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Hinduism/Spirituality: You could ask about their beliefs or experiences related to Durga or Hindu spirituality in general.",
+          "2. Problem-solving/Self-help: You could inquire about the types of videos they plan to create or discuss their views on overcoming challenges.",
+          "1.  **Financial Tips/Advice:** Given the post's theme, you could ask about their favorite financial tips or advice for managing debt.",
+          "2.  **Indian Economy/Currency:** You could ask about their thoughts on the Indian economy or the value of the Rupee.",
+          "1. Hinduism/Spirituality: \"I noticed your post about Kali Maa. Are you particularly interested in this aspect of Hinduism or other deities as well?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! The message in your latest post was really interesting, I hope it helped a lot of people! 🙏",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: gshishya)",
+          "INTERESTS": [
+            "Hinduism and Spirituality (especially Goddesses Durga, Kali, and Lakshmi)",
+            "Problem-solving and providing remedies",
+            "Financial well-being and debt relief",
+            "Tantra (potentially)",
+            "Creating helpful video content"
+          ],
+          "LIFESTYLE": "Likely someone who dedicates time to religious practices and creating content related to Hindu deities and remedies. May be involved in providing guidance or solutions to people's problems, possibly through online channels. The 'Guru Shishya' logo suggests a teacher-student relationship, implying they may be a teacher or guide.",
+          "CONVERSATION STARTERS": [
+            "I saw your post about Durga Maa. What aspects of her story or symbolism resonate most with you?",
+            "Your posts offer remedies for various problems. What inspired you to focus on helping people in this way?",
+            "The debt relief tips are interesting. What's one piece of financial advice you think everyone should know?",
+            "I noticed the Kali Maa post. Could you tell me more about the significance of her remedies?",
+            "Your 'Guru Shishya' channel seems interesting. What kind of videos can we expect to see in the future?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Helpful/Compassionate: Focused on providing solutions and remedies to people's problems.",
+            "Spiritual/Devout: Strong interest in Hindu deities and religious practices.",
+            "Knowledgeable/Informative: Shares information and tips related to spirituality and financial well-being.",
+            "Engaging/Communicative: Actively encourages people to reach out and share their problems."
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Hinduism/Spirituality: You could ask about their beliefs or experiences related to Durga or Hindu spirituality in general.",
+        "2. Problem-solving/Self-help: You could inquire about the types of videos they plan to create or discuss their views on overcoming challenges.",
+        "1.  **Financial Tips/Advice:** Given the post's theme, you could ask about their favorite financial tips or advice for managing debt.",
+        "2.  **Indian Economy/Currency:** You could ask about their thoughts on the Indian economy or the value of the Rupee.",
+        "1. Hinduism/Spirituality: \"I noticed your post about Kali Maa. Are you particularly interested in this aspect of Hinduism or other deities as well?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

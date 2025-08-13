@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T01:16:52.873247",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T01:16:34.351545",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by @naturallifestyle___ is a video showing someone making a drink in a blender. The blender is black and on a countertop. The drink appears to be orange or reddish in color. The caption says \"Start your day off right drink\" with a coconut and leaf emoji. The hashtags include various vegan-related terms.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by naturallifestyle___ features a recipe for vegan donuts. The image shows ingredients and text overlay indicating \"Plant Based Milk.\" The recipe includes various ingredients like flour, baking soda, maple syrup, almond milk, nut butter, and chocolate for the frosting.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a vegan meal being prepared, likely a stew or sauce, with various spices sprinkled on top. The hashtags suggest it's a healthy, vegan, and budget-friendly recipe.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a graphic titled \"Simple Vegan Swaps,\" showing common animal-based foods and their vegan alternatives. Examples include milk to plant milk, mayo to avocado, cheese to nutritional yeast, ground beef to lentils, and eggs to flax seeds.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a neon sign that reads \"the future is VEGAN.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from \"naturallifestyle___\" featuring a vegan sandwich and the text \"How to Build a Vegan Sandwich.\" The post also mentions \"@dr.vegan\" and suggests mixing up the options provided.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan Baking: Ask about their experience with vegan baking, favorite vegan recipes, or any tips they have for substituting ingredients.",
+          "2. Plant-Based Alternatives: Inquire about their favorite plant-based milk brands or other plant-based alternatives they enjoy using in their cooking.",
+          "1. **Vegan cooking:** Inquire about their favorite vegan recipes or ingredients.",
+          "2. **Healthy lifestyle:** Ask about their approach to maintaining a healthy lifestyle and any tips they might have.",
+          "1. Vegan Recipes: The post is about vegan swaps, so asking about their favorite vegan recipes or sharing one of your own could be a good conversation starter."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That drink looked like a great way to start the day 😋",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism",
+            "Plant-Based Cooking & Baking",
+            "Healthy Eating",
+            "Vegan Alternatives",
+            "Budget-Friendly Vegan Recipes"
+          ],
+          "LIFESTYLE": "Likely someone who promotes and practices a vegan lifestyle, focusing on creating and sharing recipes, tips, and information about plant-based alternatives. They are passionate about the future of veganism and potentially interested in health and wellness.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite plant-based milk brands and how do you use them in your recipes?",
+            "Do you have any tips for successful vegan baking, especially when substituting ingredients?",
+            "What's your go-to budget-friendly vegan meal?",
+            "I saw your post about vegan swaps - what's the most surprising or effective swap you've discovered?",
+            "What inspired you to adopt a vegan lifestyle?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate",
+            "Creative (with recipes)",
+            "Health-conscious",
+            "Informative/Educational"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan Baking: Ask about their experience with vegan baking, favorite vegan recipes, or any tips they have for substituting ingredients.",
+        "2. Plant-Based Alternatives: Inquire about their favorite plant-based milk brands or other plant-based alternatives they enjoy using in their cooking.",
+        "1. **Vegan cooking:** Inquire about their favorite vegan recipes or ingredients.",
+        "2. **Healthy lifestyle:** Ask about their approach to maintaining a healthy lifestyle and any tips they might have.",
+        "1. Vegan Recipes: The post is about vegan swaps, so asking about their favorite vegan recipes or sharing one of your own could be a good conversation starter."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

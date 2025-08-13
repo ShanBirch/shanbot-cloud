@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T16:51:28.404889",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T16:51:06.607425",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by bluestream_aquaponicsfarm is a short video showcasing their microgreens. The video is divided into three sections, each showing the growth process of the microgreens. The first section shows the seeds sprouting, the second has the words \"ELEVATE YOUR\" overlaid on the image, and the third shows the fully grown microgreens, with vibrant purple and green leaves.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from bluestream_aquaponicsfarm. It features a checklist of 6 key points for growing vegetables in an aquaponics system, covering topics like plant selection, water quality, lighting, fish health, plant inspection, and system maintenance.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from bluestream_aquaponicsfarm. It features a \"Microgreen Growing Checklist: 6 Essential Points,\" including seed selection, growing medium preparation, planting/watering techniques, lighting, monitoring, and harvesting. The post aims to help both beginner and experienced growers cultivate healthy microgreens.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post announces the launch of Bluestream Aquaponics Farm's official website. The image features a laptop screen displaying various microgreens grown at the farm.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows plates of tacos topped with microgreens, presumably grown by Bluestream Aquaponics Farm. The caption mentions a collaboration with a restaurant called @pakotaco_uk.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post advertising a February special from BlueStream Aquaponics Farm. It features a \"Farmers Mix\" of microgreens with a 20% discount on orders over £20. The microgreens are arranged in a heart shape.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "*   **Specific plant varieties:** Ask about their experience with specific leafy greens or fruiting plants in their aquaponics system. For example, \"Have you found certain varieties of lettuce or tomatoes to be particularly well-suited for aquaponics?\"",
+          "*   **Fish health and species:** Inquire about the types of fish they use and the challenges or benefits they've experienced with them. For example, \"What species of fish do you find works best for your aquaponics system, and what are some common health issues you monitor?\"",
+          "*   **Microgreen Varieties:** Ask about their favorite or most profitable microgreen varieties to grow.",
+          "*   **Aquaponics Integration:** Inquire about how they integrate aquaponics into their microgreen growing process, given their brand name.",
+          "1.  **Microgreen Varieties:** \"I noticed you grow a variety of microgreens. Which one is your favorite to grow, and which is the most popular with your customers?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post, the microgreens looked so fresh and healthy!🌱",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Aquaponics",
+            "Microgreens",
+            "Sustainable Agriculture",
+            "Local Food Production",
+            "Healthy Eating"
+          ],
+          "LIFESTYLE": "Likely a small business owner or operator of an aquaponics farm specializing in microgreens. They are involved in growing, harvesting, and selling their produce, potentially collaborating with local restaurants. They are also active in promoting their business online and educating others about aquaponics and microgreen cultivation.",
+          "CONVERSATION STARTERS": [
+            "What species of fish do you find works best for your aquaponics system, and what are some common health issues you monitor?",
+            "I noticed you grow a variety of microgreens. Which one is your favorite to grow, and which is the most popular with your customers?",
+            "Have you found certain varieties of lettuce or tomatoes to be particularly well-suited for aquaponics?",
+            "How do you integrate aquaponics into your microgreen growing process?",
+            "I saw your collaboration with @pakotaco_uk. What other local restaurants do you work with, and how do you see microgreens enhancing their dishes?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate (about aquaponics and microgreens)",
+            "Educational (sharing tips and checklists)",
+            "Business-minded (promoting products and collaborations)",
+            "Detail-oriented (focused on specific growing techniques)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "*   **Specific plant varieties:** Ask about their experience with specific leafy greens or fruiting plants in their aquaponics system. For example, \"Have you found certain varieties of lettuce or tomatoes to be particularly well-suited for aquaponics?\"",
+        "*   **Fish health and species:** Inquire about the types of fish they use and the challenges or benefits they've experienced with them. For example, \"What species of fish do you find works best for your aquaponics system, and what are some common health issues you monitor?\"",
+        "*   **Microgreen Varieties:** Ask about their favorite or most profitable microgreen varieties to grow.",
+        "*   **Aquaponics Integration:** Inquire about how they integrate aquaponics into their microgreen growing process, given their brand name.",
+        "1.  **Microgreen Varieties:** \"I noticed you grow a variety of microgreens. Which one is your favorite to grow, and which is the most popular with your customers?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

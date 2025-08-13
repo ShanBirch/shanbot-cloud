@@ -1,0 +1,108 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 9,
+      "user_messages": 5,
+      "ai_messages": 4,
+      "ai_questions": 4,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 3,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": true,
+      "question_response_rate": 0.6666666666666666,
+      "conversation_start_time": "2025-04-10T20:10:36.529050",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 53938.302602,
+      "achieved_message_milestones": [
+        5
+      ],
+      "fitness_topic_initiator": "user",
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-09T12:12:22.088486+00:00",
+          "type": "user",
+          "text": "Just comp reffing this weekend! + Shannon: Oh nice Hayley! Comp reffing! Sounds like a solid weekend! What sort of comp are you reffing? {{cuf_11967919}}  {{cuf_11967920}} Lead : Powerlifting! My gym is hosting a small novice/intermediate comp which should be fun!"
+        },
+        {
+          "timestamp": "2025-04-09T12:12:22.124984+00:00",
+          "type": "ai",
+          "text": "Oh nice Hayley! Powerlifting comp! You reffing or competing hey?"
+        },
+        {
+          "timestamp": "2025-04-09T22:39:02.263783+00:00",
+          "type": "user",
+          "text": "Just comp reffing this weekend! + Shannon: Oh nice Hayley! Comp reffing! Sounds like a solid weekend! What sort of comp are you reffing? {{cuf_11967919}}  {{cuf_11967920}} Lead : Powerlifting! My gym is hosting a small novice/intermediate comp which should be fun! + Shannon: Oh nice Hayley! Powerlifting comp! You reffing or competing hey? {{cuf_11967919}}  {{cuf_11967920}} Lead : Not competing this time around, just reffing!"
+        },
+        {
+          "timestamp": "2025-04-10T22:31:55.827970+00:00",
+          "type": "user",
+          "text": "Just comp reffing this weekend! + Shannon: Oh nice Hayley! Comp reffing! Sounds like a solid weekend! What sort of comp are you reffing? {{cuf_11967919}}  {{cuf_11967920}} Lead : Powerlifting! My gym is hosting a small novice/intermediate comp which should be fun! + Shannon: Oh nice Hayley! Powerlifting comp! You reffing or competing hey? {{cuf_11967919}}  {{cuf_11967920}} Lead : Not competing this time around, just reffing! + Shannon: Yeah right, reffing can be just as full on sometimes! {{cuf_11967919}}  {{cuf_11967920}} Lead : It sure can!!"
+        },
+        {
+          "timestamp": "2025-04-10T22:31:55.862751+00:00",
+          "type": "ai",
+          "text": "Yeah it sure can! Sounds like a busy weekend ahead then hey!  What else you got planned for after the comp?"
+        },
+        {
+          "timestamp": "2025-04-11T00:27:39.993702+00:00",
+          "type": "user",
+          "text": "Just comp reffing this weekend! + Shannon: Oh nice Hayley! Comp reffing! Sounds like a solid weekend! What sort of comp are you reffing? {{cuf_11967919}}  {{cuf_11967920}} Lead : Powerlifting! My gym is hosting a small novice/intermediate comp which should be fun! + Shannon: Oh nice Hayley! Powerlifting comp! You reffing or competing hey? {{cuf_11967919}}  {{cuf_11967920}} Lead : Not competing this time around, just reffing! + Shannon: Yeah right, reffing can be just as full on sometimes! {{cuf_11967919}}  {{cuf_11967920}} Lead : It sure can!! + Shannon: Yeah it sure can! Sounds like a busy weekend ahead then hey!  What else you got planned for after the comp? {{cuf_11967919}}  {{cuf_11967920}} Lead : I’m gonna take my brother to see the minecraft movie!"
+        },
+        {
+          "timestamp": "2025-04-11T00:27:40.044482+00:00",
+          "type": "ai",
+          "text": "Yeah right, sounds like a good weekend lined up! Taking the bro to the movies, that's cool! Is he keen for it?"
+        },
+        {
+          "timestamp": "2025-04-11T01:09:44.290481+00:00",
+          "type": "user",
+          "text": "Just comp reffing this weekend! + Shannon: Oh nice Hayley! Comp reffing! Sounds like a solid weekend! What sort of comp are you reffing? {{cuf_11967919}}  {{cuf_11967920}} Lead : Powerlifting! My gym is hosting a small novice/intermediate comp which should be fun! + Shannon: Oh nice Hayley! Powerlifting comp! You reffing or competing hey? {{cuf_11967919}}  {{cuf_11967920}} Lead : Not competing this time around, just reffing! + Shannon: Yeah right, reffing can be just as full on sometimes! {{cuf_11967919}}  {{cuf_11967920}} Lead : It sure can!! + Shannon: Yeah it sure can! Sounds like a busy weekend ahead then hey!  What else you got planned for after the comp? {{cuf_11967919}}  {{cuf_11967920}} Lead : I’m gonna take my brother to see the minecraft movie! + Shannon: Yeah right, sounds like a good weekend lined up! Taking the bro to the movies, that's cool! Is he keen for it? {{cuf_11967919}}  {{cuf_11967920}} Lead : He’s so keen! He hasn’t stopped talking about it for weeks!"
+        },
+        {
+          "timestamp": "2025-04-11T01:09:44.340776+00:00",
+          "type": "ai",
+          "text": "Haha yeah that's awesome! Sounds like he's so pumped for the movie! Is he a big Minecraft player usually?"
+        },
+        {
+          "timestamp": "2025-04-11T02:13:17.984205+00:00",
+          "type": "user",
+          "text": "Just comp reffing this weekend! + Shannon: Oh nice Hayley! Comp reffing! Sounds like a solid weekend! What sort of comp are you reffing? {{cuf_11967919}}  {{cuf_11967920}} Lead : Powerlifting! My gym is hosting a small novice/intermediate comp which should be fun! + Shannon: Oh nice Hayley! Powerlifting comp! You reffing or competing hey? {{cuf_11967919}}  {{cuf_11967920}} Lead : Not competing this time around, just reffing! + Shannon: Yeah right, reffing can be just as full on sometimes! {{cuf_11967919}}  {{cuf_11967920}} Lead : It sure can!! + Shannon: Yeah it sure can! Sounds like a busy weekend ahead then hey!  What else you got planned for after the comp? {{cuf_11967919}}  {{cuf_11967920}} Lead : I’m gonna take my brother to see the minecraft movie! + Shannon: Yeah right, sounds like a good weekend lined up! Taking the bro to the movies, that's cool! Is he keen for it? {{cuf_11967919}}  {{cuf_11967920}} Lead : He’s so keen! He hasn’t stopped talking about it for weeks! + Shannon: Haha yeah that's awesome! Sounds like he's so pumped for the movie! Is he a big Minecraft player usually? {{cuf_11967919}}  {{cuf_11967920}} Lead : He only got the game a few weeks ago 🤣 he’s only 5 and minecraft became the newest trend at school so he was excited for the movie before he’d even played the game!"
+        },
+        {
+          "timestamp": "2025-04-11T02:13:18.053950+00:00",
+          "type": "ai",
+          "text": "Haha classic! The hype gets them even before they've played sometimes hey 🤣"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "liftingwithhayley",
+      "user_responses_to_questions": 0,
+      "response_rate": 0.0,
+      "coaching_inquiries": 0,
+      "ai_detections": 0,
+      "first_message_timestamp": "2025-04-09T12:12:22.088486+00:00",
+      "last_message_timestamp": "2025-04-11T01:09:44.340776+00:00",
+      "last_seen_timestamp": "2025-04-11T01:09:44.340776+00:00",
+      "conversation_count": 1,
+      "conversation_duration_str": "1d 12h 57m",
+      "fitness_topic_user_initiated": false,
+      "fitness_topic_ai_initiated": false
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

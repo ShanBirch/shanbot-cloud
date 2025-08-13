@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T20:31:03.605328",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T20:30:45.113377",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows two women standing side-by-side. On the left is a tanned, muscular woman in a sparkly blue bikini, wearing a medal and holding a \"Pro Card\" certificate. She has blonde hair and is smiling broadly. On the right is a woman with long blonde hair, wearing a light blue cropped sweater and dark leggings. She is pointing upwards with one hand and smiling. The background is a plain grey wall.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows bec_bfit with a client who has just won her Bikini Pro Card at the ICN Nationals. The client is holding a medal and wearing a bikini competition outfit. bec_bfit is holding a Pro Card certificate.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman, bec_bfit, in a bikini competition outfit, holding medals and smiling. She is standing outside, likely after winning the competition.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman (bec_bfit) speaking into a microphone, likely recording a podcast or video about online business systems. The post discusses the challenges of running an online coaching business and the importance of automation. There are also images of fitness progress.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two women. One is wearing a \"Team B.Fit\" shirt and the other is wearing a bikini and medals, indicating she participated in a bodybuilding competition. The post congratulates @arden.thomasss on her achievements in the competition.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a before-and-after photo of a woman's glute transformation over 14 weeks, highlighting the results of a specific training and nutrition program. The post emphasizes the importance of smart training, adequate food intake, and trusting the process for glute growth.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Bikini Competition Prep:** Ask about the specific training and diet strategies used to prepare for the ICN Nationals, or about the challenges and rewards of the competition prep process.",
+          "2.  **ICN (I Compete Natural):** Inquire about the ICN organization and the importance of natural bodybuilding competitions.",
+          "1.  **Bikini Competition/Fitness Journey:** Ask about her experience in the competition, her training regimen, or her overall fitness journey.",
+          "2.  **Coaches/Support System:** In the post she thanks several people, including her coach, stage mom, and posing coach. Asking about her experience with these people could be a good way to engage.",
+          "1.  **Business Systems/Automation:** Inquire about specific automation tools or systems she recommends for online coaching businesses."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The athlete looked amazing, what an achievement! 💪",
+        "profile_bio": {
+          "PERSON NAME": "Bec (bec_bfit)",
+          "INTERESTS": [
+            "Bikini Competition",
+            "Fitness Coaching",
+            "Glute Training & Transformation",
+            "Online Business & Automation",
+            "Natural Bodybuilding (ICN)"
+          ],
+          "LIFESTYLE": "Fitness coach specializing in bikini competition preparation and glute transformations. She competes in ICN (I Compete Natural) bodybuilding competitions and runs an online coaching business, focusing on automation and efficient systems.",
+          "CONVERSATION STARTERS": [
+            "What specific training and diet strategies did you find most effective when preparing for the ICN Nationals?",
+            "Can you tell me more about the ICN organization and why you choose to compete in natural bodybuilding competitions?",
+            "What are some of the biggest challenges you've faced in your own fitness journey, and how did you overcome them?",
+            "You mentioned the importance of automation for online coaching businesses. What are some specific tools or systems you recommend?",
+            "Who are some of the key people who have supported you in your fitness journey, and how have they helped you achieve your goals?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven",
+            "Supportive (of clients)",
+            "Passionate",
+            "Goal-oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Bikini Competition Prep:** Ask about the specific training and diet strategies used to prepare for the ICN Nationals, or about the challenges and rewards of the competition prep process.",
+        "2.  **ICN (I Compete Natural):** Inquire about the ICN organization and the importance of natural bodybuilding competitions.",
+        "1.  **Bikini Competition/Fitness Journey:** Ask about her experience in the competition, her training regimen, or her overall fitness journey.",
+        "2.  **Coaches/Support System:** In the post she thanks several people, including her coach, stage mom, and posing coach. Asking about her experience with these people could be a good way to engage.",
+        "1.  **Business Systems/Automation:** Inquire about specific automation tools or systems she recommends for online coaching businesses."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

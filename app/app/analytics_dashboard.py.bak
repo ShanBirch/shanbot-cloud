@@ -1,0 +1,2306 @@
+import threading
+import streamlit as st
+# import requests # No longer needed
+import json
+import pandas as pd
+import matplotlib.pyplot as plt
+import os
+import time
+from datetime import datetime, timedelta, timezone
+from collections import defaultdict  # Added for easier category management
+import random  # For random message selection
+import re  # Added for regular expressions
+from typing import Dict, Any
+import numpy as np
+import google.generativeai as genai
+from google.generativeai.types import HarmCategory, HarmBlockThreshold
+from conversation_analytics_integration import analytics
+import sys
+import subprocess
+import logging  # <-- Add logging import
+import importlib.util
+
+# Set up logging for this specific module if needed, or use root logger
+logger = logging.getLogger(__name__)  # <-- Initialize logger
+
+# Set up path to find followup_manager
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
+if parent_dir not in sys.path:
+    sys.path.append(parent_dir)
+
+# Now try to import followup_manager - do this conditionally to avoid errors when just viewing analytics
+followup_manager = None
+
+# Global variables for automatic follow-up
+AUTO_FOLLOWUP_ENABLED = True
+SCHEDULED_FOLLOWUPS = {}
+
+# Moving display_conversation function here before it's called
+
+
+def display_user_details(user_id):
+    """Displays user profile bio and conversation history inside an expander."""
+    if user_id not in st.session_state.conversation_metrics:
+        st.error("User data not found.")
+        return
+
+    user_data = st.session_state.conversation_metrics[user_id]
+
+    # --- Display Profile Bio (Simplified) ---
+    st.markdown("**Profile Bio Summary**")
+    client_analysis = user_data.get("client_analysis", {})
+    profile_bio = client_analysis.get("profile_bio", {})
+    profile_text = "No profile bio information available."
+    if profile_bio:
+        parts = []
+        interests = profile_bio.get(
+            "INTERESTS") or profile_bio.get("interests") or []
+        lifestyle = profile_bio.get(
+            "LIFESTYLE") or profile_bio.get("lifestyle")
+        personality = profile_bio.get("PERSONALITY TRAITS") or profile_bio.get(
+            "personality_traits") or []
+        if interests:
+            parts.append(f"_Interests:_ {', '.join(interests)}")
+        if lifestyle and lifestyle not in ["Unknown", ""]:
+            parts.append(f"_Lifestyle:_ {lifestyle}")
+        if personality:
+            parts.append(f"_Personality:_ {', '.join(personality)}")
+        if parts:
+            profile_text = "\n\n".join(parts)
+        else:
+            profile_text = "Profile bio exists, but details are not populated."
+
+    st.markdown(profile_text)
+    st.divider()
+
+    # --- Display Conversation History (Simplified) ---
+    st.markdown("**Recent Conversation History**")
+    history = user_data.get("conversation_history", [])
+    if not history:
+        st.info("No conversation history recorded.")
+    else:
+        # Limit history length for modal
+        for msg in history[-10:]:  # Show last 10 messages
+            is_ai = msg.get("type") == "ai"
+            sender = "AI" if is_ai else "User"
+            timestamp_str = msg.get("timestamp", "")
+            timestamp_display = ""
+            if timestamp_str:
+                try:
+                    dt = parse_timestamp(timestamp_str)
+                    timestamp_display = f" ({dt.strftime('%Y-%m-%d %H:%M')})" if dt else ""
+                except:
+                    pass  # Ignore parsing errors for display
+
+            st.markdown(
+                f"**{sender}{timestamp_display}:** {msg.get('text', '')}")
+            st.markdown("---")  # Small separator
+
+
+def display_conversation(selected_user):
+    """Display a single conversation with a user"""
+    user_data = st.session_state.conversation_metrics[selected_user["id"]]
+    conversation_id = selected_user["id"]
+    username = user_data.get("ig_username", conversation_id)
+
+    # Direct Message Section - Always show this first
+    st.markdown("### 📱 Send Message")
+
+    # Message input
+    direct_message = st.text_area(
+        "Type your message here:",
+        key=f"direct_msg_{selected_user['id']}",
+        height=100
+    )
+
+    # Send button
+    if st.button("📤 Send Message", key=f"send_msg_{selected_user['id']}"):
+        if not username or username == conversation_id:
+            st.error("No Instagram username found for this user")
+        else:
+                                        with st.spinner(f"Sending message to {username}..."):
+                try:
+                    # Import followup_manager from parent directory
+                    import sys
+                    import os
+                    parent_dir = os.path.dirname(
+                        os.path.dirname(os.path.abspath(__file__)))
+                    if parent_dir not in sys.path:
+                        sys.path.append(parent_dir)
+                    import followup_manager
+
+                    # Get or create driver
+                                                driver = followup_manager.get_driver()
+                    if not driver:
+                                                driver = followup_manager.setup_driver()
+
+                                            if driver:
+                        # Send the message
+                        result = followup_manager.send_follow_up_message(
+                                                        driver,
+                            username,
+                            direct_message
+                                                )
+
+                                                if result.get("success", False):
+                            # Update analytics
+                                                    user_data["last_follow_up_date"] = datetime.now(
+                                                        timezone.utc).isoformat()
+                                                    user_data["follow_ups_sent"] = user_data.get(
+                                                        "follow_ups_sent", 0) + 1
+
+                                                    # Add to follow-up history
+                                                    if "follow_up_history" not in user_data:
+                                user_data["follow_up_history"] = []
+
+                                                    user_data["follow_up_history"].append({
+                                                        "date": datetime.now(timezone.utc).isoformat(),
+                                "message": direct_message,
+                                "sent_via_instagram": True
+                            })
+
+                            # Save updates
+                            st.session_state.conversation_metrics[selected_user["id"]] = user_data
+                            analytics.export_analytics()
+
+                                                    st.success(
+                                                        f"Message sent to {username} successfully!")
+                            # Clear the message input
+                            st.session_state[f"direct_msg_{selected_user['id']}"] = ""
+                            st.rerun()
+                                                else:
+                                                    st.error(
+                                                        f"Failed to send message: {result.get('error', 'Unknown error')}")
+                                            else:
+                        st.error("Failed to setup browser")
+                                    except Exception as e:
+                    st.error(f"Error sending message: {e}")
+
+    # Generate AI message button
+    if st.button("🤖 Generate AI Message", key=f"gen_msg_{selected_user['id']}"):
+        with st.spinner("Generating personalized message..."):
+            try:
+                follow_up_message = generate_ai_follow_up_message(user_data)
+                # Update the text area with the generated message
+                st.session_state[f"direct_msg_{selected_user['id']}"] = follow_up_message
+                            st.rerun()
+                        except Exception as e:
+                            st.error(f"Error generating message: {e}")
+
+            st.markdown("---")
+
+    # Rest of the user profile display
+    st.subheader("User Info")
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        st.write("**Username:**", username)
+        st.write("**User ID:**", selected_user["id"])
+        st.write("**First Seen:**",
+                 user_data.get("conversation_start_time", "N/A"))
+
+        # Add responder category
+        message_count = user_data.get("user_messages", 0)
+        if message_count >= 10:
+            responder_category = "High Responder"
+            category_emoji = "🔥"
+        elif message_count >= 4:
+            responder_category = "Medium Responder"
+            category_emoji = "📊"
+        else:
+            responder_category = "Low Responder"
+            category_emoji = "🔄"
+
+        st.write(
+            f"**Responder Category:** {category_emoji} {responder_category}")
+
+    with col2:
+        st.write("**Total Messages:**", user_data.get("total_messages", 0))
+        st.write("**User Messages:**", user_data.get("user_messages", 0))
+        st.write("**AI Messages:**", user_data.get("ai_messages", 0))
+
+    with col3:
+        st.write("**Coaching Inquiries:**",
+                 user_data.get("coaching_inquiry_count", 0))
+        st.write("**Offer Shown:**",
+                 "Yes" if user_data.get("offer_mentioned_in_conv", False) else "No")
+        st.write("**Signed Up:**",
+                 "Yes" if user_data.get("signup_recorded", False) else "No")
+
+    # Display conversation history
+    st.subheader("💬 Conversation History")
+    history = user_data.get("conversation_history", [])
+
+    if history:
+        for msg in history:
+            is_ai = msg.get("type") == "ai"
+            with st.container():
+                timestamp = msg.get("timestamp", "")
+                if timestamp:
+                    try:
+                        dt = datetime.fromisoformat(
+                            timestamp.replace('Z', '+00:00'))
+                        timestamp = dt.strftime("%Y-%m-%d %H:%M:%S")
+                    except ValueError:
+                        pass
+
+                st.markdown(f"""
+                    <div style='
+                        padding: 10px; 
+                        border-radius: 5px; 
+                        margin: 5px 0; 
+                        background-color: {"#e1f5fe" if is_ai else "#f5f5f5"}; 
+                        border-left: 5px solid {"#0288d1" if is_ai else "#9e9e9e"};
+                    '>
+                    <small>{timestamp}</small><br>
+                    <strong>{"AI" if is_ai else "User"}</strong>: {msg.get("text", "")}
+                    </div>
+                """, unsafe_allow_html=True)
+    else:
+        st.info("No conversation history available.")
+
+    # --- Display Profile Bio (Simplified) ---
+    st.markdown("**Profile Bio Summary**")
+    client_analysis = user_data.get("client_analysis", {})
+    profile_bio = client_analysis.get("profile_bio", {})
+    profile_text = "No profile bio information available."
+    if profile_bio:
+        parts = []
+        interests = profile_bio.get(
+            "INTERESTS") or profile_bio.get("interests") or []
+        lifestyle = profile_bio.get(
+            "LIFESTYLE") or profile_bio.get("lifestyle")
+        personality = profile_bio.get("PERSONALITY TRAITS") or profile_bio.get(
+            "personality_traits") or []
+        if interests:
+            parts.append(f"_Interests:_ {', '.join(interests)}")
+        if lifestyle and lifestyle not in ["Unknown", ""]:
+            parts.append(f"_Lifestyle:_ {lifestyle}")
+        if personality:
+            parts.append(f"_Personality:_ {', '.join(personality)}")
+        if parts:
+            profile_text = "\n\n".join(parts)
+        else:
+            profile_text = "Profile bio exists, but details are not populated."
+
+    st.markdown(profile_text)
+    st.divider()
+
+    # --- Display Conversation History (Simplified) ---
+    st.markdown("**Recent Conversation History**")
+    history = user_data.get("conversation_history", [])
+    if not history:
+        st.info("No conversation history recorded.")
+    else:
+        # Limit history length for modal
+        for msg in history[-10:]:  # Show last 10 messages
+            is_ai = msg.get("type") == "ai"
+            sender = "AI" if is_ai else "User"
+            timestamp_str = msg.get("timestamp", "")
+            timestamp_display = ""
+            if timestamp_str:
+                try:
+                    dt = parse_timestamp(timestamp_str)
+                    timestamp_display = f" ({dt.strftime('%Y-%m-%d %H:%M')})" if dt else ""
+                except:
+                    pass  # Ignore parsing errors for display
+
+            st.markdown(
+                f"**{sender}{timestamp_display}:** {msg.get('text', '')}")
+            st.markdown("---")  # Small separator
+
+
+def load_followup_manager():
+    global followup_manager
+    try:
+        # Try to load from parent directory
+        import sys
+        import os
+        parent_dir = os.path.dirname(
+            os.path.dirname(os.path.abspath(__file__)))
+        followup_manager_path = os.path.join(parent_dir, "followup_manager.py")
+
+        if not os.path.exists(followup_manager_path):
+            st.error(
+                f"followup_manager.py not found at {followup_manager_path}")
+            return False
+
+        st.info(f"Found followup_manager at {followup_manager_path}")
+
+        # Add parent directory to path if not already there
+        if parent_dir not in sys.path:
+            sys.path.insert(0, parent_dir)
+
+        # Try importing now
+        import importlib
+        import followup_manager as fm
+        # Force reload in case it was changed
+        importlib.reload(fm)
+        followup_manager = fm
+        return True
+    except ImportError as e:
+        st.error(
+            f"Could not import followup_manager: {e}. Follow-up sending will be disabled.")
+        return False
+    except Exception as e:
+        st.error(f"Unexpected error loading followup_manager: {e}")
+        return False
+
+
+# Analytics file path
+ANALYTICS_FILE_PATH = "C:\\Users\\Shannon\\analytics_data.json"
+
+# Define constants
+ACTIVE_WINDOW = 3600  # 1 hour in seconds
+
+# Define helper functions
+
+
+def ensure_timezone(dt):
+    """Ensure a datetime object has timezone information"""
+    if dt is None:
+        return None
+    if dt.tzinfo is None:
+        return dt.replace(tzinfo=timezone.utc)
+    return dt
+
+
+def parse_timestamp(timestamp_str):
+    """Parse timestamp string to timezone-aware datetime"""
+    try:
+        if isinstance(timestamp_str, str):
+            dt = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00'))
+            return ensure_timezone(dt)
+        return ensure_timezone(timestamp_str)
+    except (ValueError, TypeError):
+        return None
+
+
+def is_user_active(last_active_time):
+    """Check if a user is active based on their last active time"""
+    if not last_active_time:
+        return False
+
+    now = datetime.now(timezone.utc)
+    last_active_dt = parse_timestamp(last_active_time)
+
+    if not last_active_dt:
+        return False
+
+    time_diff = now - last_active_dt
+    return time_diff.total_seconds() < ACTIVE_WINDOW
+
+
+# Set page config with explicit sidebar settings
+st.set_page_config(
+    page_title="Shanbot Analytics",
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    menu_items={
+        'Get Help': None,
+        'Report a bug': None,
+        'About': None
+    }
+)
+
+# Add custom CSS to ensure sidebar visibility
+st.markdown("""
+    <style>
+    [data-testid="stSidebar"][aria-expanded="true"] > div:first-child {
+        width: 300px;
+    }
+    [data-testid="stSidebar"][aria-expanded="false"] > div:first-child {
+        width: 300px;
+        margin-left: -300px;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+
+def should_follow_up(conversation_data):
+    """Determine if we should follow up based on conversation state."""
+    # Extract metrics
+    conv_metrics = conversation_data.get('metrics', {})
+
+    # Get the last message timestamp
+    last_message_time = conv_metrics.get('last_message_time')
+    if not last_message_time:
+        return False
+
+    # Convert to datetime
+    try:
+        last_dt = datetime.fromisoformat(last_message_time)
+    except ValueError:
+        # Handle non-ISO format dates
+        try:
+            last_dt = datetime.strptime(
+                last_message_time, "%Y-%m-%d %H:%M:%S.%f")
+        except ValueError:
+            return False
+
+    # Get current time
+    now = datetime.now()
+
+    # Calculate time difference
+    time_diff = now - last_dt
+
+    # Debug logging
+    print(f"DEBUG - ID: {conversation_data.get('id', 'unknown')}, Last Message: {last_dt}, Diff: {time_diff}, Active: {time_diff.days >= 2}")
+
+    # If no message for 2 days, suggest follow-up
+    return time_diff.days >= 2
+
+
+def analyze_engagement_level(metrics):
+    """Analyze the engagement level of a conversation"""
+    score = 0
+    factors = []
+
+    # Message quantity analysis
+    total_messages = metrics.get("total_messages", 0)
+    user_messages = metrics.get("user_messages", 0)
+
+    if user_messages >= 5:
+        score += 3
+        factors.append("High message count")
+    elif user_messages >= 3:
+        score += 2
+        factors.append("Moderate message count")
+    elif user_messages >= 1:
+        score += 1
+        factors.append("Low message count")
+
+    # Response quality analysis
+    if metrics.get("user_responses_to_questions", 0) > 0:
+        score += 2
+        factors.append("Responded to questions")
+
+    # Topic interest analysis
+    if metrics.get("fitness_topic_user_initiated"):
+        score += 3
+        factors.append("User initiated fitness talk")
+    elif metrics.get("fitness_topic_ai_initiated"):
+        score += 1
+        factors.append("Responded to fitness topic")
+
+    # Calculate engagement level
+    if score >= 7:
+        engagement_level = "HIGH"
+    elif score >= 4:
+        engagement_level = "MEDIUM"
+    else:
+        engagement_level = "LOW"
+
+    return {
+        "score": score,
+        "level": engagement_level,
+        "factors": factors
+    }
+
+
+def get_smart_follow_up_timing(conversation_data):
+    """Determine optimal follow-up timing based on engagement"""
+    metrics = conversation_data.get("metrics", {})
+
+    # Analyze engagement
+    engagement = analyze_engagement_level(metrics)
+
+    # Define follow-up timing based on engagement level
+    timing = {
+        "HIGH": {
+            "days_after_end": 2,
+            "window_hours": 48,
+            "reason": "High engagement warrants quick follow-up"
+        },
+        "MEDIUM": {
+            "days_after_end": 3,
+            "window_hours": 24,
+            "reason": "Moderate engagement suggests standard timing"
+        },
+        "LOW": {
+            "days_after_end": 4,
+            "window_hours": 24,
+            "reason": "Low engagement suggests longer wait"
+        }
+    }
+
+    follow_up_timing = timing[engagement['level']]
+
+    # Calculate actual timestamps
+    last_seen = metrics.get("last_seen_timestamp")
+    if last_seen:
+        last_seen_dt = datetime.fromisoformat(last_seen.replace('Z', '+00:00'))
+        conversation_end = last_seen_dt + timedelta(hours=24)
+        follow_up_start = conversation_end + \
+            timedelta(days=follow_up_timing['days_after_end'])
+        follow_up_end = follow_up_start + \
+            timedelta(hours=follow_up_timing['window_hours'])
+
+        follow_up_timing.update({
+            "conversation_end": conversation_end,
+            "follow_up_start": follow_up_start,
+            "follow_up_end": follow_up_end
+        })
+
+    # If automatic follow-up is disabled, always return False
+    if not AUTO_FOLLOWUP_ENABLED:
+        return False, None, None
+
+    # If we decide to follow up, check if auto-follow-up is enabled
+    if AUTO_FOLLOWUP_ENABLED and should_follow_up(conversation_data):
+        # Schedule an automatic follow-up
+        follow_up_message = generate_follow_up_message(conversation_data)
+        schedule_automatic_followup(
+            conversation_data.get("username", "unknown"),
+            follow_up_message,
+            follow_up_timing["conversation_end"]
+        )
+        return True, follow_up_timing["conversation_end"], follow_up_timing["reason"]
+
+    return False, None, None
+
+
+def generate_follow_up_message(conversation_data):
+    """Generate a casual, friendly follow-up message based on previous conversations"""
+
+    # Get engagement metrics
+    conv_metrics = conversation_data.get('metrics', {})
+    conv_metadata = conversation_data.get('metadata', {})
+
+    # Get the user name if available
+    user_name = conv_metadata.get('user_name', 'there')
+
+    # Basic follow-up template
+    follow_up_message = f"Hey {user_name}! How's it going? Just checking in to see how you're doing."
+
+    # Enhance with more context if available
+    if 'topic_interests' in conv_metadata:
+        interests = conv_metadata.get('topic_interests', [])
+        if 'meal_plan' in interests:
+            follow_up_message = f"Hey {user_name}! How's your meal plan going? Keeping it clean? 🥗 Still crushing it?"
+        elif 'workout' in interests:
+            follow_up_message = f"Hey {user_name}! How's your training going this week? Getting those gains? 💪"
+
+    return follow_up_message
+
+
+def generate_ai_follow_up_message(conversation_data):
+    """Generate a personalized follow-up message using Gemini AI based on conversation history and profile analysis"""
+    try:
+        # Configure Gemini API
+        genai.configure(api_key="AIzaSyCGawrpt6EFWeaGDQ3rgf2yMS8-DMcXw0Y")
+
+        # Get the client's name/username safely
+        client_ig_username = conversation_data.get("ig_username")
+        client_analysis = conversation_data.get("client_analysis", {})
+        profile_bio = client_analysis.get("profile_bio", {})
+        # Get name from profile if available, otherwise fallback to username
+        client_name = profile_bio.get("PERSON NAME") or profile_bio.get(
+            "person_name") or client_ig_username or "there"
+
+        # Extract conversation history
+        history = conversation_data.get("conversation_history", [])
+
+        # Format the conversation history for the prompt
+        history_text = ""
+        if history:
+            for msg in history:
+                sender = "Coach" if msg.get("type") == "ai" else "Client"
+                history_text += f"{sender}: {msg.get('text', '')}\n"
+        else:
+            history_text = "No previous conversation history available."
+
+        # Format profile bio information for the prompt
+        profile_info_text = "No profile information available."
+        if profile_bio:
+            profile_info_text = "Client Profile Information:\n"
+            interests = profile_bio.get(
+                "INTERESTS") or profile_bio.get("interests") or []
+            lifestyle = profile_bio.get(
+                "LIFESTYLE") or profile_bio.get("lifestyle")
+            personality = profile_bio.get("PERSONALITY TRAITS") or profile_bio.get(
+                "personality_traits") or []
+
+            if interests:
+                profile_info_text += f"- Interests: {', '.join(interests)}\n"
+            if lifestyle and lifestyle not in ["Unknown", ""]:
+                profile_info_text += f"- Lifestyle: {lifestyle}\n"
+            if personality:
+                profile_info_text += f"- Personality Traits: {', '.join(personality)}\n"
+            # Handle case where bio exists but fields are empty
+            if profile_info_text == "Client Profile Information:\n":
+                profile_info_text = "Basic profile bio exists, but specific details (interests, lifestyle, personality) are not populated."
+
+        # Build the prompt for Gemini
+        prompt = f"""
+        You are Shannon, a Fitness Coach and owner of Coco's Connected fitness business, engaging with your followers on Instagram. Your goal is to build rapport and re-engage leads.
+        You are creating a follow-up message for a client named {client_name} (IG: {client_ig_username}).
+
+        Instructions:
+        1. Carefully review BOTH the recent conversation history AND the client's profile information provided below.
+        2. Based on BOTH sources, formulate an insightful and relevant question to continue the conversation or re-engage them.
+        3. The question can be about topics discussed previously OR about their known interests/lifestyle from their profile.
+        4. Keep the message brief and casual (5-25 words).
+        5. Include a single appropriate emoji if relevant.
+        6. Make it personal and engaging, referencing something specific if possible.
+        7. DO NOT ask generic questions like "How are you?" or "What's up?" unless there's absolutely nothing else to go on.
+        8. Your final output should ONLY be the message text itself.
+        9. Do not use the users name in the message
+        
+
+        Client Profile Information:
+        {profile_info_text}
+
+        Recent Conversation History:
+        {history_text}
+
+        Example (using history): "Hey {client_name}! How did that new workout split we talked about go this week? 💪"
+        Example (using profile): "Hey {client_name}! Saw you're interested in vegan recipes - tried any cool new ones lately? 🥗"
+
+        Generate the follow-up message now:
+        """
+
+        # --- Try Primary Model (Flash) ---
+        primary_model_name = "gemini-2.0-flash"
+        fallback_model_name = "gemini-2.0-flash-lite"  # Updated fallback model
+        follow_up_message = None
+        error_occurred = None
+
+        try:
+            logger.info(
+                f"Attempting generation for {client_ig_username} with {primary_model_name}...")
+            model = genai.GenerativeModel(model_name=primary_model_name)
+            # Configure safety settings (important!)
+            safety_settings = {
+                HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+                HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+                HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+                HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+            }
+            response = model.generate_content(
+                prompt, safety_settings=safety_settings)
+            follow_up_message = response.text.strip()
+            logger.info(f"Successfully generated with {primary_model_name}.")
+
+        except Exception as e_primary:
+            logger.warning(
+                f"Generation with {primary_model_name} failed for {client_ig_username}: {type(e_primary).__name__} - {e_primary}. Attempting fallback...")
+            error_occurred = e_primary  # Store primary error
+
+            # --- Try Fallback Model (Pro) ---
+            try:
+                logger.info(
+                    f"Attempting generation for {client_ig_username} with fallback {fallback_model_name}...")
+                model = genai.GenerativeModel(model_name=fallback_model_name)
+                # Re-apply safety settings for fallback model
+                safety_settings = {
+                    HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+                    HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+                    HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+                    HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+                }
+                response = model.generate_content(
+                    prompt, safety_settings=safety_settings)
+                follow_up_message = response.text.strip()
+                logger.info(
+                    f"Successfully generated with fallback {fallback_model_name}.")
+                error_occurred = None  # Clear error if fallback succeeded
+
+            except Exception as e_fallback:
+                logger.error(
+                    f"Fallback generation with {fallback_model_name} also failed for {client_ig_username}: {type(e_fallback).__name__} - {e_fallback}", exc_info=True)
+                error_occurred = e_fallback  # Store fallback error
+                # Let the process fall through to the final exception handler/fallback
+
+        # --- Check result and handle final fallback ---
+        # If an error still exists after trying both models, or message is invalid
+        if error_occurred or not follow_up_message or len(follow_up_message.split()) > 30:
+            if error_occurred:
+                # Log the final error that persisted
+                error_message = f"AI generation failed for {client_ig_username} after trying both models. Final Error: {type(error_occurred).__name__} - {error_occurred}"
+                logger.error(error_message)
+                status_code = getattr(error_occurred, 'status_code', None) or getattr(
+                    error_occurred, 'code', None)
+                if status_code:
+                    st.error(
+                        f"API Error ({status_code}) generating follow-up: {str(error_occurred)}")
+                else:
+                    st.error(
+                        f"Error generating AI follow-up: {str(error_occurred)}")
+            else:
+                # Handle invalid message content (too long/empty)
+                logger.warning(
+                    f"AI generated message invalid (empty/too long) for {client_ig_username}, falling back. AI Message: '{follow_up_message}'")
+                st.warning(
+                    f"Generated message was empty or too long for {client_ig_username}. Using basic fallback.")
+
+            # Final Fallback to simpler message generation
+            logger.info(
+                f"Falling back to basic generation for {client_ig_username}.")
+            return generate_follow_up_message(conversation_data)
+
+        # If we got here, generation was successful with one of the models
+        logger.info(
+            f"Generated AI follow-up for {client_ig_username}: '{follow_up_message}'")
+        return follow_up_message
+
+    # This outer except block catches errors *before* API call attempt (e.g., config)
+    except Exception as e:
+        # --- Enhanced Error Logging ---
+        error_message = f"Error generating AI follow-up for {conversation_data.get('ig_username', 'unknown')}: {type(e).__name__} - {str(e)}"
+        logger.error(error_message, exc_info=True)
+
+        # Attempt to extract status code if it's an API error
+        status_code = getattr(
+            e, 'status_code', None) or getattr(e, 'code', None)
+        if status_code:
+            error_message += f" (Status Code: {status_code})"
+            st.error(
+                f"API Error ({status_code}) generating follow-up: {str(e)}")
+        else:
+            st.error(f"Error generating AI follow-up: {str(e)}")
+        # --- End Enhanced Error Logging ---
+
+        # Fallback to regular follow-up message if generation fails
+        # Return None or raise exception? Returning fallback for now.
+        return generate_follow_up_message(conversation_data)
+
+
+def load_analytics_data():
+    try:
+        analytics.load_analytics()
+        return analytics.global_metrics, analytics.conversation_metrics
+    except Exception as e:
+        st.error(f"Error loading analytics data: {e}")
+        return {}, {}
+
+
+# Initialize session state
+if 'global_metrics' not in st.session_state:
+    st.session_state.global_metrics, st.session_state.conversation_metrics = load_analytics_data()
+
+# Modify the auto-refresh initialization to ensure it's disabled
+if 'auto_refresh' not in st.session_state:
+    st.session_state.auto_refresh = False
+if 'refresh_interval' not in st.session_state:
+    st.session_state.refresh_interval = 60  # Default 60 seconds
+
+# Sidebar navigation
+st.sidebar.title("Shanbot Analytics")
+
+# Add refresh controls
+col1, col2 = st.sidebar.columns(2)
+with col1:
+    st.session_state.auto_refresh = st.checkbox(
+        "Auto Refresh", value=st.session_state.auto_refresh)
+with col2:
+    if st.session_state.auto_refresh:
+        st.session_state.refresh_interval = st.number_input("Interval (s)",
+                                                            min_value=10,
+                                                            max_value=300,
+                                                            value=st.session_state.refresh_interval)
+
+# Add manual refresh button
+if st.sidebar.button("🔄 Refresh Data"):
+    st.session_state.global_metrics, st.session_state.conversation_metrics = load_analytics_data()
+    st.success("Data refreshed successfully!")
+
+# Navigation selection in sidebar
+# Add "view_profile" to session state if not present
+if 'view_profile' not in st.session_state:
+    st.session_state.view_profile = None
+
+# Determine default page based on view_profile state
+default_nav_index = 0  # Default to Overview
+if st.session_state.view_profile:
+    default_nav_index = 1  # Switch to User Profiles if a profile is selected
+
+# Add "AI Data Assistant" to the list of pages
+nav_options = ["Overview", "User Profiles",
+               "Scheduled Follow-ups", "AI Data Assistant"]
+selected_page = st.sidebar.radio(
+    "Navigation",
+    nav_options,
+    index=default_nav_index  # Set index based on whether a profile is being viewed
+)
+
+# If user manually selected User Profiles, clear any previous selection
+if selected_page == "User Profiles" and not st.session_state.view_profile:
+    # Reset view_profile if navigating TO User Profiles manually
+    # This case might need refinement depending on desired UX
+    pass  # Or maybe clear view_profile? Depends on flow.
+
+# If user selects Overview or AI Assistant, clear view_profile
+if selected_page != "User Profiles":
+    st.session_state.view_profile = None
+
+# Show data loading status
+st.sidebar.markdown("---")
+st.sidebar.info("Loaded data from analytics_data.json")
+
+# Main content area
+st.title(f"Shanbot Analytics - {selected_page}")  # Dynamic title
+
+# Content based on selection
+if selected_page == "Overview":
+    st.header("📊 Global Metrics")
+
+    # Calculate user metrics
+    total_users = len(st.session_state.conversation_metrics)
+
+    # Calculate active/inactive users using last_message_timestamp
+    now = datetime.now(timezone.utc)  # Use UTC for consistency
+    active_users = 0
+    inactive_users = 0
+
+    for user_id, user_data in st.session_state.conversation_metrics.items():
+        # Use last_message_timestamp as the indicator of recent activity
+        last_active_timestamp = user_data.get("last_message_timestamp")
+        if last_active_timestamp:
+            try:
+                # Parse the timestamp and ensure it's UTC
+                last_active = parse_timestamp(last_active_timestamp)
+
+                if last_active:
+                    # Check if active within last hour
+                    time_diff = now - last_active
+                    if time_diff.total_seconds() < ACTIVE_WINDOW:  # 1 hour in seconds
+                        active_users += 1
+                    else:
+                        inactive_users += 1
+                else:
+                    # Handle case where timestamp is invalid
+                    inactive_users += 1
+            except Exception as e:
+                # Catch any parsing errors
+                st.error(f"Error parsing timestamp for user {user_id}: {e}")
+                inactive_users += 1
+        else:
+            # If no last message timestamp, consider inactive
+            inactive_users += 1
+
+    # Create three columns for metrics
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        st.subheader("User Stats")
+
+        # Debug expander for User Stats calculations - ensure it's not nested in another expander
+        with st.expander("User Stats Debug"):
+            st.write("Raw Data:")
+            st.write(
+                f"Total conversations in metrics: {len(st.session_state.conversation_metrics)}")
+
+            # Show active/inactive calculation details
+            active_count = 0
+            inactive_count = 0
+            for user_id, user_data in st.session_state.conversation_metrics.items():
+                conv_end = user_data.get("conversation_end_time")
+                if conv_end:
+                    try:
+                        # Parse the timestamp
+                        if isinstance(conv_end, str):
+                            last_active = datetime.fromisoformat(
+                                conv_end.replace('Z', '+00:00'))
+                        else:
+                            last_active = conv_end
+
+                        # Ensure UTC
+                        if last_active.tzinfo is None:
+                            last_active = last_active.replace(
+                                tzinfo=timezone.utc)
+
+                        # Calculate time difference
+                        time_diff = now - last_active
+                        minutes_diff = time_diff.total_seconds() / 60
+
+                        st.write(f"User {user_id}:")
+                        st.write(f"  - Last active: {last_active}")
+                        st.write(
+                            f"  - Minutes since last message: {minutes_diff:.1f}")
+                        st.write(
+                            f"  - Status: {'Active' if minutes_diff < 60 else 'Inactive'}")
+
+                        if time_diff.total_seconds() < ACTIVE_WINDOW:
+                            active_count += 1
+                    except (ValueError, TypeError) as e:
+                        st.write(
+                            f"  - Error parsing timestamp for user {user_id}: {e}")
+                        inactive_count += 1
+
+            st.write("\nCalculated Totals:")
+            st.write(f"Active Users (recounted): {active_count}")
+            st.write(f"Inactive Users (recounted): {inactive_count}")
+
+        # Display metrics
+        st.metric("Total Users", total_users)
+        st.metric("Active Users (1h)", active_users,
+                  help="Users who have had a conversation in the last hour")
+        st.metric("Inactive Users", inactive_users,
+                  help="Users who haven't had a conversation in the last hour")
+
+    with col2:
+        st.subheader("Conversion Metrics")
+
+        # Get total signups and inquiries
+        total_signups = 0
+        total_inquiries = 0
+        total_offers = 0
+
+        # Debug expander for Conversion Metrics - ensure it's not nested in another expander
+        with st.expander("Conversion Metrics Debug"):
+            st.write("Detailed Conversion Data:")
+            for user_id, conv in st.session_state.conversation_metrics.items():
+                # Track metrics for this user
+                user_metrics = {
+                    "signup": conv.get("signup_recorded", False),
+                    "inquiries": conv.get("coaching_inquiry_count", 0),
+                    "offer_shown": conv.get("offer_mentioned_in_conv", False)
+                }
+
+                # Update totals
+                if user_metrics["signup"]:
+                    total_signups += 1
+                if user_metrics["inquiries"] > 0:
+                    total_inquiries += 1
+                if user_metrics["offer_shown"]:
+                    total_offers += 1
+
+                # Only show users with any conversion activity
+                if any(user_metrics.values()):
+                    st.write(f"\nUser {user_id}:")
+                    st.write(f"  - Signed up: {user_metrics['signup']}")
+                    st.write(
+                        f"  - Inquiries made: {user_metrics['inquiries']}")
+                    st.write(f"  - Offer shown: {user_metrics['offer_shown']}")
+
+            st.write("\nTotals:")
+            st.write(f"Total Signups: {total_signups}")
+            st.write(f"Total Inquiries: {total_inquiries}")
+            st.write(f"Total Offers Shown: {total_offers}")
+
+        # Display metrics
+        st.metric("Total Memberships Sold", total_signups,
+                  help="Number of users who have signed up for membership")
+        st.metric("Coaching Inquiries", total_inquiries,
+                  help="Number of users who have inquired about coaching")
+
+        # --- Add Expander for Inquiring Users --- START ---
+        with st.expander(f"View {total_inquiries} Users Who Inquired"):
+            inquiring_users_list = []
+            for user_id, user_data in st.session_state.conversation_metrics.items():
+                if user_data.get('coaching_inquiry_count', 0) > 0:
+                    username = user_data.get("ig_username") or user_id
+                    # Calculate status for indicator
+                    is_active = False
+                    last_active_timestamp = user_data.get(
+                        "last_message_timestamp")
+                    if last_active_timestamp:
+                        try:
+                            last_active_dt = parse_timestamp(
+                                last_active_timestamp)
+                            if last_active_dt:
+                                time_diff = datetime.now(
+                                    timezone.utc) - last_active_dt
+                                if time_diff.total_seconds() < ACTIVE_WINDOW:
+                                    is_active = True
+                        except Exception:
+                            pass
+                    status_indicator = "🟢" if is_active else "🔴"
+                    inquiring_users_list.append({
+                        "id": user_id,
+                        "username": username,
+                        "status_indicator": status_indicator
+                    })
+
+            # Sort the list (e.g., by username)
+            inquiring_users_list.sort(key=lambda x: x["username"])
+
+            if inquiring_users_list:
+                for user in inquiring_users_list:
+                    cols = st.columns([3, 1])
+                    with cols[0]:
+                        st.write(
+                            f"{user['status_indicator']} {user['username']}")
+                    with cols[1]:
+                        if st.button("View Profile", key=f"view_inquiry_{user['id']}", use_container_width=True):
+                            st.session_state.view_profile = user['id']
+                            st.rerun()
+            else:
+                st.info("No users found who have made inquiries.")
+        # --- Add Expander for Inquiring Users --- END ---
+
+        # Calculate and display conversion rate
+        conversion_rate = (total_signups / total_offers *
+                           100) if total_offers > 0 else 0
+        st.metric("Conversion Rate", f"{conversion_rate:.1f}%",
+                  help="Percentage of users who signed up after seeing an offer")
+
+    with col3:
+        st.subheader("Engagement Overview")
+
+        # Debug expander for Engagement Metrics - ensure it's not nested in another expander
+        with st.expander("Engagement Metrics Debug"):
+            st.write("Raw Message Counts from Global Metrics:")
+            st.write(json.dumps(st.session_state.global_metrics, indent=2))
+
+            st.write("\nMessage Count Verification:")
+            total_messages = 0
+            user_messages = 0
+            ai_messages = 0
+
+            # Count messages from conversation history
+            for user_id, conv in st.session_state.conversation_metrics.items():
+                history = conv.get("conversation_history", [])
+                conv_total = len(history)
+                conv_user = sum(
+                    1 for msg in history if msg.get("type") != "ai")
+                conv_ai = sum(1 for msg in history if msg.get("type") == "ai")
+
+                total_messages += conv_total
+                user_messages += conv_user
+                ai_messages += conv_ai
+
+                if conv_total > 0:  # Only show conversations with messages
+                    st.write(f"\nUser {user_id} Message Counts:")
+                    st.write(f"  - Total Messages: {conv_total}")
+                    st.write(f"  - User Messages: {conv_user}")
+                    st.write(f"  - AI Messages: {conv_ai}")
+
+            st.write("\nTotal Counts (from conversation history):")
+            st.write(f"Total Messages: {total_messages}")
+            st.write(f"User Messages: {user_messages}")
+            st.write(f"AI Messages: {ai_messages}")
+
+            # Get counts from global metrics
+            global_total = st.session_state.global_metrics.get(
+                "total_messages", 0)
+            global_user = st.session_state.global_metrics.get(
+                "total_user_messages", 0)
+            global_ai = st.session_state.global_metrics.get(
+                "total_ai_messages", 0)
+
+            st.write("\nGlobal Metric Counts:")
+            st.write(f"Total Messages: {global_total}")
+            st.write(f"User Messages: {global_user}")
+            st.write(f"AI Messages: {global_ai}")
+
+            # Calculate response rate
+            response_rate = (global_ai / global_user *
+                             100) if global_user > 0 else 0
+            st.write(f"\nResponse Rate Calculation:")
+            st.write(
+                f"{global_ai} AI messages / {global_user} user messages = {response_rate:.1f}%")
+
+        # Display metrics
+        st.metric("Total Messages", global_total,
+                  help="Total number of messages exchanged")
+        st.metric("User Messages", global_user,
+                  help="Total number of messages sent by users")
+        st.metric("AI Messages", global_ai,
+                  help="Total number of messages sent by the AI")
+        st.metric("Response Rate", f"{response_rate:.1f}%",
+                  help="Ratio of AI responses to user messages")
+
+    # Add Responder Categories section
+    st.header("👥 Responder Categories")
+
+    # Create tabs for different responder categories
+    responder_tabs = st.tabs(
+        ["High Responders", "Medium Responders", "Low Responders"])
+
+    # Function to categorize users based on NEW thresholds
+    def get_responder_category(user_data):
+        # Use 'user_messages' for categorization, default to 0 if missing
+        user_message_count = user_data.get("user_messages", 0)
+        if user_message_count >= 51:
+            return "High"
+        elif user_message_count >= 11:  # 11 to 50
+            return "Medium"
+        elif user_message_count >= 1:  # 1 to 10
+            return "Low"
+        else:  # 0 messages
+            # Users with 0 messages won't appear in these tabs anyway,
+            # but good to handle the case.
+            return "No Responder"
+
+    # Sort users into categories
+    high_responders = []
+    medium_responders = []
+    low_responders = []
+
+    now = datetime.now(timezone.utc)
+
+    for user_id, user_data in st.session_state.conversation_metrics.items():
+        # Get username (either IG username or user ID if not available)
+        username = user_data.get("ig_username") or user_id
+
+        # Calculate status based on last_message_timestamp
+        is_active = False
+        last_active_timestamp = user_data.get("last_message_timestamp")
+        if last_active_timestamp:
+            try:
+                last_active_dt = parse_timestamp(last_active_timestamp)
+                if last_active_dt:
+                    time_diff = now - last_active_dt
+                    if time_diff.total_seconds() < ACTIVE_WINDOW:
+                        is_active = True
+            except Exception:  # Ignore errors for sorting/display purpose
+                pass
+
+        status_indicator = "🟢" if is_active else "🔴"
+
+        # Get BOTH total and user message counts
+        total_message_count = user_data.get("total_messages", 0)
+        # Get user message count for display
+        user_message_count = user_data.get("user_messages", 0)
+
+        # Create user info dict including status and user message count
+        user_info = {
+            "id": user_id,
+            "username": username,
+            # Keep total for sorting consistency?
+            "total_message_count": total_message_count,
+            "user_message_count": user_message_count,  # Use this for display in format_func
+            "is_active": is_active,  # Store boolean for sorting
+            "status_indicator": status_indicator  # Store indicator for display
+        }
+
+        # Add to appropriate category based on USER messages
+        # Uses user_messages internally
+        category = get_responder_category(user_data)
+        if category == "High":
+            high_responders.append(user_info)
+        elif category == "Medium":
+            medium_responders.append(user_info)
+        elif category == "Low":
+            low_responders.append(user_info)
+        # Ignore "No Responder"
+
+    # Sort each list by active status first (descending), then by TOTAL message count (descending)
+    # Sorting by total messages keeps higher interaction users higher within activity status
+    for responder_list in [high_responders, medium_responders, low_responders]:
+        responder_list.sort(
+            key=lambda x: (x["is_active"], x["total_message_count"]), reverse=True)
+
+    # Modify the high responders tab
+    with responder_tabs[0]:  # High Responders
+        st.subheader(f"High Responders ({len(high_responders)})")
+        if high_responders:
+            selected_high_index = st.selectbox(
+                "Select User",
+                options=list(range(len(high_responders))),
+                # Update format_func to use USER messages
+                format_func=lambda i: f"{high_responders[i]['status_indicator']} {high_responders[i]['username']} - {high_responders[i]['user_message_count']} user msgs",
+                key="high_responder_select"
+            )
+
+            # Add a View Profile button
+            if st.button("View Profile", key="view_high_button"):
+                st.session_state.view_profile = high_responders[selected_high_index]['id']
+                st.rerun()
+        else:
+            st.info("No high responders found")
+
+    with responder_tabs[1]:  # Medium Responders
+        st.subheader(f"Medium Responders ({len(medium_responders)})")
+        if medium_responders:
+            selected_medium_index = st.selectbox(
+                "Select User",
+                options=list(range(len(medium_responders))),
+                # Update format_func to use USER messages
+                format_func=lambda i: f"{medium_responders[i]['status_indicator']} {medium_responders[i]['username']} - {medium_responders[i]['user_message_count']} user msgs",
+                key="medium_responder_select"
+            )
+
+            # Add a View Profile button
+            if st.button("View Profile", key="view_medium_button"):
+                st.session_state.view_profile = medium_responders[selected_medium_index]['id']
+                st.rerun()
+        else:
+            st.info("No medium responders found")
+
+    with responder_tabs[2]:  # Low Responders
+        st.subheader(f"Low Responders ({len(low_responders)})")
+        if low_responders:
+            selected_low_index = st.selectbox(
+                "Select User",
+                options=list(range(len(low_responders))),
+                # Update format_func to use USER messages
+                format_func=lambda i: f"{low_responders[i]['status_indicator']} {low_responders[i]['username']} - {low_responders[i]['user_message_count']} user msgs",
+                key="low_responder_select"
+            )
+
+            # Add a View Profile button
+            if st.button("View Profile", key="view_low_button"):
+                st.session_state.view_profile = low_responders[selected_low_index]['id']
+                st.rerun()
+        else:
+            st.info("No low responders found")
+
+elif selected_page == "User Profiles":
+    st.header("👥 User Profiles")
+
+    # Get the user ID from view_profile if set
+    selected_user_id = st.session_state.view_profile
+
+    # Create a list of users with their basic info for selection
+    user_list = []
+    now = datetime.now(timezone.utc)  # Get current time once for efficiency
+
+    for user_id, user_data in st.session_state.conversation_metrics.items():
+        # Get username (either IG username or user ID if not available)
+        username = user_data.get("ig_username") or user_id
+
+        # Calculate status based on last_message_timestamp
+        is_active = False
+        last_active_timestamp = user_data.get("last_message_timestamp")
+        if last_active_timestamp:
+            try:
+                last_active_dt = parse_timestamp(last_active_timestamp)
+                if last_active_dt:
+                    time_diff = now - last_active_dt
+                    if time_diff.total_seconds() < ACTIVE_WINDOW:
+                        is_active = True
+            except Exception:  # Ignore errors for sorting/display purpose
+                pass
+
+        status_indicator = "🟢" if is_active else "🔴"
+
+        # Get message count
+        message_count = user_data.get("total_messages", 0)
+
+        # Create user info dict including status
+        user_list.append({
+            "id": user_id,
+            "username": username,
+            "message_count": message_count,
+            "is_active": is_active,  # Store boolean for sorting
+            "status_indicator": status_indicator  # Store indicator for display
+        })
+
+    # Sort users by active status first (descending), then by message count (descending)
+    user_list.sort(key=lambda x: (
+        x["is_active"], x["message_count"]), reverse=True)
+
+    # If we have a selected user from responder tabs, find it in the list
+    selected_user_from_id = None
+    if selected_user_id:
+        selected_user_from_id = next(
+            (user for user in user_list if user["id"] == selected_user_id), None)
+
+    # If no user is selected from responder tabs, show the dropdown
+    if not selected_user_from_id:
+        selected_user = st.selectbox(
+            "Select User",
+            options=user_list,
+            # Update format_func to include the status indicator
+            format_func=lambda x: f"{x['status_indicator']} {x['username']} - {x['message_count']} messages"
+        )
+    else:
+        # Show the selected user's info without the dropdown
+        st.info(
+            f"Viewing profile for: {selected_user_from_id['status_indicator']} {selected_user_from_id['username']}")
+        # Use the found user object
+        selected_user = selected_user_from_id
+        # Add a button to clear selection and return to list
+        if st.button("← Back to Overview"):
+            st.session_state.view_profile = None
+            st.rerun()  # Rerun to go back to overview/dropdown view
+
+    if selected_user:
+        display_conversation(selected_user)
+
+elif selected_page == "Scheduled Follow-ups":
+    st.header("🔔 Users Ready for Follow-up")
+    st.info(
+        "Listing users eligible for follow-up based on inactivity and responder category.")
+
+    # --- Initialize Session State ---
+    if 'followup_selection' not in st.session_state:
+        st.session_state.followup_selection = {}
+    if 'generated_followups' not in st.session_state:
+        st.session_state.generated_followups = {}
+    # --- End Initialization ---
+
+    # --- Define Helper Function (ensure display_user_details is defined earlier) ---
+    # Make sure display_user_details(user_id) is defined before this point in your script
+
+    # --- Calculate Eligible Users ---
+    eligible_users = []
+    now = datetime.now(timezone.utc)
+    responder_rules = {
+        "High": {"user_msg_min": 51, "inactive_hours_req": 48, "cooldown_days": 7},
+        "Medium": {"user_msg_min": 11, "inactive_hours_req": 120, "cooldown_days": 10},
+        "Low": {"user_msg_min": 1, "inactive_hours_req": 168, "cooldown_days": 14}
+    }
+
+    for user_id, user_data in st.session_state.conversation_metrics.items():
+        last_active_timestamp = user_data.get("last_message_timestamp")
+        user_messages = user_data.get("user_messages", 0)
+        last_follow_up_date_str = user_data.get("last_follow_up_date")
+        username = user_data.get("ig_username") or user_id
+        if not last_active_timestamp:
+            continue
+        last_active_dt = parse_timestamp(last_active_timestamp)
+        if not last_active_dt:
+            continue
+        time_diff = now - last_active_dt
+        hours_inactive = time_diff.total_seconds() / 3600
+        category = "Unknown"
+        rules = None
+        if user_messages >= responder_rules["High"]["user_msg_min"]:
+            category = "High"
+            rules = responder_rules["High"]
+        elif user_messages >= responder_rules["Medium"]["user_msg_min"]:
+            category = "Medium"
+            rules = responder_rules["Medium"]
+        elif user_messages >= responder_rules["Low"]["user_msg_min"]:
+            category = "Low"
+            rules = responder_rules["Low"]
+        else:
+            continue
+        if hours_inactive >= rules["inactive_hours_req"]:
+            cooldown_met = False
+            if not last_follow_up_date_str:
+                cooldown_met = True
+            else:
+                last_follow_up_dt = parse_timestamp(last_follow_up_date_str)
+                if last_follow_up_dt:
+                    days_since_follow_up = (now - last_follow_up_dt).days
+                    if days_since_follow_up >= rules["cooldown_days"]:
+                        cooldown_met = True
+                else:
+                    cooldown_met = True  # Treat invalid date as met
+            if cooldown_met:
+                eligible_users.append({
+                    "id": user_id, "username": username, "category": category,
+                    "hours_inactive": hours_inactive, "required_hours": rules["inactive_hours_req"],
+                    "last_follow_up": last_follow_up_date_str or "Never"
+                })
+    # --- End Eligibility Calculation ---
+
+    eligible_users.sort(key=lambda x: x["hours_inactive"], reverse=True)
+
+    # --- Main Display Area ---
+    if not eligible_users:
+        st.success("✅ No users currently meet the criteria for follow-up.")
+    else:
+        st.write(
+            f"Found {len(eligible_users)} user(s) eligible for follow-up:")
+
+        # --- Generate Button ---
+        if st.button("🤖 Generate Follow-up Messages for All Eligible", key="generate_all_followups"):
+            generated_count = 0
+            failed_count = 0
+            with st.spinner(f"Generating messages for {len(eligible_users)} users..."):
+                for user_info in eligible_users:
+                    user_id = user_info['id']
+                    if user_id in st.session_state.conversation_metrics:
+                        user_data_full = st.session_state.conversation_metrics[user_id]
+                        try:
+                            follow_up_message = generate_ai_follow_up_message(
+                                user_data_full)
+                            st.session_state.generated_followups[user_id] = {
+                                "message": follow_up_message,
+                                "generated_at": datetime.now(timezone.utc).isoformat(),
+                                "auto_generated": False, "error": False
+                            }
+                            generated_count += 1
+                        except Exception as e:
+                            logger.error(
+                                f"Error generating follow-up for {user_info['username']} ({user_id}): {e}", exc_info=True)
+                            failed_count += 1
+                            st.session_state.generated_followups[user_id] = {
+                                "message": f"Error generating: {str(e)[:100]}",
+                                "generated_at": datetime.now(timezone.utc).isoformat(),
+                                "error": True
+                            }
+                    else:
+                        logger.warning(
+                            f"Could not find full user data for {user_info['username']} ({user_id}) during bulk generation.")
+                        failed_count += 1
+                    time.sleep(2)  # Delay between API calls
+            st.success(
+                f"Generated {generated_count} messages. Failed to generate for {failed_count} users.")
+            st.rerun()
+        # --- End Generate Button ---
+
+        st.markdown("---")  # Separator
+
+        # --- Select All / Send Selected Section ---
+        all_selected = all(st.session_state.followup_selection.get(
+            user['id'], False) for user in eligible_users)
+
+        def select_all_callback():
+            select_all_state = st.session_state.select_all_checkbox_state
+            for user in eligible_users:
+                st.session_state.followup_selection[user['id']
+                                                    ] = select_all_state
+
+        st.checkbox("Select All Eligible Users", value=all_selected,
+                    key="select_all_checkbox_state", on_change=select_all_callback)
+
+        # --- Send Selected Button ---
+        selected_users_ids = [
+            uid for uid, selected in st.session_state.followup_selection.items() if selected]
+        users_to_send = []
+        if selected_users_ids:
+            for user_info in eligible_users:
+                user_id = user_info['id']
+                if user_id in selected_users_ids and \
+                   user_id in st.session_state.generated_followups and \
+                   not st.session_state.generated_followups[user_id].get('error', False):
+                    users_to_send.append(user_info)
+
+        if users_to_send:
+            st.markdown("---")
+            if st.button(f"🚀 Send Follow-ups to {len(users_to_send)} Selected User(s)", key="send_selected_followups"):
+                sent_count = 0
+                error_count = 0
+                with st.spinner(f"Attempting to send messages to {len(users_to_send)} users..."):
+                    driver = None
+                    manager_loaded = False
+                    try:  # Load driver once
+                        manager_loaded = load_followup_manager()
+                        if manager_loaded:
+                            driver = followup_manager.get_driver()
+                        if not driver:
+                            st.error(
+                                "Could not get Instagram browser driver. Please ensure followup_manager.py is running.")
+                            st.stop()
+                    except Exception as load_err:
+                        st.error(
+                            f"Error loading followup manager/driver: {load_err}")
+                        st.stop()
+
+                    send_results = []
+                    for user_info in users_to_send:
+                        user_id = user_info['id']
+                        username = user_info['username']
+                        message_data = st.session_state.generated_followups.get(
+                            user_id)
+                        if not message_data or message_data.get('error', False):
+                            continue
+                        message_content = message_data['message']
+                        time.sleep(random.uniform(1.5, 3.5))  # Delay
+                        try:
+                            result = followup_manager.send_follow_up_message(
+                                driver, username, message_content)
+                            if result.get("success", False):
+                                sent_count += 1
+                                log_followup_success(username, message_content)
+                                del st.session_state.generated_followups[user_id]
+                                st.session_state.followup_selection[user_id] = False
+                                send_results.append(f"✅ Success: {username}")
+                            else:
+                                error_msg = result.get(
+                                    "error", "Unknown send error")
+                                logger.error(
+                                    f"Failed to send message to {username}: {error_msg}")
+                                error_count += 1
+                                log_followup_failure(username, error_msg)
+                                send_results.append(
+                                    f"❌ Failed: {username} - {error_msg[:50]}...")
+                        except Exception as send_err:
+                            logger.error(
+                                f"Exception during message send for {username}: {send_err}", exc_info=True)
+                            error_count += 1
+                            log_followup_failure(
+                                username, f"Send exception: {str(send_err)}")
+                            send_results.append(
+                                f"❌ Error: {username} - Exception during send.")
+
+                st.markdown("**Send Summary:**")
+                for res in send_results:
+                    st.success(res) if "✅" in res else st.error(res)
+                st.info(
+                    f"Finished sending process. Success: {sent_count}, Failed/Errors: {error_count}")
+                st.rerun()
+        # --- End Send Selected Button ---
+        st.markdown("---")  # Separator before list
+
+        # --- Display Loop for Each Eligible User ---
+        for user in eligible_users:
+            user_id = user['id']
+            if user_id not in st.session_state.followup_selection:
+                st.session_state.followup_selection[user_id] = False
+
+            # Use columns for layout
+            col_select, col_info, col_msg, col_actions = st.columns([
+                                                                    1, 4, 5, 1])
+
+            with col_select:
+                st.checkbox("Select",
+                            value=st.session_state.followup_selection[user_id],
+                            key=f"select_{user_id}",
+                            label_visibility="collapsed")
+
+            with col_info:
+                st.write(f"**{user['username']}** ({user_id})")
+                st.write(f"{user['category']} Responder")
+                inactive_display = f"{user['hours_inactive']:.1f} hrs inactive"
+                if user['hours_inactive'] > 24:
+                    days_inactive = user['hours_inactive'] / 24
+                    inactive_display = f"{days_inactive:.1f} days inactive"
+                st.write(inactive_display)
+
+            with col_msg:
+                if user_id in st.session_state.generated_followups:
+                    generated_data = st.session_state.generated_followups[user_id]
+                    message = generated_data.get("message", "N/A")
+                    generated_at_str = generated_data.get("generated_at", "")
+                    is_error = generated_data.get("error", False)
+
+                    if is_error:
+                        st.error(f"Generation Failed: {message}")
+                        if st.button("Remove Failed", key=f"remove_failed_{user_id}", help="Remove this failed generation attempt"):
+                            del st.session_state.generated_followups[user_id]
+                            st.rerun()
+                    else:
+                        edit_col, delete_col = st.columns([4, 1])
+                        with edit_col:
+                            edited_message = st.text_area(
+                                label="Generated Message:", value=message, height=75,
+                                key=f"edit_followup_{user_id}", label_visibility="collapsed"
+                            )
+                            if edited_message != message:
+                                st.session_state.generated_followups[user_id]["message"] = edited_message
+                                st.session_state.generated_followups[user_id]["edited"] = True
+                            if generated_at_str:
+                                try:
+                                    gen_dt = parse_timestamp(generated_at_str)
+                                    st.caption(
+                                        f"Generated: {gen_dt.strftime('%Y-%m-%d %H:%M') if gen_dt else generated_at_str}")
+                                except:
+                                    st.caption(
+                                        f"Generated: {generated_at_str}")
+                        with delete_col:
+                            if st.button("🗑️", key=f"delete_followup_{user_id}", help="Delete this generated message"):
+                                del st.session_state.generated_followups[user_id]
+                                st.success(
+                                    f"Deleted message for {user['username']}.")
+                                st.rerun()
+                else:
+                    st.caption("Message not generated yet.")
+
+            with col_actions:
+                if st.button("❌", key=f"dismiss_{user_id}", help="Dismiss this user from follow-up list (sets last follow-up date to now)"):
+                    try:
+                        st.session_state.conversation_metrics[user_id]["last_follow_up_date"] = datetime.now(
+                            timezone.utc).isoformat()
+                        analytics.export_analytics()
+                        st.success(
+                            f"Dismissed {user['username']} from follow-up list.")
+                        st.rerun()
+                    except KeyError:
+                        st.error(
+                            f"Error dismissing {user['username']}: User data not found.")
+                    except Exception as e:
+                        logger.error(
+                            f"Error dismissing user {user['username']} ({user_id}): {e}", exc_info=True)
+                        st.error(
+                            f"An error occurred while dismissing {user['username']}.")
+
+            # --- Add Expander Below Columns ---
+            with st.expander(f"View Details for {user['username']}"):
+                display_user_details(user_id)  # Call the helper function
+
+            st.divider()  # Divider between users
+
+elif selected_page == "AI Data Assistant":
+    st.header("🤖 AI Data Assistant")
+    st.info("Ask questions about your analytics data in natural language.")
+
+    # Initialize chat history in session state
+    if "ai_assistant_messages" not in st.session_state:
+        st.session_state.ai_assistant_messages = []
+
+    # Display chat messages from history on app rerun
+    for message in st.session_state.ai_assistant_messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+
+    # React to user input
+    if prompt := st.chat_input("Ask about your data..."):
+        # Display user message in chat message container
+        with st.chat_message("user"):
+            st.markdown(prompt)
+        # Add user message to chat history
+        st.session_state.ai_assistant_messages.append(
+            {"role": "user", "content": prompt})
+
+        # --- Prepare data context for Gemini ---
+        # Use data already loaded into session state
+        global_data = st.session_state.get('global_metrics', {})
+        conv_data = st.session_state.get('conversation_metrics', {})
+
+        # Simple summary of conversation data (can be expanded)
+        conv_summary = (
+            f"- Total Users/Conversations: {len(conv_data)}\n"
+            f"- User IDs/Usernames (first 10): {list(conv_data.keys())[:10]}\n"
+            # Add more summary points as needed
+        )
+
+        # Convert global data to string
+        global_data_str = json.dumps(global_data, indent=2)
+
+        # --- Construct Gemini Prompt ---
+        gemini_prompt = f"""
+You are a helpful data analyst assistant embedded in a Streamlit dashboard. Your task is to answer questions about Instagram follower interaction data based ONLY on the provided data context.
+
+**Data Context:**
+
+**1. Global Metrics:**
+```json
+{global_data_str}
+```
+
+**2. Conversation Data Summary:**
+{conv_summary}
+
+**Important Rules:**
+- Base your answers STRICTLY on the data provided above.
+- Do not make assumptions or use external knowledge.
+- If the provided data doesn't contain the answer, state that clearly.
+- If the user asks about a specific user/ID, and you need more detail than the summary provides, state that you need the specific user's data (you cannot retrieve it yourself).
+- Keep answers concise and informative.
+
+**User Question:**
+{prompt}
+
+**Answer:**
+"""
+
+        # --- Call Gemini API ---
+        try:
+            with st.spinner("Analyzing data..."):
+                model = genai.GenerativeModel('gemini-1.5-flash')
+                response = model.generate_content(gemini_prompt)
+                ai_response = response.text.strip()
+
+            # Display assistant response in chat message container
+            with st.chat_message("assistant"):
+                st.markdown(ai_response)
+            # Add assistant response to chat history
+            st.session_state.ai_assistant_messages.append(
+                {"role": "assistant", "content": ai_response})
+
+        except Exception as e:
+            st.error(f"Error communicating with AI: {e}")
+            logger.error(f"AI Assistant Error: {e}", exc_info=True)
+            with st.chat_message("assistant"):
+                st.markdown(
+                    "Sorry, I encountered an error trying to process your request.")
+            st.session_state.ai_assistant_messages.append(
+                {"role": "assistant", "content": "Sorry, I encountered an error."})  # Log simpler error
+
+# Footer
+st.markdown("---")
+st.markdown("Analytics Dashboard | Reading from: " +
+            os.path.abspath(ANALYTICS_FILE_PATH))
+st.markdown("Last updated: " + datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+
+# Auto-refresh logic
+if st.session_state.auto_refresh and not st.session_state.get('_refreshing', False):
+    st.session_state._refreshing = True
+    time.sleep(st.session_state.refresh_interval)
+    st.rerun()
+else:
+    st.session_state._refreshing = False
+
+# Add test user function
+
+
+def add_test_user():
+    test_user_id = "test_user_123"
+    current_time = datetime.now(timezone.utc)
+
+    # Add user message
+    analytics.analyze_message(
+        subscriber_id=test_user_id,
+        message_text="Hey! I'm interested in getting fit. How much does coaching cost?",
+        message_type="user",
+        timestamp=current_time.isoformat(),
+        ig_username="test_fitness_enthusiast"
+    )
+
+    # Add AI response
+    analytics.analyze_message(
+        subscriber_id=test_user_id,
+        message_text="Hey there! 👋 Great to hear you're interested in fitness! Our coaching programs start at $X per month. Would you like to know more about what's included?",
+        message_type="ai",
+        timestamp=(current_time + timedelta(minutes=1)).isoformat()
+    )
+
+    # Add another user message
+    analytics.analyze_message(
+        subscriber_id=test_user_id,
+        message_text="Yes please! I'm particularly interested in weight loss.",
+        message_type="user",
+        timestamp=(current_time + timedelta(minutes=2)).isoformat()
+    )
+
+    # Add another AI response
+    analytics.analyze_message(
+        subscriber_id=test_user_id,
+        message_text="Perfect! Here's a link to our program: cocospersonaltraining.com/online. It includes personalized workouts, nutrition guidance, and weekly check-ins. Would you like to get started?",
+        message_type="ai",
+        timestamp=(current_time + timedelta(minutes=3)).isoformat()
+    )
+
+    return "Test user added successfully!"
+
+# Function to display user details in expander
+
+
+# Add test user button in sidebar
+st.sidebar.markdown("---")
+st.sidebar.subheader("Testing Tools")
+if st.sidebar.button("Add Test User"):
+    result = add_test_user()
+    st.sidebar.success(result)
+    # Refresh the data
+    st.session_state.global_metrics, st.session_state.conversation_metrics = load_analytics_data()
+    st.rerun()
+
+# New function to schedule a follow-up message
+
+
+def schedule_automatic_followup(username, message, scheduled_time):
+    """Schedule a follow-up message to be sent automatically at the specified time"""
+    global SCHEDULED_FOLLOWUPS
+
+    if username not in SCHEDULED_FOLLOWUPS:
+        SCHEDULED_FOLLOWUPS[username] = []
+
+    SCHEDULED_FOLLOWUPS[username].append({
+        "message": message,
+        "scheduled_time": scheduled_time,
+        "created_at": datetime.now(timezone.utc),
+        "status": "scheduled"
+    })
+
+    # Save scheduled follow-ups to a persistent store
+    save_scheduled_followups()
+
+    return True
+
+# New function to check for and send scheduled follow-ups
+
+
+def process_scheduled_followups():
+    """Check for any scheduled follow-ups that are due and send them"""
+    global SCHEDULED_FOLLOWUPS
+    current_time = datetime.now(timezone.utc)
+
+    # Load the latest scheduled follow-ups
+    load_scheduled_followups()
+
+    messages_sent = 0
+    messages_to_send = []
+
+    # First pass: identify messages to send
+    # Make a copy of items to iterate over, as the dictionary might change if load runs again
+    followups_copy = SCHEDULED_FOLLOWUPS.copy()
+    for username, messages in followups_copy.items():
+        # Iterate safely over indices
+        for i in range(len(messages)):
+            # Check if index is still valid (might change if modified elsewhere, though unlikely here)
+            if i < len(SCHEDULED_FOLLOWUPS.get(username, [])):
+                msg_data = SCHEDULED_FOLLOWUPS[username][i]
+                # Ensure scheduled_time is a datetime object before comparison
+                scheduled_time = msg_data.get("scheduled_time")
+                if isinstance(scheduled_time, str):  # Convert if necessary
+                    try:
+                        scheduled_time = datetime.fromisoformat(scheduled_time)
+                    except ValueError:
+                        logger.error(
+                            f"Invalid scheduled_time format for {username}: {scheduled_time}")
+                        continue  # Skip this message
+
+                if msg_data.get("status") == "scheduled" and scheduled_time and scheduled_time <= current_time:
+                    # Store original index
+                    messages_to_send.append((username, i, msg_data))
+
+    if not messages_to_send:
+        logger.info("No scheduled follow-ups due at this time.")
+        # No need to save if nothing was processed
+        return 0
+
+    logger.info(
+        f"Attempting to send {len(messages_to_send)} scheduled follow-up(s).")
+
+    # Second pass: send messages (limited to prevent rate limiting)
+    # Limit to 10 messages per processing cycle
+    # Keep track of processed indices per user
+    processed_indices = defaultdict(set)
+
+    for username, index, msg_data in messages_to_send[:10]:
+        # Avoid double processing if somehow duplicated in messages_to_send
+        if index in processed_indices[username]:
+            continue
+
+        try:
+            # Get the followup module
+            load_followup_manager()  # Ensure it's loaded
+            if not followup_manager:
+                logger.error(
+                    "Follow-up manager module not loaded. Cannot send message.")
+                # Mark as failed if module is unavailable
+                SCHEDULED_FOLLOWUPS[username][index]["status"] = "failed"
+                SCHEDULED_FOLLOWUPS[username][index]["error"] = "Followup manager not loaded"
+                log_followup_failure(username, "Followup manager not loaded")
+                processed_indices[username].add(index)
+                continue
+
+            # Get the driver instance
+            driver = followup_manager.get_driver()
+            if not driver:
+                logger.error(
+                    "Instagram browser driver not available. Cannot send message.")
+                # Mark as failed if driver is unavailable
+                SCHEDULED_FOLLOWUPS[username][index]["status"] = "failed"
+                SCHEDULED_FOLLOWUPS[username][index]["error"] = "Instagram browser driver not available"
+                log_followup_failure(
+                    username, "Instagram browser driver not available")
+                processed_indices[username].add(index)
+                continue
+
+            # Send the message
+            logger.info(
+                f"Sending message to {username}: '{msg_data.get('message', '')[:50]}...'")
+            result = followup_manager.send_follow_up_message(
+                driver,
+                username,
+                # Use .get for safety
+                msg_data.get("message", "Default follow-up message")
+            )
+
+            # Update status based on result
+            if result.get("success", False):
+                logger.info(f"Successfully sent message to {username}.")
+                SCHEDULED_FOLLOWUPS[username][index]["status"] = "sent"
+                SCHEDULED_FOLLOWUPS[username][index]["sent_at"] = datetime.now(
+                    timezone.utc)  # Record send time
+                messages_sent += 1
+                # Log the successful follow-up (which already saves analytics)
+                log_followup_success(username, msg_data.get("message"))
+            else:
+                error_msg = result.get("error", "Unknown send error")
+                logger.warning(
+                    f"Failed to send message to {username}: {error_msg}")
+                SCHEDULED_FOLLOWUPS[username][index]["status"] = "failed"
+                SCHEDULED_FOLLOWUPS[username][index]["error"] = error_msg
+                # Log the failure (which already saves analytics)
+                log_followup_failure(username, error_msg)
+
+            processed_indices[username].add(index)  # Mark as processed
+
+        except Exception as e:
+            logger.error(
+                f"Exception processing scheduled message for {username}: {e}", exc_info=True)
+            # Ensure status is updated even if unexpected error occurs
+            try:
+                SCHEDULED_FOLLOWUPS[username][index]["status"] = "failed"
+                SCHEDULED_FOLLOWUPS[username][index][
+                    "error"] = f"Processing exception: {str(e)}"
+                log_followup_failure(
+                    username, f"Processing exception: {str(e)}")
+                processed_indices[username].add(index)
+            except IndexError:
+                logger.error(
+                    f"IndexError trying to mark message as failed for {username} at index {index}. List may have changed unexpectedly.")
+            except KeyError:
+                logger.error(
+                    f"KeyError trying to mark message as failed for {username}. User may have been removed unexpectedly.")
+
+    # Third pass: Filter out processed messages (sent or failed)
+    logger.info("Filtering processed messages from the schedule...")
+    new_scheduled_followups = {}
+    users_removed_count = 0
+    messages_removed_count = 0
+
+    for username, messages in SCHEDULED_FOLLOWUPS.items():
+        # Keep only messages that are still 'scheduled'
+        remaining_messages = [
+            msg for msg in messages if msg.get("status") == "scheduled"
+        ]
+        if remaining_messages:
+            new_scheduled_followups[username] = remaining_messages
+            messages_removed_count += len(messages) - len(remaining_messages)
+        else:
+            # User has no more scheduled messages
+            users_removed_count += 1
+            messages_removed_count += len(messages)
+
+    logger.info(
+        f"Removed {messages_removed_count} processed messages. {users_removed_count} users now have no scheduled follow-ups.")
+
+    # Update the global dictionary
+    SCHEDULED_FOLLOWUPS = new_scheduled_followups
+
+    # Save the updated (filtered) schedule
+    logger.info("Saving updated scheduled follow-ups...")
+    save_scheduled_followups()
+    logger.info("Scheduled follow-ups saved.")
+
+    return messages_sent
+
+# New function to toggle automatic follow-up mode
+
+
+def toggle_auto_followup(enabled, username=None):
+    """Enable or disable automatic follow-up globally or for a specific user"""
+    global AUTO_FOLLOWUP_ENABLED
+
+    if username is None:
+        # Global toggle
+        AUTO_FOLLOWUP_ENABLED = enabled
+        return True
+    else:
+        # TODO: Implement per-user toggle if needed
+        return True
+
+# New function to save scheduled follow-ups
+
+
+def save_scheduled_followups():
+    """Save scheduled follow-ups to a JSON file"""
+    # Convert datetime objects to strings for JSON serialization
+    serializable_followups = {}
+    for username, messages in SCHEDULED_FOLLOWUPS.items():
+        serializable_followups[username] = []
+        for msg in messages:
+            serializable_msg = msg.copy()
+            if isinstance(msg["scheduled_time"], datetime):
+                serializable_msg["scheduled_time"] = msg["scheduled_time"].isoformat(
+                )
+            if "created_at" in msg and isinstance(msg["created_at"], datetime):
+                serializable_msg["created_at"] = msg["created_at"].isoformat()
+            if "sent_at" in msg and isinstance(msg["sent_at"], datetime):
+                serializable_msg["sent_at"] = msg["sent_at"].isoformat()
+            serializable_followups[username].append(serializable_msg)
+
+    # Save to file
+    with open("scheduled_followups.json", "w") as f:
+        json.dump(serializable_followups, f, indent=2)
+
+# New function to load scheduled follow-ups
+
+
+def load_scheduled_followups():
+    """Load scheduled follow-ups from a JSON file"""
+    global SCHEDULED_FOLLOWUPS
+
+    try:
+        with open("scheduled_followups.json", "r") as f:
+            serialized_followups = json.load(f)
+
+        # Convert string timestamps back to datetime objects
+        SCHEDULED_FOLLOWUPS = {}
+        for username, messages in serialized_followups.items():
+            SCHEDULED_FOLLOWUPS[username] = []
+            for msg in messages:
+                if isinstance(msg["scheduled_time"], str):
+                    msg["scheduled_time"] = datetime.fromisoformat(
+                        msg["scheduled_time"])
+                if "created_at" in msg and isinstance(msg["created_at"], str):
+                    msg["created_at"] = datetime.fromisoformat(
+                        msg["created_at"])
+                if "sent_at" in msg and isinstance(msg["sent_at"], str):
+                    msg["sent_at"] = datetime.fromisoformat(msg["sent_at"])
+                SCHEDULED_FOLLOWUPS[username].append(msg)
+    except FileNotFoundError:
+        # Initialize empty if file doesn't exist
+        SCHEDULED_FOLLOWUPS = {}
+    except Exception as e:
+        st.error(f"Error loading scheduled follow-ups: {str(e)}")
+        SCHEDULED_FOLLOWUPS = {}
+
+# Function for logging follow-up success
+
+
+def log_followup_success(username, message):
+    """Log a successful follow-up message"""
+    # Update analytics data
+    analytics_data = load_analytics_data()
+
+    # If this username has a conversation, update it
+    if "conversations" in analytics_data and username in analytics_data["conversations"]:
+        conversation = analytics_data["conversations"][username]
+
+        if "messages" not in conversation:
+            conversation["messages"] = []
+
+        # Add the follow-up message to the conversation
+        conversation["messages"].append({
+            "role": "assistant",
+            "content": message,
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "type": "auto_followup"
+        })
+
+        # Update last_followup_date
+        conversation["last_followup_date"] = datetime.now(
+            timezone.utc).isoformat()
+
+        # Save updated analytics data
+        save_analytics_data(analytics_data)
+
+# Function for logging follow-up failure
+
+
+def log_followup_failure(username, error):
+    """Log a failed follow-up message"""
+    # Update analytics data to track the failure
+    analytics_data = load_analytics_data()
+
+    # If this username has a conversation, update it
+    if "conversations" in analytics_data and username in analytics_data["conversations"]:
+        conversation = analytics_data["conversations"][username]
+
+        if "followup_errors" not in conversation:
+            conversation["followup_errors"] = []
+
+        # Add the error to the conversation
+        conversation["followup_errors"].append({
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "error": error
+        })
+
+        # Save updated analytics data
+        save_analytics_data(analytics_data)
+
+
+# --- Follow-up Management in Sidebar ---
+st.sidebar.header("Follow-up & Analysis")  # Combine headers
+auto_followup = st.sidebar.checkbox(
+    "Enable Automatic Follow-ups", value=AUTO_FOLLOWUP_ENABLED)
+
+if auto_followup != AUTO_FOLLOWUP_ENABLED:
+    toggle_auto_followup(auto_followup)
+    st.sidebar.success(
+        f"Automatic follow-up {'enabled' if auto_followup else 'disabled'}")
+
+scheduled_count = sum(len(msgs)
+                      for msgs in SCHEDULED_FOLLOWUPS.values() if msgs)
+st.sidebar.text(f"Scheduled follow-ups: {scheduled_count}")
+
+if st.sidebar.button("Process Scheduled Messages"):
+    with st.spinner("Sending scheduled follow-ups..."):
+        sent_count = process_scheduled_followups()
+        st.sidebar.success(f"Sent {sent_count} follow-up messages")
+
+st.sidebar.markdown("---")
+
+# --- New Conversation Analysis Function --- START ---
+
+
+def run_conversation_analysis():
+    ANALYSIS_INACTIVITY_THRESHOLD = timedelta(hours=48)
+    now = datetime.now(timezone.utc)
+    conversations_to_analyze = []
+    analysis_results = {}
+
+    st.info("Identifying inactive conversations older than 48 hours...")
+
+    # Identify conversations needing analysis
+    for user_id, user_data in st.session_state.conversation_metrics.items():
+        # Check if already analyzed (e.g., by checking for 'conversation_summary')
+        if user_data.get("conversation_summary") is not None:
+            continue
+
+        last_active_timestamp = user_data.get("last_message_timestamp")
+        if last_active_timestamp:
+            try:
+                last_active_dt = parse_timestamp(last_active_timestamp)
+                if last_active_dt and (now - last_active_dt) > ANALYSIS_INACTIVITY_THRESHOLD:
+                    conversations_to_analyze.append(user_id)
+            except Exception as e:
+                logger.warning(
+                    f"Could not parse timestamp for analysis check on user {user_id}: {e}")
+
+    if not conversations_to_analyze:
+        st.success("No new inactive conversations found needing analysis.")
+        return 0
+
+    st.info(
+        f"Found {len(conversations_to_analyze)} conversations to analyze. Processing...")
+    progress_bar = st.progress(0)
+    analyzed_count = 0
+
+    # Configure Gemini once
+    try:
+        genai.configure(api_key="AIzaSyCGawrpt6EFWeaGDQ3rgf2yMS8-DMcXw0Y")
+        model = genai.GenerativeModel('gemini-1.5-flash')
+    except Exception as e:
+        st.error(f"Failed to configure Gemini API: {e}")
+        return 0
+
+    # Analyze each conversation
+    for i, user_id in enumerate(conversations_to_analyze):
+        user_data = st.session_state.conversation_metrics[user_id]
+        try:
+            # Prepare data for prompt
+            history = user_data.get("conversation_history", [])
+            client_analysis = user_data.get("client_analysis", {})
+            profile_bio = client_analysis.get("profile_bio", {})
+            key_metrics = {
+                "user_messages": user_data.get("user_messages", 0),
+                "ai_messages": user_data.get("ai_messages", 0),
+                "coaching_inquiries": user_data.get("coaching_inquiry_count", 0),
+                "signed_up": user_data.get("signup_recorded", False),
+                "offer_mentioned": user_data.get("offer_mentioned_in_conv", False)
+            }
+
+            history_text = "\n".join(
+                [f"{msg.get('type','unknown').capitalize()}: {msg.get('text','')}" for msg in history])
+            profile_text = json.dumps(profile_bio, indent=2)
+            metrics_text = json.dumps(key_metrics, indent=2)
+
+            prompt = f"""
+You are a conversation analyst reviewing interactions between a fitness coach (AI) and a potential client (User) on Instagram.
+Analyze the provided conversation history, user profile, and key metrics.
+
+**Conversation History:**
+{history_text}
+
+**User Profile Bio:**
+{profile_text}
+
+**Key Metrics:**
+{metrics_text}
+
+**Your Task:**
+Provide a concise analysis of this conversation in two parts, separated by '***':
+1.  **Rating:** Assign ONE category that best describes the conversation's outcome or potential: [Hot Lead, Warm Lead, Nurture, Signup, General Chat, Stalled, Inquiry Only].
+2.  **Summary:** Briefly explain your rating (1-2 sentences).
+
+**Example Output:**
+Warm Lead***User showed interest in fitness goals and asked about programs, but didn't commit. Good potential for follow-up.
+
+**Analysis:**
+"""
+
+            # Call Gemini
+            response = model.generate_content(prompt)
+            analysis_text = response.text.strip()
+
+            # Parse rating and summary
+            rating = "Analysis Error"
+            summary = "Could not parse AI response."
+            if '***' in analysis_text:
+                parts = analysis_text.split('***', 1)
+                rating = parts[0].strip()
+                summary = parts[1].strip()
+            elif analysis_text:  # Use whole response as summary if split fails
+                summary = analysis_text
+
+            # Store results
+            st.session_state.conversation_metrics[user_id]['conversation_rating'] = rating
+            st.session_state.conversation_metrics[user_id]['conversation_summary'] = summary
+            analyzed_count += 1
+
+        except Exception as e:
+            logger.error(
+                f"Error analyzing conversation for user {user_id}: {e}")
+            st.session_state.conversation_metrics[user_id]['conversation_rating'] = "Analysis Failed"
+            st.session_state.conversation_metrics[user_id][
+                'conversation_summary'] = f"Error: {e}"
+
+        # Update progress
+        progress_bar.progress((i + 1) / len(conversations_to_analyze))
+
+    # Save updated analytics
+    if analyzed_count > 0:
+        st.info("Saving analysis results...")
+        try:
+            analytics.export_analytics()
+            st.success(
+                f"Successfully analyzed and saved results for {analyzed_count} conversations.")
+        except Exception as e:
+            st.error(f"Failed to save analytics after analysis: {e}")
+    else:
+        st.warning("No conversations were successfully analyzed.")
+
+    return analyzed_count
+# --- New Conversation Analysis Function --- END ---
+
+
+# Add Analysis Button to Sidebar
+st.sidebar.markdown("---")
+st.sidebar.header("Conversation Analysis")
+if st.sidebar.button("Analyze Inactive Conversations (48h+)"):
+    with st.spinner("Running conversation analysis..."):
+        run_conversation_analysis()
+
+
+# --- Testing Tools in Sidebar ---
+# ... (add_test_user button remains) ...
+
+# --- New Modal Display Function ---
+def display_user_modal_content(user_id):
+    """Displays user profile bio and conversation history inside a modal."""
+    if user_id not in st.session_state.conversation_metrics:
+        st.error("User data not found.")
+        return
+
+    user_data = st.session_state.conversation_metrics[user_id]
+    username = user_data.get("ig_username") or user_id
+
+    st.subheader(f"Details for: {username}")
+
+    # --- Display Profile Bio (Simplified) ---
+    st.markdown("**Profile Bio Summary**")
+    client_analysis = user_data.get("client_analysis", {})
+    profile_bio = client_analysis.get("profile_bio", {})
+    profile_text = "No profile bio information available."
+    if profile_bio:
+        parts = []
+        interests = profile_bio.get(
+            "INTERESTS") or profile_bio.get("interests") or []
+        lifestyle = profile_bio.get(
+            "LIFESTYLE") or profile_bio.get("lifestyle")
+        personality = profile_bio.get("PERSONALITY TRAITS") or profile_bio.get(
+            "personality_traits") or []
+        if interests:
+            parts.append(f"_Interests:_ {', '.join(interests)}")
+        if lifestyle and lifestyle not in ["Unknown", ""]:
+            parts.append(f"_Lifestyle:_ {lifestyle}")
+        if personality:
+            parts.append(f"_Personality:_ {', '.join(personality)}")
+        if parts:
+            profile_text = "\n\n".join(parts)
+        else:
+            profile_text = "Profile bio exists, but details are not populated."
+
+    st.markdown(profile_text)
+    st.divider()
+
+    # --- Display Conversation History (Simplified) ---
+    st.markdown("**Recent Conversation History**")
+    history = user_data.get("conversation_history", [])
+    if not history:
+        st.info("No conversation history recorded.")
+    else:
+        # Limit history length for modal
+        for msg in history[-10:]:  # Show last 10 messages
+            is_ai = msg.get("type") == "ai"
+            sender = "AI" if is_ai else "User"
+            timestamp_str = msg.get("timestamp", "")
+            timestamp_display = ""
+            if timestamp_str:
+                try:
+                    dt = parse_timestamp(timestamp_str)
+                    timestamp_display = f" ({dt.strftime('%Y-%m-%d %H:%M')})" if dt else ""
+                except:
+                    pass  # <--- Ensure this 'pass' is indented correctly under the 'except:'
+
+            st.markdown(
+                f"**{sender}{timestamp_display}:** {msg.get('text', '')}")
+            st.markdown("---")  # Small separator
+
+# --- End Modal Display Function ---

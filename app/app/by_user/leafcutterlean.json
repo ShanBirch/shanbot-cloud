@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T11:28:39.813353",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T11:28:22.529704",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a person, presumably leafcutterlean, in a gym setting. They are positioned in front of a squat rack with a barbell loaded with weights across their upper back. They are wearing a weightlifting belt, knee sleeves, shorts, and socks with sneakers. The floor has \"HAMMER STRENGTH\" written on it. The background shows other gym equipment and a mirrored wall.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man, leafcutterlean, at the gym, lifting dumbbells while lying on a bench.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person with braided hair, wearing a sleeveless shirt, light-colored sweatpants, and boots. They are sitting on a stool in what appears to be a store, possibly Target, with a red shopping cart visible in the background. The post caption mentions \"workout/hair braid shiz.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a shirtless man (leafcutterlean) hanging from gymnastic rings. He appears to be in good physical condition. The caption mentions bodyweight workouts, balance, and veganism.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person doing a handstand variation (likely a crow pose or similar) in what appears to be a home gym. There are weights in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by leafcutterlean featuring a workout split, a selfie of the user, and hashtags related to vegan bodybuilding, fitness, and crop tops. The post encourages followers to screenshot the workout and share their progress.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Fitness/Workout Routines: You could ask about his workout routine, what exercises he focuses on, or his fitness goals.",
+          "2.  Gym Recommendations: You could ask about the gym he goes to, if he likes it, or if he has any other gym recommendations.",
+          "1.  Hair Braids: Ask about their hair braiding process, favorite styles, or where they get their hair braided.",
+          "2.  Workout Routines: Inquire about their workout routine, favorite exercises, or fitness goals.",
+          "1. Gymnastic rings training: Ask about his favorite exercises on the rings, his training routine, or tips for beginners."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Bodybuilding",
+            "Weightlifting (Squats, Dumbbell Training)",
+            "Bodyweight Training (Gymnastic Rings, Handstands)",
+            "Fitness & Workout Routines",
+            "Hair Braids"
+          ],
+          "LIFESTYLE": "Appears to be a fitness enthusiast and vegan bodybuilder who incorporates both traditional weightlifting and bodyweight exercises into their routine. They also seem interested in personal style, specifically hair braiding. They frequent the gym and occasionally shop at stores like Target.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite exercise on the gymnastic rings and why?",
+            "Can you share your current workout split and what you're focusing on?",
+            "I noticed you get your hair braided. What are some of your favorite styles or braiding techniques?",
+            "What are some of your go-to vegan bodybuilding meals or snacks?",
+            "What are your current fitness goals, and how are you working towards them?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated (to fitness and veganism)",
+            "Disciplined (consistent gym attendance and training)",
+            "Confident (comfortable showing off physique and sharing workout routines)",
+            "Expressive (through fitness, style, and sharing content)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Fitness/Workout Routines: You could ask about his workout routine, what exercises he focuses on, or his fitness goals.",
+        "2.  Gym Recommendations: You could ask about the gym he goes to, if he likes it, or if he has any other gym recommendations.",
+        "1.  Hair Braids: Ask about their hair braiding process, favorite styles, or where they get their hair braided.",
+        "2.  Workout Routines: Inquire about their workout routine, favorite exercises, or fitness goals.",
+        "1. Gymnastic rings training: Ask about his favorite exercises on the rings, his training routine, or tips for beginners."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

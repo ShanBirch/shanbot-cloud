@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T22:46:20.444062",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T22:45:59.747509",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a woman and a young boy standing indoors. The woman is wearing a white button-down shirt and khaki pants with white sneakers. She has her arm around the boy, who is also wearing a white button-down shirt, khaki shorts, and white sneakers. The background includes a hallway with wooden floors, stairs, and framed pictures on the wall. There's also a sign that says \"Dining Room\" and a wooden sign with \"HOLGA brewhouse\" on it.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows jennivanm with three other people, presumably family, at an event. The caption mentions the Philippines and dancing with her mum.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two women standing on a beach in Siargao, Philippines. The post is a list of recommendations for things to do and places to stay in Siargao.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person standing on what appears to be a platform extending into water, with a sunset in the background. The post caption lists recommendations for things to do in Manila.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a view from an airplane window during takeoff or landing. We can see the wing of the plane, the runway, and buildings in the distance under a sky with a sunset or sunrise.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person sitting at a table in a restaurant (Nomad Melbourne) with a menu of food items in the description. The person has tattoos on their arm and is wearing a smartwatch.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Philippines: \"I saw your caption mentioned the Philippines. Have you been back recently, or is it a place you often visit?\"",
+          "2.  Dancing: \"Your caption mentioned dancing with your mum. What kind of music were you dancing to?\"",
+          "1. Siargao travel tips: Ask about specific recommendations from her list, like the best time to visit or which smoothie bowl place she preferred.",
+          "2. Surfing: Since she recommends surfing at Secret Beach, inquire about her experience surfing in Siargao or her general interest in surfing.",
+          "1.  **Travel in Manila/Philippines:** Ask about their favorite places to visit in Manila or other parts of the Philippines, based on their recommendations in the caption."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! You and your son looked so stylish! ✨",
+        "profile_bio": {
+          "PERSON NAME": "Jenni Van M.",
+          "INTERESTS": [
+            "Travel (Philippines, Melbourne)",
+            "Family",
+            "Food/Dining",
+            "Travel Tips/Recommendations",
+            "Surfing/Beach Activities"
+          ],
+          "LIFESTYLE": "Likely a travel enthusiast who enjoys sharing her experiences and recommendations. Appears to be family-oriented, possibly a parent. Enjoys dining out and exploring new places. Potentially lives in or frequently visits Melbourne, Australia, and has strong ties to the Philippines.",
+          "CONVERSATION STARTERS": [
+            "I saw you recommended surfing at Secret Beach in Siargao. Have you surfed there yourself, and what was your experience like?",
+            "Your post about Manila was really helpful! What would you say is your absolute favorite place to visit in Manila and why?",
+            "You mentioned dancing with your mum in the Philippines. What kind of music were you dancing to?",
+            "I noticed you were at Nomad Melbourne. What was your favorite dish on the menu?",
+            "I'm planning a trip to Siargao. What time of year do you think is best to visit?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Family-oriented",
+            "Helpful/Informative",
+            "Enthusiastic"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Philippines: \"I saw your caption mentioned the Philippines. Have you been back recently, or is it a place you often visit?\"",
+        "2.  Dancing: \"Your caption mentioned dancing with your mum. What kind of music were you dancing to?\"",
+        "1. Siargao travel tips: Ask about specific recommendations from her list, like the best time to visit or which smoothie bowl place she preferred.",
+        "2. Surfing: Since she recommends surfing at Secret Beach, inquire about her experience surfing in Siargao or her general interest in surfing.",
+        "1.  **Travel in Manila/Philippines:** Ask about their favorite places to visit in Manila or other parts of the Philippines, based on their recommendations in the caption."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

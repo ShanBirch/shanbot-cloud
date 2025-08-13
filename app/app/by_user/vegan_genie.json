@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T20:19:42.877501",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T20:19:24.005110",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image showcases a kelp noodle salad with grilled, skewered tofu. The salad contains crunchy noodles mixed with cabbage, carrots, arugula, spring onions, and chopped peanuts, dressed with a sweet and spicy Thai peanut dressing. Two lime wedges are placed on the plate next to the salad. The tofu is drizzled with a sauce and presented on a skewer. The dish is plated on a white plate, and chopsticks are placed on top of the salad.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two glasses filled with a layered vegan parfait. The ingredients include chia seed pudding, raspberries, mango, granola, and a dark berry jelly. The post is tagged with #glutenfree and #plantsheal, indicating a focus on healthy and plant-based eating.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plated vegan dish consisting of rice and pea protein kabobs on cinnamon sticks, served with asparagus and a decorative sauce.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of vegan spaghetti. The spaghetti is made from light, thin, gluten-free brown rice. It's served with roasted tomatoes, steamed asparagus, and a green sauce made from Trader Joe's Vegan Kale, Cashew & Basil Pesto.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a vegan cashew-coconut cheesecake topped with berry sauce and fresh raspberries, garnished with mint leaves. There is also a strawberry on the plate, and white flowers in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of tofu scramble with colorful vegetables and edible flowers, alongside a glass of a creamy-colored beverage. The post is by vegan_genie, suggesting a focus on vegan food and healthy lifestyle.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan/Gluten-Free Cooking: Ask about other favorite vegan or gluten-free recipes or ingredients.",
+          "2. Healthy Lifestyle: Inquire about other healthy habits or activities they enjoy, given the hashtags #plantsheal and #happyhealthyhumble.",
+          "1. Vegan cooking and recipe experimentation: The post mentions experimenting with the product. You could ask about other vegan recipes they enjoy or their favorite ingredients to use in vegan cooking.",
+          "2. Plant-based lifestyle: The hashtags #plantbased and #donoharm suggest an interest in a plant-based lifestyle. You could ask about their journey to veganism or their motivations for choosing a plant-based diet.",
+          "1. Vegan cooking and recipes: Ask about other vegan recipes they enjoy or if they have any tips for making vegan pesto."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The tofu looked perfectly grilled! 😋",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Cooking",
+            "Gluten-Free Recipes",
+            "Plant-Based Lifestyle",
+            "Healthy Eating",
+            "Recipe Experimentation"
+          ],
+          "LIFESTYLE": "Focuses on creating and sharing visually appealing and healthy vegan and gluten-free meals. Likely enjoys cooking and experimenting with plant-based ingredients. Promotes a lifestyle centered around health and ethical eating.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite vegan or gluten-free recipes?",
+            "What are your motivations for choosing a plant-based diet?",
+            "Do you have any tips for making vegan pesto?",
+            "What are some other healthy habits or activities you enjoy?",
+            "What are your favorite ingredients to use in vegan cooking?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative (with food presentation and recipe development)",
+            "Health-conscious",
+            "Compassionate (implied by #donoharm)",
+            "Positive (implied by #happyhealthyhumble)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan/Gluten-Free Cooking: Ask about other favorite vegan or gluten-free recipes or ingredients.",
+        "2. Healthy Lifestyle: Inquire about other healthy habits or activities they enjoy, given the hashtags #plantsheal and #happyhealthyhumble.",
+        "1. Vegan cooking and recipe experimentation: The post mentions experimenting with the product. You could ask about other vegan recipes they enjoy or their favorite ingredients to use in vegan cooking.",
+        "2. Plant-based lifestyle: The hashtags #plantbased and #donoharm suggest an interest in a plant-based lifestyle. You could ask about their journey to veganism or their motivations for choosing a plant-based diet.",
+        "1. Vegan cooking and recipes: Ask about other vegan recipes they enjoy or if they have any tips for making vegan pesto."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

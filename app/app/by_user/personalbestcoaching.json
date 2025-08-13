@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T21:46:21.924096",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T21:46:02.046394",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by personalbestcoaching features a person using a leg press machine in a gym setting. The image includes the company's logo and the words \"PERSONAL TRAINER\" overlaid on the scene. The leg press machine is loaded with colorful weights.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from Personal Best Coaching promoting their services. It features images of coaches working with clients in a gym setting, along with text highlighting their services like personal training, group PT, sports massage, and online coaching. The post mentions their 4th year in business and their coaches working in gyms across the northwest.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man in a gym setting, possibly receiving or demonstrating a massage technique. The post is from a coaching business that offers personal training, sports massage, and other fitness-related services.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a man (Steve) performing a clean and jerk with a barbell. The post highlights his progress in weightlifting, starting from 40kg to recently achieving a personal best of 82.5kg. It also mentions his journey from injury rehabilitation to learning new weightlifting skills.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screen capture of an Instagram post by personalbestcoaching. The post features a video of a man speaking about the importance of reflection and tracking progress in training, specifically mentioning weightlifting. The caption reinforces this message, highlighting the value of mindset, mentality, and logging training data.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man in athletic wear, leaning against a piece of gym equipment and looking at his phone. He is wearing a fitness tracker watch. The post is about the value of having a coach to eliminate uncertainty in training.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Sports Massage:** Since the post mentions sports massage, you could ask about the types of sports massage they offer or the benefits they've seen in their clients.",
+          "2. **CrossFit/Bodybuilding:** The post mentions helping clients improve performance in CrossFit and compete in bodybuilding shows. You could ask about their experience in these areas, specific training programs they offer, or success stories of their clients.",
+          "1. Sports massage: \"I noticed your post about sports massage. What are some of the common issues you address with that technique?\"",
+          "2. CrossFit/Bodybuilding: \"Your post mentions helping clients improve performance in CrossFit and bodybuilding. What are some of the key differences in training approaches for those two disciplines?\"",
+          "1.  **Weightlifting Progress/Technique:** Ask about specific challenges he faced while increasing his weight and what techniques he focused on to improve his clean and jerk."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Your latest post with the leg press looked intense! 💪",
+        "profile_bio": {
+          "PROFILE": {
+            "PERSON NAME": "Steve (mentioned in one post)",
+            "INTERESTS": [
+              "Weightlifting",
+              "Personal Training",
+              "Sports Massage",
+              "Fitness Tracking & Data Analysis",
+              "CrossFit/Bodybuilding"
+            ],
+            "LIFESTYLE": "Likely a fitness professional (personal trainer/coach) actively involved in weightlifting and promoting health and fitness services. Appears to be based in the Northwest region.",
+            "CONVERSATION STARTERS": [
+              "I noticed your post about sports massage. What are some of the common issues you address with that technique?",
+              "Your post mentions helping clients improve performance in CrossFit and bodybuilding. What are some of the key differences in training approaches for those two disciplines?",
+              "I saw your post about Steve's clean and jerk progress. What specific challenges did he face while increasing his weight, and what techniques did you focus on to improve his form?",
+              "Your post highlights the importance of tracking training data. What are some of the key metrics you encourage your clients to monitor, and how do you use that data to adjust their training plans?",
+              "Personal Best Coaching is celebrating its 4th year! What are some of the biggest lessons you've learned in the fitness industry over the past four years?"
+            ],
+            "PERSONALITY TRAITS": [
+              "Motivating",
+              "Data-driven",
+              "Results-oriented",
+              "Supportive"
+            ]
+          }
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Sports Massage:** Since the post mentions sports massage, you could ask about the types of sports massage they offer or the benefits they've seen in their clients.",
+        "2. **CrossFit/Bodybuilding:** The post mentions helping clients improve performance in CrossFit and compete in bodybuilding shows. You could ask about their experience in these areas, specific training programs they offer, or success stories of their clients.",
+        "1. Sports massage: \"I noticed your post about sports massage. What are some of the common issues you address with that technique?\"",
+        "2. CrossFit/Bodybuilding: \"Your post mentions helping clients improve performance in CrossFit and bodybuilding. What are some of the key differences in training approaches for those two disciplines?\"",
+        "1.  **Weightlifting Progress/Technique:** Ask about specific challenges he faced while increasing his weight and what techniques he focused on to improve his clean and jerk."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

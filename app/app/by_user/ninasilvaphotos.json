@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T17:51:31.999788",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T17:51:15.420183",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a black and white photograph. It appears to be a self-portrait using a mirror. The photographer's face is out of focus in the foreground, and a small mirror is held in their hand. The reflection in the mirror shows a close-up of a torso.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black and white photograph featuring a person lying on a staircase, viewed through a reflective surface. The composition is artistic and focuses on shadows and light.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A black and white photograph of a woman wearing a hat, posed in a thoughtful, artistic way. The post is tagged with photography-related hashtags, indicating the photographer's style and interests.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A black and white portrait of a woman in a jacket. The lighting is dramatic, and the overall aesthetic is artistic and moody.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A black and white artistic photograph featuring a woman, possibly in lingerie or stockings. The focus is on the textures and light, creating a sensual and artistic image.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "A woman in a long black dress stands in the ocean waves. The photo has a slightly desaturated, artistic feel.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Photography: Discussing the photographer's style, the use of black and white, or the specific camera/lens used (Canon, 50mm mentioned in hashtags).",
+          "2. Travel/Location: The post is tagged with \"Porto, Portugal.\" Asking about the location and if they have any other recommendations for places to visit in Porto.",
+          "1. Photography: Discussing black and white photography techniques, favorite photographers, or the equipment used (e.g., the #50mmphotography hashtag).",
+          "2. Porto, Portugal: Since the location is listed as Porto, Portugal, asking about favorite spots in the city, or travel recommendations could be a good conversation starter.",
+          "1.  **Photography:** The post uses several photography-related hashtags, such as #bnwphotography, #blackandwhitephotography, #canonportugal, and #50mm. You could ask about their preferred photography equipment, their process for creating black and white images, or their favorite photographers."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Nina Silva (Based on username 'ninasilvaphotos')",
+          "INTERESTS": [
+            "Black and White Photography",
+            "Portrait Photography",
+            "Artistic Photography",
+            "Travel (Specifically Porto, Portugal)",
+            "Canon Photography"
+          ],
+          "LIFESTYLE": "Likely an artistic individual with a passion for photography, potentially a professional or aspiring photographer. Enjoys travel and exploring locations like Porto, Portugal. Appears to have a thoughtful and introspective approach to their art.",
+          "CONVERSATION STARTERS": [
+            "I love your black and white photography! What draws you to that medium?",
+            "I noticed you've photographed in Porto, Portugal. Do you have any recommendations for must-see spots?",
+            "Your portraits are so evocative. What kind of stories are you trying to tell through your images?",
+            "I see you use a Canon camera and a 50mm lens. What do you like about that setup?",
+            "Who are some of your favorite photographers that inspire your work?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Artistic",
+            "Introspective",
+            "Creative",
+            "Thoughtful"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Photography: Discussing the photographer's style, the use of black and white, or the specific camera/lens used (Canon, 50mm mentioned in hashtags).",
+        "2. Travel/Location: The post is tagged with \"Porto, Portugal.\" Asking about the location and if they have any other recommendations for places to visit in Porto.",
+        "1. Photography: Discussing black and white photography techniques, favorite photographers, or the equipment used (e.g., the #50mmphotography hashtag).",
+        "2. Porto, Portugal: Since the location is listed as Porto, Portugal, asking about favorite spots in the city, or travel recommendations could be a good conversation starter.",
+        "1.  **Photography:** The post uses several photography-related hashtags, such as #bnwphotography, #blackandwhitephotography, #canonportugal, and #50mm. You could ask about their preferred photography equipment, their process for creating black and white images, or their favorite photographers."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

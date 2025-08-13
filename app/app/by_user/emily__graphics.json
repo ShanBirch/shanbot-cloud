@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T09:15:13.354043",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T09:14:53.067805",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post featuring a custom mascot logo designed by emily__graphics. The logo depicts a female character with purple hair in pigtails adorned with flowers. She's wearing a yellow jacket and a blue top, and she's holding a golden weapon. The word \"TOXIC\" is displayed prominently below the character in a stylized font. The background is a yellow gradient with subtle patterns.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by emily__graphics showcasing a custom FPV (First Person View) animated intro created for a client. The intro features a dynamic visual with a red light streak and the client's logo (\"AUMSTARCAM\") in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by emily__graphics showcasing a custom mascot logo design for a client named @avasianfpv. The logo features a stylized cartoon portrait of a person wearing what appears to be FPV goggles, set against a shield-like background. The client's name, AUASIANFPU, is prominently displayed.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by emily__graphics, a graphic designer, showcasing a custom logo design for a client named @okinawan_fpv. The logo features a stylized cartoon portrait of a person wearing FPV goggles, with the text \"OKINAWAN FPV\" incorporated into the design. The hashtags suggest the logo is intended for a Twitch streamer involved in FPV (First Person View) freestyle flying.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by emily__graphics, a graphic designer. The post features an animated intro they created for a Fiverr client. The animation depicts a winter scene with snow-covered trees, a full moon, and a small village in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a graphic design intro created by emily__graphics for the user @atomic_girl2076. It features a stylized cartoon of a girl wearing headphones and cat ears, with the text \"ATOMIC GIRL\" below. The background has a retro, neon, 80s-inspired aesthetic.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  FPV Drones/Flying: Given the focus on FPV drones and related hashtags, a conversation could be started about favorite drone models, flying techniques, or experiences with FPV flying.",
+          "2.  Graphic Design/Animation: Since the post highlights a custom animation, one could inquire about their design process, software they use, or other types of graphic design work they do.",
+          "1.  **Graphic Design/Twitch Branding:** You could ask about their design process for creating Twitch logos or what trends they're seeing in Twitch branding.",
+          "2.  **FPV/Gaming:** Since the logo is for someone with \"FPV\" in their name and the hashtags include \"esportslogo\" and \"gaminglogo,\" you could ask about their interest in FPV drones or gaming in general.",
+          "1. **FPV Drone Flying:** Given the \"FPV\" in the client's name and the \"fpvfreestyle\" hashtag, asking about FPV drone flying, the client's experience with it, or any interesting FPV content they've created could be a good conversation starter."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk of your profile and saw your latest post! The character design was really cool, especially the color scheme you used! 🌼",
+        "profile_bio": {
+          "PERSON NAME": "Emily (Based on username 'emily__graphics')",
+          "INTERESTS": [
+            "Graphic Design",
+            "Animation",
+            "FPV Drones/Flying",
+            "Twitch/Gaming Branding",
+            "Custom Logo Design"
+          ],
+          "LIFESTYLE": "Emily is a graphic designer and animator who creates custom logos and animated intros for clients, particularly those involved in FPV drone flying and gaming/streaming. She likely works freelance or runs her own graphic design business.",
+          "CONVERSATION STARTERS": [
+            "What software do you primarily use for your graphic design and animation work?",
+            "I noticed you've done a lot of work with FPV drone clients. What are some of the unique challenges and opportunities in designing for that niche?",
+            "What are some current trends you're seeing in Twitch branding and logo design?",
+            "Your 'Toxic' logo is really eye-catching! Can you tell me a bit about the inspiration behind that design?",
+            "Do you have any personal FPV flying experience, or are you primarily focused on the design aspect for that community?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Professional",
+            "Client-focused",
+            "Adaptable (able to work with different styles and themes)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  FPV Drones/Flying: Given the focus on FPV drones and related hashtags, a conversation could be started about favorite drone models, flying techniques, or experiences with FPV flying.",
+        "2.  Graphic Design/Animation: Since the post highlights a custom animation, one could inquire about their design process, software they use, or other types of graphic design work they do.",
+        "1.  **Graphic Design/Twitch Branding:** You could ask about their design process for creating Twitch logos or what trends they're seeing in Twitch branding.",
+        "2.  **FPV/Gaming:** Since the logo is for someone with \"FPV\" in their name and the hashtags include \"esportslogo\" and \"gaminglogo,\" you could ask about their interest in FPV drones or gaming in general.",
+        "1. **FPV Drone Flying:** Given the \"FPV\" in the client's name and the \"fpvfreestyle\" hashtag, asking about FPV drone flying, the client's experience with it, or any interesting FPV content they've created could be a good conversation starter."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

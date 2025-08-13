@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T01:20:31.055215",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T01:20:13.239175",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a man, presumably ayjaymcgrath, holding two black weights close to his chest. He is wearing a blue shirt and glasses, and has a slight smile on his face. Behind him is a plain white wall with some Christmas garland hanging around a doorway. A Christmas stocking is also visible.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie taken by a man in a gym. He is holding a dumbbell and appears to be working out. There is gym equipment in the background, and a sign reminding people to clean the equipment after use. The caption mentions filming workouts and asks if the gym is liked.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a video showing the progression of someone's walk before, after, and the day after leg day at the gym.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie of a man flexing his bicep in front of a mirror. He is wearing a black t-shirt and glasses, and has a fitness tracker on his wrist. The caption includes the hashtag \"#nofilter\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (ayjaymcgrath) taking a mirror selfie in a gym. There are squat racks and weights visible in the background. The caption indicates he's joking about actually going to the gym.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person (ayjaymcgrath) standing next to a Christmas tree and an exercise bike. The person is wearing a hoodie and making a hand gesture. The post mentions going on the bike to watch Deadpool.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. **Weight training/fitness:** The post is about weight training, specifically curls. You could ask about his workout routine, his favorite exercises, or his fitness goals.",
+          "2. **Filming in the gym:** He mentions filming workouts and asks about permission to film in an independently-run gym. You could ask about his plans for filming or his thoughts on gym etiquette regarding filming.",
+          "1. Leg day workout routines and favorite exercises.",
+          "2. Recovery strategies after intense workouts (e.g., stretching, foam rolling, nutrition).",
+          "1. Fitness/Working out: \"I saw your post and was wondering what your current workout routine looks like?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The weights looked pretty heavy! 💪",
+        "profile_bio": {
+          "PERSON NAME": "Ayjay McGrath (Presumed)",
+          "INTERESTS": [
+            "Weight Training/Fitness",
+            "Gym Workouts",
+            "Filming/Content Creation (related to fitness)",
+            "Christmas (seasonal interest)",
+            "Movies (e.g., Deadpool)"
+          ],
+          "LIFESTYLE": "Appears to be a fitness enthusiast who regularly goes to the gym. He enjoys weight training and documents his workouts, potentially for content creation. He also seems to enjoy movies and incorporates them into his fitness routine (e.g., watching while using an exercise bike). He also seems to have a sense of humor about his fitness journey.",
+          "CONVERSATION STARTERS": [
+            "What does your current workout routine look like?",
+            "What are your thoughts on gym etiquette regarding filming workouts?",
+            "What are your favorite leg day exercises and recovery strategies?",
+            "What kind of fitness tracker do you use, and what features do you find most helpful?",
+            "What are your favorite movies to watch while working out?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated (to fitness)",
+            "Humorous/Self-deprecating",
+            "Engaging (asks for feedback on gym filming)",
+            "Motivated (documents workout progress)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. **Weight training/fitness:** The post is about weight training, specifically curls. You could ask about his workout routine, his favorite exercises, or his fitness goals.",
+        "2. **Filming in the gym:** He mentions filming workouts and asks about permission to film in an independently-run gym. You could ask about his plans for filming or his thoughts on gym etiquette regarding filming.",
+        "1. Leg day workout routines and favorite exercises.",
+        "2. Recovery strategies after intense workouts (e.g., stretching, foam rolling, nutrition).",
+        "1. Fitness/Working out: \"I saw your post and was wondering what your current workout routine looks like?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

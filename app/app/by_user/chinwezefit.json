@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T07:27:05.750353",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T07:26:43.544321",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a shirtless selfie of a muscular man in front of a mirror. He is holding his phone up to take the picture, and his abs and chest are clearly visible. The background is a simple bathroom setting with a red pipe. The post caption mentions he has been MIA for a few months but life has been good. He highlights starting a new job, going to festivals, and staying in shape. He also lists his fitness goals for 2022.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a shirtless man, presumably chinwezefit, flexing his muscles. He mentions weighing 88kg and aiming for 90kg in the post, indicating a focus on bodybuilding.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (chinwezefit) in a gym, performing lateral raises with dumbbells. The post caption discusses his preference for the sitting option during this exercise and mentions his weight gain progress.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a shirtless selfie of a muscular man in a gym bathroom. He is flexing and appears to be tracking his fitness progress.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man flexing his arm muscles. The caption mentions fitness, gym, workout, bodybuilding, and personal training. It also references UFC and Euros predictions.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man, chinwezefit, in a gym setting, performing a rear delt exercise. He is wearing a tank top and the post asks for rear delt exercise recommendations.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  His workout plan: He mentions showing his new workout plan. Asking about specifics of the plan or his favorite exercises could initiate a conversation.",
+          "2.  His bulking strategy: He talks about bulking slowly. Asking about his diet or specific strategies he uses to bulk without bloating could be a good conversation starter.",
+          "1.  **Lateral Raise Technique:** Ask about his experience with different lateral raise variations (standing vs. sitting) and the specific muscles he targets.",
+          "2.  **Bulking Strategy:** Inquire about his approach to bulking, specifically the \"slow and steady\" method he mentions, and ask for tips on diet and training for sustainable muscle gain.",
+          "1.  **Intuitive Eating:** He mentions using an intuitive eating approach. You could ask him more about his experience with this method and how he makes it work for his fitness goals."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Chinweze (Assuming 'chinwezefit' is a variation of his name)",
+          "INTERESTS": [
+            "Fitness",
+            "Bodybuilding",
+            "Gym Workouts",
+            "Personal Training",
+            "Sports (UFC, Euros)"
+          ],
+          "LIFESTYLE": "Appears to be a fitness enthusiast and bodybuilder who prioritizes maintaining a muscular physique. He works a new job (unspecified), enjoys attending festivals, and dedicates time to gym workouts. He is actively tracking his fitness progress and setting goals.",
+          "CONVERSATION STARTERS": [
+            "What are the key differences you've noticed between standing and sitting lateral raises, and which muscles do you feel are targeted more effectively with each?",
+            "You mentioned bulking slowly. Can you share some tips on your diet and training approach to achieve sustainable muscle gain without excessive fat gain or bloating?",
+            "I'm curious about your experience with intuitive eating. How do you balance listening to your body's cues with achieving your specific fitness goals?",
+            "What are some of your favorite rear delt exercises, and what makes them effective for you?",
+            "You mentioned your 2022 fitness goals. How are you tracking your progress, and what adjustments have you made along the way?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated",
+            "Goal-oriented",
+            "Self-motivated",
+            "Open to sharing and seeking advice (regarding rear delt exercises)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  His workout plan: He mentions showing his new workout plan. Asking about specifics of the plan or his favorite exercises could initiate a conversation.",
+        "2.  His bulking strategy: He talks about bulking slowly. Asking about his diet or specific strategies he uses to bulk without bloating could be a good conversation starter.",
+        "1.  **Lateral Raise Technique:** Ask about his experience with different lateral raise variations (standing vs. sitting) and the specific muscles he targets.",
+        "2.  **Bulking Strategy:** Inquire about his approach to bulking, specifically the \"slow and steady\" method he mentions, and ask for tips on diet and training for sustainable muscle gain.",
+        "1.  **Intuitive Eating:** He mentions using an intuitive eating approach. You could ask him more about his experience with this method and how he makes it work for his fitness goals."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

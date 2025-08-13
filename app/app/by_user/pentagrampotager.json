@@ -1,0 +1,55 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 2,
+      "user_messages": 1,
+      "ai_messages": 1,
+      "ai_questions": 1,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": true,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-11T08:16:49.578130",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": "user",
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "Low Responder",
+      "conversation_history": [
+        {
+          "timestamp": "2025-04-10T22:16:49.578130+00:00",
+          "type": "user",
+          "text": "for an oracle deck I really like the bad girl tarot. Otherwise I just use a classic smith-Waite deck + Shannon: Yeah okay bad girl tarot hey!  Have to sus that one out!  What do you like about the Smith-Waite deck? {{cuf_11967919}}  {{cuf_11967920}} Lead : it’s just very straight forward and I like the colors. A bit more muted. + Shannon: Yeah righto! Muted colours are cool, do you find they help you focus more maybe? {{cuf_11967919}}  {{cuf_11967920}} Lead : I’m not sure. I think I just like it more aesthetically + Shannon: Yeah righto!  Do you prefer that muted vibe in general with art and stuff? {{cuf_11967919}}  {{cuf_11967920}} Lead : maybe so + Shannon: Yeah okay! You an artist yourself then? {{cuf_11967919}}  {{cuf_11967920}} Lead : not at all, I’m a gardener/dominatrix lol + Shannon: Haha no way! Gardener and dominatrix? That's a vibe! What's your favourite thing about gardening? {{cuf_11967919}}  {{cuf_11967920}} Lead : I like growing lots of food to give away to people in my community + and I like how in shape I get from gardening hahaha. We have a very short growing season but I always look forward to how ripped I get by the end of the summer + Shannon: Yeah righto that’s awesome you grow food for your community! And haha yeah gardening is a solid workout!  💪 What else do you get up to outside of gardening and… the other thing? 😉 Lead : uhmm I make a lot of herbal preparations from things that grow around my house, I love to work out, hang out with my dogs, I love to cook for friends. I also love to read and study. pretty lame id say haha + Shannon: Haha no way that’s not lame at all! Herbal preparations sounds interesting! What kind of stuff do you make? {{cuf_11967919}}  {{cuf_11967920}} Lead : salves, tinctures, teas + Shannon: Yeah righto salves, tinctures and teas!  Do you use them much yourself then? {{cuf_11967919}}  {{cuf_11967920}} Lead : I do, yes"
+        },
+        {
+          "timestamp": "2025-04-10T22:16:49.608604+00:00",
+          "type": "ai",
+          "text": "Yeah nice one! Is that something you've been doing for long?"
+        }
+      ],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": "pentagrampotager",
+      "first_message_timestamp": "2025-04-10T22:16:49.578130+00:00",
+      "last_message_timestamp": "2025-04-10T22:16:49.608604+00:00",
+      "conversation_duration_str": "0m",
+      "conversation_count": 1,
+      "last_seen_timestamp": "2025-04-10T22:16:49.608604+00:00"
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

@@ -1,0 +1,88 @@
+def calculate_overall_quality_score(conversation_metrics):
+    \
+\\Calculates
+an
+average
+quality
+score
+across
+all
+conversations.\\\
+    if not conversation_metrics:
+        return 0.0
+
+    total_score = 0
+    scored_conversations_count = 0
+
+    # Define point mapping for AI ratings
+    rating_map = {
+        \
+Signup\: 15,  # Highest value
+        \
+Hot
+Lead\: 10,
+        \
+Warm
+Lead\: 7,
+        \
+Inquiry
+Only\: 5,
+        \
+Nurture\: 4,
+        \
+General
+Chat\: 2,
+        \
+Stalled\: 0
+    }
+
+    for user_id, user_data in conversation_metrics.items():
+        score = 0
+        rating = user_data.get(\
+conversation_rating\)
+
+        # Prioritize AI rating if available and valid
+        if rating and rating in rating_map:
+            score = rating_map[rating]
+        else:
+            # Calculate score based on metrics if no valid AI rating
+            metric_score = 0
+            user_msgs = user_data.get(\
+user_messages\, 0)
+
+            # Engagement points
+            if user_msgs >= 51:
+                metric_score += 5
+            elif user_msgs >= 11:
+                metric_score += 3
+            elif user_msgs >= 1:
+                metric_score += 1
+
+            # Topic points
+            if user_data.get(\
+fitness_topic_initiator\) is not None:
+                metric_score += 2
+
+            # Goal points
+            if user_data.get(\
+coaching_inquiry_count\, 0) > 0:
+                metric_score += 5
+            if user_data.get(\
+offer_mentioned_in_conv\, False):
+                metric_score += 1
+
+            # Signup gets significant boost
+            if user_data.get(\
+signup_recorded\, False):
+                metric_score = 15
+
+            score = metric_score
+
+        total_score += score
+        scored_conversations_count += 1
+
+    if scored_conversations_count == 0:
+        return 0.0
+
+    average_score = total_score / scored_conversations_count
+    return average_score

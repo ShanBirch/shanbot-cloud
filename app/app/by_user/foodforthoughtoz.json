@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T21:21:53.990152",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T21:21:32.431108",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a post from foodforthoughtoz on Instagram. It features a green road sign with a U-turn symbol. Superimposed on the sign is the text \"We're taking a break & Pivoting!\" along with a clock emoji. The post's caption explains that the business is temporarily pausing direct-to-customer service to enter the wholesale market and update packaging.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of sliced vegan BBQ \"pork\" that is pan-fried and glazed with rice malt syrup. The post emphasizes that it's vegan and highlights the sweet and sticky flavor.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows multiple plastic containers filled with spaghetti, meatballs, tomato sauce, and shredded cheese. The post is from foodforthoughtoz and is advertising their ready-made meals. The hashtags indicate that the meals are vegan and related to meal prepping and healthy eating.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from foodforthoughtoz featuring their BBQ 'Pork' Fried Rice, which is vegan. The post promotes the return of the dish and encourages viewers to stock up their fridge.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a container of Nasi Goreng (Indonesian fried rice) with a focus on it being spicy and vegan. The caption mentions Valentine's Day and uses hashtags related to spicy and vegan food.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post advertising student discounts on meals at Curtin University. It features a student holding books and wearing a backpack.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan cooking and mock meats: You could ask about their favorite vegan recipes, other mock meat dishes they enjoy, or their experience with vegan cooking in general.",
+          "2. Rice malt syrup: You could ask about their experience with rice malt syrup, other ways they use it in cooking, or if they have any recommendations for brands.",
+          "1. Meal Prep: You could ask about their experience with meal prepping, what their favorite recipes are, or what challenges they face when trying to meal prep.",
+          "2. Vegan Food: Given the #veganmealprep hashtag, you could ask about their favorite vegan recipes, vegan restaurants in the area, or their reasons for following a vegan diet.",
+          "1.  **Vegan Food/Cooking:** Discussing vegan food options, recipes, or experiences with vegan cuisine."
+        ],
+        "generated_comment": "Hey! Just had a look at your profile and saw your latest post. The graphic you used to announce the pivot was really clever! 👏",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Cooking & Food",
+            "Meal Prepping",
+            "Mock Meats (especially vegan 'pork')",
+            "Healthy Eating",
+            "Spicy Food"
+          ],
+          "LIFESTYLE": "Likely a business owner or operator in the food industry, specifically focused on providing vegan ready-made meals. They are currently pivoting their business model, potentially expanding into wholesale. They also seem to cater to students, offering discounts at Curtin University.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite vegan recipes to meal prep?",
+            "I noticed you use rice malt syrup in your vegan 'pork'. What other ways do you like to use it in cooking?",
+            "What are some of the biggest challenges you face when trying to meal prep vegan meals?",
+            "I'm always looking for new vegan restaurants to try. Do you have any recommendations in the area?",
+            "What inspired you to start a vegan food business?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Entrepreneurial",
+            "Creative (with vegan recipes and mock meats)",
+            "Adaptable (pivoting business model)",
+            "Community-focused (offering student discounts)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan cooking and mock meats: You could ask about their favorite vegan recipes, other mock meat dishes they enjoy, or their experience with vegan cooking in general.",
+        "2. Rice malt syrup: You could ask about their experience with rice malt syrup, other ways they use it in cooking, or if they have any recommendations for brands.",
+        "1. Meal Prep: You could ask about their experience with meal prepping, what their favorite recipes are, or what challenges they face when trying to meal prep.",
+        "2. Vegan Food: Given the #veganmealprep hashtag, you could ask about their favorite vegan recipes, vegan restaurants in the area, or their reasons for following a vegan diet.",
+        "1.  **Vegan Food/Cooking:** Discussing vegan food options, recipes, or experiences with vegan cuisine."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

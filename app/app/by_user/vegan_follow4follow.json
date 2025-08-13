@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T17:14:05.609911",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T17:13:43.480046",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is an Instagram post celebrating the account reaching 2000 followers. The background is a blue sky with wispy clouds. The words \"2000 Follower\" are prominently displayed in large, white font. A flock of birds is subtly incorporated into the design, flying in a curved formation above the word \"Follower\". The caption reads \"2000 Follower, thank you!!!!! Danke euch!!!!!!\" with three green heart emojis.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image features a background of green moss and white mushrooms. Text overlays the image in both German and English, urging viewers to follow the admin and all followers of the account. The post is promoting a \"follow for follow\" strategy to increase account growth.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a collage with three sections. The left section features red mushrooms in a forest setting. The middle section shows a goat eating grass through a fence. The right section is the Instagram post itself, which is a \"follow for follow\" request.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of goats in a grassy area. The post is by an account called \"vegan_follow4follow\" and the caption expresses a desire to give these \"poor creatures a voice,\" using vegan-related hashtags.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a collage of three photos with the word \"VEGAN\" superimposed. The first photo shows a bowl of fruit with what appears to be yogurt. The second photo shows peeled potatoes and carrots on a cutting board. The third photo shows a heart shape made of various fruits and vegetables.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from the user \"vegan_follow4follow.\" The post features a picture of a bush with vibrant red leaves. The post's caption, in both German and English, urges viewers to follow the followers of the page, implying a \"follow-for-follow\" strategy.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Mushroom Identification/Foraging:** The image prominently features mushrooms. Inquiring about the type of mushrooms shown or asking if they forage for mushrooms could start a conversation.",
+          "2.  **Veganism and Community Building:** The account name and hashtags indicate a focus on veganism and community growth. Asking about their experience building a vegan community on Instagram or their thoughts on vegan activism could be a relevant topic.",
+          "1.  **Veganism/Animal Welfare:** Given the account name and the image of the goat, a conversation about veganism, animal sanctuaries, or animal welfare in general would be relevant.",
+          "2.  **Nature Photography/Mushrooms:** The image of the mushrooms suggests an interest in nature and photography. You could ask about their favorite places to photograph nature or their knowledge of different types of mushrooms.",
+          "1. Goat care: You could ask about the goats, their names, personalities, or how they are cared for. This shows interest in the animals and the poster's connection to them."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! I saw your latest post about hitting 2000 followers, that's awesome! 🥳",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism",
+            "Animal Welfare (especially goats)",
+            "Nature Photography (especially mushrooms and foliage)",
+            "Community Building on Instagram (specifically vegan community)",
+            "Mushroom Identification/Foraging"
+          ],
+          "LIFESTYLE": "Likely a vegan individual actively promoting veganism and animal welfare on Instagram. They are focused on growing their online presence through a 'follow-for-follow' strategy. They may also be interested in nature and photography, potentially foraging for mushrooms. They may speak both English and German.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite vegan recipes or resources for new vegans?",
+            "I noticed the beautiful mushrooms in your posts. Do you forage for them, and if so, what are some of your favorite finds?",
+            "What are your thoughts on using social media for vegan activism and community building?",
+            "The goats in your posts are adorable! Do you volunteer at an animal sanctuary or have a personal connection to them?",
+            "I'm curious about your experience building a vegan community on Instagram. What strategies have you found most effective?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate (about veganism and animal welfare)",
+            "Community-oriented (focused on building a following and connecting with others)",
+            "Nature-loving (interested in mushrooms, goats, and foliage)",
+            "Strategic (using 'follow-for-follow' to grow their account)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Mushroom Identification/Foraging:** The image prominently features mushrooms. Inquiring about the type of mushrooms shown or asking if they forage for mushrooms could start a conversation.",
+        "2.  **Veganism and Community Building:** The account name and hashtags indicate a focus on veganism and community growth. Asking about their experience building a vegan community on Instagram or their thoughts on vegan activism could be a relevant topic.",
+        "1.  **Veganism/Animal Welfare:** Given the account name and the image of the goat, a conversation about veganism, animal sanctuaries, or animal welfare in general would be relevant.",
+        "2.  **Nature Photography/Mushrooms:** The image of the mushrooms suggests an interest in nature and photography. You could ask about their favorite places to photograph nature or their knowledge of different types of mushrooms.",
+        "1. Goat care: You could ask about the goats, their names, personalities, or how they are cared for. This shows interest in the animals and the poster's connection to them."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

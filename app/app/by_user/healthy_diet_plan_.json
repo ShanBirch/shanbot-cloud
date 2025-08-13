@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T16:45:40.941372",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T16:45:22.800616",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by healthy_diet_plan._. is a video, seemingly taken from TikTok, showing a close-up of a clear liquid with small dark particles suspended within it. The liquid is in a rectangular container. The TikTok logo and username @lowcarblivinmomma are visible in the corner of the video. The post's caption promotes a 28-day keto challenge and credits @lowcarblivinmomma for the keto recipes. The caption also includes a call to action to visit the profile's bio link. A variety of keto-related hashtags are listed.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a cucumber being sliced with a knife on a cutting board. The post is promoting low-carb and keto recipes.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person making a low-carb/keto recipe, likely ham and egg cups, in a muffin tin. The person is pouring a liquid (likely egg) into the muffin tin cups which are already lined with ham. The post promotes a 28-day keto challenge.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a large piece of lamb breast in vacuum packaging, along with a caption promoting a low-carb and keto diet plan. The post also includes numerous keto-related hashtags.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a person holding two cans of \"Great Value Chunk Chicken Breast with Rib Meat\" in water. The post is from an Instagram account focused on healthy diets, specifically low carb and keto. The caption promotes a 28-day keto challenge.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from healthy_diet_plan._. It shows a video still of someone making a low carb, keto, sugar-free cinnamon roll in a bowl. The post promotes a 28-day keto challenge and credits @gamgams.kitchen for the recipe.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Keto/Low-Carb Recipes:** Ask about their favorite keto or low-carb recipes, or share one of your own.",
+          "2.  **Meal Prepping:** The post uses the hashtag #mealprepping. You could ask about their meal prepping routine or tips.",
+          "1. Keto recipes and meal planning: Ask about their favorite keto recipes or tips for meal prepping on a keto diet.",
+          "2. Low-carb/keto lifestyle: Inquire about their experience with the keto diet, challenges they've faced, or benefits they've experienced.",
+          "1.  **Keto Recipes/Diet:** Inquire about their favorite keto recipes or ask for recommendations based on the lamb breast shown in the image."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Keto Diet",
+            "Low-Carb Diet",
+            "Healthy Eating",
+            "Meal Prepping",
+            "Keto Recipes"
+          ],
+          "LIFESTYLE": "Likely someone interested in or actively following a keto or low-carb diet. They share recipes and promote keto challenges, suggesting they are either a beginner or someone looking to expand their keto knowledge and connect with others in the community.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite keto recipes?",
+            "Do you have any tips for meal prepping on a keto diet?",
+            "What's been your biggest challenge with the keto diet, and how did you overcome it?",
+            "Have you noticed any specific benefits from following a keto or low-carb lifestyle?",
+            "I saw your post about the 28-day keto challenge. Have you tried it before, and what were your results?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Health-conscious",
+            "Community-oriented (shares recipes and challenges)",
+            "Enthusiastic (about keto/low-carb)",
+            "Resourceful (finds recipes from other creators)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Keto/Low-Carb Recipes:** Ask about their favorite keto or low-carb recipes, or share one of your own.",
+        "2.  **Meal Prepping:** The post uses the hashtag #mealprepping. You could ask about their meal prepping routine or tips.",
+        "1. Keto recipes and meal planning: Ask about their favorite keto recipes or tips for meal prepping on a keto diet.",
+        "2. Low-carb/keto lifestyle: Inquire about their experience with the keto diet, challenges they've faced, or benefits they've experienced.",
+        "1.  **Keto Recipes/Diet:** Inquire about their favorite keto recipes or ask for recommendations based on the lamb breast shown in the image."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

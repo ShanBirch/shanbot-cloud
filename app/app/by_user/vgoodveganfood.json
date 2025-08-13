@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T10:09:47.373251",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T10:09:27.510352",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a photograph of a vegan charcuterie board, likely created for Easter. The board is filled with various vegan snacks, including pretzels, olives, peppers, crackers, grapes, celery, and a central dip decorated to look like a bunny face. There is a white ceramic bunny figure to the left of the board and a decorative bunny-shaped stand with painted Easter eggs on the right.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of Annie's Vegan Mac & Cheese (Shells & Sweet Potato Pumpkin flavor) with the box and a decorative bunny-themed item in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by vgoodveganfood featuring a close-up shot of vegan nachos. The nachos are loaded with toppings like black beans, salsa, and what appears to be vegan pulled \"pork.\" The background shows a banner for \"Rooted Delights Vegan Eats.\" The post mentions \"Vegandale\" and being in a \"food coma.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a hand holding a plant-based gyro filled with fries, tomato, onion, and herbs. The location tag indicates it's in Montclair, New Jersey. The caption mentions a new place in town called Avra.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of an everything bagel with tofu cream cheese from Poppy's Bagels. The post mentions the user is at Newark International Airport and is enjoying the vegan food options there.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a table display from a bridal shower featuring a two-tiered pink ombre rosette cake, a \"Bride to Be\" sign, framed photos, decorative lanterns, and other decorations. The post is a thank you to @papaganacheveganbakery for providing vegan desserts.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan food and recipes: Ask about other vegan mac and cheese brands or recipes they enjoy.",
+          "2. Annie's products: Ask if they've tried other Annie's vegan products and what they thought.",
+          "1.  **Vegan Food & Recipes:** Discussing other vegan food options, favorite vegan recipes, or experiences with vegan cuisine.",
+          "2.  **Vegandale/Vegan Events:** Asking about their experience at Vegandale, other vegan events they've attended, or upcoming vegan festivals.",
+          "1. Vegan/Plant-Based Food: \"I noticed you posted about a plant-based gyro. What are some of your other favorite vegan dishes or restaurants?\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post, that charcuterie board looked amazing! 🥕",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Food",
+            "Vegan Baking & Desserts",
+            "Exploring Vegan Restaurants",
+            "Vegan Events (e.g., Vegandale)",
+            "Travel (especially finding vegan options while traveling)"
+          ],
+          "LIFESTYLE": "Likely a vegan food enthusiast who enjoys exploring new vegan restaurants and recipes, attending vegan events, and sharing their experiences online. They also seem to travel occasionally and seek out vegan options while traveling. They may be involved in event planning or attend events like bridal showers.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite vegan mac and cheese brands or recipes?",
+            "Have you tried other Annie's vegan products? What did you think?",
+            "What was your experience like at Vegandale? Have you been to any other vegan events?",
+            "What are some of your other favorite vegan dishes or restaurants in the Montclair/New Jersey area?",
+            "Do you have any recommendations for vegan food options at Newark Airport or other airports?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Enthusiastic",
+            "Adventurous (with food)",
+            "Appreciative (thanking the bakery)",
+            "Community-oriented (attending events like Vegandale)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan food and recipes: Ask about other vegan mac and cheese brands or recipes they enjoy.",
+        "2. Annie's products: Ask if they've tried other Annie's vegan products and what they thought.",
+        "1.  **Vegan Food & Recipes:** Discussing other vegan food options, favorite vegan recipes, or experiences with vegan cuisine.",
+        "2.  **Vegandale/Vegan Events:** Asking about their experience at Vegandale, other vegan events they've attended, or upcoming vegan festivals.",
+        "1. Vegan/Plant-Based Food: \"I noticed you posted about a plant-based gyro. What are some of your other favorite vegan dishes or restaurants?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

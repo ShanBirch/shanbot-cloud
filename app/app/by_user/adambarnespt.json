@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T15:49:34.900565",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T15:49:16.532161",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a selfie taken by a man with sunglasses, presumably Adam Barnes, along with three women. They are standing outside a building with \"Bowens The Builders Choice\" signage. The women are wearing athletic gear and race bibs, suggesting they participated in a race or walk. The overall tone of the image is positive and celebratory.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a man (presumably Adam Barnes) wearing a Santa hat and standing next to a massage table. An \"Elf on the Shelf\" toy is on the table. The post advertises a Christmas massage special.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a scenic view from a patio overlooking a lake or river at sunset. The caption asks, \"Can you see yourself here all summer?\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a family of four (two adults, two children) and a dog relaxing on a patio. They are enjoying drinks and snacks, and the caption mentions \"Winter afternoons done right, family time.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by adambarnespt. The post features a video with Tracey Caruana, likely related to real estate (given the McGrath logo).",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a child holding a cricket bat in a backyard. The text overlay says \"You know it's summer when...\" There is also a lawnmower in the background.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Massage Therapy:** Ask about the types of massage he specializes in or his approach to helping clients with specific issues.",
+          "2.  **Christmas/Holidays:** Inquire about his favorite holiday traditions or how he spends his Christmas.",
+          "1.  **Travel/Vacation:** Discuss summer vacation plans, favorite summer destinations, or ask about the location of the view in the photo.",
+          "2.  **Outdoor Activities:** Talk about enjoying outdoor activities during the summer, such as boating, swimming, or relaxing by the water.",
+          "1.  **Family Activities:** \"What are some of your favorite family activities to do during the winter months?\""
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Adam Barnes",
+          "INTERESTS": [
+            "Massage Therapy",
+            "Family Time",
+            "Outdoor Activities (especially in summer)",
+            "Travel/Vacation",
+            "Community Events (e.g., races/walks)"
+          ],
+          "LIFESTYLE": "Adam Barnes appears to be a massage therapist (possibly self-employed or working at a clinic), who values family time and enjoys outdoor activities. He seems to be involved in his local community and appreciates the beauty of his surroundings. He may also have some involvement in real estate, possibly through partnerships or collaborations.",
+          "CONVERSATION STARTERS": [
+            "What types of massage do you specialize in, and what's your approach to helping clients with specific issues?",
+            "What are some of your favorite holiday traditions, especially around Christmas?",
+            "Do you have any summer vacation plans this year? What are some of your favorite summer destinations?",
+            "What are some of your favorite family activities to do during the winter months?",
+            "That sunset view in your post is stunning! Where was that taken?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Positive",
+            "Family-oriented",
+            "Community-minded",
+            "Appreciative of nature"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Massage Therapy:** Ask about the types of massage he specializes in or his approach to helping clients with specific issues.",
+        "2.  **Christmas/Holidays:** Inquire about his favorite holiday traditions or how he spends his Christmas.",
+        "1.  **Travel/Vacation:** Discuss summer vacation plans, favorite summer destinations, or ask about the location of the view in the photo.",
+        "2.  **Outdoor Activities:** Talk about enjoying outdoor activities during the summer, such as boating, swimming, or relaxing by the water.",
+        "1.  **Family Activities:** \"What are some of your favorite family activities to do during the winter months?\""
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

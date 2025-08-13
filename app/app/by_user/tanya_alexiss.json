@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T01:33:02.339046",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T01:32:42.841925",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows three people on a sandy beach, presumably after surfing. The person on the left is wearing a black wetsuit and holding a pink surfboard, raising one arm in the air. The person in the middle is wearing a floral bikini top and red patterned bottoms, also holding a surfboard and raising both arms. The person on the right is shirtless, wearing black shorts, holding a hat, and also raising an arm. They are all smiling and appear to be enjoying themselves. The background is a blurred beach scene with some vegetation.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows tanya_alexiss in New Zealand with friends. They spent two weeks surfing, enjoying the sun, and eating fish and chips. The picture features a sunset over the ocean with surfboards in the foreground.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a couple (Tanya and her partner) celebrating their anniversary at a restaurant with a beautiful outdoor view of a pond and lush greenery. The caption mentions \"adventures, laughter and silly songs.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two women, presumably Tanya and Laura, posing for a selfie. Tanya is holding a coffee cup. The caption mentions a variety of activities they enjoyed together, including hikes, movies, beach swims, yoga, and espresso martinis.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman standing on a path surrounded by lush tropical foliage. The location tag indicates it's the Sunshine Coast, Queensland. Her caption mentions turning 31.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a couple sitting on a picnic blanket on a grassy area near a beach. There are picnic containers and a bottle of beer visible. People are sitting on benches in the background, and a dog is walking nearby. The location is Moffat Beach, Queensland, Australia.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Surfing in New Zealand: \"I saw you were surfing in New Zealand! What were your favorite surf spots you visited?\"",
+          "2. Fish and Chips: \"Your post mentioned fish and chips. What's your favorite place to get them in New Zealand?\"",
+          "1. **Travel/Sunshine Coast:** Since the location is tagged as Sunshine Coast, Queensland, asking about their favorite spots in the area or travel recommendations could be a good conversation starter.",
+          "2. **Anniversary/Relationship:** Commenting on their anniversary and asking about their favorite memory from the past year or their plans for the future could be a thoughtful way to engage.",
+          "1. **Hiking:** \"I saw you went on some hikes! Any recommendations for trails in the area? I'm always looking for new places to explore.\""
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! It looked like you all had an awesome time surfing! 🤙",
+        "profile_bio": {
+          "PERSON NAME": "Tanya Alexis",
+          "INTERESTS": [
+            "Surfing",
+            "Travel (especially New Zealand and Sunshine Coast, Queensland)",
+            "Outdoor Activities (hiking, beach swims)",
+            "Food and Drink (fish and chips, espresso martinis)",
+            "Spending time with friends and loved ones"
+          ],
+          "LIFESTYLE": "Tanya appears to lead an active and adventurous lifestyle, enjoying outdoor activities like surfing and hiking. She values spending time with friends and her partner, celebrating special occasions and enjoying everyday moments. She likely lives in or frequently visits the Sunshine Coast, Queensland, Australia.",
+          "CONVERSATION STARTERS": [
+            "I saw you were surfing in New Zealand! What were your favorite surf spots you visited?",
+            "Your post mentioned fish and chips. What's your favorite place to get them in New Zealand?",
+            "What are some of your favorite spots on the Sunshine Coast? Any recommendations for visitors?",
+            "Happy Anniversary! What's your favorite memory from the past year with your partner?",
+            "I saw you went on some hikes! Any recommendations for trails in the area? I'm always looking for new places to explore."
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous",
+            "Social",
+            "Positive",
+            "Outdoorsy"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Surfing in New Zealand: \"I saw you were surfing in New Zealand! What were your favorite surf spots you visited?\"",
+        "2. Fish and Chips: \"Your post mentioned fish and chips. What's your favorite place to get them in New Zealand?\"",
+        "1. **Travel/Sunshine Coast:** Since the location is tagged as Sunshine Coast, Queensland, asking about their favorite spots in the area or travel recommendations could be a good conversation starter.",
+        "2. **Anniversary/Relationship:** Commenting on their anniversary and asking about their favorite memory from the past year or their plans for the future could be a thoughtful way to engage.",
+        "1. **Hiking:** \"I saw you went on some hikes! Any recommendations for trails in the area? I'm always looking for new places to explore.\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

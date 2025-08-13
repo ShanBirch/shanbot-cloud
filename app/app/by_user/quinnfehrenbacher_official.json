@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T17:08:32.628752",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T17:08:14.831419",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a mirror selfie taken in a bathroom. In the background, a shirtless man with muscular physique and wrist wraps is visible. In the foreground, a young boy in a Boy Scout uniform is holding a phone up to the mirror, presumably taking the picture. An American flag sticker is on the back of the phone. Bathroom items like toothbrushes and soap are visible on the counter.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a shirtless man (quinnfehrenbacher_official) flexing his muscles. He is wearing a beanie. The caption says \"Work while they sleep. Learn while they party. Save while they spend. Live like they dream.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a shirtless photo of Quinn Fahrenbacher flexing his muscles. He is wearing a beanie. The caption talks about focusing on detail in form and reps during training and being driven to unlock potential.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a shirtless man, presumably quinnfehrenbacher_official, lifting dumbbells. He is wearing a beanie and wrist wraps. There is a pull-up bar/squat rack visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a shirtless man, presumably Quinn Fehrenbacher, flexing his bicep. He is wearing a beanie and wrist wraps. The photo is credited to @camille_fehrenbacher. The caption includes a quote about determination.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a shirtless photo of Quinn Fahrenbacher flexing his muscles. The caption talks about competition and self-criticism.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Fitness/Bodybuilding: You could ask about his workout routine, diet, or fitness goals.",
+          "2. His quote in the caption: You could ask him about the meaning behind his caption and what he is working towards.",
+          "1.  **Fitness/Training:** Inquire about specific training techniques or routines he uses to achieve his physique, based on his caption about focusing on form and reps.",
+          "2.  **Motivation/Mindset:** Ask about his personal strategies for staying motivated and maintaining a strong work ethic, given his emphasis on mindset in his caption.",
+          "1. Fitness/Workout Routine: Ask about his workout routine, the specific exercises he does, or his fitness goals."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Quinn Fehrenbacher",
+          "INTERESTS": [
+            "Fitness/Bodybuilding",
+            "Weightlifting",
+            "Personal Development/Motivation",
+            "Family (Implied from Boy Scout photo)",
+            "American Patriotism (Implied from American Flag sticker)"
+          ],
+          "LIFESTYLE": "Likely a dedicated fitness enthusiast and weightlifter who prioritizes self-improvement and hard work. He appears to be family-oriented and possibly involved in Boy Scouts. He seems to value a disciplined and driven lifestyle, focusing on long-term goals and self-criticism for improvement.",
+          "CONVERSATION STARTERS": [
+            "What's your current workout routine like? What exercises are you focusing on?",
+            "What does the quote 'Work while they sleep. Learn while they party. Save while they spend. Live like they dream' mean to you personally?",
+            "I noticed you emphasize form and reps in your training. What are some specific techniques you use to ensure proper form?",
+            "How do you stay motivated and maintain a strong work ethic, especially when facing challenges?",
+            "What are your long-term fitness goals, and what steps are you taking to achieve them?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Driven/Determined",
+            "Disciplined",
+            "Self-Critical",
+            "Motivated"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Fitness/Bodybuilding: You could ask about his workout routine, diet, or fitness goals.",
+        "2. His quote in the caption: You could ask him about the meaning behind his caption and what he is working towards.",
+        "1.  **Fitness/Training:** Inquire about specific training techniques or routines he uses to achieve his physique, based on his caption about focusing on form and reps.",
+        "2.  **Motivation/Mindset:** Ask about his personal strategies for staying motivated and maintaining a strong work ethic, given his emphasis on mindset in his caption.",
+        "1. Fitness/Workout Routine: Ask about his workout routine, the specific exercises he does, or his fitness goals."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

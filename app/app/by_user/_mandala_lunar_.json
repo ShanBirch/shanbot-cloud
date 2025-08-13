@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T09:31:45.569264",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T09:31:27.124617",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of a handmade Ojo de Dios mandala hanging against a white brick wall. The mandala is diamond-shaped, with a black center and layers of green, yellow, and purple yarn radiating outwards. Four brown wooden beads are attached at the corners of the diamond. A black string is attached to the top bead, used for hanging the mandala.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a handcrafted \"ojo de dios\" (God's eye) mandala wall hanging, featuring intricate geometric patterns in shades of purple, black, and white. It is hanging against a white brick wall.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a handcrafted mandala, specifically an \"ojo de dios\" (eye of God), made with yarn in shades of purple, grey, and white. It's a decorative piece hanging against a white brick wall. The post includes hashtags related to mandalas, mandala art, and the specific type of mandala (ojo de dios).",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a colorful, handmade \"Ojo de Dios\" (God's Eye) mandala hanging on a white brick wall. The mandala is made with yarn in shades of red, green, and orange. The post includes a philosophical caption in Spanish about time and connection, and hashtags related to mandalas and the \"Ojo de Dios\" craft.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a colorful, handmade mandala or \"ojo de dios\" (eye of God) wall hanging. It features intricate weaving with purple, yellow, and white yarn, and wooden beads at the ends.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a handcrafted \"Ojo de Dios\" (God's Eye) mandala hanging on a white brick wall. The mandala features a geometric design with black, yellow, and grey yarn.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Mandala Art/Crafting:** \"I really admire your mandala! How long does it typically take you to create one of these intricate designs?\"",
+          "2.  **Travel/Location:** \"I noticed you're located in Palmira, Valle del Cauca. What's it like living there? Are there many other artisans in the area?\"",
+          "1. **Mandala Art/Craft:** \"I love the color choices in your mandala! How long does it usually take you to create one?\" or \"I've always been fascinated by mandalas. What inspired you to start making them?\"",
+          "2. **Location (Palmira/Cali):** \"I noticed you're located in Palmira. Have you always lived in the Cali area?\" or \"I've heard great things about Palmira. What's your favorite thing about living there?\"",
+          "1. **The Ojo de Dios craft:** Ask about the process of making the mandala, the inspiration behind the color choices, or if they have any other similar pieces."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The colors you used in that mandala really popped! 💜",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Mandala Art/Crafting (specifically Ojo de Dios mandalas)",
+            "Geometric Patterns",
+            "Yarn Crafting/Weaving",
+            "Color Theory/Aesthetics",
+            "Spirituality/Connection (implied by the 'Ojo de Dios' meaning and philosophical captions)"
+          ],
+          "LIFESTYLE": "Likely an artisan or craftsperson who creates and sells handmade Ojo de Dios mandalas. They appear to live in or near Palmira, Valle del Cauca, Colombia. Their work is likely a significant part of their life, and they may be interested in sharing their craft with others.",
+          "CONVERSATION STARTERS": [
+            "How long does it typically take you to create one of your intricate Ojo de Dios mandalas?",
+            "What inspired you to start making Ojo de Dios mandalas, and what does the craft mean to you?",
+            "I love the color choices in your mandalas! What inspires your color palettes?",
+            "What's it like living in Palmira, Valle del Cauca? Are there many other artisans in the area?",
+            "Can you tell me more about the process of making an Ojo de Dios mandala? What are some of the challenges and rewards?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Artistic",
+            "Spiritual/Philosophical (implied)",
+            "Detail-oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Mandala Art/Crafting:** \"I really admire your mandala! How long does it typically take you to create one of these intricate designs?\"",
+        "2.  **Travel/Location:** \"I noticed you're located in Palmira, Valle del Cauca. What's it like living there? Are there many other artisans in the area?\"",
+        "1. **Mandala Art/Craft:** \"I love the color choices in your mandala! How long does it usually take you to create one?\" or \"I've always been fascinated by mandalas. What inspired you to start making them?\"",
+        "2. **Location (Palmira/Cali):** \"I noticed you're located in Palmira. Have you always lived in the Cali area?\" or \"I've heard great things about Palmira. What's your favorite thing about living there?\"",
+        "1. **The Ojo de Dios craft:** Ask about the process of making the mandala, the inspiration behind the color choices, or if they have any other similar pieces."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

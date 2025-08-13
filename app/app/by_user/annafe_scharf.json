@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T10:12:39.817615",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T10:12:19.301896",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows annafe_scharf standing on a snowy mountain, presumably skiing. She is wearing a dark jacket and pink ski pants. In the background, there is a stunning view of snow-capped mountains under a clear blue sky. An Austrian flag is also visible.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black and white selfie taken in London, with Big Ben and the Houses of Parliament in the background. The post includes hashtags like #londonbaby, #exploring, and #myfavouritecardio.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a scenic view of mountains and a lake, with a hand holding red berries in the foreground. The location tag is \"Popradské pleso.\" The hashtags include #vzhurukvyskam (meaning \"upwards to the heights\"), #indamountains, and #howtoclearyourhead, suggesting a love for hiking and nature.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows annafe_scharf sitting on a bench in a mountainous, grassy area with her dog. The caption mentions her dog's birthday and uses hashtags like #doggo and #personalguard.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in an orange outfit sitting on a stool and looking down at a black dog who is standing on its hind legs, seemingly begging for food.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows annafe_scharf posing with two other people in front of a building with unique architectural details. The two women are wearing traditional dresses (dirndls).",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  London travel tips/experiences: \"I saw your post in London! I've always wanted to visit. Do you have any recommendations for must-see spots or hidden gems?\"",
+          "2.  Fitness/Cardio: \"I noticed you hashtagged #myfavouritecardio in your London post. What's your go-to cardio workout?\"",
+          "1. Hiking in the mountains, specifically the Popradské pleso area. \"I saw your post from Popradské pleso! The view looks incredible. Have you hiked there often, or was this a new trail for you?\"",
+          "2. The berries in the hand. \"That's a beautiful photo! Do you know what kind of berries those are? I'm always curious about the local flora when I'm hiking.\"",
+          "1.  Dog breeds/training: Comment on the dog's breed (looks like a Border Collie or similar) and ask about its personality or training."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post, the mountain view looked incredible! 🏔️",
+        "profile_bio": {
+          "PERSON NAME": "Annafe Scharf",
+          "INTERESTS": [
+            "Hiking and Mountain Adventures (especially in the Popradské pleso area)",
+            "Travel (particularly to London and Austria)",
+            "Fitness and Cardio",
+            "Dogs (especially her own)",
+            "Cultural Experiences (e.g., wearing traditional Austrian clothing)"
+          ],
+          "LIFESTYLE": "Annafe appears to lead an active and adventurous lifestyle. She enjoys outdoor activities like hiking and skiing, and she travels frequently, exploring both urban environments like London and mountainous regions. She seems to have a strong connection with nature and enjoys spending time with her dog. It's unknown what her profession is, but she seems to have the time and resources to travel and pursue her interests.",
+          "CONVERSATION STARTERS": [
+            "I saw your post from Popradské pleso! The view looks incredible. Have you hiked there often, or was this a new trail for you?",
+            "I noticed you hashtagged #myfavouritecardio in your London post. What's your go-to cardio workout?",
+            "I saw your post in London! I've always wanted to visit. Do you have any recommendations for must-see spots or hidden gems?",
+            "Your dog is adorable! What breed is it, and what's its personality like?",
+            "I love the traditional Austrian dresses in your post! Was that for a special occasion?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous: Enjoys exploring new places and engaging in outdoor activities.",
+            "Active: Prioritizes fitness and enjoys physical challenges.",
+            "Nature-loving: Appreciates scenic views and spending time outdoors.",
+            "Dog-loving: Has a strong bond with her dog and enjoys including it in her activities."
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  London travel tips/experiences: \"I saw your post in London! I've always wanted to visit. Do you have any recommendations for must-see spots or hidden gems?\"",
+        "2.  Fitness/Cardio: \"I noticed you hashtagged #myfavouritecardio in your London post. What's your go-to cardio workout?\"",
+        "1. Hiking in the mountains, specifically the Popradské pleso area. \"I saw your post from Popradské pleso! The view looks incredible. Have you hiked there often, or was this a new trail for you?\"",
+        "2. The berries in the hand. \"That's a beautiful photo! Do you know what kind of berries those are? I'm always curious about the local flora when I'm hiking.\"",
+        "1.  Dog breeds/training: Comment on the dog's breed (looks like a Border Collie or similar) and ask about its personality or training."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

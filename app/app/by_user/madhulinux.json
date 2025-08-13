@@ -1,0 +1,102 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T08:58:15.480075",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 3,
+        "timestamp": "2025-04-15T08:58:04.291203",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by madhulinux features a man standing next to a black Lamborghini. The background shows palm trees and other parked cars. Text overlayed on the image says \"LIFE IS A GAME. PLAY TO WIN.\" and \"SocialEarn.Co\". The man is wearing a black t-shirt, shorts, and a cap.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a Christmas greeting card with a snowy scene, Christmas trees with lights, and a message wishing the viewer a happy Christmas season.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by \"madhulinux\" featuring a video with the text \"It's that day that comes just once a year\" and \"Happy Birthday\". The post credits the song \"Happy Birthday\" by Kiai and mentions it's licensed under a Creative Commons Attribution License. Links to the artist's music and licensing information are included.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  Christmas traditions: Ask about their favorite Christmas traditions or memories.",
+          "2.  Winter activities: Inquire about their favorite winter activities or if they enjoy the snow.",
+          "1. **Music:** Discussing the music artist Kiai, their style, or other Creative Commons music.",
+          "2. **Creative Commons Licensing:** Asking about their experience with using Creative Commons licensed music or discussing the benefits of using such licenses."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The car looked amazing! 🤩",
+        "profile_bio": {
+          "PERSON NAME": "Unknown (Username: madhulinux)",
+          "INTERESTS": [
+            "Luxury Cars (Lamborghini)",
+            "Entrepreneurship/Social Media Marketing (SocialEarn.Co)",
+            "Music (Specifically Creative Commons licensed music)",
+            "Celebrations (Birthdays, Christmas)",
+            "Travel (Implied by palm trees in Lamborghini post)"
+          ],
+          "LIFESTYLE": "Likely involved in social media marketing or entrepreneurship, potentially with an interest in luxury goods and a desire to project a successful image. Enjoys celebrating special occasions and may travel.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite Christmas traditions?",
+            "Have you used Creative Commons licensed music in any of your projects? What was your experience?",
+            "What do you think are the biggest challenges and opportunities in social media marketing right now?",
+            "What's your favorite type of music to listen to while working?",
+            "What are some of your favorite winter activities?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Ambitious (Implied by 'Play to Win' and Lamborghini)",
+            "Celebratory (Posts about birthdays and Christmas)",
+            "Resourceful (Uses Creative Commons music)",
+            "Socially Conscious (Potentially, if they value Creative Commons licensing)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  Christmas traditions: Ask about their favorite Christmas traditions or memories.",
+        "2.  Winter activities: Inquire about their favorite winter activities or if they enjoy the snow.",
+        "1. **Music:** Discussing the music artist Kiai, their style, or other Creative Commons music.",
+        "2. **Creative Commons Licensing:** Asking about their experience with using Creative Commons licensed music or discussing the benefits of using such licenses."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

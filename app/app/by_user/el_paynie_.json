@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-14T10:49:05.932702",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-14T10:48:48.533240",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a man sitting on a sandy beach, facing the ocean. He's wearing a black cap, black tank top, black Ryderwear shorts and leggings, and black shoes. He has a large tattoo on his left arm. The sky is a mix of colors from the sunset, and the ocean is calm.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a selfie taken in a gym, showing a muscular man (el_paynie_) with a hat, sticking his tongue out. He is sweaty, suggesting he just finished a workout. The background shows gym equipment and a mirror reflecting his back.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a muscular man, presumably el_paynie_, working out at a gym. He is using a machine and wearing workout clothes.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a muscular man, el_paynie_, working out in a gym. He is using a Technogym machine with weight plates. The gym appears to be well-equipped.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a muscular man, presumably el_paynie_, taking a selfie in what appears to be a gym locker room. He is shirtless and wearing a cap.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a selfie of a man with a dog. The man is wearing a camo hat and a black jacket. The dog is a brown and white pitbull-type dog.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Fitness/Bodybuilding:** Comment on his physique or ask about his workout routine. For example, \"Impressive progress! What's your favorite exercise for [specific muscle group]?\"",
+          "2.  **Gym Location:** Since his bio mentions \"Fitness Cartel Morayfield,\" you could ask if he likes that gym or if he has any recommendations for other gyms in the area.",
+          "1.  Gym/Workout Routines: Ask about his favorite exercises or workout routine.",
+          "2.  Fitness Apparel: Comment on the brand of his workout clothes (\"URWEAR\") and ask if he recommends it.",
+          "1.  **Gym/Workout Routines:** Ask about his workout routine, specifically regarding the Technogym machine he's using in the picture."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Fitness/Bodybuilding",
+            "Gym Workouts",
+            "Fitness Apparel (URWEAR, Ryderwear)",
+            "Beach/Ocean",
+            "Dogs (Pitbull type)"
+          ],
+          "LIFESTYLE": "Appears to be a dedicated fitness enthusiast who spends a significant amount of time in the gym. He also enjoys spending time outdoors, particularly at the beach, and is a dog owner. Likely prioritizes physical health and well-being.",
+          "CONVERSATION STARTERS": [
+            "What's your favorite exercise for building [specific muscle group]?",
+            "Have you been training at Fitness Cartel Morayfield for long? What do you like about it?",
+            "I noticed you often wear URWEAR. Do you recommend it for workout apparel?",
+            "What's your favorite thing to do at the beach?",
+            "Your dog is awesome! What's his/her name and breed mix?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Dedicated/Disciplined (consistent gym presence)",
+            "Confident (comfortable taking selfies, showing physique)",
+            "Active (enjoys fitness and outdoor activities)",
+            "Animal Lover (owns a dog and posts pictures with it)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Fitness/Bodybuilding:** Comment on his physique or ask about his workout routine. For example, \"Impressive progress! What's your favorite exercise for [specific muscle group]?\"",
+        "2.  **Gym Location:** Since his bio mentions \"Fitness Cartel Morayfield,\" you could ask if he likes that gym or if he has any recommendations for other gyms in the area.",
+        "1.  Gym/Workout Routines: Ask about his favorite exercises or workout routine.",
+        "2.  Fitness Apparel: Comment on the brand of his workout clothes (\"URWEAR\") and ask if he recommends it.",
+        "1.  **Gym/Workout Routines:** Ask about his workout routine, specifically regarding the Technogym machine he's using in the picture."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

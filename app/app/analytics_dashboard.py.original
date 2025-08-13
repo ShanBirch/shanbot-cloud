@@ -1,0 +1,1657 @@
+import streamlit as st
+# import requests # No longer needed
+import json
+import pandas as pd
+import matplotlib.pyplot as plt
+import os
+import time
+from datetime import datetime, timedelta, timezone
+from collections import defaultdict  # Added for easier category management
+import random  # For random message selection
+import re  # Added for regular expressions
+from typing import Dict, Any
+import numpy as np
+import google.generativeai as genai
+from google.generativeai.types import HarmCategory, HarmBlockThreshold
+
+
+def should_follow_up(conversation_data):
+    """Determine if we should follow up based on conversation state."""
+    # Extract metrics
+    conv_metrics = conversation_data.get('metrics', {})
+
+    # Get the last message timestamp
+    last_message_time = conv_metrics.get('last_message_time')
+    if not last_message_time:
+        return False
+
+    # Convert to datetime
+    try:
+        last_dt = datetime.fromisoformat(last_message_time)
+    except ValueError:
+        # Handle non-ISO format dates
+        try:
+            last_dt = datetime.strptime(
+                last_message_time, "%Y-%m-%d %H:%M:%S.%f")
+        except ValueError:
+            return False
+
+    # Get current time
+    now = datetime.now()
+
+    # Calculate time difference
+    time_diff = now - last_dt
+
+    # Debug logging
+    print(f"DEBUG - ID: {conversation_data.get('id', 'unknown')}, Last Message: {last_dt}, Diff: {time_diff}, Active: {time_diff.days >= 2}")
+
+    # If no message for 2 days, suggest follow-up
+    return time_diff.days >= 2
+
+
+def analyze_engagement_level(metrics):
+    """Analyze the engagement level of a conversation"""
+    score = 0
+    factors = []
+
+    # Message quantity analysis
+    total_messages = metrics.get("total_messages", 0)
+    user_messages = metrics.get("user_messages", 0)
+
+    if user_messages >= 5:
+        score += 3
+        factors.append("High message count")
+    elif user_messages >= 3:
+        score += 2
+        factors.append("Moderate message count")
+    elif user_messages >= 1:
+        score += 1
+        factors.append("Low message count")
+
+    # Response quality analysis
+    if metrics.get("user_responses_to_questions", 0) > 0:
+        score += 2
+        factors.append("Responded to questions")
+
+    # Topic interest analysis
+    if metrics.get("fitness_topic_user_initiated"):
+        score += 3
+        factors.append("User initiated fitness talk")
+    elif metrics.get("fitness_topic_ai_initiated"):
+        score += 1
+        factors.append("Responded to fitness topic")
+
+    # Calculate engagement level
+    if score >= 7:
+        engagement_level = "HIGH"
+    elif score >= 4:
+        engagement_level = "MEDIUM"
+    else:
+        engagement_level = "LOW"
+
+    return {
+        "score": score,
+        "level": engagement_level,
+        "factors": factors
+    }
+
+
+def get_smart_follow_up_timing(conversation_data):
+    """Determine optimal follow-up timing based on engagement"""
+    metrics = conversation_data.get("metrics", {})
+
+    # Analyze engagement
+    engagement = analyze_engagement_level(metrics)
+
+    # Define follow-up timing based on engagement level
+    timing = {
+        "HIGH": {
+            "days_after_end": 2,
+            "window_hours": 48,
+            "reason": "High engagement warrants quick follow-up"
+        },
+        "MEDIUM": {
+            "days_after_end": 3,
+            "window_hours": 24,
+            "reason": "Moderate engagement suggests standard timing"
+        },
+        "LOW": {
+            "days_after_end": 4,
+            "window_hours": 24,
+            "reason": "Low engagement suggests longer wait"
+        }
+    }
+
+    follow_up_timing = timing[engagement['level']]
+
+    # Calculate actual timestamps
+    last_seen = metrics.get("last_seen_timestamp")
+    if last_seen:
+        last_seen_dt = datetime.fromisoformat(last_seen.replace('Z', '+00:00'))
+        conversation_end = last_seen_dt + timedelta(hours=24)
+        follow_up_start = conversation_end + \
+            timedelta(days=follow_up_timing['days_after_end'])
+        follow_up_end = follow_up_start + \
+            timedelta(hours=follow_up_timing['window_hours'])
+
+        follow_up_timing.update({
+            "conversation_end": conversation_end,
+            "follow_up_start": follow_up_start,
+            "follow_up_end": follow_up_end
+        })
+
+    return follow_up_timing
+
+
+def generate_follow_up_message(conversation_data):
+    """Generate a casual, friendly follow-up message based on previous conversations"""
+
+    # Get engagement metrics
+    conv_metrics = conversation_data.get('metrics', {})
+    conv_metadata = conversation_data.get('metadata', {})
+
+    # Get the user name if available
+    user_name = conv_metadata.get('user_name', 'there')
+
+    # Basic follow-up template
+    follow_up_message = f"Hey {user_name}! How's it going? Just checking in to see how you're doing."
+
+    # Enhance with more context if available
+    if 'topic_interests' in conv_metadata:
+        interests = conv_metadata.get('topic_interests', [])
+        if 'meal_plan' in interests:
+            follow_up_message = f"Hey {user_name}! How's your meal plan going? Keeping it clean? 🥗 Still crushing it?"
+        elif 'workout' in interests:
+            follow_up_message = f"Hey {user_name}! How's your training going this week? Getting those gains? 💪"
+
+    return follow_up_message
+
+
+def generate_ai_follow_up_message(conversation_data):
+    """Generate a personalized follow-up message using Gemini AI based on conversation history"""
+    try:
+        # Configure Gemini API
+        genai.configure(api_key="AIzaSyCGawrpt6EFWeaGDQ3rgf2yMS8-DMcXw0Y")
+
+        # Get the client's name/username
+        client_name = conversation_data.get("ig_username", "")
+        if not client_name:
+            client_name = conversation_data.get(
+                "metrics", {}).get("ig_username", "there")
+
+        # Extract conversation history
+        history = conversation_data.get("conversation_history", [])
+
+        # Format the conversation history for the prompt
+        history_text = ""
+        if history:
+            for msg in history:
+                sender = "Coach" if msg.get("type") == "ai" else "Client"
+                history_text += f"{sender}: {msg.get('text', '')}\n"
+        else:
+            history_text = "No previous conversation history available."
+
+        # Build the prompt for Gemini
+        prompt = f"""
+        You are Shannon a Fitness Coach/ owner of Coco's Connected your fitness business,currently engaging with your followers on instagram your goal is to have general chat with your followers and build rapport. You are creating a follow up message - to continue the previous conversation had with the lead - read through the conversation and think of an insigltful question to ask to re-engage the lead, it doesnt have to be fitness releated, it should be releated to th previous conversation. Heres the instagram name if your going to use their name dont use the instagram name - figure it there real name from the instagram name {client_name}.
+
+        Recent conversation history:
+        {history_text}
+
+        Guidelines for the follow-up message:
+        2. Analyse the history context and create a question from it
+        3. Keep it brief (5-20 words)
+        4. Only include a single appropriate emoji if relevant
+        5. Make it personal and engaging
+        6. Keep it simple
+
+        Here's an example: Heya! How's things? Hows the (insert something from the conversation) going the week?
+
+        Format: Just provide the message without any additional text or explanations.
+        """
+
+        # Generate the response
+        model = genai.GenerativeModel(
+            model_name="gemini-2.0-flash-thinking-exp-01-21",
+        )
+
+        response = model.generate_content(prompt)
+        follow_up_message = response.text.strip()
+
+        # If the response is empty or too long, fall back to the regular message
+        if not follow_up_message or len(follow_up_message) > 200:
+            return generate_follow_up_message(conversation_data)
+
+        return follow_up_message
+
+    except Exception as e:
+        st.error(f"Error generating AI follow-up message: {e}")
+        # Fallback to regular follow-up message if generation fails
+        return generate_follow_up_message(conversation_data)
+
+
+def load_analytics_data(file_path):
+    """Loads analytics data directly from the JSON file."""
+    data = {"global_metrics": {}, "conversations": {}}  # Default structure
+    try:
+        # Ensure the directory exists (optional, but good practice)
+        # os.makedirs(os.path.dirname(file_path), exist_ok=True)
+        with open(file_path, "r") as f:
+            data = json.load(f)
+
+            # --- REMOVED DEBUG ---
+            # --- END REMOVED DEBUG ---
+
+            # Use success only if data is actually loaded and valid
+            if data and ("global_metrics" in data or "conversations" in data):
+                # Use sidebar for less intrusive success msg
+                st.sidebar.success(
+                    f"Loaded data from {os.path.basename(file_path)}")
+            # Ensure nested structure exists
+            if "global_metrics" not in data:
+                data["global_metrics"] = {}
+            if "conversations" not in data:
+                data["conversations"] = {}
+            return data
+    except FileNotFoundError:
+        st.sidebar.warning(
+            f"Analytics file not found at {file_path}. Displaying empty dashboard.")
+        return data  # Return default structure
+    except json.JSONDecodeError:
+        st.sidebar.error(
+            f"Error decoding JSON from {file_path}. File might be corrupted.")
+        return data  # Return default structure
+    except Exception as e:
+        st.sidebar.error(f"An error occurred loading data: {e}")
+        return data  # Return default structure
+
+
+def display_conversation_details(conv_data, metrics):
+    """Display detailed conversation information."""
+    try:
+        # Client Analysis Section - Always show
+        st.subheader("📸 Client Analysis")
+
+        # Get analysis data if it exists
+        client_analysis = metrics.get("client_analysis", {})
+
+        if not client_analysis:
+            st.info(
+                "No profile analysis available yet. This will be populated when the bot analyzes their Instagram profile.")
+        else:
+            # Create columns for different aspects
+            col1, col2 = st.columns(2)
+
+            with col1:
+                st.write("**Profile Overview**")
+                st.write(
+                    f"- Posts Analyzed: {client_analysis.get('posts_analyzed', 0)}")
+                st.write(
+                    f"- Analysis Date: {client_analysis.get('timestamp', 'Unknown')}")
+
+                if client_analysis.get('interests'):
+                    st.write("**Interests Detected:**")
+                    for interest in client_analysis['interests']:
+                        st.write(f"- {interest}")
+                else:
+                    st.write("**Interests Detected:** None found yet")
+
+            with col2:
+                if client_analysis.get('lifestyle_indicators'):
+                    st.write("**Lifestyle Indicators:**")
+                    for indicator in client_analysis['lifestyle_indicators']:
+                        st.write(f"- {indicator}")
+                else:
+                    st.write("**Lifestyle Indicators:** None found yet")
+
+                if client_analysis.get('recent_activities'):
+                    st.write("**Recent Activities:**")
+                    for activity in client_analysis['recent_activities']:
+                        st.write(f"- {activity}")
+                else:
+                    st.write("**Recent Activities:** None found yet")
+
+            # Post Summaries in an expander
+            with st.expander("📝 Post Summaries"):
+                if client_analysis.get('post_summaries'):
+                    for i, post in enumerate(client_analysis['post_summaries']):
+                        st.write(f"**Post {i+1}**")
+                        st.write(
+                            f"Description: {post.get('description', 'N/A')}")
+                        if post.get('activities'):
+                            st.write("Activities:")
+                            for activity in post['activities']:
+                                st.write(f"- {activity}")
+                        if post.get('interests'):
+                            st.write("Interests:")
+                            for interest in post['interests']:
+                                st.write(f"- {interest}")
+                        st.write("---")
+                else:
+                    st.write("No post summaries available yet")
+
+            # Potential conversation topics
+            st.write("**💭 Suggested Conversation Topics:**")
+            if client_analysis.get('conversation_topics'):
+                for topic in client_analysis['conversation_topics']:
+                    st.write(f"- {topic}")
+            else:
+                st.write("No conversation topics suggested yet")
+
+        st.divider()
+
+        # Basic Info
+        st.subheader("Basic Information")
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.write("**Messages:**")
+            st.write(
+                f"- Total Messages: {len(metrics.get('conversation_history', []))}")
+            st.write(
+                f"- User Messages: {metrics.get('total_user_messages', 0)}")
+            st.write(f"- AI Messages: {metrics.get('total_ai_messages', 0)}")
+
+        with col2:
+            st.write("**Timing:**")
+            st.write(
+                f"- First Message: {metrics.get('first_message_timestamp', 'N/A')}")
+            st.write(
+                f"- Last Message: {metrics.get('last_message_timestamp', 'N/A')}")
+            st.write(
+                f"- Duration: {metrics.get('conversation_duration_str', 'N/A')}")
+
+        # Topics & Interests
+        st.subheader("Topics & Interests")
+        topic_cols = st.columns(3)
+
+        with topic_cols[0]:
+            st.write("**Fitness Topics:**")
+            st.write(
+                f"- Weight Loss: {'✅ Yes' if metrics.get('weight_loss_mentioned', False) else '❌ No'}")
+            st.write(
+                f"- Muscle Gain: {'✅ Yes' if metrics.get('muscle_gain_mentioned', False) else '❌ No'}")
+            st.write(
+                f"- Fitness (User Init.): {'✅ Yes' if metrics.get('fitness_topic_user_initiated', False) else '❌ No'}")
+            st.write(
+                f"- Fitness (AI Init.): {'✅ Yes' if metrics.get('fitness_topic_ai_initiated', False) else '❌ No'}")
+
+        with topic_cols[1]:
+            st.write("**Funnel Actions:**")
+            st.write(
+                f"- Offer Mentioned: {'✅ Yes' if metrics.get('offer_mentioned_in_conv', False) else '❌ No'}")
+            st.write(
+                f"- Link Sent: {'✅ Yes' if metrics.get('link_sent_in_conv', False) else '❌ No'}")
+
+        with topic_cols[2]:
+            st.write("**Engagement:**")
+            st.write(f"- Questions Asked: {metrics.get('questions_asked', 0)}")
+            st.write(
+                f"- Avg Response Length: {metrics.get('avg_response_length', 0):.1f} words")
+            st.write(
+                f"- Response Rate: {metrics.get('response_rate', 0):.1f}%")
+
+        # Conversation History
+        st.subheader("Conversation History")
+        history = metrics.get('conversation_history', [])
+        if history:
+            for msg in history:
+                with st.chat_message("assistant" if msg.get('type') == 'ai' else "user"):
+                    st.write(msg.get('text', ''))
+                    st.caption(
+                        f"Sent at: {msg.get('timestamp', 'Unknown time')}")
+        else:
+            st.info("No conversation history available")
+
+        # Raw Data Expanders
+        with st.expander("Show Raw Metrics"):
+            st.json(metrics)
+        with st.expander("Show Raw Conversation Data"):
+            st.json(conv_data)
+    except Exception as e:
+        st.error(f"Error displaying conversation details: {str(e)}")
+
+
+# Dashboard title
+st.set_page_config(page_title="Shannon Bot Analytics", layout="wide")
+st.title("Shannon Bot Analytics Dashboard")
+
+# --- Configuration ---
+# Path to the persistent data
+ANALYTICS_FILE_PATH = r"C:\Users\Shannon\OneDrive\Desktop\shanbot\analytics_data.json"
+
+# Configure Gemini API Key
+os.environ["GEMINI_API_KEY"] = "AIzaSyCGawrpt6EFWeaGDQ3rgf2yMS8-DMcXw0Y"
+
+# --- Removed Server Settings ---
+# server_url = st.sidebar.text_input("Server URL", "http://localhost:8000")
+# st.sidebar.markdown("---")
+
+# Refresh settings
+auto_refresh = st.sidebar.checkbox("Auto refresh", value=False)
+refresh_interval = st.sidebar.slider("Refresh interval (seconds)", 10, 300, 30)
+
+# --- Data Loading Function ---
+
+
+# --- Load Data ---
+analytics_data = load_analytics_data(ANALYTICS_FILE_PATH)
+global_metrics = analytics_data.get("global_metrics", {})
+conversations = analytics_data.get("conversations", {})
+
+# --- Process Data for Responder Categories ---
+responder_counts = defaultdict(int)
+responder_lists = defaultdict(list)
+# Define display order and labels with ranges
+responder_order = ["High Responder", "Medium Responder",
+                   "Low Responder", "No Responder", "N/A"]
+RESPONDER_LABELS_WITH_RANGE = {
+    "No Responder": "No Responder (0 msgs)",
+    "Low Responder": "Low Responder (1-10 msgs)",
+    "Medium Responder": "Medium Responder (11-50 msgs)",
+    "High Responder": "High Responder (51+ msgs)",
+    "N/A": "N/A"  # Keep N/A as is
+}
+
+if conversations:
+    # --- REMOVED DEBUG CONTAINER ---
+
+    for sub_id, conv_data in conversations.items():
+        metrics = conv_data.get("metrics", {})
+        category = metrics.get("responder_category", "N/A")
+
+        # --- REMOVED DEBUGGING USERNAME LOOKUP ---
+        identifier = metrics.get("ig_username", sub_id)   # Get with fallback
+        # --- END REMOVED DEBUGGING ---
+
+        # Prefer username from metrics, fallback to subscriber ID
+        # identifier = metrics.get("ig_username", sub_id)
+
+        # Ensure the category is one we expect, otherwise default to N/A
+        if category not in responder_order:
+            category = "N/A"
+
+        responder_counts[category] += 1
+        responder_lists[category].append(identifier)  # Store username or ID
+
+    # --- REMOVED DEBUG CONTAINER END MARKER ---
+
+else:
+    # Put this message in the main area if no conversations exist at all
+    pass  # Handle display later if conversations is empty
+
+
+# Main dashboard content
+tabs = st.tabs(["Overview", "Conversations",
+               "Daily Report", "Analytics Export"])
+
+# Overview tab
+with tabs[0]:
+    st.header("Overview")
+
+    # Global Metrics Section - Consolidate all stats here
+    st.subheader("📊 Global Metrics")
+
+    # Create columns for metrics display
+    global_cols = st.columns([1, 1, 1])
+
+    with global_cols[0]:
+        # Conversation stats
+        st.markdown("**Conversation Stats**")
+        total_conversations = global_metrics.get("total_conversations", 0)
+        st.metric("Total Conversations", total_conversations)
+
+        # Combine bot and webhook message counts
+        total_bot_msgs = global_metrics.get(
+            "bot_message_stats", {}).get("total_messages_sent", 0)
+        total_ai_msgs = global_metrics.get("total_ai_messages", 0)
+        st.metric("Total Messages Sent", total_ai_msgs + total_bot_msgs)
+
+        # User Messages
+        total_user_msgs = global_metrics.get("total_user_messages", 0)
+        st.metric("Total User Messages", total_user_msgs)
+
+        # Bot Message Stats
+        total_sent = global_metrics.get(
+            "bot_message_stats", {}).get("total_messages_sent", 0)
+        st.metric("Bot Messages Sent", total_sent)
+
+        # Question Metrics
+        question_stats = global_metrics.get("question_stats", {})
+        ai_questions = question_stats.get("ai_questions_asked", 0)
+        # Calculate AI statements
+        ai_statements = global_metrics.get(
+            "total_ai_messages", 0) - ai_questions if global_metrics.get("total_ai_messages", 0) >= ai_questions else 0
+        st.metric("AI Questions Asked", ai_questions)
+        st.metric("AI Statements Made", ai_statements)
+
+    with global_cols[1]:
+        # Response metrics
+        st.markdown("**Response Metrics**")
+
+        # Calculate total responses across systems
+        bot_responses = global_metrics.get(
+            "bot_message_stats", {}).get("total_messages_responded", 0)
+        webhook_responses = global_metrics.get(
+            "question_stats", {}).get("user_responses_to_questions", 0)
+        total_responses = bot_responses + webhook_responses
+
+        # Calculate response rate
+        total_messages_expecting_response = total_responses - total_ai_msgs
+        if total_messages_expecting_response > 0:
+            overall_response_rate = (
+                total_responses / total_messages_expecting_response) * 100
+        else:
+            overall_response_rate = 0
+
+        st.metric("Total Responses Received", total_responses)
+        st.metric("Overall Response Rate", f"{overall_response_rate:.1f}%")
+
+        # Bot Response Stats
+        total_responded = global_metrics.get(
+            "bot_message_stats", {}).get("total_messages_responded", 0)
+        bot_response_rate = (total_responded / total_sent *
+                             100) if total_sent > 0 else 0
+        st.metric("Bot Messages Responded To", total_responded)
+
+        # Add Question Response Rate to the main Global Metrics
+        question_stats = global_metrics.get("question_stats", {})
+        ai_questions = question_stats.get("ai_questions_asked", 0)
+        user_responses = question_stats.get("user_responses_to_questions", 0)
+        question_response_rate = (
+            user_responses / ai_questions * 100) if ai_questions > 0 else 0
+        st.metric("Question Response Rate", f"{question_response_rate:.1f}%")
+
+        # Calculate follow-up metrics
+        st.metric("Follow-up Messages Sent",
+                  global_metrics.get("follow_up_messages_sent", 0))
+
+    with global_cols[2]:
+        # Engagement metrics
+        st.markdown("**Engagement Insights**")
+        st.metric("Coaching Inquiries", global_metrics.get(
+            "coaching_inquiries", 0))
+        st.metric("AI Detections", global_metrics.get("ai_detections", 0))
+
+        # Calculate conversation success metrics
+        active_convs = global_metrics.get("active_conversations", 0)
+        ended_convs = total_conversations - active_convs
+        st.metric("Conversations Ended", ended_convs)
+
+        # Calculate conversion metrics if available
+        conversion_rate = 0
+        if global_metrics.get("coaching_inquiries", 0) > 0 and total_conversations > 0:
+            conversion_rate = (global_metrics.get(
+                "coaching_inquiries", 0) / total_conversations) * 100
+        st.metric("Inquiry Conversion Rate", f"{conversion_rate:.1f}%")
+
+    # Daily Bot Activity Stats in a new row
+    st.subheader("📈 Daily Activity")
+    daily_cols = st.columns(2)
+    bot_stats = global_metrics.get("bot_message_stats", {})
+
+    with daily_cols[0]:
+        # Get today's date
+        today = datetime.now().strftime("%Y-%m-%d")
+        st.write("**Today's Bot Statistics:**")
+        st.metric("Messages Sent Today",
+                  bot_stats.get("daily_messages_sent", {}).get(today, 0))
+        st.metric("Messages Responded Today",
+                  bot_stats.get("daily_messages_responded", {}).get(today, 0))
+
+    with daily_cols[1]:
+        # Create a chart of the last 7 days
+        st.write("**Last 7 Days Activity:**")
+        dates = [(datetime.now() - timedelta(days=i)).strftime("%Y-%m-%d")
+                 for i in range(7)][::-1]
+        sent_counts = [bot_stats.get("daily_messages_sent", {}).get(
+            date, 0) for date in dates]
+        responded_counts = [bot_stats.get(
+            "daily_messages_responded", {}).get(date, 0) for date in dates]
+
+        # Create the chart
+        fig, ax = plt.subplots(figsize=(8, 4))
+        x = range(len(dates))
+        ax.bar([i - 0.2 for i in x], sent_counts,
+               0.4, label='Sent', color='#66b3ff')
+        ax.bar([i + 0.2 for i in x], responded_counts,
+               0.4, label='Responded', color='#99ff99')
+
+        plt.xticks(x, [date[5:] for date in dates], rotation=45)
+        plt.legend()
+        plt.title('Message Activity - Last 7 Days')
+        st.pyplot(fig)
+
+    # Add a section for key engagement metrics
+    st.subheader("🔍 Engagement Analysis")
+
+    # Create metrics for different engagement categories
+    engagement_cols = st.columns(4)
+
+    with engagement_cols[0]:
+        # Get responder statistics
+        no_responders = sum(1 for conv in conversations.values()
+                            if conv.get("metrics", {}).get("responder_category", "") == "No Responder")
+        low_responders = sum(1 for conv in conversations.values()
+                             if conv.get("metrics", {}).get("responder_category", "") == "Low Responder")
+        medium_responders = sum(1 for conv in conversations.values()
+                                if conv.get("metrics", {}).get("responder_category", "") == "Medium Responder")
+        high_responders = sum(1 for conv in conversations.values()
+                              if conv.get("metrics", {}).get("responder_category", "") == "High Responder")
+
+        st.metric("No Response Users", no_responders)
+        st.metric("Low Responders (1-10 msgs)", low_responders)
+
+    with engagement_cols[1]:
+        st.metric("Medium Responders (11-50 msgs)", medium_responders)
+        st.metric("High Responders (50+ msgs)", high_responders)
+
+    with engagement_cols[2]:
+        # Calculate average engagement metrics
+        total_users_with_messages = sum(1 for conv in conversations.values()
+                                        if conv.get("metrics", {}).get("user_messages", 0) > 0)
+
+        total_user_messages = sum(conv.get("metrics", {}).get("user_messages", 0)
+                                  for conv in conversations.values())
+
+        avg_messages_per_user = total_user_messages / \
+            total_users_with_messages if total_users_with_messages > 0 else 0
+
+        st.metric("Avg Messages per User", f"{avg_messages_per_user:.1f}")
+
+        # Calculate average response time if available
+        # This would need to be implemented with proper tracking
+        st.metric("Avg Response Time", "N/A")  # Placeholder
+
+    with engagement_cols[3]:
+        # Calculate engagement over time metrics
+        # This would need more implementation
+        multi_convo_users = sum(1 for conv in conversations.values()
+                                if conv.get("metrics", {}).get("conversation_count", 0) > 1)
+
+        st.metric("Users with Multiple Conversations", multi_convo_users)
+
+        # Calculate retention rate if we have the data
+        retention_rate = (multi_convo_users / total_conversations *
+                          100) if total_conversations > 0 else 0
+        st.metric("User Retention Rate", f"{retention_rate:.1f}%")
+
+    st.divider()
+
+    # --- Responder Analysis Section ---
+    st.subheader("Responder Analysis")
+    if conversations:
+        resp_cols = st.columns(len(responder_order))
+        for i, category in enumerate(responder_order):
+            with resp_cols[i]:
+                # Use the label with range for the metric header
+                label_with_range = RESPONDER_LABELS_WITH_RANGE.get(
+                    category, category)
+                st.metric(label_with_range, responder_counts.get(category, 0))
+
+        st.markdown("---")  # Visual separator
+
+        for category in responder_order:
+            count = responder_counts.get(category, 0)
+            users = responder_lists.get(category, [])
+            # Only show expander if there are users in the category
+            if count > 0:
+                # Use the label with range for the expander title
+                label_with_range = RESPONDER_LABELS_WITH_RANGE.get(
+                    category, category)
+                with st.expander(f"{label_with_range} ({count}) - Click to see list", expanded=False):
+                    if users:
+                        # Display as a scrollable list if long, filtering out None before sorting
+                        filtered_users = [u for u in users if u is not None]
+                        user_list_str = "\n".join(
+                            [f"- {user}" for user in sorted(filtered_users)])
+                        # Ensure height is at least 68px
+                        # Use length of filtered list
+                        calculated_height = 35 * len(filtered_users)
+                        display_height = max(68, min(200, calculated_height))
+                        st.text_area("Users", user_list_str,
+                                     height=display_height, disabled=True)
+                    else:  # Should not happen if count > 0, but good practice
+                        st.write("No conversations in this category.")
+    else:
+        st.info("No conversation data available for responder analysis.")
+
+    st.divider()
+
+    # --- Analytics Charts ---
+    st.subheader("Analytics Charts")
+    chart_cols = st.columns(2)
+
+    with chart_cols[0]:
+        # Question response pie chart
+        if ai_questions > 0:
+            fig, ax = plt.subplots(figsize=(4, 4))
+            labels = ['Responded', 'No Response']
+            responses = question_stats.get("user_responses_to_questions", 0)
+            # Ensure non-negative
+            no_responses = max(0, ai_questions - responses)
+            sizes = [responses, no_responses]
+
+            if sum(sizes) > 0:  # Avoid pie chart error if sizes are zero
+                ax.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90, colors=[
+                       '#66b3ff', '#ff9999'])  # Add colors
+                ax.axis('equal')
+                plt.title('Question Response Rate')
+                st.pyplot(fig)
+            else:
+                st.info("No question responses recorded for chart")
+        else:
+            st.info("No AI questions asked for chart")
+
+    with chart_cols[1]:
+        # Message types bar chart
+        metrics_for_chart = {  # Use dict for clarity
+            'Coaching Inquiries': global_metrics.get("coaching_inquiries", 0),
+            'AI Detections': global_metrics.get("ai_detections", 0),
+            'AI Questions': question_stats.get("ai_questions_asked", 0)
+        }
+        labels = list(metrics_for_chart.keys())
+        values = list(metrics_for_chart.values())
+
+        if any(v > 0 for v in values):  # Only show if data exists
+            fig, ax = plt.subplots(figsize=(4, 4))
+            ax.bar(labels, values, color=[
+                   '#ff9999', '#66b3ff', '#99ff99'])  # Add colors
+            plt.title('Global Event Counts')
+            plt.ylabel('Count')
+            plt.xticks(rotation=45, ha="right")
+            st.pyplot(fig)
+        else:
+            st.info("No event data available for chart")
+
+    # Topic Tracking Section
+    st.divider()
+    st.subheader("Topic Tracking")
+    topic_cols = st.columns(3)  # Adjust columns if needed
+
+    with topic_cols[0]:
+        st.metric("Vegan/Vegetarian Topic Conversations", global_metrics.get(
+            "vegan_topic_conversations", 0))
+    with topic_cols[1]:
+        st.metric("Weight Loss Topic Conversations", global_metrics.get(
+            "weight_loss_conversations", 0))
+    with topic_cols[2]:
+        st.metric("Muscle Gain Topic Conversations", global_metrics.get(
+            "muscle_gain_conversations", 0))
+
+    # Topic Initiation & Funnel
+    st.divider()
+    st.subheader("Topic Initiation & Funnel")
+    col_topic, col_funnel = st.columns(2)
+
+    with col_topic:
+        st.metric("AI Initiated Fitness Topics", global_metrics.get(
+            "ai_initiated_fitness_topics", 0))
+        st.metric("User Initiated Fitness Topics", global_metrics.get(
+            "user_initiated_fitness_topics", 0))
+    with col_funnel:
+        st.metric("Offers Mentioned (by AI)", global_metrics.get(
+            "offers_mentioned", 0))
+        st.metric("Links Sent (by AI)", global_metrics.get(
+            "links_sent", 0))
+
+    # Go directly to Follow-up section
+    st.divider()
+    st.subheader("Follow-up Messages Overview")
+
+    # Add Meal Plan Analytics Section
+    st.divider()
+    st.subheader("🍽️ Meal Plan Analytics")
+    meal_cols = st.columns(3)
+
+    with meal_cols[0]:
+        st.metric("Total Meal Plans Offered",
+                  global_metrics.get("meal_plan_stats", {}).get("total_meal_plans_offered", 0))
+        st.metric("Meal Plans Accepted",
+                  global_metrics.get("meal_plan_stats", {}).get("meal_plans_accepted", 0))
+
+    with meal_cols[1]:
+        st.write("**Meal Plan Types:**")
+        meal_types = global_metrics.get(
+            "meal_plan_stats", {}).get("meal_plan_types", {})
+        for plan_type, count in meal_types.items():
+            st.write(f"- {plan_type.title()}: {count}")
+
+    with meal_cols[2]:
+        st.write("**Meal Plan Goals:**")
+        meal_goals = global_metrics.get(
+            "meal_plan_stats", {}).get("meal_plan_goals", {})
+        for goal, count in meal_goals.items():
+            st.write(f"- {goal.replace('_', ' ').title()}: {count}")
+
+    # Add visualization for meal plan metrics
+    if any(global_metrics.get("meal_plan_stats", {}).get("meal_plan_types", {}).values()):
+        st.write("\n**Meal Plan Distribution**")
+        fig, ax = plt.subplots(figsize=(8, 4))
+        meal_types = global_metrics.get(
+            "meal_plan_stats", {}).get("meal_plan_types", {})
+        plt.pie(meal_types.values(),
+                labels=meal_types.keys(), autopct='%1.1f%%')
+        plt.title('Meal Plan Type Distribution')
+        st.pyplot(fig)
+
+
+# Conversations tab
+with tabs[1]:
+    st.header("Conversation Details")
+
+    # Populate dropdown with available subscriber IDs/Usernames
+    available_display_names = []
+    id_map = {}  # Map display name back to subscriber ID
+
+    if conversations:
+        for sub_id, conv_data in conversations.items():
+            # Get username from metrics
+            metrics = conv_data.get("metrics", {})
+            username = metrics.get("ig_username", sub_id)
+
+            # Determine if conversation is active or closed based on last message timestamp
+            last_message_time = metrics.get("last_message_timestamp")
+            status = "Closed"  # Default to closed
+            status_icon = "🔴"  # Red circle for closed
+
+            if last_message_time:
+                # Try multiple timestamp formats - similar to follow-up section
+                last_message_dt = None
+
+                # First try ISO format (with various replacements for Z and timezone)
+                try:
+                    # Handle various ISO format variations
+                    clean_timestamp = last_message_time
+                    if isinstance(clean_timestamp, str) and clean_timestamp.endswith('Z'):
+                        clean_timestamp = clean_timestamp.replace(
+                            'Z', '+00:00')
+                    last_message_dt = datetime.fromisoformat(clean_timestamp)
+                except (ValueError, TypeError):
+                    # Try standard format with explicit parsing
+                    try:
+                        from dateutil import parser
+                        last_message_dt = parser.parse(last_message_time)
+                    except (ImportError, ValueError):
+                        # If dateutil not available, try common formats
+                        formats_to_try = [
+                            '%Y-%m-%dT%H:%M:%S',
+                            '%Y-%m-%d %H:%M:%S',
+                            '%Y/%m/%d %H:%M:%S',
+                            '%d-%m-%Y %H:%M:%S',
+                            '%m/%d/%Y %H:%M:%S'
+                        ]
+                        for fmt in formats_to_try:
+                            try:
+                                last_message_dt = datetime.strptime(
+                                    last_message_time, fmt)
+                                break
+                            except ValueError:
+                                continue
+
+                # If we successfully parsed the timestamp
+                if last_message_dt:
+                    # Remove timezone info for consistent comparison
+                    now = datetime.now().replace(tzinfo=None)
+                    last_dt = last_message_dt.replace(tzinfo=None)
+
+                    # Calculate time difference
+                    time_diff = now - last_dt
+                    # Debug information for the first few conversations
+                    if sub_id in list(conversations.keys())[:3]:
+                        print(
+                            f"DEBUG - ID: {sub_id}, Last Message: {last_dt}, Diff: {time_diff}, Active: {time_diff <= timedelta(days=1)}")
+
+                    # If last message is within 24 hours, mark as active
+                    if time_diff <= timedelta(days=1):
+                        status = "Active"
+                        status_icon = "🟢"  # Green circle for active
+
+            # Only use username if it exists and is not None
+            if username:
+                # Add status indicator to display name with color icon
+                display_name = f"{status_icon} {username} ({status})"
+                # In case of duplicate usernames, append a number
+                temp_display_name = display_name
+                counter = 1
+                while temp_display_name in id_map:
+                    temp_display_name = f"{display_name} ({counter})"
+                    counter += 1
+                display_name = temp_display_name
+            else:
+                # If no username, use ID as fallback with status and color icon
+                display_name = f"{status_icon} {sub_id} ({status})"
+
+            available_display_names.append(display_name)
+            id_map[display_name] = sub_id
+
+        # Sort usernames alphabetically, keeping IDs at the bottom
+        available_display_names = sorted(
+            available_display_names,
+            # Sort active first, then alphabetically
+            key=lambda x: (not "Active" in x, x.lower())
+        )
+
+    # Use a select box instead of text input
+    selected_display_name = st.selectbox(
+        "Select Instagram Username", options=[""] + available_display_names
+    )
+
+    # Find the actual subscriber ID based on the selected identifier
+    subscriber_id_to_lookup = id_map.get(selected_display_name)  # Use the map
+
+    # Display conversation details based on selection
+    if selected_display_name:
+        if subscriber_id_to_lookup in conversations:
+            conv_data = conversations[subscriber_id_to_lookup]
+            metrics = conv_data.get("metrics", {})
+            if metrics:
+                display_conversation_details(conv_data, metrics)
+            else:
+                st.warning(
+                    f"No metric data found for subscriber {selected_display_name} ({subscriber_id_to_lookup}) in the loaded file.")
+        else:
+            st.error(
+                f"Could not find subscriber ID for selected user: {selected_display_name}")
+    else:
+        st.info(
+            "Select a User/Subscriber ID from the dropdown to see conversation details.")
+
+
+# Daily Report tab
+with tabs[2]:
+    st.header("Daily Conversation Report")
+
+    # Get today's date
+    today = datetime.now().strftime("%Y-%m-%d")
+
+    # Create columns for statistics
+    stat_cols = st.columns(3)
+
+    # Track statistics
+    total_analyzed = 0
+    ended_conversations = 0
+    potential_followups = 0
+
+    # Create containers for different conversation states
+    active_convs = []
+    ended_convs = []
+    followup_convs = []
+
+    if conversations:
+        for subscriber_id, conv_data in conversations.items():
+            metrics = conv_data.get("metrics", {})
+            username = metrics.get("ig_username", subscriber_id)
+
+            # Only analyze conversations with activity in the last 24 hours
+            last_message_time = metrics.get("last_message_timestamp")
+            if not last_message_time:
+                continue
+
+            try:
+                last_message_dt = datetime.fromisoformat(last_message_time)
+                if (datetime.now() - last_message_dt) > timedelta(days=1):
+                    continue
+            except (ValueError, TypeError):
+                continue
+
+            total_analyzed += 1
+
+            # Get conversation history
+            history = metrics.get("conversation_history", [])
+            if not history:
+                continue
+
+            # Analyze message patterns
+            user_messages = [msg for msg in history if msg.get("type") != "ai"]
+            ai_messages = [msg for msg in history if msg.get("type") == "ai"]
+
+            # Count questions asked
+            questions_asked = sum(
+                1 for msg in ai_messages if "?" in msg.get("text", ""))
+
+            # Analyze user engagement
+            avg_response_length = sum(len(msg.get("text", "").split(
+            )) for msg in user_messages) / len(user_messages) if user_messages else 0
+
+            # Check conversation end pattern
+            last_messages = history[-3:]  # Look at last 3 messages
+            short_responses = sum(1 for msg in last_messages if msg.get(
+                "type") != "ai" and len(msg.get("text", "").split()) < 3)
+
+            # Get topics discussed
+            topics = []
+            if metrics.get("fitness_topic_user_initiated"):
+                topics.append("fitness (user initiated)")
+            if metrics.get("fitness_topic_ai_initiated"):
+                topics.append("fitness (AI initiated)")
+            if metrics.get("vegan_topic_mentioned"):
+                topics.append("nutrition")
+            if metrics.get("weight_loss_mentioned"):
+                topics.append("weight loss")
+            if metrics.get("muscle_gain_mentioned"):
+                topics.append("muscle gain")
+
+            # Create conversation summary
+            conv_summary = {
+                "username": username,
+                "messages": f"{len(history)} (User: {len(user_messages)}, AI: {len(ai_messages)})",
+                "questions": questions_asked,
+                "avg_response": f"{avg_response_length:.1f}",
+                "topics": topics,
+                "last_message": history[-1].get("text", "") if history else "",
+                "last_sender": "You" if history and history[-1].get("type") == "ai" else "They"
+            }
+
+            # Determine conversation status
+            needs_followup = should_follow_up(conv_data)
+            if needs_followup:
+                potential_followups += 1
+                timing = get_smart_follow_up_timing(conv_data)
+                conv_summary["follow_up_time"] = timing.get(
+                    'follow_up_start', 'Unknown')
+                followup_convs.append(conv_summary)
+
+            if short_responses >= 2 or (history and ("bye" in history[-1].get("text", "").lower() or "thank" in history[-1].get("text", "").lower())):
+                ended_conversations += 1
+                ended_convs.append(conv_summary)
+            else:
+                active_convs.append(conv_summary)
+
+        # Display statistics
+        with stat_cols[0]:
+            st.metric("Total Conversations", total_analyzed)
+        with stat_cols[1]:
+            st.metric("Ended Conversations", ended_conversations)
+        with stat_cols[2]:
+            st.metric("Need Follow-up", potential_followups)
+
+        # Display conversation sections
+        if active_convs:
+            st.subheader("🟢 Active Conversations")
+            for conv in active_convs:
+                with st.expander(f"{conv['username']} - {conv['messages']} messages"):
+                    st.write(f"**Questions Asked:** {conv['questions']}")
+                    st.write(
+                        f"**Avg Response Length:** {conv['avg_response']} words")
+                    if conv['topics']:
+                        st.write(f"**Topics:** {', '.join(conv['topics'])}")
+                    st.write(
+                        f"**Last Message ({conv['last_sender']}):** {conv['last_message']}")
+
+        if followup_convs:
+            st.subheader("⏰ Ready for Follow-up")
+            for conv in followup_convs:
+                with st.expander(f"{conv['username']} - Follow-up at {conv['follow_up_time']}"):
+                    st.write(f"**Messages:** {conv['messages']}")
+                    st.write(f"**Questions Asked:** {conv['questions']}")
+                    if conv['topics']:
+                        st.write(f"**Topics:** {', '.join(conv['topics'])}")
+                    st.write(
+                        f"**Last Message ({conv['last_sender']}):** {conv['last_message']}")
+
+        if ended_convs:
+            st.subheader("✅ Recently Ended Conversations")
+            for conv in ended_convs:
+                with st.expander(f"{conv['username']} - {conv['messages']} messages"):
+                    st.write(f"**Questions Asked:** {conv['questions']}")
+                    st.write(
+                        f"**Avg Response Length:** {conv['avg_response']} words")
+                    if conv['topics']:
+                        st.write(f"**Topics:** {', '.join(conv['topics'])}")
+                    st.write(
+                        f"**Last Message ({conv['last_sender']}):** {conv['last_message']}")
+
+        # Add Prompt Analysis section
+        st.subheader("🤖 Prompt Analysis & Suggestions")
+
+        # Analyze AI message patterns
+        total_ai_messages = sum(len([msg for msg in conv_data.get("metrics", {}).get("conversation_history", [])
+                                     if msg.get("type") == "ai"])
+                                for conv_data in conversations.values())
+
+        # Track patterns that might need prompt improvement
+        prompt_issues = []
+        prompt_successes = []
+
+        for conv_data in conversations.values():
+            metrics = conv_data.get("metrics", {})
+            history = metrics.get("conversation_history", [])
+
+            if not history:
+                continue
+
+            # Get username for context
+            username = metrics.get("ig_username", "Unknown")
+
+            # Analyze conversation flow
+            for i, msg in enumerate(history):
+                if msg.get("type") == "ai":
+                    ai_text = msg.get("text", "").lower()
+
+                    # Check for consecutive questions
+                    if i > 0 and history[i-1].get("type") == "ai" and "?" in ai_text and "?" in history[i-1].get("text", ""):
+                        prompt_issues.append({
+                            "type": "consecutive_questions",
+                            "context": f"With {username}: Asked multiple questions in a row",
+                            "suggestion": "Update prompt to limit to one question per message"
+                        })
+
+                    # Check for generic responses
+                    generic_phrases = ["how's things",
+                                       "that's good", "nice one", "awesome"]
+                    if any(phrase in ai_text for phrase in generic_phrases) and len(ai_text.split()) < 5:
+                        prompt_issues.append({
+                            "type": "generic_response",
+                            "context": f"With {username}: Used generic response '{ai_text}'",
+                            "suggestion": "Add more context-specific response templates to prompt"
+                        })
+
+                    # Check for Shannon's style consistency
+                    non_shannon_phrases = [
+                        "thank you", "please", "would you like", "I apologize", "sorry about that"]
+                    if any(phrase in ai_text for phrase in non_shannon_phrases):
+                        prompt_issues.append({
+                            "type": "style_mismatch",
+                            "context": f"With {username}: Used formal/non-Shannon phrase '{[p for p in non_shannon_phrases if p in ai_text][0]}'",
+                            "suggestion": "Reinforce casual, direct communication style in prompt"
+                        })
+
+                    # Check for emoji overuse
+                    emoji_count = len(re.findall(
+                        r'[\U0001F300-\U0001F9FF]', ai_text))
+                    if emoji_count > 2:
+                        prompt_issues.append({
+                            "type": "emoji_overuse",
+                            "context": f"With {username}: Used {emoji_count} emojis in one message",
+                            "suggestion": "Limit to 1-2 emojis per message maximum"
+                        })
+
+                    # Check for response timing context
+                    if i > 0 and history[i-1].get("type") != "ai":
+                        try:
+                            current_time = datetime.fromisoformat(
+                                msg.get("timestamp", "")).time()
+                            if "night" in ai_text.lower() and current_time.hour < 17:
+                                prompt_issues.append({
+                                    "type": "time_context_mismatch",
+                                    "context": f"With {username}: Mentioned night at {current_time.hour}:00",
+                                    "suggestion": "Better use of time context in responses"
+                                })
+                        except (ValueError, TypeError):
+                            pass
+
+                    # Check for conversation flow breaks
+                    if i > 0 and history[i-1].get("type") != "ai":
+                        prev_msg = history[i-1].get("text", "").lower()
+                        # If user shares personal info but response doesn't acknowledge
+                        personal_indicators = [
+                            "i feel", "i think", "i'm", "im ", "i am", "my"]
+                        if any(indicator in prev_msg for indicator in personal_indicators) and not any(indicator in ai_text for indicator in ["you", "your", "that's"]):
+                            prompt_issues.append({
+                                "type": "missed_personal_context",
+                                "context": f"With {username}: Didn't acknowledge personal share: '{prev_msg[:30]}...'",
+                                "suggestion": "Enhance prompt to acknowledge personal shares before moving conversation forward"
+                            })
+
+                    # Check for abrupt topic changes
+                    if i > 1:
+                        prev_user_msg = history[i-1].get("text", "").lower(
+                        ) if history[i-1].get("type") != "ai" else ""
+                        prev_topic_words = set(prev_user_msg.split())
+                        current_topic_words = set(ai_text.split())
+                        common_words = prev_topic_words.intersection(
+                            current_topic_words)
+                        if prev_user_msg and len(common_words) == 0 and "?" in ai_text:
+                            prompt_issues.append({
+                                "type": "abrupt_topic_change",
+                                "context": f"With {username}: Abrupt topic change from '{prev_user_msg[:30]}...' to '{ai_text[:30]}...'",
+                                "suggestion": "Add transition phrases or acknowledgments before changing topics"
+                            })
+
+                    # Identify successful patterns
+                    if i > 0 and history[i-1].get("type") != "ai":
+                        user_msg = history[i-1].get("text", "").lower()
+
+                        # Good engagement patterns
+                        if any(phrase in ai_text for phrase in ["that's solid", "hell yeah", "lets get it"]):
+                            prompt_successes.append({
+                                "type": "authentic_engagement",
+                                "context": f"With {username}: Used Shannon's authentic phrases",
+                                "example": ai_text
+                            })
+
+                        # Good follow-up questions
+                        if "?" in ai_text and any(word in ai_text for word in user_msg.split()):
+                            prompt_successes.append({
+                                "type": "contextual_question",
+                                "context": f"With {username}: Asked relevant follow-up based on their response",
+                                "example": ai_text
+                            })
+
+                        # Good emotional mirroring
+                        user_excitement = any(phrase in user_msg for phrase in [
+                                              "!", "excited", "happy", "love"])
+                        ai_excitement = any(phrase in ai_text for phrase in [
+                                            "!", "lets go", "awesome"])
+                        if user_excitement and ai_excitement:
+                            prompt_successes.append({
+                                "type": "emotion_matching",
+                                "context": f"With {username}: Matched user's excitement level",
+                                "example": ai_text
+                            })
+
+                    # Track conversation endings
+                    if i == len(history) - 1:  # If this is the last message
+                        if len(ai_text) > 20 and "?" in ai_text and history[i-1].get("type") != "ai":
+                            prompt_issues.append({
+                                "type": "ending_with_question",
+                                "context": f"With {username}: Conversation ended with a long question",
+                                "suggestion": "Add rule to recognize conversation end signals and close naturally"
+                            })
+
+        # Display Prompt Analysis
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.write("⚠️ **Areas for Improvement**")
+            if prompt_issues:
+                # Group similar issues
+                issues_by_type = {}
+                for issue in prompt_issues:
+                    if issue["type"] not in issues_by_type:
+                        issues_by_type[issue["type"]] = []
+                    issues_by_type[issue["type"]].append(issue)
+
+                for issue_type, issues in issues_by_type.items():
+                    with st.expander(f"{issue_type.replace('_', ' ').title()} ({len(issues)})"):
+                        for issue in issues:
+                            st.write(f"**Context:** {issue['context']}")
+                            st.write(f"**Suggestion:** {issue['suggestion']}")
+            else:
+                st.info("No major issues detected in recent conversations")
+
+        with col2:
+            st.write("✅ **What's Working Well**")
+            if prompt_successes:
+                # Group successful patterns
+                successes_by_type = {}
+                for success in prompt_successes:
+                    if success["type"] not in successes_by_type:
+                        successes_by_type[success["type"]] = []
+                    successes_by_type[success["type"]].append(success)
+
+                for success_type, successes in successes_by_type.items():
+                    with st.expander(f"{success_type.replace('_', ' ').title()} ({len(successes)})"):
+                        for success in successes[:3]:  # Show top 3 examples
+                            st.write(f"**Context:** {success['context']}")
+                            if "example" in success:
+                                st.write(f"**Example:** {success['example']}")
+            else:
+                st.info("No notable successes in recent conversations")
+
+        # Prompt Improvement Suggestions
+        st.write("\n**🔄 Suggested Prompt Updates**")
+
+        # Generate specific suggestions based on patterns
+        suggestions = []
+
+        if any(i["type"] == "consecutive_questions" for i in prompt_issues):
+            suggestions.append({
+                "priority": "High",
+                "area": "Question Management",
+                "suggestion": "Add explicit rule: 'Wait for user's response before asking another question. If multiple questions are needed, combine them naturally in one message.'"
+            })
+
+        if any(i["type"] == "generic_response" for i in prompt_issues):
+            suggestions.append({
+                "priority": "Medium",
+                "area": "Response Specificity",
+                "suggestion": "Add to prompt: 'Always reference specific details from the user's message or conversation history. Avoid generic acknowledgments unless user's message is very brief.'"
+            })
+
+        if any(i["type"] == "missed_context" for i in prompt_issues):
+            suggestions.append({
+                "priority": "High",
+                "area": "Context Tracking",
+                "suggestion": "Enhance prompt with: 'Before responding, review the last 3 messages for key topics. If user mentions specific activities or goals, acknowledge and build upon them.'"
+            })
+
+        # Display suggestions in a table
+        if suggestions:
+            suggestion_df = pd.DataFrame(suggestions)
+            st.table(suggestion_df)
+        else:
+            st.info("No specific prompt improvements needed at this time")
+
+        # After the Prompt Analysis section in the Daily Report tab
+        st.divider()
+        st.subheader("💰 Sales Conversion Analysis")
+
+        # Track successful conversions
+        successful_conversions = []
+        potential_leads = []
+
+        for subscriber_id, conv_data in conversations.items():
+            metrics = conv_data.get("metrics", {})
+            history = metrics.get("conversation_history", [])
+
+            if not history:
+                continue
+
+            # Get username for context
+            username = metrics.get("ig_username", "Unknown")
+
+            # Check if they signed up
+            signed_up = metrics.get("signup_recorded", False)
+
+            # Analyze conversation patterns
+            conversation_data = {
+                "username": username,
+                "total_messages": len(history),
+                "user_messages": len([msg for msg in history if msg.get("type") != "ai"]),
+                "conversation_duration": metrics.get("conversation_duration_str", "N/A"),
+                "topics_discussed": [],
+                "key_moments": []
+            }
+
+            # Track when fitness was first mentioned
+            fitness_first_mentioned = None
+            messages_before_fitness = 0
+
+            for i, msg in enumerate(history):
+                msg_text = msg.get("text", "").lower()
+
+                # Track fitness topic emergence
+                if not fitness_first_mentioned:
+                    if any(word in msg_text for word in ["fitness", "workout", "training", "exercise", "gym"]):
+                        fitness_first_mentioned = i + 1
+                        messages_before_fitness = i
+
+                # Track key conversion moments
+                if msg.get("type") != "ai":  # Only analyze user messages
+                    msg_text = msg.get("text", "").lower()
+
+                    # Create sets to track unique moments
+                    if "key_moments" not in conversation_data:
+                        conversation_data["key_moments"] = []
+
+                    # Check for struggle mentions - be more specific
+                    struggle_words = ["struggle", "hard", "difficult", "cant", "stuck", "frustrated",
+                                      "having trouble", "not working", "failing", "giving up"]
+                    if any(word in msg_text for word in struggle_words) and not any(existing_moment.startswith("Mentioned struggle:") for existing_moment in conversation_data["key_moments"]):
+                        # Don't include Shannon's responses in the key moment
+                        user_part = msg_text.split(
+                            "+")[0] if "+" in msg_text else msg_text
+                        conversation_data["key_moments"].append(
+                            f"Mentioned struggle: '{user_part.strip()}'")
+
+                    # Check for goal mentions - be more specific
+                    goal_words = ["goal", "want to", "trying to", "hope to", "aiming for", "looking to",
+                                  "would like to", "planning to", "need to"]
+                    if any(word in msg_text for word in goal_words) and not any(existing_moment.startswith("Mentioned goal:") for existing_moment in conversation_data["key_moments"]):
+                        user_part = msg_text.split(
+                            "+")[0] if "+" in msg_text else msg_text
+                        conversation_data["key_moments"].append(
+                            f"Mentioned goal: '{user_part.strip()}'")
+
+                    # Check for timing/life event mentions - be more specific
+                    event_words = ["holiday", "wedding", "summer", "event", "trip", "vacation",
+                                   "coming up", "next month", "planning", "birthday"]
+                    if any(word in msg_text for word in event_words) and not any(existing_moment.startswith("Mentioned timing:") for existing_moment in conversation_data["key_moments"]):
+                        user_part = msg_text.split(
+                            "+")[0] if "+" in msg_text else msg_text
+                        conversation_data["key_moments"].append(
+                            f"Mentioned timing: '{user_part.strip()}'")
+
+                    # Add fitness-specific mentions
+                    fitness_words = ["gym", "workout", "training", "exercise", "fitness", "diet",
+                                     "nutrition", "weight", "muscle", "strength"]
+                    if any(word in msg_text for word in fitness_words) and not any(existing_moment.startswith("Fitness mention:") for existing_moment in conversation_data["key_moments"]):
+                        user_part = msg_text.split(
+                            "+")[0] if "+" in msg_text else msg_text
+                        conversation_data["key_moments"].append(
+                            f"Fitness mention: '{user_part.strip()}'")
+
+                    # Track questions about coaching/programs
+                    coaching_words = ["coach", "program", "membership", "sign up", "join", "cost",
+                                      "price", "how much", "what do you offer"]
+                    if any(word in msg_text for word in coaching_words) and not any(existing_moment.startswith("Asked about coaching:") for existing_moment in conversation_data["key_moments"]):
+                        user_part = msg_text.split(
+                            "+")[0] if "+" in msg_text else msg_text
+                        conversation_data["key_moments"].append(
+                            f"Asked about coaching: '{user_part.strip()}'")
+
+            conversation_data["messages_before_fitness"] = messages_before_fitness
+
+            if signed_up:
+                successful_conversions.append(conversation_data)
+            elif fitness_first_mentioned:  # They discussed fitness but haven't signed up
+                potential_leads.append(conversation_data)
+
+        # Display Conversion Insights
+        conv_cols = st.columns(2)
+
+        with conv_cols[0]:
+            st.write("✅ **Recent Successful Conversions**")
+            if successful_conversions:
+                for conv in successful_conversions:
+                    with st.expander(f"{conv['username']} - Converted"):
+                        st.write(
+                            f"**Messages Exchanged:** {conv['total_messages']}")
+                        st.write(
+                            f"**Conversation Duration:** {conv['conversation_duration']}")
+                        if conv['messages_before_fitness'] > 0:
+                            st.write(
+                                f"**Messages Before Fitness Topic:** {conv['messages_before_fitness']}")
+                        if conv['key_moments']:
+                            st.write("**Key Moments:**")
+                            for moment in conv['key_moments']:
+                                st.write(f"- {moment}")
+            else:
+                st.info("No recent conversions to analyze")
+
+        with conv_cols[1]:
+            st.write("🎯 **Active Potential Leads**")
+            if potential_leads:
+                for lead in potential_leads:
+                    with st.expander(f"{lead['username']} - Potential"):
+                        st.write(
+                            f"**Messages Exchanged:** {lead['total_messages']}")
+                        st.write(
+                            f"**Conversation Duration:** {lead['conversation_duration']}")
+                        if lead['messages_before_fitness'] > 0:
+                            st.write(
+                                f"**Messages Before Fitness Topic:** {lead['messages_before_fitness']}")
+                        if lead['key_moments']:
+                            st.write("**Key Moments:**")
+                            for moment in lead['key_moments']:
+                                st.write(f"- {moment}")
+            else:
+                st.info("No active potential leads identified")
+
+        # Conversion Pattern Insights
+        if successful_conversions:
+            st.write("\n**🔍 Conversion Pattern Insights**")
+
+            # Calculate average messages before fitness topic
+            avg_msgs_before_fitness = sum(c['messages_before_fitness']
+                                          for c in successful_conversions) / len(successful_conversions)
+
+            # Identify common key moments
+            all_key_moments = [
+                moment for conv in successful_conversions for moment in conv['key_moments']]
+            moment_types = {
+                "struggle": len([m for m in all_key_moments if "struggle" in m.lower()]),
+                "goal": len([m for m in all_key_moments if "goal" in m.lower()]),
+                "timing": len([m for m in all_key_moments if "timing" in m.lower()])
+            }
+
+            st.write(
+                f"- Average messages before fitness discussion: {avg_msgs_before_fitness:.1f}")
+            st.write("- Common conversion triggers:")
+            for moment_type, count in moment_types.items():
+                if count > 0:
+                    st.write(f"  • {moment_type.title()}: {count} occurrences")
+
+            # Suggest optimization opportunities
+            st.write("\n**💡 Optimization Opportunities**")
+            suggestions = []
+
+            if avg_msgs_before_fitness > 10:
+                suggestions.append(
+                    "Consider ways to naturally bring up fitness topics earlier in conversations")
+
+            most_common_trigger = max(
+                moment_types.items(), key=lambda x: x[1])[0]
+            suggestions.append(
+                f"Focus on identifying and engaging with {most_common_trigger}-related comments")
+
+            for suggestion in suggestions:
+                st.write(f"- {suggestion}")
+
+        # Add to the Daily Report section
+        st.divider()
+        st.subheader("🤖 Bot Activity Today")
+        daily_cols = st.columns(3)
+
+        with daily_cols[0]:
+            messages_sent_today = bot_stats.get(
+                "daily_messages_sent", {}).get(today, 0)
+            messages_responded_today = bot_stats.get(
+                "daily_messages_responded", {}).get(today, 0)
+
+            st.metric("Messages Sent", messages_sent_today)
+            st.metric("Messages Responded To", messages_responded_today)
+
+            if messages_sent_today > 0:
+                response_rate = (messages_responded_today /
+                                 messages_sent_today) * 100
+                st.metric("Today's Response Rate", f"{response_rate:.1f}%")
+
+        with daily_cols[1]:
+            # Compare with yesterday
+            yesterday = (datetime.now() - timedelta(days=1)
+                         ).strftime("%Y-%m-%d")
+            yesterday_sent = bot_stats.get(
+                "daily_messages_sent", {}).get(yesterday, 0)
+            yesterday_responded = bot_stats.get(
+                "daily_messages_responded", {}).get(yesterday, 0)
+
+            sent_change = messages_sent_today - yesterday_sent
+            responded_change = messages_responded_today - yesterday_responded
+
+            st.metric("Change in Messages Sent",
+                      sent_change,
+                      delta_color="normal")
+            st.metric("Change in Responses",
+                      responded_change,
+                      delta_color="normal")
+
+        with daily_cols[2]:
+            # Calculate peak hours
+            if messages_sent_today > 0:
+                st.write("**Peak Activity Hours:**")
+                # This would require adding hour tracking to the bot message stats
+                st.info("Hour tracking will be implemented in future updates")
+
+    else:
+        st.info("No conversations to analyze in the last 24 hours.")
+
+
+# Analytics Export tab
+with tabs[3]:
+    st.header("Export Analytics Data")
+    st.write(
+        f"This will export the currently loaded data from {os.path.basename(ANALYTICS_FILE_PATH)}.")
+
+    # Default export path in the same directory as the script or a subfolder
+    default_export_filename = f"analytics_export_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+    default_export_path = os.path.join(os.path.dirname(
+        __file__) if "__file__" in locals() else ".", default_export_filename)
+
+    export_file = st.text_input("Export File Path", default_export_path)
+
+    if st.button("Export Current Data"):
+        # Check if data isn't empty
+        if analytics_data and (analytics_data["global_metrics"] or analytics_data["conversations"]):
+            try:
+                # Ensure directory exists before writing
+                abs_export_path = os.path.abspath(export_file)
+                os.makedirs(os.path.dirname(abs_export_path), exist_ok=True)
+                with open(abs_export_path, "w") as f:
+                    json.dump(analytics_data, f, indent=2)
+                st.success(
+                    f"Current analytics data exported successfully to {abs_export_path}")
+            except IOError as e:
+                st.error(f"Error writing file: {e}")
+            except Exception as e:
+                st.error(f"An unexpected error occurred during export: {e}")
+        else:
+            st.error(
+                "No analytics data loaded to export. Ensure the source file exists and contains data.")
+
+
+# Footer
+st.markdown("---")
+st.markdown("Analytics Dashboard | Reading from: " +
+            os.path.abspath(ANALYTICS_FILE_PATH))
+st.markdown("Last updated: " + datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+
+
+# Auto-refresh logic
+if auto_refresh:
+    # Rerun the script after the interval
+    time.sleep(refresh_interval)
+    st.rerun()
+
+# Test Gemini follow-up message generation
+with st.expander("Test Gemini Follow-up Message Generator"):
+    st.write(
+        "Test the Gemini-powered follow-up message generation with the current conversation.")
+
+    # Button to generate a follow-up message
+    if st.button("Generate Follow-up Message"):
+        with st.spinner("Generating message with Gemini..."):
+            try:
+                # Get the current user's conversation data
+                if not selected_display_name:
+                    st.warning(
+                        "Please select a conversation in the Conversation Interface first.")
+                else:
+                    conversation_data = conversations[subscriber_id_to_lookup]
+
+                    # Get follow-up message using Gemini
+                    ai_message = generate_ai_follow_up_message(
+                        conversation_data)
+
+                    # Get standard follow-up message for comparison
+                    standard_message = generate_follow_up_message(
+                        conversation_data)
+
+                    # Display both messages
+                    st.success("Messages generated successfully!")
+
+                    col1, col2 = st.columns(2)
+                    with col1:
+                        st.subheader("Gemini-generated Message")
+                        st.info(ai_message)
+
+                    with col2:
+                        st.subheader("Standard Template Message")
+                        st.info(standard_message)
+
+                        # Display conversation history used
+                        st.subheader("Conversation History Used")
+                        history = conversation_data.get(
+                            "conversation_history", [])
+                        for msg in history:
+                            sender = "Coach" if msg.get(
+                                "type") == "ai" else "Client"
+                            st.text(f"{sender}: {msg.get('text', '')}")
+
+            except Exception as e:
+                st.error(f"Error generating message: {str(e)}")
+                if "GEMINI_API_KEY" not in os.environ and not hasattr(st.secrets, "GEMINI_API_KEY"):
+                    st.error(
+                        "GEMINI_API_KEY not found. Please add it to your environment variables or Streamlit secrets.")

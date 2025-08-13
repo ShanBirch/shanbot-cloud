@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T15:31:33.996926",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T15:31:14.689671",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by ninas_nutrition is an infographic in Swedish about 7 things to avoid eating or drinking if you suffer from migraines. The list includes alcohol, cold food/drinks like ice cream and milkshakes, tannins found in wine and red apples, additives like yeast extract and glutamate, chocolate, caffeine, and nitrites found in cured meats. The graphic features a stylized image of a brain in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from ninas_nutrition about natural remedies for headaches. It includes recipes and suggestions using ingredients like salt, lemon, olive oil, rosemary, honey, and apple cider vinegar. It also mentions other helpful teas like chamomile, mint, ginger, and passionflower.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post from ninas_nutrition about 6 natural remedies: turmeric, peppermint, chamomile, lavender, echinacea, and garlic. The post describes the potential benefits of each remedy.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by ninas_nutrition about mindfulness. It lists 3 tips for mindfulness exercises: mindful presence, breathing exercises, and body awareness. The image also features a stack of stones with the words \"mind,\" \"body,\" and \"soul\" written on them.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The Instagram post by ninas_nutrition provides \"5 Tips for Easier Toilet Visits\" in Swedish. The tips include drinking water, consuming probiotics, swapping white bread for brown, walking, and using a \"poop stool\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by ninas_nutrition, presenting \"5 Easy & Fun Health Tips.\" The tips are visually represented with images and short descriptions, covering topics like organizing the refrigerator, wearing workout clothes while cleaning, using a balance board, using noise-canceling headphones, and increasing walking speed.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Specific remedies:** Asking about personal experiences with any of the mentioned remedies or sharing a personal favorite natural headache cure.",
+          "2.  **Tea preferences:** Inquiring about their favorite type of tea for relaxation or headache relief, or asking for recommendations.",
+          "1.  **Specific uses of the remedies:** Ask about her personal experiences or recommendations for using any of the listed remedies for a specific ailment (e.g., \"Have you found lavender oil to be effective for sleep problems?\").",
+          "2.  **Other natural remedies:** Inquire about other natural remedies she recommends or uses personally that weren't mentioned in the post (e.g., \"Are there any other natural remedies you would recommend for boosting the immune system during cold season?\").",
+          "1.  Mindfulness practices: Ask about the person's experience with mindfulness, if they practice it, and what benefits they have noticed."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That migraine info is super helpful! 🧠",
+        "profile_bio": {
+          "PERSON NAME": "Nina (Based on username 'ninas_nutrition')",
+          "INTERESTS": [
+            "Nutrition",
+            "Natural Remedies",
+            "Migraine Relief",
+            "Mindfulness",
+            "Digestive Health"
+          ],
+          "LIFESTYLE": "Likely a health-conscious individual who focuses on natural approaches to wellness. She seems to be interested in sharing practical tips and information about nutrition, mindfulness, and natural remedies for common ailments. Potentially a nutrition professional or someone passionate about healthy living.",
+          "CONVERSATION STARTERS": [
+            "Have you personally found any of the migraine-trigger foods to be particularly problematic for you?",
+            "What's your favorite type of tea for relaxation, and do you have any recommendations for someone new to herbal teas?",
+            "Have you found lavender oil to be effective for sleep problems, and if so, how do you typically use it?",
+            "Are there any other natural remedies you would recommend for boosting the immune system during cold season?",
+            "What benefits have you noticed from practicing mindfulness, and do you have any tips for beginners?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Informative",
+            "Helpful",
+            "Holistic",
+            "Practical"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Specific remedies:** Asking about personal experiences with any of the mentioned remedies or sharing a personal favorite natural headache cure.",
+        "2.  **Tea preferences:** Inquiring about their favorite type of tea for relaxation or headache relief, or asking for recommendations.",
+        "1.  **Specific uses of the remedies:** Ask about her personal experiences or recommendations for using any of the listed remedies for a specific ailment (e.g., \"Have you found lavender oil to be effective for sleep problems?\").",
+        "2.  **Other natural remedies:** Inquire about other natural remedies she recommends or uses personally that weren't mentioned in the post (e.g., \"Are there any other natural remedies you would recommend for boosting the immune system during cold season?\").",
+        "1.  Mindfulness practices: Ask about the person's experience with mindfulness, if they practice it, and what benefits they have noticed."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

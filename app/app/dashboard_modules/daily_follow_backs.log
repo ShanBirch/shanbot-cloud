@@ -1,0 +1,2773 @@
+2025-06-18 12:48:14,006 - INFO - 🚀 Starting Daily Follow-Back Analysis...
+2025-06-18 12:48:16,384 - INFO - Chrome driver initialized with stealth settings using a temporary profile.
+2025-06-18 12:48:16,426 - INFO - 📊 Analyzing follow-backs for users followed on: 2025-06-17
+2025-06-18 12:48:16,427 - INFO - 🔐 Navigating to login page...
+2025-06-18 12:48:22,687 - INFO - Attempting login...
+2025-06-18 12:48:22,723 - INFO - Found username field with selector: name=username
+2025-06-18 12:48:22,903 - INFO - Entered username: cocos_pt_studio
+2025-06-18 12:48:24,636 - INFO - Found password field with selector: name=password
+2025-06-18 12:48:24,795 - INFO - Entered password
+2025-06-18 12:48:26,716 - ERROR - ❌ Could not find login button with any selector
+2025-06-18 12:48:26,717 - ERROR - ❌ Failed to login to Instagram. Exiting.
+2025-06-18 12:48:28,750 - INFO - WebDriver closed.
+2025-06-18 12:48:28,848 - INFO - Cleaned up temporary user data directory: C:\Users\Shannon\AppData\Local\Temp\tmp6c9lhyuq
+2025-06-18 12:53:55,668 - INFO - 🚀 Starting Daily Follow-Back Analysis...
+2025-06-18 12:53:58,315 - INFO - Chrome driver initialized with stealth settings using a temporary profile.
+2025-06-18 12:53:58,326 - INFO - 📊 Analyzing follow-backs for users followed on: 2025-06-16
+2025-06-18 12:53:58,326 - INFO - 🔐 Navigating to login page...
+2025-06-18 12:54:04,617 - INFO - Attempting login...
+2025-06-18 12:54:04,760 - INFO - Found username field with selector: name=username
+2025-06-18 12:54:04,966 - INFO - Entered username: cocos_connected
+2025-06-18 12:54:06,214 - INFO - Found password field with selector: name=password
+2025-06-18 12:54:06,367 - INFO - Entered password
+2025-06-18 12:54:07,675 - INFO - Found login button with selector: xpath=//button[@type='submit']
+2025-06-18 12:54:07,676 - INFO - Attempting standard click on login button...
+2025-06-18 12:54:16,781 - WARNING - Still on login page after standard click. Trying JS click...
+2025-06-18 12:54:16,781 - INFO - Attempting JavaScript click on login button...
+2025-06-18 12:54:24,811 - INFO - ✅ Login successful after JavaScript click.
+2025-06-18 12:54:56,023 - INFO - 🔍 Attempting to scrape Followers...
+2025-06-18 12:55:01,488 - INFO - Found Followers link with count: 7711
+2025-06-18 12:55:02,575 - ERROR - ❌ An error occurred while scraping Followers: Message: element click intercepted: Element <a class="x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x5n08af x9n4tj2 _a6hd" href="/cocos_connected/followers/" role="link" tabindex="0">...</a> is not clickable at point (373, 464). Other element would receive the click: <span class="x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs xt0psk2 x1i0vuye xvs91rp x1s688f x5n08af x10wh9bi xpm28yp x8viiok x1o7cslx" style="line-height: 18px;">...</span>
+  (Session info: chrome=137.0.7151.104)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64fcbcda5+78885]
+	GetHandleVerifier [0x0x7ff64fcbce00+78976]
+	(No symbol) [0x0x7ff64fa79bca]
+	(No symbol) [0x0x7ff64fad8779]
+	(No symbol) [0x0x7ff64fad6112]
+	(No symbol) [0x0x7ff64fad3151]
+	(No symbol) [0x0x7ff64fad2041]
+	(No symbol) [0x0x7ff64fac3654]
+	(No symbol) [0x0x7ff64faf8b8a]
+	(No symbol) [0x0x7ff64fac2f06]
+	(No symbol) [0x0x7ff64faf8da0]
+	(No symbol) [0x0x7ff64fb2122f]
+	(No symbol) [0x0x7ff64faf8963]
+	(No symbol) [0x0x7ff64fac16b1]
+	(No symbol) [0x0x7ff64fac2443]
+	GetHandleVerifier [0x0x7ff64ff94eed+3061101]
+	GetHandleVerifier [0x0x7ff64ff8f33d+3037629]
+	GetHandleVerifier [0x0x7ff64ffae592+3165202]
+	GetHandleVerifier [0x0x7ff64fcd730e+186766]
+	GetHandleVerifier [0x0x7ff64fcdeb3f+217535]
+	GetHandleVerifier [0x0x7ff64fcc59b4+114740]
+	GetHandleVerifier [0x0x7ff64fcc5b69+115177]
+	GetHandleVerifier [0x0x7ff64fcac368+10728]
+	BaseThreadInitThunk [0x0x7ffd6218e8d7+23]
+	RtlUserThreadStart [0x0x7ffd633dc34c+44]
+
+2025-06-18 12:55:03,681 - INFO - ✅ Finished scraping Followers. Found 0 users.
+2025-06-18 12:55:03,681 - INFO - Currently have 0 followers.
+2025-06-18 12:55:03,682 - CRITICAL - A critical error occurred during daily follow-back analysis: unable to open database file
+2025-06-18 12:55:05,936 - INFO - WebDriver closed.
+2025-06-18 12:55:06,076 - INFO - Cleaned up temporary user data directory: C:\Users\Shannon\AppData\Local\Temp\tmp7rplr_7c
+2025-06-18 13:01:08,638 - INFO - 🚀 Starting Daily Follow-Back Analysis...
+2025-06-18 13:01:11,563 - INFO - Chrome driver initialized with stealth settings using a temporary profile.
+2025-06-18 13:01:11,594 - INFO - 📊 Analyzing follow-backs for users followed on: 2025-06-17
+2025-06-18 13:01:11,595 - INFO - 🔐 Navigating to login page...
+2025-06-18 13:01:17,728 - INFO - Attempting login...
+2025-06-18 13:01:17,853 - INFO - Found username field with selector: name=username
+2025-06-18 13:01:18,036 - INFO - Entered username: cocos_connected
+2025-06-18 13:01:19,074 - INFO - Found password field with selector: name=password
+2025-06-18 13:01:19,202 - INFO - Entered password
+2025-06-18 13:01:20,794 - INFO - Found login button with selector: xpath=//button[@type='submit']
+2025-06-18 13:01:20,794 - INFO - Attempting standard click on login button...
+2025-06-18 13:01:30,795 - INFO - ✅ Login successful after standard click.
+2025-06-18 13:02:37,201 - INFO - 🔍 Attempting to scrape Followers...
+2025-06-18 13:03:16,418 - INFO - Found Followers link with count: 7711
+2025-06-18 13:03:17,569 - WARNING - Direct click failed, attempting JavaScript click: Message: element click intercepted: Element <a class="x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x5n08af x9n4tj2 _a6hd" href="/cocos_connected/followers/" role="link" tabindex="0">...</a> is not clickable at point (373, 464). Other element would receive the click: <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="12.003" x2="12.003" y1="6.545" y2="17.455"></line>
+  (Session info: chrome=137.0.7151.104)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61d22cda5+78885]
+	GetHandleVerifier [0x0x7ff61d22ce00+78976]
+	(No symbol) [0x0x7ff61cfe9bca]
+	(No symbol) [0x0x7ff61d048779]
+	(No symbol) [0x0x7ff61d046112]
+	(No symbol) [0x0x7ff61d043151]
+	(No symbol) [0x0x7ff61d042041]
+	(No symbol) [0x0x7ff61d033654]
+	(No symbol) [0x0x7ff61d068b8a]
+	(No symbol) [0x0x7ff61d032f06]
+	(No symbol) [0x0x7ff61d068da0]
+	(No symbol) [0x0x7ff61d09122f]
+	(No symbol) [0x0x7ff61d068963]
+	(No symbol) [0x0x7ff61d0316b1]
+	(No symbol) [0x0x7ff61d032443]
+	GetHandleVerifier [0x0x7ff61d504eed+3061101]
+	GetHandleVerifier [0x0x7ff61d4ff33d+3037629]
+	GetHandleVerifier [0x0x7ff61d51e592+3165202]
+	GetHandleVerifier [0x0x7ff61d24730e+186766]
+	GetHandleVerifier [0x0x7ff61d24eb3f+217535]
+	GetHandleVerifier [0x0x7ff61d2359b4+114740]
+	GetHandleVerifier [0x0x7ff61d235b69+115177]
+	GetHandleVerifier [0x0x7ff61d21c368+10728]
+	BaseThreadInitThunk [0x0x7ffd6218e8d7+23]
+	RtlUserThreadStart [0x0x7ffd633dc34c+44]
+
+2025-06-18 13:03:31,313 - WARNING - Could not find standard scrollable modal, trying alternative.
+2025-06-18 13:03:31,343 - INFO - Estimated scrolls: 776, Capped at: 100
+2025-06-18 13:03:31,557 - INFO - Collected 12/7711 users so far. Scrolling... (Attempt 1/100)
+2025-06-18 13:03:34,631 - INFO - Reached end of scroll or max scroll attempts.
+2025-06-18 13:03:35,751 - INFO - ✅ Finished scraping Followers. Found 12 users.
+2025-06-18 13:03:35,751 - INFO - Currently have 12 followers.
+2025-06-18 13:03:35,752 - CRITICAL - A critical error occurred during daily follow-back analysis: unable to open database file
+2025-06-18 13:03:38,097 - INFO - WebDriver closed.
+2025-06-18 13:03:38,324 - INFO - Cleaned up temporary user data directory: C:\Users\Shannon\AppData\Local\Temp\tmpbo3i2l5j
+2025-06-18 13:15:52,456 - INFO - 🚀 Starting Daily Follow-Back Analysis...
+2025-06-18 13:15:55,333 - INFO - Chrome driver initialized with stealth settings using a temporary profile.
+2025-06-18 13:15:55,372 - INFO - 📊 Analyzing follow-backs for users followed on: 2025-06-17
+2025-06-18 13:15:55,373 - INFO - 🔐 Navigating to login page...
+2025-06-18 13:16:01,574 - INFO - Attempting login...
+2025-06-18 13:16:01,689 - INFO - Found username field with selector: name=username
+2025-06-18 13:16:01,867 - INFO - Entered username: cocos_connected
+2025-06-18 13:16:03,108 - INFO - Found password field with selector: name=password
+2025-06-18 13:16:03,248 - INFO - Entered password
+2025-06-18 13:16:04,385 - INFO - Found login button with selector: xpath=//button[@type='submit']
+2025-06-18 13:16:04,386 - INFO - Attempting standard click on login button...
+2025-06-18 13:16:13,550 - INFO - ✅ Login successful after standard click.
+2025-06-18 13:16:51,544 - INFO - Attempting click on Generic Dismiss via //div[@role='button'][contains(@tabindex, '0') and not(contains(text(), 'Log in')) and not(contains(text(), 'Sign up'))]
+2025-06-18 13:16:54,205 - INFO - ✅ Dismissed Generic Dismiss popup via JS click
+2025-06-18 13:17:32,956 - INFO - Attempting click on Generic Dismiss via //div[@role='button'][contains(@tabindex, '0') and not(contains(text(), 'Log in')) and not(contains(text(), 'Sign up'))]
+2025-06-18 13:17:32,979 - INFO - ✅ Dismissed Generic Dismiss popup via JS click
+2025-06-18 13:17:36,526 - INFO - Attempting to close any open modals...
+2025-06-18 13:17:45,157 - INFO - No explicit close button found, trying ESC key.
+2025-06-18 13:17:48,010 - CRITICAL - A critical error occurred during daily follow-back analysis: unable to open database file
+2025-06-18 13:17:50,460 - INFO - WebDriver closed.
+2025-06-18 13:17:50,774 - INFO - Cleaned up temporary user data directory: C:\Users\Shannon\AppData\Local\Temp\tmpvjonwlci
+2025-06-23 14:27:49,870 - INFO - 🚀 Starting Daily Follow-Back Analysis...
+2025-06-23 14:27:54,530 - INFO - Chrome driver initialized with stealth settings using a temporary profile.
+2025-06-23 14:27:54,530 - INFO - 📊 Analyzing follow-backs for users followed on: 2025-06-22
+2025-06-23 14:27:54,530 - INFO - 🔐 Navigating to login page...
+2025-06-23 14:28:00,853 - INFO - Attempting login...
+2025-06-23 14:28:00,937 - INFO - Found username field with selector: name=username
+2025-06-23 14:28:01,173 - INFO - Entered username: cocos_connected
+2025-06-23 14:28:03,158 - INFO - Found password field with selector: name=password
+2025-06-23 14:28:03,361 - INFO - Entered password
+2025-06-23 14:28:05,049 - INFO - Found login button with selector: xpath=//button[@type='submit']
+2025-06-23 14:28:05,049 - INFO - Attempting standard click on login button...
+2025-06-23 14:28:14,456 - INFO - ✅ Login successful after standard click.
+2025-06-23 14:28:14,456 - INFO - ✅ Login successful! Navigating to main feed...
+2025-06-23 14:28:28,698 - INFO - 📋 Checking for any remaining popups...
+2025-06-23 14:28:31,877 - CRITICAL - A critical error occurred during daily follow-back analysis: unable to open database file
+2025-06-23 14:28:35,178 - INFO - WebDriver closed.
+2025-06-23 14:28:35,367 - INFO - Cleaned up temporary user data directory: C:\Users\Shannon\AppData\Local\Temp\tmpgk9extbt
+2025-06-23 14:33:57,321 - INFO - 🚀 Starting Daily Follow-Back Analysis...
+2025-06-23 14:33:59,643 - INFO - Chrome driver initialized with stealth settings using a temporary profile.
+2025-06-23 14:33:59,643 - INFO - 📊 Analyzing follow-backs for users followed on: 2025-06-22
+2025-06-23 14:33:59,643 - INFO - 🔐 Navigating to login page...
+2025-06-23 14:34:06,358 - INFO - Attempting login...
+2025-06-23 14:34:06,430 - INFO - Found username field with selector: name=username
+2025-06-23 14:34:06,729 - INFO - Entered username: cocos_connected
+2025-06-23 14:34:08,024 - INFO - Found password field with selector: name=password
+2025-06-23 14:34:08,240 - INFO - Entered password
+2025-06-23 14:34:09,876 - INFO - Found login button with selector: xpath=//button[@type='submit']
+2025-06-23 14:34:09,876 - INFO - Attempting standard click on login button...
+2025-06-23 14:34:19,236 - INFO - ✅ Login successful after standard click.
+2025-06-23 14:34:19,239 - INFO - ✅ Login successful! Navigating to main feed...
+2025-06-23 14:34:32,279 - INFO - 📋 Checking for any remaining popups...
+2025-06-23 14:34:35,418 - CRITICAL - A critical error occurred during daily follow-back analysis: unable to open database file
+2025-06-23 14:34:38,709 - INFO - WebDriver closed.
+2025-06-23 14:34:38,998 - INFO - Cleaned up temporary user data directory: C:\Users\Shannon\AppData\Local\Temp\tmpca2uuydc
+2025-06-24 12:45:33,539 - INFO - 🚀 Starting Daily Follow-Back Analysis...
+2025-06-24 12:45:34,029 - WARNING - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+2025-06-24 12:45:34,029 - WARNING - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2025-06-24 12:45:36,228 - INFO - Chrome driver initialized with stealth settings using a temporary profile.
+2025-06-24 12:45:36,229 - INFO - 📊 Analyzing follow-backs for users followed on: 2025-06-23
+2025-06-24 12:45:36,229 - INFO - 🔐 Navigating to login page...
+2025-06-24 12:45:41,439 - INFO - Attempting login...
+2025-06-24 12:45:41,555 - ERROR - ❌ Could not find username field with any selector
+2025-06-24 12:45:41,556 - ERROR - ❌ Failed to login. Stopping follow session.
+2025-06-24 12:45:41,556 - INFO - Follow run completed with status: failed, users_followed: 0
+2025-06-24 12:45:41,556 - INFO - Error message: Failed to login to Instagram
+2025-06-24 12:45:43,762 - INFO - WebDriver closed.
+2025-06-24 12:45:43,834 - INFO - Cleaned up temporary user data directory: C:\Users\Shannon\AppData\Local\Temp\tmp36ljxxde
+2025-06-24 12:45:51,967 - INFO - 🚀 Starting Daily Follow-Back Analysis...
+2025-06-24 12:45:52,171 - WARNING - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+2025-06-24 12:45:54,169 - INFO - Chrome driver initialized with stealth settings using a temporary profile.
+2025-06-24 12:45:54,169 - INFO - 📊 Analyzing follow-backs for users followed on: 2025-06-23
+2025-06-24 12:45:54,169 - INFO - 🔐 Navigating to login page...
+2025-06-24 12:45:54,481 - ERROR - ❌ Error during login: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a9e7fe75+79173]
+	GetHandleVerifier [0x0x7ff6a9e7fed0+79264]
+	(No symbol) [0x0x7ff6a9c39e5a]
+	(No symbol) [0x0x7ff6a9c36874]
+	(No symbol) [0x0x7ff6a9c27589]
+	(No symbol) [0x0x7ff6a9c29331]
+	(No symbol) [0x0x7ff6a9c278a6]
+	(No symbol) [0x0x7ff6a9c27306]
+	(No symbol) [0x0x7ff6a9c26fca]
+	(No symbol) [0x0x7ff6a9c24b9f]
+	(No symbol) [0x0x7ff6a9c2541c]
+	(No symbol) [0x0x7ff6a9c3de0a]
+	(No symbol) [0x0x7ff6a9ce1dfe]
+	(No symbol) [0x0x7ff6a9cb896a]
+	(No symbol) [0x0x7ff6a9ce100d]
+	(No symbol) [0x0x7ff6a9cb8743]
+	(No symbol) [0x0x7ff6a9c814c1]
+	(No symbol) [0x0x7ff6a9c82253]
+	GetHandleVerifier [0x0x7ff6aa14a2ad+3004797]
+	GetHandleVerifier [0x0x7ff6aa1446fd+2981325]
+	GetHandleVerifier [0x0x7ff6aa163350+3107360]
+	GetHandleVerifier [0x0x7ff6a9e9a9fe+188622]
+	GetHandleVerifier [0x0x7ff6a9ea228f+219487]
+	GetHandleVerifier [0x0x7ff6a9e88dc4+115860]
+	GetHandleVerifier [0x0x7ff6a9e88f79+116297]
+	GetHandleVerifier [0x0x7ff6a9e6f528+11256]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 12:45:54,481 - ERROR - ❌ Failed to login. Stopping follow session.
+2025-06-24 12:45:54,481 - INFO - Follow run completed with status: failed, users_followed: 0
+2025-06-24 12:45:54,482 - INFO - Error message: Failed to login to Instagram
+2025-06-24 12:45:56,709 - INFO - WebDriver closed.
+2025-06-24 12:45:56,756 - INFO - Cleaned up temporary user data directory: C:\Users\Shannon\AppData\Local\Temp\tmp0alq4ok3
+2025-06-24 12:51:44,757 - INFO - 🚀 Starting Daily Follow-Back Analysis...
+2025-06-24 12:51:47,755 - INFO - Chrome driver initialized with stealth settings using a temporary profile.
+2025-06-24 12:51:47,756 - INFO - 📊 Analyzing follow-backs for users followed on: 2025-06-23
+2025-06-24 12:51:47,756 - INFO - 🔐 Navigating to login page...
+2025-06-24 12:51:54,222 - INFO - Attempting login...
+2025-06-24 12:51:54,314 - INFO - Found username field with selector: name=username
+2025-06-24 12:51:54,461 - INFO - Entered username: cocos_connected
+2025-06-24 12:51:55,767 - INFO - Found password field with selector: name=password
+2025-06-24 12:51:55,915 - INFO - Entered password
+2025-06-24 12:51:57,371 - INFO - Found login button with selector: xpath=//button[@type='submit']
+2025-06-24 12:51:57,371 - INFO - Attempting standard click on login button...
+2025-06-24 12:52:07,179 - INFO - ✅ Login successful after standard click.
+2025-06-24 12:52:07,180 - INFO - ✅ Login successful! Navigating to main feed...
+2025-06-24 12:52:19,701 - INFO - 📋 Checking for any remaining popups...
+2025-06-24 12:52:22,790 - CRITICAL - A critical error occurred during daily follow-back analysis: unable to open database file
+2025-06-24 12:52:26,109 - INFO - WebDriver closed.
+2025-06-24 12:52:26,261 - INFO - Cleaned up temporary user data directory: C:\Users\Shannon\AppData\Local\Temp\tmpykicj9b3
+2025-06-24 12:53:59,746 - INFO - 🚀 Starting Daily Follow-Back Analysis...
+2025-06-24 12:54:02,201 - INFO - Chrome driver initialized with stealth settings using a temporary profile.
+2025-06-24 12:54:02,201 - INFO - 📊 Analyzing follow-backs for users followed on: 2025-06-23
+2025-06-24 12:54:02,201 - INFO - 🔐 Navigating to login page...
+2025-06-24 12:54:08,302 - INFO - Attempting login...
+2025-06-24 12:54:08,400 - INFO - Found username field with selector: name=username
+2025-06-24 12:54:08,574 - INFO - Entered username: cocos_connected
+2025-06-24 12:54:10,293 - INFO - Found password field with selector: name=password
+2025-06-24 12:54:10,425 - INFO - Entered password
+2025-06-24 12:54:12,416 - INFO - Found login button with selector: xpath=//button[@type='submit']
+2025-06-24 12:54:12,416 - INFO - Attempting standard click on login button...
+2025-06-24 12:54:21,532 - INFO - ✅ Login successful after standard click.
+2025-06-24 12:54:21,533 - INFO - ✅ Login successful! Navigating to main feed...
+2025-06-24 12:54:34,163 - INFO - 📋 Checking for any remaining popups...
+2025-06-24 12:54:37,265 - CRITICAL - A critical error occurred during daily follow-back analysis: unable to open database file
+2025-06-24 12:54:40,535 - INFO - WebDriver closed.
+2025-06-24 12:54:40,745 - INFO - Cleaned up temporary user data directory: C:\Users\Shannon\AppData\Local\Temp\tmp7b_qv51g
+2025-06-24 13:04:02,888 - INFO - 🚀 Starting Daily Follow-Back Analysis...
+2025-06-24 13:04:05,095 - INFO - Chrome driver initialized with stealth settings using a temporary profile.
+2025-06-24 13:04:05,096 - INFO - 📊 Analyzing follow-backs for users followed on: 2025-06-23
+2025-06-24 13:04:05,096 - INFO - 🔐 Navigating to login page...
+2025-06-24 13:04:11,397 - INFO - Attempting login...
+2025-06-24 13:04:11,444 - INFO - Found username field with selector: name=username
+2025-06-24 13:04:11,685 - INFO - Entered username: cocos_connected
+2025-06-24 13:04:12,876 - INFO - Found password field with selector: name=password
+2025-06-24 13:04:13,038 - INFO - Entered password
+2025-06-24 13:04:14,278 - INFO - Found login button with selector: xpath=//button[@type='submit']
+2025-06-24 13:04:14,279 - INFO - Attempting standard click on login button...
+2025-06-24 13:04:23,418 - INFO - ✅ Login successful after standard click.
+2025-06-24 13:04:23,418 - INFO - ✅ Login successful! Navigating to main feed...
+2025-06-24 13:04:35,051 - INFO - 📋 Checking for any remaining popups...
+2025-06-24 13:04:38,144 - CRITICAL - A critical error occurred during daily follow-back analysis: unable to open database file
+2025-06-24 13:04:41,412 - INFO - WebDriver closed.
+2025-06-24 13:04:41,613 - INFO - Cleaned up temporary user data directory: C:\Users\Shannon\AppData\Local\Temp\tmphk3ijfnm
+2025-06-24 14:21:20,633 - INFO - 🚀 Starting Daily Follow-Back Analysis...
+2025-06-24 14:21:23,391 - INFO - Chrome driver initialized with stealth settings using a temporary profile.
+2025-06-24 14:21:23,391 - INFO - 📊 Analyzing follow-backs for users followed on: 2025-06-23
+2025-06-24 14:21:23,391 - INFO - 🔐 Navigating to login page...
+2025-06-24 14:21:29,450 - INFO - Attempting login...
+2025-06-24 14:21:29,481 - INFO - Found username field with selector: name=username
+2025-06-24 14:21:29,622 - INFO - Entered username: cocos_connected
+2025-06-24 14:21:31,192 - INFO - Found password field with selector: name=password
+2025-06-24 14:21:31,288 - INFO - Entered password
+2025-06-24 14:21:32,332 - INFO - Found login button with selector: xpath=//button[@type='submit']
+2025-06-24 14:21:32,333 - INFO - Attempting standard click on login button...
+2025-06-24 14:21:41,471 - INFO - ✅ Login successful after standard click.
+2025-06-24 14:21:41,471 - INFO - ✅ Login successful! Navigating to main feed...
+2025-06-24 14:21:53,545 - INFO - 📋 Checking for any remaining popups...
+2025-06-24 14:21:56,672 - CRITICAL - A critical error occurred during daily follow-back analysis: unable to open database file
+2025-06-24 14:21:59,880 - INFO - WebDriver closed.
+2025-06-24 14:21:59,988 - INFO - Cleaned up temporary user data directory: C:\Users\Shannon\AppData\Local\Temp\tmpkv293sw0
+2025-06-24 14:24:14,976 - INFO - 🚀 Starting Daily Follow-Back Analysis...
+2025-06-24 14:24:16,960 - INFO - Chrome driver initialized with stealth settings using a temporary profile.
+2025-06-24 14:24:16,960 - INFO - 📊 Analyzing follow-backs for users followed on: 2025-06-23
+2025-06-24 14:24:16,960 - INFO - 🔐 Navigating to login page...
+2025-06-24 14:24:23,104 - INFO - Attempting login...
+2025-06-24 14:24:23,156 - INFO - Found username field with selector: name=username
+2025-06-24 14:24:23,276 - INFO - Entered username: cocos_connected
+2025-06-24 14:24:24,548 - INFO - Found password field with selector: name=password
+2025-06-24 14:24:24,652 - INFO - Entered password
+2025-06-24 14:24:26,249 - INFO - Found login button with selector: xpath=//button[@type='submit']
+2025-06-24 14:24:26,250 - INFO - Attempting standard click on login button...
+2025-06-24 14:24:35,393 - INFO - ✅ Login successful after standard click.
+2025-06-24 14:24:35,396 - INFO - ✅ Login successful! Navigating to main feed...
+2025-06-24 14:24:46,587 - INFO - 📋 Checking for any remaining popups...
+2025-06-24 14:24:49,687 - INFO - Found 76 users followed on 2025-06-23 to check.
+2025-06-24 14:24:49,687 - INFO - 🔄 Processing @paulloski7 for follow-back status...
+2025-06-24 14:24:49,687 - INFO - Checking if @paulloski7 is following back @cocos_connected...
+2025-06-24 14:24:56,877 - INFO - 🎯 Found following link, clicking to open following list...
+2025-06-24 14:24:56,972 - INFO - ✅ Successfully clicked following link for @paulloski7
+2025-06-24 14:24:56,973 - INFO - ⏳ Waiting for following modal to load...
+2025-06-24 14:25:20,358 - WARNING - Could not find standard scrollable modal for followers, trying alternative.
+2025-06-24 14:25:20,372 - INFO - Found alternative scrollable modal.
+2025-06-24 14:25:28,891 - INFO - ❌ @cocos_connected not found in @paulloski7's followers after 0 scrolls.
+2025-06-24 14:25:43,901 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 14:26:01,189 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 14:26:18,161 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 14:26:21,253 - INFO - ❌ @paulloski7 has NOT followed back.
+2025-06-24 14:26:21,253 - INFO - Attempting to unfollow @paulloski7...
+2025-06-24 14:26:29,218 - INFO - 🎯 Found Following button, clicking to unfollow @paulloski7...
+2025-06-24 14:26:29,305 - INFO - Clicked 'Following' button for @paulloski7.
+2025-06-24 14:26:32,644 - INFO - 🎯 Found Unfollow button, confirming unfollow for @paulloski7...
+2025-06-24 14:26:32,708 - INFO - ✅ Successfully unfollowed @paulloski7.
+2025-06-24 14:26:38,466 - INFO - ➡ Unfollowed @paulloski7. Unfollows today: 1/50
+2025-06-24 14:26:46,127 - INFO - 🔄 Processing @msmculley for follow-back status...
+2025-06-24 14:26:46,128 - INFO - Checking if @msmculley is following back @cocos_connected...
+2025-06-24 14:26:54,266 - INFO - 🎯 Found following link, clicking to open following list...
+2025-06-24 14:26:54,369 - INFO - ✅ Successfully clicked following link for @msmculley
+2025-06-24 14:26:54,369 - INFO - ⏳ Waiting for following modal to load...
+2025-06-24 14:27:17,408 - WARNING - Could not find standard scrollable modal for followers, trying alternative.
+2025-06-24 14:27:17,421 - INFO - Found alternative scrollable modal.
+2025-06-24 14:27:25,840 - INFO - ❌ @cocos_connected not found in @msmculley's followers after 0 scrolls.
+2025-06-24 14:27:40,755 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 14:27:58,262 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 14:28:15,360 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 14:28:18,441 - INFO - ❌ @msmculley has NOT followed back.
+2025-06-24 14:28:18,442 - INFO - Attempting to unfollow @msmculley...
+2025-06-24 14:28:25,544 - INFO - 🎯 Found Following button, clicking to unfollow @msmculley...
+2025-06-24 14:28:25,630 - INFO - Clicked 'Following' button for @msmculley.
+2025-06-24 14:28:29,050 - INFO - 🎯 Found Unfollow button, confirming unfollow for @msmculley...
+2025-06-24 14:28:29,153 - INFO - ✅ Successfully unfollowed @msmculley.
+2025-06-24 14:28:34,747 - INFO - ➡ Unfollowed @msmculley. Unfollows today: 2/50
+2025-06-24 14:28:40,637 - INFO - 🔄 Processing @raspberry.jams for follow-back status...
+2025-06-24 14:28:40,637 - INFO - Checking if @raspberry.jams is following back @cocos_connected...
+2025-06-24 14:28:48,730 - INFO - 🎯 Found following link, clicking to open following list...
+2025-06-24 14:28:48,826 - INFO - ✅ Successfully clicked following link for @raspberry.jams
+2025-06-24 14:28:48,826 - INFO - ⏳ Waiting for following modal to load...
+2025-06-24 14:29:11,954 - WARNING - Could not find standard scrollable modal for followers, trying alternative.
+2025-06-24 14:29:11,969 - INFO - Found alternative scrollable modal.
+2025-06-24 14:29:21,537 - INFO - ❌ @cocos_connected not found in @raspberry.jams's followers after 0 scrolls.
+2025-06-24 14:29:36,381 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 14:29:53,379 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 14:30:11,596 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 14:30:15,008 - INFO - ❌ @raspberry.jams has NOT followed back.
+2025-06-24 14:30:15,008 - INFO - Attempting to unfollow @raspberry.jams...
+2025-06-24 14:30:21,203 - INFO - 🎯 Found Following button, clicking to unfollow @raspberry.jams...
+2025-06-24 14:30:21,286 - INFO - Clicked 'Following' button for @raspberry.jams.
+2025-06-24 14:30:24,062 - INFO - 🎯 Found Unfollow button, confirming unfollow for @raspberry.jams...
+2025-06-24 14:30:24,158 - INFO - ✅ Successfully unfollowed @raspberry.jams.
+2025-06-24 14:30:29,508 - INFO - ➡ Unfollowed @raspberry.jams. Unfollows today: 3/50
+2025-06-24 14:30:39,324 - INFO - 🔄 Processing @growhealth63 for follow-back status...
+2025-06-24 14:30:39,324 - INFO - Checking if @growhealth63 is following back @cocos_connected...
+2025-06-24 14:30:46,236 - INFO - 🎯 Found following link, clicking to open following list...
+2025-06-24 14:30:46,333 - INFO - ✅ Successfully clicked following link for @growhealth63
+2025-06-24 14:30:46,333 - INFO - ⏳ Waiting for following modal to load...
+2025-06-24 14:31:09,574 - WARNING - Could not find standard scrollable modal for followers, trying alternative.
+2025-06-24 14:31:09,589 - INFO - Found alternative scrollable modal.
+2025-06-24 14:31:18,728 - INFO - ❌ @cocos_connected not found in @growhealth63's followers after 0 scrolls.
+2025-06-24 14:31:33,777 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 14:31:50,388 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 14:32:07,491 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 14:32:10,217 - INFO - ❌ @growhealth63 has NOT followed back.
+2025-06-24 14:32:10,217 - INFO - Attempting to unfollow @growhealth63...
+2025-06-24 14:32:17,445 - INFO - 🎯 Found Following button, clicking to unfollow @growhealth63...
+2025-06-24 14:32:17,540 - INFO - Clicked 'Following' button for @growhealth63.
+2025-06-24 14:32:20,881 - INFO - 🎯 Found Unfollow button, confirming unfollow for @growhealth63...
+2025-06-24 14:32:20,958 - INFO - ✅ Successfully unfollowed @growhealth63.
+2025-06-24 14:32:25,108 - INFO - ➡ Unfollowed @growhealth63. Unfollows today: 4/50
+2025-06-24 14:32:34,022 - INFO - 🔄 Processing @soniasiahpoosh for follow-back status...
+2025-06-24 14:32:34,022 - INFO - Checking if @soniasiahpoosh is following back @cocos_connected...
+2025-06-24 14:32:40,351 - INFO - 🎯 Found following link, clicking to open following list...
+2025-06-24 14:32:40,447 - INFO - ✅ Successfully clicked following link for @soniasiahpoosh
+2025-06-24 14:32:40,447 - INFO - ⏳ Waiting for following modal to load...
+2025-06-24 14:33:03,597 - WARNING - Could not find standard scrollable modal for followers, trying alternative.
+2025-06-24 14:33:03,616 - INFO - Found alternative scrollable modal.
+2025-06-24 14:33:03,650 - INFO - ✅ @cocos_connected found in @soniasiahpoosh's followers list.
+2025-06-24 14:33:18,453 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 14:33:35,972 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 14:33:53,695 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 14:33:58,058 - INFO - ✅ @soniasiahpoosh followed back. Status updated.
+2025-06-24 14:33:58,058 - INFO - 💬 Generating DM for @soniasiahpoosh...
+2025-06-24 14:33:59,012 - INFO - Generated DM using gemini-2.0-flash: heya! appreciate the follow! saw you're plant based, awesome! how long you been at it?
+2025-06-24 14:33:59,013 - INFO - 💬 Sending DM to @soniasiahpoosh...
+2025-06-24 14:34:19,657 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 14:34:37,200 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 14:34:54,150 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 14:35:05,292 - INFO - Attempting JS click on modal/overlay element via //button[contains(text(), 'Not Now') or contains(text(), 'not now') or contains(text(), 'Cancel')] (Attempt 1/3)
+2025-06-24 14:35:06,334 - INFO - ✅ Modal dismissed using selector. Attempt 1/3
+2025-06-24 14:35:22,122 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 14:35:38,951 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 14:36:02,466 - INFO - ✅ DM sent to @soniasiahpoosh: 'heya! appreciate the follow! saw you're plant based, awesome! how long you been at it?'
+2025-06-24 14:36:02,468 - ERROR - ❌ Error processing DM for @soniasiahpoosh: no such column: dm_sent_at
+2025-06-24 14:36:02,470 - CRITICAL - A critical error occurred during daily follow-back analysis: no such column: dm_sent_at
+2025-06-24 14:36:04,759 - INFO - WebDriver closed.
+2025-06-24 14:36:05,017 - INFO - Cleaned up temporary user data directory: C:\Users\Shannon\AppData\Local\Temp\tmpje8t1msn
+2025-06-24 14:44:17,321 - INFO - 🚀 Starting Daily Follow-Back Analysis...
+2025-06-24 14:44:19,418 - INFO - Chrome driver initialized with stealth settings and stability improvements.
+2025-06-24 14:44:19,419 - INFO - 📊 Analyzing follow-backs for users followed on: 2025-06-23
+2025-06-24 14:44:19,419 - INFO - 🔐 Navigating to login page...
+2025-06-24 14:44:25,406 - INFO - Attempting login...
+2025-06-24 14:44:25,432 - INFO - Found username field with selector: name=username
+2025-06-24 14:44:25,565 - INFO - Entered username: cocos_connected
+2025-06-24 14:44:26,868 - INFO - Found password field with selector: name=password
+2025-06-24 14:44:26,992 - INFO - Entered password
+2025-06-24 14:44:28,307 - INFO - Found login button with selector: xpath=//button[@type='submit']
+2025-06-24 14:44:28,308 - INFO - Attempting standard click on login button...
+2025-06-24 14:44:37,405 - WARNING - Still on login page after standard click. Trying JS click...
+2025-06-24 14:44:37,405 - INFO - Attempting JavaScript click on login button...
+2025-06-24 14:44:45,438 - INFO - ✅ Login successful after JavaScript click.
+2025-06-24 14:44:45,438 - INFO - ✅ Login successful! Navigating to main feed...
+2025-06-24 14:45:10,870 - INFO - 📋 Checking for any remaining popups...
+2025-06-24 14:45:21,938 - INFO - Found 71 users followed on 2025-06-23 to check.
+2025-06-24 14:45:21,938 - INFO - 🔄 Processing @marysehamel05 for follow-back status...
+2025-06-24 14:45:21,938 - INFO - Checking if @marysehamel05 is following back @cocos_connected...
+2025-06-24 14:45:28,362 - INFO - 🎯 Found following link, clicking to open following list...
+2025-06-24 14:45:28,428 - INFO - ✅ Successfully clicked following link for @marysehamel05
+2025-06-24 14:45:28,428 - INFO - ⏳ Waiting for following modal to load...
+2025-06-24 14:45:52,010 - WARNING - Could not find standard scrollable modal for followers, trying alternative.
+2025-06-24 14:46:12,601 - ERROR - ❌ Error checking @marysehamel05's followers: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d9530766]
+	(No symbol) [0x0x7ff7d9530a1c]
+	(No symbol) [0x0x7ff7d9584467]
+	(No symbol) [0x0x7ff7d9558bcf]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 14:48:33,327 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 14:50:55,692 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 14:53:18,439 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 14:53:21,436 - INFO - ❌ @marysehamel05 has NOT followed back.
+2025-06-24 14:53:21,437 - INFO - Attempting to unfollow @marysehamel05...
+2025-06-24 14:56:53,679 - WARNING - ⚠️ Could not find 'Following' button for @marysehamel05. Possibly already unfollowed or not following.
+2025-06-24 14:56:54,694 - WARNING - ⚠️ Failed to unfollow @marysehamel05. Status updated to 'no_unfollow_failed'.
+2025-06-24 14:57:02,873 - INFO - 🔄 Processing @foodiepixbyme for follow-back status...
+2025-06-24 14:57:02,874 - INFO - Checking if @foodiepixbyme is following back @cocos_connected...
+2025-06-24 14:57:09,967 - INFO - 🎯 Found following link, clicking to open following list...
+2025-06-24 14:57:10,060 - INFO - ✅ Successfully clicked following link for @foodiepixbyme
+2025-06-24 14:57:10,060 - INFO - ⏳ Waiting for following modal to load...
+2025-06-24 14:57:33,606 - WARNING - Could not find standard scrollable modal for followers, trying alternative.
+2025-06-24 14:57:33,626 - INFO - Found alternative scrollable modal.
+2025-06-24 14:57:47,105 - INFO - ❌ @cocos_connected not found in @foodiepixbyme's followers after 0 scrolls.
+2025-06-24 15:00:07,711 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 15:02:30,133 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 15:04:53,456 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 15:04:57,291 - INFO - ❌ @foodiepixbyme has NOT followed back.
+2025-06-24 15:04:57,291 - INFO - Attempting to unfollow @foodiepixbyme...
+2025-06-24 15:05:04,932 - INFO - 🎯 Found Following button, clicking to unfollow @foodiepixbyme...
+2025-06-24 15:05:05,019 - INFO - Clicked 'Following' button for @foodiepixbyme.
+2025-06-24 15:05:08,648 - INFO - 🎯 Found Unfollow button, confirming unfollow for @foodiepixbyme...
+2025-06-24 15:05:08,720 - INFO - ✅ Successfully unfollowed @foodiepixbyme.
+2025-06-24 15:05:12,937 - INFO - ➡ Unfollowed @foodiepixbyme. Unfollows today: 1/50
+2025-06-24 15:05:22,231 - INFO - 🔄 Processing @veganbeslenmegunlugum for follow-back status...
+2025-06-24 15:05:22,232 - INFO - Checking if @veganbeslenmegunlugum is following back @cocos_connected...
+2025-06-24 15:05:28,850 - INFO - 🎯 Found following link, clicking to open following list...
+2025-06-24 15:05:28,939 - INFO - ✅ Successfully clicked following link for @veganbeslenmegunlugum
+2025-06-24 15:05:28,939 - INFO - ⏳ Waiting for following modal to load...
+2025-06-24 15:05:52,607 - WARNING - Could not find standard scrollable modal for followers, trying alternative.
+2025-06-24 15:05:52,619 - INFO - Found alternative scrollable modal.
+2025-06-24 15:06:07,382 - INFO - ❌ @cocos_connected not found in @veganbeslenmegunlugum's followers after 0 scrolls.
+2025-06-24 15:08:28,087 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 15:10:50,580 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 15:13:12,839 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 15:13:15,678 - INFO - ❌ @veganbeslenmegunlugum has NOT followed back.
+2025-06-24 15:13:15,679 - INFO - Attempting to unfollow @veganbeslenmegunlugum...
+2025-06-24 15:13:22,011 - INFO - 🎯 Found Following button, clicking to unfollow @veganbeslenmegunlugum...
+2025-06-24 15:13:22,093 - INFO - Clicked 'Following' button for @veganbeslenmegunlugum.
+2025-06-24 15:13:24,935 - INFO - 🎯 Found Unfollow button, confirming unfollow for @veganbeslenmegunlugum...
+2025-06-24 15:13:25,016 - INFO - ✅ Successfully unfollowed @veganbeslenmegunlugum.
+2025-06-24 15:13:30,385 - INFO - ➡ Unfollowed @veganbeslenmegunlugum. Unfollows today: 2/50
+2025-06-24 15:13:37,504 - INFO - 🔄 Processing @gpeach2718 for follow-back status...
+2025-06-24 15:13:37,504 - INFO - Checking if @gpeach2718 is following back @cocos_connected...
+2025-06-24 15:13:44,177 - INFO - 🎯 Found following link, clicking to open following list...
+2025-06-24 15:13:44,278 - INFO - ✅ Successfully clicked following link for @gpeach2718
+2025-06-24 15:13:44,279 - INFO - ⏳ Waiting for following modal to load...
+2025-06-24 15:14:07,895 - WARNING - Could not find standard scrollable modal for followers, trying alternative.
+2025-06-24 15:14:07,910 - INFO - Found alternative scrollable modal.
+2025-06-24 15:14:21,341 - INFO - ❌ @cocos_connected not found in @gpeach2718's followers after 0 scrolls.
+2025-06-24 15:16:41,872 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 15:19:04,241 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 15:21:27,000 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 15:21:30,485 - INFO - ❌ @gpeach2718 has NOT followed back.
+2025-06-24 15:21:30,485 - INFO - Attempting to unfollow @gpeach2718...
+2025-06-24 15:21:36,689 - INFO - 🎯 Found Following button, clicking to unfollow @gpeach2718...
+2025-06-24 15:21:36,789 - INFO - Clicked 'Following' button for @gpeach2718.
+2025-06-24 15:21:39,706 - INFO - 🎯 Found Unfollow button, confirming unfollow for @gpeach2718...
+2025-06-24 15:21:39,786 - INFO - ✅ Successfully unfollowed @gpeach2718.
+2025-06-24 15:21:45,186 - INFO - ➡ Unfollowed @gpeach2718. Unfollows today: 3/50
+2025-06-24 15:21:54,764 - INFO - 🔄 Processing @jimmybee29 for follow-back status...
+2025-06-24 15:21:54,764 - INFO - Checking if @jimmybee29 is following back @cocos_connected...
+2025-06-24 15:22:02,614 - INFO - 🎯 Found following link, clicking to open following list...
+2025-06-24 15:22:02,701 - INFO - ✅ Successfully clicked following link for @jimmybee29
+2025-06-24 15:22:02,701 - INFO - ⏳ Waiting for following modal to load...
+2025-06-24 15:22:26,308 - WARNING - Could not find standard scrollable modal for followers, trying alternative.
+2025-06-24 15:22:26,320 - INFO - Found alternative scrollable modal.
+2025-06-24 15:22:26,345 - INFO - ✅ @cocos_connected found in @jimmybee29's followers list.
+2025-06-24 15:24:47,013 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 15:27:10,027 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 15:29:32,892 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 15:29:37,268 - INFO - ✅ @jimmybee29 followed back. Status updated.
+2025-06-24 15:29:37,268 - INFO - 💬 Generating DM for @jimmybee29...
+2025-06-24 15:29:38,976 - INFO - Generated DM using gemini-2.0-flash: heya! appreciate the follow! saw you're plant based? how long you been at it?
+2025-06-24 15:29:38,976 - INFO - 💬 Sending DM to @jimmybee29...
+2025-06-24 15:32:04,750 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 15:34:27,619 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 15:36:50,768 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 15:37:16,351 - INFO - Attempting JS click on modal/overlay element via //button[contains(text(), 'Not Now') or contains(text(), 'not now') or contains(text(), 'Cancel')] (Attempt 1/3)
+2025-06-24 15:37:17,882 - INFO - ✅ Modal dismissed using selector. Attempt 1/3
+2025-06-24 15:39:38,997 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 15:42:02,275 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 15:42:30,175 - INFO - ✅ DM sent to @jimmybee29: 'heya! appreciate the follow! saw you're plant based? how long you been at it?'
+2025-06-24 15:42:30,177 - ERROR - ❌ Error processing DM for @jimmybee29: no such column: dm_sent_at
+2025-06-24 15:42:30,179 - ERROR - ❌ Critical error processing @jimmybee29: no such column: dm_sent_at
+2025-06-24 15:42:30,179 - INFO - 🔄 Processing @vegandaughterr for follow-back status...
+2025-06-24 15:42:30,180 - INFO - Checking if @vegandaughterr is following back @cocos_connected...
+2025-06-24 15:42:37,210 - INFO - 🎯 Found following link, clicking to open following list...
+2025-06-24 15:42:37,296 - INFO - ✅ Successfully clicked following link for @vegandaughterr
+2025-06-24 15:42:37,297 - INFO - ⏳ Waiting for following modal to load...
+2025-06-24 15:43:00,930 - WARNING - Could not find standard scrollable modal for followers, trying alternative.
+2025-06-24 15:43:00,944 - INFO - Found alternative scrollable modal.
+2025-06-24 15:43:15,554 - INFO - ❌ @cocos_connected not found in @vegandaughterr's followers after 0 scrolls.
+2025-06-24 15:45:36,174 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 15:47:58,487 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 15:50:20,932 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 15:50:24,839 - INFO - ❌ @vegandaughterr has NOT followed back.
+2025-06-24 15:50:24,840 - INFO - Attempting to unfollow @vegandaughterr...
+2025-06-24 15:50:31,960 - INFO - 🎯 Found Following button, clicking to unfollow @vegandaughterr...
+2025-06-24 15:50:32,042 - INFO - Clicked 'Following' button for @vegandaughterr.
+2025-06-24 15:50:34,907 - INFO - 🎯 Found Unfollow button, confirming unfollow for @vegandaughterr...
+2025-06-24 15:50:34,978 - INFO - ✅ Successfully unfollowed @vegandaughterr.
+2025-06-24 15:50:39,531 - INFO - ➡ Unfollowed @vegandaughterr. Unfollows today: 4/50
+2025-06-24 15:50:47,864 - INFO - 🔄 Processing @flowerlea44 for follow-back status...
+2025-06-24 15:50:47,865 - INFO - Checking if @flowerlea44 is following back @cocos_connected...
+2025-06-24 15:50:55,082 - INFO - 🎯 Found following link, clicking to open following list...
+2025-06-24 15:50:55,177 - INFO - ✅ Successfully clicked following link for @flowerlea44
+2025-06-24 15:50:55,177 - INFO - ⏳ Waiting for following modal to load...
+2025-06-24 15:51:18,739 - WARNING - Could not find standard scrollable modal for followers, trying alternative.
+2025-06-24 15:51:18,751 - INFO - Found alternative scrollable modal.
+2025-06-24 15:51:18,778 - INFO - ✅ @cocos_connected found in @flowerlea44's followers list.
+2025-06-24 15:53:39,240 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 15:56:01,823 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 15:58:24,487 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 15:58:28,480 - INFO - ✅ @flowerlea44 followed back. Status updated.
+2025-06-24 15:58:28,481 - INFO - 💬 Generating DM for @flowerlea44...
+2025-06-24 15:58:29,349 - INFO - Generated DM using gemini-2.0-flash: heya! cheers for the follow back! saw you're plant based? how long you been at it?
+2025-06-24 15:58:29,350 - INFO - 💬 Sending DM to @flowerlea44...
+2025-06-24 16:00:54,305 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 16:03:16,832 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 16:05:39,402 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 16:08:14,492 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 16:10:37,016 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 16:13:00,012 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 16:13:27,440 - INFO - ✅ DM sent to @flowerlea44: 'heya! cheers for the follow back! saw you're plant based? how long you been at it?'
+2025-06-24 16:13:27,441 - ERROR - ❌ Error processing DM for @flowerlea44: no such column: dm_sent_at
+2025-06-24 16:13:27,442 - ERROR - ❌ Critical error processing @flowerlea44: no such column: dm_sent_at
+2025-06-24 16:13:27,443 - INFO - 🔄 Processing @zoranz78 for follow-back status...
+2025-06-24 16:13:27,443 - INFO - Checking if @zoranz78 is following back @cocos_connected...
+2025-06-24 16:15:05,847 - WARNING - ⚠️ Could not find following link for @zoranz78. Skipping follow-back check.
+2025-06-24 16:17:26,357 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 16:19:49,176 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 16:22:12,657 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 16:22:16,293 - INFO - ❌ @zoranz78 has NOT followed back.
+2025-06-24 16:22:16,294 - INFO - Attempting to unfollow @zoranz78...
+2025-06-24 16:25:49,879 - WARNING - ⚠️ Could not find 'Following' button for @zoranz78. Possibly already unfollowed or not following.
+2025-06-24 16:25:50,910 - WARNING - ⚠️ Failed to unfollow @zoranz78. Status updated to 'no_unfollow_failed'.
+2025-06-24 16:25:57,430 - INFO - 🔄 Processing @sassafras_with_class for follow-back status...
+2025-06-24 16:25:57,431 - INFO - Checking if @sassafras_with_class is following back @cocos_connected...
+2025-06-24 16:26:05,018 - INFO - 🎯 Found following link, clicking to open following list...
+2025-06-24 16:26:05,118 - INFO - ✅ Successfully clicked following link for @sassafras_with_class
+2025-06-24 16:26:05,118 - INFO - ⏳ Waiting for following modal to load...
+2025-06-24 16:26:28,667 - WARNING - Could not find standard scrollable modal for followers, trying alternative.
+2025-06-24 16:26:28,684 - INFO - Found alternative scrollable modal.
+2025-06-24 16:26:28,713 - INFO - ✅ @cocos_connected found in @sassafras_with_class's followers list.
+2025-06-24 16:28:49,378 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 16:31:12,099 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 16:33:35,088 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 16:33:39,169 - INFO - ✅ @sassafras_with_class followed back. Status updated.
+2025-06-24 16:33:39,169 - INFO - 💬 Generating DM for @sassafras_with_class...
+2025-06-24 16:33:40,123 - INFO - Generated DM using gemini-2.0-flash: heya! cheers for following back! saw you're plant based, nice! how long you been at it?
+2025-06-24 16:33:40,124 - INFO - 💬 Sending DM to @sassafras_with_class...
+2025-06-24 16:36:05,718 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 16:38:28,040 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 16:40:51,114 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 16:43:26,638 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 16:45:49,687 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 16:48:12,472 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 16:48:40,919 - INFO - ✅ DM sent to @sassafras_with_class: 'heya! cheers for following back! saw you're plant based, nice! how long you been at it?'
+2025-06-24 16:48:40,920 - ERROR - ❌ Error processing DM for @sassafras_with_class: no such column: dm_sent_at
+2025-06-24 16:48:40,921 - ERROR - ❌ Critical error processing @sassafras_with_class: no such column: dm_sent_at
+2025-06-24 16:48:40,922 - INFO - 🔄 Processing @veggie.kray for follow-back status...
+2025-06-24 16:48:40,922 - INFO - Checking if @veggie.kray is following back @cocos_connected...
+2025-06-24 16:48:48,221 - INFO - 🎯 Found following link, clicking to open following list...
+2025-06-24 16:48:48,312 - INFO - ✅ Successfully clicked following link for @veggie.kray
+2025-06-24 16:48:48,312 - INFO - ⏳ Waiting for following modal to load...
+2025-06-24 16:49:11,900 - WARNING - Could not find standard scrollable modal for followers, trying alternative.
+2025-06-24 16:49:11,920 - INFO - Found alternative scrollable modal.
+2025-06-24 16:49:26,716 - INFO - ❌ @cocos_connected not found in @veggie.kray's followers after 0 scrolls.
+2025-06-24 16:51:47,324 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 16:54:10,319 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 16:56:33,595 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 16:56:36,814 - INFO - ❌ @veggie.kray has NOT followed back.
+2025-06-24 16:56:36,815 - INFO - Attempting to unfollow @veggie.kray...
+2025-06-24 16:56:42,964 - INFO - 🎯 Found Following button, clicking to unfollow @veggie.kray...
+2025-06-24 16:56:43,058 - INFO - Clicked 'Following' button for @veggie.kray.
+2025-06-24 16:56:45,899 - INFO - 🎯 Found Unfollow button, confirming unfollow for @veggie.kray...
+2025-06-24 16:56:45,987 - INFO - ✅ Successfully unfollowed @veggie.kray.
+2025-06-24 16:56:50,196 - INFO - ➡ Unfollowed @veggie.kray. Unfollows today: 5/50
+2025-06-24 16:56:55,957 - INFO - 🔄 Processing @thesoulfullyvegan for follow-back status...
+2025-06-24 16:56:55,958 - INFO - Checking if @thesoulfullyvegan is following back @cocos_connected...
+2025-06-24 16:57:02,556 - INFO - 🎯 Found following link, clicking to open following list...
+2025-06-24 16:57:02,665 - INFO - ✅ Successfully clicked following link for @thesoulfullyvegan
+2025-06-24 16:57:02,665 - INFO - ⏳ Waiting for following modal to load...
+2025-06-24 16:57:26,298 - WARNING - Could not find standard scrollable modal for followers, trying alternative.
+2025-06-24 16:57:26,318 - INFO - Found alternative scrollable modal.
+2025-06-24 16:57:26,346 - INFO - ✅ @cocos_connected found in @thesoulfullyvegan's followers list.
+2025-06-24 16:59:46,940 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 17:02:09,224 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 17:04:31,942 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 17:04:35,727 - INFO - ✅ @thesoulfullyvegan followed back. Status updated.
+2025-06-24 17:04:35,727 - INFO - 💬 Generating DM for @thesoulfullyvegan...
+2025-06-24 17:04:36,562 - INFO - Generated DM using gemini-2.0-flash: heya! appreciate the follow! saw you're plant based, awesome! how long you been at it?
+2025-06-24 17:04:36,562 - INFO - 💬 Sending DM to @thesoulfullyvegan...
+2025-06-24 17:07:02,511 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 17:09:24,994 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 17:11:47,818 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 17:14:24,877 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 17:16:48,060 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 17:19:11,496 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 17:19:39,112 - INFO - ✅ DM sent to @thesoulfullyvegan: 'heya! appreciate the follow! saw you're plant based, awesome! how long you been at it?'
+2025-06-24 17:19:39,116 - ERROR - ❌ Error processing DM for @thesoulfullyvegan: no such column: dm_sent_at
+2025-06-24 17:19:39,121 - ERROR - ❌ Critical error processing @thesoulfullyvegan: no such column: dm_sent_at
+2025-06-24 17:19:39,121 - INFO - 🔄 Processing @leannes_ethical_travels for follow-back status...
+2025-06-24 17:19:39,122 - INFO - Checking if @leannes_ethical_travels is following back @cocos_connected...
+2025-06-24 17:19:46,247 - INFO - 🎯 Found following link, clicking to open following list...
+2025-06-24 17:19:46,347 - INFO - ✅ Successfully clicked following link for @leannes_ethical_travels
+2025-06-24 17:19:46,348 - INFO - ⏳ Waiting for following modal to load...
+2025-06-24 17:20:09,906 - WARNING - Could not find standard scrollable modal for followers, trying alternative.
+2025-06-24 17:20:09,920 - INFO - Found alternative scrollable modal.
+2025-06-24 17:20:24,829 - INFO - ❌ @cocos_connected not found in @leannes_ethical_travels's followers after 0 scrolls.
+2025-06-24 17:22:45,482 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 17:25:08,726 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 17:27:31,375 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 17:27:34,856 - INFO - ❌ @leannes_ethical_travels has NOT followed back.
+2025-06-24 17:27:34,856 - INFO - Attempting to unfollow @leannes_ethical_travels...
+2025-06-24 17:27:41,221 - INFO - 🎯 Found Following button, clicking to unfollow @leannes_ethical_travels...
+2025-06-24 17:27:41,304 - INFO - Clicked 'Following' button for @leannes_ethical_travels.
+2025-06-24 17:27:45,305 - INFO - 🎯 Found Unfollow button, confirming unfollow for @leannes_ethical_travels...
+2025-06-24 17:27:45,381 - INFO - ✅ Successfully unfollowed @leannes_ethical_travels.
+2025-06-24 17:27:50,187 - INFO - ➡ Unfollowed @leannes_ethical_travels. Unfollows today: 6/50
+2025-06-24 17:27:58,113 - INFO - 🔄 Processing @violent_deliight for follow-back status...
+2025-06-24 17:27:58,114 - INFO - Checking if @violent_deliight is following back @cocos_connected...
+2025-06-24 17:28:04,306 - INFO - 🎯 Found following link, clicking to open following list...
+2025-06-24 17:28:04,404 - INFO - ✅ Successfully clicked following link for @violent_deliight
+2025-06-24 17:28:04,404 - INFO - ⏳ Waiting for following modal to load...
+2025-06-24 17:28:27,986 - WARNING - Could not find standard scrollable modal for followers, trying alternative.
+2025-06-24 17:28:28,003 - INFO - Found alternative scrollable modal.
+2025-06-24 17:28:28,031 - INFO - ✅ @cocos_connected found in @violent_deliight's followers list.
+2025-06-24 17:30:48,806 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 17:33:11,302 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 17:35:33,948 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 17:35:38,071 - INFO - ✅ @violent_deliight followed back. Status updated.
+2025-06-24 17:35:38,071 - INFO - 💬 Generating DM for @violent_deliight...
+2025-06-24 17:35:38,932 - INFO - Generated DM using gemini-2.0-flash: heya! cheers for the follow back! saw you're plant based? how long you been at it?
+2025-06-24 17:35:38,933 - INFO - 💬 Sending DM to @violent_deliight...
+2025-06-24 17:38:03,761 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 17:40:26,144 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 17:42:48,585 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 17:45:24,704 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 17:47:47,430 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 17:50:10,368 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 17:50:38,525 - INFO - ✅ DM sent to @violent_deliight: 'heya! cheers for the follow back! saw you're plant based? how long you been at it?'
+2025-06-24 17:50:38,528 - ERROR - ❌ Error processing DM for @violent_deliight: no such column: dm_sent_at
+2025-06-24 17:50:38,530 - ERROR - ❌ Critical error processing @violent_deliight: no such column: dm_sent_at
+2025-06-24 17:50:38,531 - INFO - 🔄 Processing @alanapurceno for follow-back status...
+2025-06-24 17:50:38,532 - INFO - Checking if @alanapurceno is following back @cocos_connected...
+2025-06-24 17:50:44,777 - INFO - 🎯 Found following link, clicking to open following list...
+2025-06-24 17:50:44,880 - INFO - ✅ Successfully clicked following link for @alanapurceno
+2025-06-24 17:50:44,880 - INFO - ⏳ Waiting for following modal to load...
+2025-06-24 17:51:08,510 - WARNING - Could not find standard scrollable modal for followers, trying alternative.
+2025-06-24 17:51:08,523 - INFO - Found alternative scrollable modal.
+2025-06-24 17:51:08,548 - INFO - ✅ @cocos_connected found in @alanapurceno's followers list.
+2025-06-24 17:53:28,974 - INFO - Attempted to close modal with ESC key. Attempt 1/3
+2025-06-24 17:55:51,759 - INFO - Attempted to close modal with ESC key. Attempt 2/3
+2025-06-24 17:58:14,979 - INFO - Attempted to close modal with ESC key. Attempt 3/3
+2025-06-24 17:58:18,630 - INFO - ✅ @alanapurceno followed back. Status updated.
+2025-06-24 17:58:18,630 - INFO - 💬 Generating DM for @alanapurceno...
+2025-06-24 18:08:10,756 - WARNING - Model gemini-2.0-flash failed: Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2404:6800:4006:811::200a%5D:443: socket is null
+2025-06-24 18:18:10,026 - WARNING - Model gemini-2.0-flash-lite failed: Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2404:6800:4006:813::200a%5D:443: tcp handshaker shutdown
+2025-06-24 18:28:09,963 - WARNING - Model gemini-2.0-flash-thinking-exp-01-21 failed: Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2404:6800:4006:811::200a%5D:443: tcp handshaker shutdown
+2025-06-24 18:28:09,963 - WARNING - All Gemini models failed, using fallback message
+2025-06-24 18:28:09,963 - INFO - 💬 Sending DM to @alanapurceno...
+2025-06-24 18:28:10,476 - ERROR - ❌ Error sending DM to @alanapurceno: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:10,476 - ERROR - ❌ Error processing DM for @alanapurceno: no such column: dm_sent_at
+2025-06-24 18:28:10,476 - ERROR - ❌ Critical error processing @alanapurceno: no such column: dm_sent_at
+2025-06-24 18:28:10,476 - INFO - 🔄 Processing @theveganinheels for follow-back status...
+2025-06-24 18:28:10,476 - INFO - Checking if @theveganinheels is following back @cocos_connected...
+2025-06-24 18:28:10,983 - ERROR - ❌ Error checking @theveganinheels's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:10,983 - INFO - ⏭️ Skipping @theveganinheels due to check error, will try again later
+2025-06-24 18:28:10,983 - INFO - 🔄 Processing @fitness_withv21 for follow-back status...
+2025-06-24 18:28:10,983 - INFO - Checking if @fitness_withv21 is following back @cocos_connected...
+2025-06-24 18:28:11,433 - ERROR - ❌ Error checking @fitness_withv21's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:11,433 - INFO - ⏭️ Skipping @fitness_withv21 due to check error, will try again later
+2025-06-24 18:28:11,433 - INFO - 🔄 Processing @vegan_fairy3 for follow-back status...
+2025-06-24 18:28:11,433 - INFO - Checking if @vegan_fairy3 is following back @cocos_connected...
+2025-06-24 18:28:11,886 - ERROR - ❌ Error checking @vegan_fairy3's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:11,892 - INFO - ⏭️ Skipping @vegan_fairy3 due to check error, will try again later
+2025-06-24 18:28:11,892 - INFO - 🔄 Processing @itsmethatherbivore for follow-back status...
+2025-06-24 18:28:11,892 - INFO - Checking if @itsmethatherbivore is following back @cocos_connected...
+2025-06-24 18:28:12,332 - ERROR - ❌ Error checking @itsmethatherbivore's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:12,335 - INFO - ⏭️ Skipping @itsmethatherbivore due to check error, will try again later
+2025-06-24 18:28:12,335 - INFO - 🔄 Processing @secretlifeof_shokiro for follow-back status...
+2025-06-24 18:28:12,335 - INFO - Checking if @secretlifeof_shokiro is following back @cocos_connected...
+2025-06-24 18:28:12,930 - ERROR - ❌ Error checking @secretlifeof_shokiro's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:12,932 - INFO - ⏭️ Skipping @secretlifeof_shokiro due to check error, will try again later
+2025-06-24 18:28:12,932 - INFO - 🔄 Processing @veganer_widerstand for follow-back status...
+2025-06-24 18:28:12,932 - INFO - Checking if @veganer_widerstand is following back @cocos_connected...
+2025-06-24 18:28:13,368 - ERROR - ❌ Error checking @veganer_widerstand's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:13,368 - INFO - ⏭️ Skipping @veganer_widerstand due to check error, will try again later
+2025-06-24 18:28:13,368 - INFO - 🔄 Processing @animals__supporter for follow-back status...
+2025-06-24 18:28:13,368 - INFO - Checking if @animals__supporter is following back @cocos_connected...
+2025-06-24 18:28:13,870 - ERROR - ❌ Error checking @animals__supporter's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:13,870 - INFO - ⏭️ Skipping @animals__supporter due to check error, will try again later
+2025-06-24 18:28:13,870 - INFO - 🔄 Processing @iapiisk for follow-back status...
+2025-06-24 18:28:13,870 - INFO - Checking if @iapiisk is following back @cocos_connected...
+2025-06-24 18:28:14,297 - ERROR - ❌ Error checking @iapiisk's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:14,297 - INFO - ⏭️ Skipping @iapiisk due to check error, will try again later
+2025-06-24 18:28:14,297 - INFO - 🔄 Processing @daft___cxnt for follow-back status...
+2025-06-24 18:28:14,297 - INFO - Checking if @daft___cxnt is following back @cocos_connected...
+2025-06-24 18:28:14,704 - ERROR - ❌ Error checking @daft___cxnt's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:14,704 - INFO - ⏭️ Skipping @daft___cxnt due to check error, will try again later
+2025-06-24 18:28:14,704 - INFO - 🔄 Processing @jme.really.vegan for follow-back status...
+2025-06-24 18:28:14,704 - INFO - Checking if @jme.really.vegan is following back @cocos_connected...
+2025-06-24 18:28:15,172 - ERROR - ❌ Error checking @jme.really.vegan's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:15,172 - INFO - ⏭️ Skipping @jme.really.vegan due to check error, will try again later
+2025-06-24 18:28:15,172 - INFO - 🔄 Processing @ally.nero for follow-back status...
+2025-06-24 18:28:15,172 - INFO - Checking if @ally.nero is following back @cocos_connected...
+2025-06-24 18:28:15,579 - ERROR - ❌ Error checking @ally.nero's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:15,579 - INFO - ⏭️ Skipping @ally.nero due to check error, will try again later
+2025-06-24 18:28:15,579 - INFO - 🔄 Processing @the.healing.herbivore for follow-back status...
+2025-06-24 18:28:15,579 - INFO - Checking if @the.healing.herbivore is following back @cocos_connected...
+2025-06-24 18:28:16,027 - ERROR - ❌ Error checking @the.healing.herbivore's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:16,027 - INFO - ⏭️ Skipping @the.healing.herbivore due to check error, will try again later
+2025-06-24 18:28:16,027 - INFO - 🔄 Processing @_hopeandtealeaves_ for follow-back status...
+2025-06-24 18:28:16,027 - INFO - Checking if @_hopeandtealeaves_ is following back @cocos_connected...
+2025-06-24 18:28:16,322 - ERROR - ❌ Error checking @_hopeandtealeaves_'s followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:16,322 - INFO - ⏭️ Skipping @_hopeandtealeaves_ due to check error, will try again later
+2025-06-24 18:28:16,322 - INFO - 🔄 Processing @veganova95 for follow-back status...
+2025-06-24 18:28:16,322 - INFO - Checking if @veganova95 is following back @cocos_connected...
+2025-06-24 18:28:16,741 - ERROR - ❌ Error checking @veganova95's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:16,747 - INFO - ⏭️ Skipping @veganova95 due to check error, will try again later
+2025-06-24 18:28:16,747 - INFO - 🔄 Processing @suitevegan for follow-back status...
+2025-06-24 18:28:16,747 - INFO - Checking if @suitevegan is following back @cocos_connected...
+2025-06-24 18:28:17,203 - ERROR - ❌ Error checking @suitevegan's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:17,203 - INFO - ⏭️ Skipping @suitevegan due to check error, will try again later
+2025-06-24 18:28:17,203 - INFO - 🔄 Processing @frenchie_manson for follow-back status...
+2025-06-24 18:28:17,203 - INFO - Checking if @frenchie_manson is following back @cocos_connected...
+2025-06-24 18:28:17,831 - ERROR - ❌ Error checking @frenchie_manson's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:17,833 - INFO - ⏭️ Skipping @frenchie_manson due to check error, will try again later
+2025-06-24 18:28:17,833 - INFO - 🔄 Processing @antonyd1039 for follow-back status...
+2025-06-24 18:28:17,833 - INFO - Checking if @antonyd1039 is following back @cocos_connected...
+2025-06-24 18:28:18,366 - ERROR - ❌ Error checking @antonyd1039's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:18,366 - INFO - ⏭️ Skipping @antonyd1039 due to check error, will try again later
+2025-06-24 18:28:18,366 - INFO - 🔄 Processing @iwant_tofu for follow-back status...
+2025-06-24 18:28:18,366 - INFO - Checking if @iwant_tofu is following back @cocos_connected...
+2025-06-24 18:28:18,848 - ERROR - ❌ Error checking @iwant_tofu's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:18,848 - INFO - ⏭️ Skipping @iwant_tofu due to check error, will try again later
+2025-06-24 18:28:18,848 - INFO - 🔄 Processing @stephanie_wes for follow-back status...
+2025-06-24 18:28:18,848 - INFO - Checking if @stephanie_wes is following back @cocos_connected...
+2025-06-24 18:28:19,324 - ERROR - ❌ Error checking @stephanie_wes's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:19,324 - INFO - ⏭️ Skipping @stephanie_wes due to check error, will try again later
+2025-06-24 18:28:19,324 - INFO - 🔄 Processing @lilly.pussum.xo for follow-back status...
+2025-06-24 18:28:19,324 - INFO - Checking if @lilly.pussum.xo is following back @cocos_connected...
+2025-06-24 18:28:19,709 - ERROR - ❌ Error checking @lilly.pussum.xo's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:19,709 - INFO - ⏭️ Skipping @lilly.pussum.xo due to check error, will try again later
+2025-06-24 18:28:19,713 - INFO - 🔄 Processing @jigyasa_ea for follow-back status...
+2025-06-24 18:28:19,713 - INFO - Checking if @jigyasa_ea is following back @cocos_connected...
+2025-06-24 18:28:20,167 - ERROR - ❌ Error checking @jigyasa_ea's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:20,167 - INFO - ⏭️ Skipping @jigyasa_ea due to check error, will try again later
+2025-06-24 18:28:20,167 - INFO - 🔄 Processing @megmovesmichigan for follow-back status...
+2025-06-24 18:28:20,167 - INFO - Checking if @megmovesmichigan is following back @cocos_connected...
+2025-06-24 18:28:20,609 - ERROR - ❌ Error checking @megmovesmichigan's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:20,611 - INFO - ⏭️ Skipping @megmovesmichigan due to check error, will try again later
+2025-06-24 18:28:20,611 - INFO - 🔄 Processing @canipatyourdo9 for follow-back status...
+2025-06-24 18:28:20,611 - INFO - Checking if @canipatyourdo9 is following back @cocos_connected...
+2025-06-24 18:28:21,010 - ERROR - ❌ Error checking @canipatyourdo9's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:21,010 - INFO - ⏭️ Skipping @canipatyourdo9 due to check error, will try again later
+2025-06-24 18:28:21,010 - INFO - 🔄 Processing @jeremybthompson for follow-back status...
+2025-06-24 18:28:21,010 - INFO - Checking if @jeremybthompson is following back @cocos_connected...
+2025-06-24 18:28:21,488 - ERROR - ❌ Error checking @jeremybthompson's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:21,491 - INFO - ⏭️ Skipping @jeremybthompson due to check error, will try again later
+2025-06-24 18:28:21,491 - INFO - 🔄 Processing @soulfulveganjourney for follow-back status...
+2025-06-24 18:28:21,491 - INFO - Checking if @soulfulveganjourney is following back @cocos_connected...
+2025-06-24 18:28:21,882 - ERROR - ❌ Error checking @soulfulveganjourney's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:21,882 - INFO - ⏭️ Skipping @soulfulveganjourney due to check error, will try again later
+2025-06-24 18:28:21,882 - INFO - 🔄 Processing @gainsfortheanimals for follow-back status...
+2025-06-24 18:28:21,882 - INFO - Checking if @gainsfortheanimals is following back @cocos_connected...
+2025-06-24 18:28:22,324 - ERROR - ❌ Error checking @gainsfortheanimals's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:22,325 - INFO - ⏭️ Skipping @gainsfortheanimals due to check error, will try again later
+2025-06-24 18:28:22,325 - INFO - 🔄 Processing @vegan.foodadventures for follow-back status...
+2025-06-24 18:28:22,325 - INFO - Checking if @vegan.foodadventures is following back @cocos_connected...
+2025-06-24 18:28:22,747 - ERROR - ❌ Error checking @vegan.foodadventures's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:22,747 - INFO - ⏭️ Skipping @vegan.foodadventures due to check error, will try again later
+2025-06-24 18:28:22,747 - INFO - 🔄 Processing @theveganfitnessway for follow-back status...
+2025-06-24 18:28:22,747 - INFO - Checking if @theveganfitnessway is following back @cocos_connected...
+2025-06-24 18:28:23,165 - ERROR - ❌ Error checking @theveganfitnessway's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:23,165 - INFO - ⏭️ Skipping @theveganfitnessway due to check error, will try again later
+2025-06-24 18:28:23,165 - INFO - 🔄 Processing @______activista______ for follow-back status...
+2025-06-24 18:28:23,167 - INFO - Checking if @______activista______ is following back @cocos_connected...
+2025-06-24 18:28:23,618 - ERROR - ❌ Error checking @______activista______'s followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:23,618 - INFO - ⏭️ Skipping @______activista______ due to check error, will try again later
+2025-06-24 18:28:23,618 - INFO - 🔄 Processing @littlecardiffkitchen for follow-back status...
+2025-06-24 18:28:23,618 - INFO - Checking if @littlecardiffkitchen is following back @cocos_connected...
+2025-06-24 18:28:24,003 - ERROR - ❌ Error checking @littlecardiffkitchen's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:24,003 - INFO - ⏭️ Skipping @littlecardiffkitchen due to check error, will try again later
+2025-06-24 18:28:24,003 - INFO - 🔄 Processing @katochkaj91 for follow-back status...
+2025-06-24 18:28:24,003 - INFO - Checking if @katochkaj91 is following back @cocos_connected...
+2025-06-24 18:28:24,417 - ERROR - ❌ Error checking @katochkaj91's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:24,422 - INFO - ⏭️ Skipping @katochkaj91 due to check error, will try again later
+2025-06-24 18:28:24,422 - INFO - 🔄 Processing @new_horizon_8990 for follow-back status...
+2025-06-24 18:28:24,423 - INFO - Checking if @new_horizon_8990 is following back @cocos_connected...
+2025-06-24 18:28:24,840 - ERROR - ❌ Error checking @new_horizon_8990's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:24,840 - INFO - ⏭️ Skipping @new_horizon_8990 due to check error, will try again later
+2025-06-24 18:28:24,840 - INFO - 🔄 Processing @gym_lxver for follow-back status...
+2025-06-24 18:28:24,840 - INFO - Checking if @gym_lxver is following back @cocos_connected...
+2025-06-24 18:28:25,248 - ERROR - ❌ Error checking @gym_lxver's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:25,248 - INFO - ⏭️ Skipping @gym_lxver due to check error, will try again later
+2025-06-24 18:28:25,248 - INFO - 🔄 Processing @aeverallen202 for follow-back status...
+2025-06-24 18:28:25,248 - INFO - Checking if @aeverallen202 is following back @cocos_connected...
+2025-06-24 18:28:25,695 - ERROR - ❌ Error checking @aeverallen202's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:25,695 - INFO - ⏭️ Skipping @aeverallen202 due to check error, will try again later
+2025-06-24 18:28:25,695 - INFO - 🔄 Processing @a119633 for follow-back status...
+2025-06-24 18:28:25,695 - INFO - Checking if @a119633 is following back @cocos_connected...
+2025-06-24 18:28:26,104 - ERROR - ❌ Error checking @a119633's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:26,104 - INFO - ⏭️ Skipping @a119633 due to check error, will try again later
+2025-06-24 18:28:26,104 - INFO - 🔄 Processing @veganbadbitchnow for follow-back status...
+2025-06-24 18:28:26,104 - INFO - Checking if @veganbadbitchnow is following back @cocos_connected...
+2025-06-24 18:28:26,538 - ERROR - ❌ Error checking @veganbadbitchnow's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:26,538 - INFO - ⏭️ Skipping @veganbadbitchnow due to check error, will try again later
+2025-06-24 18:28:26,538 - INFO - 🔄 Processing @veganmom_1111 for follow-back status...
+2025-06-24 18:28:26,538 - INFO - Checking if @veganmom_1111 is following back @cocos_connected...
+2025-06-24 18:28:26,943 - ERROR - ❌ Error checking @veganmom_1111's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:26,947 - INFO - ⏭️ Skipping @veganmom_1111 due to check error, will try again later
+2025-06-24 18:28:26,947 - INFO - 🔄 Processing @jmtr48 for follow-back status...
+2025-06-24 18:28:26,947 - INFO - Checking if @jmtr48 is following back @cocos_connected...
+2025-06-24 18:28:27,356 - ERROR - ❌ Error checking @jmtr48's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:27,356 - INFO - ⏭️ Skipping @jmtr48 due to check error, will try again later
+2025-06-24 18:28:27,356 - INFO - 🔄 Processing @welshievegan25 for follow-back status...
+2025-06-24 18:28:27,356 - INFO - Checking if @welshievegan25 is following back @cocos_connected...
+2025-06-24 18:28:27,779 - ERROR - ❌ Error checking @welshievegan25's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:27,779 - INFO - ⏭️ Skipping @welshievegan25 due to check error, will try again later
+2025-06-24 18:28:27,779 - INFO - 🔄 Processing @heirloom.vegan for follow-back status...
+2025-06-24 18:28:27,779 - INFO - Checking if @heirloom.vegan is following back @cocos_connected...
+2025-06-24 18:28:28,260 - ERROR - ❌ Error checking @heirloom.vegan's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:28,262 - INFO - ⏭️ Skipping @heirloom.vegan due to check error, will try again later
+2025-06-24 18:28:28,262 - INFO - 🔄 Processing @tracy565jones for follow-back status...
+2025-06-24 18:28:28,264 - INFO - Checking if @tracy565jones is following back @cocos_connected...
+2025-06-24 18:28:28,716 - ERROR - ❌ Error checking @tracy565jones's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:28,716 - INFO - ⏭️ Skipping @tracy565jones due to check error, will try again later
+2025-06-24 18:28:28,716 - INFO - 🔄 Processing @rizuraimagar for follow-back status...
+2025-06-24 18:28:28,716 - INFO - Checking if @rizuraimagar is following back @cocos_connected...
+2025-06-24 18:28:29,122 - ERROR - ❌ Error checking @rizuraimagar's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:29,122 - INFO - ⏭️ Skipping @rizuraimagar due to check error, will try again later
+2025-06-24 18:28:29,122 - INFO - 🔄 Processing @3008_95 for follow-back status...
+2025-06-24 18:28:29,122 - INFO - Checking if @3008_95 is following back @cocos_connected...
+2025-06-24 18:28:29,618 - ERROR - ❌ Error checking @3008_95's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:29,618 - INFO - ⏭️ Skipping @3008_95 due to check error, will try again later
+2025-06-24 18:28:29,618 - INFO - 🔄 Processing @darnz for follow-back status...
+2025-06-24 18:28:29,618 - INFO - Checking if @darnz is following back @cocos_connected...
+2025-06-24 18:28:30,015 - ERROR - ❌ Error checking @darnz's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:30,015 - INFO - ⏭️ Skipping @darnz due to check error, will try again later
+2025-06-24 18:28:30,017 - INFO - 🔄 Processing @vegansoccermom_ for follow-back status...
+2025-06-24 18:28:30,017 - INFO - Checking if @vegansoccermom_ is following back @cocos_connected...
+2025-06-24 18:28:30,437 - ERROR - ❌ Error checking @vegansoccermom_'s followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:30,437 - INFO - ⏭️ Skipping @vegansoccermom_ due to check error, will try again later
+2025-06-24 18:28:30,439 - INFO - 🔄 Processing @sandra.c.kavanagh for follow-back status...
+2025-06-24 18:28:30,439 - INFO - Checking if @sandra.c.kavanagh is following back @cocos_connected...
+2025-06-24 18:28:30,847 - ERROR - ❌ Error checking @sandra.c.kavanagh's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:30,847 - INFO - ⏭️ Skipping @sandra.c.kavanagh due to check error, will try again later
+2025-06-24 18:28:30,849 - INFO - 🔄 Processing @ramin.hassan02 for follow-back status...
+2025-06-24 18:28:30,849 - INFO - Checking if @ramin.hassan02 is following back @cocos_connected...
+2025-06-24 18:28:31,277 - ERROR - ❌ Error checking @ramin.hassan02's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:31,277 - INFO - ⏭️ Skipping @ramin.hassan02 due to check error, will try again later
+2025-06-24 18:28:31,277 - INFO - 🔄 Processing @mestnaya23 for follow-back status...
+2025-06-24 18:28:31,277 - INFO - Checking if @mestnaya23 is following back @cocos_connected...
+2025-06-24 18:28:31,754 - ERROR - ❌ Error checking @mestnaya23's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:31,754 - INFO - ⏭️ Skipping @mestnaya23 due to check error, will try again later
+2025-06-24 18:28:31,754 - INFO - 🔄 Processing @hopefulosmosis for follow-back status...
+2025-06-24 18:28:31,754 - INFO - Checking if @hopefulosmosis is following back @cocos_connected...
+2025-06-24 18:28:32,187 - ERROR - ❌ Error checking @hopefulosmosis's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:32,187 - INFO - ⏭️ Skipping @hopefulosmosis due to check error, will try again later
+2025-06-24 18:28:32,190 - INFO - 🔄 Processing @the.vegansauceboss for follow-back status...
+2025-06-24 18:28:32,190 - INFO - Checking if @the.vegansauceboss is following back @cocos_connected...
+2025-06-24 18:28:32,328 - ERROR - ❌ Error checking @the.vegansauceboss's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:32,337 - INFO - ⏭️ Skipping @the.vegansauceboss due to check error, will try again later
+2025-06-24 18:28:32,337 - INFO - 🔄 Processing @elizabeth_parisi for follow-back status...
+2025-06-24 18:28:32,337 - INFO - Checking if @elizabeth_parisi is following back @cocos_connected...
+2025-06-24 18:28:32,823 - ERROR - ❌ Error checking @elizabeth_parisi's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:32,823 - INFO - ⏭️ Skipping @elizabeth_parisi due to check error, will try again later
+2025-06-24 18:28:32,823 - INFO - 🔄 Processing @yuliagr888 for follow-back status...
+2025-06-24 18:28:32,823 - INFO - Checking if @yuliagr888 is following back @cocos_connected...
+2025-06-24 18:28:33,221 - ERROR - ❌ Error checking @yuliagr888's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:33,221 - INFO - ⏭️ Skipping @yuliagr888 due to check error, will try again later
+2025-06-24 18:28:33,221 - INFO - 🔄 Processing @ralphpromax for follow-back status...
+2025-06-24 18:28:33,221 - INFO - Checking if @ralphpromax is following back @cocos_connected...
+2025-06-24 18:28:33,857 - ERROR - ❌ Error checking @ralphpromax's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:33,857 - INFO - ⏭️ Skipping @ralphpromax due to check error, will try again later
+2025-06-24 18:28:33,857 - INFO - 🔄 Processing @davidfoerster83 for follow-back status...
+2025-06-24 18:28:33,857 - INFO - Checking if @davidfoerster83 is following back @cocos_connected...
+2025-06-24 18:28:34,306 - ERROR - ❌ Error checking @davidfoerster83's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:34,306 - INFO - ⏭️ Skipping @davidfoerster83 due to check error, will try again later
+2025-06-24 18:28:34,306 - INFO - 🔄 Processing @athenadore95 for follow-back status...
+2025-06-24 18:28:34,306 - INFO - Checking if @athenadore95 is following back @cocos_connected...
+2025-06-24 18:28:34,757 - ERROR - ❌ Error checking @athenadore95's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:34,757 - INFO - ⏭️ Skipping @athenadore95 due to check error, will try again later
+2025-06-24 18:28:34,757 - INFO - 🔄 Processing @like_the_doll_ for follow-back status...
+2025-06-24 18:28:34,760 - INFO - Checking if @like_the_doll_ is following back @cocos_connected...
+2025-06-24 18:28:35,172 - ERROR - ❌ Error checking @like_the_doll_'s followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:35,172 - INFO - ⏭️ Skipping @like_the_doll_ due to check error, will try again later
+2025-06-24 18:28:35,180 - INFO - 🔄 Processing @vegertus for follow-back status...
+2025-06-24 18:28:35,180 - INFO - Checking if @vegertus is following back @cocos_connected...
+2025-06-24 18:28:35,635 - ERROR - ❌ Error checking @vegertus's followers: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d971cda5+78885]
+	GetHandleVerifier [0x0x7ff7d971ce00+78976]
+	(No symbol) [0x0x7ff7d94d9bca]
+	(No symbol) [0x0x7ff7d94d65e2]
+	(No symbol) [0x0x7ff7d94c7319]
+	(No symbol) [0x0x7ff7d94c90c1]
+	(No symbol) [0x0x7ff7d94c7636]
+	(No symbol) [0x0x7ff7d94c7096]
+	(No symbol) [0x0x7ff7d94c6d5a]
+	(No symbol) [0x0x7ff7d94c492f]
+	(No symbol) [0x0x7ff7d94c51ac]
+	(No symbol) [0x0x7ff7d94ddb7a]
+	(No symbol) [0x0x7ff7d958201e]
+	(No symbol) [0x0x7ff7d9558b8a]
+	(No symbol) [0x0x7ff7d958122f]
+	(No symbol) [0x0x7ff7d9558963]
+	(No symbol) [0x0x7ff7d95216b1]
+	(No symbol) [0x0x7ff7d9522443]
+	GetHandleVerifier [0x0x7ff7d99f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d99ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d9a0e592+3165202]
+	GetHandleVerifier [0x0x7ff7d973730e+186766]
+	GetHandleVerifier [0x0x7ff7d973eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d97259b4+114740]
+	GetHandleVerifier [0x0x7ff7d9725b69+115177]
+	GetHandleVerifier [0x0x7ff7d970c368+10728]
+	BaseThreadInitThunk [0x0x7ffbd0fee8d7+23]
+	RtlUserThreadStart [0x0x7ffbd27dc34c+44]
+
+2025-06-24 18:28:35,635 - INFO - ⏭️ Skipping @vegertus due to check error, will try again later
+2025-06-24 18:28:35,635 - INFO - 
+--- Daily Follow-Back Report ---
+2025-06-24 18:28:35,635 - INFO - Analysis Date: 2025-06-23
+2025-06-24 18:28:35,635 - INFO - Total Users Followed on This Date: 71
+2025-06-24 18:28:35,635 - INFO - Users Who Followed Back: 6
+2025-06-24 18:28:35,635 - INFO - Users Unfollowed Today: 6
+2025-06-24 18:28:35,635 - INFO - DMs Sent Today: 0
+2025-06-24 18:28:35,635 - INFO - Daily Follow-back Percentage: 8.45%
+2025-06-24 18:28:35,635 - INFO - 
+Users Who Followed Back (and received DMs):
+2025-06-24 18:28:35,640 - INFO - - @alanapurceno
+2025-06-24 18:28:35,640 - INFO - - @flowerlea44
+2025-06-24 18:28:35,640 - INFO - - @jimmybee29
+2025-06-24 18:28:35,640 - INFO - - @sassafras_with_class
+2025-06-24 18:28:35,640 - INFO - - @thesoulfullyvegan
+2025-06-24 18:28:35,640 - INFO - - @violent_deliight
+2025-06-24 18:28:35,640 - INFO - 
+Users Unfollowed:
+2025-06-24 18:28:35,640 - INFO - - @foodiepixbyme
+2025-06-24 18:28:35,647 - INFO - - @gpeach2718
+2025-06-24 18:28:35,650 - INFO - - @leannes_ethical_travels
+2025-06-24 18:28:35,652 - INFO - - @veganbeslenmegunlugum
+2025-06-24 18:28:35,657 - INFO - - @vegandaughterr
+2025-06-24 18:28:35,657 - INFO - - @veggie.kray
+2025-06-24 18:28:38,057 - INFO - WebDriver closed.
+2025-06-24 18:28:39,013 - INFO - Cleaned up temporary user data directory: C:\Users\Shannon\AppData\Local\Temp\tmp0b9ntpif

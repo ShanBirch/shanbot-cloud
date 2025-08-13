@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T01:59:26.137348",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T01:59:03.984973",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by healthydias features a stack of three pancakes on a decorative plate with painted vegetables. The text \"Panquecas Americanas\" is overlaid on the image in a stylized font. The post also includes a recipe in Portuguese for vegan and gluten-free American pancakes.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows two vegan and gluten-free cinnamon rolls on a decorative plate. The post includes the recipe in Portuguese.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by healthydias featuring a recipe for vegan basil (manjericão) pate. The post includes a photo of the pate, a description in Portuguese, and a list of ingredients.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a plate of food featuring a \"Veggie Filet de Mix de Cogumelos\" (Veggie Filet of Mushroom Mix) with mustard and molasses sauce, broccoli, and cherry tomatoes. The post is in Portuguese and includes the recipe for the sauce. The post also mentions it's a vegan version of a mustard and honey sauce.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a falafel burger with vegan cheddar cheese, tomato, onion, and lettuce on a dark bun. The post includes a recipe in Portuguese.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post featuring a gluten-free potato rosti recipe. The text overlay on the image reads \"Batata Rosti Sem Gluten\" (Gluten-Free Potato Rosti). The post includes a recipe in Portuguese, listing ingredients and instructions for the dough and filling. The recipe is also tagged as vegan.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan/Gluten-Free Baking: Ask about other vegan or gluten-free recipes they enjoy or if they have any tips for baking with alternative ingredients.",
+          "2. Plantlife School: Ask about their experience with Plantlife School, the company they mention in the post.",
+          "1. Vegan cooking/recipes: The post is about a vegan recipe, so you could ask about other vegan recipes they enjoy or share your own favorite vegan dishes.",
+          "2. Tofu and its uses: The recipe features tofu as a main ingredient. You could ask about their experience with tofu, different ways they like to prepare it, or other protein alternatives they enjoy.",
+          "1. **Vegan cooking/recipes:** Since the post highlights a vegan recipe, asking about other vegan recipes they enjoy or sharing your own could be a good conversation starter."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post, those pancakes looked so fluffy! 🥞",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Cooking & Baking",
+            "Gluten-Free Recipes",
+            "Plant-Based Cuisine",
+            "Healthy Eating",
+            "Creating Vegan Versions of Classic Dishes"
+          ],
+          "LIFESTYLE": "Likely someone who enjoys cooking and experimenting with vegan and gluten-free recipes. They are passionate about sharing their creations and recipes with others, possibly as a hobby or side project. They may be health-conscious and interested in plant-based nutrition.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite vegan and gluten-free baking tips?",
+            "Have you tried any other recipes from Plantlife School? What was your experience?",
+            "What's your go-to vegan comfort food recipe?",
+            "What are some creative ways you like to use tofu in your cooking?",
+            "I noticed you create vegan versions of classic dishes. What's the next recipe you're planning to 'veganize'?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Passionate",
+            "Health-Conscious",
+            "Generous (sharing recipes)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan/Gluten-Free Baking: Ask about other vegan or gluten-free recipes they enjoy or if they have any tips for baking with alternative ingredients.",
+        "2. Plantlife School: Ask about their experience with Plantlife School, the company they mention in the post.",
+        "1. Vegan cooking/recipes: The post is about a vegan recipe, so you could ask about other vegan recipes they enjoy or share your own favorite vegan dishes.",
+        "2. Tofu and its uses: The recipe features tofu as a main ingredient. You could ask about their experience with tofu, different ways they like to prepare it, or other protein alternatives they enjoy.",
+        "1. **Vegan cooking/recipes:** Since the post highlights a vegan recipe, asking about other vegan recipes they enjoy or sharing your own could be a good conversation starter."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

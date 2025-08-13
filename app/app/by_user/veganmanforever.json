@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T08:38:34.541076",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T08:38:13.877375",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The Instagram post by veganmanforever features a screenshot of a tweet by A.Vegan.Activist. The tweet states that if the abuse and consumption of dogs and cats should remain criminalized, it's logically consistent to think the same about all animals. The background of the post is a blurred, dark image. The caption includes the words \"Logical. Makes sense. Think about it. Thank you\" along with several hashtags related to veganism and animal rights.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a close-up shot of a salad from the Whole Foods salad bar. The salad contains red beets, arugula, spinach, kale, dried cranberries, onions, pumpkin seeds, walnuts, sunflower seeds, cauliflower, mushrooms, vegan chikn, and nutritious yeast.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a group of people protesting outside the Miami Seaquarium, advocating for the release of Lolita the whale and against orcas in captivity. They are holding signs with messages like \"Free Lolita,\" \"Free the Whale,\" and \"Veterans Against Orcas in Captivity.\" The post also mentions the documentaries \"Blackfish\" and \"Seaspiracy.\"",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a matcha bowl with almond butter, granola, strawberries, coconut flakes, and cacao nibs. The post mentions having a mocha almond fudge nice cream cookie for dessert. The location is tagged as \"Love Life Cafe\".",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a beautiful sunset over the water, likely taken in Miami, Florida. There are boats in the water and buildings visible in the distance. The post includes hashtags like #floridaveganman, #sunset, #grateful, #mementomori, #florida, and #miami. The caption includes a quote by Paul Graham about savoring time.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is an Instagram post by \"veganmanforever\" celebrating Earth Day. It features a graphic of the Earth shaped like a heart, with the text \"Happy Earth Day\" below it. The caption emphasizes the importance of protecting nature, the environment, and animals. The post includes hashtags related to Earth Day, veganism, and environmentalism.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. Vegan food and recipes: Discussing favorite vegan recipes, ingredients, or restaurants.",
+          "2. Whole Foods salad bar: Asking about their favorite combinations or ingredients at the Whole Foods salad bar.",
+          "1.  **Animal Rights Activism:** Discuss their involvement in animal rights activism, their motivations, and the specific issues they are passionate about (e.g., orca captivity, veganism).",
+          "2.  **Documentaries:** Ask about their thoughts on \"Blackfish\" and \"Seaspiracy,\" or suggest other documentaries related to animal welfare and environmental issues.",
+          "1.  Vegan Recipes/Foodie Culture: Discussing favorite vegan recipes, ingredients, or restaurants. Could ask about his favorite vegan spots in Florida or his go-to ingredients for making delicious vegan meals."
+        ],
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Veganism and Vegan Food",
+            "Animal Rights Activism (specifically against orca captivity)",
+            "Environmentalism and Earth Day",
+            "Healthy Eating and Plant-Based Nutrition",
+            "Miami/Florida Lifestyle and Sunsets"
+          ],
+          "LIFESTYLE": "Likely lives in or near Miami, Florida. Actively involved in veganism and animal rights. Enjoys healthy food, beautiful scenery, and mindful living (as suggested by the 'memento mori' hashtag and Paul Graham quote). Appears to be an activist.",
+          "CONVERSATION STARTERS": [
+            "What are your favorite vegan restaurants or dishes in Miami?",
+            "What are your thoughts on the ethical implications of keeping orcas in captivity, and what actions do you think are most effective in advocating for their freedom?",
+            "What are your go-to ingredients for creating a satisfying and nutritious vegan salad at Whole Foods?",
+            "What inspired you to become vegan and how long have you been following a vegan lifestyle?",
+            "What other documentaries, besides 'Blackfish' and 'Seaspiracy,' would you recommend to someone interested in learning more about animal welfare and environmental issues?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Passionate and Dedicated (to veganism and animal rights)",
+            "Thoughtful and Reflective (as evidenced by the Paul Graham quote and 'memento mori' hashtag)",
+            "Environmentally Conscious",
+            "Health-Oriented"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. Vegan food and recipes: Discussing favorite vegan recipes, ingredients, or restaurants.",
+        "2. Whole Foods salad bar: Asking about their favorite combinations or ingredients at the Whole Foods salad bar.",
+        "1.  **Animal Rights Activism:** Discuss their involvement in animal rights activism, their motivations, and the specific issues they are passionate about (e.g., orca captivity, veganism).",
+        "2.  **Documentaries:** Ask about their thoughts on \"Blackfish\" and \"Seaspiracy,\" or suggest other documentaries related to animal welfare and environmental issues.",
+        "1.  Vegan Recipes/Foodie Culture: Discussing favorite vegan recipes, ingredients, or restaurants. Could ask about his favorite vegan spots in Florida or his go-to ingredients for making delicious vegan meals."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

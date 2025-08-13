@@ -1,0 +1,116 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-24T00:58:45.248344",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-24T00:58:27.213560",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a woman, presumably Ling, who has undergone a traditional Chinese makeover. She is smiling broadly at the camera. She is wearing elaborate silver headwear and jewelry, with traditional braids and makeup. The background shows other traditional garments and accessories, suggesting she is in a shop or studio.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a wrestling ring at PCW Wrestling academy. People are practicing wrestling moves, specifically \"bumps,\" which is a term for safely falling and landing on the mat.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a black and white photo of a wrestling match, featuring Tommy Hellfire, who is identified as the PCW Wrestler of the Year. The photo captures a wrestling move in action, with a crowd of spectators in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a black and white photo of a wrestler in a crouched position, likely during a wrestling match. The post is promoting the PCW Rumble event.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a yak with a saddle on its back in a mountainous region of China, specifically near Blue Moon Valley and Jade Dragon Snow Mountain. There are other people visible in the background.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a couple sitting on rocks with a scenic mountain range in the background. The post is about their 2-day hike through Tiger Leaping Gorge in China.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1. PCW Wrestling: Inquire about their involvement with PCW, such as their role (trainee, fan, photographer, etc.) and their favorite aspects of the academy.",
+          "2. Wrestling in Australia: Ask about the Australian wrestling scene in general, their favorite wrestlers, or upcoming events they're excited about.",
+          "1.  **Wrestling:** \"What do you enjoy most about watching PCW or wrestling in general?\" (This opens up a discussion about their favorite aspects of the sport.)",
+          "2.  **Tommy Hellfire:** \"What makes Tommy Hellfire stand out as a wrestler in your opinion?\" (This allows them to share their appreciation for the wrestler and potentially discuss specific matches or qualities.)",
+          "1.  Their favorite wrestlers or wrestling styles."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! The traditional makeover looked like a cool experience! ✨",
+        "profile_bio": {
+          "PERSON NAME": "Ling (Inferred from post description)",
+          "INTERESTS": [
+            "Professional Wrestling (PCW Wrestling)",
+            "Travel (China, specifically mountainous regions)",
+            "Chinese Culture (Traditional clothing, makeup, and customs)",
+            "Photography (Implied by posting visually appealing content)"
+          ],
+          "LIFESTYLE": "Likely an Australian resident with a passion for travel, particularly to China, and an interest in the local wrestling scene. May be involved with PCW Wrestling in some capacity (fan, photographer, trainee, etc.). Appears to enjoy outdoor activities like hiking.",
+          "CONVERSATION STARTERS": [
+            "What is your role with PCW Wrestling, and what do you enjoy most about the academy?",
+            "What are your thoughts on the Australian wrestling scene in general? Are there any upcoming events you're looking forward to?",
+            "What was your favorite part of your trip to China, especially your hike through Tiger Leaping Gorge?",
+            "What makes Tommy Hellfire stand out as a wrestler in your opinion?",
+            "What are some of your favorite wrestling styles or wrestlers?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Adventurous (Travels to remote locations, hikes)",
+            "Enthusiastic (Passionate about wrestling and Chinese culture)",
+            "Appreciative (Captures and shares beautiful scenery and cultural experiences)",
+            "Supportive (Promotes PCW Wrestling and its wrestlers)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1. PCW Wrestling: Inquire about their involvement with PCW, such as their role (trainee, fan, photographer, etc.) and their favorite aspects of the academy.",
+        "2. Wrestling in Australia: Ask about the Australian wrestling scene in general, their favorite wrestlers, or upcoming events they're excited about.",
+        "1.  **Wrestling:** \"What do you enjoy most about watching PCW or wrestling in general?\" (This opens up a discussion about their favorite aspects of the sport.)",
+        "2.  **Tommy Hellfire:** \"What makes Tommy Hellfire stand out as a wrestler in your opinion?\" (This allows them to share their appreciation for the wrestler and potentially discuss specific matches or qualities.)",
+        "1.  Their favorite wrestlers or wrestling styles."
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

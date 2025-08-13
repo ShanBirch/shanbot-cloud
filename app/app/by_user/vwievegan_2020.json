@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-15T20:17:18.499730",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-15T20:17:01.162147",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image is a close-up shot of a vegan taco. The taco shell is yellow and appears to be filled with a variety of ingredients, including a dark, saucy filling, chopped tomatoes, diced cucumbers, and fresh arugula. The taco is being held in someone's hand. In the blurred background, there is a bottle of what appears to be mustard.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows several brightly colored, painted Easter eggs on sticks, sitting in a yellow bucket. The post is tagged with #veganostereier (vegan Easter eggs) and #vegankids, suggesting a child was involved in the activity.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a vegan dish consisting of chickpeas, peas, and rice noodles in a curry sauce. The post includes hashtags related to veganism, vegan recipes, vegan food, and vegan lifestyle.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a bowl of vegan skyr (a type of yogurt) topped with various fruits including raspberries, blueberries, bananas, and apples. The caption includes hashtags related to veganism, recipes, and German vegan content.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a close-up of a bowl of vegan rice pudding (Milchreis) topped with apple chutney.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a slice of vegan banana bread on a wooden cutting board. The user's handle is vwievegan_2020 and the hashtags indicate they are a vegan YouTuber who posts about vegan baking, specifically in German (vegandeutschland).",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Vegan Easter Recipes/Activities:** Ask about other vegan Easter traditions or recipes they enjoy.",
+          "2.  **Crafting with Kids:** Inquire about other crafts they enjoy doing with their children.",
+          "1. Vegan cooking and recipes: Ask about their favorite vegan recipes or cooking tips.",
+          "2. Vegan lifestyle: Inquire about their journey into veganism or their favorite aspects of the lifestyle.",
+          "1. Vegan recipes: Given the hashtags #veganrezepte and #veganrecipes, you could ask about other vegan recipes they enjoy or share your own favorite vegan dish."
+        ],
+        "generated_comment": "Heya! Just was having a little stalk! Love your latest post! That taco looked so fresh and delicious. 😋",
+        "profile_bio": {
+          "PERSON NAME": "Unknown",
+          "INTERESTS": [
+            "Vegan Cooking & Baking",
+            "Vegan Recipes (especially German)",
+            "Vegan Lifestyle",
+            "Vegan Food Photography",
+            "Crafting with Kids (especially vegan-friendly crafts)"
+          ],
+          "LIFESTYLE": "Likely a vegan home cook and baker who creates vegan recipes and shares them online. Possibly a parent who involves their children in vegan-friendly activities and crafts. They are also a YouTuber focused on vegan content in German.",
+          "CONVERSATION STARTERS": [
+            "What are some of your favorite vegan Easter traditions or recipes?",
+            "Do you have any tips for making vegan baking accessible for beginners?",
+            "What inspired you to start your vegan journey, and what do you enjoy most about the lifestyle?",
+            "I saw your vegan banana bread! What's your go-to vegan baking recipe?",
+            "What other crafts do you enjoy doing with your kids?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Creative",
+            "Passionate (about veganism)",
+            "Family-oriented",
+            "Enthusiastic"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Vegan Easter Recipes/Activities:** Ask about other vegan Easter traditions or recipes they enjoy.",
+        "2.  **Crafting with Kids:** Inquire about other crafts they enjoy doing with their children.",
+        "1. Vegan cooking and recipes: Ask about their favorite vegan recipes or cooking tips.",
+        "2. Vegan lifestyle: Inquire about their journey into veganism or their favorite aspects of the lifestyle.",
+        "1. Vegan recipes: Given the hashtags #veganrezepte and #veganrecipes, you could ask about other vegan recipes they enjoy or share your own favorite vegan dish."
+      ],
+      "conversation_count": 0,
+      "last_seen_timestamp": null
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}

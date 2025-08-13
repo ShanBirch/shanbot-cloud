@@ -1,0 +1,117 @@
+{
+  "metrics": {
+    "metrics": {
+      "total_messages": 0,
+      "user_messages": 0,
+      "ai_messages": 0,
+      "ai_questions": 0,
+      "ai_statements": 0,
+      "user_responses_to_ai_question": 0,
+      "ai_question_turns_without_user_response": 0,
+      "last_message_was_ai_question": false,
+      "question_response_rate": 0.0,
+      "conversation_start_time": "2025-04-23T21:56:25.096416",
+      "conversation_end_time": null,
+      "conversation_duration_seconds": 0,
+      "achieved_message_milestones": [],
+      "fitness_topic_initiator": null,
+      "offer_mentioned_in_conv": false,
+      "link_sent_in_conv": false,
+      "coaching_inquiry_count": 0,
+      "signup_recorded": false,
+      "vegan_topic_mentioned": false,
+      "weight_loss_mentioned": false,
+      "muscle_gain_mentioned": false,
+      "responder_category": "No Responder",
+      "conversation_history": [],
+      "post_analysis": null,
+      "meal_plan_offered": false,
+      "meal_plan_accepted": false,
+      "meal_plan_type": null,
+      "meal_plan_goal": null,
+      "meal_plan_customizations": [],
+      "meal_plan_feedback": null,
+      "ig_username": null,
+      "client_analysis": {
+        "posts_analyzed": 6,
+        "timestamp": "2025-04-23T21:55:59.410967",
+        "interests": [],
+        "lifestyle_indicators": [],
+        "recent_activities": [],
+        "post_summaries": [
+          {
+            "description": "The image shows a close-up of a building's roof covered in orange-red tiles. The tiles are neatly arranged in rows, creating a textured pattern. A portion of the building's white wall and dark eaves are also visible. Below the roof, there is some greenery and a glimpse of a grey wall or fence.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screen capture of an Instagram post by jeancarlos3716. The post is a video of a woman dancing, and the Kwai logo is visible on the video. The location is listed as Recife, Brazil.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image is a screenshot of an Instagram post by jeancarlos3716. The post appears to be a video of a woman in a bikini.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a screenshot of an Instagram post by jeancarlos3716. The post itself contains a video of a man speaking and another video of a car.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in what appears to be a kitchen setting. She is wearing a bathing suit and has her hands together in front of her.",
+            "activities": [],
+            "interests": []
+          },
+          {
+            "description": "The image shows a woman in workout attire (sports bra and shorts) outdoors. She is holding a beverage and appears to be in a residential area.",
+            "activities": [],
+            "interests": []
+          }
+        ],
+        "conversation_topics": [
+          "1.  **Dance/Music:** Comment on the dance style or the music in the video.",
+          "2.  **Recife, Brazil:** Ask about Recife, Brazil, since that is the listed location. You could ask about recommendations for visiting, or if they enjoy living there.",
+          "1.  **Travel/Beach:** The woman is wearing a bikini, suggesting a beach or vacation setting. You could ask about her favorite beaches or travel destinations.",
+          "2.  **Music/Dance:** Since it's a video, you could ask about the music in the video or if she enjoys dancing.",
+          "1.  The car in the video: \"I noticed the car in your post. What kind of car is it? Do you like cars?\""
+        ],
+        "generated_comment": "Hey! Just was having a little stalk of your profile and saw your latest post. The roof tiles looked really interesting! 🏠",
+        "profile_bio": {
+          "PERSON NAME": "Jeancarlos (Likely first name, last name unknown)",
+          "INTERESTS": [
+            "Dance/Music",
+            "Travel/Beach Lifestyle",
+            "Fitness/Health",
+            "Cars",
+            "Brazilian Culture (Specifically Recife)"
+          ],
+          "LIFESTYLE": "Appears to live in or frequently visit Recife, Brazil. Enjoys dancing, fitness, and potentially travel. May be involved in creating or sharing video content, possibly on platforms like Kwai and Instagram.",
+          "CONVERSATION STARTERS": [
+            "I saw you posted from Recife, Brazil! What are some of your favorite things about living there, or any recommendations for someone visiting?",
+            "I noticed you posted a video of someone dancing. What kind of music do you usually listen to, or what's your favorite style of dance?",
+            "You seem to enjoy the beach! What are some of your favorite beaches you've visited?",
+            "I saw the car in one of your videos. What kind of car is it? Are you a car enthusiast?",
+            "I noticed you posted a video on Kwai. Do you create content often?"
+          ],
+          "PERSONALITY TRAITS": [
+            "Active/Energetic",
+            "Social/Outgoing (Sharing videos and engaging with trends)",
+            "Health-conscious (Fitness attire and beverage)",
+            "Enjoys life/Positive (Beach, dancing, enjoying the outdoors)"
+          ]
+        }
+      },
+      "profile_conversation_topics": [
+        "1.  **Dance/Music:** Comment on the dance style or the music in the video.",
+        "2.  **Recife, Brazil:** Ask about Recife, Brazil, since that is the listed location. You could ask about recommendations for visiting, or if they enjoy living there.",
+        "1.  **Travel/Beach:** The woman is wearing a bikini, suggesting a beach or vacation setting. You could ask about her favorite beaches or travel destinations.",
+        "2.  **Music/Dance:** Since it's a video, you could ask about the music in the video or if she enjoys dancing.",
+        "1.  The car in the video: \"I noticed the car in your post. What kind of car is it? Do you like cars?\""
+      ]
+    },
+    "metadata": {}
+  },
+  "conversations": []
+}
