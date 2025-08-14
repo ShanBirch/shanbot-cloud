@@ -28,3 +28,7 @@ async def send_manychat_message(subscriber_id: str, text: str) -> None:
 async def get_ai_response(prompt: str, model: str | None = None) -> str:
     # Keep under 15 words
     return "Gotcha! Quick one — what’s the goal you want help with?"
+
+async def update_manychat_fields(subscriber_id: str, fields: dict) -> None:
+    # No-op stub for cloud runtime
+    return None
