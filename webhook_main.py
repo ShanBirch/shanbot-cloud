@@ -18,7 +18,14 @@ from datetime import datetime
 from typing import Dict, Any, Optional
 
 # Import update_analytics_data from app.analytics
-from app.analytics import update_analytics_data
+try:
+    from app.analytics import update_analytics_data
+except Exception:
+    try:
+        from analytics import update_analytics_data  # fallback when 'app' isn’t a package
+    except Exception:
+        def update_analytics_data(*args, **kwargs):
+            return None
 from action_router import ActionRouter
 from calendly_integration import run_booking_check
 
@@ -291,3 +298,4 @@ if __name__ == "__main__":
         access_log=False,  # Hide access logs to reduce noise
         log_config=None  # Use our custom logging config
     )
+
