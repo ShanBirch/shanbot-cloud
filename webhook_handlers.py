@@ -32,3 +32,7 @@ async def get_ai_response(prompt: str, model: str | None = None) -> str:
 async def update_manychat_fields(subscriber_id: str, fields: dict) -> None:
     # No-op stub for cloud runtime
     return None
+
+def build_member_chat_prompt(ig_username: str, full_conversation: str, user_metrics: dict = None) -> str:
+    # Stub: Returns basic prompt template for member chat
+    return f"User {ig_username} conversation: {full_conversation[:100]}... Please provide a helpful response."
