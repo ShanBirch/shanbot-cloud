@@ -23,3 +23,8 @@ async def a_call_gemini_with_retry(prompt: str, model: Optional[str] = None, *ar
 async def send_manychat_message(subscriber_id: str, text: str) -> None:
     # No-op stub for cloud runtime
     return None
+
+# Simple AI wrapper expected by some handlers
+async def get_ai_response(prompt: str, model: str | None = None) -> str:
+    # Keep under 15 words
+    return "Gotcha! Quick one — what’s the goal you want help with?"
