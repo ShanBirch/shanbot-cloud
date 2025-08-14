@@ -19,3 +19,7 @@ def call_gemini_with_retry(prompt: str, model: Optional[str] = None, *args, **kw
 async def a_call_gemini_with_retry(prompt: str, model: Optional[str] = None, *args, **kwargs) -> str:
     await asyncio.sleep(0)
     return call_gemini_with_retry(prompt, model, *args, **kwargs)
+
+async def send_manychat_message(subscriber_id: str, text: str) -> None:
+    # No-op stub for cloud runtime
+    return None
