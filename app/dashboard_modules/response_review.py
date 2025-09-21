@@ -3046,7 +3046,8 @@ def handle_regenerate(review_item, selected_prompt_type, key_prefix="", extra_gu
                 conversation_history,
                 original_prompt,
                 selected_prompt_type,
-                extra_guidance=extra_guidance
+                extra_guidance=extra_guidance,
+                previous_ai_response=prev_proposed
             )
 
             # Apply duplicate-question guard and call/link gating on regenerated text
@@ -3075,7 +3076,8 @@ def handle_regenerate(review_item, selected_prompt_type, key_prefix="", extra_gu
                         original_prompt,
                         selected_prompt_type,
                         extra_guidance=((extra_guidance or "") +
-                                        "\n\n" + strict_block).strip()
+                                        "\n\n" + strict_block).strip(),
+                        previous_ai_response=prev_proposed
                     )
                     enhanced_response_retry = postprocess_regenerated_response(
                         enhanced_response_retry, conversation_history, selected_prompt_type
@@ -3185,12 +3187,14 @@ def postprocess_regenerated_response(text: str, conv_history: list, prompt_type:
     """Apply duplicate-question guard and call/link gating to the regenerated text.
     - Removes repeated questions based on recent AI questions
     - Gates Calendly link until an affirmative user response is detected (for ad flow)
+    - Enforces max two questions before proposing a call in ad flow
     """
     if not text:
         return text
     try:
         processed = _apply_duplicate_question_guard(text, conv_history)
         if prompt_type == 'facebook_ad_response':
+            processed = _apply_two_question_limit(processed, conv_history)
             processed = _apply_call_link_gating(processed, conv_history)
         return processed
     except Exception:
@@ -3278,6 +3282,33 @@ def _apply_call_link_gating(response_text: str, conv_history: list) -> str:
         "Thanks for sharing that. Given what you’ve told me, the best next step is a quick call so I can tailor this properly. Would you be open to that?"
     )
     return fallback
+
+
+def _apply_two_question_limit(response_text: str, conv_history: list) -> str:
+    """If ad flow and AI has already asked two or more questions in recent history,
+    rewrite current response to a call proposal (no additional questions).
+    """
+    try:
+        # Collect recent AI texts (tail window)
+        tail = [((m.get('text') or m.get('message') or '')) for m in (
+            conv_history or []) if (m.get('type') or m.get('sender') or '').lower() == 'ai']
+        tail_text = tail[-12:]
+        asked = 0
+        for t in tail_text:
+            if not isinstance(t, str):
+                continue
+            asked += t.count('?')
+            if asked >= 2:
+                break
+        if asked < 2:
+            return response_text
+
+        # If current response itself contains a question, suppress it and propose the call
+        if '?' in (response_text or ''):
+            return ("Thanks for sharing that. Based on what you’ve told me, best next step is a quick call so I can tailor this properly. Keen to book a call?")
+        return response_text
+    except Exception:
+        return response_text
 
 
 def _is_meta_commentary(text: str) -> bool:
@@ -3387,7 +3418,7 @@ def handle_generate_offer(review_item):
             st.error(f"❌ Error generating offer: {str(e)}")
 
 
-def regenerate_with_enhanced_context(user_ig_username: str, incoming_message: str, conversation_history: list, original_prompt: str, prompt_type: str = 'general_chat', extra_guidance: str = "") -> str:
+def regenerate_with_enhanced_context(user_ig_username: str, incoming_message: str, conversation_history: list, original_prompt: str, prompt_type: str = 'general_chat', extra_guidance: str = "", previous_ai_response: str = "") -> str:
     """Regenerate response using enhanced context and specific prompt templates."""
     try:
         logger.info(
@@ -3544,8 +3575,15 @@ def regenerate_with_enhanced_context(user_ig_username: str, incoming_message: st
                     # If AI proposed a call previously → step5 (offer calendar next)
                     if ai_offered_call:
                         return 'step5'
-                    # If two info-gathering questions already → step3 (propose call)
-                    question_count = sum(1 for t in ai_texts if '?' in t)
+                    # If a total of two questions already asked by AI → step3 (propose call)
+                    # Count individual question marks across recent AI messages (not just messages with a question)
+                    question_count = 0
+                    try:
+                        question_count = sum(
+                            (t.count('?') if isinstance(t, str) else 0) for t in ai_texts)
+                    except Exception:
+                        question_count = sum(
+                            1 for t in ai_texts if '?' in (t or ''))
                     if question_count >= 2:
                         return 'step3'
                 except Exception:
@@ -3599,15 +3637,17 @@ def regenerate_with_enhanced_context(user_ig_username: str, incoming_message: st
                     pass
 
             # Prepend high-priority guidance if provided
-            if learned_block:
-                enhanced_prompt_str = (
-                    "LEARNED PREFERENCES (Highest Priority):\n"
-                    f"{learned_block}\n\n" + enhanced_prompt_str
-                )
             if extra_guidance and extra_guidance.strip():
                 enhanced_prompt_str = (
-                    "EXTRA OVERRIDES (Session):\n"
+                    "SESSION OVERRIDES (ABSOLUTE PRIORITY - MUST FOLLOW EXACTLY):\n"
+                    "- These overrides outrank and replace any conflicting rules, templates, or examples.\n"
+                    "- If there is a conflict, follow these overrides.\n\n"
                     f"{extra_guidance.strip()}\n\n" + enhanced_prompt_str
+                )
+            if learned_block:
+                enhanced_prompt_str = (
+                    "LEARNED PREFERENCES (High Priority - subordinate to Session Overrides):\n"
+                    f"{learned_block}\n\n" + enhanced_prompt_str
                 )
 
         elif prompt_type == 'member_chat':
@@ -3624,15 +3664,17 @@ def regenerate_with_enhanced_context(user_ig_username: str, incoming_message: st
             }
             enhanced_prompt_str = prompts.MEMBER_CONVERSATION_PROMPT_TEMPLATE.format_map(
                 prompt_data)
-            if learned_block:
-                enhanced_prompt_str = (
-                    "LEARNED PREFERENCES (Highest Priority):\n"
-                    f"{learned_block}\n\n" + enhanced_prompt_str
-                )
             if extra_guidance and extra_guidance.strip():
                 enhanced_prompt_str = (
-                    "EXTRA OVERRIDES (Session):\n"
+                    "SESSION OVERRIDES (ABSOLUTE PRIORITY - MUST FOLLOW EXACTLY):\n"
+                    "- These overrides outrank and replace any conflicting rules, templates, or examples.\n"
+                    "- If there is a conflict, follow these overrides.\n\n"
                     f"{extra_guidance.strip()}\n\n" + enhanced_prompt_str
+                )
+            if learned_block:
+                enhanced_prompt_str = (
+                    "LEARNED PREFERENCES (High Priority - subordinate to Session Overrides):\n"
+                    f"{learned_block}\n\n" + enhanced_prompt_str
                 )
 
         elif prompt_type == 'monday_morning_text':
@@ -3646,15 +3688,17 @@ def regenerate_with_enhanced_context(user_ig_username: str, incoming_message: st
             }
             enhanced_prompt_str = prompts.MONDAY_MORNING_TEXT_PROMPT_TEMPLATE.format_map(
                 prompt_data)
-            if learned_block:
-                enhanced_prompt_str = (
-                    "LEARNED PREFERENCES (Highest Priority):\n"
-                    f"{learned_block}\n\n" + enhanced_prompt_str
-                )
             if extra_guidance and extra_guidance.strip():
                 enhanced_prompt_str = (
-                    "EXTRA OVERRIDES (Session):\n"
+                    "SESSION OVERRIDES (ABSOLUTE PRIORITY - MUST FOLLOW EXACTLY):\n"
+                    "- These overrides outrank and replace any conflicting rules, templates, or examples.\n"
+                    "- If there is a conflict, follow these overrides.\n\n"
                     f"{extra_guidance.strip()}\n\n" + enhanced_prompt_str
+                )
+            if learned_block:
+                enhanced_prompt_str = (
+                    "LEARNED PREFERENCES (High Priority - subordinate to Session Overrides):\n"
+                    f"{learned_block}\n\n" + enhanced_prompt_str
                 )
 
         elif prompt_type == 'checkins':
@@ -3668,15 +3712,17 @@ def regenerate_with_enhanced_context(user_ig_username: str, incoming_message: st
             }
             enhanced_prompt_str = prompts.CHECKINS_PROMPT_TEMPLATE.format_map(
                 prompt_data)
-            if learned_block:
-                enhanced_prompt_str = (
-                    "LEARNED PREFERENCES (Highest Priority):\n"
-                    f"{learned_block}\n\n" + enhanced_prompt_str
-                )
             if extra_guidance and extra_guidance.strip():
                 enhanced_prompt_str = (
-                    "EXTRA OVERRIDES (Session):\n"
+                    "SESSION OVERRIDES (ABSOLUTE PRIORITY - MUST FOLLOW EXACTLY):\n"
+                    "- These overrides outrank and replace any conflicting rules, templates, or examples.\n"
+                    "- If there is a conflict, follow these overrides.\n\n"
                     f"{extra_guidance.strip()}\n\n" + enhanced_prompt_str
+                )
+            if learned_block:
+                enhanced_prompt_str = (
+                    "LEARNED PREFERENCES (High Priority - subordinate to Session Overrides):\n"
+                    f"{learned_block}\n\n" + enhanced_prompt_str
                 )
 
         else:  # general_chat (default)
@@ -3694,16 +3740,39 @@ def regenerate_with_enhanced_context(user_ig_username: str, incoming_message: st
             }
             enhanced_prompt_str = prompts.COMBINED_CHAT_AND_ONBOARDING_PROMPT_TEMPLATE.format_map(
                 prompt_data)
-            if learned_block:
-                enhanced_prompt_str = (
-                    "LEARNED PREFERENCES (Highest Priority):\n"
-                    f"{learned_block}\n\n" + enhanced_prompt_str
-                )
             if extra_guidance and extra_guidance.strip():
                 enhanced_prompt_str = (
-                    "EXTRA OVERRIDES (Session):\n"
+                    "SESSION OVERRIDES (ABSOLUTE PRIORITY - MUST FOLLOW EXACTLY):\n"
+                    "- These overrides outrank and replace any conflicting rules, templates, or examples.\n"
+                    "- If there is a conflict, follow these overrides.\n\n"
                     f"{extra_guidance.strip()}\n\n" + enhanced_prompt_str
                 )
+            if learned_block:
+                enhanced_prompt_str = (
+                    "LEARNED PREFERENCES (High Priority - subordinate to Session Overrides):\n"
+                    f"{learned_block}\n\n" + enhanced_prompt_str
+                )
+
+        # Global compliance tail: reinforce overrides and avoid repeating previous AI output
+        try:
+            tail_blocks: list[str] = []
+            if extra_guidance and extra_guidance.strip():
+                tail_blocks.append(
+                    "COMPLIANCE REMINDER:\n"
+                    "- You must follow the SESSION OVERRIDES exactly.\n"
+                    "- If any instruction conflicts with any template or example, the overrides win.\n"
+                )
+            if previous_ai_response and previous_ai_response.strip():
+                tail_blocks.append(
+                    "PREVIOUS AI RESPONSE (do not repeat or paraphrase):\n"
+                    f"{previous_ai_response.strip()}\n\n"
+                    "Rewrite with materially different wording that satisfies the SESSION OVERRIDES."
+                )
+            if tail_blocks:
+                enhanced_prompt_str = enhanced_prompt_str + \
+                    "\n\n" + "\n\n".join(tail_blocks)
+        except Exception:
+            pass
 
         # Call Gemini with the appropriate prompt
         generated_response = call_gemini_with_retry_sync(
