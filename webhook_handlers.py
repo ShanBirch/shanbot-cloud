@@ -43,7 +43,23 @@ import glob
 from app.manychat_utils import update_manychat_fields
 from app.analytics import update_analytics_data
 
+
+def format_few_shot_examples(few_shot_examples: List[Dict[str, str]]) -> str:
+    """Format few-shot examples for prompt injection"""
+    if not few_shot_examples:
+        return ""
+
+    formatted = "\n\nHere are examples of how Shannon responds to members:\n"
+    for example in few_shot_examples[-5:]:  # Use last 5 examples
+        user_msg = example.get('user_message', '')
+        shannon_response = example.get('shannon_response', '')
+        if user_msg and shannon_response:
+            formatted += f"\nMember: {user_msg}\nShannon: {shannon_response}\n"
+
+    return formatted
+
 # PostOnboardingHandler already imported with guard above
+
 
 # Add stub for active users analysis if missing
 if 'trigger_instagram_analysis_for_active_users' not in globals():
@@ -1864,6 +1880,46 @@ def build_member_chat_prompt(
         trial_start_date_exists = journey_stage.get(
             'trial_start_date') is not None
         if is_paying_client or trial_start_date_exists or client_status in ["active client", "trial", "paying client"]:
+
+            # NEW: TRY PERSONALIZED PROMPTING FIRST
+            try:
+                from scripts.integrate_personalized_prompting import MemberPersonalityManager
+
+                ig_username = client_data.get('ig_username', '')
+                if ig_username:
+                    logger.info(
+                        f"🎯 Attempting personalized prompt for {ig_username}")
+
+                    manager = MemberPersonalityManager()
+
+                    # Build context for personalized prompting
+                    context = {
+                        'current_melbourne_time_str': get_melbourne_time_str(),
+                        'first_name': full_name or ig_username,
+                        'fitness_goals': client_data.get('fitness_goals', ''),
+                        'dietary_requirements': client_data.get('dietary_requirements', ''),
+                        'current_program': client_data.get('current_program', ''),
+                        'few_shot_examples': format_few_shot_examples(few_shot_examples) if few_shot_examples else ''
+                    }
+
+                    # Try personalized prompting
+                    personalized_prompt, success = manager.generate_personalized_member_prompt(
+                        ig_username, current_message, full_conversation_string, context
+                    )
+
+                    if success:
+                        logger.info(
+                            f"✅ Using personalized prompt for {ig_username}")
+                        return personalized_prompt, "personalized_member_chat"
+                    else:
+                        logger.info(
+                            f"⚠️ Personalized prompting unavailable for {ig_username}, using fallback")
+
+            except Exception as e:
+                logger.warning(
+                    f"⚠️ Personalized prompting failed for {ig_username}: {e}")
+
+            # FALLBACK: Use existing member prompt (your current code continues unchanged)
             base_prompt_template = prompts.MEMBER_CONVERSATION_PROMPT_TEMPLATE
             prompt_type = "member_chat"
             logger.info(
