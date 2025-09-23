@@ -1942,9 +1942,8 @@ def display_review_item(review_item):
         "Use the editor below to approve or regenerate. Details follow underneath.")
 
     # --- Top section: User message, editor/actions, and regenerate guidance ---
-    # Respect previously selected prompt type if set in session
-    default_prompt_for_top = (review_item.get('prompt_type')
-                              or 'general_chat')
+    # Default to the current item's prompt type so it follows the active flow
+    default_prompt_for_top = (review_item.get('prompt_type') or 'general_chat')
     selected_prompt_type_top = st.session_state.get(
         f"{key_prefix}prompt_selector", default_prompt_for_top)
 
@@ -3015,8 +3014,21 @@ def handle_regenerate(review_item, selected_prompt_type, key_prefix="", extra_gu
             selected_prompt_type = 'facebook_ad_response'
             logger.info(
                 f"🔒 Forcing prompt_type=facebook_ad_response for {user_ig} (in ad flow)")
+        else:
+            # Heuristic: if their first inbound asks for details, use Ads prompt
+            text_lc = (incoming_msg or '').lower()
+            detail_triggers = [
+                'details', 'more info', 'tell me more', 'how does it work',
+                "what's included", 'whats included', 'what is the challenge',
+                'what do i get', 'explain', 'info', 'what is it', 'challenge details'
+            ]
+            if selected_prompt_type != 'facebook_ad_response' and any(t in text_lc for t in detail_triggers):
+                selected_prompt_type = 'facebook_ad_response'
+                logger.info(
+                    f"🎯 Using Ads prompt for {user_ig} based on detail trigger in first inbound")
     except Exception as e:
-        logger.warning(f"Could not enforce ad prompt for {user_ig}: {e}")
+        logger.warning(
+            f"Could not enforce/select ad prompt for {user_ig}: {e}")
 
     regenerate_key = f"regenerate_status_{review_id}"
     if regenerate_key not in st.session_state:
@@ -3060,14 +3072,15 @@ def handle_regenerate(review_item, selected_prompt_type, key_prefix="", extra_gu
             except Exception as e:
                 logger.warning(f"Postprocess failed for {user_ig}: {e}")
 
-            # Guard: if model output is meta commentary (suggestion about what to say), re-prompt once with strict rules
+            # Guard: if model output is meta commentary or echoes the guidance, re-prompt once with strict rules
             try:
-                if _is_meta_commentary(enhanced_response):
+                if _is_meta_commentary(enhanced_response) or _seems_like_guidance_echo(enhanced_response, extra_guidance):
                     strict_block = (
                         "OUTPUT RULES (Strict):\n"
                         "- Return ONLY the final message to send to the user.\n"
                         "- Do NOT explain, justify, or comment on what to say.\n"
                         "- No quotes, no headings, no meta text. Instagram DM tone.\n"
+                        "- Do NOT copy or quote the overrides/guidance; use them only to shape the reply.\n"
                     )
                     enhanced_response_retry = regenerate_with_enhanced_context(
                         user_ig,
@@ -3132,6 +3145,23 @@ def handle_regenerate(review_item, selected_prompt_type, key_prefix="", extra_gu
                         "✅ New contextual response generated! The page will refresh to show the updated response.")
                     st.toast(
                         f"🔄 Regenerated response for {user_ig} with bio context!", icon="✨")
+                    # Clear caches to ensure fresh data on next render
+                    try:
+                        get_cached_pending_reviews.clear()
+                    except Exception:
+                        pass
+                    try:
+                        get_cached_user_data.clear()
+                    except Exception:
+                        pass
+                    try:
+                        get_cached_conversation_history.clear()
+                    except Exception:
+                        pass
+                    try:
+                        get_cached_user_bio_data.clear()
+                    except Exception:
+                        pass
                     st.rerun()
                 else:
                     logger.error(
@@ -3332,6 +3362,48 @@ def _is_meta_commentary(text: str) -> bool:
     if len(t) <= 40 and ("say the same" in t or "same reply" in t):
         return True
     return False
+
+
+def _seems_like_guidance_echo(text: str, guidance: str) -> bool:
+    """Heuristically detect if the model output is echoing the guidance/overrides.
+    - True when output contains large substrings of the guidance
+    - True when it includes obvious meta markers we used in prompts
+    """
+    try:
+        if not text:
+            return False
+        t = (text or "").strip().lower()
+        g = (guidance or "").strip().lower()
+        # Meta markers used in our prompts
+        meta_markers = [
+            "session overrides (absolute priority",
+            "learned preferences",
+            "compliance reminder",
+            "output rules (strict)",
+            "final reply:",
+        ]
+        if any(m in t for m in meta_markers):
+            return True
+        if not g:
+            return False
+        # If a significant slice of the guidance appears verbatim in output
+        if len(g) >= 24:
+            sample = g[:24]
+            if sample and sample in t:
+                return True
+        # Token overlap heuristic
+        try:
+            g_tokens = {w for w in g.split() if len(w) > 3}
+            t_tokens = {w for w in t.split() if len(w) > 3}
+            if g_tokens:
+                overlap = len(g_tokens & t_tokens) / max(1, len(g_tokens))
+                if overlap > 0.65:
+                    return True
+        except Exception:
+            pass
+        return False
+    except Exception:
+        return False
 
 
 def handle_generate_offer(review_item):
@@ -3753,6 +3825,20 @@ def regenerate_with_enhanced_context(user_ig_username: str, incoming_message: st
                     f"{learned_block}\n\n" + enhanced_prompt_str
                 )
 
+        # Add globally enforced output rules up-front for every prompt type
+        try:
+            strict_output_rules = (
+                "OUTPUT RULES (Strict):\n"
+                "- Return ONLY the final message to send in Instagram DM tone.\n"
+                "- Do NOT copy or quote the overrides/guidance.\n"
+                "- No headings, bullets, or meta commentary.\n"
+                "- Keep it concise (1-3 short sentences) unless proposing a call.\n"
+                "- If proposing a call, follow the ad-step logic; no Calendly link unless the last user turn is clearly affirmative.\n"
+            )
+            enhanced_prompt_str = strict_output_rules + "\n\n" + enhanced_prompt_str
+        except Exception:
+            pass
+
         # Global compliance tail: reinforce overrides and avoid repeating previous AI output
         try:
             tail_blocks: list[str] = []
@@ -3782,6 +3868,23 @@ def regenerate_with_enhanced_context(user_ig_username: str, incoming_message: st
             logger.warning(
                 f"Gemini returned an empty response for {user_ig_username} during regeneration. Prompt type: {prompt_type}")
             return "Sorry, I had a bit of a brain fade there. Can you tell me what you were looking for again?"
+
+        # Final safeguard: if model still echoes guidance, strip it by re-asking succinctly
+        try:
+            if _seems_like_guidance_echo(generated_response, extra_guidance):
+                repair_prompt = (
+                    "Rewrite the following into the final Instagram DM reply.\n"
+                    "Rules: Do NOT include any meta text or repeat the guidance; output only the message.\n\n"
+                    f"GUIDANCE: {extra_guidance or ''}\n\n"
+                    f"CANDIDATE_REPLY: {generated_response}\n\n"
+                    "FINAL REPLY:"
+                )
+                repaired = call_gemini_with_retry_sync(
+                    GEMINI_MODEL_FLASH, repair_prompt)
+                if repaired and not _seems_like_guidance_echo(repaired, extra_guidance) and not _is_meta_commentary(repaired):
+                    generated_response = repaired
+        except Exception:
+            pass
 
         try:
             if learned_guidance_list:
@@ -4386,9 +4489,39 @@ def get_default_few_shot_examples(prompt_type: str) -> str:
     """Get default few-shot examples when none are in database."""
     if prompt_type == 'facebook_ad_response':
         return """
-**Example Vegan Ad Response:**
+**Example Vegan Ad Response (Overview + Goal):**
 User: "Can you tell me about the vegan challenge?"
-Shannon: "Hey! Awesome to hear from you. I'd love to tell you more. As the ad mentioned, I'm personally guiding a small, dedicated group of 6 vegans through my weight training and nutrition system. The program generally helps vegans lose 2-3kgs, plus tone up. The challenge is all about - movement, plant based nutrition and motivation. What would you be aiming to achieve in the 28 days? 😊
+Shannon: "Hey! Awesome that you're keen to know more. It's an online program to help you build strength, get leaner and feel amazing on a plant based diet. You get a personalized workout plan, a full vegan nutrition guide and weekly check ins for accountability. What's your main goal right now?"
+
+**Example Vegan Ad Response (Perimenopause flow to call):**
+User: "Can you tell me more about your ad?"
+Shannon: "Awesome! The challenge is all about helping vegans dominate their fitness journey through focused nutrition and effective training. To see if it’s the right fit for you, what are you hoping to achieve with a fitness challenge?"
+User: "I’ve been trying to lose weight the past couple of years but not having much luck with it 🙃… I think it may be because of perimenopause 😢"
+Shannon: "Thanks for sharing that, I completely get it; it’s super common and very solvable with the right plan. The good news is our program is designed to help here with simple structure that actually fits real life. Have you noticed it affecting anything in particular like energy or cravings?"
+User: "I’m pretty good energy wise and have a good mindset… no other symptoms yet just weight gain… occasionally I feel like a sweet treat but I try to choose healthier options."
+Shannon: "Makes total sense. Given what you’ve told me about the weight gain, the best way for me to help is to have a quick call so I can tailor this properly. Would you be open to booking a call this week?"
+User: "Ok 👍"
+Shannon: "Awesome! Here’s the link: https://calendly.com/shannonrhysbirch/15min Grab any 15‑minute slot that works and let me know once you’ve booked so I can double check on my end."
+
+**Example Vegan Ad Response (Gluten free + price handling):**
+User: "Hello, I've just seen your story on IG....and I'll be interested...how does it work?! And of course I am vegan😉"
+Shannon: "That's awesome! The challenge is an online program that includes a complete vegan meal plan, a structured workout program and ongoing support from me. To make sure it's the perfect fit, what's your main goal right now?"
+User: "I'm trying to lose weight and gain strength. I just joined a gym; here’s my plan… (shares workouts). Also I am gluten free."
+Shannon: "That's fantastic! Love the structure you’ve got. We’ll tailor your vegan nutrition to support those sessions and gluten free is no problem at all. I'd love to chat more and map this properly. Open to a quick call this week?"
+User: "Yes, but how much is the program?"
+Shannon: "Great question. I've got a few options and the best fit depends on you. Quickest way is a short call so I can match the right one for your goals and budget. Keen if I send the calendar link?"
+User: "Yes ok"
+Shannon: "Awesome! Here’s the link: https://calendly.com/shannonrhysbirch/15min Grab any 15‑minute slot that works and let me know once you’ve booked so I can double check on my end."
+
+**Example Vegan Ad Response (Back pain, IVF, early vegan, call flow):**
+User: "Hey. How will that work. I really struggle with my weight loss. Hope you could help 💜"
+Shannon: "Hey, totally hear you. Weight loss can be tough especially getting started. What are you doing for exercise right now?"
+User: "I have been very lazy lately. I used to workout five days a week till I hurt my back. IVF too. I can start straightaway. I'm 95kg and 5'8."
+Shannon: "Completely understandable after all that. We’ll meet you where you’re at and build it back smart. How long have you been vegan and what changes did you make so far?"
+User: "Vegetarian lifelong, vegan a few weeks. Added tofu, switched to almond/soy milk, more fruits and nuts."
+Shannon: "That’s a great start. The program gives you a simple vegan structure that fits life and supports healthy weight loss without overwhelm. Given everything you’ve shared, best next step is a quick call so I can tailor it properly. Open to booking one this week?"
+User: "Yes sure. Which day?"
+Shannon: "Awesome! Here’s my calendar: https://calendly.com/shannonrhysbirch/15min Grab any 15‑minute slot and tell me once you’ve booked so I can double check."
 """
     elif prompt_type == 'member_chat':
         return """
