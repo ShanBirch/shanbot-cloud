@@ -1,8 +1,10 @@
 import os
 import hashlib
 from io import BytesIO
-from datetime import date
+from datetime import date, datetime
 import base64
+import random
+import re as _re
 # import logging # Remove logging import
 from typing import List, Optional
 
@@ -92,8 +94,83 @@ def enrich_preparation_text(raw_prep: str, ingredients: List[str]) -> str:
     return " ".join(step for step in steps if step)
 
 
-def _meal_image_key(meal_name: str, ingredients_text: str, macros_text: str = "", style_tag: str = "v6_photoreal_with_amounts") -> str:
-    data = f"{meal_name}|{ingredients_text}|{macros_text}|{style_tag}".encode(
+def normalize_ingredients_for_cache(ingredients_text: str) -> str:
+    """
+    Normalize ingredients to ensure consistent cache keys regardless of order.
+    This ensures the same meal with differently ordered ingredients gets the same photo.
+    """
+    if not ingredients_text:
+        return ""
+
+    # Split into lines and clean each one
+    lines = ingredients_text.strip().split('\n')
+    normalized_lines = []
+
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+
+        # Remove leading dashes, bullets, or numbers
+        line = _re.sub(r'^[-•*\d+.\s]+', '', line)
+
+        # Normalize measurement units
+        line = _re.sub(r'\bgrams?\b', 'g', line, flags=_re.IGNORECASE)
+        line = _re.sub(r'\bkilograms?\b', 'kg', line, flags=_re.IGNORECASE)
+        line = _re.sub(r'\bmillilitres?\b', 'ml', line, flags=_re.IGNORECASE)
+        line = _re.sub(r'\blitres?\b', 'l', line, flags=_re.IGNORECASE)
+        line = _re.sub(r'\btablespoons?\b', 'tbsp', line, flags=_re.IGNORECASE)
+        line = _re.sub(r'\bteaspoons?\b', 'tsp', line, flags=_re.IGNORECASE)
+
+        # Remove "optional" markers from cache key (but keep in display)
+        line_for_cache = _re.sub(
+            r'\s*\(optional\)', '', line, flags=_re.IGNORECASE)
+
+        # Normalize whitespace
+        line_for_cache = ' '.join(line_for_cache.split())
+
+        if line_for_cache:
+            normalized_lines.append(line_for_cache.lower())
+
+    # Sort lines alphabetically for consistent ordering
+    normalized_lines.sort()
+
+    return '\n'.join(normalized_lines)
+
+
+def normalize_meal_name_for_cache(meal_name: str) -> str:
+    """
+    Normalize meal name for consistent cache keys.
+    """
+    if not meal_name:
+        return ""
+
+    # Convert to lowercase
+    name = meal_name.lower()
+
+    # Remove extra whitespace
+    name = ' '.join(name.split())
+
+    # Standardize common variations
+    name = _re.sub(r'\bbowl\b', 'bowl', name)
+    name = _re.sub(r'\bsmoothie bowl\b', 'smoothie bowl', name)
+    name = _re.sub(r'\bbuddha bowl\b', 'bowl', name)
+    name = _re.sub(r'\bpower bowl\b', 'bowl', name)
+    name = _re.sub(r'\bnourish bowl\b', 'bowl', name)
+
+    return name
+
+
+def _meal_image_key(meal_name: str, ingredients_text: str, macros_text: str = "", style_tag: str = "v8_photoreal_normalized") -> str:
+    """
+    Generate a consistent cache key with normalized inputs.
+    Now handles ingredient order independence and meal name variations.
+    """
+    normalized_name = normalize_meal_name_for_cache(meal_name)
+    normalized_ingredients = normalize_ingredients_for_cache(ingredients_text)
+
+    # Keep macros as-is since they're usually consistent
+    data = f"{normalized_name}|{normalized_ingredients}|{macros_text}|{style_tag}".encode(
         "utf-8")
     return hashlib.sha1(data).hexdigest()[:16]
 
@@ -142,6 +219,7 @@ def maybe_generate_meal_image(meal_name: str, ingredients_text: str, preparation
     key = _meal_image_key(meal_name, ingredients_text,
                           macros_text=macros_text, style_tag=style_tag)
     dest_path = os.path.join(out_dir, f"{key}.jpg")
+    rng = random.Random(int(key, 16))
     # Short-circuit on cache regardless; images do not include overlays now
     if os.path.exists(dest_path):
         return dest_path
@@ -167,31 +245,62 @@ def maybe_generate_meal_image(meal_name: str, ingredients_text: str, preparation
 
     try:
         # Photorealistic food photography prompt with exact ingredients/amounts (no labels)
+        # Photorealistic food photography prompt with realism cues and randomized angles
+        # Decide camera angle deterministically per meal
+        angle_choice = "overhead"
         if is_glass_drink:
+            angle_choice = "side"  # Always for glass drinks
+        elif is_smoothie_bowl:
+            angle_choice = "overhead" if rng.random() < 0.7 else rng.choice([
+                "45-degree", "close-up"])
+        else:
+            angle_choice = rng.choice(["overhead", "45-degree", "close-up"])
+
+        if angle_choice == "side":
             header_line = f"Photorealistic side-view food photo of {meal_name}."
             angle_line = "Camera angle: natural side view (3/4), not overhead; show full glass height and contents."
-            vessel_line = "Serve in a tall clear glass (not a bowl); transparent sides visible; set on a natural surface (wood or marble) with minimal props (linen napkin)."
-        else:
+        elif angle_choice == "overhead":
             header_line = f"Photorealistic overhead (top-down 90°) food photo of {meal_name}."
-            angle_line = "Camera angle: overhead (top-down 90°) for bowls/plates."
-            vessel_line = (
-                "Serve in a ceramic bowl (for smoothie bowls) on a natural surface (wood or marble) with minimal tasteful props (linen napkin, spoon)."
-                if is_smoothie_bowl
-                else "Serve in a ceramic bowl/plate on a natural surface (wood or marble) with minimal tasteful props (linen napkin, cutlery)."
-            )
+            angle_line = "Camera angle: overhead (top-down 90°)."
+        elif angle_choice == "45-degree":
+            header_line = f"Photorealistic three-quarter (45°) food photo of {meal_name}."
+            angle_line = "Camera angle: 45° three-quarter view."
+        else:
+            header_line = f"Photorealistic close-up food photo of {meal_name}."
+            angle_line = "Camera angle: 30° close-up with shallow depth of field."
+
+        vessel_line = (
+            "Serve in a tall clear glass; transparent sides visible; set on a natural surface (wood or marble) with minimal props (linen napkin)."
+            if is_glass_drink else
+            ("Serve in a ceramic bowl (for smoothie bowls) on a natural surface with minimal tasteful props (linen napkin, spoon)."
+             if is_smoothie_bowl else
+             "Serve on a ceramic plate or shallow bowl on a natural surface with believable cutlery; avoid perfect symmetry.")
+        )
+
+        aspect_line = "Aspect: 3:2 or 4:3, natural composition; preserve aspect ratio."
+        realism_lines = [
+            "Natural daylight (window light), soft realistic shadows, true-to-life colors.",
+            "Shallow depth of field where appropriate (background softly out of focus).",
+            "Imperfect plating, a few realistic crumbs/smears; subtle steam/condensation when warm.",
+            "Light table clutter: linen napkin, fork/spoon; no excessive props.",
+            "No text, no labels, no borders, no watermarks, no hands, no logos."
+        ]
+
         prompt_parts = [
             header_line,
             angle_line,
+            aspect_line,
             "Ingredients and approximate amounts to depict:",
             ingredients_text,
-            "No text, no labels, no cards, no watermarks, no hands.",
             vessel_line,
-            "Delicious, appetizing styling; realistic textures, accurate colors, natural daylight, gentle shadows.",
+            *realism_lines,
             "Food magazine quality, high dynamic range, crisp detail."
         ]
         prompt = "\n".join(prompt_parts)
 
         image_bytes = None
+        candidate_images: List[bytes] = []
+        num_variants = 3
 
         # Path A: new google-genai client
         try:
@@ -201,51 +310,49 @@ def maybe_generate_meal_image(meal_name: str, ingredients_text: str, preparation
             client = new_genai.Client(api_key=api_key)  # type: ignore
             # Try likely image models
             for model_name in [
-                "imagen-3.0-generate-001",  # Prioritize Imagen for photorealism
-                "gemini-2.5-flash-image-preview",
+                "gemini-2.0-flash-preview-image-generation",  # Working Gemini 2.5 Flash
+                "imagen-3.0-generate-001",  # Fallback: Imagen for photorealism
+                "gemini-2.5-flash-image-preview",  # Fallback: other Gemini models
             ]:
                 try:
                     # logging.info(f"Path A: Calling model '{model_name}' for '{meal_name}'") # Comment out logging
-                    if model_name == "gemini-2.5-flash-image-preview":
+                    if model_name in ["gemini-2.5-flash-image-preview", "gemini-2.0-flash-preview-image-generation"]:
+                        # Use candidate_count=1 for image generation models that don't support multiple candidates
+                        candidates_to_request = 1 if model_name == "gemini-2.0-flash-preview-image-generation" else num_variants
                         resp = client.models.generate_content(
                             model=model_name,
                             contents=[prompt],
                             config=new_genai_types.GenerateContentConfig(
                                 response_modalities=[
-                                    new_genai_types.Modality.IMAGE],
-                                candidate_count=1,
+                                    new_genai_types.Modality.IMAGE,
+                                    new_genai_types.Modality.TEXT],
+                                candidate_count=candidates_to_request,
                             )
                         )
-                        if resp.candidates and len(resp.candidates) > 0 and resp.candidates[0].content and resp.candidates[0].content.parts:
-                            for part in resp.candidates[0].content.parts:
-                                if hasattr(part, "inline_data") and hasattr(part.inline_data, "data") and part.inline_data.data:
-                                    image_bytes = part.inline_data.data
-                                    # logging.info(f"Path A: Successfully got image_bytes from {model_name} using generate_content") # Comment out logging
-                                    break
-                            if not image_bytes:
-                                # logging.warning(f"Path A: Model {model_name} generate_content returned content, but no inline_data.data found. Response parts: {[dir(p) for p in resp.candidates[0].content.parts]}") # Comment out logging
-                                pass
+                        if resp.candidates:
+                            for cand in resp.candidates:
+                                if cand.content and cand.content.parts:
+                                    for part in cand.content.parts:
+                                        if hasattr(part, "inline_data") and hasattr(part.inline_data, "data") and part.inline_data.data:
+                                            candidate_images.append(
+                                                part.inline_data.data)
                         else:
                             # logging.warning(f"Path A: Model {model_name} generate_content did not return candidates/content/parts. Response: {resp}") # Comment out logging
                             pass
                     elif hasattr(client, "images") and hasattr(client.images, "generate"):
-                        resp = client.images.generate(
-                            model=model_name, prompt=prompt)  # type: ignore
-                        if hasattr(resp, "images") and len(resp.images) > 0:
-                            img = resp.images[0]
-                            if hasattr(img, "image_bytes") and img.image_bytes:
-                                image_bytes = img.image_bytes
-                                # logging.info(f"Path A: Successfully got image_bytes from {model_name}") # Comment out logging
-                            elif hasattr(img, "data") and img.data:
-                                image_bytes = img.data
-                                # logging.info(f"Path A: Successfully got data from {model_name}") # Comment out logging
-                            else:
-                                # logging.warning(f"Path A: Model {model_name} returned images, but no image_bytes or data found on image object. Image object attributes: {dir(img)}") # Comment out logging
-                                pass
+                        for _ in range(num_variants):
+                            resp = client.images.generate(
+                                model=model_name, prompt=prompt)  # type: ignore
+                            if hasattr(resp, "images") and len(resp.images) > 0:
+                                img = resp.images[0]
+                                if hasattr(img, "image_bytes") and img.image_bytes:
+                                    candidate_images.append(img.image_bytes)
+                                elif hasattr(img, "data") and img.data:
+                                    candidate_images.append(img.data)
                     else:
                         # logging.warning(f"Path A: client.images.generate not available for this client/model.") # Comment out logging
                         pass
-                    if image_bytes:
+                    if candidate_images:
                         break
                 except Exception as e:
                     # logging.error(f"Path A - Error with model {model_name}: {e}") # Comment out logging
@@ -254,6 +361,12 @@ def maybe_generate_meal_image(meal_name: str, ingredients_text: str, preparation
         except Exception as e:
             # logging.error(f"Path A - Client initialization/import error: {e}") # Comment out logging
             pass
+
+        # Select best candidate from collected images
+        if candidate_images and not image_bytes:
+            # For now, just select the first candidate
+            # TODO: Implement more sophisticated selection criteria
+            image_bytes = candidate_images[0]
 
         # Path B: legacy google-generativeai client
         if image_bytes is None:
@@ -319,7 +432,7 @@ def maybe_generate_meal_image(meal_name: str, ingredients_text: str, preparation
 
         # Recompress and resize image to reduce PDF size
         try:
-            from PIL import Image as PILImage  # type: ignore
+            from PIL import Image as PILImage, ImageEnhance, ImageFilter, ImageChops  # type: ignore
             # Some Google APIs return base64-encoded strings; decode when needed
             if isinstance(image_bytes, str):
                 try:
@@ -332,8 +445,77 @@ def maybe_generate_meal_image(meal_name: str, ingredients_text: str, preparation
                 img = img.convert("RGB")
             max_px = 1400  # cap longest side
             img.thumbnail((max_px, max_px), PILImage.LANCZOS)
-            img.save(dest_path, format="JPEG", quality=70,
-                     optimize=True, progressive=True)
+            # Subtle film grain
+            try:
+                w, h = img.size
+                noise = PILImage.effect_noise((w, h), rms=3.5).convert("L")
+                noise = noise.point(lambda p: int(p * 0.25))
+                r, g, b = img.split()
+                r = ImageChops.add(r, noise, scale=1.0, offset=0)
+                g = ImageChops.add(g, noise, scale=1.0, offset=0)
+                b = ImageChops.add(b, noise, scale=1.0, offset=0)
+                img = PILImage.merge("RGB", (r, g, b))
+            except Exception:
+                pass
+
+            # Mild vignette
+            try:
+                w, h = img.size
+                vignette = PILImage.new('L', (w, h), 0)
+                px = vignette.load()
+                for y in range(h):
+                    for x in range(w):
+                        dx = (x - w / 2) / (w / 2)
+                        dy = (y - h / 2) / (h / 2)
+                        d = (dx*dx + dy*dy) ** 0.5
+                        px[x, y] = int(max(0, min(255, 255 * (d - 0.6) / 0.8)))
+                vignette = vignette.filter(ImageFilter.GaussianBlur(radius=20))
+                darkened = img.point(lambda p: int(p * 0.98))
+                img = PILImage.composite(darkened, img, vignette)
+            except Exception:
+                pass
+
+            # Subtle chromatic aberration (1px channel offsets)
+            try:
+                r, g, b = img.split()
+                r = ImageChops.offset(r, 1, 0)
+                b = ImageChops.offset(b, -1, 0)
+                img = PILImage.merge("RGB", (r, g, b))
+            except Exception:
+                pass
+
+            # Slight white balance variance
+            try:
+                img = ImageEnhance.Color(img).enhance(1.02)
+            except Exception:
+                pass
+
+            # Progressive JPEG with natural compression; try adding camera-like EXIF if available
+            exif_bytes = None
+            try:
+                import piexif  # type: ignore
+                zeroth_ifd = {
+                    piexif.ImageIFD.Make: u"Canon",
+                    piexif.ImageIFD.Model: u"EOS 5D Mark IV",
+                    piexif.ImageIFD.Software: u"Adobe Lightroom",
+                }
+                exif_ifd = {
+                    piexif.ExifIFD.DateTimeOriginal: datetime.utcnow().strftime("%Y:%m:%d %H:%M:%S"),
+                    piexif.ExifIFD.LensModel: u"EF 50mm f/1.8 STM",
+                    piexif.ExifIFD.FNumber: (28, 10),
+                    piexif.ExifIFD.ExposureTime: (1, 125),
+                    piexif.ExifIFD.ISOSpeedRatings: 200,
+                }
+                exif_dict = {"0th": zeroth_ifd, "Exif": exif_ifd}
+                exif_bytes = piexif.dump(exif_dict)
+            except Exception:
+                exif_bytes = None
+
+            save_kwargs = {"format": "JPEG", "quality": 78,
+                           "optimize": True, "progressive": True}
+            if exif_bytes:
+                save_kwargs["exif"] = exif_bytes
+            img.save(dest_path, **save_kwargs)
         except Exception:
             # Fallback to raw write if Pillow not available
             try:
