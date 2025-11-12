@@ -15,6 +15,7 @@ import argparse
 import json
 import sqlite3
 import psycopg2
+from psycopg2 import errors
 from psycopg2.extras import execute_batch
 
 
@@ -49,6 +50,33 @@ def ensure_pg_tables(conn):
             );
             """
         )
+        # Add missing columns on pre-existing tables
+        try:
+            cur.execute(
+                """
+                SELECT column_name FROM information_schema.columns
+                WHERE table_name='users'
+                """
+            )
+            existing = {r[0] for r in cur.fetchall() or []}
+            required = {
+                'subscriber_id': 'TEXT',
+                'first_name': 'TEXT',
+                'last_name': 'TEXT',
+                'client_status': 'TEXT',
+                'journey_stage': 'TEXT',
+                'is_onboarding': 'BOOLEAN',
+                'is_in_checkin_flow_mon': 'BOOLEAN',
+                'is_in_checkin_flow_wed': 'BOOLEAN',
+                'last_interaction_timestamp': 'TEXT',
+                'metrics_json': 'TEXT',
+            }
+            for col, coltype in required.items():
+                if col not in existing:
+                    cur.execute(
+                        f"ALTER TABLE users ADD COLUMN {col} {coltype}")
+        except Exception:
+            pass
     conn.commit()
 
 
@@ -67,9 +95,40 @@ def migrate_users(sqlite_path: str, pg_conn):
     )
     rows = scur.fetchall() or []
 
+    # Normalize types for Postgres
+    payloads = []
+    for r in rows:
+        d = dict(r)
+        # Normalize empty strings to NULL for unique-constrained fields
+        if not (d.get("subscriber_id") or "").strip():
+            d["subscriber_id"] = None
+
+        def as_bool(val):
+            if val is None:
+                return False
+            if isinstance(val, (int, float)):
+                return bool(val)
+            if isinstance(val, str):
+                v = val.strip().lower()
+                if v in ("true", "t", "1", "yes", "y"):
+                    return True
+                if v in ("false", "f", "0", "no", "n", ""):
+                    return False
+            return bool(val)
+        d["is_onboarding"] = as_bool(d.get("is_onboarding"))
+        d["is_in_checkin_flow_mon"] = as_bool(d.get("is_in_checkin_flow_mon"))
+        d["is_in_checkin_flow_wed"] = as_bool(d.get("is_in_checkin_flow_wed"))
+        # Ensure JSON-like fields are strings
+        for k in ("metrics_json", "journey_stage"):
+            v = d.get(k)
+            if isinstance(v, dict):
+                d[k] = json.dumps(v)
+            else:
+                d[k] = v
+        payloads.append(d)
+
     with pg_conn.cursor() as cur:
-        execute_batch(
-            cur,
+        insert_sql = (
             """
             INSERT INTO users (
                 ig_username, subscriber_id, first_name, last_name, client_status,
@@ -92,10 +151,72 @@ def migrate_users(sqlite_path: str, pg_conn):
                 last_interaction_timestamp = EXCLUDED.last_interaction_timestamp,
                 metrics_json = EXCLUDED.metrics_json
             ;
-            """,
-            [dict(r) for r in rows],
-            page_size=500,
+            """
         )
+        update_by_sub_sql = (
+            """
+            UPDATE users SET
+                ig_username = %(ig_username)s,
+                first_name = %(first_name)s,
+                last_name = %(last_name)s,
+                client_status = %(client_status)s,
+                journey_stage = %(journey_stage)s,
+                is_onboarding = %(is_onboarding)s,
+                is_in_checkin_flow_mon = %(is_in_checkin_flow_mon)s,
+                is_in_checkin_flow_wed = %(is_in_checkin_flow_wed)s,
+                last_interaction_timestamp = %(last_interaction_timestamp)s,
+                metrics_json = %(metrics_json)s
+            WHERE subscriber_id = %(subscriber_id)s
+            """
+        )
+
+        for p in payloads:
+            try:
+                cur.execute(insert_sql, p)
+            except errors.UniqueViolation as e:
+                pg_conn.rollback()
+                # If duplicate on subscriber_id, update that row to latest fields;
+                # otherwise, try to attach subscriber_id to the existing ig_username row.
+                if p.get("subscriber_id"):
+                    try:
+                        cur.execute(update_by_sub_sql, p)
+                    except Exception:
+                        # Fallback: update the ig_username row directly
+                        cur.execute(
+                            """
+                            UPDATE users SET
+                                subscriber_id = COALESCE(subscriber_id, %(subscriber_id)s),
+                                first_name = %(first_name)s,
+                                last_name = %(last_name)s,
+                                client_status = %(client_status)s,
+                                journey_stage = %(journey_stage)s,
+                                is_onboarding = %(is_onboarding)s,
+                                is_in_checkin_flow_mon = %(is_in_checkin_flow_mon)s,
+                                is_in_checkin_flow_wed = %(is_in_checkin_flow_wed)s,
+                                last_interaction_timestamp = %(last_interaction_timestamp)s,
+                                metrics_json = %(metrics_json)s
+                            WHERE ig_username = %(ig_username)s
+                            """,
+                            p,
+                        )
+                else:
+                    # No subscriber_id to reconcile; update ig_username row
+                    cur.execute(
+                        """
+                        UPDATE users SET
+                            first_name = %(first_name)s,
+                            last_name = %(last_name)s,
+                            client_status = %(client_status)s,
+                            journey_stage = %(journey_stage)s,
+                            is_onboarding = %(is_onboarding)s,
+                            is_in_checkin_flow_mon = %(is_in_checkin_flow_mon)s,
+                            is_in_checkin_flow_wed = %(is_in_checkin_flow_wed)s,
+                            last_interaction_timestamp = %(last_interaction_timestamp)s,
+                            metrics_json = %(metrics_json)s
+                        WHERE ig_username = %(ig_username)s
+                        """,
+                        p,
+                    )
     pg_conn.commit()
     sconn.close()
     return len(rows)
@@ -148,7 +269,8 @@ def migrate_messages(sqlite_path: str, pg_conn):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--sqlite", required=True, help="Path to local SQLite DB (e.g., app/analytics_data_good.sqlite)")
+    ap.add_argument("--sqlite", required=True,
+                    help="Path to local SQLite DB (e.g., app/analytics_data_good.sqlite)")
     ap.add_argument("--pg", required=True, help="Postgres DATABASE_URL")
     args = ap.parse_args()
 
@@ -161,5 +283,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-

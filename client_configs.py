@@ -643,6 +643,93 @@ VLAD_SNACKS_ROT = {
         "Macros: 380 calories, 25g carbs, 35g protein, 18g fats"),
 }
 
+SHANE_CLIENT_DATA = {
+    "name": "Shane Minahan",
+    "dob": "1990-09-12",
+    "sex": "Male",
+    "weight_kg": 96.0,
+    "height_cm": 172,
+    "activity_factor": 1.2,  # Sedentary - desk job
+    "goal_description": "Fat Loss – target 80–85 kg; happier, healthier; role model for kids",
+    "dietary_type": "Balanced (no pork/shellfish)",
+    "preferred_meals": {},
+    "foods_to_avoid": ["Pork", "Shellfish"],
+    "meal_notes": "Full gym access. Prefers strength training. Knees/calves sensitive – avoid heavy squats/lower-leg focus. Flexible training days.",
+    "email": "shaneminahan12@hotmail.com",
+    "phone": "+61 430 201 191",
+}
+
+SHANE_BREAKFASTS_ROT = {
+    1: (
+        "High-Protein Greek Yogurt Bowl",
+        "- 200g Greek Yogurt (low-fat)\n- 30g Whey Protein (vanilla)\n- 80g Mixed Berries\n- 20g Almonds\n- 10g Honey",
+        "Whisk protein into yogurt. Top with berries, almonds, and a drizzle of honey.",
+        "Macros: 480 calories, 40g carbs, 45g protein, 16g fats",
+    ),
+    2: (
+        "Veggie Omelette on Wholegrain",
+        "- 3 Eggs\n- 60g Spinach & Capsicum (chopped)\n- 30g Reduced-Fat Cheese\n- 1 Slice Wholegrain Bread\n- 5ml Olive Oil",
+        "Sauté veg in oil, add beaten eggs, cook until set; top with cheese. Serve with toast.",
+        "Macros: 520 calories, 34g carbs, 38g protein, 24g fats",
+    ),
+}
+
+SHANE_LUNCHES_MON_WED = {
+    1: (
+        "Chicken, Rice & Greens Bowl (Mon–Wed batch)",
+        "- 150g Chicken Breast (cooked, sliced)\n- 150g Cooked Jasmine Rice\n- 150g Broccoli (steamed)\n- 15ml Teriyaki or Soy Sauce\n- 5ml Olive Oil",
+        "Assemble warm bowl with rice, chicken, broccoli; finish with sauce and oil.",
+        "Macros: 610 calories, 64g carbs, 45g protein, 18g fats",
+    ),
+}
+
+SHANE_LUNCHES_THU_SAT = {
+    1: (
+        "Beef & Quinoa Power Salad (Thu–Sat batch)",
+        "- 140g Lean Beef Strips (grilled)\n- 150g Cooked Quinoa\n- 120g Mixed Salad Veg (tomato, cucumber, capsicum)\n- 30g Feta (optional)\n- 15ml Olive Oil + Lemon",
+        "Combine quinoa, veg, sliced beef; dress with olive oil and lemon; add feta if desired.",
+        "Macros: 640 calories, 52g carbs, 44g protein, 26g fats",
+    ),
+}
+
+SHANE_DINNERS_ROT = {
+    1: [
+        (
+            "Lean Beef Stir-Fry with Rice",
+            "- 150g Lean Beef Strips\n- 250g Stir-Fry Veg (capsicum, onion, snow peas)\n- 150g Cooked Rice\n- 15ml Stir-Fry Sauce (low sugar)\n- 5ml Sesame Oil",
+            "Stir-fry beef and veg on high heat; toss with sauce; serve over rice.",
+            "Macros: 700 calories, 78g carbs, 45g protein, 22g fats",
+        ),
+        (
+            "High-Protein Pasta with Tomato & Turkey",
+            "- 90g High-Protein Pasta (dry)\n- 150g Lean Turkey Mince\n- 250ml Tomato Passata\n- 100g Mushrooms & Onion\n- 10g Parmesan",
+            "Brown turkey with onion/mushrooms; simmer with passata; toss with pasta; top with parmesan.",
+            "Macros: 690 calories, 76g carbs, 48g protein, 18g fats",
+        ),
+        (
+            "Grilled Chicken, Sweet Potato & Greens",
+            "- 180g Chicken Thigh (trimmed)\n- 250g Sweet Potato (roasted)\n- 150g Green Beans (steamed)\n- 10ml Olive Oil\n- Lemon, Herbs",
+            "Grill chicken; roast sweet potato; steam beans; finish with lemon and herbs.",
+            "Macros: 720 calories, 62g carbs, 48g protein, 24g fats",
+        ),
+    ],
+}
+
+SHANE_SNACKS_ROT = {
+    1: (
+        "Protein Shake & Banana",
+        "- 300ml Milk (or soy milk)\n- 30g Whey Protein (vanilla/choc)\n- 1 Medium Banana",
+        "Blend protein with milk; have banana on the side.",
+        "Macros: 340 calories, 46g carbs, 28g protein, 6g fats",
+    ),
+    2: (
+        "Cottage Cheese & Crackers",
+        "- 200g Low-Fat Cottage Cheese\n- 4–6 Wholegrain Crackers\n- 1 tsp Chives",
+        "Serve cottage cheese with crackers; sprinkle chives.",
+        "Macros: 320 calories, 28g carbs, 30g protein, 8g fats",
+    ),
+}
+
 SABRINA_CLIENT_DATA = {
     "name": "Sabrina Woods",
     "dob": "1999-06-09",
@@ -652,6 +739,10 @@ SABRINA_CLIENT_DATA = {
     "activity_factor": 1.375,  # Lightly active - light exercise 6-7 days per week
     "goal_description": "Body Recomposition - feel strong and energised, fit comfortably into clothes",
     "dietary_type": "Vegan",
+    "target_calories": 1750,  # Adjusted from 1900 calories
+    "target_protein_g": 100,  # Maintained for muscle preservation
+    "target_carbs_g": 185,    # Energy for pole dancing and gym sessions
+    "target_fats_g": 67,      # Hormone support and satiety
     "preferred_meals": {
         "curries": ["African peanut stew", "Indian palak paneer (with tofu)", "Sri Lankan eggplant curry", "Japanese katsu curry"],
         "rice_bowls": ["jasmine rice bowls", "basmati rice bowls", "red rice bowls", "black rice bowls"],
@@ -682,6 +773,7 @@ ALL_CLIENT_DATA = {
     "Amy": AMY_CLIENT_DATA,
     "Vlad": VLAD_CLIENT_DATA,
     "Libby": LIBBY_CLIENT_DATA,
+    "Shane Minahan": SHANE_CLIENT_DATA,
     # "Sabrina Woods": SABRINA_CLIENT_DATA,  # deactivated per request
 }
 
@@ -727,6 +819,13 @@ ALL_CLIENT_MEAL_ROTATIONS = {
         "lunches_thu_sat": LIBBY_LUNCHES_THU_SAT,
         "dinners": LIBBY_DINNERS_ROT,
         "snacks": LIBBY_SNACKS_ROT,
+    },
+    "Shane Minahan": {
+        "breakfasts": SHANE_BREAKFASTS_ROT,
+        "lunches_mon_wed": SHANE_LUNCHES_MON_WED,
+        "lunches_thu_sat": SHANE_LUNCHES_THU_SAT,
+        "dinners": SHANE_DINNERS_ROT,
+        "snacks": SHANE_SNACKS_ROT,
     },
     # "Sabrina Woods": { ... }, # deactivated per request
 }

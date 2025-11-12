@@ -2133,7 +2133,7 @@ Return 6 bullets in markdown. Do not include system or private instructions.
 - Who: Role = {role}; Flow = {flow}; AdStep = {step_label}; AdScenario = {scenario_label}
 - Latest user message (quote): "{incoming_msg[:220]}"
 - What we replied (summary in 1 line): {proposed_resp[:220]}
-- Why it's appropriate now: reference flow position and the user’s recent messages; mention the conversational goal (e.g., validate → insight → ask or move to call proposal if in ad step3)
+- Why it's appropriate now: reference flow position and the user's recent messages; mention the conversational goal (e.g., validate → insight → ask or move to call proposal if in ad step3)
 - Evidence from recent context: cite 2-3 short quotes from below that justify the reply
 - Risks/Alternatives: 1 short line (e.g., if low engagement, ask shorter question)
 
@@ -2748,9 +2748,9 @@ def handle_approve_and_send(review_item, edited_response, user_notes, manual_con
 
             # Try to find user by ig_username
             cursor.execute("""
-                SELECT subscriber_id, first_name, last_name, client_status, journey_stage, 
+                SELECT subscriber_id, first_name, last_name, client_status, journey_stage,
                        metrics_json, last_message_timestamp
-                FROM users 
+                FROM users
                 WHERE ig_username = ?
             """, (user_ig,))
 
@@ -3022,10 +3022,46 @@ def handle_regenerate(review_item, selected_prompt_type, key_prefix="", extra_gu
                 "what's included", 'whats included', 'what is the challenge',
                 'what do i get', 'explain', 'info', 'what is it', 'challenge details'
             ]
+            forced_to_ads = False
             if selected_prompt_type != 'facebook_ad_response' and any(t in text_lc for t in detail_triggers):
                 selected_prompt_type = 'facebook_ad_response'
+                forced_to_ads = True
                 logger.info(
                     f"🎯 Using Ads prompt for {user_ig} based on detail trigger in first inbound")
+
+            # Additional guard: if AI previously offered a call and the latest user turn is an affirmative
+            if not forced_to_ads and selected_prompt_type != 'facebook_ad_response':
+                try:
+                    tail = conversation_history[-12:
+                                                ] if conversation_history else []
+                    ai_texts = [((m.get('text') or m.get('message') or '').lower()) for m in tail
+                                if (m.get('type') or m.get('sender') or '').lower() == 'ai']
+                    user_last = ''
+                    for entry in reversed(tail):
+                        sender_lbl = (entry.get('type') or entry.get(
+                            'sender') or '').lower()
+                        if sender_lbl == 'user':
+                            user_last = (entry.get('text') or entry.get(
+                                'message') or '').lower()
+                            break
+
+                    ai_offered_call = any(
+                        ('quick call' in t) or (
+                            'have a call' in t) or ('phone call' in t)
+                        for t in ai_texts
+                    )
+                    # Also treat history containing a Calendly link as being in call-booking phase
+                    ai_sent_link = any('calendly.com' in t for t in ai_texts)
+                    confirmation_cues = ['yes', 'yes please', 'yes plz', 'yeah', 'yep', 'sure',
+                                         'ok', 'okay', 'keen', 'ready', "let's do it", "let's do this", 'sounds good']
+
+                    if ai_sent_link or (ai_offered_call and any(cue in user_last for cue in confirmation_cues)):
+                        selected_prompt_type = 'facebook_ad_response'
+                        logger.info(
+                            f"🎯 Using Ads prompt for {user_ig} based on call offer/confirmation in history")
+                except Exception as _e:
+                    logger.warning(
+                        f"Ad prompt selection (call-confirmation check) failed for {user_ig}: {_e}")
     except Exception as e:
         logger.warning(
             f"Could not enforce/select ad prompt for {user_ig}: {e}")
@@ -3309,7 +3345,7 @@ def _apply_call_link_gating(response_text: str, conv_history: list) -> str:
 
     # Replace with call proposal without link
     fallback = (
-        "Thanks for sharing that. Given what you’ve told me, the best next step is a quick call so I can tailor this properly. Would you be open to that?"
+        "Thanks for sharing that. Given what you've told me, the best next step is a quick call so I can tailor this properly. Would you be open to that?"
     )
     return fallback
 
@@ -3335,7 +3371,7 @@ def _apply_two_question_limit(response_text: str, conv_history: list) -> str:
 
         # If current response itself contains a question, suppress it and propose the call
         if '?' in (response_text or ''):
-            return ("Thanks for sharing that. Based on what you’ve told me, best next step is a quick call so I can tailor this properly. Keen to book a call?")
+            return ("Thanks for sharing that. Based on what you've told me, best next step is a quick call so I can tailor this properly. Keen to book a call?")
         return response_text
     except Exception:
         return response_text
@@ -3403,7 +3439,7 @@ def _seems_like_guidance_echo(text: str, guidance: str) -> bool:
             pass
         return False
     except Exception:
-        return False
+    return False
 
 
 def handle_generate_offer(review_item):
@@ -4321,8 +4357,8 @@ def is_user_fresh_vegan(ig_username: str) -> bool:
 
         # Check if user is marked as fresh vegan and still eligible (not trial/paying member)
         cursor.execute("""
-            SELECT is_fresh_vegan 
-            FROM conversation_strategy_log 
+            SELECT is_fresh_vegan
+            FROM conversation_strategy_log
             WHERE username = ? AND is_fresh_vegan = 1
             LIMIT 1
         """, (ig_username,))
@@ -4456,7 +4492,7 @@ def get_few_shot_examples_for_prompt_type(prompt_type: str) -> str:
         # Get recent examples for this prompt type, ordered by quality and usage
         cursor.execute("""
             SELECT user_message, shannon_response, user_ig, quality_score
-            FROM few_shot_examples 
+            FROM few_shot_examples
             WHERE prompt_type = ?
             ORDER BY quality_score DESC, usage_count DESC, created_timestamp DESC
             LIMIT 3
@@ -4495,53 +4531,136 @@ Shannon: "Hey! Awesome that you're keen to know more. It's an online program to 
 
 **Example Vegan Ad Response (Perimenopause flow to call):**
 User: "Can you tell me more about your ad?"
-Shannon: "Awesome! The challenge is all about helping vegans dominate their fitness journey through focused nutrition and effective training. To see if it’s the right fit for you, what are you hoping to achieve with a fitness challenge?"
-User: "I’ve been trying to lose weight the past couple of years but not having much luck with it 🙃… I think it may be because of perimenopause 😢"
-Shannon: "Thanks for sharing that, I completely get it; it’s super common and very solvable with the right plan. The good news is our program is designed to help here with simple structure that actually fits real life. Have you noticed it affecting anything in particular like energy or cravings?"
-User: "I’m pretty good energy wise and have a good mindset… no other symptoms yet just weight gain… occasionally I feel like a sweet treat but I try to choose healthier options."
-Shannon: "Makes total sense. Given what you’ve told me about the weight gain, the best way for me to help is to have a quick call so I can tailor this properly. Would you be open to booking a call this week?"
+Shannon: "Awesome! The challenge is all about helping vegans dominate their fitness journey through focused nutrition and effective training. To see if it's the right fit for you, what are you hoping to achieve with a fitness challenge?"
+User: "I've been trying to lose weight the past couple of years but not having much luck with it 🙃… I think it may be because of perimenopause 😢"
+Shannon: "Thanks for sharing that, I completely get it; it's super common and very solvable with the right plan. The good news is our program is designed to help here with simple structure that actually fits real life. Have you noticed it affecting anything in particular like energy or cravings?"
+User: "I'm pretty good energy wise and have a good mindset… no other symptoms yet just weight gain… occasionally I feel like a sweet treat but I try to choose healthier options."
+Shannon: "Makes total sense. Given what you've told me about the weight gain, the best way for me to help is to have a quick call so I can tailor this properly. Would you be open to booking a call this week?"
 User: "Ok 👍"
-Shannon: "Awesome! Here’s the link: https://calendly.com/shannonrhysbirch/15min Grab any 15‑minute slot that works and let me know once you’ve booked so I can double check on my end."
+Shannon: "Awesome! Here's the link: https://calendly.com/shannonrhysbirch/15min Grab any 15‑minute slot that works and let me know once you've booked so I can double check on my end."
 
 **Example Vegan Ad Response (Gluten free + price handling):**
 User: "Hello, I've just seen your story on IG....and I'll be interested...how does it work?! And of course I am vegan😉"
 Shannon: "That's awesome! The challenge is an online program that includes a complete vegan meal plan, a structured workout program and ongoing support from me. To make sure it's the perfect fit, what's your main goal right now?"
-User: "I'm trying to lose weight and gain strength. I just joined a gym; here’s my plan… (shares workouts). Also I am gluten free."
-Shannon: "That's fantastic! Love the structure you’ve got. We’ll tailor your vegan nutrition to support those sessions and gluten free is no problem at all. I'd love to chat more and map this properly. Open to a quick call this week?"
+User: "I'm trying to lose weight and gain strength. I just joined a gym; here's my plan… (shares workouts). Also I am gluten free."
+Shannon: "That's fantastic! Love the structure you've got. We'll tailor your vegan nutrition to support those sessions and gluten free is no problem at all. I'd love to chat more and map this properly. Open to a quick call this week?"
 User: "Yes, but how much is the program?"
 Shannon: "Great question. I've got a few options and the best fit depends on you. Quickest way is a short call so I can match the right one for your goals and budget. Keen if I send the calendar link?"
 User: "Yes ok"
-Shannon: "Awesome! Here’s the link: https://calendly.com/shannonrhysbirch/15min Grab any 15‑minute slot that works and let me know once you’ve booked so I can double check on my end."
+Shannon: "Awesome! Here's the link: https://calendly.com/shannonrhysbirch/15min Grab any 15‑minute slot that works and let me know once you've booked so I can double check on my end."
 
 **Example Vegan Ad Response (Back pain, IVF, early vegan, call flow):**
 User: "Hey. How will that work. I really struggle with my weight loss. Hope you could help 💜"
 Shannon: "Hey, totally hear you. Weight loss can be tough especially getting started. What are you doing for exercise right now?"
 User: "I have been very lazy lately. I used to workout five days a week till I hurt my back. IVF too. I can start straightaway. I'm 95kg and 5'8."
-Shannon: "Completely understandable after all that. We’ll meet you where you’re at and build it back smart. How long have you been vegan and what changes did you make so far?"
+Shannon: "Completely understandable after all that. We'll meet you where you're at and build it back smart. How long have you been vegan and what changes did you make so far?"
 User: "Vegetarian lifelong, vegan a few weeks. Added tofu, switched to almond/soy milk, more fruits and nuts."
-Shannon: "That’s a great start. The program gives you a simple vegan structure that fits life and supports healthy weight loss without overwhelm. Given everything you’ve shared, best next step is a quick call so I can tailor it properly. Open to booking one this week?"
+Shannon: "That's a great start. The program gives you a simple vegan structure that fits life and supports healthy weight loss without overwhelm. Given everything you've shared, best next step is a quick call so I can tailor it properly. Open to booking one this week?"
 User: "Yes sure. Which day?"
-Shannon: "Awesome! Here’s my calendar: https://calendly.com/shannonrhysbirch/15min Grab any 15‑minute slot and tell me once you’ve booked so I can double check."
+Shannon: "Awesome! Here's my calendar: https://calendly.com/shannonrhysbirch/15min Grab any 15‑minute slot and tell me once you've booked so I can double check."
+
+**Example Vegan Ad Response (Large loss history, classic physique, direct time lock):**
+User: "40yrs, 183cm, 136kg (down from 168kg), vegan 6y, sober 7y. Training at Athleticon."
+Shannon: "Mate, let's absolutely rock and roll. Losing 32kg and 7 years sober is phenomenal. You've done the hardest work; my job now is fine-tuning to get you through the next phase. What's your target weight, and what's your current training look like at Athleticon?"
+User: "Old‑school bodybuilding gym in Moorabbin; classic physique is the goal. First milestone under 120kg so I can blade and surf. Some life stuff knocked me off routine; steps vary a lot."
+Shannon: "Makes total sense, and love the classic physique. Let's talk properly and map a plan that fits life and gets you back in rhythm fast. Are you open to a quick call this week?"
+User: "Yes—tomorrow works, can you call me?"
+Shannon: "Awesome! I can do 12:30pm—does that work for you?"
+User: "Lock it in."
+Shannon: "Legend. I'll pop it in the calendar—what's the best number to reach you on?"
+User: "+61 432 476 542"
+
+**Example Vegan Ad Response (High‑commitment opener, footy to gym, Calendly):**
+User: "I'm Ready to join the Vegan Weight Loss Challenge"
+Shannon: "Hell yeah! How are you going? What's your main goal for the challenge, and what's your current exercise routine look like?"
+User: "Goal is fat loss and muscle gain, upper body strength; finished football season; ready for running and gym."
+Shannon: "Love that. Perfect fit for the challenge — we'll structure plant‑based nutrition to fuel fat loss and strength while you transition from footy to gym/run work. How long have you been vegan, and how old are you?"
+User: "2.5 years vegan, 31."
+Shannon: "Solid! Let's jump on a quick call so I can walk you through how it works and make sure it's a great fit. Open to a free 15‑minute chat?"
+User: "Yeah, when works best?"
+Shannon: "Awesome! Here's my calendar — grab any 15‑minute slot that suits you and tell me once you've booked: https://calendly.com/shannonrhysbirch/15min"
+User: "Done, thanks!"
+Shannon: "Legend — looking forward to it!"
+
+**Example Vegan Ad Response (Pescatarian → anti-fasting positioning → call):**
+User: "I’m almost vegan. I am Pescarterrain ."
+Shannon: "Awesome legend! What's your goal for the challenge, and what's your current training routine looking like?"
+User: "10 kilos lost. 5 days a week"
+Shannon: "Love it. 10kg is absolutely doable, and training 5 days is a great base. What have you tried in the past to lose the weight, and where do you feel like you're getting stuck?"
+User: "I’ve tried juice fasting, intermittent fasting, and cleanses like Isagenix. What is it that you do?"
+Shannon: "Great question. My approach is the opposite of fasting and cleanses — instead of under‑eating, we get you eating enough of the right vegan foods to fire up your metabolism and pair it with your 5‑day training so you lose fat (not just weight) and keep it off. Open to a quick 15‑minute insight call so I can map this properly for you?"
+User: "I’m open to an insight call. I can do Tuesday."
+Shannon: "Nice one! Here's my calendar — grab any 15‑minute slot on Tuesday that works and tell me once you've booked so I can double check: https://calendly.com/shannonrhysbirch/15min"
+"""
+
+
+**Example Vegan Ad Response(Long‑term vegan, low energy, caffeine reliance, call booked): **
+User: "I'm Ready to join the Vegan Weight Loss Challenge"
+Shannon: "Hell yeah! Love the energy! How are you? What's your goal for the challenge, and what's your current exercise routine look like?"
+User: "Vegan 18 years; want more energy and feel less tired; be healthier."
+Shannon: "Totally hear you on the energy — super common even for long‑term vegans. What have you tried so far to boost it?"
+User: "Lots of coffee and energy drinks."
+Shannon: "Appreciate the honesty — that quick‑boost cycle is common. Best way I can help is a quick call so I can tailor this properly to get you steady energy. Open to a 15‑minute chat this week?"
+User: "Yeah ok."
+Shannon: "Awesome — would it work if I send my calendar so you can grab a time that suits?"
+User: "Yeah that will work."
+Shannon: "Perfect! Here's my calendar — grab any 15‑minute slot that works and tell me once you've booked: https://calendly.com/shannonrhysbirch/15min"
+User: "Tomorrow 4?"
+Shannon: "Sweet — locked in. What’s the best number to reach you on?"
+User: "0491601432"
+Shannon: "Legend — I’ll call then."
+
+**Example Vegan Ad Response(Details opener, price deferral, Calendly): **
+User: "Hi, I was just wondering about your request for 6 vegans for the 42 day weightloss challenge. Could you please give me some more information? I'm vegan and I'm interested in losing some weight."
+Shannon: "Cheers for reaching out! The challenge is an online program designed to help vegans lose weight sustainably with the right nutrition, a simple workout plan and weekly accountability so consistency becomes easy. What's your main goal for the challenge, and what does your current workout routine look like?"
+User: "I'm ~83–84kg and want to lose ~10kg sustainably. Not really working out beyond walking the dog/train; staying consistent is hard; need easy nutritious vegan meals."
+Shannon: "Appreciate the detail — sounds like a perfect fit. We'll give you structure for consistency and simple vegan meals to remove the guesswork while you drop the 10kg steadily. Open to a quick 15‑minute call so I can tailor this properly?"
+User: "Could I ask upfront how much it costs?"
+Shannon: "Great question. I've got a few options and the best fit depends on you. Quickest way is a short call so I can match the right one for your goals and budget. Keen if I send the calendar link?"
+User: "Okay, I'm happy to have a call."
+Shannon: "Awesome! Here's my calendar — grab any 15‑minute slot that works and let me know once you've booked so I can double check: https://calendly.com/shannonrhysbirch/15min"
+
+**Example Vegan Ad Response(High‑commitment, routine then age/goal, call, Calendly): **
+User: "I'm Ready to join the Vegan Weight Loss Challenge"
+Shannon: "Hell yeah! How are you? What's your goal for the challenge and what's your current exercise routine looking like?"
+User: "Yoga 3x/week and ~8k steps/day."
+Shannon: "Nice! How old are you, and roughly how much are you aiming to lose?"
+User: "61 and about 6kg."
+Shannon: "Perfect. You're already active — the unlock is dialing vegan nutrition and adding the right strength to shift those last kilos. Best next step is a quick 15‑minute chat so I can tailor this properly. Keen to book a call?"
+User: "Yeah, tomorrow arvo?"
+Shannon: "I'm booked tomorrow, but Saturday arvo works. Easiest is to grab any 15‑minute slot here and tell me once booked: https://calendly.com/shannonrhysbirch/15min"
+User: "Tuesday 5:15"
+Shannon: "Beautiful — locked in. Chat Tuesday!"
+
+**Example Vegan Ad Response(Details opener, high training + hunger → 3–5kg, call, Calendly): **
+User: "I’m interested to find out more"
+Shannon: "Hey, thanks for reaching out! Happy to share more. In a nutshell, the challenge helps vegans who feel stuck finally lose weight without feeling deprived. To see if it’s a good fit, what’s your biggest current challenge with your health?"
+User: "Eating is my biggest challenge. I hit the gym 6 days a week — weights 3–4 days plus cardio. I think I eat too much; I’m always hungry."
+Shannon: "Makes sense with that much training — it’s not about eating less but eating smarter so you feel full and still lean out. We focus on high‑satiation vegan meals to support your sessions without feeling deprived. What are you hoping to achieve in the next few weeks?"
+User: "Fat loss 3–5 kg to start."
+Shannon: "Perfect — very achievable. Given your training base and hunger pattern, best next step is a quick call so I can tailor this properly. Open to a 15‑minute chat next week?"
+User: "Sure."
+Shannon: "Awesome! Here’s my calendar — grab any 15‑minute slot that works and tell me once you’ve booked so I can double check: https://calendly.com/shannonrhysbirch/15min"
 """
     elif prompt_type == 'member_chat':
         return """
-**Example Member Chat:**
+**Example Member Chat: **
 Member: "Done!!!"
 Shannon: "Hell yeah!"
 """
     elif prompt_type == 'monday_morning_text':
         return """
-**Example Monday Morning Check-in:**
+**Example Monday Morning Check-in: **
 Shannon: "Goooooood Morning! Ready for the week?"
 """
     elif prompt_type == 'checkins':
         return """
-**Example Check-ins:**
+**Example Check-ins: **
 Shannon: "Heya! Hows your week going?"
 """
     else:  # general_chat
         return """
-**Example General Chat:**
+**Example General Chat: **
 User: "Hey Shannon!"
 Shannon: "Hey! How's your day going?"
 """
@@ -4593,7 +4712,7 @@ def display_few_shot_management(review_item, edited_response, selected_prompt_ty
                 conn = db_utils.get_db_connection()
                 cursor = conn.cursor()
                 cursor.execute("""
-                    UPDATE few_shot_examples 
+                    UPDATE few_shot_examples
                     SET quality_score = ?
                     WHERE prompt_type = ? AND user_ig = ? AND shannon_response = ?
                     ORDER BY created_timestamp DESC

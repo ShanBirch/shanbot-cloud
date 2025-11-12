@@ -889,14 +889,23 @@ The suggested meal times are <b>approximations</b> - adjust to fit your lifestyl
 
                 # Optional image generation
                 try:
-                    fields = parse_meal_fields(meals[label])
-                    meal_name = fields.get('title', '')
-                    ing_text = "\n".join(fields.get('ingredients', []))
-                    prep_text = fields.get('preparation', '')
-
-                    # Extract macros for image generation
-                    cal, p, c, f = parse_meal_macros(meals[label])
-                    macros_for_image = f"Calories: {cal}, Protein: {p}g, Carbs: {c}g, Fats: {f}g"
+                    # Handle tuple format (title, ingredients, preparation, macros) directly
+                    meal_data = meals[label]
+                    if isinstance(meal_data, tuple) and len(meal_data) >= 3:
+                        meal_name = meal_data[0]
+                        ing_text = meal_data[1]
+                        prep_text = meal_data[2]
+                        macros_for_image = meal_data[3] if len(
+                            meal_data) > 3 else ""
+                    else:
+                        # Fallback to old parsing method for string format
+                        fields = parse_meal_fields(meals[label])
+                        meal_name = fields.get('title', '')
+                        ing_text = "\n".join(fields.get('ingredients', []))
+                        prep_text = fields.get('preparation', '')
+                        # Extract macros for image generation
+                        cal, p, c, f = parse_meal_macros(meals[label])
+                        macros_for_image = f"Calories: {cal}, Protein: {p}g, Carbs: {c}g, Fats: {f}g"
 
                     img_path = maybe_generate_meal_image(meal_name, ing_text, prep_text, out_dir=os.path.join(
                         OUTPUT_DIR, 'images'), macros_text=macros_for_image)

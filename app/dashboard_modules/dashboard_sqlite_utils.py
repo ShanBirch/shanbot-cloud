@@ -1345,7 +1345,8 @@ def _load_conversations_impl_pg() -> Dict[str, Dict]:
                         WHERE table_name = 'users'
                         """
                     )
-                    available_cols = {r["column_name"] for r in cur.fetchall() or []}
+                    available_cols = {r["column_name"]
+                                      for r in cur.fetchall() or []}
                 except Exception:
                     available_cols = set()
 
@@ -1368,7 +1369,8 @@ def _load_conversations_impl_pg() -> Dict[str, Dict]:
 
                 # Always include ig_username; bail if not present
                 if "ig_username" not in select_cols:
-                    logger.error("Postgres users table missing ig_username; cannot load conversations")
+                    logger.error(
+                        "Postgres users table missing ig_username; cannot load conversations")
                     return {}
 
                 order_clause = "last_interaction_timestamp" if "last_interaction_timestamp" in select_cols else "ig_username"
@@ -1448,12 +1450,14 @@ def _load_conversations_impl_pg() -> Dict[str, Dict]:
                     seen = set()
                     unique_history: List[Dict[str, Any]] = []
                     for msg in history:
-                        key = (msg.get("timestamp"), (msg.get("text") or "")[:50])
+                        key = (msg.get("timestamp"),
+                               (msg.get("text") or "")[:50])
                         if key not in seen:
                             seen.add(key)
                             unique_history.append(msg)
                     try:
-                        unique_history.sort(key=lambda x: x.get("timestamp") or "", reverse=True)
+                        unique_history.sort(key=lambda x: x.get(
+                            "timestamp") or "", reverse=True)
                         unique_history = unique_history[:30]
                         unique_history.reverse()
                     except Exception:
@@ -1469,8 +1473,10 @@ def _load_conversations_impl_pg() -> Dict[str, Dict]:
                             return text_val
                         return {}
 
-                    metrics_json = _safe_parse_json(u.get("metrics_json")) if "metrics_json" in u else {}
-                    journey_stage = _safe_parse_json(u.get("journey_stage")) if "journey_stage" in u else {}
+                    metrics_json = _safe_parse_json(
+                        u.get("metrics_json")) if "metrics_json" in u else {}
+                    journey_stage = _safe_parse_json(
+                        u.get("journey_stage")) if "journey_stage" in u else {}
 
                     conversations[ig_username] = {
                         "metrics": {
@@ -1523,10 +1529,12 @@ def _load_conversations_impl_pg() -> Dict[str, Dict]:
                         "history": unique_history,
                     }
 
-        logger.info(f"Successfully loaded {len(conversations)} users from Postgres (optimized)")
+        logger.info(
+            f"Successfully loaded {len(conversations)} users from Postgres (optimized)")
         return conversations
     except Exception as e:
-        logger.error(f"Error loading conversations from Postgres: {e}", exc_info=True)
+        logger.error(
+            f"Error loading conversations from Postgres: {e}", exc_info=True)
         return {}
 
 
@@ -3044,7 +3052,7 @@ def update_analytics_data(
     Prefers Postgres when configured; falls back to SQLite locally.
     """
     logger.debug(f"Updating analytics for subscriber_id: {subscriber_id}")
-    
+
     # Postgres path
     if USE_POSTGRES:
         try:
@@ -3151,14 +3159,17 @@ def update_analytics_data(
                         INSERT INTO messages (ig_username, subscriber_id, timestamp, message_type, message_text)
                         VALUES (%s, %s, %s, %s, %s)
                         """,
-                        (ig_username, subscriber_id_to_use, timestamp, normalized_type, message_text),
+                        (ig_username, subscriber_id_to_use,
+                         timestamp, normalized_type, message_text),
                     )
 
                     pg_conn.commit()
-                    logger.info(f"Successfully updated analytics in Postgres for {ig_username}")
+                    logger.info(
+                        f"Successfully updated analytics in Postgres for {ig_username}")
                     return True
         except Exception as e:
-            logger.error(f"Database error in update_analytics_data (Postgres) for {subscriber_id}: {e}")
+            logger.error(
+                f"Database error in update_analytics_data (Postgres) for {subscriber_id}: {e}")
             return False
 
     # SQLite fallback
